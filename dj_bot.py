@@ -19,6 +19,7 @@ import argparse
 import csv
 import re
 import sys
+import xml.etree.ElementTree as ET
 from dataclasses import dataclass, field
 
 # ---------------------------------------------------------------------------
@@ -106,7 +107,7 @@ class Track:
     artist: str
     bpm: float
     key: str            # Camelot code, e.g. "8A"
-    energy: int         # 1 (chill) .. 10 (peak)
+    energy: object      # 1 (chill) .. 10 (peak), or None if unknown
     genre: str = ""
     mood: str = ""
     notes: str = ""     # cue points: where vocals start, the drop, the outro...
@@ -116,36 +117,135 @@ class Track:
 
     def summary(self):
         return (f"{self.label()}  [{self.bpm:g} BPM | {self.key} "
-                f"({CAMELOT_NAMES[self.key]}) | energy {self.energy}"
+                f"({CAMELOT_NAMES[self.key]}) | energy {self.energy or '?'}"
                 + (f" | {self.genre}" if self.genre else "") + "]")
 
 
-def load_library(path):
-    """Read tracks from a CSV with columns:
-    title, artist, bpm, key, energy, genre, mood, notes
-    (genre, mood and notes are optional).
+def load_library(path, playlist=None):
+    """Load tracks from any supported file, chosen by extension:
+
+      .csv - this bot's own format (see sample_library.csv)
+      .xml - rekordbox collection (File > Export Collection in xml format)
+      .txt - rekordbox playlist (right-click playlist > Export a playlist to a file)
+
+    `playlist` limits a rekordbox XML to one playlist, e.g. "Made to DJ".
+    Tracks without a usable BPM or key are skipped with a warning.
     """
-    tracks = []
-    with open(path, newline="", encoding="utf-8") as f:
-        for line_no, row in enumerate(csv.DictReader(f), start=2):
-            row = {(k or "").strip().lower(): (v or "").strip() for k, v in row.items()}
-            try:
-                energy = int(row["energy"])
-                if not 1 <= energy <= 10:
-                    raise ValueError("energy must be 1-10")
-                tracks.append(Track(
-                    title=row["title"],
-                    artist=row.get("artist", ""),
-                    bpm=float(row["bpm"]),
-                    key=to_camelot(row["key"]),
-                    energy=energy,
-                    genre=row.get("genre", ""),
-                    mood=row.get("mood", ""),
-                    notes=row.get("notes", ""),
-                ))
-            except (KeyError, ValueError) as e:
-                print(f"Skipping line {line_no} of {path}: {e}", file=sys.stderr)
+    lower = path.lower()
+    if lower.endswith(".xml"):
+        rows = read_rekordbox_xml(path, playlist)
+    elif playlist:
+        raise ValueError("--playlist only works with a rekordbox .xml file")
+    elif lower.endswith(".txt"):
+        rows = read_rekordbox_txt(path)
+    else:
+        with open(path, newline="", encoding="utf-8-sig") as f:
+            rows = list(csv.DictReader(f))
+
+    tracks, skipped = [], []
+    for row in rows:
+        row = {(k or "").strip().lower(): (v or "").strip() for k, v in row.items()}
+        try:
+            tracks.append(row_to_track(row))
+        except (KeyError, ValueError) as e:
+            skipped.append(f"{row.get('artist', '')} - {row.get('title', '?')}: {e}")
+    if skipped:
+        print(f"Skipped {len(skipped)} track(s) with missing/invalid BPM or key "
+              f"(analyze them in rekordbox, then export again):", file=sys.stderr)
+        for line in skipped[:10]:
+            print(f"  {line}", file=sys.stderr)
+        if len(skipped) > 10:
+            print(f"  ...and {len(skipped) - 10} more", file=sys.stderr)
     return tracks
+
+
+def row_to_track(row):
+    """Turn a dict with lower-case column names into a Track."""
+    bpm = float(row["bpm"])
+    if bpm <= 0:
+        raise ValueError("no BPM")
+    energy = None
+    if row.get("energy"):
+        energy = int(row["energy"])
+        if not 1 <= energy <= 10:
+            raise ValueError("energy must be 1-10")
+    return Track(
+        title=row["title"],
+        artist=row.get("artist", ""),
+        bpm=bpm,
+        key=to_camelot(row["key"]),
+        energy=energy,
+        genre=row.get("genre", ""),
+        mood=row.get("mood", ""),
+        notes=row.get("notes", ""),
+    )
+
+
+def guess_energy(comments, stars):
+    """rekordbox has no energy field. Use a Mixed In Key style comment such as
+    "8A - Energy 7" if there is one, otherwise the star rating (1-5 stars ->
+    energy 2-10). Returns "" when neither is set."""
+    m = re.search(r"energy\s*[:\-]?\s*(10|[1-9])\b", comments, re.IGNORECASE)
+    if m:
+        return m.group(1)
+    return str(stars * 2) if stars else ""
+
+
+def read_rekordbox_xml(path, playlist=None):
+    root = ET.parse(path).getroot()
+    by_id, by_location = {}, {}
+    for t in root.iter("TRACK"):
+        if "TrackID" not in t.attrib:
+            continue    # playlist entries are also <TRACK> elements
+        a = t.attrib
+        stars = round(int(a.get("Rating", "0") or 0) / 51)
+        row = {
+            "title": a.get("Name", ""),
+            "artist": a.get("Artist", ""),
+            "bpm": a.get("AverageBpm", ""),
+            "key": a.get("Tonality", ""),
+            "genre": a.get("Genre", ""),
+            "notes": a.get("Comments", ""),
+            "energy": guess_energy(a.get("Comments", ""), stars),
+        }
+        by_id[a["TrackID"]] = row
+        by_location[a.get("Location", "")] = row
+    if not playlist:
+        return list(by_id.values())
+
+    nodes = [n for n in root.iter("NODE") if n.get("Type") == "1"]
+    node = next((n for n in nodes if n.get("Name", "").lower() == playlist.lower()), None)
+    if node is None:
+        names = ", ".join(sorted(n.get("Name", "") for n in nodes)) or "(none)"
+        raise ValueError(f"playlist {playlist!r} not found in {path}. Playlists: {names}")
+    lookup = by_location if node.get("KeyType") == "1" else by_id
+    return [lookup[e.get("Key")] for e in node.iter("TRACK") if e.get("Key") in lookup]
+
+
+# rekordbox playlist .txt column name -> our column name
+TXT_COLUMNS = {"track title": "title", "title": "title", "artist": "artist",
+               "bpm": "bpm", "key": "key", "genre": "genre",
+               "comments": "notes", "rating": "rating"}
+
+
+def read_rekordbox_txt(path):
+    with open(path, "rb") as f:
+        raw = f.read()
+    # rekordbox writes these as UTF-16; fall back to UTF-8 for other tools.
+    text = raw.decode("utf-16") if raw[:2] in (b"\xff\xfe", b"\xfe\xff") else raw.decode("utf-8-sig")
+    rows = []
+    for rec in csv.DictReader(text.splitlines(), delimiter="\t"):
+        row = {}
+        for k, v in rec.items():
+            name = TXT_COLUMNS.get((k or "").strip().lower())
+            if name:
+                row[name] = (v or "").strip()
+        rating = row.pop("rating", "")
+        # The rating may be exported as a number ("3") or as stars ("***").
+        stars = int(rating) if rating.isdigit() else sum(rating.count(c) for c in "*★")
+        row["energy"] = guess_energy(row.get("notes", ""), min(stars, 5))
+        rows.append(row)
+    return rows
 
 
 # ---------------------------------------------------------------------------
@@ -179,7 +279,10 @@ def bpm_match(current_bpm, next_bpm):
 
 
 def energy_match(current, nxt, direction="steady"):
-    """Score an energy change. `direction` is 'up', 'down' or 'steady'."""
+    """Score an energy change. `direction` is 'up', 'down' or 'steady'.
+    If either energy is unknown, give a neutral score instead of rejecting."""
+    if current is None or nxt is None:
+        return 0.7
     change = nxt - current
     if abs(change) > 2:
         return 0.0
@@ -223,9 +326,12 @@ def score_transition(current, nxt, direction="steady"):
     if tempo_note:
         tempo += f" ({tempo_note})"
     tempo += f" -> set pitch {pitch:+.1f}%"
-    change = nxt.energy - current.energy
-    energy = ("energy steady" if change == 0
-              else f"energy {'up' if change > 0 else 'down'} {abs(change)}")
+    if current.energy is None or nxt.energy is None:
+        energy = "energy unknown - use your ears"
+    else:
+        change = nxt.energy - current.energy
+        energy = ("energy steady" if change == 0
+                  else f"energy {'up' if change > 0 else 'down'} {abs(change)}")
     reasons = [tempo, f"key {current.key} -> {nxt.key}: {k_label}", energy]
     if vibe:
         reasons.append("same " + " & ".join(
@@ -390,7 +496,10 @@ def main(argv=None):
     parser = argparse.ArgumentParser(
         description="DJ Mix Bot: suggests which song to mix next by BPM, key and energy.")
     parser.add_argument("-l", "--library", default="sample_library.csv",
-                        help="CSV file of your tracks (default: sample_library.csv)")
+                        help="your tracks: a .csv, a rekordbox collection .xml, or a "
+                             "rekordbox playlist .txt (default: sample_library.csv)")
+    parser.add_argument("-p", "--playlist",
+                        help='only use this playlist from a rekordbox .xml, e.g. "Made to DJ"')
     sub = parser.add_subparsers(dest="command")
 
     sub.add_parser("list", help="show every track in the library")
@@ -413,14 +522,17 @@ def main(argv=None):
 
     args = parser.parse_args(argv)
     try:
-        library = load_library(args.library)
+        library = load_library(args.library, args.playlist)
     except FileNotFoundError:
         parser.error(f"library file not found: {args.library}")
+    except (ValueError, ET.ParseError) as e:
+        parser.error(str(e))
     if not library:
         parser.error(f"no valid tracks in {args.library}")
 
     if args.command is None:
-        args = parser.parse_args(["-l", args.library, "live"])
+        args = parser.parse_args(["-l", args.library, "live"]
+                                 + (["-p", args.playlist] if args.playlist else []))
     handlers = {"list": cmd_list, "next": cmd_next, "set": cmd_set,
                 "live": cmd_interactive}
     try:

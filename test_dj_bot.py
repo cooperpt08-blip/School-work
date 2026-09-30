@@ -1,3 +1,5 @@
+import os
+import tempfile
 import unittest
 
 import dj_bot
@@ -81,6 +83,77 @@ class TestSuggestions(unittest.TestCase):
         self.assertIs(dj_bot.find_track("clash", self.lib), self.clash)
         with self.assertRaises(LookupError):
             dj_bot.find_track("nothing here", self.lib)
+
+
+REKORDBOX_XML = """<?xml version="1.0" encoding="UTF-8"?>
+<DJ_PLAYLISTS Version="1.0.0">
+  <PRODUCT Name="rekordbox" Version="7.0.0" Company="AlphaTheta"/>
+  <COLLECTION Entries="4">
+    <TRACK TrackID="11" Name="Song One" Artist="Artist A" Genre="House"
+           AverageBpm="124.00" Tonality="Am" Rating="153" Comments="" Location="file://localhost/a.mp3"/>
+    <TRACK TrackID="12" Name="Song Two" Artist="Artist B" Genre="House"
+           AverageBpm="125.00" Tonality="9A" Rating="0" Comments="9A - Energy 7" Location="file://localhost/b.mp3"/>
+    <TRACK TrackID="13" Name="Not Analyzed" Artist="Artist C"
+           AverageBpm="0.00" Tonality="" Rating="0" Location="file://localhost/c.mp3"/>
+    <TRACK TrackID="14" Name="Other List" Artist="Artist D"
+           AverageBpm="128.00" Tonality="C" Rating="0" Location="file://localhost/d.mp3"/>
+  </COLLECTION>
+  <PLAYLISTS>
+    <NODE Type="0" Name="ROOT" Count="2">
+      <NODE Name="Made to DJ" Type="1" KeyType="0" Entries="3">
+        <TRACK Key="11"/><TRACK Key="12"/><TRACK Key="13"/>
+      </NODE>
+      <NODE Name="Other" Type="1" KeyType="1" Entries="1">
+        <TRACK Key="file://localhost/d.mp3"/>
+      </NODE>
+    </NODE>
+  </PLAYLISTS>
+</DJ_PLAYLISTS>
+"""
+
+REKORDBOX_TXT = ("#\tTrack Title\tArtist\tGenre\tBPM\tRating\tKey\tComments\n"
+                 "1\tSong One\tArtist A\tHouse\t124.00\t***\tAm\t\n"
+                 "2\tSong Two\tArtist B\tHouse\t125.00\t\t9A\tEnergy 7\n")
+
+
+class TestRekordboxImport(unittest.TestCase):
+    def write(self, name, data, encoding="utf-8"):
+        path = os.path.join(self.dir.name, name)
+        with open(path, "w", encoding=encoding) as f:
+            f.write(data)
+        return path
+
+    def setUp(self):
+        self.dir = tempfile.TemporaryDirectory()
+        self.addCleanup(self.dir.cleanup)
+
+    def test_xml_playlist(self):
+        path = self.write("rb.xml", REKORDBOX_XML)
+        tracks = dj_bot.load_library(path, "made to dj")
+        self.assertEqual([t.title for t in tracks], ["Song One", "Song Two"])  # unanalyzed skipped
+        self.assertEqual(tracks[0].key, "8A")
+        self.assertEqual(tracks[0].energy, 6)    # 3 stars
+        self.assertEqual(tracks[1].energy, 7)    # from comment
+
+    def test_xml_whole_collection_and_location_keys(self):
+        path = self.write("rb.xml", REKORDBOX_XML)
+        self.assertEqual(len(dj_bot.load_library(path)), 3)
+        self.assertEqual([t.title for t in dj_bot.load_library(path, "Other")], ["Other List"])
+        with self.assertRaises(ValueError):
+            dj_bot.load_library(path, "Nope")
+
+    def test_txt_utf16(self):
+        path = self.write("rb.txt", REKORDBOX_TXT, encoding="utf-16")
+        tracks = dj_bot.load_library(path)
+        self.assertEqual([(t.title, t.key, t.energy) for t in tracks],
+                         [("Song One", "8A", 6), ("Song Two", "9A", 7)])
+
+    def test_unknown_energy_still_suggested(self):
+        a = t("A", 124, "8A", None)
+        b = t("B", 124, "8A", 9)
+        s = dj_bot.score_transition(a, b)
+        self.assertIsNotNone(s)
+        self.assertIn("energy unknown - use your ears", s.reasons)
 
 
 if __name__ == "__main__":

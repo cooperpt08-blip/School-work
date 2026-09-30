@@ -32,6 +32,27 @@ Sunrise Groove,DJ Example,120,8A,4,house,chill,Vocals at 0:32; outro starts 5:10
 
 Most DJ software (Rekordbox, Serato, Traktor, Mixed In Key) can detect BPM and key for you.
 
+## Using your rekordbox songs (including Spotify "Made to DJ")
+
+The bot can read rekordbox's own exports, so it uses the BPM and key rekordbox already worked out.
+
+**Option A: one playlist as a text file (simplest)**
+1. In rekordbox, right-click the playlist (e.g. **Made to DJ**) → **Export a playlist to a file** → save as `.txt`.
+2. Run: `python3 dj_bot.py -l "Made to DJ.txt"`
+
+**Option B: your whole collection as XML**
+1. In rekordbox: **File → Export Collection in xml format**.
+2. Run: `python3 dj_bot.py -l rekordbox.xml -p "Made to DJ"` (leave out `-p` to use every song).
+   If the playlist name is wrong, the bot lists the playlists it found.
+
+Streaming tracks rekordbox hasn't analyzed yet have no BPM/key, so the bot skips them and prints
+which ones. Load or analyze them in rekordbox, then export again. For a Spotify playlist, it may help
+to add the songs to a playlist of your own in rekordbox first.
+
+**Energy:** rekordbox has no energy field. The bot uses a comment like `Energy 7` (what Mixed In Key
+writes), otherwise your star rating (1–5 stars → energy 2–10). Songs with neither show
+`energy ?` and are still suggested, and the bot just can't check the energy flow for them.
+
 ## Usage
 
 ```bash
