@@ -1,0 +1,7 @@
+# T = polynomial ʟPE at X, E = sum |c|*|X|^k (size for tolerances)
+0→T
+0→E
+For(θ,dim(ʟPE),1,⁻1)
+T*X+ʟPE(θ)→T
+E*abs(X)+abs(ʟPE(θ))→E
+End

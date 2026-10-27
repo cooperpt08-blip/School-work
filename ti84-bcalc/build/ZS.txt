@@ -1,0 +1,5 @@
+{0,1}→L₅
+{0,θ}→L₆
+LinReg(ax+b) L₅,L₆,Y₀
+Equ►String(Y₀,Str9)
+sub(Str9,1,length(Str9)-3)→Str9

@@ -1,0 +1,6 @@
+String►Equ(Str8,Y₁)
+String►Equ("(Y₁(X-2H)-8Y₁(X-H)+8Y₁(X+H)-Y₁(X+2H))/(12H)",Y₂)
+String►Equ("(16(Y₁(X+G)+Y₁(X-G))-Y₁(X+2G)-Y₁(X-2G)-30Y₁)/(12G²)",Y₃)
+FnOff 
+.001→H
+.01→G

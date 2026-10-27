@@ -1,0 +1,13 @@
+# bisection of Y₄ on [A,B], T = sign of Y₄ at A  -> root D
+a+b𝑖
+For(F,1,32)
+(A+B)/2→X
+If real(Y₄)*T>0
+Then
+X→A
+Else
+X→B
+End
+End
+(A+B)/2→D
+Real

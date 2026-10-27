@@ -1,0 +1,14 @@
+# f, f', f'' at x=A from Y₁,Y₂,Y₃ -> F,D,S
+# U: 0 ok, 1 or 3 f undefined, 2 derivative undefined (edge of domain)
+.001→H
+.01→G
+a+b𝑖
+A→X
+Y₁→F
+Y₂→D
+Y₃→S
+(imag(F)≠0)+2*(imag(D)≠0 or imag(S)≠0)→U
+real(F)→F
+real(D)→D
+real(S)→S
+Real

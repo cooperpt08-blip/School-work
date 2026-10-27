@@ -1,0 +1,13 @@
+# print Str0 at row W (wraps every 16 chars), pages when the screen is full
+If W<1
+1→W
+int((length(Str0)+15)/16)→V
+If W+V>8
+Then
+Output(8,1,"    [ENTER] MORE")
+Pause
+ClrHome
+1→W
+End
+Output(W,1,Str0)
+W+V→W

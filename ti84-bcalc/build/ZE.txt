@@ -1,0 +1,4 @@
+Output(8,1,"    [ENTER] DONE")
+Pause 
+ClrHome
+1→W

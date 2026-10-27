@@ -1,0 +1,19 @@
+"("→Str0
+If U
+Then
+Str0+"-INF"→Str0
+Else
+round(A,4)→θ
+prgmZS
+Str0+Str9→Str0
+End
+Str0+","→Str0
+If F
+Then
+Str0+"INF"→Str0
+Else
+round(B,4)→θ
+prgmZS
+Str0+Str9→Str0
+End
+Str0+")"→Str0

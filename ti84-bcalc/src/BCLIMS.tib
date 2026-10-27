@@ -1,0 +1,29 @@
+# limit of Y₁ as x->A.  N: 0 both sides, 1 right only, -1 left only
+# out C,L (as BCLIM1) and ʟLS={C right,L right,C left,L left}
+0→M
+{4,0,4,0}→ʟLS
+If N≥0
+Then
+1→D
+prgmBCLIM1
+C→ʟLS(1)
+L→ʟLS(2)
+End
+If N≤0
+Then
+⁻1→D
+prgmBCLIM1
+C→ʟLS(3)
+L→ʟLS(4)
+End
+If N=0
+Then
+2→C
+ʟLS(2)→L
+If ʟLS(1)=0 and ʟLS(3)=0 and abs(ʟLS(2)-ʟLS(4))≤1ᴇ⁻3*(1+abs(ʟLS(2)))
+0→C
+If ʟLS(1)=ʟLS(3) and abs(ʟLS(1))=1
+ʟLS(1)→C
+If ʟLS(1)=4 or ʟLS(3)=4
+4→C
+End

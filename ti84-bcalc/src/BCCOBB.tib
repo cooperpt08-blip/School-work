@@ -1,0 +1,95 @@
+# COBB-DOUGLAS  P = C*L^A*K^B   (K is stored in J)
+Lbl M
+Menu("COBB-DOUGLAS","P=C*L^A*K^B",1,"CHANGE L OR K",3,"BACK",Q)
+Lbl 1
+ClrHome
+Disp "P=C*L^A*K^B"
+Input "COEF C=",C
+Input "LABOR EXP A=",A
+Input "CAPITAL EXP B=",B
+Input "LABOR L=",L
+Input "CAPITAL K=",J
+C*L^A*J^B→F
+A*F/L→D
+B*F/J→E
+ClrHome
+1→W
+"P="→Str0
+F→θ
+prgmBCPV
+"MPL=PL~"→Str0
+D→θ
+prgmBCPV
+"MPK=PK~"→Str0
+E→θ
+prgmBCPV
+round(A*C,6)→θ
+prgmBCSTR
+"PL="+Str9+"L^"→Str0
+round(A-1,6)→θ
+prgmBCSTR
+Str0+Str9+"K^"→Str0
+B→θ
+prgmBCSTR
+Str0+Str9→Str0
+prgmBCPR
+round(B*C,6)→θ
+prgmBCSTR
+"PK="+Str9+"L^"→Str0
+A→θ
+prgmBCSTR
+Str0+Str9+"K^"→Str0
+round(B-1,6)→θ
+prgmBCSTR
+Str0+Str9→Str0
+prgmBCPR
+"+1 LABOR:P UP~"→Str0
+D→θ
+prgmBCPV
+"+1 CAPITAL:UP~"→Str0
+E→θ
+prgmBCPV
+"A+B="→Str0
+A+B→θ
+prgmBCPV
+"CONSTANT RTS"→Str0
+If A+B>1
+"INCREASING RTS"→Str0
+If A+B<1
+"DECREASING RTS"→Str0
+prgmBCPR
+"MPL/MPK="→Str0
+D/E→θ
+prgmBCPV
+"1% MORE L:P UP%"→Str0
+A→θ
+prgmBCPV
+"1% MORE K:P UP%"→Str0
+B→θ
+prgmBCPV
+prgmBCEND
+Goto M
+Lbl 3
+ClrHome
+Disp "USES C,A,B,L,K","FROM OPTION 1"
+Input "CHANGE IN L=",S
+Input "CHANGE IN K=",T
+C*L^A*J^B→F
+A*F/L→D
+B*F/J→E
+ClrHome
+1→W
+"APPROX DP~"→Str0
+D*S+E*T→θ
+prgmBCPV
+"(PL*DL+PK*DK)"→Str0
+prgmBCPR
+"EXACT DP="→Str0
+C*(L+S)^A*(J+T)^B-F→θ
+prgmBCPV
+"NEW P="→Str0
+C*(L+S)^A*(J+T)^B→θ
+prgmBCPV
+prgmBCEND
+Goto M
+Lbl Q

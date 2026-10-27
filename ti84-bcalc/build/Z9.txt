@@ -1,0 +1,17 @@
+"=END BEHAVIOR="→Str0
+prgmZP
+For(R,1,2)
+3-2R→M
+0→A
+1→D
+prgmZ1
+If M=1
+"X->+INF: F"→Str0
+If M=⁻1
+"X->-INF: F"→Str0
+If C=0 and M=1
+"X->+INF: HA Y"→Str0
+If C=0 and M=⁻1
+"X->-INF: HA Y"→Str0
+prgmZL
+End

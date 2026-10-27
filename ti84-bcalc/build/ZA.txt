@@ -1,0 +1,7 @@
+If abs(D-round(D,4))<3ᴇ⁻6
+round(D,4)→D
+If sum((abs(ʟEX-D)<S/50)*(ʟET=B)+(abs(ʟEX-D)<S*(B≥30)+S/50)*(ʟET≥20)*(ʟET≤23))=0
+Then
+augment(ʟEX,{D})→ʟEX
+augment(ʟET,{B})→ʟET
+End

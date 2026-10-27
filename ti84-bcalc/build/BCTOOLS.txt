@@ -1,0 +1,142 @@
+Lbl M
+Menu("QUICK TOOLS","QUADRATIC EQN",1,"POLY ROOTS",2,"SOLVE F(X)=C",3,"DEC->FRAC/ROOT",5,"BACK",Q)
+Lbl 1
+ClrHome
+Disp "AX²+BX+C=0"
+Input "A=",A
+Input "B=",B
+Input "C=",C
+B²-4A*C→D
+ClrHome
+1→W
+"DISCRIMINANT="→Str0
+D→θ
+prgmZV
+If A=0
+Then
+"A=0: LINEAR"→Str0
+prgmZP
+"X="→Str0
+⁻C/B→θ
+prgmZV
+Else
+If D<0
+Then
+"NO REAL ROOTS"→Str0
+prgmZP
+Else
+⁻B→θ
+prgmZS
+"X=("+Str9+"+-√("→Str0
+D→θ
+prgmZS
+Str0+Str9+"))/"→Str0
+2A→θ
+prgmZS
+Str0+Str9→Str0
+prgmZP
+"X1="→Str0
+(⁻B-√(D))/(2A)→θ
+prgmZV
+"X2="→Str0
+(⁻B+√(D))/(2A)→θ
+prgmZV
+End
+"VERTEX "→Str0
+⁻D/(4A)→T
+⁻B/(2A)→A
+T→B
+prgmZX
+End
+prgmZE
+Goto M
+Lbl 2
+ClrHome
+Disp "TYPE POLYNOMIAL","IN X (DEG<=8)"
+Input "P(X)=",Str8
+prgmZN
+If U
+Goto M
+ʟPC→ʟPA
+prgmZ0
+prgmZR
+ClrHome
+1→W
+"=REAL ROOTS="→Str0
+prgmZP
+If ʟRT(1)=0
+Then
+"NONE"→Str0
+prgmZP
+End
+For(I,2,ʟRT(1)+1)
+"X="→Str0
+ʟRT(I)→θ
+prgmZV
+End
+prgmZE
+Goto M
+Lbl 3
+prgmZI
+ClrHome
+Input "SOLVE F(X)=",C
+Disp "X-WINDOW TO SCAN"
+Input "LEFT X=",L
+Input "RIGHT X=",R
+{C}→ʟTG
+"("+Str1+")-ʟTG(1)"→Str8
+prgmZY
+ClrHome
+Disp "WORKING..."
+{L,R}→ʟEX
+{0,0}→ʟET
+0→E
+String►Equ("Y₁",Y₄)
+0→C
+64→N
+prgmZZ
+SortA(ʟEX,ʟET)
+ClrHome
+1→W
+"=SOLUTIONS="→Str0
+prgmZP
+0→J
+For(I,1,dim(ʟEX))
+If ʟET(I)=10
+Then
+J+1→J
+"X="→Str0
+ʟEX(I)→θ
+prgmZV
+End
+End
+If J=0
+Then
+"NONE IN WINDOW"→Str0
+prgmZP
+End
+Str1→Str8
+prgmZY
+prgmZE
+Goto M
+Lbl 5
+ClrHome
+Input "DECIMAL=",A
+ClrHome
+1→W
+"VALUE="→Str0
+A→θ
+prgmZV
+A→θ
+prgmZH
+If Q=0
+Then
+"NO SIMPLE FORM"→Str0
+prgmZP
+Else
+"="+Str8→Str0
+prgmZP
+End
+prgmZE
+Goto M
+Lbl Q

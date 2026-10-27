@@ -1,0 +1,107 @@
+# OPTIMIZATION module
+Lbl M
+Menu("OPTIMIZATION","ABS MAX/MIN F",1,"MAX PROFIT/REV",2,"MIN AVG COST",4,"TEMPLATES...",5,"BACK",Q)
+Lbl 1
+prgmBCINF
+ClrHome
+Disp "INTERVAL [L,R]"
+Input "L=",L
+Input "R=",R
+Menu("INCLUDE ENDS?","YES [L,R]",A,"NO (L,R)",B)
+Lbl A
+1→J
+Goto C
+Lbl B
+0→J
+Lbl C
+Str1→Str8
+prgmBCEXT
+prgmBCEND
+Goto M
+Lbl 2
+Menu("REVENUE IS","R(X) FORMULA",D,"X*PRICE P(X)",E)
+Lbl D
+ClrHome
+Input "R(X)=",Str6
+0→N
+Goto F
+Lbl E
+ClrHome
+Input "PRICE P(X)=",Str7
+"X*("+Str7+")"→Str6
+1→N
+Lbl F
+Disp "C(X)=0 TO MAX","REVENUE"
+Input "C(X)=",Str5
+Input "MIN X=",L
+Input "MAX X=",R
+"("+Str6+")-("+Str5+")"→Str8
+1→J
+{N}→ʟTG
+prgmBCEXT
+ʟOX(1)→A
+"=AT BEST X="→Str0
+prgmBCPR
+Str6→Str8
+prgmBCSETY
+prgmBCFD
+"R="→Str0
+F→θ
+prgmBCPV
+"MR~"→Str0
+D→θ
+prgmBCPV
+If ʟTG(1) and A≠0
+Then
+"PRICE="→Str0
+F/A→θ
+prgmBCPV
+End
+Str5→Str8
+prgmBCSETY
+prgmBCFD
+"C="→Str0
+F→θ
+prgmBCPV
+"MC~"→Str0
+D→θ
+prgmBCPV
+If fPart(A)≠0
+Then
+"("+Str6+")-("+Str5+")"→Str8
+prgmBCSETY
+"WHOLE UNITS:"→Str0
+prgmBCPR
+For(T,int(A),int(A)+1)
+T→θ
+prgmBCSTR
+"F("+Str9+")="→Str0
+a+b𝑖
+real(Y₁(T))→θ
+Real
+prgmBCPV
+End
+End
+prgmBCEND
+Goto M
+Lbl 4
+ClrHome
+Input "C(X)=",Str5
+Disp "X RANGE (X>0)"
+Input "MIN X=",L
+Input "MAX X=",R
+If L≤0
+R/1000→L
+"("+Str5+")/X"→Str8
+1→J
+prgmBCEXT
+"AT MIN AVG COST,"→Str0
+prgmBCPR
+"AVG COST = MC"→Str0
+prgmBCPR
+prgmBCEND
+Goto M
+Lbl 5
+prgmBCOPT2
+Goto M
+Lbl Q

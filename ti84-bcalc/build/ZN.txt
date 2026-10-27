@@ -1,0 +1,53 @@
+0→U
+String►Equ(Str8,Y₅)
+a+b𝑖
+seq(Y₅,X,0,10)→ʟPB
+Real
+If max(imag(ʟPB)≠0)
+Then
+1→U
+Else
+real(ʟPB)→ʟPB
+ʟPB→L₄
+{L₄(1)}→ʟPA
+For(J,1,10)
+ΔList(L₄)→L₄
+augment(ʟPA,{L₄(1)})→ʟPA
+End
+1ᴇ⁻9*max(1,max(abs(ʟPB)))→T
+0→N
+For(J,1,11)
+If abs(ʟPA(J))>T
+J-1→N
+End
+If N>8
+1→U
+End
+If U=0
+Then
+{1}→L₄
+{ʟPA(1)}→ʟPC
+For(J,1,N)
+augment({0},L₄)-(J-1)*augment(L₄,{0})→L₄
+J+1→dim(ʟPC)
+ʟPC+ʟPA(J+1)/J!*L₄→ʟPC
+End
+round(ʟPC,9)→ʟPC
+a+b𝑖
+For(J,1,2)
+.5371-2.8558*(J=2)→X
+0→T
+For(I,dim(ʟPC),1,⁻1)
+T*X+ʟPC(I)→T
+End
+If abs(Y₅-T)>1ᴇ⁻6*(1+abs(T))
+1→U
+End
+Real
+End
+If U
+Then
+ClrHome
+Disp "NOT A POLYNOMIAL","(DEGREE<=8):",Str8
+Pause 
+End

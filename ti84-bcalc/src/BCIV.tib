@@ -1,0 +1,20 @@
+# interval string "(A,B)" -> Str0.  U=1: left end is -INF, F=1: right end is INF
+"("→Str0
+If U
+Then
+Str0+"-INF"→Str0
+Else
+round(A,4)→θ
+prgmBCSTR
+Str0+Str9→Str0
+End
+Str0+","→Str0
+If F
+Then
+Str0+"INF"→Str0
+Else
+round(B,4)→θ
+prgmBCSTR
+Str0+Str9→Str0
+End
+Str0+")"→Str0

@@ -1,0 +1,155 @@
+Lbl M
+Menu("GRAPH ANALYZER","POLY/RATIONAL",1,"ANY F(X)",2,"BACK",Q)
+Lbl 1
+ClrHome
+Disp "F=N(X)/D(X)","N,D POLYNOMIALS","D=1 IF POLY"
+Input "N(X)=",Str5
+Input "D(X)=",Str6
+"("+Str5+")/("+Str6+")"→Str1
+1309→K
+ClrHome
+Disp "WORKING..."
+prgmZ7
+If U
+Goto M
+Str1→Str8
+prgmZY
+{0}→ʟEX
+{0}→ʟET
+.04→S
+ʟD→ʟPA
+prgmZR
+ʟRT→ʟRD
+For(I,2,ʟRD(1)+1)
+ʟRD(I)→D
+D→X
+ʟN→ʟPE
+prgmZ6
+If abs(T)≤1ᴇ⁻8*E
+Then
+prgmZU
+21-F→B
+Else
+20→B
+End
+prgmZA
+End
+ʟN→ʟPA
+prgmZR
+For(I,2,ʟRT(1)+1)
+ʟRT(I)→D
+10→B
+prgmZA
+End
+ʟP→ʟPA
+prgmZR
+For(I,2,ʟRT(1)+1)
+ʟRT(I)→D
+30→B
+prgmZA
+End
+ʟQ→ʟPA
+prgmZR
+For(I,2,ʟRT(1)+1)
+ʟRT(I)→D
+40→B
+prgmZA
+End
+max(abs(ʟEX))+2→R
+⁻R→L
+L→ʟEX(1)
+augment(ʟEX,{R})→ʟEX
+augment(ʟET,{0})→ʟET
+prgmZ8
+"=ASYMPTOTE/END="→Str0
+prgmZP
+dim(ʟN)-1→N
+dim(ʟD)-1→M
+ʟN(N+1)/ʟD(M+1)→T
+If M≥1 and N<M
+Then
+"HA: Y=0"→Str0
+prgmZP
+End
+If M≥1 and N=M
+Then
+"HA: Y="→Str0
+T→θ
+prgmZV
+End
+If M≥1 and N=M+1
+Then
+"SLANT Y=MX+B, M="→Str0
+T→θ
+prgmZV
+"B="→Str0
+(ʟN(N)-T*ʟD(M))/ʟD(M+1)→θ
+prgmZV
+a+b𝑖
+abs(Y₁(.5371)-T*.5371-θ)<1ᴇ⁻8→E
+Real
+If E
+Then
+"(F IS THIS LINE"→Str0
+prgmZP
+"EXCEPT HOLES)"→Str0
+prgmZP
+End
+End
+If M=0 and N=0
+Then
+"CONSTANT FN"→Str0
+prgmZP
+End
+If N>M+1 or (M=0 and N≥1)
+Then
+"NO HA. AS X->INF"→Str0
+prgmZP
+"F->-INF"→Str0
+If T>0
+"F->+INF"→Str0
+prgmZP
+"AS X->-INF"→Str0
+prgmZP
+"F->-INF"→Str0
+If T*(⁻1)^(N-M)>0
+"F->+INF"→Str0
+prgmZP
+End
+prgmZE
+Goto M
+Lbl 2
+prgmZI
+ClrHome
+Disp "X-WINDOW TO SCAN","EX: -10 TO 10"
+Input "LEFT X=",L
+Input "RIGHT X=",R
+If R≤L
+L+20→R
+ClrHome
+Disp "WORKING...","(UP TO ~1 MIN)"
+{L,R}→ʟEX
+{0,0}→ʟET
+0→E
+String►Equ("Y₁",Y₄)
+0→C
+64→N
+prgmZZ
+1ᴇ⁻8*(1+M)→E
+String►Equ("Y₂",Y₄)
+1→C
+64→N
+prgmZZ
+String►Equ("Y₃",Y₄)
+2→C
+64→N
+prgmZZ
+prgmZ8
+prgmZ9
+"(-INF/INF = EDGE"→Str0
+prgmZP
+"OF YOUR WINDOW)"→Str0
+prgmZP
+prgmZE
+Goto M
+Lbl Q

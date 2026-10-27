@@ -1,0 +1,94 @@
+Lbl M
+Menu("COBB-DOUGLAS","P=C*L^A*K^B",1,"CHANGE L OR K",3,"BACK",Q)
+Lbl 1
+ClrHome
+Disp "P=C*L^A*K^B"
+Input "COEF C=",C
+Input "LABOR EXP A=",A
+Input "CAPITAL EXP B=",B
+Input "LABOR L=",L
+Input "CAPITAL K=",J
+C*L^A*J^B→F
+A*F/L→D
+B*F/J→E
+ClrHome
+1→W
+"P="→Str0
+F→θ
+prgmZV
+"MPL=PL~"→Str0
+D→θ
+prgmZV
+"MPK=PK~"→Str0
+E→θ
+prgmZV
+round(A*C,6)→θ
+prgmZS
+"PL="+Str9+"L^"→Str0
+round(A-1,6)→θ
+prgmZS
+Str0+Str9+"K^"→Str0
+B→θ
+prgmZS
+Str0+Str9→Str0
+prgmZP
+round(B*C,6)→θ
+prgmZS
+"PK="+Str9+"L^"→Str0
+A→θ
+prgmZS
+Str0+Str9+"K^"→Str0
+round(B-1,6)→θ
+prgmZS
+Str0+Str9→Str0
+prgmZP
+"+1 LABOR:P UP~"→Str0
+D→θ
+prgmZV
+"+1 CAPITAL:UP~"→Str0
+E→θ
+prgmZV
+"A+B="→Str0
+A+B→θ
+prgmZV
+"CONSTANT RTS"→Str0
+If A+B>1
+"INCREASING RTS"→Str0
+If A+B<1
+"DECREASING RTS"→Str0
+prgmZP
+"MPL/MPK="→Str0
+D/E→θ
+prgmZV
+"1% MORE L:P UP%"→Str0
+A→θ
+prgmZV
+"1% MORE K:P UP%"→Str0
+B→θ
+prgmZV
+prgmZE
+Goto M
+Lbl 3
+ClrHome
+Disp "USES C,A,B,L,K","FROM OPTION 1"
+Input "CHANGE IN L=",S
+Input "CHANGE IN K=",T
+C*L^A*J^B→F
+A*F/L→D
+B*F/J→E
+ClrHome
+1→W
+"APPROX DP~"→Str0
+D*S+E*T→θ
+prgmZV
+"(PL*DL+PK*DK)"→Str0
+prgmZP
+"EXACT DP="→Str0
+C*(L+S)^A*(J+T)^B-F→θ
+prgmZV
+"NEW P="→Str0
+C*(L+S)^A*(J+T)^B→θ
+prgmZV
+prgmZE
+Goto M
+Lbl Q

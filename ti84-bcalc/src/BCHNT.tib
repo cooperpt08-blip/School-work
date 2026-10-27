@@ -1,0 +1,36 @@
+# exact-form hint for θ -> Str8.  Q=1 fraction, Q=2 square root, Q=0 none
+{θ}→ʟPV
+prgmBCFRC
+If Q
+Then
+P→θ
+prgmBCSTR
+Str9→Str8
+If Q>1
+Then
+Q→θ
+prgmBCSTR
+Str8+"/"+Str9→Str8
+End
+1→Q
+Else
+ʟPV(1)²→θ
+prgmBCFRC
+If Q
+Then
+P→θ
+prgmBCSTR
+"√"+"("+Str9→Str8
+If Q>1
+Then
+Q→θ
+prgmBCSTR
+Str8+"/"+Str9→Str8
+End
+Str8+")"→Str8
+If ʟPV(1)<0
+"-"+Str8→Str8
+2→Q
+End
+End
+ʟPV(1)→θ

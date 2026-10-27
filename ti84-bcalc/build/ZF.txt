@@ -1,0 +1,28 @@
+abs(θ)→Z
+{0,1,1,0}→L₅
+1→O
+0→Q
+If abs(θ)≥1ᴇ4
+0→O
+While O
+int(Z)→P
+{L₅(2),P*L₅(2)+L₅(1),L₅(4),P*L₅(4)+L₅(3)}→L₅
+abs(L₅(2)/L₅(4)-abs(θ))→P
+0→O
+If (L₅(4)≤1000 and P≤1ᴇ⁻9) or (L₅(4)≤100 and P≤1ᴇ⁻7)
+Then
+L₅(4)→Q
+Else
+If L₅(4)≤1000 and fPart(Z)≠0
+Then
+1/fPart(Z)→Z
+1→O
+End
+End
+End
+If Q
+Then
+L₅(2)→P
+If θ<0
+⁻P→P
+End

@@ -1,0 +1,34 @@
+" "→Str7
+For(I,dim(ʟPA),1,⁻1)
+ʟPA(I)→θ
+If θ≠0
+Then
+If θ<0
+Then
+Str7+"-"→Str7
+Else
+If length(Str7)>1
+Str7+"+"→Str7
+End
+round(abs(θ),6)→θ
+If θ≠1 or I=1
+Then
+prgmZS
+Str7+Str9→Str7
+End
+If I≥2
+Str7+"X"→Str7
+If I≥3
+Then
+I-1→θ
+prgmZS
+Str7+"^"+Str9→Str7
+End
+End
+End
+If length(Str7)=1
+Then
+"0"→Str7
+Else
+sub(Str7,2,length(Str7)-1)→Str7
+End

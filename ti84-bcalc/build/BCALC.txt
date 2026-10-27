@@ -1,0 +1,49 @@
+ClrHome
+Real
+Float
+Func
+.001→H
+.01→G
+1→W
+Lbl M
+Menu("BUS CALC EXAM 2","DERIVATIVES",1,"PARTIAL DERIVS",2,"GRAPH ANALYZER",3,"LIMITS/L'HOP",4,"MARGINAL/RATES",5,"OPTIMIZATION",6,"MORE...",7)
+Lbl 1
+prgmBCDERIV
+Goto M
+Lbl 2
+prgmBCPART
+Goto M
+Lbl 3
+prgmBCGRAPH
+Goto M
+Lbl 4
+prgmBCLIMIT
+Goto M
+Lbl 5
+prgmBCMARG
+Goto M
+Lbl 6
+prgmBCOPT
+Goto M
+Lbl 7
+Menu("MORE","DIM. RETURNS",8,"COBB-DOUGLAS",9,"SIGN CHARTS",A,"QUICK TOOLS",B,"FORMULA SHEETS",C,"MAIN MENU",M,"QUIT",Q)
+Lbl 8
+prgmBCDIMIN
+Goto M
+Lbl 9
+prgmBCCOBB
+Goto M
+Lbl A
+prgmBCSIGN
+Goto M
+Lbl B
+prgmBCTOOLS
+Goto M
+Lbl C
+prgmBCFORM
+Goto M
+Lbl Q
+Real
+FnOff 
+ClrHome
+Disp "GOOD LUCK!"

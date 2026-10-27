@@ -1,0 +1,18 @@
+If C=0
+Then
+Str0+"~"→Str0
+L→θ
+prgmZV
+End
+If C=1
+Str0+"=+INF"→Str0
+If C=⁻1
+Str0+"=-INF"→Str0
+If C=2
+Str0+" DNE"→Str0
+If C=3
+Str0+" UNDEFINED"→Str0
+If C=4
+Str0+" UNCLEAR"→Str0
+If C≠0
+prgmZP

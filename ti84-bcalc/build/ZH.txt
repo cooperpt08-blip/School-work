@@ -1,0 +1,35 @@
+{θ}→ʟPV
+prgmZF
+If Q
+Then
+P→θ
+prgmZS
+Str9→Str8
+If Q>1
+Then
+Q→θ
+prgmZS
+Str8+"/"+Str9→Str8
+End
+1→Q
+Else
+ʟPV(1)²→θ
+prgmZF
+If Q
+Then
+P→θ
+prgmZS
+"√"+"("+Str9→Str8
+If Q>1
+Then
+Q→θ
+prgmZS
+Str8+"/"+Str9→Str8
+End
+Str8+")"→Str8
+If ʟPV(1)<0
+"-"+Str8→Str8
+2→Q
+End
+End
+ʟPV(1)→θ

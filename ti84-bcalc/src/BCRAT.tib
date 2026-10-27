@@ -1,0 +1,52 @@
+# f=N/D from Str5,Str6 -> ʟN,ʟD and exact derivative numerators
+# f'=ʟP/D²  with P=N'D-ND'      f''=ʟQ/D³  with Q=P'D-2PD'
+Str5→Str8
+prgmBCCOEF
+If U
+Return
+ʟPC→ʟN
+Str6→Str8
+prgmBCCOEF
+If U
+Return
+ʟPC→ʟD
+If max(abs(ʟD))=0
+Then
+1→U
+ClrHome
+Disp "D(X)=0 NOT OK"
+Pause
+Return
+End
+ʟN→ʟPA
+prgmBCDIF
+ʟD→ʟPB
+prgmBCMUL
+ʟPC→L₁
+ʟD→ʟPA
+prgmBCDIF
+ʟN→ʟPB
+prgmBCMUL
+ʟPC→L₂
+max(dim(L₁),dim(L₂))→N
+N→dim(L₁)
+N→dim(L₂)
+L₁-L₂→ʟPA
+prgmBCTRIM
+ʟPA→ʟP
+prgmBCDIF
+ʟD→ʟPB
+prgmBCMUL
+ʟPC→L₁
+ʟD→ʟPA
+prgmBCDIF
+ʟP→ʟPB
+prgmBCMUL
+2ʟPC→L₂
+max(dim(L₁),dim(L₂))→N
+N→dim(L₁)
+N→dim(L₂)
+L₁-L₂→ʟPA
+prgmBCTRIM
+ʟPA→ʟQ
+0→U

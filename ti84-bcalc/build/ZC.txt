@@ -1,0 +1,123 @@
+10C+20→M
+{0}→L₁
+0→J
+For(I,1,N)
+ʟET(I)→T
+If T=0 or (T≥20 and T≤23) or T=M or T=M+1
+Then
+J+1→J
+I→L₁(J)
+End
+End
+J→dim(L₁)
+seq(8,I,1,J)→L₂
+For(I,1,J-1)
+ʟEX(L₁(I))→A
+ʟEX(L₁(I+1))→B
+If B-A>1ᴇ⁻9
+Then
+min(.001,(B-A)/100)→H
+min(.01,(B-A)/10)→G
+9→T
+min((B-A)/2,1)→R
+For(E,0,1)
+A+R+E*(B-A-2R)→X
+a+b𝑖
+Y₁→D
+If C=1
+Y₂→F
+If C=2
+Y₃→F
+Real
+If imag(D)=0 and imag(F)=0
+Then
+real(F)→F
+1ᴇ⁻9*(1+abs(real(D)))→D
+If T=9 or T=0
+(F>D)-(F<⁻D)→T
+End
+End
+T→L₂(I)
+End
+End
+.001→H
+.01→G
+If C=1
+"=CRITICAL PTS="→Str0
+If C=2
+"=INFLECTION PTS="→Str0
+prgmZP
+0→U
+For(I,2,J-1)
+ʟET(L₁(I))→T
+If T=M or T=M+1
+Then
+U+1→U
+ʟEX(L₁(I))→A
+a+b𝑖
+real(Y₁(A))→B
+Real
+L₂(I-1)→D
+L₂(I)→F
+If C=1 and D=1 and F=⁻1
+"LOC MAX "→Str0
+If C=1 and D=⁻1 and F=1
+"LOC MIN "→Str0
+If C=1 and D*F≠⁻1
+"CRIT PT "→Str0
+If C=2 and D*F=⁻1
+"INFL PT "→Str0
+If C=2 and D*F≠⁻1
+"NOT INFL "→Str0
+prgmZX
+"  (UNDEFINED)"→Str0
+If T=M and C=1
+"  (F'=0)"→Str0
+If T=M and C=2
+"  (F''=0)"→Str0
+If D*F≠⁻1
+Str0+" NO SIGN CHG"→Str0
+prgmZP
+End
+End
+If U=0
+Then
+"NONE FOUND"→Str0
+prgmZP
+End
+For(E,1,⁻1,⁻2)
+"INCREASING ON:"→Str0
+If E=⁻1
+"DECREASING ON:"→Str0
+If C=2 and E=1
+"CONCAVE UP ON:"→Str0
+If C=2 and E=⁻1
+"CONCAVE DOWN ON:"→Str0
+prgmZP
+0→R
+1→I
+While I≤J-1
+L₂(I)→T
+I→D
+While I<J-1 and (ʟET(L₁(I+1))=M or ʟET(L₁(I+1))=M+1) and L₂(I+1)=T
+I+1→I
+End
+If T=E
+Then
+R+1→R
+ʟEX(L₁(D))→A
+ʟEX(L₁(I+1))→B
+ʟET(L₁(D))=0→U
+ʟET(L₁(I+1))=0→F
+prgmZW
+" "+Str0→Str0
+prgmZP
+End
+I+1→I
+End
+If R=0
+Then
+" NONE"→Str0
+prgmZP
+End
+End

@@ -1,0 +1,129 @@
+Lbl M
+Menu("MARGINAL/RATES","C,R,P,AVG COST",1,"RATE OF CHANGE",2,"BACK",Q)
+Lbl 1
+Menu("REVENUE GIVEN AS","R(X) FORMULA",4,"PRICE P(X)",5,"NONE",6)
+Lbl 4
+ClrHome
+Input "R(X)=",Str6
+Goto 7
+Lbl 5
+ClrHome
+Disp "R=X*P(X)"
+Input "PRICE P(X)=",Str7
+"X*("+Str7+")"→Str6
+Goto 7
+Lbl 6
+"0"→Str6
+Lbl 7
+ClrHome
+Disp "COST (0 IF NONE)"
+Input "C(X)=",Str5
+Input "AT X=",A
+ClrHome
+Disp "WORKING..."
+Str5→Str8
+prgmZY
+prgmZD
+{F,D}→L₁
+a+b𝑖
+real(Y₁(A+1))-F→T
+Real
+Str6→Str8
+prgmZY
+prgmZD
+{F,D}→L₂
+"("+Str6+")-("+Str5+")"→Str8
+prgmZY
+prgmZD
+{F,D}→L₃
+ClrHome
+1→W
+"AT X="→Str0
+A→θ
+prgmZV
+"C(X)="→Str0
+L₁(1)→θ
+prgmZV
+"MC=C'(X)~"→Str0
+L₁(2)→θ
+prgmZV
+"C(X+1)-C(X)="→Str0
+T→θ
+prgmZV
+"R(X)="→Str0
+L₂(1)→θ
+prgmZV
+"MR=R'(X)~"→Str0
+L₂(2)→θ
+prgmZV
+"P(X)=R-C="→Str0
+L₃(1)→θ
+prgmZV
+"MP=P'(X)~"→Str0
+L₃(2)→θ
+prgmZV
+If A≠0
+Then
+"AVG COST C/X="→Str0
+L₁(1)/A→θ
+prgmZV
+"AVG COST' ~"→Str0
+(A*L₁(2)-L₁(1))/A²→θ
+prgmZV
+End
+prgmZE
+Goto M
+Lbl 2
+prgmZI
+Lbl 8
+ClrHome
+Disp "USE X FOR TIME T"
+Input "AT X=",A
+prgmZD
+ClrHome
+1→W
+"F(X)="→Str0
+F→θ
+prgmZV
+"F'(X)~"→Str0
+D→θ
+prgmZV
+"F IS FLAT (F'=0)"→Str0
+If D>1ᴇ⁻7*(1+abs(F))
+"F INCREASING AT"→Str0
+If D<⁻1ᴇ⁻7*(1+abs(F))
+"F DECREASING AT"→Str0
+prgmZP
+"RATE "→Str0
+abs(D)→θ
+prgmZV
+"UNITS PER X-UNIT"→Str0
+prgmZP
+If F≠0
+Then
+"REL RATE %~"→Str0
+100D/F→θ
+prgmZV
+End
+"F''(X)~"→Str0
+S→θ
+prgmZV
+prgmZE
+Menu("NEXT?","NEW X, SAME F",8,"AVG RATE A->B",9,"BACK",M)
+Lbl 9
+ClrHome
+Input "FROM X=",A
+Input "TO X=",B
+a+b𝑖
+real((Y₁(B)-Y₁(A))/(B-A))→T
+Real
+ClrHome
+1→W
+"AVG RATE="→Str0
+T→θ
+prgmZV
+"(F(B)-F(A))/(B-A)"→Str0
+prgmZP
+prgmZE
+Goto M
+Lbl Q

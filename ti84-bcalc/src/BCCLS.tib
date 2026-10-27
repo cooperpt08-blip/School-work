@@ -1,0 +1,33 @@
+# classify a sign change of g=Y₄ at D (kind C) and append the event
+prgmBCVA
+If F
+Then
+If C=0
+Then
+20→B
+prgmBCADD
+End
+Else
+a+b𝑖
+{D+S/4,D-S/4,D+S/8,D-S/8}→L₆
+seq(Y₄(L₆(F)),F,1,4)→L₆
+abs(real(L₆))→L₆
+Real
+(L₆(3)+L₆(4))/(L₆(1)+L₆(2)+1ᴇ⁻99)→A
+If A<.75
+Then
+10+20C-10(C=2)→B
+Else
+22+9C+(C=2)→B
+End
+If C≥1
+Then
+a+b𝑖
+imag(Y₁(D))=0→F
+Real
+If not(F)
+0→B
+End
+If B
+prgmBCADD
+End

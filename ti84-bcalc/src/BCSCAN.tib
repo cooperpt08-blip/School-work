@@ -1,0 +1,103 @@
+# numeric scanner. g=Y₄ on grid L..R (N steps). C: 0 g=f, 1 g=f', 2 g=f''
+# E = noise floor (|g|<=E counts as 0).  Appends events to ʟEX,ʟET:
+# 10 x-int  20 VA  22 jump  23 domain edge  30/31 crit (f'=0/undef)
+# 40/41 f''=0/undef.   Out: M = median |g|.   uses A,B,D,F,I,J,S,T,U
+(R-L)/N→S
+S/2000→H
+S/20→G
+a+b𝑖
+seq(Y₄,X,L+1.23457ᴇ⁻5,R+1.23457ᴇ⁻5+S/2,S)→ʟG
+Real
+real(ʟG)*(imag(ʟG)=0)+9ᴇ99*(imag(ʟG)≠0)→ʟG
+dim(ʟG)-1→N
+abs(ʟG)*(ʟG≠9ᴇ99)→L₆
+SortA(L₆)
+L₆(int(N/2)+1)→M
+# --- sign changes of g (zeros, poles, jumps) ---
+0→J
+0→T
+For(I,1,N+1)
+If ʟG(I)=9ᴇ99
+Then
+0→J
+Else
+(ʟG(I)>E)-(ʟG(I)<⁻E)→U
+If U≠0
+Then
+If J>0 and U≠T
+Then
+L+1.23457ᴇ⁻5+(J-1)*S→A
+L+1.23457ᴇ⁻5+(I-1)*S→B
+prgmBCBIS
+prgmBCCLS
+End
+I→J
+U→T
+End
+End
+End
+# --- touching zeros (no sign change) and even poles of f ---
+For(I,2,N)
+If max(ʟG(I-1)=9ᴇ99,max(ʟG(I)=9ᴇ99,ʟG(I+1)=9ᴇ99))=0
+Then
+abs(ʟG(I-1))→J
+abs(ʟG(I))→T
+abs(ʟG(I+1))→U
+If ʟG(I-1)*ʟG(I)>0 and ʟG(I)*ʟG(I+1)>0 and T<J and T≤U and T≤.5*max(J,U) and max(J,U)>E
+Then
+L+1.23457ᴇ⁻5+(I-2)*S→A
+A+2S→B
+1→F
+prgmBCGOLD
+a+b𝑖
+abs(Y₄(D))→A
+(abs(Y₄(D+S/8))+abs(Y₄(D-S/8)))/2→B
+Real
+If A≤E or A≤1ᴇ⁻4*B
+Then
+10+20C-10(C=2)→B
+prgmBCADD
+End
+End
+If C=0 and T>J and T≥U and T≥2*min(J,U)
+Then
+L+1.23457ᴇ⁻5+(I-2)*S→A
+A+2S→B
+⁻1→F
+prgmBCGOLD
+prgmBCVA
+If F
+Then
+20→B
+prgmBCADD
+End
+End
+End
+End
+DelVar L₆
+# --- edges of the domain (f only) ---
+If C=0
+Then
+For(I,1,N)
+If (ʟG(I)=9ᴇ99)≠(ʟG(I+1)=9ᴇ99)
+Then
+L+1.23457ᴇ⁻5+(I-1)*S→A
+A+S→B
+a+b𝑖
+For(F,1,32)
+(A+B)/2→D
+If (imag(Y₄(D))≠0)=(ʟG(I)=9ᴇ99)
+Then
+D→A
+Else
+D→B
+End
+End
+Real
+(A+B)/2→D
+prgmBCVA
+23-3F→B
+prgmBCADD
+End
+End
+End

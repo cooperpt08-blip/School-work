@@ -1,0 +1,105 @@
+prgmZY
+ClrHome
+Disp "WORKING..."
+a+b𝑖
+seq(Y₁,X,L+(R-L)/80,R,(R-L)/40)→L₆
+Real
+abs(real(L₆))→L₆
+SortA(L₆)
+1ᴇ⁻8*(1+L₆(20))→E
+{L,R}→ʟEX
+{0,0}→ʟET
+String►Equ("Y₂",Y₄)
+1→C
+64→N
+prgmZZ
+SortA(ʟEX,ʟET)
+{0}→L₁
+{0}→L₂
+{0}→L₃
+{0}→L₄
+0→M
+For(I,1,dim(ʟEX))
+ʟET(I)→T
+If (T=0 and J) or T=30 or T=31
+Then
+ʟEX(I)→A
+prgmZD
+If U≠1 and U≠3
+Then
+M+1→M
+A→L₁(M)
+F→L₂(M)
+(T=30)+2(T=31)→L₃(M)
+S→L₄(M)
+End
+End
+End
+ClrHome
+1→W
+"=CANDIDATES="→Str0
+prgmZP
+For(I,1,M)
+L₁(I)→A
+L₂(I)→B
+"ENDPT "→Str0
+If L₃(I)=1
+"CRIT "→Str0
+If L₃(I)=2
+"CRIT(F'UNDF)"→Str0
+prgmZX
+If L₃(I)=1
+Then
+"  F''=0:NO TEST"→Str0
+If L₄(I)<⁻1ᴇ⁻6
+"  F''<0:LOC MAX"→Str0
+If L₄(I)>1ᴇ⁻6
+"  F''>0:LOC MIN"→Str0
+prgmZP
+End
+End
+If M=0
+Then
+"NO CANDIDATES"→Str0
+prgmZP
+{0,0,0,0}→ʟOX
+Else
+1→C
+1→D
+For(I,1,M)
+If L₂(I)>L₂(C)
+I→C
+If L₂(I)<L₂(D)
+I→D
+End
+{L₁(C),L₂(C),L₁(D),L₂(D)}→ʟOX
+"ABS MAX "→Str0
+L₁(C)→A
+L₂(C)→B
+prgmZX
+"ABS MIN "→Str0
+L₁(D)→A
+L₂(D)→B
+prgmZX
+If not(J)
+Then
+"OPEN INTERVAL:"→Str0
+prgmZP
+"ENDS EXCLUDED."→Str0
+prgmZP
+"F NEAR LEFT END~"→Str0
+a+b𝑖
+real(Y₁(L+1ᴇ⁻6*(R-L)))→θ
+Real
+prgmZV
+"F NEAR RIGHT END~"→Str0
+a+b𝑖
+real(Y₁(R-1ᴇ⁻6*(R-L)))→θ
+Real
+prgmZV
+"ONLY 1 CRIT PT?"→Str0
+prgmZP
+"THEN IT IS ABS"→Str0
+prgmZP
+End
+End

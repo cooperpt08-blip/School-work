@@ -1,0 +1,4 @@
+ClrHome
+Disp "F(X,Y): USE X,Y","(Y IS ALPHA 1)"
+Input "F=",Str4
+String►Equ(Str4,Y₁)

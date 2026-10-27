@@ -1,0 +1,20 @@
+# print label Str0 followed by value θ, then an exact-form hint line if found
+If abs(θ)<1ᴇ⁻10
+0→θ
+{θ}→ʟPW
+If abs(θ)≥.001
+round(θ,6)→θ
+prgmBCSTR
+Str0+Str9→Str0
+prgmBCPR
+ʟPW(1)→θ
+If fPart(θ)≠0 and abs(θ)<1ᴇ4 and round(θ,6)≠θ
+Then
+prgmBCHNT
+If Q
+Then
+"  ="+Str8→Str0
+prgmBCPR
+End
+End
+ʟPW(1)→θ

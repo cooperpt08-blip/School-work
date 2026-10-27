@@ -1,0 +1,19 @@
+# show the last 3 table values used by BCLIM1 (ʟLX,ʟLV)
+"TABLE X : F(X)"→Str0
+prgmBCPR
+For(I,5,7)
+ʟLX(I)→θ
+prgmBCSTR
+Str9+": "→Str0
+ʟLV(I)→θ
+If abs(θ)≥.001
+round(θ,6)→θ
+If ʟLU(I)
+Then
+Str0+"UNDEF"→Str0
+Else
+prgmBCSTR
+Str0+Str9→Str0
+End
+prgmBCPR
+End

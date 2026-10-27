@@ -1,0 +1,8 @@
+# limit dispatcher: M=0 finite A (side N), M=+-1 infinity
+If M=0
+Then
+prgmBCLIMS
+Else
+1→D
+prgmBCLIM1
+End

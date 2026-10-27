@@ -1,0 +1,109 @@
+# report for graph analysis.  needs ʟEX,ʟET (events incl. window ends
+# of type 0), Y₁,Y₂,Y₃.  prints domain, intercepts, f' and f'' charts
+SortA(ʟEX,ʟET)
+dim(ʟEX)→N
+ClrHome
+1→W
+"=DOMAIN/BREAKS="→Str0
+prgmBCPR
+0→J
+For(I,1,N)
+ʟET(I)→T
+If T≥20 and T≤23
+Then
+J+1→J
+ʟEX(I)→A
+If T=20
+"VERT ASYMP X="→Str0
+If T=21
+"HOLE AT X="→Str0
+If T=22
+"JUMP AT X="→Str0
+If T=23
+"DOMAIN EDGE X="→Str0
+A→θ
+prgmBCPV
+1ᴇ⁻6*max(1,abs(A))→B
+a+b𝑖
+Y₁(A-B)→D
+Y₁(A+B)→F
+Real
+If T=20
+Then
+"L:"→Str0
+If imag(D)≠0
+Str0+"UNDEF"→Str0
+If imag(D)=0 and real(D)>0
+Str0+"+INF"→Str0
+If imag(D)=0 and real(D)<0
+Str0+"-INF"→Str0
+Str0+"  R:"→Str0
+If imag(F)≠0
+Str0+"UNDEF"→Str0
+If imag(F)=0 and real(F)>0
+Str0+"+INF"→Str0
+If imag(F)=0 and real(F)<0
+Str0+"-INF"→Str0
+prgmBCPR
+End
+If T=21
+Then
+real(D+F)/2→B
+"HOLE PT "→Str0
+prgmBCXY
+End
+End
+End
+If J=0
+Then
+"NONE: NO VA,HOLE"→Str0
+prgmBCPR
+End
+"=INTERCEPTS="→Str0
+prgmBCPR
+0→J
+For(I,1,N)
+If ʟET(I)≥20 and ʟET(I)≤22 and abs(ʟEX(I))<1ᴇ⁻6
+1→J
+End
+If ʟEX(1)>0 or ʟEX(N)<0
+2→J
+If J=0
+Then
+a+b𝑖
+Y₁(0)→B
+Real
+If imag(B)=0
+Then
+0→A
+real(B)→B
+"Y-INT "→Str0
+prgmBCXY
+Else
+"NO Y-INT"→Str0
+prgmBCPR
+End
+Else
+"NO Y-INT"→Str0
+prgmBCPR
+End
+0→J
+For(I,1,N)
+If ʟET(I)=10
+Then
+J+1→J
+ʟEX(I)→A
+0→B
+"X-INT "→Str0
+prgmBCXY
+End
+End
+If J=0
+Then
+"NO X-INTS FOUND"→Str0
+prgmBCPR
+End
+1→C
+prgmBCCHT
+2→C
+prgmBCCHT

@@ -1,0 +1,11 @@
+# vertical-asymptote test for f=Y₁ at D: |f| must keep growing at
+# distances S/4, S/400, S/40000 (both sides).  F=1 if asymptote
+a+b𝑖
+{D+S/4,D-S/4,D+S/400,D-S/400,D+S/40000,D-S/40000}→L₆
+seq(Y₁(L₆(F)),F,1,6)→L₆
+abs(real(L₆))*(imag(L₆)=0)→L₆
+Real
+L₆(1)+L₆(2)→A
+L₆(3)+L₆(4)→B
+L₆(5)+L₆(6)→F
+(F>B and B>A and F-B≥.5*(B-A))→F

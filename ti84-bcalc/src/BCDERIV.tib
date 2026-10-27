@@ -1,0 +1,177 @@
+# DERIVATIVES module
+Lbl M
+Menu("DERIVATIVES","F,F',F'' AT X",1,"CHECK MY F'",2,"EXACT POLY/RAT",3,"RULES SHEET",5,"BACK",Q)
+Lbl 1
+prgmBCINF
+Lbl 6
+ClrHome
+Input "AT X=",A
+prgmBCFD
+ClrHome
+1→W
+"X="→Str0
+A→θ
+prgmBCPV
+If U=1 or U=3
+Then
+"F UNDEFINED HERE"→Str0
+prgmBCPR
+Else
+"F(X)="→Str0
+F→θ
+prgmBCPV
+If U=2
+Then
+"F' UNDEFINED HERE"→Str0
+prgmBCPR
+"(EDGE OF DOMAIN)"→Str0
+prgmBCPR
+Else
+"F'(X)~"→Str0
+D→θ
+prgmBCPV
+"F''(X)~"→Str0
+S→θ
+prgmBCPV
+End
+End
+prgmBCEND
+Menu("NEXT?","NEW X, SAME F",6,"BACK",M)
+Lbl 2
+prgmBCINF
+Menu("CHECK WHICH?","MY F'(X)",7,"MY F''(X)",8)
+Lbl 7
+1→N
+Goto 9
+Lbl 8
+2→N
+Lbl 9
+ClrHome
+Disp "TYPE YOUR ANSWER","USING X"
+Input "ANS=",Str2
+String►Equ(Str2,Y₄)
+{.7,1.3,1.9,2.6,3.4,4.1,⁻.6,⁻1.7,5.3,⁻3.2}→L₁
+0→C
+0→J
+For(I,1,10)
+L₁(I)→A
+prgmBCFD
+a+b𝑖
+A→X
+Y₄→T
+Real
+If U=0 and imag(T)=0
+Then
+C+1→C
+D→E
+If N=2
+S→E
+If abs(real(T)-E)>1ᴇ⁻5*(1+abs(E))
+Then
+J+1→J
+A→B
+real(T)→R
+E→M
+End
+End
+End
+ClrHome
+1→W
+C→θ
+prgmBCSTR
+"TESTED "+Str9+" X'S"→Str0
+prgmBCPR
+If C<3
+Then
+"TOO FEW VALID X"→Str0
+prgmBCPR
+"(DOMAIN?) RETYPE"→Str0
+prgmBCPR
+Else
+If J=0
+Then
+"ALL MATCH!"→Str0
+prgmBCPR
+"YOUR ANSWER IS"→Str0
+prgmBCPR
+"CORRECT/EQUIV."→Str0
+prgmBCPR
+Else
+J→θ
+prgmBCSTR
+Str9+" MISMATCH(ES)"→Str0
+prgmBCPR
+"AT X="→Str0
+B→θ
+prgmBCPV
+"YOURS="→Str0
+R→θ
+prgmBCPV
+"TRUE~"→Str0
+M→θ
+prgmBCPV
+End
+End
+prgmBCEND
+Goto M
+Lbl 3
+ClrHome
+Disp "F=N(X)/D(X)","N,D POLYNOMIALS","D=1 IF POLY"
+Input "N(X)=",Str5
+Input "D(X)=",Str6
+ClrHome
+Disp "WORKING..."
+prgmBCRAT
+If U
+Goto M
+ClrHome
+1→W
+dim(ʟD)=1→J
+If J
+Then
+ʟP/ʟD(1)²→ʟPA
+"F'(X)="→Str0
+Else
+ʟP→ʟPA
+"F'(X)=NUM/DEN"→Str0
+prgmBCPR
+"NUM="→Str0
+End
+prgmBCPSTR
+Str0+Str7→Str0
+prgmBCPR
+ʟD→ʟPA
+prgmBCPSTR
+If not(J)
+Then
+"DEN=("+Str7+")²"→Str0
+prgmBCPR
+End
+If J
+Then
+ʟQ/ʟD(1)³→ʟPA
+"F''(X)="→Str0
+Else
+ʟQ→ʟPA
+"F''=NUM/DEN"→Str0
+prgmBCPR
+"NUM="→Str0
+End
+prgmBCPSTR
+Str0+Str7→Str0
+prgmBCPR
+ʟD→ʟPA
+prgmBCPSTR
+If not(J)
+Then
+"DEN=("+Str7+")³"→Str0
+prgmBCPR
+End
+"(EXACT, UNSIMPLIFIED)"→Str0
+prgmBCPR
+prgmBCEND
+Goto M
+Lbl 5
+prgmBCFORM
+Goto M
+Lbl Q

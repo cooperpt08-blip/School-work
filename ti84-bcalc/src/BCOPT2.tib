@@ -1,0 +1,99 @@
+# OPTIMIZATION TEMPLATES (optional extra): price steps, open box, EOQ
+Lbl M
+Menu("OPT TEMPLATES","PRICE STEPS",5,"OPEN BOX",J,"INVENTORY EOQ",K,"BACK",Q)
+Lbl 5
+ClrHome
+Disp "PRICE=P0+S*N","UNITS=Q0-D*N","N=# OF STEPS"
+Input "BASE PRICE P0=",B
+Input "BASE UNITS Q0=",C
+Input "PRICE STEP S=",S
+Input "UNITS LOST/STEP=",D
+Input "COST/UNIT SOLD=",E
+Input "FIXED COST=",F
+ClrHome
+1→W
+If S*D=0
+Then
+"S,D MUST BE ≠0"→Str0
+prgmBCPR
+Else
+(S*C-D*(B-E))/(2S*D)→N
+max(0,N)→N
+If D>0
+min(N,C/D)→N
+"BEST STEPS N="→Str0
+N→θ
+prgmBCPV
+If fPart(N)≠0
+Then
+int(N)→T
+(B+S*T-E)*(C-D*T)>(B+S*(T+1)-E)*(C-D*(T+1))→U
+T+not(U)→N
+"WHOLE STEPS N="→Str0
+N→θ
+prgmBCPV
+End
+"PRICE="→Str0
+B+S*N→θ
+prgmBCPV
+"UNITS="→Str0
+C-D*N→θ
+prgmBCPV
+"REVENUE="→Str0
+(B+S*N)*(C-D*N)→θ
+prgmBCPV
+"MAX PROFIT="→Str0
+(B+S*N-E)*(C-D*N)-F→θ
+prgmBCPV
+End
+prgmBCEND
+Goto M
+Lbl J
+ClrHome
+Disp "CUT X-BY-X","SQUARES; FOLD UP"
+Input "SHEET LENGTH=",L
+Input "SHEET WIDTH=",R
+((L+R)-√((L+R)²-3L*R))/6→A
+ClrHome
+1→W
+"CUT X="→Str0
+A→θ
+prgmBCPV
+"MAX VOLUME="→Str0
+A*(L-2A)*(R-2A)→θ
+prgmBCPV
+"BOX DIMS:"→Str0
+prgmBCPR
+"LENGTH="→Str0
+L-2A→θ
+prgmBCPV
+"WIDTH="→Str0
+R-2A→θ
+prgmBCPV
+prgmBCEND
+Goto M
+Lbl K
+ClrHome
+Disp "COST=ORDERS*S","+AVG INV*H"
+Input "UNITS/YEAR N=",N
+Input "COST/ORDER S=",S
+Input "STORE $/UNIT H=",T
+√(2N*S/T)→A
+ClrHome
+1→W
+"ORDER SIZE X="→Str0
+A→θ
+prgmBCPV
+"ORDERS/YEAR="→Str0
+N/A→θ
+prgmBCPV
+"MIN COST="→Str0
+N*S/A+T*A/2→θ
+prgmBCPV
+"WHOLE ORDERS?"→Str0
+prgmBCPR
+"TRY NEARBY N/X"→Str0
+prgmBCPR
+prgmBCEND
+Goto M
+Lbl Q

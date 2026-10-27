@@ -1,0 +1,97 @@
+Lbl M
+Menu("SIGN CHARTS","F' SIGN CHART",1,"F'' SIGN CHART",2,"BACK",Q)
+Lbl 1
+1→C
+Goto 4
+Lbl 2
+2→C
+Lbl 4
+ClrHome
+Disp "PARTITION X'S","EX: {⁻1,0,2}"
+Input "X'S=",L₁
+SortA(L₁)
+dim(L₁)→N
+ClrHome
+Disp "SIGN OF EACH","INTERVAL +1/⁻1","(ONE MORE THAN","THE X'S)"
+Input "SIGNS=",L₂
+ClrHome
+Disp "IN DOMAIN OF F?","1=YES 0=NO","FOR EACH X"
+Input "1/0 LIST=",L₃
+ClrHome
+Disp "F AT EACH X","OR {0} IF NONE"
+Input "F VALUES=",L₄
+0→U
+If dim(L₂)≠N+1 or dim(L₃)≠N
+1→U
+If U
+Then
+ClrHome
+Disp "LIST SIZES WRONG"
+Pause 
+End
+If U
+Goto M
+ClrHome
+1→W
+If C=1
+"=INC/DEC="→Str0
+If C=2
+"=CONCAVITY="→Str0
+prgmZP
+For(I,1,N+1)
+(I=1)→U
+(I=N+1)→F
+If I>1
+L₁(I-1)→A
+If I≤N
+L₁(I)→B
+prgmZW
+If C=1 and L₂(I)>0
+Str0+" INC"→Str0
+If C=1 and L₂(I)<0
+Str0+" DEC"→Str0
+If C=2 and L₂(I)>0
+Str0+" CONC UP"→Str0
+If C=2 and L₂(I)<0
+Str0+" CONC DN"→Str0
+prgmZP
+End
+"=POINTS="→Str0
+prgmZP
+For(I,1,N)
+L₁(I)→A
+L₂(I)*L₂(I+1)<0→T
+If L₃(I)=0
+Then
+"X="→Str0
+A→θ
+prgmZV
+"  NOT IN DOMAIN:"→Str0
+prgmZP
+"  NO EXTR/NO IP"→Str0
+prgmZP
+Else
+If C=1 and L₂(I)>0 and L₂(I+1)<0
+"LOC MAX "→Str0
+If C=1 and L₂(I)<0 and L₂(I+1)>0
+"LOC MIN "→Str0
+If C=1 and not(T)
+"NO EXTREMUM "→Str0
+If C=2 and T
+"INFL PT "→Str0
+If C=2 and not(T)
+"NOT INFL "→Str0
+If dim(L₄)=N
+Then
+L₄(I)→B
+prgmZX
+Else
+Str0+"X="→Str0
+A→θ
+prgmZV
+End
+End
+End
+prgmZE
+Goto M
+Lbl Q

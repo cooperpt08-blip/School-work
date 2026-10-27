@@ -1,0 +1,62 @@
+dim(ʟPA)-1→N
+{0}→ʟRT
+If N=1
+{1,⁻ʟPA(1)/ʟPA(2)}→ʟRT
+If N≥2
+Then
+1+max(abs(seq(ʟPA(I)/ʟPA(N+1),I,1,N)))→Z
+{1,⁻ʟPA(N)/(N*ʟPA(N+1))}→ʟRT
+For(M,N-2,0,⁻1)
+seq(ʟPA(I+M)*(I+M-1)!/(I-1)!,I,1,N+1-M)→ʟRC
+If ʟRT(1)=0
+Then
+{⁻Z,Z}→ʟRA
+Else
+augment(augment({⁻Z},seq(ʟRT(I),I,2,ʟRT(1)+1)),{Z})→ʟRA
+End
+dim(ʟRA)→J
+seq(0,I,1,J)→ʟRV
+ʟRV→ʟRS
+For(I,1,J)
+ʟRA(I)→X
+0→T
+0→E
+For(θ,dim(ʟRC),1,⁻1)
+T*X+ʟRC(θ)→T
+E*abs(X)+abs(ʟRC(θ))→E
+End
+T→ʟRV(I)
+E+1ᴇ⁻3*max(abs(ʟRC))→ʟRS(I)
+End
+{0}→ʟRN
+For(I,1,J-1)
+If I>1 and abs(ʟRV(I))≤1ᴇ⁻9*ʟRS(I)
+Then
+ʟRN(1)+1→ʟRN(1)
+ʟRA(I)→ʟRN(ʟRN(1)+1)
+Else
+If ʟRV(I)*ʟRV(I+1)<0 and abs(ʟRV(I+1))>1ᴇ⁻9*ʟRS(I+1)
+Then
+ʟRA(I)→A
+ʟRA(I+1)→B
+For(F,1,45)
+(A+B)/2→X
+0→T
+For(θ,dim(ʟRC),1,⁻1)
+T*X+ʟRC(θ)→T
+End
+If T*ʟRV(I)>0
+Then
+X→A
+Else
+X→B
+End
+End
+ʟRN(1)+1→ʟRN(1)
+(A+B)/2→ʟRN(ʟRN(1)+1)
+End
+End
+End
+ʟRN→ʟRT
+End
+End

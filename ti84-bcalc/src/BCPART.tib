@@ -1,0 +1,129 @@
+# PARTIAL DERIVATIVES module
+Lbl M
+Menu("PARTIAL DERIVS","FX,FY AT (X,Y)",1,"CHECK FX/FY",2,"COBB-DOUGLAS",3,"BACK",Q)
+Lbl 1
+prgmBCIN2
+Lbl 4
+ClrHome
+Input "X=",A
+Input "Y=",B
+prgmBCPD
+ClrHome
+1→W
+If U=1 or U=3
+Then
+"F UNDEFINED HERE"→Str0
+prgmBCPR
+Else
+"F(X,Y)="→Str0
+F→θ
+prgmBCPV
+"FX~"→Str0
+D→θ
+prgmBCPV
+"FY~"→Str0
+E→θ
+prgmBCPV
+"FXX~"→Str0
+S→θ
+prgmBCPV
+"FYY~"→Str0
+T→θ
+prgmBCPV
+"FXY=FYX~"→Str0
+M→θ
+prgmBCPV
+End
+prgmBCEND
+Menu("NEXT?","NEW (X,Y)",4,"PARTIALS MENU",M)
+Lbl 2
+prgmBCIN2
+Menu("CHECK WHICH?","FX",5,"FY",6,"FXX",7,"FYY",8,"FXY",9)
+Lbl 5
+1→N
+Goto A
+Lbl 6
+2→N
+Goto A
+Lbl 7
+3→N
+Goto A
+Lbl 8
+4→N
+Goto A
+Lbl 9
+5→N
+Lbl A
+ClrHome
+Disp "YOUR ANSWER","USING X AND Y"
+Input "ANS=",Str2
+String►Equ(Str2,Y₄)
+{.7,1.9,2.3,1.1,3.1,.4,⁻.8,1.5}→L₁
+{1.3,.6,2.9,3.7,1.2,.9,1.6,⁻.7}→L₂
+0→C
+0→J
+For(I,1,8)
+L₁(I)→A
+L₂(I)→B
+prgmBCPD
+{D,E,S,T,M}→L₃
+L₃(N)→L
+a+b𝑖
+A→X
+B→Y
+Y₄→T
+Real
+If U=0 and imag(T)=0
+Then
+C+1→C
+If abs(real(T)-L)>1ᴇ⁻5*(1+abs(L))
+Then
+J+1→J
+{A,B,real(T),L}→L₄
+End
+End
+End
+ClrHome
+1→W
+C→θ
+prgmBCSTR
+"TESTED "+Str9+" POINTS"→Str0
+prgmBCPR
+If C<3
+Then
+"TOO FEW VALID"→Str0
+prgmBCPR
+"POINTS (DOMAIN?)"→Str0
+prgmBCPR
+Else
+If J=0
+Then
+"ALL MATCH!"→Str0
+prgmBCPR
+"YOUR ANSWER IS"→Str0
+prgmBCPR
+"CORRECT/EQUIV."→Str0
+prgmBCPR
+Else
+J→θ
+prgmBCSTR
+Str9+" MISMATCH(ES)"→Str0
+prgmBCPR
+L₄(1)→A
+L₄(2)→B
+"AT "→Str0
+prgmBCXY
+"YOURS="→Str0
+L₄(3)→θ
+prgmBCPV
+"TRUE~"→Str0
+L₄(4)→θ
+prgmBCPV
+End
+End
+prgmBCEND
+Goto M
+Lbl 3
+prgmBCCOBB
+Goto M
+Lbl Q

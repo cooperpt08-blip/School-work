@@ -1,0 +1,10 @@
+# append event (x=D, type=B) unless a duplicate is within S/50;
+# derivative events (B>=30) within S of a break of f are dropped too
+# numeric roots are good to ~1E-6: snap to 4 decimals when that close
+If abs(D-round(D,4))<3ᴇ⁻6
+round(D,4)→D
+If sum((abs(ʟEX-D)<S/50)*(ʟET=B)+(abs(ʟEX-D)<S*(B≥30)+S/50)*(ʟET≥20)*(ʟET≤23))=0
+Then
+augment(ʟEX,{D})→ʟEX
+augment(ʟET,{B})→ʟET
+End

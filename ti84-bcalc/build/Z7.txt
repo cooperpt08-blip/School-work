@@ -1,0 +1,50 @@
+Str5→Str8
+prgmZN
+If U
+Return
+ʟPC→ʟN
+Str6→Str8
+prgmZN
+If U
+Return
+ʟPC→ʟD
+If max(abs(ʟD))=0
+Then
+1→U
+ClrHome
+Disp "D(X)=0 NOT OK"
+Pause 
+Return
+End
+ʟN→ʟPA
+prgmZJ
+ʟD→ʟPB
+prgmZM
+ʟPC→L₁
+ʟD→ʟPA
+prgmZJ
+ʟN→ʟPB
+prgmZM
+ʟPC→L₂
+max(dim(L₁),dim(L₂))→N
+N→dim(L₁)
+N→dim(L₂)
+L₁-L₂→ʟPA
+prgmZ0
+ʟPA→ʟP
+prgmZJ
+ʟD→ʟPB
+prgmZM
+ʟPC→L₁
+ʟD→ʟPA
+prgmZJ
+ʟP→ʟPB
+prgmZM
+2ʟPC→L₂
+max(dim(L₁),dim(L₂))→N
+N→dim(L₁)
+N→dim(L₂)
+L₁-L₂→ʟPA
+prgmZ0
+ʟPA→ʟQ
+0→U

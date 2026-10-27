@@ -1,0 +1,162 @@
+Lbl M
+Menu("LIMITS","LIM X->A",1,"LIM X->+-INF",2,"L'HOPITAL N/D",3,"BACK",Q)
+Lbl 1
+prgmZI
+ClrHome
+Input "X->A, A=",A
+Menu("WHICH SIDE?","BOTH SIDES",5,"RIGHT (A+)",6,"LEFT (A-)",7)
+Lbl 5
+0→N
+Goto 8
+Lbl 6
+1→N
+Goto 8
+Lbl 7
+⁻1→N
+Lbl 8
+ClrHome
+Disp "WORKING..."
+prgmZ3
+{C,L}→L₃
+ClrHome
+1→W
+If N≥0
+Then
+"RIGHT:"→Str0
+ʟLS(1)→C
+ʟLS(2)→L
+prgmZL
+End
+If N≤0
+Then
+"LEFT:"→Str0
+ʟLS(3)→C
+ʟLS(4)→L
+prgmZL
+End
+If N=0
+Then
+"2-SIDED:"→Str0
+L₃(1)→C
+L₃(2)→L
+prgmZL
+End
+prgmZ4
+prgmZE
+Goto M
+Lbl 2
+prgmZI
+Menu("X APPROACHES","+INF",D,"-INF",E)
+Lbl D
+1→M
+Goto F
+Lbl E
+⁻1→M
+Lbl F
+0→A
+1→D
+ClrHome
+Disp "WORKING..."
+prgmZ1
+ClrHome
+1→W
+"LIMIT"→Str0
+prgmZL
+prgmZ4
+prgmZE
+Goto M
+Lbl 3
+ClrHome
+Disp "LIM N(X)/D(X)"
+Input "N(X)=",Str5
+Input "D(X)=",Str6
+Menu("X APPROACHES","A NUMBER",G,"+INF",H,"-INF",I)
+Lbl G
+ClrHome
+Input "A=",A
+Menu("WHICH SIDE?","BOTH SIDES",J,"RIGHT (A+)",K,"LEFT (A-)",L)
+Lbl J
+0→N
+0→M
+Goto N
+Lbl K
+1→N
+0→M
+Goto N
+Lbl L
+⁻1→N
+0→M
+Goto N
+Lbl H
+1→M
+0→A
+Goto N
+Lbl I
+⁻1→M
+0→A
+Lbl N
+ClrHome
+Disp "WORKING..."
+Str5→Str1
+String►Equ(Str5,Y₁)
+prgmZQ
+{C,L}→L₃
+Str6→Str1
+String►Equ(Str6,Y₁)
+prgmZQ
+augment(L₃,{C,L})→L₃
+"("+Str5+")/("+Str6+")"→Str1
+1309→K
+String►Equ(Str1,Y₁)
+prgmZQ
+augment(L₃,{C,L})→L₃
+ClrHome
+1→W
+"LIM N"→Str0
+L₃(1)→C
+L₃(2)→L
+prgmZL
+"LIM D"→Str0
+L₃(3)→C
+L₃(4)→L
+prgmZL
+L₃(1)=0 and abs(L₃(2))<1ᴇ⁻6→E
+L₃(3)=0 and abs(L₃(4))<1ᴇ⁻6→F
+(E and F) or (abs(L₃(1))=1 and abs(L₃(3))=1)→J
+"NOT 0/0,INF/INF: NO L'HOPITAL"→Str0
+If J
+"0/0 OR INF/INF: L'HOPITAL OK"→Str0
+prgmZP
+If not(J) and L₃(1)=0 and not(E) and F
+Then
+"C/0: +-INF OR DNE"→Str0
+prgmZP
+End
+"LIM N/D"→Str0
+L₃(5)→C
+L₃(6)→L
+prgmZL
+If M=0 and N=0 and L₃(5)=2
+Then
+" RIGHT:"→Str0
+ʟLS(1)→C
+ʟLS(2)→L
+prgmZL
+" LEFT:"→Str0
+ʟLS(3)→C
+ʟLS(4)→L
+prgmZL
+End
+If J
+Then
+String►Equ(Str5,Y₄)
+String►Equ(Str6,Y₅)
+String►Equ("(Y₄(X-2H)-8Y₄(X-H)+8Y₄(X+H)-Y₄(X+2H))/(Y₅(X-2H)-8Y₅(X-H)+8Y₅(X+H)-Y₅(X+2H))",Y₁)
+prgmZQ
+"LIM N'/D'"→Str0
+prgmZL
+String►Equ(Str1,Y₁)
+End
+prgmZE
+Goto M
+Lbl Q

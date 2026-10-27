@@ -1,0 +1,6 @@
+# zero tiny coefficients of ʟPA and drop leading zeros
+max(abs(ʟPA))→T
+ʟPA*(abs(ʟPA)>1ᴇ⁻10*T)→ʟPA
+While dim(ʟPA)>1 and ʟPA(dim(ʟPA))=0
+dim(ʟPA)-1→dim(ʟPA)
+End

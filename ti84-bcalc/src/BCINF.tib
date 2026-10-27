@@ -1,0 +1,16 @@
+# ask for f(x) (or reuse the last one) -> Str1, then set Y₁,Y₂,Y₃
+If K≠1309
+Goto N
+ClrHome
+Disp "LAST F(X):",Str1," ","1=USE IT","0=TYPE NEW F"
+Input E
+If E=1
+Goto L
+Lbl N
+ClrHome
+Disp "TYPE F USING X","EX: X/(X²+1)"
+Input "F(X)=",Str1
+1309→K
+Lbl L
+Str1→Str8
+prgmBCSETY

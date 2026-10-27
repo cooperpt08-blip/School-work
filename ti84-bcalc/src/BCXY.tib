@@ -1,0 +1,37 @@
+# print Str0+"(A,B)" (4 decimals) and a hint line with exact forms
+If abs(A)<1ᴇ⁻9
+0→A
+If abs(B)<1ᴇ⁻9
+0→B
+round(A,9)→A
+round(B,9)→B
+{A,B}→ʟPX
+round(A,4)→θ
+prgmBCSTR
+Str0+"("+Str9+","→Str0
+round(ʟPX(2),4)→θ
+prgmBCSTR
+Str0+Str9+")"→Str0
+prgmBCPR
+" "→Str7
+ʟPX(1)→θ
+If fPart(θ)≠0 and abs(θ)<1ᴇ4 and round(θ,6)≠θ
+Then
+prgmBCHNT
+If Q
+" X="+Str8→Str7
+End
+ʟPX(2)→θ
+If fPart(θ)≠0 and abs(θ)<1ᴇ4 and round(θ,6)≠θ
+Then
+prgmBCHNT
+If Q
+Str7+" Y="+Str8→Str7
+End
+If length(Str7)>1
+Then
+Str7→Str0
+prgmBCPR
+End
+ʟPX(1)→A
+ʟPX(2)→B

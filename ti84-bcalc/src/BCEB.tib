@@ -1,0 +1,18 @@
+# end behaviour / horizontal asymptotes of Y₁ (numeric, via BCLIM1)
+"=END BEHAVIOR="→Str0
+prgmBCPR
+For(R,1,2)
+3-2R→M
+0→A
+1→D
+prgmBCLIM1
+If M=1
+"X->+INF: F"→Str0
+If M=⁻1
+"X->-INF: F"→Str0
+If C=0 and M=1
+"X->+INF: HA Y"→Str0
+If C=0 and M=⁻1
+"X->-INF: HA Y"→Str0
+prgmBCLPR
+End

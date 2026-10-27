@@ -1,0 +1,19 @@
+If abs(θ)<1ᴇ⁻10
+0→θ
+{θ}→ʟPW
+If abs(θ)≥.001
+round(θ,6)→θ
+prgmZS
+Str0+Str9→Str0
+prgmZP
+ʟPW(1)→θ
+If fPart(θ)≠0 and abs(θ)<1ᴇ4 and round(θ,6)≠θ
+Then
+prgmZH
+If Q
+Then
+"  ="+Str8→Str0
+prgmZP
+End
+End
+ʟPW(1)→θ

@@ -1,0 +1,117 @@
+# POINT OF DIMINISHING RETURNS module
+Lbl M
+Menu("DIM. RETURNS","FIND POINT",1,"BACK",Q)
+Lbl 1
+prgmBCINF
+ClrHome
+Disp "INTERVAL OF X","(FROM PROBLEM)"
+Input "FROM X=",L
+Input "TO X=",R
+ClrHome
+Disp "WORKING..."
+a+b𝑖
+seq(Y₁,X,L+(R-L)/80,R,(R-L)/40)→L₆
+Real
+abs(real(L₆))→L₆
+SortA(L₆)
+1ᴇ⁻8*(1+L₆(20))→E
+{L,R}→ʟEX
+{0,0}→ʟET
+String►Equ("Y₃",Y₄)
+2→C
+64→N
+prgmBCSCAN
+SortA(ʟEX,ʟET)
+ClrHome
+1→W
+"=F'' SIGN CHGS="→Str0
+prgmBCPR
+0→M
+For(I,2,dim(ʟEX)-1)
+ʟET(I)→T
+If T=40 or T=41
+Then
+M+1→M
+ʟEX(I)→A
+min(.01,(A-ʟEX(I-1))/10)→G
+a+b𝑖
+real(Y₃((ʟEX(I-1)+A)/2))→D
+min(.01,(ʟEX(I+1)-A)/10)→G
+real(Y₃((A+ʟEX(I+1))/2))→F
+.01→G
+real(Y₁(A))→B
+.001→H
+real(Y₂(A))→S
+Real
+If D>0 and F<0
+Then
+"DIMINISHING RET."→Str0
+prgmBCPR
+"AT "→Str0
+prgmBCXY
+"MAX RATE F'(X)~"→Str0
+S→θ
+prgmBCPV
+"F' INC THEN DEC"→Str0
+prgmBCPR
+Else
+"INFL "→Str0
+prgmBCXY
+If D<0 and F>0
+Then
+"F' DEC THEN INC"→Str0
+prgmBCPR
+"(NOT DIM RETURN)"→Str0
+Else
+"NO SIGN CHANGE"→Str0
+End
+prgmBCPR
+End
+End
+End
+If M=0
+Then
+"NO F'' SIGN CHG"→Str0
+prgmBCPR
+(L+R)/2→X
+a+b𝑖
+real(Y₃)→D
+Real
+If D<0
+Then
+"F''<0 ALL: RATE"→Str0
+prgmBCPR
+"ALWAYS FALLING"→Str0
+prgmBCPR
+Else
+"F''>0 ALL: RATE"→Str0
+prgmBCPR
+"ALWAYS RISING"→Str0
+prgmBCPR
+End
+End
+"=RATE F'(X) IS="→Str0
+prgmBCPR
+2→C
+dim(ʟEX)→N
+For(I,1,N-1)
+ʟEX(I)→A
+ʟEX(I+1)→B
+min(.01,(B-A)/10)→G
+(A+B)/2→X
+a+b𝑖
+real(Y₃)→D
+Real
+.01→G
+0→U
+0→F
+prgmBCIV
+If D>0
+Str0+" RISING"→Str0
+If D<0
+Str0+" FALLING"→Str0
+prgmBCPR
+End
+prgmBCEND
+Goto M
+Lbl Q

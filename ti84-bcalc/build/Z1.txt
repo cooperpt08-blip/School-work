@@ -1,0 +1,60 @@
+0→J
+If M=0
+Then
+seq(A+D*10^(⁻I),I,1,7)→ʟLX
+Else
+seq(M*10^I,I,1,7)→ʟLX
+If inString(Str1,"𝑒")+inString(Str1,"𝑒^(")
+Then
+M*{1,2,5,10,20,40,80}→ʟLX
+1→J
+End
+End
+seq(0,I,1,7)→ʟLV
+ʟLV→ʟLU
+a+b𝑖
+For(I,1,7)
+ʟLX(I)→X
+If M=0
+abs(X-A)/10→H
+If M≠0
+abs(X)/1000→H
+Y₁→F
+imag(F)≠0→ʟLU(I)
+real(F)→ʟLV(I)
+End
+Real
+.001→H
+4→C
+0→L
+ʟLV(5)→T
+ʟLV(6)→U
+ʟLV(7)→F
+If max(seq(ʟLU(I),I,3,7))
+Then
+3→C
+Else
+If abs(F-U)≤1ᴇ⁻4*(1+abs(F)) and abs(F-U)≤abs(U-T)+1ᴇ⁻12
+Then
+0→C
+(10F-U)/9→L
+If J
+F→L
+round(L,7)→L
+If abs(L)<1ᴇ⁻6
+0→L
+Else
+If abs(F)>abs(U) and abs(U)>abs(T) and abs(T)>abs(ʟLV(4)) and F*U>0 and U*T>0 and (abs(F)≥1ᴇ6 or abs(F-U)≥.5*abs(U-T))
+Then
+(F>0)-(F<0)→C
+Else
+If abs(F)<abs(U) and abs(U)<abs(T) and abs(F)<1ᴇ⁻3 and F*U>0
+Then
+0→C
+Else
+If (F-U)*(U-T)<0
+2→C
+End
+End
+End
+End

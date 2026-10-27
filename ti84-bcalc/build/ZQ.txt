@@ -1,0 +1,7 @@
+If M=0
+Then
+prgmZ3
+Else
+1→D
+prgmZ1
+End

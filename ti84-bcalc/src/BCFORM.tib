@@ -1,0 +1,35 @@
+# FORMULA SHEETS module (reference screens)
+Lbl M
+Menu("FORMULA SHEETS","DERIV RULES",1,"LIMITS/L'HOP",2,"GRAPH STEPS",3,"BUSINESS",4,"PARTIAL/COBB",5,"BACK",Q)
+Lbl 1
+ClrHome
+Disp "(X^N)'=NX^(N-1)","(FG)'=F'G+FG'","(F/G)'=","  (F'G-FG')/G²","(F(G))'=F'(G)G'","(𝑒^(U))'=𝑒^(U)U'","(LN(U))'=U'/U"
+Pause
+ClrHome
+Disp "(√(U))'=U'/2√(U)","(U^N)'=","  NU^(N-1)U'","(A^X)'=A^XLN(A)","LN(AB)=LNA+LNB","LN(A/B)=LNA-LNB","LN(A^N)=NLN(A)"
+Pause
+Goto M
+Lbl 2
+ClrHome
+Disp "L'HOPITAL ONLY","FOR 0/0, INF/INF","LIM F/G=","  LIM F'/G'","(NOT QUOTIENT","RULE!)","C/0: INF OR DNE"
+Pause
+ClrHome
+Disp "0/INF,C/INF: 0","𝑒^(X)>>X^N>>LNX","LN(X):-INF @0+","𝑒^(X)->0 @-INF","AT INF N/D POLY:","DEG N<D:0, =:","LEAD RATIO >:INF"
+Pause
+Goto M
+Lbl 3
+ClrHome
+Disp "DOMAIN:DEN≠0,","  LN(+), √(>=0)","VA: DEN=0 (NOT","  CANCELLED)","CRIT:F'=0/UNDEF","IP:F'' CHANGES","  SIGN,IN DOMAIN"
+Pause
+Goto M
+Lbl 4
+ClrHome
+Disp "R=X*P  P=R-C","MC=C' MR=R'","MP=P'=MR-MC","AVG COST=C(X)/X","MAX PROFIT:MR=MC","MIN AVG:AVG=MC","DIM.R:F'' + TO -"
+Pause
+Goto M
+Lbl 5
+ClrHome
+Disp "FX: Y CONSTANT","FY: X CONSTANT","P=C*L^A*K^B","PL=ACL^(A-1)K^B","PK=BCL^AK^(B-1)","A+B=1 CONST RTS",">1 INC  <1 DEC"
+Pause
+Goto M
+Lbl Q

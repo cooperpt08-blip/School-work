@@ -1,0 +1,7 @@
+# derivative of ascending coefficient list ʟPA (in place)
+If dim(ʟPA)=1
+Then
+{0}→ʟPA
+Else
+seq(I*ʟPA(I+1),I,1,dim(ʟPA)-1)→ʟPA
+End
