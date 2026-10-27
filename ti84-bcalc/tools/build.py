@@ -27,7 +27,7 @@ SRC = ROOT / "src"
 OUT = ROOT / "build"
 
 # commands whose token text ends in a space; a bare line needs it added back
-BARE_FIX = {"Pause": "Pause ", "FnOff": "FnOff "}
+BARE_FIX = {"Pause": "Pause ", "FnOff": "FnOff ", "PlotsOff": "PlotsOff "}
 
 BLOCK_OPENERS = ("For(", "While ", "Repeat ")
 
@@ -90,7 +90,8 @@ def _token_tables():
 TABLE, SINGLE = _token_tables()
 MAXLEN = max(len(n) for n in TABLE)
 # multi-character tokens that are allowed inside string literals
-STRING_TOKENS = [f"Y{c}" for c in "₀₁₂₃₄₅₆₇₈₉"] + ["√(", "𝑒^(", "𝑒"]
+STRING_TOKENS = [f"Y{c}" for c in "₀₁₂₃₄₅₆₇₈₉"] + ["³√(", "√(", "𝑒^(", "𝑒",
+                                                    "ln(", "log(", "abs(", "⁻¹"]
 CLOSERS = (")", "}")
 
 

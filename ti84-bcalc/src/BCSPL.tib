@@ -1,0 +1,42 @@
+# Is f (Str1, already in Y₁) a polynomial or polynomial/polynomial?
+# Splits Str1 at its one top-level "/" -> Str5 (N), Str6 (D), then
+# runs BCRAT.  U=0: yes (ʟN,ʟD,ʟP,ʟQ ready); U=1: no (use numeric mode)
+0→J
+0→C
+0→T
+For(I,1,length(Str1))
+sub(Str1,I,1)→Str9
+If inString("(√(ln(𝑒^(log(³√(abs(",Str9)
+J+1→J
+If Str9=")"
+J-1→J
+If Str9="/" and J=0
+Then
+C+1→C
+I→T
+End
+End
+1→U
+"1"→Str6
+Str1→Str5
+If C=1 and T>1 and T<length(Str1)
+Then
+sub(Str1,1,T-1)→Str5
+sub(Str1,T+1,length(Str1)-T)→Str6
+End
+Str5+"+"+Str6→Str9
+inString(Str9,"ln(")+inString(Str9,"log(")+inString(Str9,"𝑒")+inString(Str9,"𝑒^(")+inString(Str9,"√(")+inString(Str9,"/")+inString(Str9,"⁻¹")+inString(Str9,"^⁻")+inString(Str9,"abs(")→J
+If C≤1 and J=0
+Then
+prgmBCRAT
+If U=0
+Then
+"("+Str5+")/("+Str6+")"→Str9
+String►Equ(Str9,Y₆)
+a+b𝑖
+abs(Y₁(.5371)-Y₆(.5371))+abs(Y₁(⁻2.3187)-Y₆(⁻2.3187))+abs(Y₁(3.7713)-Y₆(3.7713))→T
+Real
+If T>1ᴇ⁻6*(1+abs(Y₁(.5371)))
+1→U
+End
+End

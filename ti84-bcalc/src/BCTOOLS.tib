@@ -57,7 +57,7 @@ Disp "TYPE POLYNOMIAL","IN X (DEG<=8)"
 Input "P(X)=",Str8
 prgmBCCOEF
 If U
-Goto M
+Goto 6
 ʟPC→ʟPA
 prgmBCTRIM
 prgmBCROOT
@@ -139,5 +139,10 @@ Else
 prgmBCPR
 End
 prgmBCEND
+Goto M
+Lbl 6
+ClrHome
+Disp "NOT A POLYNOMIAL","OF DEGREE<=8"
+Pause
 Goto M
 Lbl Q

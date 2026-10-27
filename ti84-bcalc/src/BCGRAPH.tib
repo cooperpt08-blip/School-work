@@ -1,6 +1,19 @@
 # GRAPH ANALYZER module
 Lbl M
-Menu("GRAPH ANALYZER","POLY/RATIONAL",1,"ANY F(X)",2,"BACK",Q)
+Menu("GRAPH ANALYZER","TYPE F(X)",A,"F=N/D (EXACT)",1,"F + MY WINDOW",2,"BACK",Q)
+Lbl A
+prgmBCINF
+ClrHome
+Disp "WORKING..."
+prgmBCSPL
+If U
+Goto W
+Goto E
+Lbl V
+ClrHome
+Disp "N,D MUST BE","POLYNOMIALS","(DEGREE<=8)."
+Pause
+Goto M
 Lbl 1
 ClrHome
 Disp "F=N(X)/D(X)","N,D POLYNOMIALS","D=1 IF POLY"
@@ -12,9 +25,18 @@ ClrHome
 Disp "WORKING..."
 prgmBCRAT
 If U
-Goto M
+Goto V
+Lbl E
 Str1→Str8
 prgmBCSETY
+ClrHome
+1→W
+"F(X)="+Str1→Str0
+prgmBCPR
+prgmBCDFRM
+prgmBCEND
+Disp "WORKING..."
+{9ᴇ99}→ʟHA
 {0}→ʟEX
 {0}→ʟET
 .04→S
@@ -61,6 +83,7 @@ max(abs(ʟEX))+2→R
 L→ʟEX(1)
 augment(ʟEX,{R})→ʟEX
 augment(ʟET,{0})→ʟET
+{L,R}→ʟWN
 prgmBCRPT
 "=ASYMPTOTE/END="→Str0
 prgmBCPR
@@ -71,12 +94,14 @@ If M≥1 and N<M
 Then
 "HA: Y=0"→Str0
 prgmBCPR
+augment(ʟHA,{0})→ʟHA
 End
 If M≥1 and N=M
 Then
 "HA: Y="→Str0
 T→θ
 prgmBCPV
+augment(ʟHA,{T})→ʟHA
 End
 If M≥1 and N=M+1
 Then
@@ -118,7 +143,12 @@ If T*(⁻1)^(N-M)>0
 prgmBCPR
 End
 prgmBCEND
+prgmBCSKT
 Goto M
+Lbl W
+⁻10→L
+10→R
+Goto 3
 Lbl 2
 prgmBCINF
 ClrHome
@@ -127,10 +157,12 @@ Input "LEFT X=",L
 Input "RIGHT X=",R
 If R≤L
 L+20→R
+Lbl 3
 ClrHome
 Disp "WORKING...","(UP TO ~1 MIN)"
 {L,R}→ʟEX
 {0,0}→ʟET
+{L,R}→ʟWN
 0→E
 String►Equ("Y₁",Y₄)
 0→C
@@ -146,11 +178,13 @@ String►Equ("Y₃",Y₄)
 64→N
 prgmBCSCAN
 prgmBCRPT
+{9ᴇ99}→ʟHA
 prgmBCEB
 "(-INF/INF = EDGE"→Str0
 prgmBCPR
 "OF YOUR WINDOW)"→Str0
 prgmBCPR
 prgmBCEND
+prgmBCSKT
 Goto M
 Lbl Q

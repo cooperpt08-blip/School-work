@@ -14,4 +14,6 @@ If C=0 and M=1
 If C=0 and M=⁻1
 "X->-INF: HA Y"→Str0
 prgmZL
+If C=0
+augment(ʟHA,{L})→ʟHA
 End

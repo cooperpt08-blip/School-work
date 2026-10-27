@@ -1,0 +1,71 @@
+{0}→L₁
+0→J
+a+b𝑖
+For(I,1,dim(ʟEX))
+ʟET(I)→T
+If T=10 or T=21 or T=30 or T=31 or T=40 or T=41
+Then
+Y₁(ʟEX(I)+1ᴇ⁻7*(T=21))→B
+If imag(B)=0
+Then
+J+1→J
+real(B)→L₁(J)
+End
+End
+End
+Real
+For(I,2,dim(ʟHA))
+J+1→J
+ʟHA(I)→L₁(J)
+End
+If J=0
+1→J
+J→dim(L₁)
+max(1,max(L₁)-min(L₁))→C
+min(L₁)-.35C→A
+max(L₁)+.35C→B
+min(A,⁻.5)→A
+max(B,.5)→B
+FnOff 
+FnOn 1
+PlotsOff 
+ʟWN(1)→Xmin
+ʟWN(2)→Xmax
+A→Ymin
+B→Ymax
+(ʟWN(2)-ʟWN(1))/10→Xscl
+(B-A)/10→Yscl
+ClrDraw
+Real
+DispGraph
+For(I,1,dim(ʟEX))
+ʟET(I)→T
+ʟEX(I)→X
+If T=20
+Vertical X
+If T=10 or T=21 or T=30 or T=31 or T=40 or T=41
+Then
+a+b𝑖
+Y₁(X+1ᴇ⁻7*(T=21))→D
+Real
+If imag(D)=0 and real(D)≥A and real(D)≤B
+Then
+real(D)→D
+If T=10 or T=21
+Pt-On(X,D,1)
+If T=30 or T=31
+Pt-On(X,D,2)
+If T=40 or T=41
+Pt-On(X,D,3)
+End
+End
+End
+For(I,2,dim(ʟHA))
+If ʟHA(I)≥A and ʟHA(I)≤B
+Horizontal ʟHA(I)
+End
+Pause 
+ClrHome
+Disp "GRAPH: PRESS","GRAPH/TRACE TO","SEE IT AGAIN","(F IS IN Y1)"
+Pause 
+ClrHome

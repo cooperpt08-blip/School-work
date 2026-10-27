@@ -41,6 +41,7 @@ SUBS = "₀₁₂₃₄₅₆₇₈₉"
 LISTS = {f"L{SUBS[i]}" for i in range(1, 7)}
 YVARS = {f"Y{c}" for c in SUBS}
 STRS = {f"Str{i}" for i in range(10)}
+WINDOW = {"Xmin", "Xmax", "Ymin", "Ymax", "Xscl", "Yscl"}
 
 
 # ---------------------------------------------------------------- numbers
@@ -274,6 +275,8 @@ class Calc:
         self.cache = {}
         self.trace = trace
         self.peak_mem = 0
+        self.window = {}
+        self.drawing = []                 # graph-screen commands, in order
 
     def mem_used(self):
         """approximate bytes of variables (data only, no VAT entries)"""
@@ -362,9 +365,9 @@ class Calc:
     def binop(self, op, a, b):
         if op == "+" and is_str(a) and is_str(b):
             return a + b
+        if is_str(a) and is_str(b) and op in ("=", "≠"):
+            return float((a == b) == (op == "="))
         if is_str(a) or is_str(b):
-            if op in ("=", "≠"):
-                raise TIError("DATA TYPE")
             raise TIError("DATA TYPE")
         return self.elementwise(lambda x, y: self.scalar_bin(op, x, y), a, b)
 
@@ -635,6 +638,9 @@ class Calc:
 
     # ---- storing
     def store(self, target, val):
+        if len(target) == 1 and target[0] in WINDOW:
+            self.window[target[0]] = self.real(val)
+            return
         if len(target) == 1 and target[0] in LETTERS:
             if is_list(val) or is_str(val):
                 raise TIError("DATA TYPE store")
@@ -882,6 +888,20 @@ class Calc:
             return
         if head in ("Input ", "Prompt "):
             self.do_input(head, rest)
+            return
+        if head in ("FnOn ", "PlotsOff ", "ClrDraw"):
+            if head == "ClrDraw":
+                self.drawing = []
+            return
+        if head == "DispGraph":
+            w = self.window
+            if not (w.get("Xmin", 0) < w.get("Xmax", 0) and w.get("Ymin", 0) < w.get("Ymax", 0)):
+                raise TIError("WINDOW RANGE")
+            self.drawing.append("GRAPH Y1 on " + str(w))
+            return
+        if head in ("Pt-On(", "Vertical ", "Horizontal "):
+            vals = [self.real(self.ev(self.ast(a))) for a in build.split_args(rest)]
+            self.drawing.append(head.strip() + " " + ",".join(fmt(v) for v in vals))
             return
         if head in ("Real", "a+b𝑖", "Float", "Func", "FnOff "):
             if head == "Real":

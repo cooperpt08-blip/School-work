@@ -1,0 +1,43 @@
+dim(ʟD)=1→J
+If J
+Then
+ʟP/ʟD(1)²→ʟPA
+"F'(X)="→Str0
+Else
+ʟP→ʟPA
+"F'(X)=NUM/DEN"→Str0
+prgmZP
+"NUM="→Str0
+End
+prgmZT
+Str0+Str7→Str0
+prgmZP
+ʟD→ʟPA
+prgmZT
+If not(J)
+Then
+"DEN=("+Str7+")²"→Str0
+prgmZP
+End
+If J
+Then
+ʟQ/ʟD(1)³→ʟPA
+"F''(X)="→Str0
+Else
+ʟQ→ʟPA
+"F''=NUM/DEN"→Str0
+prgmZP
+"NUM="→Str0
+End
+prgmZT
+Str0+Str7→Str0
+prgmZP
+ʟD→ʟPA
+prgmZT
+If not(J)
+Then
+"DEN=("+Str7+")³"→Str0
+prgmZP
+End
+"(EXACT,NOT SIMPLIFIED)"→Str0
+prgmZP

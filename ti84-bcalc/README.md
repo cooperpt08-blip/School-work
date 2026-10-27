@@ -16,7 +16,7 @@ Review for Test #2.
 >    stream in the `.8xp` files. It mimics 14-digit math, Real vs a+bi mode
 >    errors, the 16×8 screen, menus and Input.
 >
-> All 63 simulator tests pass (`tests/RESULTS.md` shows every screen). Please
+> All 70 simulator tests pass (`tests/RESULTS.md` shows every screen). Please
 > still run the 2-minute check in §5 on your calculator before the exam.
 
 ---
@@ -57,7 +57,7 @@ plus about 3.5 KB of working space fits comfortably. All 49 programs at once
 
 `dist/BCALC.8xp` is a single program containing **everything** (all modules
 and all extras; ~29 KB, the CE has ~150 KB RAM). Built by
-`tools/onefile.py`; it passes the same 63 simulator tests.
+`tools/onefile.py`; it passes the same 70 simulator tests.
 
 1. Install **TI Connect™ CE** (free, education.ti.com), open it, connect the
    calculator with its USB cable.
@@ -140,15 +140,15 @@ Main menu: `1 DERIVATIVES · 2 PARTIAL DERIVS · 3 GRAPH ANALYZER · 4 LIMITS/L'
 |---|---|---|
 | **Q1** product/quotient/chain derivatives | `1 DERIVATIVES → 2 CHECK MY F'` | Type f, then **your** derivative. It is compared with the true derivative at 10 x-values: `ALL MATCH!` or the x where it fails, with both values. Works for any form (unsimplified is fine). Also checks f''. |
 | Q1 (value of f′ or f″ at a number) | `1 → 1 F,F',F'' AT X` | f(a), f′(a)~, f″(a)~ with exact hints |
-| Q1/Q5 symbolic derivative of a polynomial or rational function | `1 → 3 EXACT POLY/RAT` | **Exact** f′ = NUM/DEN and f″ = NUM/DEN (coefficient algebra, not numeric) |
+| **Q5 (any of a–d) — the easy way** | `3 GRAPH → 1 TYPE F(X)`, type f once, e.g. `(X+1)/(X²-4)` | Exact f′(x) and f″(x) formulas (polynomial/rational), then VA/holes, intercepts, critical points (x,y) with max/min, increasing/decreasing intervals, inflection points vs "not inflection", concave up/down intervals, HA/slant, and finally **a sketch** on the graph screen (□ = max/min, + = inflection, dot = intercept, lines = asymptotes). For ln/e^/√ functions it switches to the numeric scan of −10…10 automatically |
+| Q5 with your own x-window | `3 → 3 F + MY WINDOW` | same report for any window |
+| Q5 entering N and D separately | `3 → 2 F=N/D (EXACT)` | same as TYPE F(X), exact |
+| Derivative **formula** (f′ and f″) | `1 DERIVATIVES → 3 EXACT F'(X)`, type f once | Exact formulas for polynomials and polynomial/polynomial. For ln, e^, √: do it by hand, then `2 CHECK MY F'` |
 | **Q2** partial derivatives (all six) | `2 PARTIAL → 2 CHECK FX/FY` | Same answer checker for fx, fy, fxx, fyy, fxy at 8 (x,y) points |
 | Q2 values at a point | `2 → 1 FX,FY AT (X,Y)` | f, fx, fy, fxx, fyy, fxy |
 | **Q3** sales S(t)=200t/(t+1)² | `5 MARGINAL → 2 RATE OF CHANGE` | S(2)=44.444444 (=400/9), S′(2)~−7.407407 (=−200/27), "F DECREASING AT RATE 7.407407" |
 | **Q4 / Q8 (14.2 #89, 90)** Cobb-Douglas | `7 MORE → 2 COBB-DOUGLAS` | P, MPL, MPK (exact formulas), symbolic PL and PK, returns to scale, MPL/MPK, % change, ΔP approx vs exact |
 | Q4 other applied partials | `2 → 1` (enter the business function in X,Y) | partial values plus interpretation |
-| **Q5a, Q5d** rational graphs | `3 GRAPH → 1 POLY/RATIONAL`, N(X) and D(X) | VA with side behavior, holes, intercepts, critical points as (x,y) with max/min, inc/dec intervals, inflection points vs. "not inflection", concavity, HA/slant |
-| **Q5b, Q5c** polynomial graphs | `3 → 1`, D(X)=1 | same, plus end behavior |
-| Graphs with ln, e^, roots | `3 → 2 ANY F(X)` + window | numeric version of the same report |
 | **Q6** limits / L'Hôpital | `4 LIMITS → 3 L'HOPITAL N/D` | limits of N and D, the form (0/0, ∞/∞, c/0…), whether L'Hôpital applies, lim N/D, and lim N′/D′ as a cross-check; left/right results when DNE |
 | Q6 single-function limit | `4 → 1` (x→a, choose side) or `4 → 2` (x→±∞) | finite / +INF / −INF / DNE / UNDEFINED / UNCLEAR plus the value table |
 | **Q7 (11.2 #44, 46)** graphs from sign charts | `7 → 3 SIGN CHARTS*` | Enter partition numbers, interval signs and domain flags: get inc/dec or concavity intervals and max/min/IP (with coordinates if you give f values) |
@@ -319,6 +319,6 @@ I recomputed every printed answer:
 ```
 pip install tivars
 python3 tools/build.py        # compile + lint -> build/
-python3 tests/test_review.py  # 63 simulated exam scenarios -> tests/RESULTS.md
+python3 tests/test_review.py  # 70 simulated exam scenarios -> tests/RESULTS.md
 python3 tools/session.py 5 2 "200X/(X+1)²" 2   # try any key sequence
 ```

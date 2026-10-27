@@ -1,0 +1,44 @@
+# print exact f'=ʟP/D² and f''=ʟQ/D³ (from BCRAT) as polynomial text
+dim(ʟD)=1→J
+If J
+Then
+ʟP/ʟD(1)²→ʟPA
+"F'(X)="→Str0
+Else
+ʟP→ʟPA
+"F'(X)=NUM/DEN"→Str0
+prgmBCPR
+"NUM="→Str0
+End
+prgmBCPSTR
+Str0+Str7→Str0
+prgmBCPR
+ʟD→ʟPA
+prgmBCPSTR
+If not(J)
+Then
+"DEN=("+Str7+")²"→Str0
+prgmBCPR
+End
+If J
+Then
+ʟQ/ʟD(1)³→ʟPA
+"F''(X)="→Str0
+Else
+ʟQ→ʟPA
+"F''=NUM/DEN"→Str0
+prgmBCPR
+"NUM="→Str0
+End
+prgmBCPSTR
+Str0+Str7→Str0
+prgmBCPR
+ʟD→ʟPA
+prgmBCPSTR
+If not(J)
+Then
+"DEN=("+Str7+")³"→Str0
+prgmBCPR
+End
+"(EXACT,NOT SIMPLIFIED)"→Str0
+prgmBCPR

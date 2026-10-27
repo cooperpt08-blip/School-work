@@ -48,9 +48,3 @@ If abs(Y₅-T)>1ᴇ⁻6*(1+abs(T))
 End
 Real
 End
-If U
-Then
-ClrHome
-Disp "NOT A POLYNOMIAL","(DEGREE<=8):",Str8
-Pause
-End

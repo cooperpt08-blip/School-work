@@ -191,9 +191,9 @@ F''(X)~⁻3
 
 ## Q1 exact derivative x/(x^2+1) — PASS
 
-Keys/inputs: `1 → 3 → X → X²+1`
+Keys/inputs: `1 → 3 → X/(X²+1)`
 
-Interpreter steps: 638, function evaluations: 26, peak variable memory ≈ 525 bytes
+Interpreter steps: 718, function evaluations: 33, peak variable memory ≈ 672 bytes
 
 ```
 F'(X)=NUM/DEN   
@@ -204,8 +204,8 @@ NUM=2X^3-6X
 DEN=(X^2+1)³    
                 
     [ENTER] MORE
-(EXACT, UNSIMPLI
-FIED)           
+(EXACT,NOT SIMPL
+IFIED)          
                 
                 
                 
@@ -394,11 +394,27 @@ F''(X)~0
 
 ## Q5a x/(x^2+1) rational — PASS
 
-Keys/inputs: `3 → 1 → X → X²+1`
+Keys/inputs: `3 → 2 → X → X²+1`
 
-Interpreter steps: 7214, function evaluations: 124, peak variable memory ≈ 1248 bytes
+Interpreter steps: 7717, function evaluations: 136, peak variable memory ≈ 1287 bytes
 
 ```
+F(X)=(X)/(X²+1) 
+F'(X)=NUM/DEN   
+NUM=-X^2+1      
+DEN=(X^2+1)²    
+F''=NUM/DEN     
+NUM=2X^3-6X     
+DEN=(X^2+1)³    
+    [ENTER] MORE
+(EXACT,NOT SIMPL
+IFIED)          
+                
+                
+                
+                
+                
+    [ENTER] DONE
 =DOMAIN/BREAKS= 
 NONE: NO VA,HOLE
 =INTERCEPTS=    
@@ -447,15 +463,35 @@ HA: Y=0
                 
                 
     [ENTER] DONE
+                
+                
+                
+                
+                
+                
+                
+                
+GRAPH: PRESS    
+GRAPH/TRACE TO  
+SEE IT AGAIN    
+(F IS IN Y1)
 ```
 
 ## Q5b -x^4+6x^2 poly — PASS
 
-Keys/inputs: `3 → 1 → ⁻X^4+6X² → 1`
+Keys/inputs: `3 → 2 → ⁻X^4+6X² → 1`
 
-Interpreter steps: 12357, function evaluations: 122, peak variable memory ≈ 1212 bytes
+Interpreter steps: 12827, function evaluations: 138, peak variable memory ≈ 1243 bytes
 
 ```
+F(X)=(⁻X^4+6X²)/
+(1)             
+F'(X)=-4X^3+12X 
+F''(X)=-12X^2+12
+(EXACT,NOT SIMPL
+IFIED)          
+                
+    [ENTER] DONE
 =DOMAIN/BREAKS= 
 NONE: NO VA,HOLE
 =INTERCEPTS=    
@@ -504,15 +540,35 @@ F->-INF
 AS X->-INF      
 F->-INF         
     [ENTER] DONE
+                
+                
+                
+                
+                
+                
+                
+                
+GRAPH: PRESS    
+GRAPH/TRACE TO  
+SEE IT AGAIN    
+(F IS IN Y1)
 ```
 
 ## Q5c x^3-6x^2+9x poly — PASS
 
-Keys/inputs: `3 → 1 → X³-6X²+9X → 1`
+Keys/inputs: `3 → 2 → X³-6X²+9X → 1`
 
-Interpreter steps: 4789, function evaluations: 94, peak variable memory ≈ 1027 bytes
+Interpreter steps: 5184, function evaluations: 104, peak variable memory ≈ 1058 bytes
 
 ```
+F(X)=(X³-6X²+9X)
+/(1)            
+F'(X)=3X^2-12X+9
+F''(X)=6X-12    
+(EXACT,NOT SIMPL
+IFIED)          
+                
+    [ENTER] DONE
 =DOMAIN/BREAKS= 
 NONE: NO VA,HOLE
 =INTERCEPTS=    
@@ -545,15 +601,43 @@ F->+INF
 AS X->-INF      
 F->-INF         
     [ENTER] DONE
+                
+                
+                
+                
+                
+                
+                
+                
+GRAPH: PRESS    
+GRAPH/TRACE TO  
+SEE IT AGAIN    
+(F IS IN Y1)
 ```
 
 ## Q5d (x+1)/(x^2-4) rational — PASS
 
-Keys/inputs: `3 → 1 → X+1 → X²-4`
+Keys/inputs: `3 → 2 → X+1 → X²-4`
 
-Interpreter steps: 4126, function evaluations: 124, peak variable memory ≈ 1181 bytes
+Interpreter steps: 4606, function evaluations: 128, peak variable memory ≈ 1212 bytes
 
 ```
+F(X)=(X+1)/(X²-4
+)               
+F'(X)=NUM/DEN   
+NUM=-X^2-2X-4   
+DEN=(X^2-4)²    
+F''=NUM/DEN     
+                
+    [ENTER] MORE
+NUM=2X^3+6X^2+24
+X+8             
+DEN=(X^2-4)³    
+(EXACT,NOT SIMPL
+IFIED)          
+                
+                
+    [ENTER] DONE
 =DOMAIN/BREAKS= 
 VERT ASYMP X=⁻2 
 L:-INF  R:+INF  
@@ -586,15 +670,43 @@ CONCAVE DOWN ON:
 =ASYMPTOTE/END= 
 HA: Y=0         
     [ENTER] DONE
+                
+                
+                
+                
+                
+                
+                
+                
+GRAPH: PRESS    
+GRAPH/TRACE TO  
+SEE IT AGAIN    
+(F IS IN Y1)
 ```
 
 ## hole: (x^2-1)/(x-1) — PASS
 
-Keys/inputs: `3 → 1 → X²-1 → X-1`
+Keys/inputs: `3 → 2 → X²-1 → X-1`
 
-Interpreter steps: 2564, function evaluations: 88, peak variable memory ≈ 972 bytes
+Interpreter steps: 2899, function evaluations: 92, peak variable memory ≈ 1007 bytes
 
 ```
+F(X)=(X²-1)/(X-1
+)               
+F'(X)=NUM/DEN   
+NUM=X^2-2X+1    
+DEN=(X-1)²      
+F''=NUM/DEN     
+NUM=0           
+    [ENTER] MORE
+DEN=(X-1)³      
+(EXACT,NOT SIMPL
+IFIED)          
+                
+                
+                
+                
+    [ENTER] DONE
 =DOMAIN/BREAKS= 
 HOLE AT X=1     
 HOLE PT (1,2)   
@@ -627,15 +739,43 @@ EXCEPT HOLES)
                 
                 
     [ENTER] DONE
+                
+                
+                
+                
+                
+                
+                
+                
+GRAPH: PRESS    
+GRAPH/TRACE TO  
+SEE IT AGAIN    
+(F IS IN Y1)
 ```
 
 ## slant asymptote (x^2+1)/x — PASS
 
-Keys/inputs: `3 → 1 → X²+1 → X`
+Keys/inputs: `3 → 2 → X²+1 → X`
 
-Interpreter steps: 2787, function evaluations: 107, peak variable memory ≈ 1020 bytes
+Interpreter steps: 3097, function evaluations: 111, peak variable memory ≈ 1054 bytes
 
 ```
+F(X)=(X²+1)/(X) 
+F'(X)=NUM/DEN   
+NUM=X^2-1       
+DEN=(X)²        
+F''=NUM/DEN     
+NUM=2           
+DEN=(X)³        
+    [ENTER] MORE
+(EXACT,NOT SIMPL
+IFIED)          
+                
+                
+                
+                
+                
+    [ENTER] DONE
 =DOMAIN/BREAKS= 
 VERT ASYMP X=0  
 L:-INF  R:+INF  
@@ -668,18 +808,30 @@ SLANT Y=MX+B, M=
 B=0             
                 
     [ENTER] DONE
+                
+                
+                
+                
+                
+                
+                
+                
+GRAPH: PRESS    
+GRAPH/TRACE TO  
+SEE IT AGAIN    
+(F IS IN Y1)
 ```
 
 ## not a polynomial is rejected — PASS
 
-Keys/inputs: `3 → 1 → ln(X+20) → 1`
+Keys/inputs: `3 → 2 → ln(X+20) → 1`
 
-Interpreter steps: 113, function evaluations: 11, peak variable memory ≈ 326 bytes
+Interpreter steps: 112, function evaluations: 11, peak variable memory ≈ 326 bytes
 
 ```
-NOT A POLYNOMIAL
-(DEGREE<=8):    
-ln(X+20)
+N,D MUST BE     
+POLYNOMIALS     
+(DEGREE<=8).
 ```
 
 ## reuse last f (BCINF) — PASS
@@ -707,11 +859,425 @@ F''(X)~18
     [ENTER] DONE
 ```
 
+## Q5a one input — PASS
+
+Keys/inputs: `3 → 1 → X/(X²+1)`
+
+Interpreter steps: 7796, function evaluations: 143, peak variable memory ≈ 1301 bytes
+
+```
+F(X)=X/(X²+1)   
+F'(X)=NUM/DEN   
+NUM=-X^2+1      
+DEN=(X^2+1)²    
+F''=NUM/DEN     
+NUM=2X^3-6X     
+DEN=(X^2+1)³    
+    [ENTER] MORE
+(EXACT,NOT SIMPL
+IFIED)          
+                
+                
+                
+                
+                
+    [ENTER] DONE
+=DOMAIN/BREAKS= 
+NONE: NO VA,HOLE
+=INTERCEPTS=    
+Y-INT (0,0)     
+X-INT (0,0)     
+=CRITICAL PTS=  
+LOC MIN (⁻1,⁻.5)
+    [ENTER] MORE
+  (F'=0)        
+LOC MAX (1,.5)  
+  (F'=0)        
+INCREASING ON:  
+ (⁻1,1)         
+DECREASING ON:  
+ (-INF,⁻1)      
+    [ENTER] MORE
+ (1,INF)        
+=INFLECTION PTS=
+INFL PT (⁻1.7321
+,⁻.433)         
+ X=-√(3) Y=-√(3/
+16)             
+  (F''=0)       
+    [ENTER] MORE
+INFL PT (0,0)   
+  (F''=0)       
+INFL PT (1.7321,
+.433)           
+ X=√(3) Y=√(3/16
+)               
+  (F''=0)       
+    [ENTER] MORE
+CONCAVE UP ON:  
+ (⁻1.7321,0)    
+ (1.7321,INF)   
+CONCAVE DOWN ON:
+ (-INF,⁻1.7321) 
+ (0,1.7321)     
+=ASYMPTOTE/END= 
+    [ENTER] MORE
+HA: Y=0         
+                
+                
+                
+                
+                
+                
+    [ENTER] DONE
+                
+                
+                
+                
+                
+                
+                
+                
+GRAPH: PRESS    
+GRAPH/TRACE TO  
+SEE IT AGAIN    
+(F IS IN Y1)
+```
+
+## Q5b one input — PASS
+
+Keys/inputs: `3 → 1 → ⁻X^4+6X²`
+
+Interpreter steps: 12898, function evaluations: 145, peak variable memory ≈ 1247 bytes
+
+```
+F(X)=⁻X^4+6X²   
+F'(X)=-4X^3+12X 
+F''(X)=-12X^2+12
+(EXACT,NOT SIMPL
+IFIED)          
+                
+                
+    [ENTER] DONE
+=DOMAIN/BREAKS= 
+NONE: NO VA,HOLE
+=INTERCEPTS=    
+Y-INT (0,0)     
+X-INT (⁻2.4495,0
+)               
+ X=-√(6)        
+    [ENTER] MORE
+X-INT (0,0)     
+X-INT (2.4495,0)
+ X=√(6)         
+=CRITICAL PTS=  
+LOC MAX (⁻1.7321
+,9)             
+ X=-√(3)        
+    [ENTER] MORE
+  (F'=0)        
+LOC MIN (0,0)   
+  (F'=0)        
+LOC MAX (1.7321,
+9)              
+ X=√(3)         
+  (F'=0)        
+    [ENTER] MORE
+INCREASING ON:  
+ (-INF,⁻1.7321) 
+ (0,1.7321)     
+DECREASING ON:  
+ (⁻1.7321,0)    
+ (1.7321,INF)   
+=INFLECTION PTS=
+    [ENTER] MORE
+INFL PT (⁻1,5)  
+  (F''=0)       
+INFL PT (1,5)   
+  (F''=0)       
+CONCAVE UP ON:  
+ (⁻1,1)         
+CONCAVE DOWN ON:
+    [ENTER] MORE
+ (-INF,⁻1)      
+ (1,INF)        
+=ASYMPTOTE/END= 
+NO HA. AS X->INF
+F->-INF         
+AS X->-INF      
+F->-INF         
+    [ENTER] DONE
+                
+                
+                
+                
+                
+                
+                
+                
+GRAPH: PRESS    
+GRAPH/TRACE TO  
+SEE IT AGAIN    
+(F IS IN Y1)
+```
+
+## Q5c one input — PASS
+
+Keys/inputs: `3 → 1 → X³-6X²+9X`
+
+Interpreter steps: 5260, function evaluations: 111, peak variable memory ≈ 1057 bytes
+
+```
+F(X)=X³-6X²+9X  
+F'(X)=3X^2-12X+9
+F''(X)=6X-12    
+(EXACT,NOT SIMPL
+IFIED)          
+                
+                
+    [ENTER] DONE
+=DOMAIN/BREAKS= 
+NONE: NO VA,HOLE
+=INTERCEPTS=    
+Y-INT (0,0)     
+X-INT (0,0)     
+X-INT (3,0)     
+=CRITICAL PTS=  
+    [ENTER] MORE
+LOC MAX (1,4)   
+  (F'=0)        
+LOC MIN (3,0)   
+  (F'=0)        
+INCREASING ON:  
+ (-INF,1)       
+ (3,INF)        
+    [ENTER] MORE
+DECREASING ON:  
+ (1,3)          
+=INFLECTION PTS=
+INFL PT (2,2)   
+  (F''=0)       
+CONCAVE UP ON:  
+ (2,INF)        
+    [ENTER] MORE
+CONCAVE DOWN ON:
+ (-INF,2)       
+=ASYMPTOTE/END= 
+NO HA. AS X->INF
+F->+INF         
+AS X->-INF      
+F->-INF         
+    [ENTER] DONE
+                
+                
+                
+                
+                
+                
+                
+                
+GRAPH: PRESS    
+GRAPH/TRACE TO  
+SEE IT AGAIN    
+(F IS IN Y1)
+```
+
+## Q5d one input — PASS
+
+Keys/inputs: `3 → 1 → (X+1)/(X²-4)`
+
+Interpreter steps: 4707, function evaluations: 135, peak variable memory ≈ 1236 bytes
+
+```
+F(X)=(X+1)/(X²-4
+)               
+F'(X)=NUM/DEN   
+NUM=-X^2-2X-4   
+DEN=(X^2-4)²    
+F''=NUM/DEN     
+                
+    [ENTER] MORE
+NUM=2X^3+6X^2+24
+X+8             
+DEN=(X^2-4)³    
+(EXACT,NOT SIMPL
+IFIED)          
+                
+                
+    [ENTER] DONE
+=DOMAIN/BREAKS= 
+VERT ASYMP X=⁻2 
+L:-INF  R:+INF  
+VERT ASYMP X=2  
+L:-INF  R:+INF  
+=INTERCEPTS=    
+Y-INT (0,⁻.25)  
+    [ENTER] MORE
+X-INT (⁻1,0)    
+=CRITICAL PTS=  
+NONE FOUND      
+INCREASING ON:  
+ NONE           
+DECREASING ON:  
+ (-INF,⁻2)      
+    [ENTER] MORE
+ (⁻2,2)         
+ (2,INF)        
+=INFLECTION PTS=
+INFL PT (⁻.3622,
+⁻.1649)         
+  (F''=0)       
+CONCAVE UP ON:  
+    [ENTER] MORE
+ (⁻2,⁻.3622)    
+ (2,INF)        
+CONCAVE DOWN ON:
+ (-INF,⁻2)      
+ (⁻.3622,2)     
+=ASYMPTOTE/END= 
+HA: Y=0         
+    [ENTER] DONE
+                
+                
+                
+                
+                
+                
+                
+                
+GRAPH: PRESS    
+GRAPH/TRACE TO  
+SEE IT AGAIN    
+(F IS IN Y1)
+```
+
+## one input, not rational -> numeric — PASS
+
+Keys/inputs: `3 → 1 → ln(X)/X`
+
+Interpreter steps: 5328, function evaluations: 1707, peak variable memory ≈ 1605 bytes
+
+```
+=DOMAIN/BREAKS= 
+VERT ASYMP X=0  
+L:UNDEF  R:-INF 
+=INTERCEPTS=    
+NO Y-INT        
+X-INT (1,0)     
+=CRITICAL PTS=  
+    [ENTER] MORE
+LOC MAX (2.7183,
+.3679)          
+  (F'=0)        
+INCREASING ON:  
+ (0,2.7183)     
+DECREASING ON:  
+ (2.7183,INF)   
+    [ENTER] MORE
+=INFLECTION PTS=
+INFL PT (4.4817,
+.3347)          
+  (F''=0)       
+CONCAVE UP ON:  
+ (4.4817,INF)   
+CONCAVE DOWN ON:
+    [ENTER] MORE
+ (0,4.4817)     
+=END BEHAVIOR=  
+X->+INF: HA Y~0 
+X->-INF: F UNDEF
+INED            
+(-INF/INF = EDGE
+OF YOUR WINDOW) 
+    [ENTER] DONE
+                
+                
+                
+                
+                
+                
+                
+                
+GRAPH: PRESS    
+GRAPH/TRACE TO  
+SEE IT AGAIN    
+(F IS IN Y1)
+```
+
+## one input, 1/x+x is not split wrongly — PASS
+
+Keys/inputs: `3 → 1 → 1/X+X`
+
+Interpreter steps: 6650, function evaluations: 2367, peak variable memory ≈ 1769 bytes
+
+```
+=DOMAIN/BREAKS= 
+VERT ASYMP X=0  
+L:-INF  R:+INF  
+=INTERCEPTS=    
+NO Y-INT        
+NO X-INTS FOUND 
+=CRITICAL PTS=  
+    [ENTER] MORE
+LOC MAX (⁻1,⁻2) 
+  (F'=0)        
+LOC MIN (1,2)   
+  (F'=0)        
+INCREASING ON:  
+ (-INF,⁻1)      
+ (1,INF)        
+    [ENTER] MORE
+DECREASING ON:  
+ (⁻1,0)         
+ (0,1)          
+=INFLECTION PTS=
+NONE FOUND      
+CONCAVE UP ON:  
+ (0,INF)        
+    [ENTER] MORE
+CONCAVE DOWN ON:
+ (-INF,0)       
+=END BEHAVIOR=  
+X->+INF: F=+INF 
+X->-INF: F=-INF 
+(-INF/INF = EDGE
+OF YOUR WINDOW) 
+    [ENTER] DONE
+                
+                
+                
+                
+                
+                
+                
+                
+GRAPH: PRESS    
+GRAPH/TRACE TO  
+SEE IT AGAIN    
+(F IS IN Y1)
+```
+
+## exact f' refuses ln — PASS
+
+Keys/inputs: `1 → 3 → ln(X)/X`
+
+Interpreter steps: 82, function evaluations: 0, peak variable memory ≈ 0 bytes
+
+```
+NOT A POLYNOMIAL
+OR POLY/POLY.   
+NO TI-84 CAN    
+WRITE THIS F'.  
+DO IT BY HAND,  
+THEN USE        
+CHECK MY F'
+```
+
 ## Q5a numeric — PASS
 
-Keys/inputs: `3 → 2 → X/(X²+1) → ⁻10 → 10`
+Keys/inputs: `3 → 3 → X/(X²+1) → ⁻10 → 10`
 
-Interpreter steps: 7024, function evaluations: 2388, peak variable memory ≈ 1579 bytes
+Interpreter steps: 7242, function evaluations: 2400, peak variable memory ≈ 1599 bytes
 
 ```
 =DOMAIN/BREAKS= 
@@ -762,13 +1328,25 @@ OF YOUR WINDOW)
                 
                 
     [ENTER] DONE
+                
+                
+                
+                
+                
+                
+                
+                
+GRAPH: PRESS    
+GRAPH/TRACE TO  
+SEE IT AGAIN    
+(F IS IN Y1)
 ```
 
 ## Q5b numeric — PASS
 
-Keys/inputs: `3 → 2 → ⁻X^4+6X² → ⁻10 → 10`
+Keys/inputs: `3 → 3 → ⁻X^4+6X² → ⁻10 → 10`
 
-Interpreter steps: 7611, function evaluations: 2518, peak variable memory ≈ 1633 bytes
+Interpreter steps: 7865, function evaluations: 2534, peak variable memory ≈ 1653 bytes
 
 ```
 =DOMAIN/BREAKS= 
@@ -819,13 +1397,25 @@ X->-INF: F=-INF
 (-INF/INF = EDGE
 OF YOUR WINDOW) 
     [ENTER] DONE
+                
+                
+                
+                
+                
+                
+                
+                
+GRAPH: PRESS    
+GRAPH/TRACE TO  
+SEE IT AGAIN    
+(F IS IN Y1)
 ```
 
 ## Q5c numeric — PASS
 
-Keys/inputs: `3 → 2 → X³-6X²+9X → ⁻10 → 10`
+Keys/inputs: `3 → 3 → X³-6X²+9X → ⁻10 → 10`
 
-Interpreter steps: 5902, function evaluations: 1930, peak variable memory ≈ 1600 bytes
+Interpreter steps: 6081, function evaluations: 1940, peak variable memory ≈ 1620 bytes
 
 ```
 =DOMAIN/BREAKS= 
@@ -860,13 +1450,25 @@ X->-INF: F=-INF
 (-INF/INF = EDGE
 OF YOUR WINDOW) 
     [ENTER] DONE
+                
+                
+                
+                
+                
+                
+                
+                
+GRAPH: PRESS    
+GRAPH/TRACE TO  
+SEE IT AGAIN    
+(F IS IN Y1)
 ```
 
 ## Q5d numeric — PASS
 
-Keys/inputs: `3 → 2 → (X+1)/(X²-4) → ⁻10 → 10`
+Keys/inputs: `3 → 3 → (X+1)/(X²-4) → ⁻10 → 10`
 
-Interpreter steps: 7164, function evaluations: 2262, peak variable memory ≈ 1591 bytes
+Interpreter steps: 7300, function evaluations: 2266, peak variable memory ≈ 1611 bytes
 
 ```
 =DOMAIN/BREAKS= 
@@ -909,13 +1511,25 @@ OF YOUR WINDOW)
                 
                 
     [ENTER] DONE
+                
+                
+                
+                
+                
+                
+                
+                
+GRAPH: PRESS    
+GRAPH/TRACE TO  
+SEE IT AGAIN    
+(F IS IN Y1)
 ```
 
 ## extra: e^(-x^2) numeric — PASS
 
-Keys/inputs: `3 → 2 → 𝑒^(⁻X²) → ⁻4 → 10`
+Keys/inputs: `3 → 3 → 𝑒^(⁻X²) → ⁻4 → 10`
 
-Interpreter steps: 6003, function evaluations: 1800, peak variable memory ≈ 1534 bytes
+Interpreter steps: 6146, function evaluations: 1806, peak variable memory ≈ 1554 bytes
 
 ```
 =DOMAIN/BREAKS= 
@@ -958,13 +1572,25 @@ OF YOUR WINDOW)
                 
                 
     [ENTER] DONE
+                
+                
+                
+                
+                
+                
+                
+                
+GRAPH: PRESS    
+GRAPH/TRACE TO  
+SEE IT AGAIN    
+(F IS IN Y1)
 ```
 
 ## extra: ln x / x numeric — PASS
 
-Keys/inputs: `3 → 2 → ln(X)/X → ⁻4 → 10`
+Keys/inputs: `3 → 3 → ln(X)/X → ⁻4 → 10`
 
-Interpreter steps: 5588, function evaluations: 1701, peak variable memory ≈ 1570 bytes
+Interpreter steps: 5733, function evaluations: 1707, peak variable memory ≈ 1590 bytes
 
 ```
 =DOMAIN/BREAKS= 
@@ -999,13 +1625,25 @@ INED
 (-INF/INF = EDGE
 OF YOUR WINDOW) 
     [ENTER] DONE
+                
+                
+                
+                
+                
+                
+                
+                
+GRAPH: PRESS    
+GRAPH/TRACE TO  
+SEE IT AGAIN    
+(F IS IN Y1)
 ```
 
 ## extra: cusp cbrt(x)^2 — PASS
 
-Keys/inputs: `3 → 2 → ³√(X)² → ⁻4 → 10`
+Keys/inputs: `3 → 3 → ³√(X)² → ⁻4 → 10`
 
-Interpreter steps: 4922, function evaluations: 1342, peak variable memory ≈ 1549 bytes
+Interpreter steps: 5026, function evaluations: 1346, peak variable memory ≈ 1569 bytes
 
 ```
 =DOMAIN/BREAKS= 
@@ -1040,6 +1678,18 @@ OF YOUR WINDOW)
                 
                 
     [ENTER] DONE
+                
+                
+                
+                
+                
+                
+                
+                
+GRAPH: PRESS    
+GRAPH/TRACE TO  
+SEE IT AGAIN    
+(F IS IN Y1)
 ```
 
 ## Q6a (e^x-1)/x, x->0 — PASS
@@ -1556,7 +2206,7 @@ VERTEX (1,⁻3)
 
 Keys/inputs: `7 → 4 → 2 → X³-6X²+9X`
 
-Interpreter steps: 2303, function evaluations: 13, peak variable memory ≈ 730 bytes
+Interpreter steps: 2302, function evaluations: 13, peak variable memory ≈ 730 bytes
 
 ```
 =REAL ROOTS=    

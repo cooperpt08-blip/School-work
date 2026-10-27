@@ -1,6 +1,6 @@
 # DERIVATIVES module
 Lbl M
-Menu("DERIVATIVES","F,F',F'' AT X",1,"CHECK MY F'",2,"EXACT POLY/RAT",3,"RULES SHEET",5,"BACK",Q)
+Menu("DERIVATIVES","F,F',F'' AT X",1,"CHECK MY F'",2,"EXACT F'(X)",3,"RULES SHEET",5,"BACK",Q)
 Lbl 1
 prgmBCINF
 Lbl 6
@@ -115,61 +115,21 @@ End
 prgmBCEND
 Goto M
 Lbl 3
-ClrHome
-Disp "F=N(X)/D(X)","N,D POLYNOMIALS","D=1 IF POLY"
-Input "N(X)=",Str5
-Input "D(X)=",Str6
+prgmBCINF
 ClrHome
 Disp "WORKING..."
-prgmBCRAT
+prgmBCSPL
 If U
-Goto M
+Goto 4
 ClrHome
 1→W
-dim(ʟD)=1→J
-If J
-Then
-ʟP/ʟD(1)²→ʟPA
-"F'(X)="→Str0
-Else
-ʟP→ʟPA
-"F'(X)=NUM/DEN"→Str0
-prgmBCPR
-"NUM="→Str0
-End
-prgmBCPSTR
-Str0+Str7→Str0
-prgmBCPR
-ʟD→ʟPA
-prgmBCPSTR
-If not(J)
-Then
-"DEN=("+Str7+")²"→Str0
-prgmBCPR
-End
-If J
-Then
-ʟQ/ʟD(1)³→ʟPA
-"F''(X)="→Str0
-Else
-ʟQ→ʟPA
-"F''=NUM/DEN"→Str0
-prgmBCPR
-"NUM="→Str0
-End
-prgmBCPSTR
-Str0+Str7→Str0
-prgmBCPR
-ʟD→ʟPA
-prgmBCPSTR
-If not(J)
-Then
-"DEN=("+Str7+")³"→Str0
-prgmBCPR
-End
-"(EXACT, UNSIMPLIFIED)"→Str0
-prgmBCPR
+prgmBCDFRM
 prgmBCEND
+Goto M
+Lbl 4
+ClrHome
+Disp "NOT A POLYNOMIAL","OR POLY/POLY.","NO TI-84 CAN","WRITE THIS F'.","DO IT BY HAND,","THEN USE","CHECK MY F'"
+Pause
 Goto M
 Lbl 5
 prgmBCFORM

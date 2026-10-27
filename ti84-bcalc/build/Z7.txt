@@ -11,9 +11,6 @@ Return
 If max(abs(ʟD))=0
 Then
 1→U
-ClrHome
-Disp "D(X)=0 NOT OK"
-Pause 
 Return
 End
 ʟN→ʟPA
