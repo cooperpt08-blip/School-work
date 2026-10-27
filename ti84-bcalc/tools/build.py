@@ -343,7 +343,7 @@ def main():
         built.append((name, size, len(lines)))
         (OUT / f"{name}.txt").write_text("\n".join(lines) + "\n", "utf-8")
     sizes = {n: sz for n, sz, _ in built}
-    for gname, members in (("BCCORE", [n for n in sizes if n not in EXTRAS]),
+    for gname, members in (("BCALC", [n for n in sizes if n not in EXTRAS]),
                            ("BCEXTRA", [n for n in sizes if n in EXTRAS])):
         group = TIGroup.group([TIProgram.open(str(OUT / f"{n}.8xp"))
                                for n in members], name=gname)

@@ -26,7 +26,8 @@ Review for Test #2.
 | File | What it is |
 |---|---|
 | `build/*.8xp` | **The programs to send to your calculator** (49 files) |
-| `build/BCCORE.8xg` / `build/BCEXTRA.8xg` | The same programs bundled as two group files (optional) |
+| **`dist/BCALC.8xg`** (= `build/BCALC.8xg`) | **The one file to upload**: every core program in a single group file |
+| `build/BCEXTRA.8xg` | Optional extras (sign charts, quick tools, formula sheets, templates) as one group file |
 | `build/*.txt` | Readable listing of each program, in case you ever need to type one in |
 | `src/*.tib` | Commented source code |
 | `tools/build.py` | Compiler and checker (`pip install tivars`, then `python3 tools/build.py`) |
@@ -49,25 +50,25 @@ plus about 3.5 KB of working space fits comfortably. All 49 programs at once
 
 ---
 
-## 2. Install on a MacBook (TI Connect CE)
+## 2. Install on a MacBook (TI Connect CE) — one file
 
-1. Install **TI Connect™ CE** (free) from education.ti.com and open it.
-2. Plug in the calculator with a USB mini-B cable. It should appear under
-   "Connected Calculators".
-3. **Free up RAM first.** On the calculator, press `2nd` `+` (MEM) → `2:Mem Mgmt/Del…` → `1:All…`.
-   Archive (`ENTER` puts a `*`) or delete the programs/lists you don't need.
-   You want about **23 KB free RAM** (shown at the top of that screen).
-   (`2nd` `+` → `7:Reset` → `1:All RAM` clears everything if you're sure.)
-4. In Finder, open `build/`. Select every `.8xp` **except** `BCSIGN`,
-   `BCTOOLS`, `BCFORM`, `BCOPT2`, and drag them onto the calculator in
-   TI Connect CE. In the send dialog choose **RAM**, then click Send.
-5. Drag the 4 extras (`BCSIGN.8xp`, `BCTOOLS.8xp`, `BCFORM.8xp`,
-   `BCOPT2.8xp`) the same way, but choose **Archive**.
-6. Instead of 4–5 you can send `BCCORE.8xg` and `BCEXTRA.8xg`. A group arrives
-   archived, so you then need `2nd` `+` → `8:Group` → `UNGROUP` and must move
-   the core programs to RAM. Sending the `.8xp` files is simpler.
+1. Install **TI Connect™ CE** (free, education.ti.com), open it, and connect
+   the calculator with its USB cable.
+2. **Free up RAM first.** On the calculator: `2nd` `+` (MEM) →
+   `2:Mem Mgmt/Del…` → `1:All…`. Archive or delete what you don't need until
+   free RAM (top of that screen) is about **23 KB**.
+3. Drag **`BCALC.8xg`** onto the calculator in TI Connect CE and click Send.
+   That's the only file you need.
+4. TI Connect CE may unpack the group for you. Check `PRGM`: if you see
+   **BCALC** (plus programs starting with **Z**), you're done.
+   If not, the calculator stored it as a group. Unpack it once:
+   `2nd` `+` → `8:Group…` → **`UNGROUP`** tab (right arrow) → choose
+   **BCALC** → `ENTER` → if asked about duplicates choose `Overwrite All`.
 
-If TI Connect CE asks whether to replace existing variables, choose Replace.
+The extras (sign charts, quick tools, formula sheets, optimization templates)
+are **not** in this file. They're in `build/BCEXTRA.8xg`. After sending it,
+ungroup it the same way and archive those four programs (they don't fit in
+RAM together with the core).
 
 ### Run it
 
