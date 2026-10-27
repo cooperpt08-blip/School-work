@@ -149,7 +149,11 @@ def run_case(inputs):
 
 
 def main():
-    tisim.load_programs.cache = tisim.load_programs()
+    if "--onefile" in sys.argv:       # the merged single-program build
+        import onefile
+        tisim.load_programs.cache = {"BCALC": onefile.main()}
+    else:
+        tisim.load_programs.cache = tisim.load_programs()
     verbose = "-v" in sys.argv
     fails = 0
     peak = 0
@@ -172,7 +176,8 @@ def main():
                f"Interpreter steps: {calc.steps}, function evaluations: {calc.yevals}, "
                f"peak variable memory ≈ {calc.peak_mem} bytes", "",
                "```", text.rstrip(), "```", ""]
-    (ROOT / "tests" / "RESULTS.md").write_text("\n".join(md), encoding="utf-8")
+    if "--onefile" not in sys.argv:
+        (ROOT / "tests" / "RESULTS.md").write_text("\n".join(md), encoding="utf-8")
     print(f"\n{len(CASES) - fails}/{len(CASES)} passed; peak variable memory {peak} bytes")
     sys.exit(1 if fails else 0)
 

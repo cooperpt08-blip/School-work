@@ -26,7 +26,8 @@ Review for Test #2.
 | File | What it is |
 |---|---|
 | `build/*.8xp` | **The programs to send to your calculator** (49 files) |
-| **`dist/BCALC.8xg`** (= `build/BCALC.8xg`) | **The one file to upload**: every core program in a single group file |
+| **`dist/BCALC.8xp`** | **TI-84 Plus CE: the one file to upload** (everything merged into one program) |
+| `dist/BCALC.8xg` (= `build/BCALC.8xg`) | Black & white TI-84 Plus: every core program in one group file |
 | `build/BCEXTRA.8xg` | Optional extras (sign charts, quick tools, formula sheets, templates) as one group file |
 | `build/*.txt` | Readable listing of each program, in case you ever need to type one in |
 | `src/*.tib` | Commented source code |
@@ -50,7 +51,23 @@ plus about 3.5 KB of working space fits comfortably. All 49 programs at once
 
 ---
 
-## 2. Install on a MacBook (TI Connect CE) — one file
+## 2. Install on a MacBook (TI Connect CE)
+
+### TI-84 Plus CE (color screen) — ONE file: `dist/BCALC.8xp`
+
+`dist/BCALC.8xp` is a single program containing **everything** (all modules
+and all extras; ~29 KB, the CE has ~150 KB RAM). Built by
+`tools/onefile.py`; it passes the same 63 simulator tests.
+
+1. Install **TI Connect™ CE** (free, education.ti.com), open it, connect the
+   calculator with its USB cable.
+2. Drag **`BCALC.8xp`** onto the calculator and click Send (location RAM).
+3. `PRGM` → **BCALC** → `ENTER` `ENTER`.
+
+The CE's screen is bigger (26×10), so reports use only the top-left 16×8
+part of it — that's expected.
+
+### Original black & white TI-84 Plus
 
 1. Install **TI Connect™ CE** (free, education.ti.com), open it, and connect
    the calculator with its USB cable.
