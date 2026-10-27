@@ -16,7 +16,7 @@ Review for Test #2.
 >    stream in the `.8xp` files. It mimics 14-digit math, Real vs a+bi mode
 >    errors, the 16×8 screen, menus and Input.
 >
-> All 70 simulator tests pass (`tests/RESULTS.md` shows every screen). Please
+> All 81 simulator tests pass (`tests/RESULTS.md` shows every screen). Please
 > still run the 2-minute check in §5 on your calculator before the exam.
 
 ---
@@ -57,7 +57,7 @@ plus about 3.5 KB of working space fits comfortably. All 49 programs at once
 
 `dist/BCALC.8xp` is a single program containing **everything** (all modules
 and all extras; ~29 KB, the CE has ~150 KB RAM). Built by
-`tools/onefile.py`; it passes the same 70 simulator tests.
+`tools/onefile.py`; it passes the same 81 simulator tests.
 
 1. Install **TI Connect™ CE** (free, education.ti.com), open it, connect the
    calculator with its USB cable.
@@ -143,7 +143,8 @@ Main menu: `1 DERIVATIVES · 2 PARTIAL DERIVS · 3 GRAPH ANALYZER · 4 LIMITS/L'
 | **Q5 (any of a–d) — the easy way** | `3 GRAPH → 1 TYPE F(X)`, type f once, e.g. `(X+1)/(X²-4)` | Exact f′(x) and f″(x) formulas (polynomial/rational), then VA/holes, intercepts, critical points (x,y) with max/min, increasing/decreasing intervals, inflection points vs "not inflection", concave up/down intervals, HA/slant, and finally **a sketch** on the graph screen (□ = max/min, + = inflection, dot = intercept, lines = asymptotes). For ln/e^/√ functions it switches to the numeric scan of −10…10 automatically |
 | Q5 with your own x-window | `3 → 3 F + MY WINDOW` | same report for any window |
 | Q5 entering N and D separately | `3 → 2 F=N/D (EXACT)` | same as TYPE F(X), exact |
-| Derivative **formula** (f′ and f″) | `1 DERIVATIVES → 3 EXACT F'(X)`, type f once | Exact formulas for polynomials and polynomial/polynomial. For ln, e^, √: do it by hand, then `2 CHECK MY F'` |
+| **Derivative formula in terms of x** (any f: ln, e^, √, powers, products, quotients, chains) | `1 DERIVATIVES → 3 F'(X) FORMULA`, type f once | f′(x) written out (product/quotient/chain rules applied, lightly simplified, not fully simplified), automatically **checked against the numeric derivative** ("CHECKED: CORRECT"); then optional f″(x). Not supported: trig and abs (use `2 CHECK MY F'`) |
+| **Partial derivative formulas** | `2 PARTIAL → 1 FX,FY FORMULAS`, type f(x,y) | fx and fy written out in terms of x and y, checked numerically |
 | **Q2** partial derivatives (all six) | `2 PARTIAL → 2 CHECK FX/FY` | Same answer checker for fx, fy, fxx, fyy, fxy at 8 (x,y) points |
 | Q2 values at a point | `2 → 1 FX,FY AT (X,Y)` | f, fx, fy, fxx, fyy, fxy |
 | **Q3** sales S(t)=200t/(t+1)² | `5 MARGINAL → 2 RATE OF CHANGE` | S(2)=44.444444 (=400/9), S′(2)~−7.407407 (=−200/27), "F DECREASING AT RATE 7.407407" |
@@ -221,7 +222,7 @@ does about that:
 | Capability | Exact / symbolic? | How |
 |---|---|---|
 | Derivative of polynomials and rational functions | **Exact symbolic** (coefficients) | Option `EXACT POLY/RAT`. Coefficients come from exact interpolation; f′=(N′D−ND′)/D², f″=(P′D−2PD′)/D³ |
-| Derivative of anything else (ln, e^, roots, products…) | **Numeric only** (~ marked, ~10 digits) | 5-point central differences. Use `CHECK MY F'`: you do the symbolic work, the calculator verifies it |
+| Derivative of ln, e^, roots, products, quotients, chains | **Symbolic** (`F'(X) FORMULA`): a small differentiation engine in TI-BASIC applies the rules to the text of f, then verifies its own answer numerically. Output is correct but not fully simplified | Numeric values (~) are also available |
 | Partial derivatives | Numeric (~); Cobb-Douglas exact formulas | 5-point stencils in x and y |
 | Critical points, inflection points (poly/rational) | Roots by a guaranteed method (bisection between roots of the next derivative), about 12 digits | All real roots found, double roots too |
 | Critical points, inflection points (ANY F) | Numeric scan of a window you choose (64 cells) plus bisection, about 6–10 digits | Can miss features narrower than one cell (window width/64), and anything outside the window |
@@ -319,6 +320,6 @@ I recomputed every printed answer:
 ```
 pip install tivars
 python3 tools/build.py        # compile + lint -> build/
-python3 tests/test_review.py  # 70 simulated exam scenarios -> tests/RESULTS.md
+python3 tests/test_review.py  # 81 simulated exam scenarios -> tests/RESULTS.md
 python3 tools/session.py 5 2 "200X/(X+1)²" 2   # try any key sequence
 ```

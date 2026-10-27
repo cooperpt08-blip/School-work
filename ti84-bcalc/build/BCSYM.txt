@@ -1,0 +1,115 @@
+"?"→Str2
+"?"→Str3
+"?"→Str4
+0→J
+0→U
+1→I
+While I≤length(Str1) and U=0
+sub(Str1,I,1)→Str9
+0→C
+If inString("0123456789.",Str9)
+1→C
+If inString("ABCDEFGHIJKLMNOPQRSTUVWXYZθπ𝑒",Str9)
+3→C
+If (Str9="X" and ʟDV(1)=1) or (Str9="Y" and ʟDV(1)=2)
+2→C
+If inString("(ln(𝑒^(√(³√(log(",Str9)
+4→C
+If Str9=")"
+5→C
+If inString("²³⁻¹",Str9)
+6→C
+If Str9="⁻"
+7→C
+If inString("+-*/^",Str9)
+8→C
+If C=8 and J=0 and Str9="-"
+7→C
+If C=0 or (C=8 and J=0) or (C=6 and J=0)
+1→U
+If J and C≠0 and (C≤4 or C=7) and U=0
+Then
+3→P
+prgmBCSYO
+End
+If C=1
+Then
+I→E
+While inString("0123456789.",sub(Str1+" ",E+1,1))
+E+1→E
+End
+Str2+"?5"+sub(Str1,I,E-I+1)→Str2
+Str3+"?50"→Str3
+E→I
+End
+If C=2
+Then
+Str2+"?5"+sub(Str1,I,1)→Str2
+Str3+"?51"→Str3
+End
+If C=3
+Then
+Str2+"?5"+sub(Str1,I,1)→Str2
+Str3+"?50"→Str3
+End
+If C=4
+Str4+sub(Str1,I,1)→Str4
+If C=7
+Str4+"⁻"→Str4
+If C=5
+Then
+1→F
+While F
+sub(Str4,length(Str4),1)→Str9
+If Str9="?"
+Then
+1→U
+0→F
+Else
+If inString("(ln(𝑒^(√(³√(log(",Str9)
+Then
+0→F
+If Str9="("
+Then
+sub(Str4,1,length(Str4)-1)→Str4
+Else
+prgmBCSYA
+End
+Else
+prgmBCSYA
+End
+End
+End
+End
+If C=6
+Then
+Str4+sub(Str1,I,1)→Str4
+prgmBCSYA
+End
+If C=8 and U=0
+Then
+inString("+-*/⁻^",sub(Str1,I,1))→P
+prgmBCSYO
+End
+(C≤3 or C=5 or C=6)→J
+I+1→I
+End
+While length(Str4)>1 and U=0
+sub(Str4,length(Str4),1)→Str9
+If Str9="("
+Then
+sub(Str4,1,length(Str4)-1)→Str4
+Else
+prgmBCSYA
+End
+End
+If U=0
+Then
+3→M
+prgmBCSYP
+sub(Str9,2,length(Str9)-1)→Str0
+2→M
+prgmBCSYP
+If length(Str2)≠1 or length(Str3)≠1
+1→U
+End

@@ -1,0 +1,17 @@
+# print a long expression Str6 over several rows (16 columns each)
+1→R
+While R≤length(Str6)
+" "→Str0
+0→S
+While R≤length(Str6) and S<15
+sub(Str6,R,1)→Str9
+S+1+2*(Str9="ln(" or Str9="𝑒^(" or Str9="³√(")+(Str9="√(")+3*(Str9="log(")→S
+If S≤15 or length(Str0)=1
+Then
+Str0+Str9→Str0
+R+1→R
+End
+End
+sub(Str0,2,length(Str0)-1)→Str0
+prgmBCPR
+End

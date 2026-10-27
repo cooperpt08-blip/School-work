@@ -45,7 +45,8 @@ SHORT = {
     "BCSTR": "ZS", "BCTRIM": "Z0", "BCVA": "ZU", "BCXY": "ZX",
 }
 # optional modules: keep them in Archive unless you need them
-EXTRAS = {"BCSIGN", "BCTOOLS", "BCFORM", "BCOPT2"}
+EXTRAS = {"BCSIGN", "BCTOOLS", "BCFORM", "BCOPT2",
+          "BCSYM", "BCSYA", "BCSYC", "BCSYO", "BCSYP", "BCPLG"}
 CALL_RE = re.compile(r"prgm(BC[A-Z0-9]*)")
 
 

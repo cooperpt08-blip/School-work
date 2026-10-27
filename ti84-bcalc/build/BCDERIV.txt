@@ -1,5 +1,5 @@
 Lbl M
-Menu("DERIVATIVES","F,F',F'' AT X",1,"CHECK MY F'",2,"EXACT F'(X)",3,"RULES SHEET",5,"BACK",Q)
+Menu("DERIVATIVES","F,F',F'' AT X",1,"CHECK MY F'",2,"F'(X) FORMULA",3,"RULES SHEET",5,"BACK",Q)
 Lbl 1
 prgmZI
 Lbl 6
@@ -49,31 +49,7 @@ ClrHome
 Disp "TYPE YOUR ANSWER","USING X"
 Input "ANS=",Str2
 String►Equ(Str2,Y₄)
-{.7,1.3,1.9,2.6,3.4,4.1,⁻.6,⁻1.7,5.3,⁻3.2}→L₁
-0→C
-0→J
-For(I,1,10)
-L₁(I)→A
-prgmZD
-a+b𝑖
-A→X
-Y₄→T
-Real
-If U=0 and imag(T)=0
-Then
-C+1→C
-D→E
-If N=2
-S→E
-If abs(real(T)-E)>1ᴇ⁻5*(1+abs(E))
-Then
-J+1→J
-A→B
-real(T)→R
-E→M
-End
-End
-End
+prgmBCVER
 ClrHome
 1→W
 C→θ
@@ -115,19 +91,43 @@ prgmZE
 Goto M
 Lbl 3
 prgmZI
+1→N
+Lbl A
 ClrHome
 Disp "WORKING..."
-prgmBCSPL
+{1}→ʟDV
+prgmBCSYM
 If U
 Goto 4
+Str0→Str6
+String►Equ(Str6,Y₄)
 ClrHome
 1→W
-prgmBCDFRM
+"F'(X)="→Str0
+If N=2
+"F''(X)="→Str0
+prgmZP
+prgmBCPLG
+prgmBCVER
+"(NOT SIMPLIFIED)"→Str0
+If J=0 and C≥3
+"CHECKED: CORRECT"→Str0
+If J
+"CHECK FAILED!"→Str0
+prgmZP
 prgmZE
+Equ►String(Y₁,Str1)
+If N=2
 Goto M
+Menu("NEXT?","F''(X) TOO",B,"BACK",M)
+Lbl B
+Equ►String(Y₄,Str1)
+2→N
+Goto A
 Lbl 4
+Equ►String(Y₁,Str1)
 ClrHome
-Disp "NOT A POLYNOMIAL","OR POLY/POLY.","NO TI-84 CAN","WRITE THIS F'.","DO IT BY HAND,","THEN USE","CHECK MY F'"
+Disp "CAN'T DO THIS F","(TRIG/ABS/ODD","INPUT?). DO IT","BY HAND, THEN","USE CHECK MY F'"
 Pause 
 Goto M
 Lbl 5

@@ -1,0 +1,18 @@
+# push binary operator number P (1 + 2 - 3 * 4 / 6 ^) onto the operator
+# stack Str4, first applying waiting operators of equal/higher priority
+1+(P≥3)+(P≥5)+(P=6)→L
+1→F
+While F
+sub(Str4,length(Str4),1)→Str9
+inString("+-*/⁻^",Str9)→F
+If F
+Then
+If 1+(F≥3)+(F≥5)+(F=6)≥L
+Then
+prgmBCSYA
+Else
+0→F
+End
+End
+End
+Str4+sub("+-*/⁻^",P,1)→Str4

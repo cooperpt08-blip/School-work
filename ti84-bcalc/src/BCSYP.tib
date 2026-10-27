@@ -1,0 +1,21 @@
+# pop the top element of stack M (2: Str2 values, 3: Str3 derivatives)
+# into Str9.  Stack format: "?" then "?"+element for each element.
+If M=2
+Str2→Str9
+If M=3
+Str3→Str9
+If length(Str9)<2
+Then
+1→U
+"50"→Str9
+Return
+End
+length(Str9)→R
+While sub(Str9,R,1)≠"?"
+R-1→R
+End
+If M=2
+sub(Str2,1,R-1)→Str2
+If M=3
+sub(Str3,1,R-1)→Str3
+sub(Str9,R+1,length(Str9)-R)→Str9

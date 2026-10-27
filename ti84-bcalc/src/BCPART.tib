@@ -1,6 +1,6 @@
 # PARTIAL DERIVATIVES module
 Lbl M
-Menu("PARTIAL DERIVS","FX,FY AT (X,Y)",1,"CHECK FX/FY",2,"COBB-DOUGLAS",3,"BACK",Q)
+Menu("PARTIAL DERIVS","FX,FY FORMULAS",F,"FX,FY AT (X,Y)",1,"CHECK FX/FY",2,"COBB-DOUGLAS",3,"BACK",Q)
 Lbl 1
 prgmBCIN2
 Lbl 4
@@ -125,5 +125,58 @@ prgmBCEND
 Goto M
 Lbl 3
 prgmBCCOBB
+Goto M
+Lbl F
+prgmBCIN2
+Str4→Str1
+0→K
+ClrHome
+Disp "WORKING..."
+{1}→ʟDV
+prgmBCSYM
+If U
+Goto G
+String►Equ(Str0,Y₂)
+Equ►String(Y₁,Str1)
+{2}→ʟDV
+prgmBCSYM
+If U
+Goto G
+String►Equ(Str0,Y₃)
+Equ►String(Y₁,Str4)
+ClrHome
+1→W
+"FX="→Str0
+prgmBCPR
+Equ►String(Y₂,Str6)
+prgmBCPLG
+"FY="→Str0
+prgmBCPR
+Equ►String(Y₃,Str6)
+prgmBCPLG
+0→J
+For(I,1,3)
+.7+.6I→A
+2.1-.4I→B
+prgmBCPD
+a+b𝑖
+A→X
+B→Y
+abs(Y₂-D)>1ᴇ⁻5*(1+abs(D)) or abs(Y₃-E)>1ᴇ⁻5*(1+abs(E))→T
+Real
+If U=0
+J+T→J
+End
+"CHECKED: CORRECT"→Str0
+If J
+"CHECK FAILED!"→Str0
+prgmBCPR
+prgmBCEND
+Goto M
+Lbl G
+Equ►String(Y₁,Str4)
+ClrHome
+Disp "CAN'T DO THIS F","USE CHECK FX/FY"
+Pause
 Goto M
 Lbl Q
