@@ -16,7 +16,7 @@ Review for Test #2.
 >    stream in the `.8xp` files. It mimics 14-digit math, Real vs a+bi mode
 >    errors, the 16×8 screen, menus and Input.
 >
-> All 81 simulator tests pass (`tests/RESULTS.md` shows every screen). Please
+> All 82 simulator tests pass (`tests/RESULTS.md` shows every screen). Please
 > still run the 2-minute check in §5 on your calculator before the exam.
 
 ---
@@ -53,19 +53,30 @@ plus about 3.5 KB of working space fits comfortably. All 49 programs at once
 
 ## 2. Install on a MacBook (TI Connect CE)
 
-### TI-84 Plus CE (color screen) — ONE file: `dist/BCALC.8xp`
+### TI-84 Plus CE (color screen): ONE file, `dist/BCALC.8xp`, works in Cesium
 
-`dist/BCALC.8xp` is a single program containing **everything** (all modules
-and all extras; ~29 KB, the CE has ~150 KB RAM). Built by
-`tools/onefile.py`; it passes the same 81 simulator tests.
+`dist/BCALC.8xp` is one program containing **everything**: every module,
+the extras, the symbolic derivative engine and the labelled graph sketch
+(about 37 KB; the CE has about 150 KB of RAM).
 
-1. Install **TI Connect™ CE** (free, education.ti.com), open it, connect the
-   calculator with its USB cable.
-2. Drag **`BCALC.8xp`** onto the calculator and click Send (location RAM).
-3. `PRGM` → **BCALC** → `ENTER` `ENTER`.
+1. Install **TI Connect™ CE** (free, from education.ti.com), open it, and
+   connect the calculator.
+2. Drag **`BCALC.8xp`** onto the calculator, choose **RAM**, and click Send.
+   Keep it in RAM, not Archive: the program calls itself, and that needs
+   it unarchived.
+3. **In Cesium:** BCALC appears in Cesium's program list like any other
+   program. Highlight it and press `ENTER` to launch.
+   **Without Cesium:** `PRGM` → **BCALC** → `ENTER` `ENTER`.
 
-The CE's screen is bigger (26×10), so reports use only the top-left 16×8
-part of it — that's expected.
+A true Flash *App* (`.8ek`) can't be made for you. Those must be signed or
+installed with special tools. Launching BCALC from Cesium works the same
+way in practice.
+
+Main menu: **1 ANALYZE F(X)** (type f once to get the full Question 5
+answer and a labelled sketch) · 2 DERIVATIVES · 3 PARTIAL DERIVS ·
+4 LIMITS/L'HOP · 5 MARGINAL/RATES · 6 OPTIMIZATION · 7 MORE… (graph
+options, diminishing returns, Cobb-Douglas, sign charts, quick tools).
+Formula sheets are under DERIVATIVES → RULES SHEET.
 
 ### Original black & white TI-84 Plus
 
@@ -140,7 +151,7 @@ Main menu: `1 DERIVATIVES · 2 PARTIAL DERIVS · 3 GRAPH ANALYZER · 4 LIMITS/L'
 |---|---|---|
 | **Q1** product/quotient/chain derivatives | `1 DERIVATIVES → 2 CHECK MY F'` | Type f, then **your** derivative. It is compared with the true derivative at 10 x-values: `ALL MATCH!` or the x where it fails, with both values. Works for any form (unsimplified is fine). Also checks f''. |
 | Q1 (value of f′ or f″ at a number) | `1 → 1 F,F',F'' AT X` | f(a), f′(a)~, f″(a)~ with exact hints |
-| **Q5 (any of a–d) — the easy way** | `3 GRAPH → 1 TYPE F(X)`, type f once, e.g. `(X+1)/(X²-4)` | Exact f′(x) and f″(x) formulas (polynomial/rational), then VA/holes, intercepts, critical points (x,y) with max/min, increasing/decreasing intervals, inflection points vs "not inflection", concave up/down intervals, HA/slant, and finally **a sketch** on the graph screen (□ = max/min, + = inflection, dot = intercept, lines = asymptotes). For ln/e^/√ functions it switches to the numeric scan of −10…10 automatically |
+| **Q5 (any of a–d) — the easy way** | `1 ANALYZE F(X)` on the main menu, type f once, e.g. `(X+1)/(X²-4)` | Exact f′(x) and f″(x) formulas (polynomial/rational), then VA/holes, intercepts, critical points (x,y) with max/min, increasing/decreasing intervals, inflection points vs "not inflection", concave up/down intervals, HA/slant, and finally **a labelled sketch** on the graph screen: □ = max/min, + = inflection, dot = intercept, lines = asymptotes, with text labels such as `MAX(1,.5)`, `IP(0,0)`, `X=2`, `Y=0`. For ln/e^/√ functions it switches to the numeric scan of −10…10 automatically |
 | Q5 with your own x-window | `3 → 3 F + MY WINDOW` | same report for any window |
 | Q5 entering N and D separately | `3 → 2 F=N/D (EXACT)` | same as TYPE F(X), exact |
 | **Derivative formula in terms of x** (any f: ln, e^, √, powers, products, quotients, chains) | `1 DERIVATIVES → 3 F'(X) FORMULA`, type f once | f′(x) written out (product/quotient/chain rules applied, lightly simplified, not fully simplified), automatically **checked against the numeric derivative** ("CHECKED: CORRECT"); then optional f″(x). Not supported: trig and abs (use `2 CHECK MY F'`) |
@@ -320,6 +331,6 @@ I recomputed every printed answer:
 ```
 pip install tivars
 python3 tools/build.py        # compile + lint -> build/
-python3 tests/test_review.py  # 81 simulated exam scenarios -> tests/RESULTS.md
+python3 tests/test_review.py  # 82 simulated exam scenarios -> tests/RESULTS.md
 python3 tools/session.py 5 2 "200X/(X+1)²" 2   # try any key sequence
 ```

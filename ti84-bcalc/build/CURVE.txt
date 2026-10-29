@@ -1,0 +1,15 @@
+ClrHome
+Real
+Float
+Func
+.001→H
+.01→G
+1→W
+Lbl M
+prgmZI
+prgmBCAUTO
+Menu("CURVE SKETCH","ANOTHER F(X)",M,"QUIT",Q)
+Lbl Q
+Real
+ClrHome
+Disp "GRAPH: Y1=F(X)"

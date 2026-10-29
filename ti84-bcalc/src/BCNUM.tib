@@ -1,0 +1,29 @@
+# numeric analysis + report + sketch of Y₁ on the window L..R
+ClrHome
+Disp "WORKING...","(UP TO ~1 MIN)"
+{L,R}→ʟEX
+{0,0}→ʟET
+{L,R}→ʟWN
+0→E
+String►Equ("Y₁",Y₄)
+0→C
+64→N
+prgmBCSCAN
+1ᴇ⁻8*(1+M)→E
+String►Equ("Y₂",Y₄)
+1→C
+64→N
+prgmBCSCAN
+String►Equ("Y₃",Y₄)
+2→C
+64→N
+prgmBCSCAN
+prgmBCRPT
+{9ᴇ99}→ʟHA
+prgmBCEB
+"(-INF/INF = EDGE"→Str0
+prgmBCPR
+"OF YOUR WINDOW)"→Str0
+prgmBCPR
+prgmBCEND
+prgmBCSKT

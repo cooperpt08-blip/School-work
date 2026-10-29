@@ -26,6 +26,89 @@ min(L₁)-.35C→A
 max(L₁)+.35C→B
 min(A,⁻.5)→A
 max(B,.5)→B
+"?"→Str7
+{0}→ʟLR
+{0}→ʟLC
+0→N
+(ʟWN(2)-ʟWN(1))/200→E
+For(I,1,dim(ʟEX))
+ʟET(I)→T
+ʟEX(I)→F
+0→P
+If T=20
+Then
+"X="→Str6
+round(F,2)→θ
+prgmZS
+Str6+Str9→Str6
+2→R
+1→P
+End
+If T=10 or T=21 or T=30 or T=31 or T=40 or T=41
+Then
+a+b𝑖
+Y₁(F+1ᴇ⁻7*(T=21))→D
+real(Y₂(F-E))→C
+real(Y₂(F+E))→S
+If T≥40
+Then
+real(Y₃(F-E))→C
+real(Y₃(F+E))→S
+End
+Real
+If imag(D)=0
+Then
+real(D)→D
+If D≥A and D≤B
+1→P
+End
+"("→Str6
+If T=21
+"HOLE("→Str6
+If T=30 or T=31
+"CRIT("→Str6
+If T≤31 and T≥30 and C>0 and S<0
+"MAX("→Str6
+If T≤31 and T≥30 and C<0 and S>0
+"MIN("→Str6
+If T≥40
+"IP("→Str6
+If T≥40 and C*S≥0
+0→P
+If T=10 and sum(abs(ʟEX-F)<1ᴇ⁻6)>1
+0→P
+If P
+Then
+round(F,2)→θ
+prgmZS
+Str6+Str9+","→Str6
+round(D,2)→θ
+prgmZS
+Str6+Str9+")"→Str6
+int(164*(B-D)/(B-A))+2→R
+End
+End
+If P
+Then
+N+1→N
+Str7+Str6+"?"→Str7
+max(0,min(150,R))→ʟLR(N)
+max(0,min(264-5*length(Str6),int(264*(F-ʟWN(1))/(ʟWN(2)-ʟWN(1)))+3))→ʟLC(N)
+End
+End
+For(I,2,dim(ʟHA))
+ʟHA(I)→D
+If D≥A and D≤B
+Then
+"Y="→Str6
+round(D,2)→θ
+prgmZS
+N+1→N
+Str7+Str6+Str9+"?"→Str7
+max(0,int(164*(B-D)/(B-A))-13)→ʟLR(N)
+2→ʟLC(N)
+End
+End
 FnOff 
 FnOn 1
 PlotsOff 
@@ -63,6 +146,12 @@ End
 For(I,2,dim(ʟHA))
 If ʟHA(I)≥A and ʟHA(I)≤B
 Horizontal ʟHA(I)
+End
+1→P
+For(I,1,N)
+inString(Str7,"?",P+1)→Q
+Text(ʟLR(I),ʟLC(I),sub(Str7,P+1,Q-P-1))
+Q→P
 End
 Pause 
 ClrHome

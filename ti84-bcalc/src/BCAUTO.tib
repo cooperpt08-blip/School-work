@@ -1,0 +1,13 @@
+# full curve analysis of f in Str1/Y₁ (from BCINF): exact when f is a
+# polynomial or polynomial/polynomial, otherwise numeric on -10..10
+ClrHome
+Disp "WORKING..."
+prgmBCSPL
+If U
+Then
+⁻10→L
+10→R
+prgmBCNUM
+Else
+prgmBCEXA
+End

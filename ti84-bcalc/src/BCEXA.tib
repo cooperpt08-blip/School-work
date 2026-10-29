@@ -1,0 +1,118 @@
+# exact analysis + report + sketch for f=N/D (after BCRAT; Str1 = f)
+Str1→Str8
+prgmBCSETY
+ClrHome
+1→W
+"F(X)="+Str1→Str0
+prgmBCPR
+prgmBCDFRM
+prgmBCEND
+Disp "WORKING..."
+{9ᴇ99}→ʟHA
+{0}→ʟEX
+{0}→ʟET
+.04→S
+ʟD→ʟPA
+prgmBCROOT
+ʟRT→ʟRD
+For(I,2,ʟRD(1)+1)
+ʟRD(I)→D
+D→X
+ʟN→ʟPE
+prgmBCPEV
+If abs(T)≤1ᴇ⁻8*E
+Then
+prgmBCVA
+21-F→B
+Else
+20→B
+End
+prgmBCADD
+End
+ʟN→ʟPA
+prgmBCROOT
+For(I,2,ʟRT(1)+1)
+ʟRT(I)→D
+10→B
+prgmBCADD
+End
+ʟP→ʟPA
+prgmBCROOT
+For(I,2,ʟRT(1)+1)
+ʟRT(I)→D
+30→B
+prgmBCADD
+End
+ʟQ→ʟPA
+prgmBCROOT
+For(I,2,ʟRT(1)+1)
+ʟRT(I)→D
+40→B
+prgmBCADD
+End
+max(abs(ʟEX))+2→R
+⁻R→L
+L→ʟEX(1)
+augment(ʟEX,{R})→ʟEX
+augment(ʟET,{0})→ʟET
+{L,R}→ʟWN
+prgmBCRPT
+"=ASYMPTOTE/END="→Str0
+prgmBCPR
+dim(ʟN)-1→N
+dim(ʟD)-1→M
+ʟN(N+1)/ʟD(M+1)→T
+If M≥1 and N<M
+Then
+"HA: Y=0"→Str0
+prgmBCPR
+augment(ʟHA,{0})→ʟHA
+End
+If M≥1 and N=M
+Then
+"HA: Y="→Str0
+T→θ
+prgmBCPV
+augment(ʟHA,{T})→ʟHA
+End
+If M≥1 and N=M+1
+Then
+"SLANT Y=MX+B, M="→Str0
+T→θ
+prgmBCPV
+"B="→Str0
+(ʟN(N)-T*ʟD(M))/ʟD(M+1)→θ
+prgmBCPV
+a+b𝑖
+abs(Y₁(.5371)-T*.5371-θ)<1ᴇ⁻8→E
+Real
+If E
+Then
+"(F IS THIS LINE"→Str0
+prgmBCPR
+"EXCEPT HOLES)"→Str0
+prgmBCPR
+End
+End
+If M=0 and N=0
+Then
+"CONSTANT FN"→Str0
+prgmBCPR
+End
+If N>M+1 or (M=0 and N≥1)
+Then
+"NO HA. AS X->INF"→Str0
+prgmBCPR
+"F->-INF"→Str0
+If T>0
+"F->+INF"→Str0
+prgmBCPR
+"AS X->-INF"→Str0
+prgmBCPR
+"F->-INF"→Str0
+If T*(⁻1)^(N-M)>0
+"F->+INF"→Str0
+prgmBCPR
+End
+prgmBCEND
+prgmBCSKT

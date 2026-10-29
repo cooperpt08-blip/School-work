@@ -114,6 +114,12 @@ If V=1309.057
 Goto BU
 If V=1309.058
 Goto BV
+If V=1309.059
+Goto BW
+If V=1309.060
+Goto BX
+If V=1309.061
+Goto BY
 ClrHome
 Real
 Float
@@ -121,55 +127,57 @@ Func
 .001→H
 .01→G
 1→W
-Lbl BW
-Menu("BUS CALC EXAM 2","DERIVATIVES",BX,"PARTIAL DERIVS",BY,"GRAPH ANALYZER",BZ,"LIMITS/L'HOP",B0,"MARGINAL/RATES",B1,"OPTIMIZATION",B2,"MORE...",B3)
-Lbl BX
-1309.023→V
-prgmBCALC
-Goto BW
-Lbl BY
-1309.032→V
-prgmBCALC
-Goto BW
 Lbl BZ
-1309.027→V
-prgmBCALC
-Goto BW
+Menu("BUS CALC EXAM 2","ANALYZE F(X)",B0,"DERIVATIVES",B1,"PARTIAL DERIVS",B2,"LIMITS/L'HOP",B4,"MARGINAL/RATES",B5,"OPTIMIZATION",B6,"MORE...",B7)
 Lbl B0
-1309.028→V
+1309.055→V
 prgmBCALC
-Goto BW
-Lbl B1
-1309.029→V
-prgmBCALC
-Goto BW
-Lbl B2
-1309.030→V
-prgmBCALC
-Goto BW
-Lbl B3
-Menu("MORE","DIM. RETURNS",B4,"COBB-DOUGLAS",B5,"SIGN CHARTS",B6,"QUICK TOOLS",B7,"FORMULA SHEETS",B8,"MAIN MENU",BW,"QUIT",B9)
-Lbl B4
-1309.025→V
-prgmBCALC
-Goto BW
-Lbl B5
 1309.022→V
 prgmBCALC
-Goto BW
+Goto BZ
+Lbl B1
+1309.024→V
+prgmBCALC
+Goto BZ
+Lbl B2
+1309.035→V
+prgmBCALC
+Goto BZ
+Lbl B3
+1309.029→V
+prgmBCALC
+Goto BZ
+Lbl B4
+1309.030→V
+prgmBCALC
+Goto BZ
+Lbl B5
+1309.031→V
+prgmBCALC
+Goto BZ
 Lbl B6
-1309.034→V
+1309.033→V
 prgmBCALC
-Goto BW
+Goto BZ
 Lbl B7
-1309.042→V
-prgmBCALC
-Goto BW
+Menu("MORE","GRAPH OPTIONS",B3,"DIM. RETURNS",B8,"COBB-DOUGLAS",B9,"SIGN CHARTS",CA,"QUICK TOOLS",CB,"MAIN MENU",BZ,"QUIT",CC)
 Lbl B8
 1309.026→V
 prgmBCALC
-Goto BW
+Goto BZ
 Lbl B9
+1309.023→V
+prgmBCALC
+Goto BZ
+Lbl CA
+1309.037→V
+prgmBCALC
+Goto BZ
+Lbl CB
+1309.045→V
+prgmBCALC
+Goto BZ
+Lbl CC
 Real
 FnOff 
 ClrHome
@@ -683,9 +691,26 @@ End
 Return
 Lbl AV
 0→V
-Lbl CA
-Menu("COBB-DOUGLAS","P=C*L^A*K^B",CB,"CHANGE L OR K",CC,"BACK",CD)
-Lbl CB
+ClrHome
+Disp "WORKING..."
+1309.039→V
+prgmBCALC
+If U
+Then
+⁻10→L
+10→R
+1309.032→V
+prgmBCALC
+Else
+1309.027→V
+prgmBCALC
+End
+Return
+Lbl AW
+0→V
+Lbl CD
+Menu("COBB-DOUGLAS","P=C*L^A*K^B",CE,"CHANGE L OR K",CF,"BACK",CG)
+Lbl CE
 ClrHome
 Disp "P=C*L^A*K^B"
 Input "COEF C=",C
@@ -771,8 +796,8 @@ B→θ
 prgmBCALC
 1309.004→V
 prgmBCALC
-Goto CA
-Lbl CC
+Goto CD
+Lbl CF
 ClrHome
 Disp "USES C,A,B,L,K","FROM OPTION 1"
 Input "CHANGE IN L=",S
@@ -799,17 +824,17 @@ C*(L+S)^A*(J+T)^B→θ
 prgmBCALC
 1309.004→V
 prgmBCALC
-Goto CA
-Lbl CD
-Return
-Lbl AW
-0→V
-Lbl CE
-Menu("DERIVATIVES","F,F',F'' AT X",CF,"CHECK MY F'",CH,"F'(X) FORMULA",CL,"RULES SHEET",CP,"BACK",CQ)
-Lbl CF
-1309.052→V
-prgmBCALC
+Goto CD
 Lbl CG
+Return
+Lbl AX
+0→V
+Lbl CH
+Menu("DERIVATIVES","F,F',F'' AT X",CI,"CHECK MY F'",CK,"F'(X) FORMULA",CO,"RULES SHEET",CS,"BACK",CT)
+Lbl CI
+1309.055→V
+prgmBCALC
+Lbl CJ
 ClrHome
 Input "AT X=",A
 1309.010→V
@@ -851,22 +876,22 @@ End
 End
 1309.004→V
 prgmBCALC
-Menu("NEXT?","NEW X, SAME F",CG,"BACK",CE)
-Lbl CH
-1309.052→V
-prgmBCALC
-Menu("CHECK WHICH?","MY F'(X)",CI,"MY F''(X)",CJ)
-Lbl CI
-1→N
-Goto CK
-Lbl CJ
-2→N
+Menu("NEXT?","NEW X, SAME F",CJ,"BACK",CH)
 Lbl CK
+1309.055→V
+prgmBCALC
+Menu("CHECK WHICH?","MY F'(X)",CL,"MY F''(X)",CM)
+Lbl CL
+1→N
+Goto CN
+Lbl CM
+2→N
+Lbl CN
 ClrHome
 Disp "TYPE YOUR ANSWER","USING X"
 Input "ANS=",Str2
 String►Equ(Str2,Y₄)
-1309.043→V
+1309.046→V
 prgmBCALC
 ClrHome
 1→W
@@ -919,19 +944,19 @@ End
 End
 1309.004→V
 prgmBCALC
-Goto CE
-Lbl CL
-1309.052→V
+Goto CH
+Lbl CO
+1309.055→V
 prgmBCALC
 1→N
-Lbl CM
+Lbl CP
 ClrHome
 Disp "WORKING..."
 {1}→ʟDV
-1309.039→V
+1309.042→V
 prgmBCALC
 If U
-Goto CO
+Goto CR
 Str0→Str6
 String►Equ(Str6,Y₄)
 ClrHome
@@ -941,9 +966,9 @@ If N=2
 "F''(X)="→Str0
 1309.001→V
 prgmBCALC
-1309.033→V
+1309.036→V
 prgmBCALC
-1309.043→V
+1309.046→V
 prgmBCALC
 "(NOT SIMPLIFIED)"→Str0
 If J=0 and C≥3
@@ -956,25 +981,25 @@ prgmBCALC
 prgmBCALC
 Equ►String(Y₁,Str1)
 If N=2
-Goto CE
-Menu("NEXT?","F''(X) TOO",CN,"BACK",CE)
-Lbl CN
+Goto CH
+Menu("NEXT?","F''(X) TOO",CQ,"BACK",CH)
+Lbl CQ
 Equ►String(Y₄,Str1)
 2→N
-Goto CM
-Lbl CO
+Goto CP
+Lbl CR
 Equ►String(Y₁,Str1)
 ClrHome
 Disp "CAN'T DO THIS F","(TRIG/ABS/ODD","INPUT?). DO IT","BY HAND, THEN","USE CHECK MY F'"
 Pause 
-Goto CE
-Lbl CP
-1309.026→V
+Goto CH
+Lbl CS
+1309.028→V
 prgmBCALC
-Goto CE
-Lbl CQ
+Goto CH
+Lbl CT
 Return
-Lbl AX
+Lbl AY
 0→V
 dim(ʟD)=1→J
 If J
@@ -1031,12 +1056,12 @@ End
 1309.001→V
 prgmBCALC
 Return
-Lbl AY
+Lbl AZ
 0→V
-Lbl CR
-Menu("DIM. RETURNS","FIND POINT",CS,"BACK",CT)
-Lbl CS
-1309.052→V
+Lbl CU
+Menu("DIM. RETURNS","FIND POINT",CV,"BACK",CW)
+Lbl CV
+1309.055→V
 prgmBCALC
 ClrHome
 Disp "INTERVAL OF X","(FROM PROBLEM)"
@@ -1055,7 +1080,7 @@ SortA(L₆)
 String►Equ("Y₃",Y₄)
 2→C
 64→N
-1309.058→V
+1309.061→V
 prgmBCALC
 SortA(ʟEX,ʟET)
 ClrHome
@@ -1166,79 +1191,11 @@ prgmBCALC
 End
 1309.004→V
 prgmBCALC
-Goto CR
-Lbl CT
-Return
-Lbl AZ
-0→V
-Lbl CU
-Menu("FORMULA SHEETS","DERIV RULES",CV,"LIMITS/L'HOP",CW,"GRAPH STEPS",CX,"BUSINESS",CY,"PARTIAL/COBB",CZ,"BACK",C0)
-Lbl CV
-ClrHome
-Disp "(X^N)'=NX^(N-1)","(FG)'=F'G+FG'","(F/G)'=","  (F'G-FG')/G²","(F(G))'=F'(G)G'","(𝑒^(U))'=𝑒^(U)U'","(LN(U))'=U'/U"
-Pause 
-ClrHome
-Disp "(√(U))'=U'/2√(U)","(U^N)'=","  NU^(N-1)U'","(A^X)'=A^XLN(A)","LN(AB)=LNA+LNB","LN(A/B)=LNA-LNB","LN(A^N)=NLN(A)"
-Pause 
 Goto CU
 Lbl CW
-ClrHome
-Disp "L'HOPITAL ONLY","FOR 0/0, INF/INF","LIM F/G=","  LIM F'/G'","(NOT QUOTIENT","RULE!)","C/0: INF OR DNE"
-Pause 
-ClrHome
-Disp "0/INF,C/INF: 0","𝑒^(X)>>X^N>>LNX","LN(X):-INF @0+","𝑒^(X)->0 @-INF","AT INF N/D POLY:","DEG N<D:0, =:","LEAD RATIO >:INF"
-Pause 
-Goto CU
-Lbl CX
-ClrHome
-Disp "DOMAIN:DEN≠0,","  LN(+), √(>=0)","VA: DEN=0 (NOT","  CANCELLED)","CRIT:F'=0/UNDEF","IP:F'' CHANGES","  SIGN,IN DOMAIN"
-Pause 
-Goto CU
-Lbl CY
-ClrHome
-Disp "R=X*P  P=R-C","MC=C' MR=R'","MP=P'=MR-MC","AVG COST=C(X)/X","MAX PROFIT:MR=MC","MIN AVG:AVG=MC","DIM.R:F'' + TO -"
-Pause 
-Goto CU
-Lbl CZ
-ClrHome
-Disp "FX: Y CONSTANT","FY: X CONSTANT","P=C*L^A*K^B","PL=ACL^(A-1)K^B","PK=BCL^AK^(B-1)","A+B=1 CONST RTS",">1 INC  <1 DEC"
-Pause 
-Goto CU
-Lbl C0
 Return
 Lbl A0
 0→V
-Lbl C1
-Menu("GRAPH ANALYZER","TYPE F(X)",C2,"F=N/D (EXACT)",C4,"F + MY WINDOW",C7,"BACK",C9)
-Lbl C2
-1309.052→V
-prgmBCALC
-ClrHome
-Disp "WORKING..."
-1309.036→V
-prgmBCALC
-If U
-Goto C6
-Goto C5
-Lbl C3
-ClrHome
-Disp "N,D MUST BE","POLYNOMIALS","(DEGREE<=8)."
-Pause 
-Goto C1
-Lbl C4
-ClrHome
-Disp "F=N(X)/D(X)","N,D POLYNOMIALS","D=1 IF POLY"
-Input "N(X)=",Str5
-Input "D(X)=",Str6
-"("+Str5+")/("+Str6+")"→Str1
-1309→K
-ClrHome
-Disp "WORKING..."
-1309.048→V
-prgmBCALC
-If U
-Goto C3
-Lbl C5
 Str1→Str8
 1309.009→V
 prgmBCALC
@@ -1247,7 +1204,7 @@ ClrHome
 "F(X)="+Str1→Str0
 1309.001→V
 prgmBCALC
-1309.024→V
+1309.025→V
 prgmBCALC
 1309.004→V
 prgmBCALC
@@ -1257,7 +1214,7 @@ Disp "WORKING..."
 {0}→ʟET
 .04→S
 ʟD→ʟPA
-1309.057→V
+1309.060→V
 prgmBCALC
 ʟRT→ʟRD
 For(I,2,ʟRD(1)+1)
@@ -1278,7 +1235,7 @@ End
 prgmBCALC
 End
 ʟN→ʟPA
-1309.057→V
+1309.060→V
 prgmBCALC
 For(I,2,ʟRT(1)+1)
 ʟRT(I)→D
@@ -1287,7 +1244,7 @@ For(I,2,ʟRT(1)+1)
 prgmBCALC
 End
 ʟP→ʟPA
-1309.057→V
+1309.060→V
 prgmBCALC
 For(I,2,ʟRT(1)+1)
 ʟRT(I)→D
@@ -1296,7 +1253,7 @@ For(I,2,ʟRT(1)+1)
 prgmBCALC
 End
 ʟQ→ʟPA
-1309.057→V
+1309.060→V
 prgmBCALC
 For(I,2,ʟRT(1)+1)
 ʟRT(I)→D
@@ -1310,7 +1267,7 @@ L→ʟEX(1)
 augment(ʟEX,{R})→ʟEX
 augment(ʟET,{0})→ʟET
 {L,R}→ʟWN
-1309.049→V
+1309.052→V
 prgmBCALC
 "=ASYMPTOTE/END="→Str0
 1309.001→V
@@ -1383,15 +1340,79 @@ prgmBCALC
 End
 1309.004→V
 prgmBCALC
-1309.035→V
+1309.038→V
 prgmBCALC
-Goto C1
+Return
+Lbl A1
+0→V
+Lbl CX
+Menu("FORMULA SHEETS","DERIV RULES",CY,"LIMITS/L'HOP",CZ,"GRAPH STEPS",C0,"BUSINESS",C1,"PARTIAL/COBB",C2,"BACK",C3)
+Lbl CY
+ClrHome
+Disp "(X^N)'=NX^(N-1)","(FG)'=F'G+FG'","(F/G)'=","  (F'G-FG')/G²","(F(G))'=F'(G)G'","(𝑒^(U))'=𝑒^(U)U'","(LN(U))'=U'/U"
+Pause 
+ClrHome
+Disp "(√(U))'=U'/2√(U)","(U^N)'=","  NU^(N-1)U'","(A^X)'=A^XLN(A)","LN(AB)=LNA+LNB","LN(A/B)=LNA-LNB","LN(A^N)=NLN(A)"
+Pause 
+Goto CX
+Lbl CZ
+ClrHome
+Disp "L'HOPITAL ONLY","FOR 0/0, INF/INF","LIM F/G=","  LIM F'/G'","(NOT QUOTIENT","RULE!)","C/0: INF OR DNE"
+Pause 
+ClrHome
+Disp "0/INF,C/INF: 0","𝑒^(X)>>X^N>>LNX","LN(X):-INF @0+","𝑒^(X)->0 @-INF","AT INF N/D POLY:","DEG N<D:0, =:","LEAD RATIO >:INF"
+Pause 
+Goto CX
+Lbl C0
+ClrHome
+Disp "DOMAIN:DEN≠0,","  LN(+), √(>=0)","VA: DEN=0 (NOT","  CANCELLED)","CRIT:F'=0/UNDEF","IP:F'' CHANGES","  SIGN,IN DOMAIN"
+Pause 
+Goto CX
+Lbl C1
+ClrHome
+Disp "R=X*P  P=R-C","MC=C' MR=R'","MP=P'=MR-MC","AVG COST=C(X)/X","MAX PROFIT:MR=MC","MIN AVG:AVG=MC","DIM.R:F'' + TO -"
+Pause 
+Goto CX
+Lbl C2
+ClrHome
+Disp "FX: Y CONSTANT","FY: X CONSTANT","P=C*L^A*K^B","PL=ACL^(A-1)K^B","PK=BCL^AK^(B-1)","A+B=1 CONST RTS",">1 INC  <1 DEC"
+Pause 
+Goto CX
+Lbl C3
+Return
+Lbl A2
+0→V
+Lbl C4
+Menu("GRAPH ANALYZER","TYPE F(X)",C5,"F=N/D (EXACT)",C7,"F + MY WINDOW",C8,"BACK",C9)
+Lbl C5
+1309.055→V
+prgmBCALC
+1309.022→V
+prgmBCALC
+Goto C4
 Lbl C6
-⁻10→L
-10→R
-Goto C8
+ClrHome
+Disp "N,D MUST BE","POLYNOMIALS","(DEGREE<=8)."
+Pause 
+Goto C4
 Lbl C7
-1309.052→V
+ClrHome
+Disp "F=N(X)/D(X)","N,D POLYNOMIALS","D=1 IF POLY"
+Input "N(X)=",Str5
+Input "D(X)=",Str6
+"("+Str5+")/("+Str6+")"→Str1
+1309→K
+ClrHome
+Disp "WORKING..."
+1309.051→V
+prgmBCALC
+If U
+Goto C6
+1309.027→V
+prgmBCALC
+Goto C4
+Lbl C8
+1309.055→V
 prgmBCALC
 ClrHome
 Disp "X-WINDOW TO SCAN","EX: -10 TO 10"
@@ -1399,53 +1420,17 @@ Input "LEFT X=",L
 Input "RIGHT X=",R
 If R≤L
 L+20→R
-Lbl C8
-ClrHome
-Disp "WORKING...","(UP TO ~1 MIN)"
-{L,R}→ʟEX
-{0,0}→ʟET
-{L,R}→ʟWN
-0→E
-String►Equ("Y₁",Y₄)
-0→C
-64→N
-1309.058→V
+1309.032→V
 prgmBCALC
-1ᴇ⁻8*(1+M)→E
-String►Equ("Y₂",Y₄)
-1→C
-64→N
-1309.058→V
-prgmBCALC
-String►Equ("Y₃",Y₄)
-2→C
-64→N
-1309.058→V
-prgmBCALC
-1309.049→V
-prgmBCALC
-{9ᴇ99}→ʟHA
-1309.050→V
-prgmBCALC
-"(-INF/INF = EDGE"→Str0
-1309.001→V
-prgmBCALC
-"OF YOUR WINDOW)"→Str0
-1309.001→V
-prgmBCALC
-1309.004→V
-prgmBCALC
-1309.035→V
-prgmBCALC
-Goto C1
+Goto C4
 Lbl C9
 Return
-Lbl A1
+Lbl A3
 0→V
 Lbl DA
 Menu("LIMITS","LIM X->A",DB,"LIM X->+-INF",DG,"L'HOPITAL N/D",DK,"BACK",DS)
 Lbl DB
-1309.052→V
+1309.055→V
 prgmBCALC
 ClrHome
 Input "X->A, A=",A
@@ -1490,13 +1475,13 @@ L₃(2)→L
 1309.016→V
 prgmBCALC
 End
-1309.046→V
+1309.049→V
 prgmBCALC
 1309.004→V
 prgmBCALC
 Goto DA
 Lbl DG
-1309.052→V
+1309.055→V
 prgmBCALC
 Menu("X APPROACHES","+INF",DH,"-INF",DI)
 Lbl DH
@@ -1516,7 +1501,7 @@ ClrHome
 "LIMIT"→Str0
 1309.016→V
 prgmBCALC
-1309.046→V
+1309.049→V
 prgmBCALC
 1309.004→V
 prgmBCALC
@@ -1630,7 +1615,7 @@ prgmBCALC
 Goto DA
 Lbl DS
 Return
-Lbl A2
+Lbl A4
 0→V
 Lbl DT
 Menu("MARGINAL/RATES","C,R,P,AVG COST",DU,"RATE OF CHANGE",DZ,"BACK",D2)
@@ -1725,7 +1710,7 @@ End
 prgmBCALC
 Goto DT
 Lbl DZ
-1309.052→V
+1309.055→V
 prgmBCALC
 Lbl D0
 ClrHome
@@ -1792,12 +1777,52 @@ prgmBCALC
 Goto DT
 Lbl D2
 Return
-Lbl A3
+Lbl A5
+0→V
+ClrHome
+Disp "WORKING...","(UP TO ~1 MIN)"
+{L,R}→ʟEX
+{0,0}→ʟET
+{L,R}→ʟWN
+0→E
+String►Equ("Y₁",Y₄)
+0→C
+64→N
+1309.061→V
+prgmBCALC
+1ᴇ⁻8*(1+M)→E
+String►Equ("Y₂",Y₄)
+1→C
+64→N
+1309.061→V
+prgmBCALC
+String►Equ("Y₃",Y₄)
+2→C
+64→N
+1309.061→V
+prgmBCALC
+1309.052→V
+prgmBCALC
+{9ᴇ99}→ʟHA
+1309.053→V
+prgmBCALC
+"(-INF/INF = EDGE"→Str0
+1309.001→V
+prgmBCALC
+"OF YOUR WINDOW)"→Str0
+1309.001→V
+prgmBCALC
+1309.004→V
+prgmBCALC
+1309.038→V
+prgmBCALC
+Return
+Lbl A6
 0→V
 Lbl D3
 Menu("OPTIMIZATION","ABS MAX/MIN F",D4,"MAX PROFIT/REV",D8,"MIN AVG COST",EC,"TEMPLATES...",ED,"BACK",EE)
 Lbl D4
-1309.052→V
+1309.055→V
 prgmBCALC
 ClrHome
 Disp "INTERVAL [L,R]"
@@ -1811,7 +1836,7 @@ Lbl D6
 0→J
 Lbl D7
 Str1→Str8
-1309.056→V
+1309.059→V
 prgmBCALC
 1309.004→V
 prgmBCALC
@@ -1836,7 +1861,7 @@ Input "MAX X=",R
 "("+Str6+")-("+Str5+")"→Str8
 1→J
 {N}→ʟTG
-1309.056→V
+1309.059→V
 prgmBCALC
 ʟOX(1)→A
 "=AT BEST X="→Str0
@@ -1908,7 +1933,7 @@ If L≤0
 R/1000→L
 "("+Str5+")/X"→Str8
 1→J
-1309.056→V
+1309.059→V
 prgmBCALC
 "AT MIN AVG COST,"→Str0
 1309.001→V
@@ -1920,12 +1945,12 @@ prgmBCALC
 prgmBCALC
 Goto D3
 Lbl ED
-1309.031→V
+1309.034→V
 prgmBCALC
 Goto D3
 Lbl EE
 Return
-Lbl A4
+Lbl A7
 0→V
 Lbl EF
 Menu("OPT TEMPLATES","PRICE STEPS",EG,"OPEN BOX",EH,"INVENTORY EOQ",EI,"BACK",EJ)
@@ -2046,18 +2071,18 @@ prgmBCALC
 Goto EF
 Lbl EJ
 Return
-Lbl A5
+Lbl A8
 0→V
 Lbl EK
 Menu("PARTIAL DERIVS","FX,FY FORMULAS",EV,"FX,FY AT (X,Y)",EL,"CHECK FX/FY",EN,"COBB-DOUGLAS",EU,"BACK",EX)
 Lbl EL
-1309.045→V
+1309.048→V
 prgmBCALC
 Lbl EM
 ClrHome
 Input "X=",A
 Input "Y=",B
-1309.047→V
+1309.050→V
 prgmBCALC
 ClrHome
 1→W
@@ -2096,7 +2121,7 @@ End
 prgmBCALC
 Menu("NEXT?","NEW (X,Y)",EM,"PARTIALS MENU",EK)
 Lbl EN
-1309.045→V
+1309.048→V
 prgmBCALC
 Menu("CHECK WHICH?","FX",EO,"FY",EP,"FXX",EQ,"FYY",ER,"FXY",ES)
 Lbl EO
@@ -2125,7 +2150,7 @@ String►Equ(Str2,Y₄)
 For(I,1,8)
 L₁(I)→A
 L₂(I)→B
-1309.047→V
+1309.050→V
 prgmBCALC
 {D,E,S,T,M}→L₃
 L₃(N)→L
@@ -2198,25 +2223,25 @@ End
 prgmBCALC
 Goto EK
 Lbl EU
-1309.022→V
+1309.023→V
 prgmBCALC
 Goto EK
 Lbl EV
-1309.045→V
+1309.048→V
 prgmBCALC
 Str4→Str1
 0→K
 ClrHome
 Disp "WORKING..."
 {1}→ʟDV
-1309.039→V
+1309.042→V
 prgmBCALC
 If U
 Goto EW
 String►Equ(Str0,Y₂)
 Equ►String(Y₁,Str1)
 {2}→ʟDV
-1309.039→V
+1309.042→V
 prgmBCALC
 If U
 Goto EW
@@ -2228,19 +2253,19 @@ ClrHome
 1309.001→V
 prgmBCALC
 Equ►String(Y₂,Str6)
-1309.033→V
+1309.036→V
 prgmBCALC
 "FY="→Str0
 1309.001→V
 prgmBCALC
 Equ►String(Y₃,Str6)
-1309.033→V
+1309.036→V
 prgmBCALC
 0→J
 For(I,1,3)
 .7+.6I→A
 2.1-.4I→B
-1309.047→V
+1309.050→V
 prgmBCALC
 a+b𝑖
 A→X
@@ -2266,7 +2291,7 @@ Pause
 Goto EK
 Lbl EX
 Return
-Lbl A6
+Lbl A9
 0→V
 1→R
 While R≤length(Str6)
@@ -2286,7 +2311,7 @@ sub(Str0,2,length(Str0)-1)→Str0
 prgmBCALC
 End
 Return
-Lbl A7
+Lbl BA
 0→V
 Lbl EY
 Menu("SIGN CHARTS","F' SIGN CHART",EZ,"F'' SIGN CHART",E0,"BACK",E2)
@@ -2396,7 +2421,7 @@ prgmBCALC
 Goto EY
 Lbl E2
 Return
-Lbl A8
+Lbl BB
 0→V
 {0}→L₁
 0→J
@@ -2426,6 +2451,93 @@ min(L₁)-.35C→A
 max(L₁)+.35C→B
 min(A,⁻.5)→A
 max(B,.5)→B
+"?"→Str7
+{0}→ʟLR
+{0}→ʟLC
+0→N
+(ʟWN(2)-ʟWN(1))/200→E
+For(I,1,dim(ʟEX))
+ʟET(I)→T
+ʟEX(I)→F
+0→P
+If T=20
+Then
+"X="→Str6
+round(F,2)→θ
+1309.002→V
+prgmBCALC
+Str6+Str9→Str6
+2→R
+1→P
+End
+If T=10 or T=21 or T=30 or T=31 or T=40 or T=41
+Then
+a+b𝑖
+Y₁(F+1ᴇ⁻7*(T=21))→D
+real(Y₂(F-E))→C
+real(Y₂(F+E))→S
+If T≥40
+Then
+real(Y₃(F-E))→C
+real(Y₃(F+E))→S
+End
+Real
+If imag(D)=0
+Then
+real(D)→D
+If D≥A and D≤B
+1→P
+End
+"("→Str6
+If T=21
+"HOLE("→Str6
+If T=30 or T=31
+"CRIT("→Str6
+If T≤31 and T≥30 and C>0 and S<0
+"MAX("→Str6
+If T≤31 and T≥30 and C<0 and S>0
+"MIN("→Str6
+If T≥40
+"IP("→Str6
+If T≥40 and C*S≥0
+0→P
+If T=10 and sum(abs(ʟEX-F)<1ᴇ⁻6)>1
+0→P
+If P
+Then
+round(F,2)→θ
+1309.002→V
+prgmBCALC
+Str6+Str9+","→Str6
+round(D,2)→θ
+1309.002→V
+prgmBCALC
+Str6+Str9+")"→Str6
+int(164*(B-D)/(B-A))+2→R
+End
+End
+If P
+Then
+N+1→N
+Str7+Str6+"?"→Str7
+max(0,min(150,R))→ʟLR(N)
+max(0,min(264-5*length(Str6),int(264*(F-ʟWN(1))/(ʟWN(2)-ʟWN(1)))+3))→ʟLC(N)
+End
+End
+For(I,2,dim(ʟHA))
+ʟHA(I)→D
+If D≥A and D≤B
+Then
+"Y="→Str6
+round(D,2)→θ
+1309.002→V
+prgmBCALC
+N+1→N
+Str7+Str6+Str9+"?"→Str7
+max(0,int(164*(B-D)/(B-A))-13)→ʟLR(N)
+2→ʟLC(N)
+End
+End
 FnOff 
 FnOn 1
 PlotsOff 
@@ -2464,13 +2576,19 @@ For(I,2,dim(ʟHA))
 If ʟHA(I)≥A and ʟHA(I)≤B
 Horizontal ʟHA(I)
 End
+1→P
+For(I,1,N)
+inString(Str7,"?",P+1)→Q
+Text(ʟLR(I),ʟLC(I),sub(Str7,P+1,Q-P-1))
+Q→P
+End
 Pause 
 ClrHome
 Disp "GRAPH: PRESS","GRAPH/TRACE TO","SEE IT AGAIN","(F IS IN Y1)"
 Pause 
 ClrHome
 Return
-Lbl A9
+Lbl BC
 0→V
 0→J
 0→C
@@ -2499,7 +2617,7 @@ Str5+"+"+Str6→Str9
 inString(Str9,"ln(")+inString(Str9,"log(")+inString(Str9,"𝑒")+inString(Str9,"𝑒^(")+inString(Str9,"√(")+inString(Str9,"/")+inString(Str9,"⁻¹")+inString(Str9,"^⁻")+inString(Str9,"abs(")→J
 If C≤1 and J=0
 Then
-1309.048→V
+1309.051→V
 prgmBCALC
 If U=0
 Then
@@ -2513,7 +2631,7 @@ If T>1ᴇ⁻6*(1+abs(Y₁(.5371)))
 End
 End
 Return
-Lbl BA
+Lbl BD
 0→V
 sub(Str4,length(Str4),1)→Str9
 sub(Str4,1,length(Str4)-1)→Str4
@@ -2521,20 +2639,20 @@ inString("+-*/⁻^ln(𝑒^(√(³√(log(²³⁻¹",Str9)→O
 If O≤4 or O=6
 Then
 2→M
-1309.041→V
+1309.044→V
 prgmBCALC
 String►Equ(Str9,Y₈)
 3→M
-1309.041→V
+1309.044→V
 prgmBCALC
 String►Equ(Str9,Y₉)
 End
 2→M
-1309.041→V
+1309.044→V
 prgmBCALC
 String►Equ(Str9,Y₆)
 3→M
-1309.041→V
+1309.044→V
 prgmBCALC
 String►Equ(Str9,Y₇)
 Equ►String(Y₆,Str5)
@@ -2553,7 +2671,7 @@ Equ►String(Y₆,Str7)
 4→Z
 End
 End
-1309.038→V
+1309.041→V
 prgmBCALC
 Str2+"?"+Str0→Str2
 String►Equ(Str0,Y₄)
@@ -2562,7 +2680,7 @@ Then
 Equ►String(Y₇,Str5)
 Equ►String(Y₉,Str7)
 O→Z
-1309.038→V
+1309.041→V
 prgmBCALC
 End
 If O=3
@@ -2570,17 +2688,17 @@ Then
 Equ►String(Y₇,Str5)
 Equ►String(Y₈,Str7)
 3→Z
-1309.038→V
+1309.041→V
 prgmBCALC
 String►Equ(Str0,Y₅)
 Equ►String(Y₆,Str5)
 Equ►String(Y₉,Str7)
-1309.038→V
+1309.041→V
 prgmBCALC
 Str0→Str7
 Equ►String(Y₅,Str5)
 1→Z
-1309.038→V
+1309.041→V
 prgmBCALC
 End
 If O=4
@@ -2591,33 +2709,33 @@ Then
 Equ►String(Y₇,Str5)
 Equ►String(Y₈,Str7)
 4→Z
-1309.038→V
+1309.041→V
 prgmBCALC
 Else
 Equ►String(Y₇,Str5)
 Equ►String(Y₈,Str7)
 3→Z
-1309.038→V
+1309.041→V
 prgmBCALC
 String►Equ(Str0,Y₅)
 Equ►String(Y₆,Str5)
 Equ►String(Y₉,Str7)
-1309.038→V
+1309.041→V
 prgmBCALC
 Str0→Str7
 Equ►String(Y₅,Str5)
 2→Z
-1309.038→V
+1309.041→V
 prgmBCALC
 String►Equ(Str0,Y₅)
 Equ►String(Y₈,Str5)
 12→Z
-1309.038→V
+1309.041→V
 prgmBCALC
 Str0→Str7
 Equ►String(Y₅,Str5)
 4→Z
-1309.038→V
+1309.041→V
 prgmBCALC
 End
 End
@@ -2629,21 +2747,21 @@ Then
 Equ►String(Y₈,Str5)
 "51"→Str7
 2→Z
-1309.038→V
+1309.041→V
 prgmBCALC
 Str0→Str7
 Equ►String(Y₆,Str5)
 5→Z
-1309.038→V
+1309.041→V
 prgmBCALC
 Str0→Str7
 Equ►String(Y₈,Str5)
 3→Z
-1309.038→V
+1309.041→V
 prgmBCALC
 Str0→Str5
 Equ►String(Y₇,Str7)
-1309.038→V
+1309.041→V
 prgmBCALC
 Else
 Equ►String(Y₇,Str5)
@@ -2651,47 +2769,47 @@ If Str5="50"
 Then
 Equ►String(Y₆,Str5)
 7→Z
-1309.038→V
+1309.041→V
 prgmBCALC
 Str0→Str7
 Equ►String(Y₄,Str5)
 3→Z
-1309.038→V
+1309.041→V
 prgmBCALC
 Str0→Str5
 Equ►String(Y₉,Str7)
-1309.038→V
+1309.041→V
 prgmBCALC
 Else
 Equ►String(Y₆,Str5)
 7→Z
-1309.038→V
+1309.041→V
 prgmBCALC
 Str0→Str7
 Equ►String(Y₉,Str5)
 3→Z
-1309.038→V
+1309.041→V
 prgmBCALC
 String►Equ(Str0,Y₅)
 Equ►String(Y₇,Str5)
 Equ►String(Y₆,Str7)
 4→Z
-1309.038→V
+1309.041→V
 prgmBCALC
 Str0→Str7
 Equ►String(Y₈,Str5)
 3→Z
-1309.038→V
+1309.041→V
 prgmBCALC
 Str0→Str7
 Equ►String(Y₅,Str5)
 1→Z
-1309.038→V
+1309.041→V
 prgmBCALC
 Str0→Str7
 Equ►String(Y₄,Str5)
 3→Z
-1309.038→V
+1309.041→V
 prgmBCALC
 End
 End
@@ -2700,7 +2818,7 @@ If O=5
 Then
 Equ►String(Y₇,Str5)
 6→Z
-1309.038→V
+1309.041→V
 prgmBCALC
 End
 If O=7
@@ -2708,7 +2826,7 @@ Then
 Equ►String(Y₇,Str5)
 Equ►String(Y₆,Str7)
 4→Z
-1309.038→V
+1309.041→V
 prgmBCALC
 End
 If O=8
@@ -2716,7 +2834,7 @@ Then
 Equ►String(Y₄,Str5)
 Equ►String(Y₇,Str7)
 3→Z
-1309.038→V
+1309.041→V
 prgmBCALC
 End
 If O=9 or O=10
@@ -2725,7 +2843,7 @@ Equ►String(Y₄,Str5)
 If O=10
 Then
 12→Z
-1309.038→V
+1309.041→V
 prgmBCALC
 Str0→Str7
 "53"→Str5
@@ -2734,12 +2852,12 @@ Str5→Str7
 "52"→Str5
 End
 3→Z
-1309.038→V
+1309.041→V
 prgmBCALC
 Str0→Str7
 Equ►String(Y₇,Str5)
 4→Z
-1309.038→V
+1309.041→V
 prgmBCALC
 End
 If O=11
@@ -2747,12 +2865,12 @@ Then
 Equ►String(Y₆,Str5)
 "5ln(10)"→Str7
 3→Z
-1309.038→V
+1309.041→V
 prgmBCALC
 Str0→Str7
 Equ►String(Y₇,Str5)
 4→Z
-1309.038→V
+1309.041→V
 prgmBCALC
 End
 If O=12 or O=13
@@ -2763,38 +2881,38 @@ If O=13
 Then
 Equ►String(Y₆,Str5)
 12→Z
-1309.038→V
+1309.041→V
 prgmBCALC
 Str0→Str7
 "53"→Str5
 End
 3→Z
-1309.038→V
+1309.041→V
 prgmBCALC
 Str0→Str5
 Equ►String(Y₇,Str7)
-1309.038→V
+1309.041→V
 prgmBCALC
 End
 If O=14
 Then
 Equ►String(Y₆,Str5)
 12→Z
-1309.038→V
+1309.041→V
 prgmBCALC
 Str0→Str7
 Equ►String(Y₇,Str5)
 4→Z
-1309.038→V
+1309.041→V
 prgmBCALC
 Str0→Str5
 6→Z
-1309.038→V
+1309.041→V
 prgmBCALC
 End
 Str3+"?"+Str0→Str3
 Return
-Lbl BB
+Lbl BE
 0→V
 If Z>5
 "0"→Str8
@@ -2987,7 +3105,7 @@ If sub(Str5,2,length(Str5)-1)="0"
 "50"→Str0
 End
 Return
-Lbl BC
+Lbl BF
 0→V
 "?"→Str2
 "?"→Str3
@@ -3021,7 +3139,7 @@ If C=0 or (C=8 and J=0) or (C=6 and J=0)
 If J and C≠0 and (C≤4 or C=7) and U=0
 Then
 3→P
-1309.040→V
+1309.043→V
 prgmBCALC
 End
 If C=1
@@ -3065,11 +3183,11 @@ If Str9="("
 Then
 sub(Str4,1,length(Str4)-1)→Str4
 Else
-1309.037→V
+1309.040→V
 prgmBCALC
 End
 Else
-1309.037→V
+1309.040→V
 prgmBCALC
 End
 End
@@ -3078,13 +3196,13 @@ End
 If C=6
 Then
 Str4+sub(Str1,I,1)→Str4
-1309.037→V
+1309.040→V
 prgmBCALC
 End
 If C=8 and U=0
 Then
 inString("+-*/⁻^",sub(Str1,I,1))→P
-1309.040→V
+1309.043→V
 prgmBCALC
 End
 (C≤3 or C=5 or C=6)→J
@@ -3096,24 +3214,24 @@ If Str9="("
 Then
 sub(Str4,1,length(Str4)-1)→Str4
 Else
-1309.037→V
+1309.040→V
 prgmBCALC
 End
 End
 If U=0
 Then
 3→M
-1309.041→V
+1309.044→V
 prgmBCALC
 sub(Str9,2,length(Str9)-1)→Str0
 2→M
-1309.041→V
+1309.044→V
 prgmBCALC
 If length(Str2)≠1 or length(Str3)≠1
 1→U
 End
 Return
-Lbl BD
+Lbl BG
 0→V
 1+(P≥3)+(P≥5)+(P=6)→L
 1→F
@@ -3124,7 +3242,7 @@ If F
 Then
 If 1+(F≥3)+(F≥5)+(F=6)≥L
 Then
-1309.037→V
+1309.040→V
 prgmBCALC
 Else
 0→F
@@ -3133,7 +3251,7 @@ End
 End
 Str4+sub("+-*/⁻^",P,1)→Str4
 Return
-Lbl BE
+Lbl BH
 0→V
 If M=2
 Str2→Str9
@@ -3155,7 +3273,7 @@ If M=3
 sub(Str3,1,R-1)→Str3
 sub(Str9,R+1,length(Str9)-R)→Str9
 Return
-Lbl BF
+Lbl BI
 0→V
 Lbl E3
 Menu("QUICK TOOLS","QUADRATIC EQN",E4,"POLY ROOTS",E5,"SOLVE F(X)=C",E6,"DEC->FRAC/ROOT",E7,"BACK",E9)
@@ -3225,14 +3343,14 @@ Lbl E5
 ClrHome
 Disp "TYPE POLYNOMIAL","IN X (DEG<=8)"
 Input "P(X)=",Str8
-1309.055→V
+1309.058→V
 prgmBCALC
 If U
 Goto E8
 ʟPC→ʟPA
-1309.044→V
+1309.047→V
 prgmBCALC
-1309.057→V
+1309.060→V
 prgmBCALC
 ClrHome
 1→W
@@ -3255,7 +3373,7 @@ End
 prgmBCALC
 Goto E3
 Lbl E6
-1309.052→V
+1309.055→V
 prgmBCALC
 ClrHome
 Input "SOLVE F(X)=",C
@@ -3274,7 +3392,7 @@ Disp "WORKING..."
 String►Equ("Y₁",Y₄)
 0→C
 64→N
-1309.058→V
+1309.061→V
 prgmBCALC
 SortA(ʟEX,ʟET)
 ClrHome
@@ -3337,7 +3455,7 @@ Pause
 Goto E3
 Lbl E9
 Return
-Lbl BG
+Lbl BJ
 0→V
 {.7,1.3,1.9,2.6,.3,1.1,⁻.6,⁻1.7,2.2,⁻2.4}→L₁
 0→C
@@ -3366,7 +3484,7 @@ End
 End
 End
 Return
-Lbl BH
+Lbl BK
 0→V
 max(abs(ʟPA))→T
 ʟPA*(abs(ʟPA)>1ᴇ⁻10*T)→ʟPA
@@ -3374,14 +3492,14 @@ While dim(ʟPA)>1 and ʟPA(dim(ʟPA))=0
 dim(ʟPA)-1→dim(ʟPA)
 End
 Return
-Lbl BI
+Lbl BL
 0→V
 ClrHome
 Disp "F(X,Y): USE X,Y","(Y IS ALPHA 1)"
 Input "F=",Str4
 String►Equ(Str4,Y₁)
 Return
-Lbl BJ
+Lbl BM
 0→V
 "TABLE X : F(X)"→Str0
 1309.001→V
@@ -3406,7 +3524,7 @@ End
 prgmBCALC
 End
 Return
-Lbl BK
+Lbl BN
 0→V
 a+b𝑖
 B→Y
@@ -3444,16 +3562,16 @@ real(T)→T
 real(M)→M
 Real
 Return
-Lbl BL
+Lbl BO
 0→V
 Str5→Str8
-1309.055→V
+1309.058→V
 prgmBCALC
 If U
 Return
 ʟPC→ʟN
 Str6→Str8
-1309.055→V
+1309.058→V
 prgmBCALC
 If U
 Return
@@ -3464,49 +3582,49 @@ Then
 Return
 End
 ʟN→ʟPA
-1309.053→V
+1309.056→V
 prgmBCALC
 ʟD→ʟPB
-1309.054→V
+1309.057→V
 prgmBCALC
 ʟPC→L₁
 ʟD→ʟPA
-1309.053→V
+1309.056→V
 prgmBCALC
 ʟN→ʟPB
-1309.054→V
+1309.057→V
 prgmBCALC
 ʟPC→L₂
 max(dim(L₁),dim(L₂))→N
 N→dim(L₁)
 N→dim(L₂)
 L₁-L₂→ʟPA
-1309.044→V
+1309.047→V
 prgmBCALC
 ʟPA→ʟP
-1309.053→V
+1309.056→V
 prgmBCALC
 ʟD→ʟPB
-1309.054→V
+1309.057→V
 prgmBCALC
 ʟPC→L₁
 ʟD→ʟPA
-1309.053→V
+1309.056→V
 prgmBCALC
 ʟP→ʟPB
-1309.054→V
+1309.057→V
 prgmBCALC
 2ʟPC→L₂
 max(dim(L₁),dim(L₂))→N
 N→dim(L₁)
 N→dim(L₂)
 L₁-L₂→ʟPA
-1309.044→V
+1309.047→V
 prgmBCALC
 ʟPA→ʟQ
 0→U
 Return
-Lbl BM
+Lbl BP
 0→V
 SortA(ʟEX,ʟET)
 dim(ʟEX)→N
@@ -3623,13 +3741,13 @@ Then
 prgmBCALC
 End
 1→C
-1309.051→V
+1309.054→V
 prgmBCALC
 2→C
-1309.051→V
+1309.054→V
 prgmBCALC
 Return
-Lbl BN
+Lbl BQ
 0→V
 "=END BEHAVIOR="→Str0
 1309.001→V
@@ -3654,7 +3772,7 @@ If C=0
 augment(ʟHA,{L})→ʟHA
 End
 Return
-Lbl BO
+Lbl BR
 0→V
 10C+20→M
 {0}→L₁
@@ -3788,7 +3906,7 @@ prgmBCALC
 End
 End
 Return
-Lbl BP
+Lbl BS
 0→V
 If K≠1309
 Goto FA
@@ -3807,7 +3925,7 @@ Str1→Str8
 1309.009→V
 prgmBCALC
 Return
-Lbl BQ
+Lbl BT
 0→V
 If dim(ʟPA)=1
 Then
@@ -3816,7 +3934,7 @@ Else
 seq(I*ʟPA(I+1),I,1,dim(ʟPA)-1)→ʟPA
 End
 Return
-Lbl BR
+Lbl BU
 0→V
 seq(0,I,1,dim(ʟPA)+dim(ʟPB)-1)→ʟPC
 For(I,1,dim(ʟPA))
@@ -3825,7 +3943,7 @@ For(J,1,dim(ʟPB))
 End
 End
 Return
-Lbl BS
+Lbl BV
 0→V
 0→U
 String►Equ(Str8,Y₅)
@@ -3875,7 +3993,7 @@ End
 Real
 End
 Return
-Lbl BT
+Lbl BW
 0→V
 1309.009→V
 prgmBCALC
@@ -3892,7 +4010,7 @@ SortA(L₆)
 String►Equ("Y₂",Y₄)
 1→C
 64→N
-1309.058→V
+1309.061→V
 prgmBCALC
 SortA(ʟEX,ʟET)
 {0}→L₁
@@ -3998,7 +4116,7 @@ prgmBCALC
 End
 End
 Return
-Lbl BU
+Lbl BX
 0→V
 dim(ʟPA)-1→N
 {0}→ʟRT
@@ -4063,7 +4181,7 @@ End
 End
 End
 Return
-Lbl BV
+Lbl BY
 0→V
 (R-L)/N→S
 S/2000→H

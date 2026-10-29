@@ -899,6 +899,16 @@ class Calc:
                 raise TIError("WINDOW RANGE")
             self.drawing.append("GRAPH Y1 on " + str(w))
             return
+        if head == "Text(":
+            a = build.split_args(rest)
+            r = self.real(self.ev(self.ast(a[0])))
+            c = self.real(self.ev(self.ast(a[1])))
+            v = self.ev(self.ast(a[2]))
+            if not (0 <= r <= 164 and 0 <= c <= 264):   # TI-84 Plus CE graph
+                raise TIError(f"DOMAIN Text({r},{c})")
+            text = "".join(self.chars(v)) if is_str(v) else fmt(v)
+            self.drawing.append(f"Text {int(r)},{int(c)} {text}")
+            return
         if head in ("Pt-On(", "Vertical ", "Horizontal "):
             vals = [self.real(self.ev(self.ast(a))) for a in build.split_args(rest)]
             self.drawing.append(head.strip() + " " + ",".join(fmt(v) for v in vals))

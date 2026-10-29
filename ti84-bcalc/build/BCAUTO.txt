@@ -1,0 +1,11 @@
+ClrHome
+Disp "WORKING..."
+prgmBCSPL
+If U
+Then
+⁻10→L
+10→R
+prgmBCNUM
+Else
+prgmBCEXA
+End
