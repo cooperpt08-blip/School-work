@@ -79,16 +79,25 @@ def pregame_quote(m):
 
 
 def all_quotes():
-    out = {}
-    kalshi.MIN_GAP = 0.45  # the archive endpoint rate-limits hard
+    """Resumable: progress is saved every 100 games (the archive allows ~1 request/second)."""
+    part = CACHE / "quotes.partial.json"
+    out = json.loads(part.read_text()) if part.exists() else {}
+    done = set(out.get("_tried", []))
+    kalshi.MIN_GAP = 1.05
     events = sorted(by_event)[::2]  # every other game: ~2,300 is plenty and halves the download
     for i, ev in enumerate(events):
+        if ev in done:
+            continue
         m = sorted(by_event[ev], key=lambda x: x["ticker"])[0]  # one side per game is enough
         q = pregame_quote(m)
         if q:
             out[m["ticker"]] = q
-        if i % 500 == 0:
+        done.add(ev)
+        if i % 100 == 0:
+            out["_tried"] = sorted(done)
+            part.write_text(json.dumps(out))
             print(f"  prices {i}/{len(events)}", flush=True)
+    out.pop("_tried", None)
     return out
 
 
