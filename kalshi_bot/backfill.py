@@ -1,4 +1,5 @@
 """Seed the learner with already-settled Kalshi sports markets and the prices they had pre-game."""
+import random
 import re
 import time
 from datetime import timedelta
@@ -7,29 +8,31 @@ from . import config, kalshi, store
 from .ratings import Matcher
 
 
-def backfill(days=21, per_series=300, min_volume=500, log=print):
+def backfill(days=21, per_series=400, series=None, log=print):
+    """IMPORTANT: never choose which settled markets to learn from using anything measured after the
+    game started (final volume, last price...). Final volume is higher for props that hit, because
+    they trade heavily as they cash - selecting on it teaches the model a fake edge. So: sample at
+    random, and judge liquidity only from open interest at the pre-game snapshot time."""
     now = time.time()
     series_info = kalshi.sports_series()
     have = {r["ticker"] for r in store.load_snapshots()}
     # Only series that are live right now (have open events) - thousands of listed series are dormant.
-    active = sorted({e["series_ticker"] for e in kalshi.open_sports_events()} & set(series_info))
+    active = sorted(set(series or [e["series_ticker"] for e in kalshi.open_sports_events()]) & set(series_info))
     log(f"  listing settled markets from the last {days} days in {len(active)} active sports series")
     picked = {}
-    for n, series in enumerate(active, 1):
-        for m in kalshi.settled_markets(series, now - days * 86400, now):
+    for n, s in enumerate(active, 1):
+        for m in kalshi.settled_markets(s, now - days * 86400, now):
             if m["ticker"] in have or m.get("result") not in ("yes", "no"):
                 continue
             occ = kalshi.ts(m.get("occurrence_datetime") or m.get("expected_expiration_time"))
-            vol = kalshi.dollars(m.get("volume_fp")) or 0
-            if not occ or vol < min_volume:
-                continue
-            picked.setdefault(series, []).append((vol, m, occ))
+            if occ:
+                picked.setdefault(s, []).append((m, occ))
         if n % 100 == 0:
             log(f"    {n}/{len(active)} series listed")
     todo = []
-    for series, ms in picked.items():
-        ms.sort(key=lambda t: -t[0])
-        todo.extend((series, m, occ) for _, m, occ in ms[:per_series])
+    for s, ms in picked.items():
+        random.Random(s).shuffle(ms)
+        todo.extend((s, m, occ) for m, occ in ms[:per_series])
     log(f"  {len(todo)} settled markets across {len(picked)} series; fetching pre-game prices")
     todo.sort(key=lambda t: t[2])
     matcher, rows, results = Matcher(), [], store.load_results()
@@ -39,25 +42,25 @@ def backfill(days=21, per_series=300, min_volume=500, log=print):
         quotes = {}
         # one candle request per chunk, window covering every market's snapshot time
         lo, hi = min(at.values()), max(at.values())
-        if hi - lo > 4 * 86400:  # keep requests small if a chunk spans many days
-            for t, a in at.items():
-                quotes.update(kalshi.candle_quotes([t], a))
-        else:
-            got = _candles_window(list(at), lo - 12 * 3600, hi)
+        spans = [(lo, hi)] if hi - lo <= 4 * 86400 else [(a, a) for a in at.values()]
+        for s_lo, s_hi in spans:  # keep requests small if a chunk spans many days
+            got = _candles_window([t for t, a in at.items() if s_lo <= a <= s_hi], s_lo - 12 * 3600, s_hi)
             for t, cs in got.items():
                 best = None
-                for end_ts, bid, ask in cs:
+                for end_ts, bid, ask, oi in cs:
                     if end_ts <= at[t]:
-                        best = (bid, ask)
+                        best = (bid, ask, oi)
                 if best:
                     quotes[t] = best
         for series, m, occ in chunk:
             q = quotes.get(m["ticker"])
             if not q:
                 continue
-            bid, ask = q
+            bid, ask, oi = q
             if bid is None or ask is None or not (0 < bid <= ask < 1) or ask - bid > config.MAX_SPREAD_LOG:
                 continue
+            if bid < config.MIN_PRICE or ask > config.MAX_PRICE or (oi or 0) < config.MIN_LIQUIDITY / 2:
+                continue  # same filters as live scanning, measured before the game
             tag = ((series_info.get(series) or {}).get("tags") or ["Other"])[0]
             p_elo, _ = matcher.game_prob(series, m["event_ticker"], _event_title(m), m.get("yes_sub_title"))
             snap_at = occ - timedelta(hours=config.BACKFILL_SNAPSHOT_HOURS)
@@ -89,6 +92,7 @@ def _candles_window(tickers, start, end):
         cs = []
         for c in m.get("candlesticks") or []:
             cs.append((c.get("end_period_ts", 0), kalshi.dollars((c.get("yes_bid") or {}).get("close_dollars")),
-                       kalshi.dollars((c.get("yes_ask") or {}).get("close_dollars"))))
+                       kalshi.dollars((c.get("yes_ask") or {}).get("close_dollars")),
+                       kalshi.dollars(c.get("open_interest_fp"))))
         out[m.get("market_ticker")] = cs
     return out

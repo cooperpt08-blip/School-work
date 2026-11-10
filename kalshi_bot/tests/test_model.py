@@ -34,7 +34,7 @@ class ModelTests(unittest.TestCase):
 
     def test_real_edge_gets_proven(self):
         # the ratings carry real signal the market ignores -> should be learned and proven
-        rows = synth(4000, (0.0, 1.0, 0.9), seed=5)
+        rows = synth(10000, (0.0, 1.0, 0.9), seed=5)
         w = model.learn(rows, log=lambda *_: None)
         self.assertTrue(w["families"]["all"]["proven"])
         self.assertGreater(w["families"]["all"]["theta"][2], 0.4)

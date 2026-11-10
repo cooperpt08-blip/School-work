@@ -82,14 +82,28 @@ def fit(data, prior, strength=None):
     return tuple(th)
 
 
-def logloss(theta, data):
-    if not data:
-        return float("nan")
-    s = 0.0
+def _losses(theta, data):
+    out = []
     for x, y in data:
         p = min(max(predict(theta, x), 1e-6), 1 - 1e-6)
-        s -= y * math.log(p) + (1 - y) * math.log(1 - p)
-    return s / len(data)
+        out.append(-(y * math.log(p) + (1 - y) * math.log(1 - p)))
+    return out
+
+
+def logloss(theta, data):
+    return sum(_losses(theta, data)) / len(data) if data else float("nan")
+
+
+def beats(theta, baseline, test, z=2.5):
+    """True if `theta` beats `baseline` on held-out `test` by a margin that isn't plausibly luck:
+    mean per-prediction log-loss gain >= MIN_IMPROVEMENT and >= z standard errors above zero."""
+    if len(test) < 60:
+        return False
+    d = [b - a for a, b in zip(_losses(theta, test), _losses(baseline, test))]
+    n = len(d)
+    mean = sum(d) / n
+    sd = math.sqrt(sum((v - mean) ** 2 for v in d) / (n - 1)) or 1e-12
+    return mean >= config.MIN_IMPROVEMENT and mean >= z * sd / math.sqrt(n)
 
 
 def _split(rows):
@@ -108,13 +122,13 @@ def learn(rows, log=print):
         if n < config.MIN_TRAIN_ROWS or len(test) < 30:
             return None
         cand = fit(train, parent_theta)
-        ll_c, ll_p, ll_m = logloss(cand, test), logloss(parent_theta, test), logloss(MARKET, test)
-        adopted = ll_c < ll_p - config.MIN_IMPROVEMENT
+        adopted = beats(cand, parent_theta, test)
+        eff = cand if adopted else parent_theta
         theta = fit([(r["x"], r["y"]) for r in frows], parent_theta) if adopted else parent_theta
-        ll_eff = ll_c if adopted else ll_p
+        ll_eff, ll_m = logloss(eff, test), logloss(MARKET, test)
         info = {"n": n, "n_test": len(test), "theta": [round(v, 4) for v in theta], "own_weights": adopted,
                 "test_logloss": round(ll_eff, 5), "test_logloss_market": round(ll_m, 5),
-                "proven": ll_eff < ll_m - config.MIN_IMPROVEMENT,
+                "proven": beats(eff, MARKET, test),
                 "test_hit_rate_market_fav": round(sum((1 if (x[1] > 0) == (y == 1) else 0) for x, y in test) / len(test), 4)}
         out["families"][key] = info
         log(f"  {key:<34} n={n:<6} own={'Y' if adopted else '-'} proven={'Y' if info['proven'] else '-'} "

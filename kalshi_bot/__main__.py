@@ -100,7 +100,8 @@ def main(argv=None):
     d.add_argument("--learn", action="store_true", help="force a re-learn even if weights are fresh")
     b = sub.add_parser("backfill")
     b.add_argument("--days", type=int, default=21)
-    b.add_argument("--per-series", type=int, default=300)
+    b.add_argument("--per-series", type=int, default=400)
+    b.add_argument("--series", default="", help="comma-separated series tickers (default: all active)")
     sub.add_parser("learn")
     sub.add_parser("update-games")
     a = ap.parse_args(argv)
@@ -108,7 +109,7 @@ def main(argv=None):
         run_daily(send_email=not a.no_email, force_learn=a.learn)
     elif a.cmd == "backfill":
         ratings.update_games(log=log)
-        backfill(days=a.days, per_series=a.per_series, log=log)
+        backfill(days=a.days, per_series=a.per_series, series=[s for s in a.series.split(",") if s] or None, log=log)
         run_learn()
     elif a.cmd == "learn":
         run_learn()
