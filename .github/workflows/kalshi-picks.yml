@@ -1,0 +1,52 @@
+name: Kalshi picks
+
+on:
+  schedule:
+    - cron: "17 14 * * *"   # 8:17 AM US Central (standard time) every day
+  workflow_dispatch:
+    inputs:
+      learn:
+        description: "Force a re-learn of the model weights"
+        type: boolean
+        default: false
+      backfill_days:
+        description: "Also backfill this many days of settled markets first (0 = skip)"
+        default: "0"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: kalshi-picks
+  cancel-in-progress: false
+
+jobs:
+  picks:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Unit tests
+        run: python -m unittest discover -s kalshi_bot/tests -t .
+      - name: Backfill
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.backfill_days != '0' }}
+        run: python -m kalshi_bot backfill --days ${{ inputs.backfill_days }}
+      - name: Daily picks
+        env:
+          GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          PICKS_TO: ${{ secrets.PICKS_TO }}
+        run: python -m kalshi_bot daily ${{ inputs.learn && '--learn' || '' }}
+      - name: Save what the bot learned
+        if: always()
+        run: |
+          git config user.name "kalshi-picks-bot"
+          git config user.email "kalshi-picks-bot@users.noreply.github.com"
+          git add kalshi_bot/data
+          git diff --cached --quiet && exit 0
+          git commit -m "Kalshi picks data $(date -u +%F)"
+          for i in 1 2 3 4; do git pull --rebase && git push && exit 0; sleep $((i * 5)); done
+          exit 1

@@ -1,0 +1,244 @@
+sent,sport,type,matchup,selection,game_time,model,kalshi,edge,result,score
+2026-07-10T12:52,WNBA,Moneyline,Golden State Valkyries at Connecticut Sun,Golden State Valkyries,2026-07-10 21:30:00,0.868,0.695,0.17300000000000001,W,Golden State Valkyries 79 @ Connecticut Sun 64
+2026-07-10T12:52,WNBA,Moneyline,Portland Fire at Atlanta Dream,Portland Fire,2026-07-11 18:00:00,0.297,0.155,0.142,W,Portland Fire 102 @ Atlanta Dream 92
+2026-07-10T12:52,MLB,Moneyline,Milwaukee Brewers at Pittsburgh Pirates,Milwaukee Brewers,2026-07-10 20:40:00,0.606,0.465,0.141,L,Milwaukee Brewers 6 @ Pittsburgh Pirates 7
+2026-07-10T12:52,WNBA,Moneyline,New York Liberty at Minnesota Lynx,Minnesota Lynx,2026-07-11 15:00:00,0.684,0.555,0.129,W,New York Liberty 85 @ Minnesota Lynx 90
+2026-07-10T12:52,WNBA,Moneyline,Chicago Sky at Los Angeles Sparks,Los Angeles Sparks,2026-07-11 00:00:00,0.649,0.525,0.124,W,Chicago Sky 87 @ Los Angeles Sparks 102
+2026-07-10T12:52,MLB,Moneyline,Houston Astros at Texas Rangers,Texas Rangers,2026-07-10 22:05:00,0.551,0.435,0.11599999999999999,W,Houston Astros 3 @ Texas Rangers 7
+2026-07-10T12:52,MLB,Moneyline,New York Yankees at Washington Nationals,Washington Nationals,2026-07-11 18:05:00,0.49200000000000005,0.385,0.107,L,New York Yankees 4 @ Washington Nationals 2
+2026-07-10T12:52,MLB,Moneyline,Seattle Mariners at Tampa Bay Rays,Tampa Bay Rays,2026-07-11 18:10:00,0.623,0.525,0.098,W,Seattle Mariners 1 @ Tampa Bay Rays 6
+2026-07-10T12:52,MLB,Moneyline,Seattle Mariners at Tampa Bay Rays,Tampa Bay Rays,2026-07-10 21:10:00,0.623,0.525,0.098,W,Seattle Mariners 2 @ Tampa Bay Rays 7
+2026-07-10T12:52,MLB,Moneyline,Milwaukee Brewers at Pittsburgh Pirates,Milwaukee Brewers,2026-07-11 18:05:00,0.606,0.515,0.091,L,Milwaukee Brewers 2 @ Pittsburgh Pirates 3
+2026-07-10T12:52,MLB,Moneyline,Philadelphia Phillies at Detroit Tigers,Philadelphia Phillies,2026-07-10 20:40:00,0.561,0.475,0.086,L,Philadelphia Phillies 2 @ Detroit Tigers 10
+2026-07-10T12:52,MLB,Moneyline,Boston Red Sox at New York Mets,Boston Red Sox,2026-07-10 21:15:00,0.517,0.435,0.08199999999999999,W,Boston Red Sox 6 @ New York Mets 2
+2026-07-10T12:52,MLB,Moneyline,Chicago Cubs at Cincinnati Reds,Chicago Cubs,2026-07-11 21:10:00,0.5720000000000001,0.495,0.077,W,Chicago Cubs 5 @ Cincinnati Reds 3
+2026-07-10T12:52,MLB,Moneyline,New York Yankees at Washington Nationals,Washington Nationals,2026-07-10 20:45:00,0.49200000000000005,0.415,0.077,L,New York Yankees 5 @ Washington Nationals 3
+2026-07-10T12:52,MLB,Moneyline,Colorado Rockies at San Francisco Giants,Colorado Rockies,2026-07-12 18:05:00,0.45,0.375,0.075,L,Colorado Rockies 1 @ San Francisco Giants 3
+2026-07-10T13:08,MLB,Moneyline,Atlanta Braves at St. Louis Cardinals,St. Louis Cardinals,2026-07-10 22:15:00,0.48100000000000004,0.395,0.086,W,Atlanta Braves 1 @ St. Louis Cardinals 2
+2026-07-10T13:08,MLB,Moneyline,Boston Red Sox at New York Mets,Boston Red Sox,2026-07-11 18:10:00,0.519,0.445,0.07400000000000001,W,Boston Red Sox 4 @ New York Mets 0
+2026-07-10T13:08,MLB,Moneyline,New York Yankees at Washington Nationals,New York Yankees,2026-07-12 15:35:00,0.55,0.5,0.05,W,New York Yankees 5 @ Washington Nationals 3
+2026-07-11T08:00,FIFA,Moneyline,Switzerland at Argentina,Switzerland,2026-07-11 23:00:00,0.452,0.155,0.297,L,Switzerland 1 @ Argentina 3
+2026-07-11T08:00,FIFA,Moneyline,England at Norway,Norway,2026-07-11 19:00:00,0.45399999999999996,0.245,0.209,L,England 2 @ Norway 1
+2026-07-11T08:00,WNBA,Moneyline,New York Liberty at Toronto Tempo,New York Liberty,2026-07-12 17:00:00,0.705,0.555,0.15,L,New York Liberty 91 @ Toronto Tempo 93
+2026-07-11T08:00,WNBA,Spread,Phoenix Mercury at Las Vegas Aces,Phoenix Mercury wins by 1.5+,2026-07-11 20:00:00,0.344,0.2,0.14400000000000002,L,Phoenix Mercury 58 @ Las Vegas Aces 106
+2026-07-11T08:00,MLB,Moneyline,Athletics at Chicago White Sox,Chicago White Sox,2026-07-11 16:10:00,0.615,0.505,0.11,W,Athletics 0 @ Chicago White Sox 1
+2026-07-11T08:00,WNBA,Spread,Portland Fire at Atlanta Dream,Portland Fire wins by 3.5+,2026-07-11 18:00:00,0.207,0.1,0.107,W,Portland Fire 102 @ Atlanta Dream 92
+2026-07-11T08:00,MLB,Moneyline,Athletics at Chicago White Sox,Chicago White Sox,2026-07-12 16:10:00,0.615,0.525,0.09,W,Athletics 1 @ Chicago White Sox 9
+2026-07-11T08:00,WNBA,Moneyline,Chicago Sky at Dallas Wings,Dallas Wings,2026-07-12 21:00:00,0.8170000000000001,0.74,0.077,W,Chicago Sky 91 @ Dallas Wings 96
+2026-07-11T08:00,MLB,Moneyline,Boston Red Sox at New York Mets,Boston Red Sox,2026-07-12 15:40:00,0.527,0.47,0.057,W,Boston Red Sox 3 @ New York Mets 2
+2026-07-11T08:00,WNBA,Moneyline,Indiana Fever at Las Vegas Aces,Indiana Fever,2026-07-12 23:00:00,0.433,0.38,0.053,W,Indiana Fever 109 @ Las Vegas Aces 75
+2026-07-11T14:30,WNBA,Spread,New York Liberty at Minnesota Lynx,Minnesota Lynx wins by 6.5+,2026-07-11 15:00:00,0.366,0.01,0.35600000000000004,L,New York Liberty 85 @ Minnesota Lynx 90
+2026-07-11T14:30,WNBA,Moneyline,New York Liberty at Minnesota Lynx,New York Liberty,2026-07-11 15:00:00,0.317,0.01,0.307,L,New York Liberty 85 @ Minnesota Lynx 90
+2026-07-11T14:30,MLB,Total,Los Angeles Angels at Minnesota Twins,Under 8.5,2026-07-11 16:10:00,0.369,0.17,0.19899999999999998,W,Los Angeles Angels 3 @ Minnesota Twins 5
+2026-07-11T14:30,WNBA,Spread,Portland Fire at Atlanta Dream,Portland Fire wins by 1.5+,2026-07-11 18:00:00,0.262,0.105,0.157,W,Portland Fire 102 @ Atlanta Dream 92
+2026-07-11T14:30,MLB,Total,Seattle Mariners at Tampa Bay Rays,Over 7.5,2026-07-11 18:10:00,0.589,0.455,0.134,L,Seattle Mariners 1 @ Tampa Bay Rays 6
+2026-07-11T14:30,MLB,Total,Colorado Rockies at San Francisco Giants,Over 7.5,2026-07-11 18:05:00,0.7340000000000001,0.615,0.11900000000000001,L,Colorado Rockies 2 @ San Francisco Giants 4
+2026-07-11T14:30,MLB,Total,Philadelphia Phillies at Detroit Tigers,Over 7.5,2026-07-11 20:10:00,0.62,0.505,0.115,L,Philadelphia Phillies 4 @ Detroit Tigers 2
+2026-07-11T14:30,MLB,Total,Chicago Cubs at Cincinnati Reds,Under 13.5,2026-07-11 21:10:00,0.882,0.77,0.11199999999999999,W,Chicago Cubs 5 @ Cincinnati Reds 3
+2026-07-11T14:30,MLB,Total,New York Yankees at Washington Nationals,Over 7.5,2026-07-11 18:05:00,0.727,0.625,0.102,L,New York Yankees 4 @ Washington Nationals 2
+2026-07-11T14:30,MLB,Total,Atlanta Braves at St. Louis Cardinals,Over 7.5,2026-07-11 21:15:00,0.652,0.555,0.09699999999999999,L,Atlanta Braves 1 @ St. Louis Cardinals 4
+2026-07-12T10:10,MLB,Total,Philadelphia Phillies at Detroit Tigers,Over 7.5,2026-07-12 15:40:00,0.617,0.425,0.192,L,Philadelphia Phillies 5 @ Detroit Tigers 0
+2026-07-12T10:10,FIFA,Moneyline,Spain at France,Spain,2026-07-14 17:00:00,0.452,0.295,0.157,W,Spain 2 @ France 0
+2026-07-12T10:10,MLB,Total,Atlanta Braves at St. Louis Cardinals,Over 8.5,2026-07-12 16:15:00,0.54,0.405,0.135,L,Atlanta Braves 4 @ St. Louis Cardinals 3
+2026-07-12T10:10,WNBA,Spread,Chicago Sky at Dallas Wings,Chicago Sky wins by 1.5+,2026-07-12 21:00:00,0.32,0.19,0.13,L,Chicago Sky 91 @ Dallas Wings 96
+2026-07-12T10:10,MLB,Total,Milwaukee Brewers at Pittsburgh Pirates,Over 7.5,2026-07-12 14:15:00,0.7040000000000001,0.575,0.129,W,Milwaukee Brewers 5 @ Pittsburgh Pirates 14
+2026-07-12T10:10,MLB,Total,Colorado Rockies at San Francisco Giants,Over 7.5,2026-07-12 18:05:00,0.731,0.625,0.106,L,Colorado Rockies 1 @ San Francisco Giants 3
+2026-07-12T10:10,MLB,Total,Arizona Diamondbacks at Los Angeles Dodgers,Under 12.5,2026-07-12 18:10:00,0.8440000000000001,0.745,0.099,W,Arizona Diamondbacks 5 @ Los Angeles Dodgers 3
+2026-07-12T10:10,WNBA,Spread,Seattle Storm at Washington Mystics,Seattle Storm wins by 1.5+,2026-07-12 17:00:00,0.415,0.32,0.095,L,Seattle Storm 79 @ Washington Mystics 84
+2026-07-12T10:10,MLB,Total,Los Angeles Angels at Minnesota Twins,Over 7.5,2026-07-12 16:10:00,0.728,0.635,0.09300000000000001,L,Los Angeles Angels 2 @ Minnesota Twins 4
+2026-07-12T10:10,MLB,Total,Cleveland Guardians at Miami Marlins,Over 7.5,2026-07-12 15:40:00,0.598,0.515,0.083,L,Cleveland Guardians 5 @ Miami Marlins 2
+2026-07-12T10:10,MLB,Total,Kansas City Royals at Baltimore Orioles,Under 12.5,2026-07-12 15:35:00,0.8059999999999999,0.725,0.081,W,Kansas City Royals 2 @ Baltimore Orioles 8
+2026-07-12T10:10,WNBA,Spread,New York Liberty at Toronto Tempo,Toronto Tempo wins by 1.5+,2026-07-12 17:00:00,0.33899999999999997,0.26,0.079,W,New York Liberty 91 @ Toronto Tempo 93
+2026-07-12T10:10,MLB,Total,Toronto Blue Jays at San Diego Padres,Under 12.5,2026-07-12 18:10:00,0.871,0.795,0.076,W,Toronto Blue Jays 4 @ San Diego Padres 5
+2026-07-12T10:10,MLB,Total,New York Yankees at Washington Nationals,Over 7.5,2026-07-12 15:35:00,0.7240000000000001,0.655,0.069,W,New York Yankees 5 @ Washington Nationals 3
+2026-07-13T10:28,FIFA,Moneyline,Argentina at England,Argentina,2026-07-15 17:00:00,0.5479999999999999,0.305,0.243,W,Argentina 2 @ England 1
+2026-07-13T10:28,WNBA,Moneyline,Portland Fire at Connecticut Sun,Portland Fire,2026-07-14 13:00:00,0.615,0.475,0.14,L,Portland Fire 87 @ Connecticut Sun 90
+2026-07-13T10:28,WNBA,Spread,Phoenix Mercury at Minnesota Lynx,Phoenix Mercury wins by 1.5+,2026-07-13 23:00:00,0.23199999999999998,0.13,0.102,L,Phoenix Mercury 100 @ Minnesota Lynx 104
+2026-07-13T10:28,WNBA,Spread,Los Angeles Sparks at Atlanta Dream,Los Angeles Sparks wins by 1.5+,2026-07-13 21:00:00,0.317,0.23,0.087,L,Los Angeles Sparks 92 @ Atlanta Dream 101
+2026-07-14T08:00,MLS,Moneyline,Vancouver Whitecaps at Chicago Fire FC,Vancouver Whitecaps,2026-07-16 22:30:00,0.5670000000000001,0.415,0.152,,
+2026-07-14T08:00,MLS,Moneyline,Portland Timbers at Seattle Sounders FC,Portland Timbers,2026-07-17 00:30:00,0.293,0.155,0.138,W,Portland Timbers 5 @ Seattle Sounders FC 1
+2026-07-14T08:00,WNBA,Spread,Los Angeles Sparks at Minnesota Lynx,Los Angeles Sparks wins by 6.5+,2026-07-15 15:00:00,0.11599999999999999,0.06,0.055999999999999994,L,Los Angeles Sparks 87 @ Minnesota Lynx 96
+2026-07-15T08:00,MLS,Moneyline,Atlanta United FC at Nashville SC,Nashville SC,2026-07-17 22:10:00,0.8290000000000001,0.685,0.14400000000000002,W,Atlanta United FC 0 @ Nashville SC 1
+2026-07-15T08:00,MLB,Moneyline,Detroit Tigers at Los Angeles Angels,Detroit Tigers,2026-07-17 23:38:00,0.613,0.51,0.10300000000000001,W,Detroit Tigers 2 @ Los Angeles Angels 1
+2026-07-15T08:00,WNBA,Spread,Los Angeles Sparks at Minnesota Lynx,Los Angeles Sparks wins by 1.5+,2026-07-15 15:00:00,0.23,0.13,0.1,L,Los Angeles Sparks 87 @ Minnesota Lynx 96
+2026-07-15T08:00,MLB,Moneyline,Texas Rangers at Atlanta Braves,Atlanta Braves,2026-07-17 21:15:00,0.62,0.525,0.095,W,Texas Rangers 1 @ Atlanta Braves 15
+2026-07-15T08:00,MLB,Moneyline,Tampa Bay Rays at Boston Red Sox,Tampa Bay Rays,2026-07-17 15:35:00,0.531,0.455,0.076,L,Tampa Bay Rays 0 @ Boston Red Sox 10
+2026-07-15T08:00,WNBA,Moneyline,Golden State Valkyries at Indiana Fever,Golden State Valkyries,2026-07-15 22:00:00,0.517,0.445,0.07200000000000001,W,Golden State Valkyries 88 @ Indiana Fever 75
+2026-07-15T08:00,WNBA,Moneyline,New York Liberty at Dallas Wings,Dallas Wings,2026-07-16 23:00:00,0.59,0.525,0.065,,
+2026-07-15T08:00,MLB,Moneyline,Baltimore Orioles at Houston Astros,Houston Astros,2026-07-17 22:10:00,0.518,0.455,0.063,L,Baltimore Orioles 3 @ Houston Astros 2
+2026-07-15T08:00,MLB,Moneyline,San Francisco Giants at Seattle Mariners,Seattle Mariners,2026-07-18 00:10:00,0.626,0.575,0.051,W,San Francisco Giants 3 @ Seattle Mariners 4
+2026-07-16T08:01,FIFA,Moneyline,England at France,England,2026-07-18 19:00:00,0.452,0.255,0.19699999999999998,W,England 6 @ France 4
+2026-07-16T08:01,MLB,Moneyline,Chicago White Sox at Toronto Blue Jays,Chicago White Sox,2026-07-18 17:07:00,0.636,0.49,0.146,L,Chicago White Sox 0 @ Toronto Blue Jays 1
+2026-07-16T08:01,MLB,Total,New York Mets at Philadelphia Phillies,Under 12.5,2026-07-16 21:10:00,0.8440000000000001,0.725,0.11900000000000001,W,New York Mets 4 @ Philadelphia Phillies 1
+2026-07-16T08:01,WNBA,Moneyline,Los Angeles Sparks at Chicago Sky,Los Angeles Sparks,2026-07-17 21:30:00,0.568,0.475,0.09300000000000001,L,Los Angeles Sparks 82 @ Chicago Sky 96
+2026-07-16T08:01,MLB,Moneyline,San Diego Padres at Kansas City Royals,San Diego Padres,2026-07-17 22:10:00,0.575,0.485,0.09,L,San Diego Padres 6 @ Kansas City Royals 7
+2026-07-16T08:01,WNBA,Spread,Portland Fire at Washington Mystics,Portland Fire wins by 1.5+,2026-07-16 21:00:00,0.373,0.295,0.078,W,Portland Fire 75 @ Washington Mystics 56
+2026-07-16T08:01,WNBA,Moneyline,Atlanta Dream at Toronto Tempo,Toronto Tempo,2026-07-17 21:30:00,0.34600000000000003,0.27,0.076,L,Atlanta Dream 111 @ Toronto Tempo 92
+2026-07-16T08:01,MLB,Moneyline,Texas Rangers at Atlanta Braves,Atlanta Braves,2026-07-18 18:10:00,0.62,0.545,0.075,L,Texas Rangers 7 @ Atlanta Braves 6
+2026-07-16T08:01,MLB,Moneyline,New York Mets at Philadelphia Phillies,Philadelphia Phillies,2026-07-18 18:05:00,0.68,0.61,0.07,W,New York Mets 1 @ Philadelphia Phillies 6
+2026-07-17T08:01,FIFA,Moneyline,Argentina at Spain,Argentina,2026-07-19 17:00:00,0.5479999999999999,0.275,0.273,L,Argentina 0 @ Spain 1
+2026-07-17T08:01,MLB,Moneyline,St. Louis Cardinals at Arizona Diamondbacks,St. Louis Cardinals,2026-07-18 18:10:00,0.551,0.455,0.096,L,St. Louis Cardinals 3 @ Arizona Diamondbacks 5
+2026-07-17T08:01,MLB,Moneyline,St. Louis Cardinals at Arizona Diamondbacks,St. Louis Cardinals,2026-07-17 23:40:00,0.5760000000000001,0.495,0.081,W,St. Louis Cardinals 5 @ Arizona Diamondbacks 4
+2026-07-17T08:01,MLB,Moneyline,Los Angeles Dodgers at New York Yankees,New York Yankees,2026-07-18 22:08:00,0.521,0.45,0.071,L,Los Angeles Dodgers 2 @ New York Yankees 1
+2026-07-17T08:01,MLB,Moneyline,Minnesota Twins at Chicago Cubs,Minnesota Twins,2026-07-18 16:20:00,0.46,0.395,0.065,L,Minnesota Twins 2 @ Chicago Cubs 6
+2026-07-17T08:01,MLB,Moneyline,Miami Marlins at Milwaukee Brewers,Milwaukee Brewers,2026-07-17 21:40:00,0.642,0.58,0.062,W,Miami Marlins 1 @ Milwaukee Brewers 2
+2026-07-18T08:01,MLB,Total,Cincinnati Reds at Colorado Rockies,Under 12.5,2026-07-18 17:10:00,0.784,0.485,0.299,L,Cincinnati Reds 3 @ Colorado Rockies 10
+2026-07-18T08:01,MLB,Total,San Diego Padres at Kansas City Royals,Under 12.5,2026-07-18 18:10:00,0.841,0.625,0.21600000000000003,W,San Diego Padres 1 @ Kansas City Royals 6
+2026-07-18T08:01,MLB,Moneyline,Washington Nationals at Athletics,Washington Nationals,2026-07-19 18:05:00,0.687,0.515,0.172,W,Washington Nationals 5 @ Athletics 2
+2026-07-18T08:01,MLB,Total,Tampa Bay Rays at Boston Red Sox,Under 10.5,2026-07-18 18:10:00,0.728,0.565,0.163,L,Tampa Bay Rays 6 @ Boston Red Sox 7
+2026-07-18T08:01,MLB,Moneyline,Los Angeles Dodgers at Philadelphia Phillies,Los Angeles Dodgers,2026-07-20 21:10:00,0.569,0.415,0.154,L,Los Angeles Dodgers 7 @ Philadelphia Phillies 10
+2026-07-18T08:01,MLB,Moneyline,Chicago White Sox at Texas Rangers,Chicago White Sox,2026-07-20 22:05:00,0.525,0.38,0.145,W,Chicago White Sox 10 @ Texas Rangers 3
+2026-07-18T08:01,WNBA,Moneyline,New York Liberty at Indiana Fever,Indiana Fever,2026-07-18 22:00:00,0.584,0.445,0.139,W,New York Liberty 88 @ Indiana Fever 108
+2026-07-18T08:01,MLB,Moneyline,Texas Rangers at Atlanta Braves,Atlanta Braves,2026-07-19 15:35:00,0.652,0.525,0.127,W,Texas Rangers 5 @ Atlanta Braves 8
+2026-07-18T08:01,MLB,Moneyline,New York Mets at Milwaukee Brewers,Milwaukee Brewers,2026-07-20 21:40:00,0.722,0.605,0.11699999999999999,W,New York Mets 3 @ Milwaukee Brewers 8
+2026-07-18T08:01,MLB,Moneyline,Athletics at Arizona Diamondbacks,Arizona Diamondbacks,2026-07-20 23:40:00,0.6829999999999999,0.575,0.10800000000000001,L,Athletics 5 @ Arizona Diamondbacks 2
+2026-07-18T08:01,WNBA,Spread,Portland Fire at Minnesota Lynx,Portland Fire wins by 1.5+,2026-07-18 22:00:00,0.21899999999999997,0.115,0.10400000000000001,L,Portland Fire 93 @ Minnesota Lynx 101
+2026-07-19T08:01,WNBA,Moneyline,New York Liberty at Dallas Wings,Dallas Wings,2026-07-20 22:00:00,0.67,0.455,0.215,L,New York Liberty 99 @ Dallas Wings 98
+2026-07-19T08:01,WNBA,Spread,Chicago Sky at Atlanta Dream,Chicago Sky wins by 1.5+,2026-07-19 18:00:00,0.33399999999999996,0.15,0.184,L,Chicago Sky 91 @ Atlanta Dream 93
+2026-07-19T08:01,MLB,Total,Cincinnati Reds at Colorado Rockies,Under 14.5,2026-07-19 17:10:00,0.9079999999999999,0.735,0.17300000000000001,L,Cincinnati Reds 9 @ Colorado Rockies 6
+2026-07-19T08:01,MLB,Total,San Diego Padres at Kansas City Royals,Under 12.5,2026-07-19 16:10:00,0.8420000000000001,0.685,0.157,L,San Diego Padres 19 @ Kansas City Royals 2
+2026-07-19T08:01,MLB,Moneyline,New York Mets at Philadelphia Phillies,Philadelphia Phillies,2026-07-19 15:35:00,0.612,0.455,0.157,L,New York Mets 6 @ Philadelphia Phillies 1
+2026-07-19T08:01,WNBA,Spread,Las Vegas Aces at Toronto Tempo,Toronto Tempo wins by 3.5+,2026-07-20 22:00:00,0.254,0.1,0.154,L,Las Vegas Aces 109 @ Toronto Tempo 83
+2026-07-19T08:01,MLB,Moneyline,Athletics at Arizona Diamondbacks,Arizona Diamondbacks,2026-07-21 23:40:00,0.679,0.565,0.114,W,Athletics 5 @ Arizona Diamondbacks 6
+2026-07-19T08:01,WNBA,Spread,Los Angeles Sparks at Dallas Wings,Los Angeles Sparks wins by 1.5+,2026-07-19 15:00:00,0.29100000000000004,0.18,0.111,L,Los Angeles Sparks 82 @ Dallas Wings 90
+2026-07-20T08:02,MLS,Moneyline,FC Dallas at Portland Timbers,FC Dallas,2026-07-23 00:30:00,0.624,0.345,0.27899999999999997,L,FC Dallas 2 @ Portland Timbers 2
+2026-07-20T08:02,MLB,Total,Detroit Tigers at Chicago Cubs,Under 12.5,2026-07-20 22:05:00,0.846,0.575,0.271,L,Detroit Tigers 8 @ Chicago Cubs 6
+2026-07-20T08:02,MLS,Moneyline,New York City FC at Columbus Crew,New York City FC,2026-07-22 21:30:00,0.514,0.255,0.259,W,New York City FC 2 @ Columbus Crew 1
+2026-07-20T08:02,MLB,Moneyline,San Diego Padres at Atlanta Braves,Atlanta Braves,2026-07-22 21:15:00,0.68,0.455,0.225,W,San Diego Padres 6 @ Atlanta Braves 7
+2026-07-20T08:02,MLS,Moneyline,San Diego FC at Colorado Rapids,San Diego FC,2026-07-22 23:30:00,0.514,0.315,0.19899999999999998,L,San Diego FC 0 @ Colorado Rapids 1
+2026-07-20T08:02,MLB,Moneyline,Miami Marlins at Houston Astros,Miami Marlins,2026-07-21 22:10:00,0.62,0.445,0.175,L,Miami Marlins 3 @ Houston Astros 5
+2026-07-20T08:02,MLB,Total,Washington Nationals at Colorado Rockies,Under 13.5,2026-07-20 22:40:00,0.789,0.615,0.174,W,Washington Nationals 7 @ Colorado Rockies 3
+2026-07-20T08:02,WNBA,Spread,Las Vegas Aces at Toronto Tempo,Toronto Tempo wins by 1.5+,2026-07-20 22:00:00,0.316,0.15,0.166,L,Las Vegas Aces 109 @ Toronto Tempo 83
+2026-07-20T08:02,MLS,Moneyline,Seattle Sounders FC at Austin FC,Seattle Sounders FC,2026-07-22 22:30:00,0.649,0.485,0.16399999999999998,L,Seattle Sounders FC 1 @ Austin FC 3
+2026-07-20T08:02,MLS,Moneyline,Toronto FC at New England Revolution,New England Revolution,2026-07-22 21:30:00,0.659,0.505,0.154,L,Toronto FC 0 @ New England Revolution 0
+2026-07-20T08:02,MLS,Moneyline,Atlanta United FC at Charlotte FC,Charlotte FC,2026-07-22 22:15:00,0.679,0.525,0.154,L,Atlanta United FC 2 @ Charlotte FC 2
+2026-07-20T08:02,MLB,Total,San Francisco Giants at Kansas City Royals,Under 12.5,2026-07-20 21:40:00,0.821,0.675,0.146,W,San Francisco Giants 3 @ Kansas City Royals 4
+2026-07-20T08:02,MLS,Moneyline,Chicago Fire FC at Inter Miami CF,Inter Miami CF,2026-07-22 21:30:00,0.598,0.455,0.14300000000000002,W,Chicago Fire FC 2 @ Inter Miami CF 3
+2026-07-20T08:02,MLB,Moneyline,Tampa Bay Rays at Toronto Blue Jays,Tampa Bay Rays,2026-07-20 21:07:00,0.552,0.415,0.13699999999999998,W,Tampa Bay Rays 7 @ Toronto Blue Jays 1
+2026-07-21T08:02,MLB,Total,Washington Nationals at Colorado Rockies,Under 14.5,2026-07-21 22:40:00,0.86,0.615,0.245,L,Washington Nationals 7 @ Colorado Rockies 8
+2026-07-21T08:02,MLS,Moneyline,Minnesota United FC at Sporting Kansas City,Minnesota United FC,2026-07-22 22:30:00,0.627,0.475,0.152,L,Minnesota United FC 1 @ Sporting Kansas City 2
+2026-07-21T08:02,MLB,Moneyline,San Diego Padres at Atlanta Braves,Atlanta Braves,2026-07-23 14:15:00,0.773,0.63,0.14300000000000002,W,San Diego Padres 5 @ Atlanta Braves 6
+2026-07-21T08:02,MLB,Moneyline,San Diego Padres at Atlanta Braves,Atlanta Braves,2026-07-21 21:15:00,0.705,0.565,0.14,L,San Diego Padres 8 @ Atlanta Braves 3
+2026-07-21T08:02,MLB,Moneyline,St. Louis Cardinals at Los Angeles Angels,St. Louis Cardinals,2026-07-22 18:07:00,0.625,0.485,0.14,W,St. Louis Cardinals 1 @ Los Angeles Angels 0
+2026-07-21T08:02,MLS,Moneyline,Orlando City SC at San Jose Earthquakes,San Jose Earthquakes,2026-07-23 00:30:00,0.77,0.635,0.135,L,Orlando City SC 4 @ San Jose Earthquakes 0
+2026-07-21T08:02,MLB,Moneyline,New York Mets at Milwaukee Brewers,Milwaukee Brewers,2026-07-22 16:10:00,0.705,0.585,0.12,W,New York Mets 3 @ Milwaukee Brewers 4
+2026-07-22T08:01,MLB,Moneyline,Cincinnati Reds at St. Louis Cardinals,St. Louis Cardinals,2026-07-24 22:15:00,0.635,0.495,0.14,L,Cincinnati Reds 4 @ St. Louis Cardinals 2
+2026-07-22T08:01,WNBA,Spread,Chicago Sky at New York Liberty,Chicago Sky wins by 1.5+,2026-07-22 21:00:00,0.364,0.225,0.139,L,Chicago Sky 94 @ New York Liberty 95
+2026-07-22T08:01,MLB,Total,Washington Nationals at Colorado Rockies,Under 14.5,2026-07-22 17:10:00,0.858,0.725,0.133,W,Washington Nationals 8 @ Colorado Rockies 0
+2026-07-22T08:01,MLS,Moneyline,Vancouver Whitecaps at FC Cincinnati,Vancouver Whitecaps,2026-07-22 21:30:00,0.655,0.535,0.12,L,Vancouver Whitecaps 3 @ FC Cincinnati 4
+2026-07-23T08:01,MLS,Moneyline,Seattle Sounders FC at Philadelphia Union,Seattle Sounders FC,2026-07-25 21:30:00,0.6759999999999999,0.295,0.381,L,Seattle Sounders FC 0 @ Philadelphia Union 1
+2026-07-23T08:01,MLS,Moneyline,FC Cincinnati at Columbus Crew,FC Cincinnati,2026-07-25 21:00:00,0.574,0.24,0.33399999999999996,L,FC Cincinnati 1 @ Columbus Crew 2
+2026-07-23T08:01,MLS,Moneyline,Nashville SC at Orlando City SC,Nashville SC,2026-07-25 21:30:00,0.769,0.475,0.294,L,Nashville SC 0 @ Orlando City SC 1
+2026-07-23T08:01,MLS,Moneyline,FC Dallas at San Diego FC,FC Dallas,2026-07-25 23:30:00,0.594,0.315,0.27899999999999997,L,FC Dallas 0 @ San Diego FC 1
+2026-07-23T08:01,MLS,Moneyline,Atlanta United FC at New England Revolution,New England Revolution,2026-07-25 21:30:00,0.728,0.465,0.263,W,Atlanta United FC 1 @ New England Revolution 4
+2026-07-23T08:01,MLS,Moneyline,Real Salt Lake at Portland Timbers,Real Salt Lake,2026-07-26 00:30:00,0.597,0.365,0.23199999999999998,L,Real Salt Lake 1 @ Portland Timbers 2
+2026-07-23T08:01,MLS,Moneyline,Chicago Fire FC at New York City FC,Chicago Fire FC,2026-07-25 21:30:00,0.535,0.335,0.2,L,Chicago Fire FC 1 @ New York City FC 3
+2026-07-23T08:01,MLS,Moneyline,Austin FC at Houston Dynamo FC,Austin FC,2026-07-25 22:30:00,0.387,0.205,0.182,L,Austin FC 0 @ Houston Dynamo FC 3
+2026-07-23T08:01,MLB,Moneyline,Cincinnati Reds at St. Louis Cardinals,St. Louis Cardinals,2026-07-25 21:15:00,0.67,0.505,0.165,W,Cincinnati Reds 0 @ St. Louis Cardinals 7
+2026-07-23T08:01,MLB,Moneyline,Tampa Bay Rays at Toronto Blue Jays,Tampa Bay Rays,2026-07-23 17:07:00,0.623,0.495,0.128,L,Tampa Bay Rays 1 @ Toronto Blue Jays 3
+2026-07-23T08:01,MLB,Moneyline,Atlanta Braves at Baltimore Orioles,Atlanta Braves,2026-07-24 21:05:00,0.596,0.475,0.121,W,Atlanta Braves 7 @ Baltimore Orioles 6
+2026-07-23T08:01,MLS,Moneyline,Vancouver Whitecaps at Minnesota United FC,Minnesota United FC,2026-07-25 22:30:00,0.376,0.255,0.121,L,Vancouver Whitecaps 0 @ Minnesota United FC 0
+2026-07-23T08:01,MLB,Moneyline,Athletics at Minnesota Twins,Minnesota Twins,2026-07-24 22:10:00,0.648,0.545,0.10300000000000001,L,Athletics 2 @ Minnesota Twins 0
+2026-07-23T08:01,MLB,Moneyline,Arizona Diamondbacks at St. Louis Cardinals,St. Louis Cardinals,2026-07-23 19:15:00,0.628,0.525,0.10300000000000001,L,Arizona Diamondbacks 10 @ St. Louis Cardinals 6
+2026-07-23T08:01,MLB,Moneyline,Seattle Mariners at Texas Rangers,Seattle Mariners,2026-07-24 22:05:00,0.61,0.51,0.1,L,Seattle Mariners 4 @ Texas Rangers 5
+2026-07-24T08:01,MLB,Moneyline,New York Yankees at Philadelphia Phillies,New York Yankees,2026-07-24 20:45:00,0.5870000000000001,0.455,0.132,W,New York Yankees 1 @ Philadelphia Phillies 0
+2026-07-24T08:01,MLB,Moneyline,Colorado Rockies at Milwaukee Brewers,Milwaukee Brewers,2026-07-26 16:10:00,0.8490000000000001,0.735,0.114,W,Colorado Rockies 2 @ Milwaukee Brewers 11
+2026-07-24T08:01,MLB,Moneyline,Athletics at Minnesota Twins,Minnesota Twins,2026-07-26 16:10:00,0.71,0.61,0.1,W,Athletics 8 @ Minnesota Twins 11
+2026-07-24T08:01,MLB,Moneyline,Kansas City Royals at Detroit Tigers,Kansas City Royals,2026-07-24 20:40:00,0.36700000000000005,0.275,0.092,L,Kansas City Royals 1 @ Detroit Tigers 2
+2026-07-25T08:01,MLB,Moneyline,Milwaukee Brewers at San Francisco Giants,Milwaukee Brewers,2026-07-27 23:45:00,0.6709999999999999,0.525,0.146,L,Milwaukee Brewers 0 @ San Francisco Giants 3
+2026-07-25T08:01,MLB,Moneyline,Boston Red Sox at Athletics,Boston Red Sox,2026-07-27 23:40:00,0.67,0.54,0.13,W,Boston Red Sox 4 @ Athletics 2
+2026-07-25T08:01,MLB,Moneyline,New York Yankees at Chicago White Sox,New York Yankees,2026-07-27 21:40:00,0.618,0.51,0.10800000000000001,W,New York Yankees 9 @ Chicago White Sox 5
+2026-07-25T08:01,MLB,Moneyline,Toronto Blue Jays at Boston Red Sox,Boston Red Sox,2026-07-25 18:10:00,0.625,0.525,0.1,L,Toronto Blue Jays 6 @ Boston Red Sox 0
+2026-07-26T08:01,MLB,Moneyline,New York Yankees at Philadelphia Phillies,New York Yankees,2026-07-26 21:20:00,0.502,0.365,0.13699999999999998,L,New York Yankees 4 @ Philadelphia Phillies 11
+2026-07-26T08:01,MLB,Moneyline,Milwaukee Brewers at San Francisco Giants,Milwaukee Brewers,2026-07-28 23:45:00,0.688,0.555,0.133,W,Milwaukee Brewers 8 @ San Francisco Giants 2
+2026-07-26T08:01,MLB,Moneyline,Boston Red Sox at Athletics,Boston Red Sox,2026-07-28 23:40:00,0.652,0.52,0.132,L,Boston Red Sox 3 @ Athletics 4
+2026-07-26T08:01,MLB,Moneyline,Baltimore Orioles at Detroit Tigers,Detroit Tigers,2026-07-28 20:40:00,0.652,0.54,0.11199999999999999,W,Baltimore Orioles 0 @ Detroit Tigers 14
+2026-07-26T08:01,MLB,Total,Arizona Diamondbacks at Washington Nationals,Under 14.5,2026-07-26 15:35:00,0.903,0.795,0.10800000000000001,L,Arizona Diamondbacks 7 @ Washington Nationals 10
+2026-07-26T08:01,MLB,Moneyline,Toronto Blue Jays at Boston Red Sox,Boston Red Sox,2026-07-26 15:35:00,0.66,0.555,0.105,W,Toronto Blue Jays 1 @ Boston Red Sox 6
+2026-07-26T08:01,MLB,Moneyline,Houston Astros at Los Angeles Angels,Los Angeles Angels,2026-07-27 23:38:00,0.564,0.465,0.099,L,Houston Astros 6 @ Los Angeles Angels 4
+2026-07-26T08:01,MLB,Total,Kansas City Royals at Detroit Tigers,Under 12.5,2026-07-26 15:40:00,0.853,0.765,0.08800000000000001,W,Kansas City Royals 5 @ Detroit Tigers 4
+2026-07-26T08:01,MLB,Moneyline,Atlanta Braves at New York Mets,Atlanta Braves,2026-07-28 21:10:00,0.6609999999999999,0.575,0.086,L,Atlanta Braves 3 @ New York Mets 14
+2026-07-26T08:01,MLB,Moneyline,Chicago Cubs at St. Louis Cardinals,St. Louis Cardinals,2026-07-28 21:45:00,0.579,0.495,0.084,L,Chicago Cubs 10 @ St. Louis Cardinals 2
+2026-07-27T08:01,MLB,Moneyline,Milwaukee Brewers at San Francisco Giants,Milwaukee Brewers,2026-07-29 17:45:00,0.6809999999999999,0.54,0.141,L,Milwaukee Brewers 3 @ San Francisco Giants 16
+2026-07-27T08:01,WNBA,Moneyline,Golden State Valkyries at Phoenix Mercury,Golden State Valkyries,2026-07-30 00:00:00,0.782,0.645,0.13699999999999998,L,Golden State Valkyries 89 @ Phoenix Mercury 91
+2026-07-27T08:01,MLB,Moneyline,Atlanta Braves at New York Mets,Atlanta Braves,2026-07-29 15:10:00,0.65,0.515,0.135,L,Atlanta Braves 2 @ New York Mets 3
+2026-07-27T08:01,WNBA,Moneyline,Connecticut Sun at Washington Mystics,Washington Mystics,2026-07-28 21:30:00,0.802,0.68,0.122,W,Connecticut Sun 84 @ Washington Mystics 92
+2026-07-27T08:01,MLB,Moneyline,Toronto Blue Jays at Washington Nationals,Washington Nationals,2026-07-27 20:45:00,0.6759999999999999,0.555,0.121,L,Toronto Blue Jays 3 @ Washington Nationals 2
+2026-07-27T08:01,MLB,Total,Chicago Cubs at St. Louis Cardinals,Under 12.5,2026-07-27 21:45:00,0.818,0.705,0.113,W,Chicago Cubs 7 @ St. Louis Cardinals 3
+2026-07-27T08:01,MLB,Moneyline,Colorado Rockies at San Diego Padres,Colorado Rockies,2026-07-29 18:10:00,0.512,0.41,0.102,L,Colorado Rockies 1 @ San Diego Padres 3
+2026-07-27T08:01,MLB,Moneyline,Seattle Mariners at Los Angeles Dodgers,Los Angeles Dodgers,2026-07-30 00:10:00,0.6679999999999999,0.575,0.09300000000000001,W,Seattle Mariners 2 @ Los Angeles Dodgers 6
+2026-07-27T08:01,MLB,Moneyline,Houston Astros at Los Angeles Angels,Houston Astros,2026-07-29 23:38:00,0.617,0.525,0.092,W,Houston Astros 7 @ Los Angeles Angels 4
+2026-07-27T08:01,MLB,Spread,Philadelphia Phillies at Miami Marlins,Miami Marlins wins by 1.5+,2026-07-27 20:40:00,0.316,0.225,0.091,L,Philadelphia Phillies 7 @ Miami Marlins 8
+2026-07-27T08:01,MLB,Moneyline,Boston Red Sox at Athletics,Boston Red Sox,2026-07-29 23:40:00,0.68,0.59,0.09,W,Boston Red Sox 4 @ Athletics 2
+2026-07-28T08:01,MLB,Moneyline,Pittsburgh Pirates at Cincinnati Reds,Pittsburgh Pirates,2026-07-30 21:10:00,0.635,0.505,0.13,L,Pittsburgh Pirates 2 @ Cincinnati Reds 3
+2026-07-28T08:01,MLB,Moneyline,Texas Rangers at Tampa Bay Rays,Tampa Bay Rays,2026-07-30 14:10:00,0.6579999999999999,0.54,0.11800000000000001,W,Texas Rangers 2 @ Tampa Bay Rays 3
+2026-07-28T08:01,MLB,Total,Seattle Mariners at Los Angeles Dodgers,Under 11.5,2026-07-29 00:10:00,0.8059999999999999,0.69,0.11599999999999999,W,Seattle Mariners 2 @ Los Angeles Dodgers 4
+2026-07-28T08:01,MLB,Total,Cleveland Guardians at Cincinnati Reds,Under 13.5,2026-07-28 21:10:00,0.9179999999999999,0.825,0.09300000000000001,W,Cleveland Guardians 0 @ Cincinnati Reds 2
+2026-07-28T08:01,MLB,Total,Baltimore Orioles at Detroit Tigers,Under 13.5,2026-07-28 20:40:00,0.907,0.815,0.092,L,Baltimore Orioles 0 @ Detroit Tigers 14
+2026-07-28T08:01,MLB,Moneyline,Colorado Rockies at San Diego Padres,San Diego Padres,2026-07-28 23:40:00,0.722,0.635,0.087,W,Colorado Rockies 7 @ San Diego Padres 8
+2026-07-28T08:01,MLB,Moneyline,Cleveland Guardians at Cincinnati Reds,Cleveland Guardians,2026-07-29 21:10:00,0.5920000000000001,0.505,0.087,W,Cleveland Guardians 6 @ Cincinnati Reds 1
+2026-07-29T08:01,MLS,Moneyline,Toronto FC at New York City FC,Toronto FC,2026-07-31 21:30:00,0.37200000000000005,0.185,0.187,L,Toronto FC 1 @ New York City FC 1
+2026-07-29T08:01,MLB,Moneyline,Pittsburgh Pirates at Cincinnati Reds,Pittsburgh Pirates,2026-07-31 20:10:00,0.619,0.455,0.16399999999999998,L,Pittsburgh Pirates 7 @ Cincinnati Reds 8
+2026-07-29T08:01,MLB,Total,Seattle Mariners at Los Angeles Dodgers,Under 10.5,2026-07-30 00:10:00,0.7170000000000001,0.575,0.142,W,Seattle Mariners 2 @ Los Angeles Dodgers 6
+2026-07-29T08:01,MLB,Moneyline,Milwaukee Brewers at Los Angeles Angels,Milwaukee Brewers,2026-07-31 23:38:00,0.72,0.6,0.12,W,Milwaukee Brewers 6 @ Los Angeles Angels 2
+2026-07-29T08:01,MLB,Moneyline,Arizona Diamondbacks at Cleveland Guardians,Cleveland Guardians,2026-07-31 21:10:00,0.645,0.54,0.105,L,Arizona Diamondbacks 4 @ Cleveland Guardians 1
+2026-07-29T08:01,MLB,Total,Houston Astros at Los Angeles Angels,Under 13.5,2026-07-29 23:38:00,0.8759999999999999,0.775,0.10099999999999999,W,Houston Astros 7 @ Los Angeles Angels 4
+2026-07-29T08:01,MLB,Total,Cleveland Guardians at Cincinnati Reds,Under 12.5,2026-07-29 21:10:00,0.87,0.775,0.095,W,Cleveland Guardians 6 @ Cincinnati Reds 1
+2026-07-29T08:01,MLB,Moneyline,Philadelphia Phillies at Miami Marlins,Miami Marlins,2026-07-29 14:10:00,0.469,0.375,0.094,W,Philadelphia Phillies 6 @ Miami Marlins 8
+2026-07-29T08:01,MLB,Moneyline,Kansas City Royals at Minnesota Twins,Minnesota Twins,2026-07-30 15:40:00,0.642,0.555,0.087,W,Kansas City Royals 3 @ Minnesota Twins 4
+2026-07-29T08:01,MLB,Moneyline,Texas Rangers at Tampa Bay Rays,Tampa Bay Rays,2026-07-29 20:40:00,0.647,0.565,0.08199999999999999,W,Texas Rangers 0 @ Tampa Bay Rays 3
+2026-07-30T08:04,MLS,Moneyline,San Jose Earthquakes at FC Cincinnati,San Jose Earthquakes,2026-08-01 21:30:00,0.591,0.295,0.29600000000000004,L,San Jose Earthquakes 2 @ FC Cincinnati 4
+2026-07-30T08:04,MLS,Moneyline,Charlotte FC at Chicago Fire FC,Charlotte FC,2026-08-01 22:30:00,0.44799999999999995,0.175,0.273,L,Charlotte FC 1 @ Chicago Fire FC 2
+2026-07-30T08:04,MLS,Moneyline,Austin FC at Colorado Rapids,Austin FC,2026-08-01 23:30:00,0.47,0.21,0.26,L,Austin FC 0 @ Colorado Rapids 1
+2026-07-30T08:04,MLS,Moneyline,Atlanta United FC at Philadelphia Union,Atlanta United FC,2026-08-01 21:30:00,0.446,0.21,0.23600000000000002,L,Atlanta United FC 2 @ Philadelphia Union 3
+2026-07-30T08:04,MLS,Moneyline,Seattle Sounders FC at Portland Timbers,Seattle Sounders FC,2026-08-02 00:30:00,0.531,0.325,0.20600000000000002,L,Seattle Sounders FC 1 @ Portland Timbers 2
+2026-07-30T08:04,MLS,Moneyline,Houston Dynamo FC at Sporting Kansas City,Houston Dynamo FC,2026-08-01 22:30:00,0.649,0.445,0.204,W,Houston Dynamo FC 2 @ Sporting Kansas City 0
+2026-07-30T08:04,MLS,Moneyline,Columbus Crew at Inter Miami CF,Inter Miami CF,2026-08-01 21:30:00,0.757,0.575,0.182,L,Columbus Crew 2 @ Inter Miami CF 2
+2026-07-30T08:04,MLS,Moneyline,San Diego FC at Minnesota United FC,San Diego FC,2026-08-01 22:30:00,0.43,0.285,0.145,L,San Diego FC 1 @ Minnesota United FC 1
+2026-07-30T08:04,MLB,Moneyline,New York Yankees at Chicago Cubs,New York Yankees,2026-08-01 21:15:00,0.617,0.505,0.11199999999999999,L,New York Yankees 2 @ Chicago Cubs 5
+2026-07-30T08:04,MLB,Moneyline,Detroit Tigers at Athletics,Detroit Tigers,2026-07-31 23:40:00,0.6920000000000001,0.585,0.107,W,Detroit Tigers 13 @ Athletics 1
+2026-07-30T08:04,MLB,Moneyline,Texas Rangers at Houston Astros,Houston Astros,2026-08-01 21:10:00,0.542,0.445,0.09699999999999999,W,Texas Rangers 4 @ Houston Astros 5
+2026-07-31T08:02,WNBA,Moneyline,Connecticut Sun at Dallas Wings,Dallas Wings,2026-08-02 21:00:00,0.8809999999999999,0.7,0.18100000000000002,W,Connecticut Sun 63 @ Dallas Wings 83
+2026-07-31T08:02,MLB,Total,Kansas City Royals at Colorado Rockies,Under 14.5,2026-07-31 22:40:00,0.902,0.735,0.16699999999999998,W,Kansas City Royals 1 @ Colorado Rockies 3
+2026-07-31T08:02,WNBA,Moneyline,Toronto Tempo at Golden State Valkyries,Golden State Valkyries,2026-08-02 22:30:00,0.8340000000000001,0.695,0.139,W,Toronto Tempo 79 @ Golden State Valkyries 96
+2026-07-31T08:02,MLB,Moneyline,Boston Red Sox at Los Angeles Dodgers,Los Angeles Dodgers,2026-08-01 00:10:00,0.6459999999999999,0.525,0.121,L,Boston Red Sox 3 @ Los Angeles Dodgers 2
+2026-07-31T08:02,MLB,Moneyline,St. Louis Cardinals at Toronto Blue Jays,St. Louis Cardinals,2026-08-01 17:07:00,0.563,0.445,0.11800000000000001,L,St. Louis Cardinals 1 @ Toronto Blue Jays 5
+2026-08-01T08:01,MLB,Total,Kansas City Royals at Colorado Rockies,Under 12.5,2026-08-01 22:10:00,0.774,0.555,0.21899999999999997,L,Kansas City Royals 6 @ Colorado Rockies 12
+2026-08-01T08:01,MLB,Moneyline,St. Louis Cardinals at Toronto Blue Jays,St. Louis Cardinals,2026-08-02 15:37:00,0.628,0.485,0.14300000000000002,W,St. Louis Cardinals 5 @ Toronto Blue Jays 1
+2026-08-01T08:01,MLB,Moneyline,St. Louis Cardinals at New York Yankees,New York Yankees,2026-08-03 21:05:00,0.718,0.585,0.133,L,St. Louis Cardinals 13 @ New York Yankees 7
+2026-08-01T08:01,MLB,Moneyline,Tampa Bay Rays at Colorado Rockies,Tampa Bay Rays,2026-08-03 22:40:00,0.693,0.565,0.128,W,Tampa Bay Rays 13 @ Colorado Rockies 9
+2026-08-01T08:01,WNBA,Moneyline,Seattle Storm at New York Liberty,New York Liberty,2026-08-03 21:00:00,0.7829999999999999,0.665,0.11800000000000001,W,Seattle Storm 83 @ New York Liberty 95
+2026-08-02T08:03,MLB,Total,Kansas City Royals at Colorado Rockies,Under 12.5,2026-08-02 17:10:00,0.768,0.525,0.243,W,Kansas City Royals 1 @ Colorado Rockies 8
+2026-08-02T08:03,MLB,Moneyline,Athletics at Cincinnati Reds,Cincinnati Reds,2026-08-04 20:40:00,0.6679999999999999,0.53,0.138,W,Athletics 4 @ Cincinnati Reds 5
+2026-08-02T08:03,MLB,Moneyline,Detroit Tigers at Seattle Mariners,Detroit Tigers,2026-08-04 23:40:00,0.591,0.49,0.10099999999999999,W,Detroit Tigers 8 @ Seattle Mariners 0
+2026-08-02T08:03,MLB,Moneyline,Detroit Tigers at Athletics,Detroit Tigers,2026-08-02 18:05:00,0.604,0.515,0.08900000000000001,W,Detroit Tigers 11 @ Athletics 0
+2026-08-02T08:03,MLB,Total,Boston Red Sox at Los Angeles Dodgers,Under 12.5,2026-08-02 21:20:00,0.872,0.785,0.087,W,Boston Red Sox 8 @ Los Angeles Dodgers 4
+2026-08-02T08:03,MLB,Moneyline,Pittsburgh Pirates at Milwaukee Brewers,Milwaukee Brewers,2026-08-04 21:40:00,0.6729999999999999,0.59,0.083,W,Pittsburgh Pirates 2 @ Milwaukee Brewers 4
+2026-08-02T08:03,MLB,Moneyline,Toronto Blue Jays at Houston Astros,Houston Astros,2026-08-03 22:10:00,0.647,0.565,0.08199999999999999,L,Toronto Blue Jays 3 @ Houston Astros 1
+2026-08-02T08:03,MLB,Moneyline,Washington Nationals at Philadelphia Phillies,Washington Nationals,2026-08-03 20:40:00,0.485,0.405,0.08,L,Washington Nationals 3 @ Philadelphia Phillies 6
+2026-08-02T08:03,MLB,Moneyline,San Francisco Giants at Texas Rangers,Texas Rangers,2026-08-03 22:05:00,0.574,0.495,0.079,L,San Francisco Giants 5 @ Texas Rangers 1
+2026-08-02T08:03,MLB,Moneyline,San Francisco Giants at Texas Rangers,San Francisco Giants,2026-08-04 22:05:00,0.494,0.42,0.07400000000000001,L,San Francisco Giants 4 @ Texas Rangers 5
+2026-08-02T08:03,MLB,Moneyline,Texas Rangers at Houston Astros,Houston Astros,2026-08-02 16:10:00,0.61,0.545,0.065,W,Texas Rangers 3 @ Houston Astros 7
+2026-08-02T08:03,MLB,Moneyline,Washington Nationals at Atlanta Braves,Atlanta Braves,2026-08-02 15:35:00,0.599,0.535,0.064,W,Washington Nationals 2 @ Atlanta Braves 4
+2026-08-03T08:01,MLB,Total,Tampa Bay Rays at Colorado Rockies,Under 12.5,2026-08-03 22:40:00,0.8009999999999999,0.585,0.21600000000000003,L,Tampa Bay Rays 13 @ Colorado Rockies 9
+2026-08-03T08:01,MLB,Moneyline,Pittsburgh Pirates at Milwaukee Brewers,Milwaukee Brewers,2026-08-05 21:40:00,0.623,0.51,0.113,W,Pittsburgh Pirates 2 @ Milwaukee Brewers 4
+2026-08-03T08:01,MLB,Moneyline,Los Angeles Dodgers at Chicago Cubs,Chicago Cubs,2026-08-05 16:20:00,0.5529999999999999,0.44,0.113,W,Los Angeles Dodgers 6 @ Chicago Cubs 7
+2026-08-03T08:01,MLB,Moneyline,Los Angeles Angels at Baltimore Orioles,Baltimore Orioles,2026-08-05 20:35:00,0.662,0.56,0.102,W,Los Angeles Angels 2 @ Baltimore Orioles 5
+2026-08-03T08:01,MLB,Moneyline,New York Mets at Cleveland Guardians,Cleveland Guardians,2026-08-04 20:40:00,0.637,0.535,0.102,L,New York Mets 6 @ Cleveland Guardians 2
+2026-08-03T08:01,WNBA,Moneyline,Phoenix Mercury at Atlanta Dream,Atlanta Dream,2026-08-05 21:00:00,0.782,0.685,0.09699999999999999,W,Phoenix Mercury 82 @ Atlanta Dream 96
+2026-08-03T08:01,MLB,Total,Toronto Blue Jays at Houston Astros,Under 12.5,2026-08-03 22:10:00,0.8370000000000001,0.755,0.08199999999999999,W,Toronto Blue Jays 3 @ Houston Astros 1
+2026-08-03T08:01,MLB,Moneyline,Chicago White Sox at Boston Red Sox,Chicago White Sox,2026-08-05 21:10:00,0.45799999999999996,0.38,0.078,L,Chicago White Sox 0 @ Boston Red Sox 4
+2026-08-03T08:01,MLB,Moneyline,New York Mets at Cleveland Guardians,Cleveland Guardians,2026-08-05 20:40:00,0.551,0.475,0.076,L,New York Mets 6 @ Cleveland Guardians 5
+2026-08-03T08:01,MLB,Moneyline,Tampa Bay Rays at Colorado Rockies,Tampa Bay Rays,2026-08-05 17:10:00,0.672,0.6,0.07200000000000001,W,Tampa Bay Rays 4 @ Colorado Rockies 0
+2026-08-03T08:01,MLB,Moneyline,Los Angeles Dodgers at Chicago Cubs,Chicago Cubs,2026-08-04 22:05:00,0.423,0.355,0.068,W,Los Angeles Dodgers 1 @ Chicago Cubs 5
+2026-08-03T08:01,MLB,Moneyline,Washington Nationals at Philadelphia Phillies,Washington Nationals,2026-08-04 20:40:00,0.4,0.335,0.065,L,Washington Nationals 0 @ Philadelphia Phillies 5
+2026-08-03T08:01,MLB,Moneyline,Athletics at Cincinnati Reds,Cincinnati Reds,2026-08-05 20:40:00,0.605,0.54,0.065,W,Athletics 2 @ Cincinnati Reds 3
+2026-08-04T08:01,MLB,Total,Tampa Bay Rays at Colorado Rockies,Under 12.5,2026-08-04 22:40:00,0.792,0.605,0.187,L,Tampa Bay Rays 9 @ Colorado Rockies 7
+2026-08-04T08:01,MLB,Moneyline,Detroit Tigers at Seattle Mariners,Detroit Tigers,2026-08-05 23:40:00,0.5770000000000001,0.445,0.132,L,Detroit Tigers 2 @ Seattle Mariners 4
+2026-08-04T08:01,MLB,Moneyline,Miami Marlins at Atlanta Braves,Atlanta Braves,2026-08-06 21:15:00,0.665,0.555,0.11,W,Miami Marlins 3 @ Atlanta Braves 11
+2026-08-04T08:01,MLB,Spread,Washington Nationals at Philadelphia Phillies,Washington Nationals wins by 1.5+,2026-08-04 20:40:00,0.316,0.215,0.10099999999999999,L,Washington Nationals 0 @ Philadelphia Phillies 5
+2026-08-04T08:01,MLB,Moneyline,Los Angeles Angels at Baltimore Orioles,Baltimore Orioles,2026-08-04 20:35:00,0.6709999999999999,0.575,0.096,W,Los Angeles Angels 1 @ Baltimore Orioles 3
+2026-08-04T08:01,MLB,Moneyline,Miami Marlins at Atlanta Braves,Atlanta Braves,2026-08-04 21:15:00,0.667,0.575,0.092,W,Miami Marlins 2 @ Atlanta Braves 4
+2026-08-04T08:01,MLB,Moneyline,San Diego Padres at Arizona Diamondbacks,Arizona Diamondbacks,2026-08-06 23:40:00,0.5760000000000001,0.495,0.081,L,San Diego Padres 5 @ Arizona Diamondbacks 1
+2026-08-04T08:01,MLB,Moneyline,San Francisco Giants at Texas Rangers,Texas Rangers,2026-08-05 16:35:00,0.648,0.575,0.073,W,San Francisco Giants 0 @ Texas Rangers 6
+2026-08-04T08:01,MLB,Moneyline,Minnesota Twins at Kansas City Royals,Kansas City Royals,2026-08-04 21:40:00,0.491,0.425,0.066,W,Minnesota Twins 2 @ Kansas City Royals 8
