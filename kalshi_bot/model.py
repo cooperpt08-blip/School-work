@@ -18,8 +18,11 @@ import math
 from datetime import datetime, timezone
 
 from . import config
+from .ratings import LEAGUES
 
 MARKET = (0.0, 1.0, 0.0)
+POOL = "pool:game-winners-with-ratings"
+POOL_SERIES = set(LEAGUES)
 
 
 def logit(p):
@@ -35,10 +38,13 @@ def sigmoid(z):
     return 1 / (1 + math.exp(-z))
 
 
+MAX_RATING_GAP = 1.5  # ~90th percentile of |ratings - market| (log-odds) seen in training; beyond it we'd be guessing
+
+
 def features(mid, p_elo):
     x1 = logit(mid)
     x2 = (logit(p_elo) - x1) if p_elo is not None else 0.0
-    return (1.0, x1, x2)
+    return (1.0, x1, max(-MAX_RATING_GAP, min(MAX_RATING_GAP, x2)))
 
 
 def predict(theta, x):
@@ -136,6 +142,9 @@ def learn(rows, log=print):
         return theta
 
     root = family("all", rows, MARKET) or MARKET
+    # Game winners that have team ratings, pooled across leagues: no single league has enough
+    # games to prove anything early in a season, but together they can.
+    pool_theta = family(POOL, [r for r in rows if r["series"] in POOL_SERIES and r["x"][2] != 0.0], root) or root
     by_tag = {}
     for r in rows:
         by_tag.setdefault(r["tag"], []).append(r)
@@ -145,7 +154,7 @@ def learn(rows, log=print):
         for r in trows:
             by_series.setdefault(r["series"], []).append(r)
         for s, srows in sorted(by_series.items()):
-            family(f"series:{s}", srows, t_theta)
+            family(f"series:{s}", srows, pool_theta if s in POOL_SERIES else t_theta)
     return out
 
 
@@ -154,14 +163,16 @@ class Weights:
         path = path or config.WEIGHTS
         self.w = json.loads(path.read_text()) if path.exists() else {"families": {}}
 
-    def lookup(self, series, tag):
+    def lookup(self, series, tag, has_ratings=False):
         fam = self.w.get("families", {})
-        for key in (f"series:{series}", f"tag:{tag}", "all"):
+        pool = [POOL] if series in POOL_SERIES and has_ratings else []
+        keys = [f"series:{series}"] + pool + [f"tag:{tag}", "all"]
+        for key in keys:
             if key in fam:
                 f = fam[key]
                 return tuple(f["theta"]), bool(f["proven"]), key
         return MARKET, False, "market"
 
     def prob(self, series, tag, mid, p_elo):
-        theta, proven, key = self.lookup(series, tag)
+        theta, proven, key = self.lookup(series, tag, has_ratings=p_elo is not None)
         return predict(theta, features(mid, p_elo)), proven, key

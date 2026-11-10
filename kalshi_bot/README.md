@@ -59,8 +59,15 @@ The learner was seeded with **17,231 settled sports markets** from the previous 
 
 - **Across all markets, it found no edge over Kalshi's price.** The log-loss was 0.5275 for the model and 0.5275 for the market.
   For most bet types, the price is already the best estimate, so v2 trusts it.
-- **One market type passed the significance test: NHL game winners.** Favorites won a bit more often than
-  their price implied (learned slope 1.35 on the market's log-odds). Only NHL games can show up in "Best value" for now.
+- **Game winners with team ratings, pooled across leagues (1,225 games), passed the significance test.**
+  It now has its own learned family (`pool:game-winners-with-ratings`). Two effects:
+  1. Favorites are underpriced. Game favorites priced 80-90c won 95% of the time.
+  2. When the ESPN-based ratings rate the favorite *lower* than Kalshi does, the favorite still won more than its
+     price said (80.8% against 75.4%, z=3.2). The market knows things box scores don't (injuries, lineups), and
+     it still under-reacts. So the learned ratings weight is negative: lean *further* toward Kalshi.
+  **NBA and NHL game winners** pass the test on their own with these weights, so they're eligible for "Best value".
+  This is from three weeks of early-season games; the weekly re-learn will revise it.
+- Rating-vs-market gaps are capped at about the 90th percentile seen in training, so a bad team match can't swing a pick.
 - Several other families (NBA and college basketball games, NFL totals) *looked* better on the first pass, but didn't clear the
   2.5-standard-error bar, so they aren't trusted yet. More data from the daily runs will settle it either way.
 
