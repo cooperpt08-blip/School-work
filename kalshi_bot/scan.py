@@ -1,10 +1,12 @@
 """Scan every open Kalshi sports market, score both sides of each, and choose picks."""
 from datetime import datetime, timedelta, timezone
+from itertools import combinations
 
 from . import config, kalshi
 from .model import Weights
 from .ratings import Matcher, event_date
 from .report import TZ
+from .signals import PropSignals, pair_lift
 
 
 def game_key(event_ticker):
@@ -19,6 +21,7 @@ def scan(log=print, now=None):
     hi = now + timedelta(hours=config.HORIZON_HOURS + config.PREGAME_BUFFER_HOURS)
     series_info = kalshi.sports_series()
     weights, matcher = Weights(), Matcher()
+    signals = PropSignals(log=log)
     snaps, cands = [], []
     n_events = n_markets = n_live = 0
     today_local = now.astimezone(TZ).date()
@@ -56,6 +59,11 @@ def scan(log=print, now=None):
                           "event_title": e.get("title", ""), "market_title": m.get("title", "")})
             mid = (bid + ask) / 2
             p_yes, proven, fam = weights.prob(series, tag, mid, p_elo)
+            adj = signals.adjust(series, m, p_yes)
+            if adj:  # research-backed prop-line correction (player's usual production vs tonight's line)
+                p_yes, r_proven = adj
+                proven = proven or r_proven
+                fam = "research:prop-line"
             event = e.get("title", "")
             if e.get("sub_title"):
                 event += f" ({e['sub_title']})"
@@ -92,13 +100,48 @@ def choose(cands):
                                   key=lambda c: (-c["prob"], -c["ev"])), config.N_LIKELY)
     value = _one_per_game(sorted((c for c in ok if c["proven"] and c["ev"] >= config.VALUE_MIN_EV),
                                  key=lambda c: -c["ev"]), config.N_VALUE)
-    parlays = []
+    return likely, value, best_parlays(ok)
+
+
+def joint(legs):
+    """P(all legs hit): product of leg probabilities x measured same-game correlation lifts."""
+    p = 1.0
+    for leg in legs:
+        p *= leg["prob"]
+    for i, a in enumerate(legs):
+        for b in legs[i + 1:]:
+            p *= pair_lift(a, b)
+    return min(p, min(leg["prob"] for leg in legs))
+
+
+def best_parlays(ok, pool_size=40):
+    """Highest-probability 2- and 3-leg parlays. Legs may share a game only when the research says
+    they help each other (e.g. NBA points + rebounds for the same player); legs that hurt each other
+    (two teammates' overs, a player over + his opponent winning) are scored down automatically."""
+    pool = sorted((c for c in ok if c["price"] <= config.LIKELY_MAX_PRICE), key=lambda c: -c["prob"])
+    # keep the best few legs per game so same-game combos can be considered
+    per_game, chosen = {}, []
+    for c in pool:
+        if per_game.get(c["game"], 0) < 3 and not any(x["ticker"] == c["ticker"] for x in chosen):
+            per_game[c["game"]] = per_game.get(c["game"], 0) + 1
+            chosen.append(c)
+        if len(chosen) >= pool_size:
+            break
+    out = []
     for n in config.N_PARLAY_LEGS:
-        legs = likely[:n]
-        if len(legs) == n:
-            p = price = 1.0
-            for leg in legs:
-                p *= leg["prob"]
+        best = None
+        for combo in combinations(chosen, n):
+            if len({c["ticker"] for c in combo}) < n:
+                continue
+            p = joint(combo)
+            if not best or p > best[0]:
+                best = (p, combo)
+        if best:
+            price = 1.0
+            for leg in best[1]:
                 price *= leg["price"]
-            parlays.append({"legs": legs, "prob": p, "price": price})
-    return likely, value, parlays
+            indep = 1.0
+            for leg in best[1]:
+                indep *= leg["prob"]
+            out.append({"legs": list(best[1]), "prob": best[0], "price": price, "independent_prob": indep})
+    return out

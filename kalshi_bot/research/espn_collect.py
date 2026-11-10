@@ -37,9 +37,10 @@ def get(url, tries=4):
     return None
 
 
-def event_ids(league, end):
+def event_ids(league, end, start=None):
     ids = []
-    days = [START[league] + timedelta(days=i) for i in range((end - START[league]).days + 1)]
+    start = start or START[league]
+    days = [start + timedelta(days=i) for i in range((end - start).days + 1)]
     with ThreadPoolExecutor(8) as pool:
         for d, sb in zip(days, pool.map(lambda d: get(f"{BASE}/{LEAGUES[league]}/scoreboard?dates={d:%Y%m%d}&limit=1000"), days)):
             for ev in (sb or {}).get("events", []):
@@ -174,7 +175,9 @@ def collect(league):
     if f.exists():
         with gzip.open(f, "rt") as fh:
             have = {json.loads(line)["id"] for line in fh}
-    ids = [(d, e) for d, e in event_ids(league, date.today()) if e not in have]
+    # first run: full history; afterwards only the last 10 days need checking for new games
+    start = date.today() - timedelta(days=10) if have else None
+    ids = [(d, e) for d, e in event_ids(league, date.today(), start) if e not in have]
     print(f"{league}: {len(have)} already saved, {len(ids)} to fetch", flush=True)
     done = 0
     with ThreadPoolExecutor(8) as pool, gzip.open(f, "at") as fh:

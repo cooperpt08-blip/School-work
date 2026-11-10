@@ -1,0 +1,44 @@
+{
+ "note": "Fitted on all research props: logit(P) = logit(kalshi_mid) + a + b*z, z=(cushion-mu)/sd, cushion=(player decayed season avg - line)/player sd. NBA proven on held-out games; NFL directional.",
+ "leagues": {
+  "nba": {
+   "mu": -0.6723547494894562,
+   "sd": 0.6456901340233815,
+   "a": 0.030814548153191824,
+   "b": -0.290698196366396,
+   "z": -9.37588958715714,
+   "n": 6518,
+   "walk_forward_z": 2.6959538908061136,
+   "proven": true,
+   "series": [
+    "KXNBAPTS",
+    "KXNBAREB",
+    "KXNBAAST",
+    "KXNBA3PT"
+   ],
+   "p_lo": 0.065,
+   "p_hi": 0.515,
+   "z_lo": -1.8214669553296514,
+   "z_hi": 1.3571702857125851
+  },
+  "nfl": {
+   "mu": -0.7737633601130122,
+   "sd": 1.0264956103732223,
+   "a": 0.04178483429393411,
+   "b": -0.19368452226831634,
+   "z": -3.781207095169197,
+   "n": 2413,
+   "walk_forward_z": 1.9001185783826675,
+   "proven": false,
+   "series": [
+    "KXNFLRECYDS",
+    "KXNFLRSHYDS",
+    "KXNFLPASSYDS"
+   ],
+   "p_lo": 0.105,
+   "p_hi": 0.435,
+   "z_lo": -1.2935212513018102,
+   "z_hi": 0.8544011087803001
+  }
+ }
+}

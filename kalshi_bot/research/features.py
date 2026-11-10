@@ -247,7 +247,7 @@ def build(league):
             n_team = len(hs)
             importance = {p: sum(v) / len(v) for p, v in mh.items()
                           if len(v) >= 2 and n_team - last_played[team].get(p, -99) <= 3   # played in one of the last 3 games
-                          and (league == "nba" or sum(v) / len(v) >= 25)}                  # NFL: established skill players
+                          and sum(v) / len(v) >= (10 if league == "nba" else 25)}          # rotation / established players only
             tot = sum(importance.values()) or 1.0
             played = {p["id"] for p in g["players"] if p["side"] == ("home" if side == "h" else "away") and not p.get("dnp") and _usage(league, p) > 0}
             out_today = [p for p, imp in importance.items() if p not in played and imp > 0]
@@ -287,6 +287,8 @@ def build(league):
             if w:
                 r.update({"temp_f": w["temp"], "wind_mph": w["wind"], "gust_mph": w["gust"], "precip_mm": w["precip"], "snow_cm": w["snow"]})
         rows.append(r)
+        if g.get("season_type") == 1:
+            continue  # preseason: fringe rosters and resting starters - never let it shape ratings or rosters
 
         # ---------------- update state with this game's results (AFTER the row is built)
         hw = 1.0 if H["score"] > A["score"] else 0.0 if H["score"] < A["score"] else 0.5

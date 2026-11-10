@@ -29,6 +29,14 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Restore research data (ESPN box scores, player logs)
+        uses: actions/cache@v4
+        with:
+          path: kalshi_bot/research/data
+          key: research-data-${{ github.run_id }}
+          restore-keys: research-data-
+      - name: Update ESPN box scores / player game logs (feeds the prop-line signal)
+        run: python kalshi_bot/research/espn_collect.py nba nfl
       - name: Unit tests
         run: python -m unittest discover -s kalshi_bot/tests -t .
       - name: Backfill

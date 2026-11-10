@@ -74,11 +74,17 @@ def build(series, log=print):
     if not f.exists():
         return []
     markets = defaultdict(list)  # (date code, name) -> markets
-    with gzip.open(f, "rt") as fh:
-        for line in fh:
-            m = json.loads(line)
-            name = (m.get("title") or "").split(":")[0]
-            markets[(m["event_ticker"].split("-")[1][:7], norm_name(name))].append(m)
+    try:
+        with gzip.open(f, "rt") as fh:
+            for line in fh:
+                try:
+                    m = json.loads(line)
+                except ValueError:
+                    break
+                name = (m.get("title") or "").split(":")[0]
+                markets[(m["event_ticker"].split("-")[1][:7], norm_name(name))].append(m)
+    except (EOFError, OSError):
+        pass  # file still being appended to by the collector - use the complete records
     mon = "JAN FEB MAR APR MAY JUN JUL AUG SEP OCT NOV DEC".split()
     team_rows = {r["id"]: r for r in F.build(league)} if league == "nfl" else {r["id"]: r for r in F.build(league)}
     hist = defaultdict(list)                        # player -> [(t, stat, minutes, home)]

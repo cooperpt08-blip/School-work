@@ -76,9 +76,16 @@ def build(likely, value, parlays, picks_log, weights, stats):
     if parlays:
         h.append("<h3>Safest combos (built from the list above)</h3><ul>")
         for p in parlays:
-            legs = " + ".join(f"{leg['bet']} ({pct(leg['prob'])})" for leg in p["legs"])
-            h.append(f"<li><b>{len(p['legs'])} legs: {pct(p['prob'])} to all hit</b> - {html.escape(legs)}</li>")
-        h.append("</ul><p>Every leg must win, so the combined chance is much lower than any single leg.</p>")
+            legs = " + ".join(f"{leg['bet']} [{leg['event']}] ({pct(leg['prob'])})" for leg in p["legs"])
+            corr = ""
+            if abs(p["prob"] - p.get("independent_prob", p["prob"])) > 0.002:
+                corr = (f" (legs move together: {pct(p['independent_prob'])} if they were unrelated)"
+                        if p["prob"] > p["independent_prob"] else f" (legs work against each other: {pct(p['independent_prob'])} if unrelated)")
+            h.append(f"<li><b>{len(p['legs'])} legs: {pct(p['prob'])} to all hit</b>{html.escape(corr)} - {html.escape(legs)}</li>")
+        h.append("</ul><p>Every leg must win, so the combined chance is lower than any single leg. Same-game legs are only "
+                 "combined where the research shows they tend to hit together (e.g. one NBA player's points + rebounds); "
+                 "combinations that work against each other (two teammates' overs, a player's over + his opponent winning) "
+                 "are scored down.</p>")
     h.append("<h3>Best value</h3>")
     if value:
         h.append("<p>Where the model's win chance beats the price by the most after fees. Only market types where "
