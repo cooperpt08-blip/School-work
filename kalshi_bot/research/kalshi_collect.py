@@ -95,23 +95,33 @@ def _compact(cs):
 
 
 def batch_candles(ms):
-    """Live API: up to 100 markets per request."""
+    """Live API: up to 100 markets per request, and at most 10,000 candles per request in total."""
     out = {}
     ms = sorted(ms, key=lambda m: m.get("occurrence_datetime") or "")
-    for i in range(0, len(ms), 100):
-        chunk = ms[i:i + 100]
-        occs = [kalshi.ts(m.get("occurrence_datetime") or m.get("expected_expiration_time")) for m in chunk]
-        end = int(max(o.timestamp() for o in occs if o))
-        start = int(min(o.timestamp() for o in occs if o)) - 4 * 86400
+    i = 0
+    while i < len(ms):
+        chunk = [ms[i]]
+        first = kalshi.ts(ms[i].get("occurrence_datetime") or ms[i].get("expected_expiration_time")).timestamp()
+        j = i + 1
+        while j < len(ms) and len(chunk) < 100:
+            occ = kalshi.ts(ms[j].get("occurrence_datetime") or ms[j].get("expected_expiration_time")).timestamp()
+            hours = (occ - first) / 3600 + 48
+            if (len(chunk) + 1) * hours > 9000:
+                break
+            chunk.append(ms[j])
+            j += 1
+        i = j
+        occs = [kalshi.ts(m.get("occurrence_datetime") or m.get("expected_expiration_time")).timestamp() for m in chunk]
+        start, end = int(min(occs) - 48 * 3600), int(max(occs))
         d = None
-        for attempt in range(5):  # never silently drop a chunk
+        for attempt in range(4):
             try:
                 d = kalshi.get("/markets/candlesticks", {"market_tickers": ",".join(m["ticker"] for m in chunk),
                                                          "start_ts": start, "end_ts": end, "period_interval": 60})
                 break
             except Exception as e:  # noqa: BLE001
-                print(f"    batch retry {attempt + 1}: {str(e)[:80]}", flush=True)
-                time.sleep(20 * (attempt + 1))
+                print(f"    batch retry {attempt + 1}: {str(e)[:120]}", flush=True)
+                time.sleep(10 * (attempt + 1))
         if d is None:
             continue
         by = {m["ticker"]: m for m in chunk}
