@@ -1,0 +1,566 @@
+{
+ "updated": "2026-11-10T01:39:52+00:00",
+ "n_rows": 17231,
+ "families": {
+  "all": {
+   "n": 17231,
+   "n_test": 4308,
+   "theta": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "own_weights": false,
+   "test_logloss": 0.5275,
+   "test_logloss_market": 0.5275,
+   "proven": false,
+   "test_hit_rate_market_fav": 0.727
+  },
+  "tag:Basketball": {
+   "n": 3278,
+   "n_test": 820,
+   "theta": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "own_weights": false,
+   "test_logloss": 0.50823,
+   "test_logloss_market": 0.50823,
+   "proven": false,
+   "test_hit_rate_market_fav": 0.739
+  },
+  "series:KXNBA1H": {
+   "n": 235,
+   "n_test": 59,
+   "theta": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "own_weights": false,
+   "test_logloss": 0.55383,
+   "test_logloss_market": 0.55383,
+   "proven": false,
+   "test_hit_rate_market_fav": 0.7627
+  },
+  "series:KXNBA1Q": {
+   "n": 187,
+   "n_test": 47,
+   "theta": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "own_weights": false,
+   "test_logloss": 0.58422,
+   "test_logloss_market": 0.58422,
+   "proven": false,
+   "test_hit_rate_market_fav": 0.5745
+  },
+  "series:KXNBAGAME": {
+   "n": 292,
+   "n_test": 73,
+   "theta": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "own_weights": false,
+   "test_logloss": 0.47395,
+   "test_logloss_market": 0.47395,
+   "proven": false,
+   "test_hit_rate_market_fav": 0.8219
+  },
+  "series:KXNBASPREAD": {
+   "n": 233,
+   "n_test": 59,
+   "theta": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "own_weights": false,
+   "test_logloss": 0.70103,
+   "test_logloss_market": 0.70103,
+   "proven": false,
+   "test_hit_rate_market_fav": 0.678
+  },
+  "series:KXNBATOTAL": {
+   "n": 166,
+   "n_test": 42,
+   "theta": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "own_weights": false,
+   "test_logloss": 0.47827,
+   "test_logloss_market": 0.47827,
+   "proven": false,
+   "test_hit_rate_market_fav": 0.7619
+  },
+  "series:KXNCAAMBGAME": {
+   "n": 249,
+   "n_test": 63,
+   "theta": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "own_weights": false,
+   "test_logloss": 0.53395,
+   "test_logloss_market": 0.53395,
+   "proven": false,
+   "test_hit_rate_market_fav": 0.7143
+  },
+  "series:KXNCAAWBGAME": {
+   "n": 209,
+   "n_test": 53,
+   "theta": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "own_weights": false,
+   "test_logloss": 0.29898,
+   "test_logloss_market": 0.29898,
+   "proven": false,
+   "test_hit_rate_market_fav": 0.8868
+  },
+  "tag:Cricket": {
+   "n": 240,
+   "n_test": 60,
+   "theta": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "own_weights": false,
+   "test_logloss": 0.67105,
+   "test_logloss_market": 0.67105,
+   "proven": false,
+   "test_hit_rate_market_fav": 0.5167
+  },
+  "tag:Esports": {
+   "n": 746,
+   "n_test": 187,
+   "theta": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "own_weights": false,
+   "test_logloss": 0.50512,
+   "test_logloss_market": 0.50512,
+   "proven": false,
+   "test_hit_rate_market_fav": 0.7754
+  },
+  "series:KXDOTA2GAME": {
+   "n": 150,
+   "n_test": 38,
+   "theta": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "own_weights": false,
+   "test_logloss": 0.65584,
+   "test_logloss_market": 0.65584,
+   "proven": false,
+   "test_hit_rate_market_fav": 0.6053
+  },
+  "tag:Football": {
+   "n": 6548,
+   "n_test": 1637,
+   "theta": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "own_weights": false,
+   "test_logloss": 0.5458,
+   "test_logloss_market": 0.5458,
+   "proven": false,
+   "test_hit_rate_market_fav": 0.7135
+  },
+  "series:KXNCAAFGAME": {
+   "n": 392,
+   "n_test": 98,
+   "theta": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "own_weights": false,
+   "test_logloss": 0.58461,
+   "test_logloss_market": 0.58461,
+   "proven": false,
+   "test_hit_rate_market_fav": 0.6939
+  },
+  "series:KXNCAAFSPREAD": {
+   "n": 165,
+   "n_test": 42,
+   "theta": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "own_weights": false,
+   "test_logloss": 0.64126,
+   "test_logloss_market": 0.64126,
+   "proven": false,
+   "test_hit_rate_market_fav": 0.6905
+  },
+  "series:KXNFL1HFT": {
+   "n": 179,
+   "n_test": 45,
+   "theta": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "own_weights": false,
+   "test_logloss": 0.34855,
+   "test_logloss_market": 0.34855,
+   "proven": false,
+   "test_hit_rate_market_fav": 0.8444
+  },
+  "series:KXNFL1QSPREAD": {
+   "n": 151,
+   "n_test": 38,
+   "theta": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "own_weights": false,
+   "test_logloss": 0.76588,
+   "test_logloss_market": 0.76588,
+   "proven": false,
+   "test_hit_rate_market_fav": 0.5789
+  },
+  "series:KXNFLFFPTS": {
+   "n": 239,
+   "n_test": 60,
+   "theta": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "own_weights": false,
+   "test_logloss": 0.67308,
+   "test_logloss_market": 0.67308,
+   "proven": false,
+   "test_hit_rate_market_fav": 0.55
+  },
+  "series:KXNFLFIRSTTD": {
+   "n": 174,
+   "n_test": 44,
+   "theta": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "own_weights": false,
+   "test_logloss": 0.23819,
+   "test_logloss_market": 0.23819,
+   "proven": false,
+   "test_hit_rate_market_fav": 0.9318
+  },
+  "series:KXNFLPASSTDS": {
+   "n": 221,
+   "n_test": 56,
+   "theta": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "own_weights": false,
+   "test_logloss": 0.49257,
+   "test_logloss_market": 0.49257,
+   "proven": false,
+   "test_hit_rate_market_fav": 0.7679
+  },
+  "series:KXNFLPASSYDS": {
+   "n": 256,
+   "n_test": 64,
+   "theta": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "own_weights": false,
+   "test_logloss": 0.54424,
+   "test_logloss_market": 0.54424,
+   "proven": false,
+   "test_hit_rate_market_fav": 0.7656
+  },
+  "series:KXNFLRECYDS": {
+   "n": 172,
+   "n_test": 43,
+   "theta": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "own_weights": false,
+   "test_logloss": 0.65576,
+   "test_logloss_market": 0.65576,
+   "proven": false,
+   "test_hit_rate_market_fav": 0.6047
+  },
+  "series:KXNFLRSHATT": {
+   "n": 202,
+   "n_test": 51,
+   "theta": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "own_weights": false,
+   "test_logloss": 0.68587,
+   "test_logloss_market": 0.68587,
+   "proven": false,
+   "test_hit_rate_market_fav": 0.6471
+  },
+  "series:KXNFLRSHYDS": {
+   "n": 203,
+   "n_test": 51,
+   "theta": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "own_weights": false,
+   "test_logloss": 0.52504,
+   "test_logloss_market": 0.52504,
+   "proven": false,
+   "test_hit_rate_market_fav": 0.6667
+  },
+  "series:KXNFLSPREAD": {
+   "n": 334,
+   "n_test": 84,
+   "theta": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "own_weights": false,
+   "test_logloss": 0.42833,
+   "test_logloss_market": 0.42833,
+   "proven": false,
+   "test_hit_rate_market_fav": 0.8214
+  },
+  "series:KXNFLTD": {
+   "n": 222,
+   "n_test": 56,
+   "theta": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "own_weights": false,
+   "test_logloss": 0.57881,
+   "test_logloss_market": 0.57881,
+   "proven": false,
+   "test_hit_rate_market_fav": 0.7679
+  },
+  "series:KXNFLTEAMTOTAL": {
+   "n": 155,
+   "n_test": 39,
+   "theta": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "own_weights": false,
+   "test_logloss": 0.43917,
+   "test_logloss_market": 0.43917,
+   "proven": false,
+   "test_hit_rate_market_fav": 0.7949
+  },
+  "series:KXNFLTOTAL": {
+   "n": 323,
+   "n_test": 81,
+   "theta": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "own_weights": false,
+   "test_logloss": 0.5787,
+   "test_logloss_market": 0.5787,
+   "proven": false,
+   "test_hit_rate_market_fav": 0.716
+  },
+  "series:KXNFLWINMARGIN": {
+   "n": 177,
+   "n_test": 45,
+   "theta": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "own_weights": false,
+   "test_logloss": 0.53308,
+   "test_logloss_market": 0.53308,
+   "proven": false,
+   "test_hit_rate_market_fav": 0.7556
+  },
+  "tag:Hockey": {
+   "n": 1501,
+   "n_test": 376,
+   "theta": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "own_weights": false,
+   "test_logloss": 0.58278,
+   "test_logloss_market": 0.58278,
+   "proven": false,
+   "test_hit_rate_market_fav": 0.6862
+  },
+  "series:KXNHLGAME": {
+   "n": 292,
+   "n_test": 73,
+   "theta": [
+    0.0023,
+    1.3509,
+    -0.1486
+   ],
+   "own_weights": true,
+   "test_logloss": 0.57533,
+   "test_logloss_market": 0.58553,
+   "proven": true,
+   "test_hit_rate_market_fav": 0.6986
+  },
+  "series:KXNHLTOTAL": {
+   "n": 169,
+   "n_test": 43,
+   "theta": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "own_weights": false,
+   "test_logloss": 0.53518,
+   "test_logloss_market": 0.53518,
+   "proven": false,
+   "test_hit_rate_market_fav": 0.6977
+  },
+  "tag:Soccer": {
+   "n": 3107,
+   "n_test": 777,
+   "theta": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "own_weights": false,
+   "test_logloss": 0.51469,
+   "test_logloss_market": 0.51469,
+   "proven": false,
+   "test_hit_rate_market_fav": 0.7503
+  },
+  "series:KXLIGAMXTOTAL": {
+   "n": 164,
+   "n_test": 41,
+   "theta": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "own_weights": false,
+   "test_logloss": 0.41033,
+   "test_logloss_market": 0.41033,
+   "proven": false,
+   "test_hit_rate_market_fav": 0.7805
+  },
+  "series:KXMLSGAME": {
+   "n": 176,
+   "n_test": 44,
+   "theta": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "own_weights": false,
+   "test_logloss": 0.52574,
+   "test_logloss_market": 0.52574,
+   "proven": false,
+   "test_hit_rate_market_fav": 0.7273
+  },
+  "tag:Tennis": {
+   "n": 1350,
+   "n_test": 338,
+   "theta": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "own_weights": false,
+   "test_logloss": 0.57636,
+   "test_logloss_market": 0.57636,
+   "proven": false,
+   "test_hit_rate_market_fav": 0.6686
+  },
+  "series:KXATPCHALLENGERMATCH": {
+   "n": 225,
+   "n_test": 57,
+   "theta": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "own_weights": false,
+   "test_logloss": 0.58551,
+   "test_logloss_market": 0.58551,
+   "proven": false,
+   "test_hit_rate_market_fav": 0.7018
+  },
+  "series:KXATPMATCH": {
+   "n": 360,
+   "n_test": 90,
+   "theta": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "own_weights": false,
+   "test_logloss": 0.64115,
+   "test_logloss_market": 0.64115,
+   "proven": false,
+   "test_hit_rate_market_fav": 0.6111
+  },
+  "series:KXITFMATCH": {
+   "n": 179,
+   "n_test": 45,
+   "theta": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "own_weights": false,
+   "test_logloss": 0.57746,
+   "test_logloss_market": 0.57746,
+   "proven": false,
+   "test_hit_rate_market_fav": 0.5778
+  },
+  "series:KXITFWMATCH": {
+   "n": 189,
+   "n_test": 48,
+   "theta": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "own_weights": false,
+   "test_logloss": 0.50805,
+   "test_logloss_market": 0.50805,
+   "proven": false,
+   "test_hit_rate_market_fav": 0.7917
+  }
+ }
+}

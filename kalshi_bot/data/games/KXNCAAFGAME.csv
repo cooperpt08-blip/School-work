@@ -1,0 +1,792 @@
+date,start,event_id,state,home_id,home,home_abbr,home_loc,home_score,away_id,away,away_abbr,away_loc,away_score,neutral
+2025-09-18,2025-09-18T23:30Z,401762468,post,2429,Charlotte 49ers,CLT,Charlotte,17,242,Rice Owls,RICE,Rice,28,0
+2025-09-19,2025-09-20T00:00Z,401752844,post,164,Rutgers Scarlet Knights,RUTG,Rutgers,28,2294,Iowa Hawkeyes,IOWA,Iowa,38,0
+2025-09-19,2025-09-19T23:30Z,401756900,post,197,Oklahoma State Cowboys,OKST,Oklahoma State,12,202,Tulsa Golden Hurricane,TLSA,Tulsa,19,0
+2025-09-20,2025-09-20T16:00Z,401752708,post,235,Memphis Tigers,MEM,Memphis,32,8,Arkansas Razorbacks,ARK,Arkansas,31,0
+2025-09-20,2025-09-20T23:30Z,401752709,post,2390,Miami Hurricanes,MIA,Miami,26,57,Florida Gators,FLA,Florida,7,0
+2025-09-20,2025-09-20T23:45Z,401752710,post,99,LSU Tigers,LSU,LSU,56,2545,SE Louisiana Lions,SELA,SE Louisiana,10,0
+2025-09-20,2025-09-20T19:30Z,401752711,post,145,Ole Miss Rebels,MISS,Ole Miss,45,2655,Tulane Green Wave,TULN,Tulane,10,0
+2025-09-20,2025-09-20T23:00Z,401752713,post,142,Missouri Tigers,MIZ,Missouri,29,2579,South Carolina Gamecocks,SC,South Carolina,20,0
+2025-09-20,2025-09-20T19:30Z,401752714,post,201,Oklahoma Sooners,OU,Oklahoma,24,2,Auburn Tigers,AUB,Auburn,17,0
+2025-09-20,2025-09-20T16:45Z,401752715,post,2633,Tennessee Volunteers,TENN,Tennessee,56,5,UAB Blazers,UAB,UAB,24,0
+2025-09-20,2025-09-20T23:30Z,401752716,post,238,Vanderbilt Commodores,VAN,Vanderbilt,70,2247,Georgia State Panthers,GAST,Georgia State,21,0
+2025-09-20,2025-09-21T00:00Z,401752723,post,251,Texas Longhorns,TEX,Texas,55,2534,Sam Houston Bearkats,SHSU,Sam Houston,0,0
+2025-09-20,2025-09-20T19:00Z,401752841,post,2483,Oregon Ducks,ORE,Oregon,41,204,Oregon State Beavers,ORST,Oregon State,7,0
+2025-09-20,2025-09-20T23:30Z,401752843,post,84,Indiana Hoosiers,IU,Indiana,63,356,Illinois Fighting Illini,ILL,Illinois,10,0
+2025-09-20,2025-09-20T16:00Z,401752845,post,275,Wisconsin Badgers,WIS,Wisconsin,10,120,Maryland Terrapins,MD,Maryland,27,0
+2025-09-20,2025-09-20T19:30Z,401752846,post,158,Nebraska Cornhuskers,NEB,Nebraska,27,130,Michigan Wolverines,MICH,Michigan,30,0
+2025-09-20,2025-09-21T03:00Z,401752847,post,30,USC Trojans,USC,USC,45,127,Michigan State Spartans,MSU,Michigan State,31,0
+2025-09-20,2025-09-20T19:30Z,401752848,post,87,Notre Dame Fighting Irish,ND,Notre Dame,56,2509,Purdue Boilermakers,PUR,Purdue,30,0
+2025-09-20,2025-09-20T16:00Z,401754537,post,228,Clemson Tigers,CLEM,Clemson,21,183,Syracuse Orange,SYR,Syracuse,34,0
+2025-09-20,2025-09-20T19:30Z,401754541,post,52,Florida State Seminoles,FSU,Florida State,66,2309,Kent State Golden Flashes,KENT,Kent State,10,0
+2025-09-20,2025-09-20T21:05Z,401754542,post,59,Georgia Tech Yellow Jackets,GT,Georgia Tech,45,218,Temple Owls,TEM,Temple,24,0
+2025-09-20,2025-09-20T16:00Z,401754617,post,259,Virginia Tech Hokies,VT,Virginia Tech,38,2747,Wofford Terriers,WOF,Wofford,6,0
+2025-09-20,2025-09-20T16:00Z,401754636,post,2628,TCU Horned Frogs,TCU,TCU,35,2567,SMU Mustangs,SMU,SMU,24,0
+2025-09-20,2025-09-20T16:00Z,401754642,post,97,Louisville Cardinals,LOU,Louisville,40,189,Bowling Green Falcons,BGSU,Bowling Green,17,0
+2025-09-20,2025-09-20T16:00Z,401756901,post,254,Utah Utes,UTAH,Utah,10,2641,Texas Tech Red Raiders,TTU,Texas Tech,34,0
+2025-09-20,2025-09-20T16:00Z,401760376,post,193,Miami (OH) RedHawks,M-OH,Miami (OH),38,2439,UNLV Rebels,UNLV,UNLV,41,0
+2025-09-20,2025-09-20T16:00Z,401762469,post,349,Army Black Knights,ARMY,Army,38,249,North Texas Mean Green,UNT,North Texas,45,0
+2025-09-20,2025-09-20T16:00Z,401762470,post,58,South Florida Bulls,USF,South Florida,63,2569,South Carolina State Bulldogs,SCST,South Carolina State,14,0
+2025-09-25,2025-09-25T23:30Z,401762471,post,151,East Carolina Pirates,ECU,East Carolina,28,349,Army Black Knights,ARMY,Army,6,0
+2025-09-26,2025-09-27T02:35Z,401752939,post,204,Oregon State Beavers,ORST,Oregon State,24,248,Houston Cougars,HOU,Houston,27,0
+2025-09-26,2025-09-26T23:00Z,401754543,post,258,Virginia Cavaliers,UVA,Virginia,46,52,Florida State Seminoles,FSU,Florida State,38,0
+2025-09-26,2025-09-27T01:00Z,401756902,post,9,Arizona State Sun Devils,ASU,Arizona State,27,2628,TCU Horned Frogs,TCU,TCU,24,0
+2025-09-27,2025-09-27T16:00Z,401752717,post,8,Arkansas Razorbacks,ARK,Arkansas,13,87,Notre Dame Fighting Irish,ND,Notre Dame,56,0
+2025-09-27,2025-09-27T23:30Z,401752718,post,61,Georgia Bulldogs,UGA,Georgia,21,333,Alabama Crimson Tide,ALA,Alabama,24,0
+2025-09-27,2025-09-27T19:30Z,401752719,post,145,Ole Miss Rebels,MISS,Ole Miss,24,99,LSU Tigers,LSU,LSU,19,0
+2025-09-27,2025-09-27T20:15Z,401752720,post,344,Mississippi State Bulldogs,MSST,Mississippi State,34,2633,Tennessee Volunteers,TENN,Tennessee,41,0
+2025-09-27,2025-09-27T23:30Z,401752721,post,142,Missouri Tigers,MIZ,Missouri,42,113,Massachusetts Minutemen,MASS,Massachusetts,6,0
+2025-09-27,2025-09-27T19:30Z,401752724,post,245,Texas A&M Aggies,TA&M,Texas A&M,16,2,Auburn Tigers,AUB,Auburn,10,0
+2025-09-27,2025-09-27T16:45Z,401752725,post,238,Vanderbilt Commodores,VAN,Vanderbilt,55,328,Utah State Aggies,USU,Utah State,35,0
+2025-09-27,2025-09-27T16:00Z,401752849,post,135,Minnesota Golden Gophers,MINN,Minnesota,31,164,Rutgers Scarlet Knights,RUTG,Rutgers,28,0
+2025-09-27,2025-09-27T16:00Z,401752850,post,356,Illinois Fighting Illini,ILL,Illinois,34,30,USC Trojans,USC,USC,32,0
+2025-09-27,2025-09-27T19:30Z,401752852,post,264,Washington Huskies,WASH,Washington,6,194,Ohio State Buckeyes,OSU,Ohio State,24,0
+2025-09-27,2025-09-27T19:30Z,401752853,post,2294,Iowa Hawkeyes,IOWA,Iowa,15,84,Indiana Hoosiers,IU,Indiana,20,0
+2025-09-27,2025-09-27T23:30Z,401752854,post,213,Penn State Nittany Lions,PSU,Penn State,24,2483,Oregon Ducks,ORE,Oregon,30,0
+2025-09-27,2025-09-27T16:00Z,401754545,post,183,Syracuse Orange,SYR,Syracuse,3,150,Duke Blue Devils,DUKE,Duke,38,0
+2025-09-27,2025-09-27T16:00Z,401754546,post,154,Wake Forest Demon Deacons,WAKE,Wake Forest,29,59,Georgia Tech Yellow Jackets,GT,Georgia Tech,30,0
+2025-09-27,2025-09-27T16:00Z,401754547,post,221,Pittsburgh Panthers,PITT,Pittsburgh,27,97,Louisville Cardinals,LOU,Louisville,34,0
+2025-09-27,2025-09-28T02:15Z,401756903,post,38,Colorado Buffaloes,COLO,Colorado,21,252,BYU Cougars,BYU,BYU,24,0
+2025-09-27,2025-09-27T23:00Z,401756904,post,66,Iowa State Cyclones,ISU,Iowa State,39,12,Arizona Wildcats,ARIZ,Arizona,14,0
+2025-09-27,2025-09-27T16:00Z,401756905,post,2305,Kansas Jayhawks,KU,Kansas,34,2132,Cincinnati Bearcats,CIN,Cincinnati,37,0
+2025-09-27,2025-09-27T16:00Z,401756906,post,2306,Kansas State Wildcats,KSU,Kansas State,34,2116,UCF Knights,UCF,UCF,20,0
+2025-09-27,2025-09-27T17:30Z,401761614,post,256,James Madison Dukes,JMU,James Madison,35,290,Georgia Southern Eagles,GASO,Georgia Southern,10,0
+2025-09-27,2025-09-27T19:00Z,401761616,post,2433,UL Monroe Warhawks,ULM,UL Monroe,28,2032,Arkansas State Red Wolves,ARST,Arkansas State,16,0
+2025-09-27,2025-09-27T16:00Z,401761617,post,249,North Texas Mean Green,UNT,North Texas,36,6,South Alabama Jaguars,USA,South Alabama,22,0
+2025-09-27,2025-09-27T16:00Z,401762825,post,195,Ohio Bobcats,OHIO,Ohio,35,189,Bowling Green Falcons,BGSU,Bowling Green,20,0
+2025-09-27,2025-09-27T17:00Z,401762826,post,2117,Central Michigan Chippewas,CMU,Central Michigan,24,2199,Eastern Michigan Eagles,EMU,Eastern Michigan,13,0
+2025-09-27,2025-09-27T18:00Z,401767510,post,2449,North Dakota State Bison,NDSU,North Dakota State,51,233,South Dakota Coyotes,SDAK,South Dakota,13,0
+2025-10-02,2025-10-03T01:00Z,401757275,post,166,New Mexico State Aggies,NMSU,New Mexico State,37,2534,Sam Houston Bearkats,SHSU,Sam Houston,10,0
+2025-10-03,2025-10-04T02:30Z,401756909,post,252,BYU Cougars,BYU,BYU,38,277,West Virginia Mountaineers,WVU,West Virginia,24,0
+2025-10-03,2025-10-03T23:00Z,401757276,post,48,Delaware Blue Hens,DEL,Delaware,24,98,Western Kentucky Hilltoppers,WKU,Western Kentucky,27,0
+2025-10-03,2025-10-04T02:30Z,401760382,post,21,San Diego State Aztecs,SDSU,San Diego State,45,36,Colorado State Rams,CSU,Colorado State,24,0
+2025-10-03,2025-10-04T02:00Z,401760384,post,23,San José State Spartans,SJSU,San José State,35,167,New Mexico Lobos,UNM,New Mexico,28,0
+2025-10-03,2025-10-03T23:00Z,401762475,post,58,South Florida Bulls,USF,South Florida,54,2429,Charlotte 49ers,CLT,Charlotte,26,0
+2025-10-04,2025-10-04T19:30Z,401752726,post,333,Alabama Crimson Tide,ALA,Alabama,30,238,Vanderbilt Commodores,VAN,Vanderbilt,14,0
+2025-10-04,2025-10-04T19:30Z,401752727,post,57,Florida Gators,FLA,Florida,29,251,Texas Longhorns,TEX,Texas,21,0
+2025-10-04,2025-10-04T16:00Z,401752728,post,61,Georgia Bulldogs,UGA,Georgia,35,96,Kentucky Wildcats,UK,Kentucky,14,0
+2025-10-04,2025-10-04T20:00Z,401752729,post,201,Oklahoma Sooners,OU,Oklahoma,44,2309,Kent State Golden Flashes,KENT,Kent State,0,0
+2025-10-04,2025-10-04T23:30Z,401752730,post,245,Texas A&M Aggies,TA&M,Texas A&M,31,344,Mississippi State Bulldogs,MSST,Mississippi State,9,0
+2025-10-04,2025-10-04T19:30Z,401752855,post,26,UCLA Bruins,UCLA,UCLA,42,213,Penn State Nittany Lions,PSU,Penn State,37,0
+2025-10-04,2025-10-04T16:00Z,401752856,post,130,Michigan Wolverines,MICH,Michigan,24,275,Wisconsin Badgers,WIS,Wisconsin,10,0
+2025-10-04,2025-10-04T23:30Z,401752859,post,194,Ohio State Buckeyes,OSU,Ohio State,42,135,Minnesota Golden Gophers,MINN,Minnesota,3,0
+2025-10-04,2025-10-04T16:00Z,401752861,post,2509,Purdue Boilermakers,PUR,Purdue,27,356,Illinois Fighting Illini,ILL,Illinois,43,0
+2025-10-04,2025-10-04T16:00Z,401754550,post,221,Pittsburgh Panthers,PITT,Pittsburgh,48,103,Boston College Eagles,BC,Boston College,7,0
+2025-10-04,2025-10-04T16:00Z,401754552,post,153,North Carolina Tar Heels,UNC,North Carolina,10,228,Clemson Tigers,CLEM,Clemson,38,0
+2025-10-04,2025-10-04T23:30Z,401754553,post,52,Florida State Seminoles,FSU,Florida State,22,2390,Miami Hurricanes,MIA,Miami,28,0
+2025-10-04,2025-10-04T19:30Z,401754554,post,97,Louisville Cardinals,LOU,Louisville,27,258,Virginia Cavaliers,UVA,Virginia,30,0
+2025-10-04,2025-10-04T17:00Z,401754556,post,259,Virginia Tech Hokies,VT,Virginia Tech,23,154,Wake Forest Demon Deacons,WAKE,Wake Forest,30,0
+2025-10-04,2025-10-04T18:00Z,401754557,post,152,NC State Wolfpack,NCSU,NC State,56,2097,Campbell Fighting Camels,CAM,Campbell,10,0
+2025-10-04,2025-10-04T19:00Z,401756910,post,12,Arizona Wildcats,ARIZ,Arizona,41,197,Oklahoma State Cowboys,OKST,Oklahoma State,13,0
+2025-10-04,2025-10-04T16:00Z,401756911,post,239,Baylor Bears,BAY,Baylor,35,2306,Kansas State Wildcats,KSU,Kansas State,34,0
+2025-10-04,2025-10-04T16:00Z,401756912,post,2132,Cincinnati Bearcats,CIN,Cincinnati,38,66,Iowa State Cyclones,ISU,Iowa State,30,0
+2025-10-04,2025-10-04T23:00Z,401756913,post,248,Houston Cougars,HOU,Houston,11,2641,Texas Tech Red Raiders,TTU,Texas Tech,35,0
+2025-10-04,2025-10-04T19:30Z,401757165,post,87,Notre Dame Fighting Irish,ND,Notre Dame,28,68,Boise State Broncos,BOIS,Boise State,7,0
+2025-10-04,2025-10-04T16:00Z,401760381,post,2426,Navy Midshipmen,NAVY,Navy,34,2005,Air Force Falcons,AFA,Air Force,31,0
+2025-10-04,2025-10-04T16:00Z,401762476,post,5,UAB Blazers,UAB,UAB,13,349,Army Black Knights,ARMY,Army,31,0
+2025-10-04,2025-10-04T17:00Z,401762479,post,218,Temple Owls,TEM,Temple,27,2636,UTSA Roadrunners,UTSA,UTSA,21,0
+2025-10-04,2025-10-04T16:00Z,401762830,post,2050,Ball State Cardinals,BALL,Ball State,20,195,Ohio Bobcats,OHIO,Ohio,14,0
+2025-10-04,2025-10-04T18:30Z,401762832,post,113,Massachusetts Minutemen,MASS,Massachusetts,3,2711,Western Michigan Broncos,WMU,Western Michigan,21,0
+2025-10-08,2025-10-09T00:00Z,401757277,post,2638,UTEP Miners,UTEP,UTEP,8,2335,Liberty Flames,LIB,Liberty,19,0
+2025-10-08,2025-10-08T23:30Z,401757278,post,2393,Middle Tennessee Blue Raiders,MTSU,Middle Tennessee,20,2623,Missouri State Bears,MOST,Missouri State,22,0
+2025-10-09,2025-10-10T00:00Z,401757279,post,2534,Sam Houston Bearkats,SHSU,Sam Houston,27,55,Jacksonville State Gamecocks,JVST,Jacksonville State,29,0
+2025-10-09,2025-10-09T23:00Z,401757280,post,338,Kennesaw State Owls,KENN,Kennesaw State,35,2348,Louisiana Tech Bulldogs,LT,Louisiana Tech,7,0
+2025-10-09,2025-10-10T00:00Z,401761622,post,290,Georgia Southern Eagles,GASO,Georgia Southern,35,2572,Southern Miss Golden Eagles,USM,Southern Miss,38,0
+2025-10-09,2025-10-09T23:30Z,401762480,post,2655,Tulane Green Wave,TULN,Tulane,26,151,East Carolina Pirates,ECU,East Carolina,19,0
+2025-10-10,2025-10-11T01:00Z,401752862,post,264,Washington Huskies,WASH,Washington,38,164,Rutgers Scarlet Knights,RUTG,Rutgers,19,0
+2025-10-10,2025-10-11T01:00Z,401760388,post,36,Colorado State Rams,CSU,Colorado State,49,278,Fresno State Bulldogs,FRES,Fresno State,21,0
+2025-10-10,2025-10-10T23:30Z,401762481,post,249,North Texas Mean Green,UNT,North Texas,36,58,South Florida Bulls,USF,South Florida,63,0
+2025-10-11,2025-10-11T23:30Z,401752731,post,2,Auburn Tigers,AUB,Auburn,10,61,Georgia Bulldogs,UGA,Georgia,20,0
+2025-10-11,2025-10-11T23:45Z,401752732,post,99,LSU Tigers,LSU,LSU,20,2579,South Carolina Gamecocks,SC,South Carolina,10,0
+2025-10-11,2025-10-11T16:45Z,401752733,post,145,Ole Miss Rebels,MISS,Ole Miss,24,265,Washington State Cougars,WSU,Washington State,21,0
+2025-10-11,2025-10-11T16:00Z,401752734,post,142,Missouri Tigers,MIZ,Missouri,24,333,Alabama Crimson Tide,ALA,Alabama,27,0
+2025-10-11,2025-10-11T20:15Z,401752735,post,2633,Tennessee Volunteers,TENN,Tennessee,34,8,Arkansas Razorbacks,ARK,Arkansas,31,0
+2025-10-11,2025-10-11T19:30Z,401752736,post,251,Texas Longhorns,TEX,Texas,23,201,Oklahoma Sooners,OU,Oklahoma,6,1
+2025-10-11,2025-10-11T23:00Z,401752737,post,245,Texas A&M Aggies,TA&M,Texas A&M,34,57,Florida Gators,FLA,Florida,17,0
+2025-10-11,2025-10-11T16:00Z,401752863,post,127,Michigan State Spartans,MSU,Michigan State,13,26,UCLA Bruins,UCLA,UCLA,38,0
+2025-10-11,2025-10-11T16:00Z,401752865,post,356,Illinois Fighting Illini,ILL,Illinois,16,194,Ohio State Buckeyes,OSU,Ohio State,34,0
+2025-10-11,2025-10-11T23:30Z,401752868,post,30,USC Trojans,USC,USC,31,130,Michigan Wolverines,MICH,Michigan,13,0
+2025-10-11,2025-10-11T19:30Z,401752870,post,2483,Oregon Ducks,ORE,Oregon,20,84,Indiana Hoosiers,IU,Indiana,30,0
+2025-10-11,2025-10-11T16:00Z,401754559,post,52,Florida State Seminoles,FSU,Florida State,31,221,Pittsburgh Panthers,PITT,Pittsburgh,34,0
+2025-10-11,2025-10-11T19:30Z,401754560,post,59,Georgia Tech Yellow Jackets,GT,Georgia Tech,35,259,Virginia Tech Hokies,VT,Virginia Tech,20,0
+2025-10-11,2025-10-11T16:00Z,401754561,post,2567,SMU Mustangs,SMU,SMU,34,24,Stanford Cardinal,STAN,Stanford,10,0
+2025-10-11,2025-10-11T19:30Z,401754562,post,87,Notre Dame Fighting Irish,ND,Notre Dame,36,152,NC State Wolfpack,NCSU,NC State,7,0
+2025-10-11,2025-10-12T00:00Z,401756916,post,12,Arizona Wildcats,ARIZ,Arizona,27,252,BYU Cougars,BYU,BYU,33,0
+2025-10-11,2025-10-11T16:00Z,401756917,post,2132,Cincinnati Bearcats,CIN,Cincinnati,20,2116,UCF Knights,UCF,UCF,11,0
+2025-10-11,2025-10-11T19:30Z,401756918,post,38,Colorado Buffaloes,COLO,Colorado,24,66,Iowa State Cyclones,ISU,Iowa State,17,0
+2025-10-11,2025-10-11T16:00Z,401756920,post,197,Oklahoma State Cowboys,OKST,Oklahoma State,17,248,Houston Cougars,HOU,Houston,39,0
+2025-10-11,2025-10-11T23:30Z,401756921,post,2641,Texas Tech Red Raiders,TTU,Texas Tech,42,2305,Kansas Jayhawks,KU,Kansas,17,0
+2025-10-11,2025-10-12T02:25Z,401756922,post,254,Utah Utes,UTAH,Utah,42,9,Arizona State Sun Devils,ASU,Arizona State,10,0
+2025-10-11,2025-10-11T16:00Z,401761625,post,256,James Madison Dukes,JMU,James Madison,24,309,Louisiana Ragin' Cajuns,UL,Louisiana,14,0
+2025-10-11,2025-10-11T16:00Z,401762483,post,349,Army Black Knights,ARMY,Army,24,2429,Charlotte 49ers,CLT,Charlotte,7,0
+2025-10-11,2025-10-11T16:00Z,401762833,post,2006,Akron Zips,AKR,Akron,7,193,Miami (OH) RedHawks,M-OH,Miami (OH),20,0
+2025-10-11,2025-10-11T16:00Z,401762835,post,189,Bowling Green Falcons,BGSU,Bowling Green,28,2649,Toledo Rockets,TOL,Toledo,23,0
+2025-10-14,2025-10-15T00:00Z,401757281,post,98,Western Kentucky Hilltoppers,WKU,Western Kentucky,6,2229,Florida International Panthers,FIU,Florida International,25,0
+2025-10-14,2025-10-14T23:00Z,401757282,post,2335,Liberty Flames,LIB,Liberty,30,166,New Mexico State Aggies,NMSU,New Mexico State,27,0
+2025-10-14,2025-10-14T23:30Z,401761628,post,6,South Alabama Jaguars,USA,South Alabama,14,2032,Arkansas State Red Wolves,ARST,Arkansas State,15,0
+2025-10-15,2025-10-15T23:00Z,401757283,post,55,Jacksonville State Gamecocks,JVST,Jacksonville State,38,48,Delaware Blue Hens,DEL,Delaware,25,0
+2025-10-15,2025-10-15T23:00Z,401757284,post,2534,Sam Houston Bearkats,SHSU,Sam Houston,17,2638,UTEP Miners,UTEP,UTEP,35,0
+2025-10-16,2025-10-16T23:30Z,401762486,post,151,East Carolina Pirates,ECU,East Carolina,41,202,Tulsa Golden Hurricane,TLSA,Tulsa,27,0
+2025-10-17,2025-10-18T00:00Z,401752872,post,135,Minnesota Golden Gophers,MINN,Minnesota,24,158,Nebraska Cornhuskers,NEB,Nebraska,6,0
+2025-10-17,2025-10-18T02:30Z,401754371,post,25,California Golden Bears,CAL,California,21,153,North Carolina Tar Heels,UNC,North Carolina,18,0
+2025-10-17,2025-10-17T23:00Z,401754564,post,2390,Miami Hurricanes,MIA,Miami,21,97,Louisville Cardinals,LOU,Louisville,24,0
+2025-10-17,2025-10-18T01:00Z,401760396,post,328,Utah State Aggies,USU,Utah State,30,23,San José State Spartans,SJSU,San José State,25,0
+2025-10-18,2025-10-18T23:30Z,401752738,post,333,Alabama Crimson Tide,ALA,Alabama,37,2633,Tennessee Volunteers,TENN,Tennessee,20,0
+2025-10-18,2025-10-18T21:30Z,401752739,post,8,Arkansas Razorbacks,ARK,Arkansas,42,245,Texas A&M Aggies,TA&M,Texas A&M,45,0
+2025-10-18,2025-10-18T23:45Z,401752740,post,2,Auburn Tigers,AUB,Auburn,17,142,Missouri Tigers,MIZ,Missouri,23,0
+2025-10-18,2025-10-18T19:30Z,401752742,post,61,Georgia Bulldogs,UGA,Georgia,43,145,Ole Miss Rebels,MISS,Ole Miss,35,0
+2025-10-18,2025-10-18T23:00Z,401752743,post,96,Kentucky Wildcats,UK,Kentucky,13,251,Texas Longhorns,TEX,Texas,16,0
+2025-10-18,2025-10-18T16:45Z,401752744,post,2579,South Carolina Gamecocks,SC,South Carolina,7,201,Oklahoma Sooners,OU,Oklahoma,26,0
+2025-10-18,2025-10-18T16:00Z,401752745,post,238,Vanderbilt Commodores,VAN,Vanderbilt,31,99,LSU Tigers,LSU,LSU,24,0
+2025-10-18,2025-10-18T23:30Z,401752871,post,87,Notre Dame Fighting Irish,ND,Notre Dame,34,30,USC Trojans,USC,USC,24,0
+2025-10-18,2025-10-18T16:00Z,401752873,post,130,Michigan Wolverines,MICH,Michigan,24,264,Washington Huskies,WASH,Washington,7,0
+2025-10-18,2025-10-18T22:30Z,401752876,post,164,Rutgers Scarlet Knights,RUTG,Rutgers,10,2483,Oregon Ducks,ORE,Oregon,56,0
+2025-10-18,2025-10-18T19:30Z,401752877,post,275,Wisconsin Badgers,WIS,Wisconsin,0,194,Ohio State Buckeyes,OSU,Ohio State,34,0
+2025-10-18,2025-10-18T19:30Z,401752878,post,84,Indiana Hoosiers,IU,Indiana,38,127,Michigan State Spartans,MSU,Michigan State,13,0
+2025-10-18,2025-10-18T22:30Z,401752951,post,258,Virginia Cavaliers,UVA,Virginia,22,265,Washington State Cougars,WSU,Washington State,20,0
+2025-10-18,2025-10-18T16:00Z,401754566,post,150,Duke Blue Devils,DUKE,Duke,18,59,Georgia Tech Yellow Jackets,GT,Georgia Tech,27,0
+2025-10-18,2025-10-18T16:00Z,401754569,post,103,Boston College Eagles,BC,Boston College,23,41,UConn Huskies,CONN,UConn,38,0
+2025-10-18,2025-10-18T20:00Z,401756923,post,9,Arizona State Sun Devils,ASU,Arizona State,26,2641,Texas Tech Red Raiders,TTU,Texas Tech,22,0
+2025-10-18,2025-10-19T00:00Z,401756924,post,252,BYU Cougars,BYU,BYU,24,254,Utah Utes,UTAH,Utah,21,0
+2025-10-18,2025-10-18T16:00Z,401756925,post,248,Houston Cougars,HOU,Houston,31,12,Arizona Wildcats,ARIZ,Arizona,28,0
+2025-10-18,2025-10-19T00:00Z,401756926,post,197,Oklahoma State Cowboys,OKST,Oklahoma State,17,2132,Cincinnati Bearcats,CIN,Cincinnati,49,0
+2025-10-18,2025-10-18T16:00Z,401756927,post,2628,TCU Horned Frogs,TCU,TCU,42,239,Baylor Bears,BAY,Baylor,36,0
+2025-10-18,2025-10-18T20:00Z,401762487,post,5,UAB Blazers,UAB,UAB,31,235,Memphis Tigers,MEM,Memphis,24,0
+2025-10-18,2025-10-18T16:00Z,401762488,post,2655,Tulane Green Wave,TULN,Tulane,24,349,Army Black Knights,ARMY,Army,17,0
+2025-10-18,2025-10-18T23:30Z,401762490,post,58,South Florida Bulls,USF,South Florida,48,2226,Florida Atlantic Owls,FAU,Florida Atlantic,13,0
+2025-10-18,2025-10-18T16:00Z,401762839,post,189,Bowling Green Falcons,BGSU,Bowling Green,6,2117,Central Michigan Chippewas,CMU,Central Michigan,27,0
+2025-10-18,2025-10-18T16:00Z,401762841,post,193,Miami (OH) RedHawks,M-OH,Miami (OH),44,2199,Eastern Michigan Eagles,EMU,Eastern Michigan,30,0
+2025-10-21,2025-10-21T23:00Z,401757285,post,2229,Florida International Panthers,FIU,Florida International,26,338,Kennesaw State Owls,KENN,Kennesaw State,45,0
+2025-10-21,2025-10-21T23:30Z,401757286,post,2348,Louisiana Tech Bulldogs,LT,Louisiana Tech,27,98,Western Kentucky Hilltoppers,WKU,Western Kentucky,28,0
+2025-10-22,2025-10-22T23:30Z,401757287,post,48,Delaware Blue Hens,DEL,Delaware,31,2393,Middle Tennessee Blue Raiders,MTSU,Middle Tennessee,28,0
+2025-10-22,2025-10-23T01:00Z,401757288,post,166,New Mexico State Aggies,NMSU,New Mexico State,17,2623,Missouri State Bears,MOST,Missouri State,24,0
+2025-10-23,2025-10-23T23:30Z,401761634,post,2247,Georgia State Panthers,GAST,Georgia State,31,6,South Alabama Jaguars,USA,South Alabama,38,0
+2025-10-24,2025-10-24T23:30Z,401754372,post,259,Virginia Tech Hokies,VT,Virginia Tech,42,25,California Golden Bears,CAL,California,34,0
+2025-10-24,2025-10-25T02:00Z,401760397,post,2440,Nevada Wolf Pack,NEV,Nevada,3,68,Boise State Broncos,BOIS,Boise State,24,0
+2025-10-24,2025-10-24T23:00Z,401762492,post,2429,Charlotte 49ers,CLT,Charlotte,20,249,North Texas Mean Green,UNT,North Texas,54,0
+2025-10-24,2025-10-25T02:35Z,401767101,post,16,Sacramento State Hornets,SAC,Sacramento State,35,149,Montana Grizzlies,MONT,Montana,49,0
+2025-10-25,2025-10-25T23:45Z,401752747,post,96,Kentucky Wildcats,UK,Kentucky,34,2633,Tennessee Volunteers,TENN,Tennessee,56,0
+2025-10-25,2025-10-25T23:30Z,401752748,post,99,LSU Tigers,LSU,LSU,25,245,Texas A&M Aggies,TA&M,Texas A&M,49,0
+2025-10-25,2025-10-25T20:15Z,401752749,post,344,Mississippi State Bulldogs,MSST,Mississippi State,38,251,Texas Longhorns,TEX,Texas,45,0
+2025-10-25,2025-10-25T16:00Z,401752750,post,201,Oklahoma Sooners,OU,Oklahoma,26,145,Ole Miss Rebels,MISS,Ole Miss,34,0
+2025-10-25,2025-10-25T19:30Z,401752751,post,2579,South Carolina Gamecocks,SC,South Carolina,22,333,Alabama Crimson Tide,ALA,Alabama,29,0
+2025-10-25,2025-10-25T19:30Z,401752752,post,238,Vanderbilt Commodores,VAN,Vanderbilt,17,142,Missouri Tigers,MIZ,Missouri,10,0
+2025-10-25,2025-10-25T19:30Z,401752880,post,264,Washington Huskies,WASH,Washington,42,356,Illinois Fighting Illini,ILL,Illinois,25,0
+2025-10-25,2025-10-25T23:30Z,401752881,post,127,Michigan State Spartans,MSU,Michigan State,20,130,Michigan Wolverines,MICH,Michigan,31,0
+2025-10-25,2025-10-25T16:00Z,401752883,post,158,Nebraska Cornhuskers,NEB,Nebraska,28,77,Northwestern Wildcats,NU,Northwestern,21,0
+2025-10-25,2025-10-25T16:00Z,401752884,post,2509,Purdue Boilermakers,PUR,Purdue,24,164,Rutgers Scarlet Knights,RUTG,Rutgers,27,0
+2025-10-25,2025-10-25T16:00Z,401752885,post,84,Indiana Hoosiers,IU,Indiana,56,26,UCLA Bruins,UCLA,UCLA,6,0
+2025-10-25,2025-10-25T23:00Z,401752886,post,2483,Oregon Ducks,ORE,Oregon,21,275,Wisconsin Badgers,WIS,Wisconsin,7,0
+2025-10-25,2025-10-25T16:00Z,401752942,post,154,Wake Forest Demon Deacons,WAKE,Wake Forest,13,2567,SMU Mustangs,SMU,SMU,12,0
+2025-10-25,2025-10-25T23:30Z,401754570,post,97,Louisville Cardinals,LOU,Louisville,38,103,Boston College Eagles,BC,Boston College,24,0
+2025-10-25,2025-10-25T16:00Z,401754571,post,59,Georgia Tech Yellow Jackets,GT,Georgia Tech,41,183,Syracuse Orange,SYR,Syracuse,16,0
+2025-10-25,2025-10-25T23:00Z,401754572,post,2390,Miami Hurricanes,MIA,Miami,42,24,Stanford Cardinal,STAN,Stanford,7,0
+2025-10-25,2025-10-25T16:00Z,401754573,post,153,North Carolina Tar Heels,UNC,North Carolina,16,258,Virginia Cavaliers,UVA,Virginia,17,0
+2025-10-25,2025-10-26T00:00Z,401756929,post,9,Arizona State Sun Devils,ASU,Arizona State,16,248,Houston Cougars,HOU,Houston,24,0
+2025-10-25,2025-10-25T20:00Z,401756930,post,2132,Cincinnati Bearcats,CIN,Cincinnati,41,239,Baylor Bears,BAY,Baylor,20,0
+2025-10-25,2025-10-25T19:30Z,401756931,post,66,Iowa State Cyclones,ISU,Iowa State,27,252,BYU Cougars,BYU,BYU,41,0
+2025-10-25,2025-10-25T16:00Z,401756932,post,2305,Kansas Jayhawks,KU,Kansas,17,2306,Kansas State Wildcats,KSU,Kansas State,42,0
+2025-10-25,2025-10-25T20:00Z,401756933,post,2641,Texas Tech Red Raiders,TTU,Texas Tech,42,197,Oklahoma State Cowboys,OKST,Oklahoma State,0,0
+2025-10-25,2025-10-25T16:00Z,401761635,post,295,Old Dominion Monarchs,ODU,Old Dominion,24,2026,App State Mountaineers,APP,App State,21,0
+2025-10-25,2025-10-25T16:00Z,401762494,post,235,Memphis Tigers,MEM,Memphis,34,58,South Florida Bulls,USF,South Florida,31,0
+2025-10-25,2025-10-25T16:00Z,401762846,post,2309,Kent State Golden Flashes,KENT,Kent State,24,189,Bowling Green Falcons,BGSU,Bowling Green,21,0
+2025-10-28,2025-10-29T00:00Z,401757289,post,338,Kennesaw State Owls,KENN,Kennesaw State,33,2638,UTEP Miners,UTEP,UTEP,20,0
+2025-10-28,2025-10-29T00:00Z,401761639,post,326,Texas State Bobcats,TXST,Texas State,20,256,James Madison Dukes,JMU,James Madison,52,0
+2025-10-29,2025-10-30T00:00Z,401757291,post,2623,Missouri State Bears,MOST,Missouri State,28,2229,Florida International Panthers,FIU,Florida International,21,0
+2025-10-29,2025-10-29T23:30Z,401757292,post,2393,Middle Tennessee Blue Raiders,MTSU,Middle Tennessee,21,55,Jacksonville State Gamecocks,JVST,Jacksonville State,24,0
+2025-10-30,2025-10-30T23:30Z,401761640,post,324,Coastal Carolina Chanticleers,CCU,Coastal Carolina,44,276,Marshall Thundering Herd,MRSH,Marshall,27,0
+2025-10-30,2025-10-30T23:30Z,401762443,post,2636,UTSA Roadrunners,UTSA,UTSA,48,2655,Tulane Green Wave,TULN,Tulane,26,0
+2025-10-31,2025-10-31T23:30Z,401754575,post,183,Syracuse Orange,SYR,Syracuse,10,153,North Carolina Tar Heels,UNC,North Carolina,27,0
+2025-10-31,2025-11-01T00:00Z,401757290,post,2348,Louisiana Tech Bulldogs,LT,Louisiana Tech,55,2534,Sam Houston Bearkats,SHSU,Sam Houston,14,0
+2025-10-31,2025-10-31T23:00Z,401762497,post,242,Rice Owls,RICE,Rice,14,235,Memphis Tigers,MEM,Memphis,38,0
+2025-11-01,2025-11-01T19:30Z,401752755,post,57,Florida Gators,FLA,Florida,20,61,Georgia Bulldogs,UGA,Georgia,24,1
+2025-11-01,2025-11-01T23:00Z,401752756,post,145,Ole Miss Rebels,MISS,Ole Miss,30,2579,South Carolina Gamecocks,SC,South Carolina,14,0
+2025-11-01,2025-11-01T23:30Z,401752757,post,2633,Tennessee Volunteers,TENN,Tennessee,27,201,Oklahoma Sooners,OU,Oklahoma,33,0
+2025-11-01,2025-11-01T16:00Z,401752758,post,251,Texas Longhorns,TEX,Texas,34,238,Vanderbilt Commodores,VAN,Vanderbilt,31,0
+2025-11-01,2025-11-01T19:30Z,401752887,post,120,Maryland Terrapins,MD,Maryland,10,84,Indiana Hoosiers,IU,Indiana,55,0
+2025-11-01,2025-11-01T16:00Z,401752889,post,194,Ohio State Buckeyes,OSU,Ohio State,38,213,Penn State Nittany Lions,PSU,Penn State,14,0
+2025-11-01,2025-11-01T23:00Z,401752890,post,130,Michigan Wolverines,MICH,Michigan,21,2509,Purdue Boilermakers,PUR,Purdue,16,0
+2025-11-01,2025-11-01T16:00Z,401752891,post,356,Illinois Fighting Illini,ILL,Illinois,35,164,Rutgers Scarlet Knights,RUTG,Rutgers,13,0
+2025-11-01,2025-11-01T23:30Z,401752892,post,158,Nebraska Cornhuskers,NEB,Nebraska,17,30,USC Trojans,USC,USC,21,0
+2025-11-01,2025-11-01T19:45Z,401754576,post,25,California Golden Bears,CAL,California,21,258,Virginia Cavaliers,UVA,Virginia,31,0
+2025-11-01,2025-11-01T16:00Z,401754577,post,228,Clemson Tigers,CLEM,Clemson,45,150,Duke Blue Devils,DUKE,Duke,46,0
+2025-11-01,2025-11-01T23:30Z,401754579,post,152,NC State Wolfpack,NCSU,NC State,48,59,Georgia Tech Yellow Jackets,GT,Georgia Tech,36,0
+2025-11-01,2025-11-01T19:00Z,401754580,post,259,Virginia Tech Hokies,VT,Virginia Tech,16,97,Louisville Cardinals,LOU,Louisville,28,0
+2025-11-01,2025-11-01T16:00Z,401754581,post,2567,SMU Mustangs,SMU,SMU,26,2390,Miami Hurricanes,MIA,Miami,20,0
+2025-11-01,2025-11-01T19:30Z,401754583,post,103,Boston College Eagles,BC,Boston College,10,87,Notre Dame Fighting Irish,ND,Notre Dame,25,0
+2025-11-01,2025-11-01T16:00Z,401756936,post,239,Baylor Bears,BAY,Baylor,30,2116,UCF Knights,UCF,UCF,3,0
+2025-11-01,2025-11-01T16:00Z,401756938,post,248,Houston Cougars,HOU,Houston,35,277,West Virginia Mountaineers,WVU,West Virginia,45,0
+2025-11-01,2025-11-01T17:00Z,401756939,post,66,Iowa State Cyclones,ISU,Iowa State,19,9,Arizona State Sun Devils,ASU,Arizona State,24,0
+2025-11-01,2025-11-01T19:30Z,401756941,post,2306,Kansas State Wildcats,KSU,Kansas State,20,2641,Texas Tech Red Raiders,TTU,Texas Tech,43,0
+2025-11-01,2025-11-02T02:15Z,401756942,post,254,Utah Utes,UTAH,Utah,45,2132,Cincinnati Bearcats,CIN,Cincinnati,14,0
+2025-11-01,2025-11-01T16:00Z,401757173,post,41,UConn Huskies,CONN,UConn,38,5,UAB Blazers,UAB,UAB,19,0
+2025-11-01,2025-11-01T16:00Z,401760401,post,2005,Air Force Falcons,AFA,Air Force,17,349,Army Black Knights,ARMY,Army,20,0
+2025-11-01,2025-11-01T18:00Z,401762498,post,218,Temple Owls,TEM,Temple,14,151,East Carolina Pirates,ECU,East Carolina,45,0
+2025-11-01,2025-11-01T16:00Z,401762499,post,249,North Texas Mean Green,UNT,North Texas,31,2426,Navy Midshipmen,NAVY,Navy,17,0
+2025-11-01,2025-11-01T16:00Z,401762849,post,189,Bowling Green Falcons,BGSU,Bowling Green,3,2084,Buffalo Bulls,BUFF,Buffalo,28,0
+2025-11-04,2025-11-05T00:00Z,401762851,post,2006,Akron Zips,AKR,Akron,44,113,Massachusetts Minutemen,MASS,Massachusetts,10,0
+2025-11-04,2025-11-05T00:00Z,401762852,post,195,Ohio Bobcats,OHIO,Ohio,24,193,Miami (OH) RedHawks,M-OH,Miami (OH),20,0
+2025-11-05,2025-11-06T00:00Z,401762853,post,2050,Ball State Cardinals,BALL,Ball State,17,2309,Kent State Golden Flashes,KENT,Kent State,13,0
+2025-11-05,2025-11-06T00:00Z,401762854,post,2649,Toledo Rockets,TOL,Toledo,42,2459,Northern Illinois Huskies,NIU,Northern Illinois,3,0
+2025-11-06,2025-11-07T00:30Z,401761644,post,2026,App State Mountaineers,APP,App State,23,290,Georgia Southern Eagles,GASO,Georgia Southern,25,0
+2025-11-06,2025-11-07T00:30Z,401762500,post,58,South Florida Bulls,USF,South Florida,55,2636,UTSA Roadrunners,UTSA,UTSA,23,0
+2025-11-07,2025-11-08T02:00Z,401752896,post,30,USC Trojans,USC,USC,38,77,Northwestern Wildcats,NU,Northwestern,17,0
+2025-11-07,2025-11-08T01:15Z,401756946,post,2116,UCF Knights,UCF,UCF,27,248,Houston Cougars,HOU,Houston,30,0
+2025-11-07,2025-11-08T02:10Z,401762501,post,235,Memphis Tigers,MEM,Memphis,32,2655,Tulane Green Wave,TULN,Tulane,38,0
+2025-11-08,2025-11-09T00:30Z,401752759,post,333,Alabama Crimson Tide,ALA,Alabama,20,99,LSU Tigers,LSU,LSU,9,0
+2025-11-08,2025-11-08T18:00Z,401752761,post,145,Ole Miss Rebels,MISS,Ole Miss,49,2643,The Citadel Bulldogs,CIT,The Citadel,0,0
+2025-11-08,2025-11-08T17:00Z,401752762,post,344,Mississippi State Bulldogs,MSST,Mississippi State,21,61,Georgia Bulldogs,UGA,Georgia,41,0
+2025-11-08,2025-11-08T20:30Z,401752763,post,142,Missouri Tigers,MIZ,Missouri,17,245,Texas A&M Aggies,TA&M,Texas A&M,38,0
+2025-11-08,2025-11-08T21:00Z,401752764,post,238,Vanderbilt Commodores,VAN,Vanderbilt,45,2,Auburn Tigers,AUB,Auburn,38,0
+2025-11-08,2025-11-08T17:00Z,401752893,post,213,Penn State Nittany Lions,PSU,Penn State,24,84,Indiana Hoosiers,IU,Indiana,27,0
+2025-11-08,2025-11-08T19:30Z,401752894,post,164,Rutgers Scarlet Knights,RUTG,Rutgers,35,120,Maryland Terrapins,MD,Maryland,20,0
+2025-11-08,2025-11-08T18:00Z,401752897,post,2509,Purdue Boilermakers,PUR,Purdue,10,194,Ohio State Buckeyes,OSU,Ohio State,34,0
+2025-11-08,2025-11-08T20:30Z,401752898,post,2294,Iowa Hawkeyes,IOWA,Iowa,16,2483,Oregon Ducks,ORE,Oregon,18,0
+2025-11-08,2025-11-08T21:30Z,401752899,post,275,Wisconsin Badgers,WIS,Wisconsin,13,264,Washington Huskies,WASH,Washington,10,0
+2025-11-08,2025-11-08T17:00Z,401754584,post,103,Boston College Eagles,BC,Boston College,13,2567,SMU Mustangs,SMU,SMU,45,0
+2025-11-08,2025-11-09T00:00Z,401754585,post,97,Louisville Cardinals,LOU,Louisville,26,25,California Golden Bears,CAL,California,29,0
+2025-11-08,2025-11-08T20:30Z,401754587,post,2390,Miami Hurricanes,MIA,Miami,38,183,Syracuse Orange,SYR,Syracuse,10,0
+2025-11-08,2025-11-09T00:00Z,401754589,post,258,Virginia Cavaliers,UVA,Virginia,9,154,Wake Forest Demon Deacons,WAKE,Wake Forest,16,0
+2025-11-08,2025-11-08T17:00Z,401756945,post,2641,Texas Tech Red Raiders,TTU,Texas Tech,29,252,BYU Cougars,BYU,BYU,7,0
+2025-11-08,2025-11-08T17:00Z,401756947,post,277,West Virginia Mountaineers,WVU,West Virginia,29,38,Colorado Buffaloes,COLO,Colorado,22,0
+2025-11-08,2025-11-09T00:30Z,401757166,post,87,Notre Dame Fighting Irish,ND,Notre Dame,49,2426,Navy Midshipmen,NAVY,Navy,10,0
+2025-11-08,2025-11-08T20:00Z,401757295,post,48,Delaware Blue Hens,DEL,Delaware,25,2348,Louisiana Tech Bulldogs,LT,Louisiana Tech,24,0
+2025-11-08,2025-11-08T18:00Z,401757299,post,2335,Liberty Flames,LIB,Liberty,17,2623,Missouri State Bears,MOST,Missouri State,21,0
+2025-11-08,2025-11-08T17:00Z,401761646,post,276,Marshall Thundering Herd,MRSH,Marshall,23,256,James Madison Dukes,JMU,James Madison,35,0
+2025-11-08,2025-11-08T17:00Z,401761647,post,2032,Arkansas State Red Wolves,ARST,Arkansas State,21,2572,Southern Miss Golden Eagles,USM,Southern Miss,27,0
+2025-11-08,2025-11-08T19:00Z,401762502,post,242,Rice Owls,RICE,Rice,24,5,UAB Blazers,UAB,UAB,17,0
+2025-11-08,2025-11-08T17:00Z,401762503,post,349,Army Black Knights,ARMY,Army,14,218,Temple Owls,TEM,Temple,13,0
+2025-11-08,2025-11-08T18:00Z,401762855,post,2199,Eastern Michigan Eagles,EMU,Eastern Michigan,27,189,Bowling Green Falcons,BGSU,Bowling Green,21,0
+2025-11-08,2025-11-08T19:00Z,401767507,post,155,North Dakota Fighting Hawks,UND,North Dakota,10,2449,North Dakota State Bison,NDSU,North Dakota State,15,0
+2025-11-11,2025-11-12T00:30Z,401762856,post,2006,Akron Zips,AKR,Akron,35,2309,Kent State Golden Flashes,KENT,Kent State,42,0
+2025-11-11,2025-11-12T01:00Z,401762857,post,2711,Western Michigan Broncos,WMU,Western Michigan,17,195,Ohio Bobcats,OHIO,Ohio,13,0
+2025-11-12,2025-11-13T00:00Z,401762858,post,2117,Central Michigan Chippewas,CMU,Central Michigan,38,2084,Buffalo Bulls,BUFF,Buffalo,19,0
+2025-11-12,2025-11-13T00:00Z,401762859,post,113,Massachusetts Minutemen,MASS,Massachusetts,3,2459,Northern Illinois Huskies,NIU,Northern Illinois,45,0
+2025-11-12,2025-11-13T00:00Z,401762860,post,193,Miami (OH) RedHawks,M-OH,Miami (OH),3,2649,Toledo Rockets,TOL,Toledo,24,0
+2025-11-13,2025-11-14T00:30Z,401761649,post,295,Old Dominion Monarchs,ODU,Old Dominion,33,2653,Troy Trojans,TROY,Troy,0,0
+2025-11-14,2025-11-15T02:00Z,401752904,post,2483,Oregon Ducks,ORE,Oregon,42,135,Minnesota Golden Gophers,MINN,Minnesota,13,0
+2025-11-14,2025-11-15T00:30Z,401754591,post,97,Louisville Cardinals,LOU,Louisville,19,228,Clemson Tigers,CLEM,Clemson,20,0
+2025-11-15,2025-11-15T20:30Z,401752765,post,333,Alabama Crimson Tide,ALA,Alabama,21,201,Oklahoma Sooners,OU,Oklahoma,23,0
+2025-11-15,2025-11-16T00:30Z,401752766,post,61,Georgia Bulldogs,UGA,Georgia,35,251,Texas Longhorns,TEX,Texas,10,0
+2025-11-15,2025-11-15T17:45Z,401752768,post,99,LSU Tigers,LSU,LSU,23,8,Arkansas Razorbacks,ARK,Arkansas,22,0
+2025-11-15,2025-11-16T00:00Z,401752769,post,145,Ole Miss Rebels,MISS,Ole Miss,34,57,Florida Gators,FLA,Florida,24,0
+2025-11-15,2025-11-15T21:15Z,401752771,post,2633,Tennessee Volunteers,TENN,Tennessee,42,166,New Mexico State Aggies,NMSU,New Mexico State,9,0
+2025-11-15,2025-11-15T17:00Z,401752772,post,245,Texas A&M Aggies,TA&M,Texas A&M,31,2579,South Carolina Gamecocks,SC,South Carolina,30,0
+2025-11-15,2025-11-16T00:30Z,401752900,post,194,Ohio State Buckeyes,OSU,Ohio State,48,26,UCLA Bruins,UCLA,UCLA,10,0
+2025-11-15,2025-11-15T17:00Z,401752901,post,84,Indiana Hoosiers,IU,Indiana,31,275,Wisconsin Badgers,WIS,Wisconsin,7,0
+2025-11-15,2025-11-15T17:00Z,401752905,post,77,Northwestern Wildcats,NU,Northwestern,22,130,Michigan Wolverines,MICH,Michigan,24,0
+2025-11-15,2025-11-15T20:30Z,401752907,post,30,USC Trojans,USC,USC,26,2294,Iowa Hawkeyes,IOWA,Iowa,21,0
+2025-11-15,2025-11-15T18:00Z,401752945,post,202,Tulsa Golden Hurricane,TLSA,Tulsa,31,204,Oregon State Beavers,ORST,Oregon State,14,0
+2025-11-15,2025-11-15T20:30Z,401754592,post,103,Boston College Eagles,BC,Boston College,34,59,Georgia Tech Yellow Jackets,GT,Georgia Tech,36,0
+2025-11-15,2025-11-15T20:35Z,401754593,post,150,Duke Blue Devils,DUKE,Duke,17,258,Virginia Cavaliers,UVA,Virginia,34,0
+2025-11-15,2025-11-15T20:40Z,401754595,post,2390,Miami Hurricanes,MIA,Miami,41,152,NC State Wolfpack,NCSU,NC State,7,0
+2025-11-15,2025-11-15T17:00Z,401754597,post,221,Pittsburgh Panthers,PITT,Pittsburgh,15,87,Notre Dame Fighting Irish,ND,Notre Dame,37,0
+2025-11-15,2025-11-15T18:00Z,401756948,post,9,Arizona State Sun Devils,ASU,Arizona State,25,277,West Virginia Mountaineers,WVU,West Virginia,23,0
+2025-11-15,2025-11-16T00:00Z,401756949,post,239,Baylor Bears,BAY,Baylor,28,254,Utah Utes,UTAH,Utah,55,0
+2025-11-15,2025-11-16T03:15Z,401756950,post,252,BYU Cougars,BYU,BYU,44,2628,TCU Horned Frogs,TCU,TCU,13,0
+2025-11-15,2025-11-15T17:00Z,401756951,post,2132,Cincinnati Bearcats,CIN,Cincinnati,24,12,Arizona Wildcats,ARIZ,Arizona,30,0
+2025-11-15,2025-11-15T17:00Z,401756952,post,197,Oklahoma State Cowboys,OKST,Oklahoma State,6,2306,Kansas State Wildcats,KSU,Kansas State,14,0
+2025-11-15,2025-11-15T20:30Z,401756953,post,2641,Texas Tech Red Raiders,TTU,Texas Tech,48,2116,UCF Knights,UCF,UCF,9,0
+2025-11-15,2025-11-15T17:00Z,401757174,post,41,UConn Huskies,CONN,UConn,26,2005,Air Force Falcons,AFA,Air Force,16,0
+2025-11-15,2025-11-15T17:00Z,401762507,post,2429,Charlotte 49ers,CLT,Charlotte,7,2636,UTSA Roadrunners,UTSA,UTSA,28,0
+2025-11-15,2025-11-15T17:00Z,401762510,post,2426,Navy Midshipmen,NAVY,Navy,41,58,South Florida Bulls,USF,South Florida,38,0
+2025-11-15,2025-11-15T17:00Z,401762861,post,2050,Ball State Cardinals,BALL,Ball State,9,2199,Eastern Michigan Eagles,EMU,Eastern Michigan,24,0
+2025-11-18,2025-11-19T00:00Z,401762862,post,189,Bowling Green Falcons,BGSU,Bowling Green,16,2006,Akron Zips,AKR,Akron,19,0
+2025-11-18,2025-11-19T00:15Z,401762863,post,195,Ohio Bobcats,OHIO,Ohio,42,113,Massachusetts Minutemen,MASS,Massachusetts,14,0
+2025-11-18,2025-11-19T00:00Z,401762864,post,2459,Northern Illinois Huskies,NIU,Northern Illinois,19,2711,Western Michigan Broncos,WMU,Western Michigan,35,0
+2025-11-19,2025-11-20T00:00Z,401762865,post,2084,Buffalo Bulls,BUFF,Buffalo,20,193,Miami (OH) RedHawks,M-OH,Miami (OH),37,0
+2025-11-19,2025-11-20T00:00Z,401762866,post,2309,Kent State Golden Flashes,KENT,Kent State,16,2117,Central Michigan Chippewas,CMU,Central Michigan,28,0
+2025-11-20,2025-11-21T00:30Z,401761655,post,2032,Arkansas State Red Wolves,ARST,Arkansas State,30,309,Louisiana Ragin' Cajuns,UL,Louisiana,34,0
+2025-11-21,2025-11-22T01:00Z,401754598,post,152,NC State Wolfpack,NCSU,NC State,21,52,Florida State Seminoles,FSU,Florida State,11,0
+2025-11-21,2025-11-22T03:30Z,401760418,post,2439,UNLV Rebels,UNLV,UNLV,38,62,Hawai'i Rainbow Warriors,HAW,Hawai'i,10,0
+2025-11-22,2025-11-22T19:00Z,401752773,post,333,Alabama Crimson Tide,ALA,Alabama,56,2197,Eastern Illinois Panthers,EIU,Eastern Illinois,0,0
+2025-11-22,2025-11-23T00:30Z,401752775,post,57,Florida Gators,FLA,Florida,11,2633,Tennessee Volunteers,TENN,Tennessee,31,0
+2025-11-22,2025-11-22T17:45Z,401752776,post,61,Georgia Bulldogs,UGA,Georgia,35,2429,Charlotte 49ers,CLT,Charlotte,3,0
+2025-11-22,2025-11-22T17:00Z,401752778,post,201,Oklahoma Sooners,OU,Oklahoma,17,142,Missouri Tigers,MIZ,Missouri,6,0
+2025-11-22,2025-11-22T20:30Z,401752780,post,251,Texas Longhorns,TEX,Texas,52,8,Arkansas Razorbacks,ARK,Arkansas,37,0
+2025-11-22,2025-11-22T17:00Z,401752781,post,245,Texas A&M Aggies,TA&M,Texas A&M,48,2535,Samford Bulldogs,SAM,Samford,0,0
+2025-11-22,2025-11-22T20:30Z,401752782,post,238,Vanderbilt Commodores,VAN,Vanderbilt,45,96,Kentucky Wildcats,UK,Kentucky,17,0
+2025-11-22,2025-11-22T17:00Z,401752909,post,77,Northwestern Wildcats,NU,Northwestern,38,135,Minnesota Golden Gophers,MINN,Minnesota,35,0
+2025-11-22,2025-11-22T20:30Z,401752911,post,2483,Oregon Ducks,ORE,Oregon,42,30,USC Trojans,USC,USC,27,0
+2025-11-22,2025-11-22T17:00Z,401752912,post,194,Ohio State Buckeyes,OSU,Ohio State,42,164,Rutgers Scarlet Knights,RUTG,Rutgers,9,0
+2025-11-22,2025-11-22T21:00Z,401752914,post,120,Maryland Terrapins,MD,Maryland,20,130,Michigan Wolverines,MICH,Michigan,45,0
+2025-11-22,2025-11-23T00:30Z,401752915,post,275,Wisconsin Badgers,WIS,Wisconsin,27,356,Illinois Fighting Illini,ILL,Illinois,10,0
+2025-11-22,2025-11-22T18:00Z,401752954,post,256,James Madison Dukes,JMU,James Madison,24,265,Washington State Cougars,WSU,Washington State,20,0
+2025-11-22,2025-11-23T00:00Z,401754601,post,59,Georgia Tech Yellow Jackets,GT,Georgia Tech,28,221,Pittsburgh Panthers,PITT,Pittsburgh,42,0
+2025-11-22,2025-11-22T17:00Z,401754602,post,2567,SMU Mustangs,SMU,SMU,38,97,Louisville Cardinals,LOU,Louisville,6,0
+2025-11-22,2025-11-22T17:00Z,401754603,post,259,Virginia Tech Hokies,VT,Virginia Tech,17,2390,Miami Hurricanes,MIA,Miami,34,0
+2025-11-22,2025-11-22T20:30Z,401754604,post,87,Notre Dame Fighting Irish,ND,Notre Dame,70,183,Syracuse Orange,SYR,Syracuse,7,0
+2025-11-22,2025-11-22T17:00Z,401754606,post,154,Wake Forest Demon Deacons,WAKE,Wake Forest,52,48,Delaware Blue Hens,DEL,Delaware,14,0
+2025-11-22,2025-11-23T01:00Z,401756955,post,2132,Cincinnati Bearcats,CIN,Cincinnati,14,252,BYU Cougars,BYU,BYU,26,0
+2025-11-22,2025-11-23T01:00Z,401756956,post,38,Colorado Buffaloes,COLO,Colorado,17,9,Arizona State Sun Devils,ASU,Arizona State,42,0
+2025-11-22,2025-11-22T21:00Z,401756957,post,248,Houston Cougars,HOU,Houston,14,2628,TCU Horned Frogs,TCU,TCU,17,0
+2025-11-22,2025-11-22T17:00Z,401756958,post,66,Iowa State Cyclones,ISU,Iowa State,38,2305,Kansas Jayhawks,KU,Kansas,14,0
+2025-11-22,2025-11-22T21:00Z,401756960,post,254,Utah Utes,UTAH,Utah,51,2306,Kansas State Wildcats,KSU,Kansas State,47,0
+2025-11-22,2025-11-22T17:00Z,401762512,post,349,Army Black Knights,ARMY,Army,25,202,Tulsa Golden Hurricane,TLSA,Tulsa,26,0
+2025-11-22,2025-11-22T20:45Z,401762515,post,218,Temple Owls,TEM,Temple,13,2655,Tulane Green Wave,TULN,Tulane,37,0
+2025-11-25,2025-11-25T21:30Z,401762868,post,113,Massachusetts Minutemen,MASS,Massachusetts,14,189,Bowling Green Falcons,BGSU,Bowling Green,45,0
+2025-11-25,2025-11-26T00:30Z,401762869,post,2199,Eastern Michigan Eagles,EMU,Eastern Michigan,21,2711,Western Michigan Broncos,WMU,Western Michigan,31,0
+2025-11-27,2025-11-28T00:30Z,401762516,post,235,Memphis Tigers,MEM,Memphis,17,2426,Navy Midshipmen,NAVY,Navy,28,0
+2025-11-28,2025-11-28T20:30Z,401752786,post,59,Georgia Tech Yellow Jackets,GT,Georgia Tech,9,61,Georgia Bulldogs,UGA,Georgia,16,1
+2025-11-28,2025-11-28T17:00Z,401752788,post,344,Mississippi State Bulldogs,MSST,Mississippi State,19,145,Ole Miss Rebels,MISS,Ole Miss,38,0
+2025-11-28,2025-11-29T00:30Z,401752792,post,251,Texas Longhorns,TEX,Texas,27,245,Texas A&M Aggies,TA&M,Texas A&M,17,0
+2025-11-28,2025-11-28T17:00Z,401752916,post,158,Nebraska Cornhuskers,NEB,Nebraska,16,2294,Iowa Hawkeyes,IOWA,Iowa,40,0
+2025-11-28,2025-11-29T00:30Z,401752924,post,2509,Purdue Boilermakers,PUR,Purdue,3,84,Indiana Hoosiers,IU,Indiana,56,0
+2025-11-28,2025-11-29T02:00Z,401756961,post,9,Arizona State Sun Devils,ASU,Arizona State,7,12,Arizona Wildcats,ARIZ,Arizona,23,0
+2025-11-28,2025-11-28T17:00Z,401756964,post,2305,Kansas Jayhawks,KU,Kansas,21,254,Utah Utes,UTAH,Utah,31,0
+2025-11-28,2025-11-28T20:00Z,401760421,post,36,Colorado State Rams,CSU,Colorado State,21,2005,Air Force Falcons,AFA,Air Force,42,0
+2025-11-28,2025-11-28T21:00Z,401760422,post,328,Utah State Aggies,USU,Utah State,24,68,Boise State Broncos,BOIS,Boise State,25,0
+2025-11-28,2025-11-28T20:30Z,401760426,post,167,New Mexico Lobos,UNM,New Mexico,23,21,San Diego State Aztecs,SDSU,San Diego State,17,0
+2025-11-28,2025-11-28T20:30Z,401762442,post,249,North Texas Mean Green,UNT,North Texas,52,218,Temple Owls,TEM,Temple,25,0
+2025-11-28,2025-11-28T17:00Z,401762870,post,2084,Buffalo Bulls,BUFF,Buffalo,26,195,Ohio Bobcats,OHIO,Ohio,31,0
+2025-11-28,2025-11-28T17:00Z,401762871,post,2459,Northern Illinois Huskies,NIU,Northern Illinois,31,2309,Kent State Golden Flashes,KENT,Kent State,35,0
+2025-11-29,2025-11-30T00:30Z,401752784,post,2,Auburn Tigers,AUB,Auburn,20,333,Alabama Crimson Tide,ALA,Alabama,27,0
+2025-11-29,2025-11-29T17:00Z,401752787,post,97,Louisville Cardinals,LOU,Louisville,41,96,Kentucky Wildcats,UK,Kentucky,0,0
+2025-11-29,2025-11-29T20:30Z,401752789,post,201,Oklahoma Sooners,OU,Oklahoma,17,99,LSU Tigers,LSU,LSU,13,0
+2025-11-29,2025-11-29T17:00Z,401752790,post,2579,South Carolina Gamecocks,SC,South Carolina,14,228,Clemson Tigers,CLEM,Clemson,28,0
+2025-11-29,2025-11-29T20:30Z,401752791,post,2633,Tennessee Volunteers,TENN,Tennessee,24,238,Vanderbilt Commodores,VAN,Vanderbilt,45,0
+2025-11-29,2025-11-29T20:30Z,401752917,post,264,Washington Huskies,WASH,Washington,14,2483,Oregon Ducks,ORE,Oregon,26,0
+2025-11-29,2025-11-30T00:30Z,401752919,post,30,USC Trojans,USC,USC,29,26,UCLA Bruins,UCLA,UCLA,10,0
+2025-11-29,2025-11-29T17:00Z,401752921,post,130,Michigan Wolverines,MICH,Michigan,9,194,Ohio State Buckeyes,OSU,Ohio State,27,0
+2025-11-29,2025-11-30T01:00Z,401754609,post,25,California Golden Bears,CAL,California,38,2567,SMU Mustangs,SMU,SMU,35,0
+2025-11-29,2025-11-29T17:00Z,401754611,post,221,Pittsburgh Panthers,PITT,Pittsburgh,7,2390,Miami Hurricanes,MIA,Miami,38,0
+2025-11-29,2025-11-30T00:00Z,401754613,post,258,Virginia Cavaliers,UVA,Virginia,27,259,Virginia Tech Hokies,VT,Virginia Tech,7,0
+2025-11-29,2025-11-30T03:30Z,401754614,post,24,Stanford Cardinal,STAN,Stanford,20,87,Notre Dame Fighting Irish,ND,Notre Dame,49,0
+2025-11-29,2025-11-29T17:00Z,401756962,post,239,Baylor Bears,BAY,Baylor,24,248,Houston Cougars,HOU,Houston,31,0
+2025-11-29,2025-11-29T18:00Z,401756963,post,252,BYU Cougars,BYU,BYU,41,2116,UCF Knights,UCF,UCF,21,0
+2025-11-29,2025-11-29T17:00Z,401756965,post,2306,Kansas State Wildcats,KSU,Kansas State,24,38,Colorado Buffaloes,COLO,Colorado,14,0
+2025-11-29,2025-11-29T17:00Z,401756966,post,197,Oklahoma State Cowboys,OKST,Oklahoma State,13,66,Iowa State Cyclones,ISU,Iowa State,20,0
+2025-11-29,2025-11-29T17:00Z,401756968,post,277,West Virginia Mountaineers,WVU,West Virginia,0,2641,Texas Tech Red Raiders,TTU,Texas Tech,49,0
+2025-11-29,2025-11-29T18:00Z,401757310,post,48,Delaware Blue Hens,DEL,Delaware,61,2638,UTEP Miners,UTEP,UTEP,31,0
+2025-11-29,2025-11-29T18:00Z,401757311,post,2534,Sam Houston Bearkats,SHSU,Sam Houston,16,2229,Florida International Panthers,FIU,Florida International,56,0
+2025-11-29,2025-11-29T19:00Z,401757312,post,55,Jacksonville State Gamecocks,JVST,Jacksonville State,37,98,Western Kentucky Hilltoppers,WKU,Western Kentucky,34,0
+2025-11-29,2025-11-29T18:30Z,401761663,post,276,Marshall Thundering Herd,MRSH,Marshall,19,290,Georgia Southern Eagles,GASO,Georgia Southern,24,0
+2025-11-29,2025-11-30T00:30Z,401762518,post,2655,Tulane Green Wave,TULN,Tulane,27,2429,Charlotte 49ers,CLT,Charlotte,0,0
+2025-11-29,2025-11-29T17:00Z,401762519,post,2226,Florida Atlantic Owls,FAU,Florida Atlantic,3,151,East Carolina Pirates,ECU,East Carolina,42,0
+2025-11-29,2025-11-29T17:00Z,401762872,post,2117,Central Michigan Chippewas,CMU,Central Michigan,3,2649,Toledo Rockets,TOL,Toledo,21,0
+2025-11-29,2025-11-29T17:00Z,401762875,post,193,Miami (OH) RedHawks,M-OH,Miami (OH),45,2050,Ball State Cardinals,BALL,Ball State,24,0
+2025-12-05,2025-12-06T01:00Z,401777324,post,2655,Tulane Green Wave,TULN,Tulane,34,249,North Texas Mean Green,UNT,North Texas,21,0
+2025-12-05,2025-12-06T00:00Z,401777325,post,55,Jacksonville State Gamecocks,JVST,Jacksonville State,15,338,Kennesaw State Owls,KENN,Kennesaw State,19,0
+2025-12-05,2025-12-06T01:00Z,401777326,post,68,Boise State Broncos,BOIS,Boise State,38,2439,UNLV Rebels,UNLV,UNLV,21,0
+2025-12-05,2025-12-06T00:00Z,401777352,post,256,James Madison Dukes,JMU,James Madison,31,2653,Troy Trojans,TROY,Troy,14,0
+2025-12-06,2025-12-06T17:00Z,401777327,post,2641,Texas Tech Red Raiders,TTU,Texas Tech,34,252,BYU Cougars,BYU,BYU,7,1
+2025-12-06,2025-12-07T01:00Z,401777328,post,258,Virginia Cavaliers,UVA,Virginia,20,150,Duke Blue Devils,DUKE,Duke,27,1
+2025-12-06,2025-12-06T17:00Z,401777329,post,2711,Western Michigan Broncos,WMU,Western Michigan,23,193,Miami (OH) RedHawks,M-OH,Miami (OH),13,1
+2025-12-06,2025-12-06T21:00Z,401777351,post,333,Alabama Crimson Tide,ALA,Alabama,7,61,Georgia Bulldogs,UGA,Georgia,28,1
+2025-12-06,2025-12-07T01:00Z,401777353,post,194,Ohio State Buckeyes,OSU,Ohio State,10,84,Indiana Hoosiers,IU,Indiana,13,1
+2025-12-06,2025-12-06T18:00Z,401836198,post,2449,North Dakota State Bison,NDSU,North Dakota State,28,2287,Illinois State Redbirds,ILST,Illinois State,29,0
+2025-12-13,2025-12-13T20:00Z,401762521,post,2426,Navy Midshipmen,NAVY,Navy,17,349,Army Black Knights,ARMY,Army,16,1
+2025-12-13,2025-12-14T01:00Z,401778302,post,264,Washington Huskies,WASH,Washington,38,68,Boise State Broncos,BOIS,Boise State,10,1
+2025-12-16,2025-12-17T02:00Z,401778303,post,55,Jacksonville State Gamecocks,JVST,Jacksonville State,17,2653,Troy Trojans,TROY,Troy,13,1
+2025-12-17,2025-12-17T22:00Z,401778304,post,58,South Florida Bulls,USF,South Florida,10,295,Old Dominion Monarchs,ODU,Old Dominion,24,1
+2025-12-17,2025-12-18T01:40Z,401778305,post,48,Delaware Blue Hens,DEL,Delaware,20,309,Louisiana Ragin' Cajuns,UL,Louisiana,13,1
+2025-12-18,2025-12-19T02:00Z,401838053,post,2032,Arkansas State Red Wolves,ARST,Arkansas State,34,2623,Missouri State Bears,MOST,Missouri State,28,1
+2025-12-19,2025-12-19T16:00Z,401778306,post,2711,Western Michigan Broncos,WMU,Western Michigan,41,338,Kennesaw State Owls,KENN,Kennesaw State,6,1
+2025-12-19,2025-12-19T19:30Z,401778307,post,152,NC State Wolfpack,NCSU,NC State,31,235,Memphis Tigers,MEM,Memphis,7,1
+2025-12-19,2025-12-20T01:00Z,401779840,post,201,Oklahoma Sooners,OU,Oklahoma,24,333,Alabama Crimson Tide,ALA,Alabama,34,0
+2025-12-20,2025-12-20T17:00Z,401779841,post,245,Texas A&M Aggies,TA&M,Texas A&M,3,2390,Miami Hurricanes,MIA,Miami,10,0
+2025-12-20,2025-12-20T20:30Z,401779842,post,145,Ole Miss Rebels,MISS,Ole Miss,41,2655,Tulane Green Wave,TULN,Tulane,10,0
+2025-12-20,2025-12-21T00:30Z,401779843,post,2483,Oregon Ducks,ORE,Oregon,51,256,James Madison Dukes,JMU,James Madison,34,0
+2025-12-22,2025-12-22T19:00Z,401778308,post,328,Utah State Aggies,USU,Utah State,21,265,Washington State Cougars,WSU,Washington State,34,1
+2025-12-23,2025-12-23T19:00Z,401778309,post,97,Louisville Cardinals,LOU,Louisville,27,2649,Toledo Rockets,TOL,Toledo,22,1
+2025-12-23,2025-12-23T22:30Z,401778310,post,2572,Southern Miss Golden Eagles,USM,Southern Miss,16,98,Western Kentucky Hilltoppers,WKU,Western Kentucky,27,1
+2025-12-23,2025-12-24T02:00Z,401778311,post,195,Ohio Bobcats,OHIO,Ohio,17,2439,UNLV Rebels,UNLV,UNLV,10,1
+2025-12-24,2025-12-25T01:00Z,401778312,post,62,Hawai'i Rainbow Warriors,HAW,Hawai'i,35,25,California Golden Bears,CAL,California,31,0
+2025-12-26,2025-12-26T18:00Z,401778313,post,77,Northwestern Wildcats,NU,Northwestern,34,2117,Central Michigan Chippewas,CMU,Central Michigan,7,1
+2025-12-26,2025-12-26T21:30Z,401778314,post,135,Minnesota Golden Gophers,MINN,Minnesota,20,167,New Mexico Lobos,UNM,New Mexico,17,1
+2025-12-26,2025-12-27T01:00Z,401778315,post,2636,UTSA Roadrunners,UTSA,UTSA,57,2229,Florida International Panthers,FIU,Florida International,20,1
+2025-12-27,2025-12-27T16:00Z,401778316,post,151,East Carolina Pirates,ECU,East Carolina,23,221,Pittsburgh Panthers,PITT,Pittsburgh,17,1
+2025-12-27,2025-12-27T17:00Z,401778317,post,228,Clemson Tigers,CLEM,Clemson,10,213,Penn State Nittany Lions,PSU,Penn State,22,1
+2025-12-27,2025-12-27T19:15Z,401778318,post,349,Army Black Knights,ARMY,Army,41,41,UConn Huskies,CONN,UConn,16,1
+2025-12-27,2025-12-27T20:40Z,401778319,post,252,BYU Cougars,BYU,BYU,25,59,Georgia Tech Yellow Jackets,GT,Georgia Tech,21,1
+2025-12-27,2025-12-27T21:30Z,401778320,post,278,Fresno State Bulldogs,FRES,Fresno State,18,193,Miami (OH) RedHawks,M-OH,Miami (OH),3,1
+2025-12-27,2025-12-27T22:45Z,401778321,post,21,San Diego State Aztecs,SDSU,San Diego State,47,249,North Texas Mean Green,UNT,North Texas,49,1
+2025-12-27,2025-12-28T00:30Z,401778322,post,142,Missouri Tigers,MIZ,Missouri,7,258,Virginia Cavaliers,UVA,Virginia,13,1
+2025-12-27,2025-12-28T02:20Z,401778323,post,248,Houston Cougars,HOU,Houston,38,99,LSU Tigers,LSU,LSU,35,1
+2025-12-29,2025-12-29T19:00Z,401778324,post,2026,App State Mountaineers,APP,App State,10,290,Georgia Southern Eagles,GASO,Georgia Southern,29,1
+2025-12-30,2025-12-30T19:00Z,401778325,post,2348,Louisiana Tech Bulldogs,LT,Louisiana Tech,23,324,Coastal Carolina Chanticleers,CCU,Coastal Carolina,14,1
+2025-12-30,2025-12-30T22:30Z,401778326,post,356,Illinois Fighting Illini,ILL,Illinois,30,2633,Tennessee Volunteers,TENN,Tennessee,28,1
+2025-12-30,2025-12-31T02:00Z,401778327,post,2628,TCU Horned Frogs,TCU,TCU,30,30,USC Trojans,USC,USC,27,1
+2025-12-31,2026-01-01T00:30Z,401769070,post,194,Ohio State Buckeyes,OSU,Ohio State,14,2390,Miami Hurricanes,MIA,Miami,24,1
+2025-12-31,2025-12-31T17:00Z,401778328,post,238,Vanderbilt Commodores,VAN,Vanderbilt,27,2294,Iowa Hawkeyes,IOWA,Iowa,34,1
+2025-12-31,2025-12-31T19:00Z,401778329,post,150,Duke Blue Devils,DUKE,Duke,42,9,Arizona State Sun Devils,ASU,Arizona State,39,1
+2025-12-31,2025-12-31T20:00Z,401778330,post,251,Texas Longhorns,TEX,Texas,41,130,Michigan Wolverines,MICH,Michigan,27,1
+2025-12-31,2025-12-31T20:30Z,401778331,post,254,Utah Utes,UTAH,Utah,44,158,Nebraska Cornhuskers,NEB,Nebraska,22,1
+2026-01-01,2026-01-01T17:00Z,401769071,post,2641,Texas Tech Red Raiders,TTU,Texas Tech,0,2483,Oregon Ducks,ORE,Oregon,23,1
+2026-01-01,2026-01-01T21:00Z,401769072,post,84,Indiana Hoosiers,IU,Indiana,38,333,Alabama Crimson Tide,ALA,Alabama,3,1
+2026-01-01,2026-01-02T01:00Z,401769073,post,61,Georgia Bulldogs,UGA,Georgia,34,145,Ole Miss Rebels,MISS,Ole Miss,39,1
+2026-01-02,2026-01-02T18:00Z,401778332,post,326,Texas State Bobcats,TXST,Texas State,41,242,Rice Owls,RICE,Rice,10,1
+2026-01-02,2026-01-02T21:30Z,401778333,post,2132,Cincinnati Bearcats,CIN,Cincinnati,13,2426,Navy Midshipmen,NAVY,Navy,35,1
+2026-01-02,2026-01-03T01:00Z,401778334,post,344,Mississippi State Bulldogs,MSST,Mississippi State,29,154,Wake Forest Demon Deacons,WAKE,Wake Forest,43,1
+2026-01-02,2026-01-03T01:00Z,401831583,post,2567,SMU Mustangs,SMU,SMU,24,12,Arizona Wildcats,ARIZ,Arizona,19,1
+2026-01-08,2026-01-09T00:30Z,401769075,post,145,Ole Miss Rebels,MISS,Ole Miss,27,2390,Miami Hurricanes,MIA,Miami,31,1
+2026-01-09,2026-01-10T00:30Z,401769074,post,84,Indiana Hoosiers,IU,Indiana,56,2483,Oregon Ducks,ORE,Oregon,22,1
+2026-01-19,2026-01-20T00:30Z,401769076,post,84,Indiana Hoosiers,IU,Indiana,27,2390,Miami Hurricanes,MIA,Miami,21,0
+2026-08-29,2026-08-29T16:00Z,401856766,post,2628,TCU Horned Frogs,TCU,TCU,10,153,North Carolina Tar Heels,UNC,North Carolina,15,1
+2026-08-29,2026-08-29T23:00Z,401858201,post,24,Stanford Cardinal,STAN,Stanford,37,62,Hawai'i Rainbow Warriors,HAW,Hawai'i,27,0
+2026-08-29,2026-08-29T19:30Z,401858202,post,258,Virginia Cavaliers,UVA,Virginia,34,152,NC State Wolfpack,NCSU,NC State,8,0
+2026-08-29,2026-08-30T02:00Z,401862693,post,2439,UNLV Rebels,UNLV,UNLV,21,235,Memphis Tigers,MEM,Memphis,27,0
+2026-08-29,2026-08-29T19:00Z,401864494,post,30,USC Trojans,USC,USC,42,23,San José State Spartans,SJSU,San José State,26,0
+2026-08-29,2026-08-29T23:00Z,401864570,post,52,Florida State Seminoles,FSU,Florida State,34,166,New Mexico State Aggies,NMSU,New Mexico State,17,0
+2026-08-29,2026-08-29T21:30Z,401864577,post,2449,North Dakota State Bison,NDSU,North Dakota State,33,55,Jacksonville State Gamecocks,JXST,Jacksonville State,7,0
+2026-08-29,2026-08-29T22:30Z,401866408,post,2199,Eastern Michigan Eagles,EMU,Eastern Michigan,28,16,Sacramento State Hornets,SAC,Sacramento State,17,0
+2026-09-03,2026-09-04T00:00Z,401856663,post,142,Missouri Tigers,MIZ,Missouri,54,2029,Arkansas-Pine Bluff Golden Lions,UAPB,Arkansas-Pine Bluff,14,0
+2026-09-03,2026-09-03T23:00Z,401856767,post,2116,UCF Knights,UCF,UCF,73,2065,Bethune-Cookman Wildcats,BCU,Bethune-Cookman,6,0
+2026-09-03,2026-09-04T01:00Z,401856768,post,254,Utah Utes,UTAH,Utah,66,70,Idaho Vandals,IDHO,Idaho,14,0
+2026-09-03,2026-09-04T00:00Z,401856776,post,59,Georgia Tech Yellow Jackets,GT,Georgia Tech,13,38,Colorado Buffaloes,COLO,Colorado,14,0
+2026-09-03,2026-09-03T23:00Z,401858204,post,154,Wake Forest Demon Deacons,WAKE,Wake Forest,38,2006,Akron Zips,AKR,Akron,16,0
+2026-09-03,2026-09-04T00:00Z,401858422,post,135,Minnesota Golden Gophers,MINN,Minnesota,59,2197,Eastern Illinois Panthers,EIU,Eastern Illinois,7,0
+2026-09-03,2026-09-03T22:00Z,401858423,post,164,Rutgers Scarlet Knights,RUTG,Rutgers,21,113,Massachusetts Minutemen,MASS,Massachusetts,37,0
+2026-09-03,2026-09-04T01:00Z,401858424,post,356,Illinois Fighting Illini,ILL,Illinois,42,5,UAB Blazers,UAB,UAB,23,0
+2026-09-03,2026-09-03T23:00Z,401864424,post,48,Delaware Blue Hens,DEL,Delaware,42,2771,Merrimack Warriors,MRMK,Merrimack,7,0
+2026-09-03,2026-09-03T23:00Z,401864425,post,338,Kennesaw State Owls,KENN,Kennesaw State,47,2698,West Georgia Wolves,WES,West Georgia,0,0
+2026-09-03,2026-09-03T23:00Z,401866409,post,2084,Buffalo Bulls,BUFF,Buffalo,21,399,UAlbany Great Danes,ALB,UAlbany,17,0
+2026-09-04,2026-09-05T00:00Z,401856664,post,201,Oklahoma Sooners,OU,Oklahoma,51,2638,UTEP Miners,UTEP,UTEP,0,0
+2026-09-04,2026-09-05T00:00Z,401856769,post,2305,Kansas Jayhawks,KU,Kansas,51,2341,Long Island University Sharks,LIU,Long Island University,6,0
+2026-09-04,2026-09-05T01:00Z,401858206,post,24,Stanford Cardinal,STAN,Stanford,6,2390,Miami Hurricanes,MIA,Miami,45,0
+2026-09-04,2026-09-05T00:00Z,401858429,post,127,Michigan State Spartans,MSU,Michigan State,30,2649,Toledo Rockets,TOL,Toledo,20,0
+2026-09-04,2026-09-04T23:00Z,401858435,post,2509,Purdue Boilermakers,PUR,Purdue,44,282,Indiana State Sycamores,INST,Indiana State,19,0
+2026-09-04,2026-09-05T01:00Z,401858436,post,30,USC Trojans,USC,USC,39,278,Fresno State Bulldogs,FRES,Fresno State,0,0
+2026-09-04,2026-09-04T22:30Z,401864495,post,2199,Eastern Michigan Eagles,EMU,Eastern Michigan,21,23,San José State Spartans,SJSU,San José State,27,0
+2026-09-04,2026-09-04T23:00Z,401866623,post,2247,Georgia State Panthers,GAST,Georgia State,59,2448,North Carolina A&T Aggies,NCAT,North Carolina A&T,10,0
+2026-09-05,2026-09-05T16:00Z,401856634,post,333,Alabama Crimson Tide,ALA,Alabama,48,151,East Carolina Pirates,ECU,East Carolina,10,0
+2026-09-05,2026-09-05T19:00Z,401856658,post,61,Georgia Bulldogs,UGA,Georgia,63,2634,Tennessee State Tigers,TNST,Tennessee State,3,0
+2026-09-05,2026-09-05T17:00Z,401856659,post,96,Kentucky Wildcats,UK,Kentucky,45,2754,Youngstown State Penguins,YSU,Youngstown State,13,0
+2026-09-05,2026-09-06T01:40Z,401856660,post,99,LSU Tigers,LSU,LSU,51,228,Clemson Tigers,CLEM,Clemson,10,0
+2026-09-05,2026-09-05T16:45Z,401856665,post,2579,South Carolina Gamecocks,SC,South Carolina,57,2309,Kent State Golden Flashes,KENT,Kent State,0,0
+2026-09-05,2026-09-05T19:30Z,401856666,post,2633,Tennessee Volunteers,TENN,Tennessee,56,231,Furman Paladins,FUR,Furman,9,0
+2026-09-05,2026-09-05T19:30Z,401856667,post,251,Texas Longhorns,TEX,Texas,59,326,Texas State Bobcats,TXST,Texas State,7,0
+2026-09-05,2026-09-05T23:00Z,401856668,post,245,Texas A&M Aggies,TA&M,Texas A&M,50,2623,Missouri State Bears,MOST,Missouri State,0,0
+2026-09-05,2026-09-05T23:00Z,401856770,post,2641,Texas Tech Red Raiders,TTU,Texas Tech,33,2000,Abilene Christian Wildcats,ACU,Abilene Christian,10,0
+2026-09-05,2026-09-06T00:00Z,401856775,post,252,BYU Cougars,BYU,BYU,63,3101,Utah Tech Trailblazers,UTU,Utah Tech,7,0
+2026-09-05,2026-09-05T16:00Z,401856778,post,248,Houston Cougars,HOU,Houston,33,204,Oregon State Beavers,ORST,Oregon State,20,0
+2026-09-05,2026-09-05T16:00Z,401856780,post,277,West Virginia Mountaineers,WVU,West Virginia,31,324,Coastal Carolina Chanticleers,CCU,Coastal Carolina,24,0
+2026-09-05,2026-09-05T16:30Z,401858207,post,221,Pittsburgh Panthers,PITT,Pittsburgh,59,193,Miami (OH) RedHawks,M-OH,Miami (OH),14,0
+2026-09-05,2026-09-05T16:00Z,401858208,post,183,Syracuse Orange,SYR,Syracuse,66,160,New Hampshire Wildcats,UNH,New Hampshire,3,0
+2026-09-05,2026-09-05T16:00Z,401858425,post,84,Indiana Hoosiers,IU,Indiana,52,249,North Texas Mean Green,UNT,North Texas,16,0
+2026-09-05,2026-09-05T20:15Z,401858426,post,2294,Iowa Hawkeyes,IOWA,Iowa,40,2459,Northern Illinois Huskies,NIU,Northern Illinois,0,0
+2026-09-05,2026-09-05T23:30Z,401858428,post,130,Michigan Wolverines,MICH,Michigan,13,2711,Western Michigan Broncos,WMU,Western Michigan,12,0
+2026-09-05,2026-09-05T16:00Z,401858430,post,158,Nebraska Cornhuskers,NEB,Nebraska,49,195,Ohio Bobcats,OHIO,Ohio,21,0
+2026-09-05,2026-09-05T16:30Z,401858432,post,194,Ohio State Buckeyes,OSU,Ohio State,56,2050,Ball State Cardinals,BALL,Ball State,3,0
+2026-09-05,2026-09-05T19:30Z,401858433,post,2483,Oregon Ducks,ORE,Oregon,34,68,Boise State Broncos,BOIS,Boise State,27,0
+2026-09-05,2026-09-05T19:30Z,401858434,post,213,Penn State Nittany Lions,PSU,Penn State,45,276,Marshall Thundering Herd,MRSH,Marshall,0,0
+2026-09-05,2026-09-05T16:00Z,401861962,post,41,UConn Huskies,CONN,UConn,56,322,Lafayette Leopards,LAF,Lafayette,7,0
+2026-09-05,2026-09-05T16:00Z,401862701,post,349,Army Black Knights,ARMY,Army,59,2803,Bryant Bulldogs,BRY,Bryant,3,0
+2026-09-05,2026-09-05T16:00Z,401866410,post,189,Bowling Green Falcons,BGSU,Bowling Green,13,2627,Tarleton State Texans,TAR,Tarleton State,20,0
+2026-09-05,2026-09-05T16:00Z,401869960,post,256,James Madison Dukes,JMU,James Madison,20,2335,Liberty Flames,LIB,Liberty,13,0
+2026-09-06,2026-09-06T23:30Z,401856661,post,145,Ole Miss Rebels,MISS,Ole Miss,41,97,Louisville Cardinals,LOU,Louisville,38,1
+2026-09-06,2026-09-06T20:00Z,401858437,post,264,Washington Huskies,WASH,Washington,24,265,Washington State Cougars,WSU,Washington State,10,0
+2026-09-06,2026-09-06T23:30Z,401858438,post,87,Notre Dame Fighting Irish,ND,Notre Dame,41,275,Wisconsin Badgers,WIS,Wisconsin,13,1
+2026-09-07,2026-09-07T23:30Z,401858212,post,52,Florida State Seminoles,FSU,Florida State,24,2567,SMU Mustangs,SMU,SMU,27,0
+2026-09-10,2026-09-11T00:00Z,401858213,post,2390,Miami Hurricanes,MIA,Miami,77,50,Florida A&M Rattlers,FAMU,Florida A&M,7,0
+2026-09-11,2026-09-12T00:00Z,401856678,post,2305,Kansas Jayhawks,KU,Kansas,21,142,Missouri Tigers,MIZ,Missouri,38,0
+2026-09-11,2026-09-11T23:30Z,401858214,post,103,Boston College Eagles,BC,Boston College,28,164,Rutgers Scarlet Knights,RUTG,Rutgers,21,0
+2026-09-11,2026-09-11T23:00Z,401858215,post,97,Louisville Cardinals,LOU,Louisville,59,222,Villanova Wildcats,VILL,Villanova,13,0
+2026-09-11,2026-09-11T23:00Z,401858220,post,258,Virginia Cavaliers,UVA,Virginia,59,2450,Norfolk State Spartans,NORF,Norfolk State,3,0
+2026-09-11,2026-09-11T23:00Z,401858222,post,152,NC State Wolfpack,NCSU,NC State,73,257,Richmond Spiders,RICH,Richmond,0,0
+2026-09-12,2026-09-13T02:30Z,401856670,post,254,Utah Utes,UTAH,Utah,43,8,Arkansas Razorbacks,ARK,Arkansas,10,0
+2026-09-12,2026-09-12T16:45Z,401856673,post,61,Georgia Bulldogs,UGA,Georgia,70,98,Western Kentucky Hilltoppers,WKU,Western Kentucky,20,0
+2026-09-12,2026-09-12T19:30Z,401856674,post,96,Kentucky Wildcats,UK,Kentucky,17,333,Alabama Crimson Tide,ALA,Alabama,45,0
+2026-09-12,2026-09-12T23:45Z,401856676,post,145,Ole Miss Rebels,MISS,Ole Miss,41,2429,Charlotte 49ers,CLT,Charlotte,9,0
+2026-09-12,2026-09-12T16:00Z,401856679,post,130,Michigan Wolverines,MICH,Michigan,17,201,Oklahoma Sooners,OU,Oklahoma,10,0
+2026-09-12,2026-09-12T23:00Z,401856681,post,59,Georgia Tech Yellow Jackets,GT,Georgia Tech,24,2633,Tennessee Volunteers,TENN,Tennessee,45,0
+2026-09-12,2026-09-12T23:30Z,401856682,post,251,Texas Longhorns,TEX,Texas,24,194,Ohio State Buckeyes,OSU,Ohio State,23,0
+2026-09-12,2026-09-12T16:00Z,401856683,post,245,Texas A&M Aggies,TA&M,Texas A&M,48,9,Arizona State Sun Devils,ASU,Arizona State,20,0
+2026-09-12,2026-09-12T16:00Z,401856781,post,2306,Kansas State Wildcats,KSU,Kansas State,34,265,Washington State Cougars,WSU,Washington State,7,0
+2026-09-12,2026-09-12T17:30Z,401856782,post,197,Oklahoma State Cowboys,OKST,Oklahoma State,39,2483,Oregon Ducks,ORE,Oregon,31,0
+2026-09-12,2026-09-12T23:30Z,401856783,post,204,Oregon State Beavers,ORST,Oregon State,24,2641,Texas Tech Red Raiders,TTU,Texas Tech,35,0
+2026-09-12,2026-09-12T23:00Z,401856787,post,248,Houston Cougars,HOU,Houston,77,2582,Southern Jaguars,SOU,Southern,6,0
+2026-09-12,2026-09-12T23:30Z,401856788,post,2294,Iowa Hawkeyes,IOWA,Iowa,16,66,Iowa State Cyclones,ISU,Iowa State,13,0
+2026-09-12,2026-09-12T19:30Z,401856810,post,252,BYU Cougars,BYU,BYU,28,12,Arizona Wildcats,ARIZ,Arizona,17,0
+2026-09-12,2026-09-12T16:00Z,401858218,post,153,North Carolina Tar Heels,UNC,North Carolina,35,2193,East Tennessee State Buccaneers,ETSU,East Tennessee State,3,0
+2026-09-12,2026-09-12T16:00Z,401858221,post,259,Virginia Tech Hokies,VT,Virginia Tech,44,295,Old Dominion Monarchs,ODU,Old Dominion,21,0
+2026-09-12,2026-09-12T20:00Z,401858223,post,2567,SMU Mustangs,SMU,SMU,56,302,UC Davis Aggies,UCD,UC Davis,10,0
+2026-09-12,2026-09-12T16:00Z,401858224,post,2509,Purdue Boilermakers,PUR,Purdue,36,154,Wake Forest Demon Deacons,WAKE,Wake Forest,38,0
+2026-09-12,2026-09-12T16:00Z,401858439,post,84,Indiana Hoosiers,IU,Indiana,55,47,Howard Bison,HOW,Howard,0,0
+2026-09-12,2026-09-12T16:00Z,401858442,post,218,Temple Owls,TEM,Temple,9,213,Penn State Nittany Lions,PSU,Penn State,27,0
+2026-09-12,2026-09-13T03:00Z,401858445,post,30,USC Trojans,USC,USC,49,309,Louisiana Ragin' Cajuns,UL,Louisiana,30,0
+2026-09-12,2026-09-12T19:30Z,401858446,post,264,Washington Huskies,WASH,Washington,16,328,Utah State Aggies,USU,Utah State,14,0
+2026-09-12,2026-09-12T19:30Z,401859184,post,87,Notre Dame Fighting Irish,ND,Notre Dame,52,242,Rice Owls,RICE,Rice,0,0
+2026-09-12,2026-09-12T16:00Z,401862702,post,349,Army Black Knights,ARMY,Army,24,58,South Florida Bulls,USF,South Florida,28,0
+2026-09-12,2026-09-12T23:30Z,401867796,post,99,LSU Tigers,LSU,LSU,45,2348,Louisiana Tech Bulldogs,LT,Louisiana Tech,14,0
+2026-09-17,2026-09-17T23:30Z,401858225,post,221,Pittsburgh Panthers,PITT,Pittsburgh,27,183,Syracuse Orange,SYR,Syracuse,13,0
+2026-09-18,2026-09-19T00:00Z,401856811,post,2641,Texas Tech Red Raiders,TTU,Texas Tech,28,248,Houston Cougars,HOU,Houston,26,0
+2026-09-18,2026-09-18T23:30Z,401858226,post,154,Wake Forest Demon Deacons,WAKE,Wake Forest,20,2390,Miami Hurricanes,MIA,Miami,33,0
+2026-09-18,2026-09-19T02:30Z,401858455,post,2483,Oregon Ducks,ORE,Oregon,84,2502,Portland State Vikings,PRST,Portland State,0,0
+2026-09-19,2026-09-19T21:15Z,401856685,post,333,Alabama Crimson Tide,ALA,Alabama,50,52,Florida State Seminoles,FSU,Florida State,36,0
+2026-09-19,2026-09-19T16:00Z,401856686,post,8,Arkansas Razorbacks,ARK,Arkansas,17,61,Georgia Bulldogs,UGA,Georgia,45,0
+2026-09-19,2026-09-19T23:30Z,401856688,post,145,Ole Miss Rebels,MISS,Ole Miss,32,99,LSU Tigers,LSU,LSU,24,0
+2026-09-19,2026-09-19T23:00Z,401856689,post,142,Missouri Tigers,MIZ,Missouri,27,2653,Troy Trojans,TROY,Troy,17,0
+2026-09-19,2026-09-19T23:30Z,401856690,post,201,Oklahoma Sooners,OU,Oklahoma,14,167,New Mexico Lobos,UNM,New Mexico,6,0
+2026-09-19,2026-09-19T23:45Z,401856692,post,2633,Tennessee Volunteers,TENN,Tennessee,42,338,Kennesaw State Owls,KENN,Kennesaw State,9,0
+2026-09-19,2026-09-20T00:00Z,401856693,post,251,Texas Longhorns,TEX,Texas,30,2636,UTSA Roadrunners,UTSA,UTSA,6,0
+2026-09-19,2026-09-19T19:40Z,401856694,post,245,Texas A&M Aggies,TA&M,Texas A&M,21,96,Kentucky Wildcats,UK,Kentucky,31,0
+2026-09-19,2026-09-19T16:00Z,401856792,post,2306,Kansas State Wildcats,KSU,Kansas State,31,2655,Tulane Green Wave,TULN,Tulane,20,0
+2026-09-19,2026-09-20T00:15Z,401856795,post,36,Colorado State Rams,CSU,Colorado State,23,252,BYU Cougars,BYU,BYU,41,0
+2026-09-19,2026-09-19T16:00Z,401856798,post,66,Iowa State Cyclones,ISU,Iowa State,55,189,Bowling Green Falcons,BGSU,Bowling Green,7,0
+2026-09-19,2026-09-19T19:30Z,401856801,post,254,Utah Utes,UTAH,Utah,33,328,Utah State Aggies,USU,Utah State,0,0
+2026-09-19,2026-09-19T23:30Z,401856802,post,258,Virginia Cavaliers,UVA,Virginia,27,277,West Virginia Mountaineers,WVU,West Virginia,38,1
+2026-09-19,2026-09-19T16:00Z,401856812,post,2305,Kansas Jayhawks,KU,Kansas,17,9,Arizona State Sun Devils,ASU,Arizona State,24,1
+2026-09-19,2026-09-19T16:00Z,401858228,post,59,Georgia Tech Yellow Jackets,GT,Georgia Tech,44,2382,Mercer Bears,MER,Mercer,11,0
+2026-09-19,2026-09-19T16:00Z,401858229,post,228,Clemson Tigers,CLEM,Clemson,28,153,North Carolina Tar Heels,UNC,North Carolina,20,0
+2026-09-19,2026-09-19T19:30Z,401858230,post,97,Louisville Cardinals,LOU,Louisville,41,2567,SMU Mustangs,SMU,SMU,31,0
+2026-09-19,2026-09-19T20:00Z,401858449,post,84,Indiana Hoosiers,IU,Indiana,38,98,Western Kentucky Hilltoppers,WKU,Western Kentucky,0,0
+2026-09-19,2026-09-19T19:30Z,401858450,post,130,Michigan Wolverines,MICH,Michigan,52,2638,UTEP Miners,UTEP,UTEP,17,0
+2026-09-19,2026-09-19T23:30Z,401858453,post,87,Notre Dame Fighting Irish,ND,Notre Dame,27,127,Michigan State Spartans,MSU,Michigan State,10,0
+2026-09-19,2026-09-19T16:00Z,401858454,post,194,Ohio State Buckeyes,OSU,Ohio State,59,2309,Kent State Golden Flashes,KENT,Kent State,3,0
+2026-09-19,2026-09-19T16:00Z,401858456,post,213,Penn State Nittany Lions,PSU,Penn State,55,2084,Buffalo Bulls,BUFF,Buffalo,13,0
+2026-09-19,2026-09-19T19:30Z,401858457,post,164,Rutgers Scarlet Knights,RUTG,Rutgers,35,30,USC Trojans,USC,USC,42,0
+2026-09-19,2026-09-19T20:00Z,401858471,post,2294,Iowa Hawkeyes,IOWA,Iowa,55,2460,Northern Iowa Panthers,UNI,Northern Iowa,0,0
+2026-09-19,2026-09-19T15:30Z,401869940,post,48,Delaware Blue Hens,DEL,Delaware,22,324,Coastal Carolina Chanticleers,CCU,Coastal Carolina,14,0
+2026-09-24,2026-09-24T23:30Z,401869941,post,324,Coastal Carolina Chanticleers,CCU,Coastal Carolina,17,2335,Liberty Flames,LIB,Liberty,34,0
+2026-09-25,2026-09-26T02:30Z,401858234,post,25,California Golden Bears,CAL,California,10,228,Clemson Tigers,CLEM,Clemson,24,0
+2026-09-25,2026-09-26T00:00Z,401858461,post,84,Indiana Hoosiers,IU,Indiana,29,77,Northwestern Wildcats,NU,Northwestern,23,0
+2026-09-25,2026-09-25T23:00Z,401858468,post,164,Rutgers Scarlet Knights,RUTG,Rutgers,58,47,Howard Bison,HOW,Howard,7,0
+2026-09-25,2026-09-25T23:00Z,401862778,post,5,UAB Blazers,UAB,UAB,24,2426,Navy Midshipmen,NAVY,Navy,20,0
+2026-09-25,2026-09-25T20:00Z,401862779,post,218,Temple Owls,TEM,Temple,17,349,Army Black Knights,ARMY,Army,21,0
+2026-09-26,2026-09-26T23:10Z,401856696,post,333,Alabama Crimson Tide,ALA,Alabama,49,2579,South Carolina Gamecocks,SC,South Carolina,18,0
+2026-09-26,2026-09-26T19:30Z,401856699,post,57,Florida Gators,FLA,Florida,52,145,Ole Miss Rebels,MISS,Ole Miss,28,0
+2026-09-26,2026-09-26T19:30Z,401856700,post,61,Georgia Bulldogs,UGA,Georgia,41,201,Oklahoma Sooners,OU,Oklahoma,13,0
+2026-09-26,2026-09-26T23:30Z,401856702,post,99,LSU Tigers,LSU,LSU,35,245,Texas A&M Aggies,TA&M,Texas A&M,6,0
+2026-09-26,2026-09-26T23:45Z,401856703,post,344,Mississippi State Bulldogs,MSST,Mississippi State,31,142,Missouri Tigers,MIZ,Missouri,24,0
+2026-09-26,2026-09-26T16:00Z,401856704,post,2633,Tennessee Volunteers,TENN,Tennessee,17,251,Texas Longhorns,TEX,Texas,20,0
+2026-09-26,2026-09-26T16:00Z,401856805,post,2641,Texas Tech Red Raiders,TTU,Texas Tech,49,2534,Sam Houston Bearkats,SHSU,Sam Houston,14,0
+2026-09-26,2026-09-26T20:00Z,401856806,post,290,Georgia Southern Eagles,GASO,Georgia Southern,28,248,Houston Cougars,HOU,Houston,42,0
+2026-09-26,2026-09-26T16:00Z,401856813,post,239,Baylor Bears,BAY,Baylor,23,38,Colorado Buffaloes,COLO,Colorado,13,0
+2026-09-26,2026-09-26T19:30Z,401856816,post,66,Iowa State Cyclones,ISU,Iowa State,17,254,Utah Utes,UTAH,Utah,31,0
+2026-09-26,2026-09-26T16:00Z,401858236,post,221,Pittsburgh Panthers,PITT,Pittsburgh,59,2083,Bucknell Bison,BUCK,Bucknell,0,0
+2026-09-26,2026-09-26T22:30Z,401858238,post,2390,Miami Hurricanes,MIA,Miami,52,2117,Central Michigan Chippewas,CMU,Central Michigan,3,0
+2026-09-26,2026-09-27T01:00Z,401858241,post,2567,SMU Mustangs,SMU,SMU,34,2623,Missouri State Bears,MOST,Missouri State,24,0
+2026-09-26,2026-09-26T16:00Z,401858242,post,103,Boston College Eagles,BC,Boston College,14,259,Virginia Tech Hokies,VT,Virginia Tech,21,0
+2026-09-26,2026-09-26T16:00Z,401858243,post,97,Louisville Cardinals,LOU,Louisville,27,154,Wake Forest Demon Deacons,WAKE,Wake Forest,30,0
+2026-09-26,2026-09-26T19:30Z,401858463,post,130,Michigan Wolverines,MICH,Michigan,19,2294,Iowa Hawkeyes,IOWA,Iowa,20,0
+2026-09-26,2026-09-26T16:00Z,401858465,post,194,Ohio State Buckeyes,OSU,Ohio State,42,356,Illinois Fighting Illini,ILL,Illinois,19,0
+2026-09-26,2026-09-26T21:00Z,401858466,post,213,Penn State Nittany Lions,PSU,Penn State,20,275,Wisconsin Badgers,WIS,Wisconsin,24,0
+2026-09-26,2026-09-26T18:00Z,401858467,post,2509,Purdue Boilermakers,PUR,Purdue,10,87,Notre Dame Fighting Irish,ND,Notre Dame,49,0
+2026-09-26,2026-09-26T23:30Z,401858469,post,30,USC Trojans,USC,USC,27,2483,Oregon Ducks,ORE,Oregon,41,0
+2026-09-26,2026-09-26T16:00Z,401860893,post,2649,Toledo Rockets,TOL,Toledo,41,21,San Diego State Aztecs,SDSU,San Diego State,16,0
+2026-09-26,2026-09-26T16:00Z,401860896,post,2636,UTSA Roadrunners,UTSA,UTSA,59,36,Colorado State Rams,CSU,Colorado State,45,0
+2026-09-26,2026-09-26T16:00Z,401864512,post,2006,Akron Zips,AKR,Akron,10,2439,UNLV Rebels,UNLV,UNLV,38,0
+2026-09-26,2026-09-26T16:45Z,401864576,post,96,Kentucky Wildcats,UK,Kentucky,45,6,South Alabama Jaguars,USA,South Alabama,21,0
+2026-09-26,2026-09-26T16:00Z,401866425,post,2309,Kent State Golden Flashes,KENT,Kent State,26,2050,Ball State Cardinals,BALL,Ball State,13,0
+2026-10-01,2026-10-02T01:00Z,401862786,post,202,Tulsa Golden Hurricane,TLSA,Tulsa,44,249,North Texas Mean Green,UNT,North Texas,45,0
+2026-10-01,2026-10-02T00:00Z,401871049,post,166,New Mexico State Aggies,NMSU,New Mexico State,34,98,Western Kentucky Hilltoppers,WKU,Western Kentucky,13,0
+2026-10-02,2026-10-02T23:00Z,401858245,post,259,Virginia Tech Hokies,VT,Virginia Tech,33,221,Pittsburgh Panthers,PITT,Pittsburgh,35,0
+2026-10-02,2026-10-03T00:00Z,401858476,post,77,Northwestern Wildcats,NU,Northwestern,34,213,Penn State Nittany Lions,PSU,Penn State,13,0
+2026-10-02,2026-10-02T23:00Z,401871050,post,48,Delaware Blue Hens,DEL,Delaware,14,2335,Liberty Flames,LIB,Liberty,30,0
+2026-10-03,2026-10-03T16:45Z,401856705,post,61,Georgia Bulldogs,UGA,Georgia,38,238,Vanderbilt Commodores,VAN,Vanderbilt,14,0
+2026-10-03,2026-10-03T23:45Z,401856706,post,99,LSU Tigers,LSU,LSU,63,2377,McNeese Cowboys,MCN,McNeese,14,0
+2026-10-03,2026-10-03T16:00Z,401856707,post,344,Mississippi State Bulldogs,MSST,Mississippi State,23,333,Alabama Crimson Tide,ALA,Alabama,56,0
+2026-10-03,2026-10-03T19:50Z,401856708,post,142,Missouri Tigers,MIZ,Missouri,45,57,Florida Gators,FLA,Florida,17,0
+2026-10-03,2026-10-03T20:15Z,401856709,post,2579,South Carolina Gamecocks,SC,South Carolina,34,96,Kentucky Wildcats,UK,Kentucky,35,0
+2026-10-03,2026-10-03T19:30Z,401856710,post,2633,Tennessee Volunteers,TENN,Tennessee,24,2,Auburn Tigers,AUB,Auburn,14,0
+2026-10-03,2026-10-03T16:00Z,401856807,post,2305,Kansas Jayhawks,KU,Kansas,55,2393,Middle Tennessee Blue Raiders,MTSU,Middle Tennessee,0,0
+2026-10-03,2026-10-03T23:00Z,401856818,post,2628,TCU Horned Frogs,TCU,TCU,10,252,BYU Cougars,BYU,BYU,17,0
+2026-10-03,2026-10-03T16:00Z,401856819,post,248,Houston Cougars,HOU,Houston,27,2116,UCF Knights,UCF,UCF,17,0
+2026-10-03,2026-10-03T23:30Z,401856821,post,38,Colorado Buffaloes,COLO,Colorado,7,2641,Texas Tech Red Raiders,TTU,Texas Tech,29,0
+2026-10-03,2026-10-03T16:00Z,401856822,post,66,Iowa State Cyclones,ISU,Iowa State,45,277,West Virginia Mountaineers,WVU,West Virginia,42,0
+2026-10-03,2026-10-03T16:00Z,401858246,post,2567,SMU Mustangs,SMU,SMU,25,103,Boston College Eagles,BC,Boston College,16,0
+2026-10-03,2026-10-03T23:30Z,401858249,post,228,Clemson Tigers,CLEM,Clemson,13,2390,Miami Hurricanes,MIA,Miami,41,0
+2026-10-03,2026-10-03T16:00Z,401858250,post,153,North Carolina Tar Heels,UNC,North Carolina,26,87,Notre Dame Fighting Irish,ND,Notre Dame,37,0
+2026-10-03,2026-10-03T16:00Z,401858251,post,154,Wake Forest Demon Deacons,WAKE,Wake Forest,57,24,Stanford Cardinal,STAN,Stanford,3,0
+2026-10-03,2026-10-03T16:00Z,401858252,post,41,UConn Huskies,CONN,UConn,41,183,Syracuse Orange,SYR,Syracuse,42,0
+2026-10-03,2026-10-03T19:30Z,401858473,post,2294,Iowa Hawkeyes,IOWA,Iowa,14,194,Ohio State Buckeyes,OSU,Ohio State,31,0
+2026-10-03,2026-10-03T16:00Z,401858474,post,135,Minnesota Golden Gophers,MINN,Minnesota,20,130,Michigan Wolverines,MICH,Michigan,14,0
+2026-10-03,2026-10-04T00:00Z,401858477,post,164,Rutgers Scarlet Knights,RUTG,Rutgers,15,84,Indiana Hoosiers,IU,Indiana,47,0
+2026-10-03,2026-10-03T23:30Z,401858478,post,30,USC Trojans,USC,USC,25,264,Washington Huskies,WASH,Washington,21,0
+2026-10-03,2026-10-03T16:30Z,401858479,post,275,Wisconsin Badgers,WIS,Wisconsin,31,127,Michigan State Spartans,MSU,Michigan State,3,0
+2026-10-03,2026-10-03T23:30Z,401860898,post,68,Boise State Broncos,BOIS,Boise State,37,328,Utah State Aggies,USU,Utah State,18,0
+2026-10-03,2026-10-03T15:00Z,401862787,post,2429,Charlotte 49ers,CLT,Charlotte,8,235,Memphis Tigers,MEM,Memphis,59,0
+2026-10-03,2026-10-03T16:00Z,401862791,post,2005,Air Force Falcons,AFA,Air Force,14,2426,Navy Midshipmen,NAVY,Navy,9,0
+2026-10-03,2026-10-03T17:00Z,401866432,post,2084,Buffalo Bulls,BUFF,Buffalo,17,2711,Western Michigan Broncos,WMU,Western Michigan,20,0
+2026-10-06,2026-10-07T00:00Z,401871090,post,2653,Troy Trojans,TROY,Troy,55,2572,Southern Miss Golden Eagles,USM,Southern Miss,34,0
+2026-10-07,2026-10-07T23:00Z,401871051,post,338,Kennesaw State Owls,KENN,Kennesaw State,26,55,Jacksonville State Gamecocks,JXST,Jacksonville State,27,0
+2026-10-07,2026-10-08T00:04Z,401871066,post,2229,Florida International Panthers,FIU,Florida International,22,166,New Mexico State Aggies,NMSU,New Mexico State,3,0
+2026-10-08,2026-10-08T23:30Z,401862794,post,2636,UTSA Roadrunners,UTSA,UTSA,31,58,South Florida Bulls,USF,South Florida,24,0
+2026-10-08,2026-10-08T23:30Z,401869933,post,2032,Arkansas State Red Wolves,ARST,Arkansas State,49,6,South Alabama Jaguars,USA,South Alabama,56,0
+2026-10-08,2026-10-08T23:00Z,401870766,post,2335,Liberty Flames,LIB,Liberty,35,2534,Sam Houston Bearkats,SHSU,Sam Houston,3,0
+2026-10-08,2026-10-08T23:00Z,401871052,post,98,Western Kentucky Hilltoppers,WKU,Western Kentucky,34,2623,Missouri State Bears,MOST,Missouri State,13,0
+2026-10-09,2026-10-10T02:30Z,401856826,post,252,BYU Cougars,BYU,BYU,24,66,Iowa State Cyclones,ISU,Iowa State,10,0
+2026-10-09,2026-10-09T23:00Z,401858254,post,97,Louisville Cardinals,LOU,Louisville,44,52,Florida State Seminoles,FSU,Florida State,20,0
+2026-10-09,2026-10-10T01:00Z,401858487,post,264,Washington Huskies,WASH,Washington,24,2294,Iowa Hawkeyes,IOWA,Iowa,41,0
+2026-10-09,2026-10-10T01:00Z,401860922,post,328,Utah State Aggies,USU,Utah State,17,265,Washington State Cougars,WSU,Washington State,16,0
+2026-10-09,2026-10-10T01:00Z,401864519,post,23,San José State Spartans,SJSU,San José State,13,2751,Wyoming Cowboys,WYO,Wyoming,16,0
+2026-10-10,2026-10-10T23:30Z,401856712,post,333,Alabama Crimson Tide,ALA,Alabama,17,61,Georgia Bulldogs,UGA,Georgia,20,0
+2026-10-10,2026-10-10T20:15Z,401856713,post,8,Arkansas Razorbacks,ARK,Arkansas,17,2633,Tennessee Volunteers,TENN,Tennessee,24,0
+2026-10-10,2026-10-10T16:45Z,401856714,post,57,Florida Gators,FLA,Florida,19,2579,South Carolina Gamecocks,SC,South Carolina,38,0
+2026-10-10,2026-10-10T23:00Z,401856715,post,96,Kentucky Wildcats,UK,Kentucky,35,99,LSU Tigers,LSU,LSU,34,0
+2026-10-10,2026-10-10T16:00Z,401856716,post,142,Missouri Tigers,MIZ,Missouri,27,245,Texas A&M Aggies,TA&M,Texas A&M,6,0
+2026-10-10,2026-10-10T19:30Z,401856717,post,201,Oklahoma Sooners,OU,Oklahoma,27,251,Texas Longhorns,TEX,Texas,24,1
+2026-10-10,2026-10-10T19:30Z,401856718,post,238,Vanderbilt Commodores,VAN,Vanderbilt,17,145,Ole Miss Rebels,MISS,Ole Miss,52,0
+2026-10-10,2026-10-10T16:00Z,401856823,post,277,West Virginia Mountaineers,WVU,West Virginia,31,12,Arizona Wildcats,ARIZ,Arizona,52,0
+2026-10-10,2026-10-10T16:00Z,401856824,post,197,Oklahoma State Cowboys,OKST,Oklahoma State,42,2116,UCF Knights,UCF,UCF,28,0
+2026-10-10,2026-10-10T19:30Z,401856825,post,2306,Kansas State Wildcats,KSU,Kansas State,16,248,Houston Cougars,HOU,Houston,35,0
+2026-10-10,2026-10-11T00:00Z,401856827,post,254,Utah Utes,UTAH,Utah,41,2305,Kansas Jayhawks,KU,Kansas,24,0
+2026-10-10,2026-10-10T16:00Z,401858256,post,221,Pittsburgh Panthers,PITT,Pittsburgh,17,153,North Carolina Tar Heels,UNC,North Carolina,21,0
+2026-10-10,2026-10-10T19:30Z,401858257,post,87,Notre Dame Fighting Irish,ND,Notre Dame,58,24,Stanford Cardinal,STAN,Stanford,7,0
+2026-10-10,2026-10-10T16:00Z,401858260,post,152,NC State Wolfpack,NCSU,NC State,14,154,Wake Forest Demon Deacons,WAKE,Wake Forest,38,0
+2026-10-10,2026-10-10T16:00Z,401858481,post,158,Nebraska Cornhuskers,NEB,Nebraska,17,84,Indiana Hoosiers,IU,Indiana,20,0
+2026-10-10,2026-10-10T16:30Z,401858482,post,77,Northwestern Wildcats,NU,Northwestern,45,2050,Ball State Cardinals,BALL,Ball State,14,0
+2026-10-10,2026-10-10T20:15Z,401858483,post,194,Ohio State Buckeyes,OSU,Ohio State,45,120,Maryland Terrapins,MD,Maryland,16,0
+2026-10-10,2026-10-10T19:30Z,401858484,post,2483,Oregon Ducks,ORE,Oregon,15,26,UCLA Bruins,UCLA,UCLA,17,0
+2026-10-10,2026-10-10T23:30Z,401858485,post,213,Penn State Nittany Lions,PSU,Penn State,23,30,USC Trojans,USC,USC,31,0
+2026-10-10,2026-10-11T02:30Z,401860901,post,278,Fresno State Bulldogs,FRES,Fresno State,31,68,Boise State Broncos,BOIS,Boise State,38,0
+2026-10-10,2026-10-10T16:00Z,401862795,post,349,Army Black Knights,ARMY,Army,20,2655,Tulane Green Wave,TULN,Tulane,17,0
+2026-10-10,2026-10-10T17:00Z,401862797,post,151,East Carolina Pirates,ECU,East Carolina,28,242,Rice Owls,RICE,Rice,12,0
+2026-10-10,2026-10-10T16:00Z,401866436,post,189,Bowling Green Falcons,BGSU,Bowling Green,38,16,Sacramento State Hornets,SAC,Sacramento State,10,0
+2026-10-10,2026-10-10T18:00Z,401866440,post,113,Massachusetts Minutemen,MASS,Massachusetts,19,193,Miami (OH) RedHawks,M-OH,Miami (OH),20,0
+2026-10-10,2026-10-10T17:00Z,401869843,post,2026,App State Mountaineers,APP,App State,3,295,Old Dominion Monarchs,ODU,Old Dominion,10,0
+2026-10-13,2026-10-14T00:00Z,401871053,post,55,Jacksonville State Gamecocks,JXST,Jacksonville State,27,2229,Florida International Panthers,FIU,Florida International,24,0
+2026-10-13,2026-10-13T23:00Z,401871067,post,2393,Middle Tennessee Blue Raiders,MTSU,Middle Tennessee,33,48,Delaware Blue Hens,DEL,Delaware,30,0
+2026-10-14,2026-10-14T23:30Z,401871054,post,2623,Missouri State Bears,MOST,Missouri State,24,338,Kennesaw State Owls,KENN,Kennesaw State,21,0
+2026-10-14,2026-10-15T00:00Z,401871068,post,2534,Sam Houston Bearkats,SHSU,Sam Houston,3,98,Western Kentucky Hilltoppers,WKU,Western Kentucky,16,0
+2026-10-15,2026-10-16T00:00Z,401860923,post,326,Texas State Bobcats,TXST,Texas State,66,36,Colorado State Rams,CSU,Colorado State,27,0
+2026-10-15,2026-10-15T23:30Z,401862800,post,5,UAB Blazers,UAB,UAB,30,151,East Carolina Pirates,ECU,East Carolina,17,0
+2026-10-15,2026-10-15T23:30Z,401869950,post,295,Old Dominion Monarchs,ODU,Old Dominion,15,290,Georgia Southern Eagles,GASO,Georgia Southern,23,0
+2026-10-16,2026-10-17T00:00Z,401858493,post,2509,Purdue Boilermakers,PUR,Purdue,26,264,Washington Huskies,WASH,Washington,38,0
+2026-10-16,2026-10-16T23:30Z,401862801,post,2655,Tulane Green Wave,TULN,Tulane,31,235,Memphis Tigers,MEM,Memphis,17,0
+2026-10-16,2026-10-17T00:00Z,401869844,post,324,Coastal Carolina Chanticleers,CCU,Coastal Carolina,32,2026,App State Mountaineers,APP,App State,35,0
+2026-10-17,2026-10-17T19:30Z,401856719,post,61,Georgia Bulldogs,UGA,Georgia,24,2,Auburn Tigers,AUB,Auburn,27,0
+2026-10-17,2026-10-17T16:00Z,401856720,post,99,LSU Tigers,LSU,LSU,31,344,Mississippi State Bulldogs,MSST,Mississippi State,0,0
+2026-10-17,2026-10-17T19:30Z,401856721,post,145,Ole Miss Rebels,MISS,Ole Miss,31,142,Missouri Tigers,MIZ,Missouri,3,0
+2026-10-17,2026-10-17T23:30Z,401856722,post,201,Oklahoma Sooners,OU,Oklahoma,13,96,Kentucky Wildcats,UK,Kentucky,21,0
+2026-10-17,2026-10-17T19:30Z,401856723,post,2633,Tennessee Volunteers,TENN,Tennessee,26,333,Alabama Crimson Tide,ALA,Alabama,10,0
+2026-10-17,2026-10-17T16:00Z,401856724,post,251,Texas Longhorns,TEX,Texas,24,57,Florida Gators,FLA,Florida,27,0
+2026-10-17,2026-10-17T17:00Z,401856725,post,245,Texas A&M Aggies,TA&M,Texas A&M,41,2643,The Citadel Bulldogs,CIT,The Citadel,0,0
+2026-10-17,2026-10-17T23:30Z,401856809,post,252,BYU Cougars,BYU,BYU,28,87,Notre Dame Fighting Irish,ND,Notre Dame,24,0
+2026-10-17,2026-10-17T19:30Z,401856828,post,2641,Texas Tech Red Raiders,TTU,Texas Tech,53,9,Arizona State Sun Devils,ASU,Arizona State,25,0
+2026-10-17,2026-10-17T16:00Z,401856829,post,277,West Virginia Mountaineers,WVU,West Virginia,45,2132,Cincinnati Bearcats,CIN,Cincinnati,42,0
+2026-10-17,2026-10-17T16:00Z,401856830,post,2306,Kansas State Wildcats,KSU,Kansas State,35,2305,Kansas Jayhawks,KU,Kansas,24,0
+2026-10-17,2026-10-17T23:30Z,401856831,post,248,Houston Cougars,HOU,Houston,35,197,Oklahoma State Cowboys,OKST,Oklahoma State,32,0
+2026-10-17,2026-10-18T02:15Z,401856833,post,38,Colorado Buffaloes,COLO,Colorado,24,254,Utah Utes,UTAH,Utah,27,0
+2026-10-17,2026-10-17T16:00Z,401858261,post,228,Clemson Tigers,CLEM,Clemson,37,2127,Charleston Southern Buccaneers,CHSO,Charleston Southern,0,0
+2026-10-17,2026-10-17T23:00Z,401858263,post,2390,Miami Hurricanes,MIA,Miami,43,52,Florida State Seminoles,FSU,Florida State,35,0
+2026-10-17,2026-10-17T16:00Z,401858267,post,103,Boston College Eagles,BC,Boston College,27,221,Pittsburgh Panthers,PITT,Pittsburgh,21,0
+2026-10-17,2026-10-17T16:00Z,401858268,post,2567,SMU Mustangs,SMU,SMU,23,258,Virginia Cavaliers,UVA,Virginia,13,0
+2026-10-17,2026-10-18T02:30Z,401858269,post,25,California Golden Bears,CAL,California,7,154,Wake Forest Demon Deacons,WAKE,Wake Forest,41,0
+2026-10-17,2026-10-17T16:00Z,401858488,post,84,Indiana Hoosiers,IU,Indiana,15,194,Ohio State Buckeyes,OSU,Ohio State,19,0
+2026-10-17,2026-10-17T16:30Z,401858489,post,120,Maryland Terrapins,MD,Maryland,30,164,Rutgers Scarlet Knights,RUTG,Rutgers,37,0
+2026-10-17,2026-10-17T16:00Z,401858491,post,127,Michigan State Spartans,MSU,Michigan State,21,77,Northwestern Wildcats,NU,Northwestern,24,0
+2026-10-17,2026-10-17T23:30Z,401858494,post,26,UCLA Bruins,UCLA,UCLA,17,275,Wisconsin Badgers,WIS,Wisconsin,7,0
+2026-10-17,2026-10-17T16:00Z,401862802,post,349,Army Black Knights,ARMY,Army,56,2226,Florida Atlantic Owls,FAU,Florida Atlantic,24,0
+2026-10-17,2026-10-17T16:00Z,401866441,post,189,Bowling Green Falcons,BGSU,Bowling Green,31,2050,Ball State Cardinals,BALL,Ball State,32,0
+2026-10-17,2026-10-17T16:00Z,401869957,post,256,James Madison Dukes,JMU,James Madison,49,2247,Georgia State Panthers,GAST,Georgia State,22,0
+2026-10-20,2026-10-20T23:00Z,401871055,post,2229,Florida International Panthers,FIU,Florida International,23,2393,Middle Tennessee Blue Raiders,MTSU,Middle Tennessee,26,0
+2026-10-20,2026-10-20T23:00Z,401871069,post,48,Delaware Blue Hens,DEL,Delaware,61,2623,Missouri State Bears,MOST,Missouri State,38,0
+2026-10-20,2026-10-20T23:30Z,401871092,post,276,Marshall Thundering Herd,MRSH,Marshall,20,6,South Alabama Jaguars,USA,South Alabama,13,0
+2026-10-21,2026-10-22T00:00Z,401871070,post,2534,Sam Houston Bearkats,SHSU,Sam Houston,24,166,New Mexico State Aggies,NMSU,New Mexico State,30,0
+2026-10-22,2026-10-22T23:30Z,401862807,post,235,Memphis Tigers,MEM,Memphis,41,151,East Carolina Pirates,ECU,East Carolina,34,0
+2026-10-22,2026-10-22T23:00Z,401869845,post,2026,App State Mountaineers,APP,App State,34,256,James Madison Dukes,JMU,James Madison,31,0
+2026-10-22,2026-10-22T23:00Z,401871056,post,338,Kennesaw State Owls,KENN,Kennesaw State,6,2335,Liberty Flames,LIB,Liberty,34,0
+2026-10-23,2026-10-23T23:00Z,401858271,post,258,Virginia Cavaliers,UVA,Virginia,16,150,Duke Blue Devils,DUKE,Duke,19,0
+2026-10-23,2026-10-24T02:30Z,401858272,post,24,Stanford Cardinal,STAN,Stanford,31,152,NC State Wolfpack,NCSU,NC State,28,0
+2026-10-23,2026-10-23T23:00Z,401861965,post,41,UConn Huskies,CONN,UConn,35,113,Massachusetts Minutemen,MASS,Massachusetts,16,0
+2026-10-23,2026-10-24T00:30Z,401862808,post,202,Tulsa Golden Hurricane,TLSA,Tulsa,35,349,Army Black Knights,ARMY,Army,38,0
+2026-10-23,2026-10-24T01:00Z,401864525,post,2751,Wyoming Cowboys,WYO,Wyoming,28,2005,Air Force Falcons,AFA,Air Force,14,0
+2026-10-24,2026-10-24T19:30Z,401856727,post,333,Alabama Crimson Tide,ALA,Alabama,31,245,Texas A&M Aggies,TA&M,Texas A&M,20,0
+2026-10-24,2026-10-24T16:00Z,401856728,post,2,Auburn Tigers,AUB,Auburn,17,99,LSU Tigers,LSU,LSU,38,0
+2026-10-24,2026-10-24T23:30Z,401856729,post,96,Kentucky Wildcats,UK,Kentucky,34,238,Vanderbilt Commodores,VAN,Vanderbilt,17,0
+2026-10-24,2026-10-24T19:30Z,401856730,post,344,Mississippi State Bulldogs,MSST,Mississippi State,15,201,Oklahoma Sooners,OU,Oklahoma,23,0
+2026-10-24,2026-10-24T19:30Z,401856731,post,2579,South Carolina Gamecocks,SC,South Carolina,27,2633,Tennessee Volunteers,TENN,Tennessee,24,0
+2026-10-24,2026-10-24T23:30Z,401856732,post,251,Texas Longhorns,TEX,Texas,34,145,Ole Miss Rebels,MISS,Ole Miss,27,0
+2026-10-24,2026-10-24T17:00Z,401856834,post,2305,Kansas Jayhawks,KU,Kansas,25,239,Baylor Bears,BAY,Baylor,24,0
+2026-10-24,2026-10-24T19:30Z,401856835,post,2116,UCF Knights,UCF,UCF,39,252,BYU Cougars,BYU,BYU,31,0
+2026-10-24,2026-10-25T02:15Z,401856837,post,254,Utah Utes,UTAH,Utah,21,248,Houston Cougars,HOU,Houston,13,0
+2026-10-24,2026-10-24T23:30Z,401856838,post,12,Arizona Wildcats,ARIZ,Arizona,39,66,Iowa State Cyclones,ISU,Iowa State,3,0
+2026-10-24,2026-10-24T16:00Z,401856840,post,2132,Cincinnati Bearcats,CIN,Cincinnati,37,2641,Texas Tech Red Raiders,TTU,Texas Tech,24,0
+2026-10-24,2026-10-24T16:00Z,401856841,post,2628,TCU Horned Frogs,TCU,TCU,20,277,West Virginia Mountaineers,WVU,West Virginia,24,0
+2026-10-24,2026-10-24T16:00Z,401858270,post,2567,SMU Mustangs,SMU,SMU,59,25,California Golden Bears,CAL,California,20,0
+2026-10-24,2026-10-24T16:00Z,401858274,post,2390,Miami Hurricanes,MIA,Miami,52,221,Pittsburgh Panthers,PITT,Pittsburgh,23,0
+2026-10-24,2026-10-24T19:00Z,401858495,post,356,Illinois Fighting Illini,ILL,Illinois,21,2483,Oregon Ducks,ORE,Oregon,10,0
+2026-10-24,2026-10-24T16:00Z,401858496,post,130,Michigan Wolverines,MICH,Michigan,6,84,Indiana Hoosiers,IU,Indiana,13,0
+2026-10-24,2026-10-24T19:30Z,401858497,post,135,Minnesota Golden Gophers,MINN,Minnesota,13,2294,Iowa Hawkeyes,IOWA,Iowa,10,0
+2026-10-24,2026-10-24T16:00Z,401858498,post,77,Northwestern Wildcats,NU,Northwestern,42,164,Rutgers Scarlet Knights,RUTG,Rutgers,14,0
+2026-10-24,2026-10-24T19:30Z,401858499,post,26,UCLA Bruins,UCLA,UCLA,28,127,Michigan State Spartans,MSU,Michigan State,10,0
+2026-10-24,2026-10-24T23:30Z,401858500,post,275,Wisconsin Badgers,WIS,Wisconsin,24,30,USC Trojans,USC,USC,7,0
+2026-10-24,2026-10-24T22:00Z,401860907,post,265,Washington State Cougars,WSU,Washington State,10,68,Boise State Broncos,BOIS,Boise State,31,0
+2026-10-24,2026-10-24T16:00Z,401862809,post,2226,Florida Atlantic Owls,FAU,Florida Atlantic,51,242,Rice Owls,RICE,Rice,49,0
+2026-10-24,2026-10-24T17:00Z,401866446,post,2309,Kent State Golden Flashes,KENT,Kent State,35,2006,Akron Zips,AKR,Akron,20,0
+2026-10-24,2026-10-24T16:00Z,401866450,post,2649,Toledo Rockets,TOL,Toledo,45,2711,Western Michigan Broncos,WMU,Western Michigan,38,0
+2026-10-24,2026-10-24T17:00Z,401866476,post,2117,Central Michigan Chippewas,CMU,Central Michigan,27,193,Miami (OH) RedHawks,M-OH,Miami (OH),28,0
+2026-10-27,2026-10-27T23:00Z,401871071,post,98,Western Kentucky Hilltoppers,WKU,Western Kentucky,21,48,Delaware Blue Hens,DEL,Delaware,35,0
+2026-10-27,2026-10-28T00:00Z,401871072,post,2623,Missouri State Bears,MOST,Missouri State,24,2534,Sam Houston Bearkats,SHSU,Sam Houston,3,0
+2026-10-28,2026-10-29T00:00Z,401871057,post,166,New Mexico State Aggies,NMSU,New Mexico State,0,55,Jacksonville State Gamecocks,JXST,Jacksonville State,24,0
+2026-10-28,2026-10-28T23:00Z,401871058,post,2393,Middle Tennessee Blue Raiders,MTSU,Middle Tennessee,28,338,Kennesaw State Owls,KENN,Kennesaw State,44,0
+2026-10-29,2026-10-29T23:30Z,401862812,post,249,North Texas Mean Green,UNT,North Texas,48,2226,Florida Atlantic Owls,FAU,Florida Atlantic,41,0
+2026-10-29,2026-10-29T23:30Z,401869963,post,256,James Madison Dukes,JMU,James Madison,21,2653,Troy Trojans,TROY,Troy,24,0
+2026-10-30,2026-10-30T23:30Z,401856844,post,2116,UCF Knights,UCF,UCF,9,239,Baylor Bears,BAY,Baylor,41,0
+2026-10-30,2026-10-30T23:00Z,401862813,post,2429,Charlotte 49ers,CLT,Charlotte,31,2655,Tulane Green Wave,TULN,Tulane,38,0
+2026-10-30,2026-10-31T02:30Z,401866451,post,16,Sacramento State Hornets,SAC,Sacramento State,31,2309,Kent State Golden Flashes,KENT,Kent State,10,0
+2026-10-31,2026-10-31T23:45Z,401856733,post,8,Arkansas Razorbacks,ARK,Arkansas,10,142,Missouri Tigers,MIZ,Missouri,34,0
+2026-10-31,2026-10-31T19:30Z,401856734,post,61,Georgia Bulldogs,UGA,Georgia,27,57,Florida Gators,FLA,Florida,8,1
+2026-10-31,2026-10-31T16:45Z,401856735,post,145,Ole Miss Rebels,MISS,Ole Miss,45,2,Auburn Tigers,AUB,Auburn,15,0
+2026-10-31,2026-10-31T23:30Z,401856737,post,251,Texas Longhorns,TEX,Texas,31,344,Mississippi State Bulldogs,MSST,Mississippi State,3,0
+2026-10-31,2026-10-31T16:00Z,401856842,post,2641,Texas Tech Red Raiders,TTU,Texas Tech,34,12,Arizona Wildcats,ARIZ,Arizona,26,0
+2026-10-31,2026-10-31T19:30Z,401856843,post,252,BYU Cougars,BYU,BYU,27,9,Arizona State Sun Devils,ASU,Arizona State,20,0
+2026-10-31,2026-10-31T23:00Z,401856847,post,66,Iowa State Cyclones,ISU,Iowa State,51,197,Oklahoma State Cowboys,OKST,Oklahoma State,49,0
+2026-10-31,2026-10-31T19:45Z,401856848,post,2132,Cincinnati Bearcats,CIN,Cincinnati,25,254,Utah Utes,UTAH,Utah,49,0
+2026-10-31,2026-10-31T16:00Z,401858277,post,152,NC State Wolfpack,NCSU,NC State,31,25,California Golden Bears,CAL,California,10,0
+2026-10-31,2026-10-31T16:00Z,401858278,post,183,Syracuse Orange,SYR,Syracuse,30,2567,SMU Mustangs,SMU,SMU,27,0
+2026-10-31,2026-10-31T16:00Z,401858279,post,150,Duke Blue Devils,DUKE,Duke,47,103,Boston College Eagles,BC,Boston College,2,0
+2026-10-31,2026-10-31T23:30Z,401858282,post,153,North Carolina Tar Heels,UNC,North Carolina,35,2390,Miami Hurricanes,MIA,Miami,38,0
+2026-10-31,2026-10-31T19:45Z,401858284,post,154,Wake Forest Demon Deacons,WAKE,Wake Forest,51,258,Virginia Cavaliers,UVA,Virginia,7,0
+2026-10-31,2026-10-31T19:30Z,401858501,post,84,Indiana Hoosiers,IU,Indiana,23,135,Minnesota Golden Gophers,MINN,Minnesota,16,0
+2026-10-31,2026-10-31T16:00Z,401858502,post,2294,Iowa Hawkeyes,IOWA,Iowa,30,275,Wisconsin Badgers,WIS,Wisconsin,0,0
+2026-10-31,2026-10-31T16:00Z,401858503,post,120,Maryland Terrapins,MD,Maryland,17,356,Illinois Fighting Illini,ILL,Illinois,20,0
+2026-10-31,2026-10-31T19:30Z,401858505,post,2483,Oregon Ducks,ORE,Oregon,34,77,Northwestern Wildcats,NU,Northwestern,26,0
+2026-10-31,2026-10-31T16:30Z,401858507,post,164,Rutgers Scarlet Knights,RUTG,Rutgers,21,130,Michigan Wolverines,MICH,Michigan,28,0
+2026-10-31,2026-10-31T20:15Z,401858508,post,26,UCLA Bruins,UCLA,UCLA,27,2440,Nevada Wolf Pack,NEV,Nevada,0,0
+2026-10-31,2026-10-31T23:30Z,401858509,post,30,USC Trojans,USC,USC,30,194,Ohio State Buckeyes,OSU,Ohio State,18,0
+2026-10-31,2026-10-31T16:00Z,401859185,post,2426,Navy Midshipmen,NAVY,Navy,13,87,Notre Dame Fighting Irish,ND,Notre Dame,35,1
+2026-10-31,2026-11-01T02:00Z,401860908,post,68,Boise State Broncos,BOIS,Boise State,46,326,Texas State Bobcats,TXST,Texas State,45,0
+2026-10-31,2026-10-31T16:00Z,401862816,post,58,South Florida Bulls,USF,South Florida,30,5,UAB Blazers,UAB,UAB,10,0
+2026-10-31,2026-10-31T16:00Z,401866452,post,2711,Western Michigan Broncos,WMU,Western Michigan,23,189,Bowling Green Falcons,BGSU,Bowling Green,10,0
+2026-10-31,2026-10-31T17:00Z,401871096,post,295,Old Dominion Monarchs,ODU,Old Dominion,23,276,Marshall Thundering Herd,MRSH,Marshall,36,0
+2026-11-03,2026-11-04T00:00Z,401866453,post,2006,Akron Zips,AKR,Akron,20,195,Ohio Bobcats,OHIO,Ohio,28,0
+2026-11-03,2026-11-04T01:00Z,401866454,post,193,Miami (OH) RedHawks,M-OH,Miami (OH),31,2084,Buffalo Bulls,BUFF,Buffalo,34,0
+2026-11-04,2026-11-05T00:00Z,401866455,post,113,Massachusetts Minutemen,MASS,Massachusetts,31,2050,Ball State Cardinals,BALL,Ball State,30,0
+2026-11-04,2026-11-05T00:30Z,401866456,post,2199,Eastern Michigan Eagles,EMU,Eastern Michigan,7,2117,Central Michigan Chippewas,CMU,Central Michigan,35,1
+2026-11-04,2026-11-05T00:00Z,401866457,post,16,Sacramento State Hornets,SAC,Sacramento State,17,2649,Toledo Rockets,TOL,Toledo,20,0
+2026-11-05,2026-11-06T00:30Z,401862817,post,2226,Florida Atlantic Owls,FAU,Florida Atlantic,60,2636,UTSA Roadrunners,UTSA,UTSA,29,0
+2026-11-05,2026-11-06T01:00Z,401869964,post,2572,Southern Miss Golden Eagles,USM,Southern Miss,23,256,James Madison Dukes,JMU,James Madison,54,0
+2026-11-06,2026-11-07T03:15Z,401856855,post,12,Arizona Wildcats,ARIZ,Arizona,29,2628,TCU Horned Frogs,TCU,TCU,28,0
+2026-11-06,2026-11-07T00:00Z,401858288,post,2567,SMU Mustangs,SMU,SMU,51,259,Virginia Tech Hokies,VT,Virginia Tech,28,0
+2026-11-06,2026-11-07T01:00Z,401858510,post,356,Illinois Fighting Illini,ILL,Illinois,24,158,Nebraska Cornhuskers,NEB,Nebraska,13,0
+2026-11-06,2026-11-07T00:30Z,401862818,post,151,East Carolina Pirates,ECU,East Carolina,20,58,South Florida Bulls,USF,South Florida,17,0
+2026-11-06,2026-11-07T02:00Z,401864533,post,2440,Nevada Wolf Pack,NEV,Nevada,3,167,New Mexico Lobos,UNM,New Mexico,31,0
+2026-11-07,2026-11-07T17:45Z,401856738,post,2,Auburn Tigers,AUB,Auburn,26,8,Arkansas Razorbacks,ARK,Arkansas,23,0
+2026-11-07,2026-11-08T00:45Z,401856739,post,57,Florida Gators,FLA,Florida,7,201,Oklahoma Sooners,OU,Oklahoma,23,0
+2026-11-07,2026-11-07T20:30Z,401856740,post,99,LSU Tigers,LSU,LSU,13,333,Alabama Crimson Tide,ALA,Alabama,31,0
+2026-11-07,2026-11-08T00:30Z,401856741,post,145,Ole Miss Rebels,MISS,Ole Miss,7,61,Georgia Bulldogs,UGA,Georgia,42,0
+2026-11-07,2026-11-07T17:00Z,401856743,post,142,Missouri Tigers,MIZ,Missouri,20,251,Texas Longhorns,TEX,Texas,34,0
+2026-11-07,2026-11-07T20:00Z,401856744,post,2579,South Carolina Gamecocks,SC,South Carolina,17,245,Texas A&M Aggies,TA&M,Texas A&M,9,0
+2026-11-07,2026-11-07T23:15Z,401856745,post,2633,Tennessee Volunteers,TENN,Tennessee,34,96,Kentucky Wildcats,UK,Kentucky,6,0
+2026-11-07,2026-11-07T17:00Z,401856849,post,254,Utah Utes,UTAH,Utah,28,252,BYU Cougars,BYU,BYU,20,0
+2026-11-07,2026-11-07T20:30Z,401856851,post,248,Houston Cougars,HOU,Houston,31,2132,Cincinnati Bearcats,CIN,Cincinnati,24,0
+2026-11-07,2026-11-07T17:00Z,401856853,post,239,Baylor Bears,BAY,Baylor,42,66,Iowa State Cyclones,ISU,Iowa State,31,0
+2026-11-07,2026-11-07T18:00Z,401856854,post,2306,Kansas State Wildcats,KSU,Kansas State,28,197,Oklahoma State Cowboys,OKST,Oklahoma State,66,0
+2026-11-07,2026-11-08T02:30Z,401856856,post,2641,Texas Tech Red Raiders,TTU,Texas Tech,53,277,West Virginia Mountaineers,WVU,West Virginia,48,0
+2026-11-07,2026-11-07T17:00Z,401858285,post,183,Syracuse Orange,SYR,Syracuse,13,228,Clemson Tigers,CLEM,Clemson,18,0
+2026-11-07,2026-11-07T17:30Z,401858286,post,152,NC State Wolfpack,NCSU,NC State,3,150,Duke Blue Devils,DUKE,Duke,41,0
+2026-11-07,2026-11-07T17:00Z,401858289,post,103,Boston College Eagles,BC,Boston College,24,52,Florida State Seminoles,FSU,Florida State,31,0
+2026-11-07,2026-11-07T20:30Z,401858290,post,154,Wake Forest Demon Deacons,WAKE,Wake Forest,77,2771,Merrimack Warriors,MRMK,Merrimack,0,0
+2026-11-07,2026-11-08T00:30Z,401858291,post,87,Notre Dame Fighting Irish,ND,Notre Dame,31,2390,Miami Hurricanes,MIA,Miami,24,0
+2026-11-07,2026-11-07T17:00Z,401858292,post,41,UConn Huskies,CONN,UConn,21,153,North Carolina Tar Heels,UNC,North Carolina,38,0
+2026-11-07,2026-11-07T17:00Z,401858512,post,135,Minnesota Golden Gophers,MINN,Minnesota,20,26,UCLA Bruins,UCLA,UCLA,34,0
+2026-11-07,2026-11-08T00:30Z,401858513,post,77,Northwestern Wildcats,NU,Northwestern,10,2294,Iowa Hawkeyes,IOWA,Iowa,24,0
+2026-11-07,2026-11-07T20:30Z,401858514,post,194,Ohio State Buckeyes,OSU,Ohio State,28,2483,Oregon Ducks,ORE,Oregon,41,0
+2026-11-07,2026-11-07T17:30Z,401858515,post,2509,Purdue Boilermakers,PUR,Purdue,29,120,Maryland Terrapins,MD,Maryland,34,0
+2026-11-07,2026-11-07T23:00Z,401860911,post,36,Colorado State Rams,CSU,Colorado State,38,68,Boise State Broncos,BOIS,Boise State,64,0
+2026-11-07,2026-11-07T17:00Z,401862822,post,2655,Tulane Green Wave,TULN,Tulane,10,202,Tulsa Golden Hurricane,TLSA,Tulsa,60,0
+2026-11-07,2026-11-07T18:00Z,401869945,post,324,Coastal Carolina Chanticleers,CCU,Coastal Carolina,8,295,Old Dominion Monarchs,ODU,Old Dominion,21,0
+2026-11-10,2026-11-11T00:00Z,401866458,pre,2006,Akron Zips,AKR,Akron,0,2711,Western Michigan Broncos,WMU,Western Michigan,0,0
+2026-11-10,2026-11-11T00:00Z,401866459,pre,189,Bowling Green Falcons,BGSU,Bowling Green,0,2309,Kent State Golden Flashes,KENT,Kent State,0,0
+2026-11-10,2026-11-11T01:00Z,401866460,pre,193,Miami (OH) RedHawks,M-OH,Miami (OH),0,195,Ohio Bobcats,OHIO,Ohio,0,0
+2026-11-11,2026-11-12T00:30Z,401866461,pre,2050,Ball State Cardinals,BALL,Ball State,0,2084,Buffalo Bulls,BUFF,Buffalo,0,0
+2026-11-11,2026-11-12T00:30Z,401866462,pre,2117,Central Michigan Chippewas,CMU,Central Michigan,0,16,Sacramento State Hornets,SAC,Sacramento State,0,0
+2026-11-11,2026-11-12T00:30Z,401866463,pre,2649,Toledo Rockets,TOL,Toledo,0,113,Massachusetts Minutemen,MASS,Massachusetts,0,0
+2026-11-12,2026-11-13T01:00Z,401862824,pre,58,South Florida Bulls,USF,South Florida,0,235,Memphis Tigers,MEM,Memphis,0,0
+2026-11-12,2026-11-13T02:00Z,401869969,pre,2433,UL Monroe Warhawks,ULM,UL Monroe,0,309,Louisiana Ragin' Cajuns,UL,Louisiana,0,0
+2026-11-13,2026-11-14T03:15Z,401856860,pre,38,Colorado Buffaloes,COLO,Colorado,0,248,Houston Cougars,HOU,Houston,0,0
+2026-11-13,2026-11-14T00:00Z,401858293,pre,221,Pittsburgh Panthers,PITT,Pittsburgh,0,52,Florida State Seminoles,FSU,Florida State,0,0
+2026-11-13,2026-11-14T02:00Z,401858526,pre,26,UCLA Bruins,UCLA,UCLA,0,356,Illinois Fighting Illini,ILL,Illinois,0,0

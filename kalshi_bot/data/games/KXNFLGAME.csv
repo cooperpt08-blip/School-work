@@ -1,0 +1,441 @@
+date,start,event_id,state,home_id,home,home_abbr,home_loc,home_score,away_id,away,away_abbr,away_loc,away_score,neutral
+2025-09-18,2025-09-19T00:15Z,401772937,post,2,Buffalo Bills,BUF,Buffalo,31,15,Miami Dolphins,MIA,Miami,21,0
+2025-09-21,2025-09-21T17:00Z,401772731,post,16,Minnesota Vikings,MIN,Minnesota,48,4,Cincinnati Bengals,CIN,Cincinnati,10,0
+2025-09-21,2025-09-21T17:00Z,401772732,post,17,New England Patriots,NE,New England,14,23,Pittsburgh Steelers,PIT,Pittsburgh,21,0
+2025-09-21,2025-09-21T17:00Z,401772733,post,10,Tennessee Titans,TEN,Tennessee,20,11,Indianapolis Colts,IND,Indianapolis,41,0
+2025-09-21,2025-09-21T17:00Z,401772734,post,30,Jacksonville Jaguars,JAX,Jacksonville,17,34,Houston Texans,HOU,Houston,10,0
+2025-09-21,2025-09-21T20:05Z,401772735,post,24,Los Angeles Chargers,LAC,Los Angeles,23,7,Denver Broncos,DEN,Denver,20,0
+2025-09-21,2025-09-21T20:05Z,401772736,post,26,Seattle Seahawks,SEA,Seattle,44,18,New Orleans Saints,NO,New Orleans,13,0
+2025-09-21,2025-09-21T17:00Z,401772838,post,29,Carolina Panthers,CAR,Carolina,30,1,Atlanta Falcons,ATL,Atlanta,0,0
+2025-09-21,2025-09-21T17:00Z,401772839,post,21,Philadelphia Eagles,PHI,Philadelphia,33,14,Los Angeles Rams,LAR,Los Angeles,26,0
+2025-09-21,2025-09-21T17:00Z,401772840,post,27,Tampa Bay Buccaneers,TB,Tampa Bay,29,20,New York Jets,NYJ,New York,27,0
+2025-09-21,2025-09-21T17:00Z,401772841,post,28,Washington Commanders,WSH,Washington,41,13,Las Vegas Raiders,LV,Las Vegas,24,0
+2025-09-21,2025-09-21T17:00Z,401772842,post,5,Cleveland Browns,CLE,Cleveland,13,9,Green Bay Packers,GB,Green Bay,10,0
+2025-09-21,2025-09-21T20:25Z,401772843,post,25,San Francisco 49ers,SF,San Francisco,16,22,Arizona Cardinals,ARI,Arizona,15,0
+2025-09-21,2025-09-21T20:25Z,401772844,post,3,Chicago Bears,CHI,Chicago,31,6,Dallas Cowboys,DAL,Dallas,14,0
+2025-09-21,2025-09-22T00:20Z,401772920,post,19,New York Giants,NYG,New York,9,12,Kansas City Chiefs,KC,Kansas City,22,0
+2025-09-22,2025-09-23T00:15Z,401772812,post,33,Baltimore Ravens,BAL,Baltimore,30,8,Detroit Lions,DET,Detroit,38,0
+2025-09-25,2025-09-26T00:15Z,401772938,post,22,Arizona Cardinals,ARI,Arizona,20,26,Seattle Seahawks,SEA,Seattle,23,0
+2025-09-28,2025-09-28T13:30Z,401772632,post,23,Pittsburgh Steelers,PIT,Pittsburgh,24,16,Minnesota Vikings,MIN,Minnesota,21,1
+2025-09-28,2025-09-28T17:00Z,401772737,post,19,New York Giants,NYG,New York,21,24,Los Angeles Chargers,LAC,Los Angeles,18,0
+2025-09-28,2025-09-28T17:00Z,401772738,post,34,Houston Texans,HOU,Houston,26,10,Tennessee Titans,TEN,Tennessee,0,0
+2025-09-28,2025-09-28T17:00Z,401772739,post,1,Atlanta Falcons,ATL,Atlanta,34,28,Washington Commanders,WSH,Washington,27,0
+2025-09-28,2025-09-28T17:00Z,401772740,post,2,Buffalo Bills,BUF,Buffalo,31,18,New Orleans Saints,NO,New Orleans,19,0
+2025-09-28,2025-09-28T20:25Z,401772741,post,12,Kansas City Chiefs,KC,Kansas City,37,33,Baltimore Ravens,BAL,Baltimore,20,0
+2025-09-28,2025-09-28T20:25Z,401772742,post,13,Las Vegas Raiders,LV,Las Vegas,24,3,Chicago Bears,CHI,Chicago,25,0
+2025-09-28,2025-09-28T17:00Z,401772845,post,27,Tampa Bay Buccaneers,TB,Tampa Bay,25,21,Philadelphia Eagles,PHI,Philadelphia,31,0
+2025-09-28,2025-09-28T17:00Z,401772846,post,8,Detroit Lions,DET,Detroit,34,5,Cleveland Browns,CLE,Cleveland,10,0
+2025-09-28,2025-09-28T17:00Z,401772847,post,17,New England Patriots,NE,New England,42,29,Carolina Panthers,CAR,Carolina,13,0
+2025-09-28,2025-09-28T20:05Z,401772848,post,25,San Francisco 49ers,SF,San Francisco,21,30,Jacksonville Jaguars,JAX,Jacksonville,26,0
+2025-09-28,2025-09-28T20:05Z,401772849,post,14,Los Angeles Rams,LAR,Los Angeles,27,11,Indianapolis Colts,IND,Indianapolis,20,0
+2025-09-28,2025-09-29T00:20Z,401772921,post,6,Dallas Cowboys,DAL,Dallas,40,9,Green Bay Packers,GB,Green Bay,40,0
+2025-09-29,2025-09-30T00:15Z,401772716,post,7,Denver Broncos,DEN,Denver,28,4,Cincinnati Bengals,CIN,Cincinnati,3,0
+2025-09-29,2025-09-29T23:15Z,401772813,post,15,Miami Dolphins,MIA,Miami,27,20,New York Jets,NYJ,New York,21,0
+2025-10-02,2025-10-03T00:15Z,401772939,post,14,Los Angeles Rams,LAR,Los Angeles,23,25,San Francisco 49ers,SF,San Francisco,26,0
+2025-10-05,2025-10-05T13:30Z,401772633,post,5,Cleveland Browns,CLE,Cleveland,17,16,Minnesota Vikings,MIN,Minnesota,21,1
+2025-10-05,2025-10-05T17:00Z,401772743,post,33,Baltimore Ravens,BAL,Baltimore,10,34,Houston Texans,HOU,Houston,44,0
+2025-10-05,2025-10-05T17:00Z,401772744,post,18,New Orleans Saints,NO,New Orleans,26,19,New York Giants,NYG,New York,14,0
+2025-10-05,2025-10-05T17:00Z,401772745,post,21,Philadelphia Eagles,PHI,Philadelphia,17,7,Denver Broncos,DEN,Denver,21,0
+2025-10-05,2025-10-05T20:05Z,401772746,post,26,Seattle Seahawks,SEA,Seattle,35,27,Tampa Bay Buccaneers,TB,Tampa Bay,38,0
+2025-10-05,2025-10-05T20:05Z,401772747,post,22,Arizona Cardinals,ARI,Arizona,21,10,Tennessee Titans,TEN,Tennessee,22,0
+2025-10-05,2025-10-05T17:00Z,401772850,post,20,New York Jets,NYJ,New York,22,6,Dallas Cowboys,DAL,Dallas,37,0
+2025-10-05,2025-10-05T17:00Z,401772851,post,11,Indianapolis Colts,IND,Indianapolis,40,13,Las Vegas Raiders,LV,Las Vegas,6,0
+2025-10-05,2025-10-05T17:00Z,401772852,post,29,Carolina Panthers,CAR,Carolina,27,15,Miami Dolphins,MIA,Miami,24,0
+2025-10-05,2025-10-05T20:25Z,401772853,post,24,Los Angeles Chargers,LAC,Los Angeles,10,28,Washington Commanders,WSH,Washington,27,0
+2025-10-05,2025-10-05T20:25Z,401772854,post,4,Cincinnati Bengals,CIN,Cincinnati,24,8,Detroit Lions,DET,Detroit,37,0
+2025-10-05,2025-10-06T00:20Z,401772922,post,2,Buffalo Bills,BUF,Buffalo,20,17,New England Patriots,NE,New England,23,0
+2025-10-06,2025-10-07T00:15Z,401772814,post,30,Jacksonville Jaguars,JAX,Jacksonville,31,12,Kansas City Chiefs,KC,Kansas City,28,0
+2025-10-09,2025-10-10T00:15Z,401772940,post,19,New York Giants,NYG,New York,34,21,Philadelphia Eagles,PHI,Philadelphia,17,0
+2025-10-12,2025-10-12T13:30Z,401772634,post,20,New York Jets,NYJ,New York,11,7,Denver Broncos,DEN,Denver,13,1
+2025-10-12,2025-10-12T17:00Z,401772748,post,23,Pittsburgh Steelers,PIT,Pittsburgh,23,5,Cleveland Browns,CLE,Cleveland,9,0
+2025-10-12,2025-10-12T20:25Z,401772749,post,27,Tampa Bay Buccaneers,TB,Tampa Bay,30,25,San Francisco 49ers,SF,San Francisco,19,0
+2025-10-12,2025-10-12T17:00Z,401772750,post,15,Miami Dolphins,MIA,Miami,27,24,Los Angeles Chargers,LAC,Los Angeles,29,0
+2025-10-12,2025-10-12T17:00Z,401772751,post,18,New Orleans Saints,NO,New Orleans,19,17,New England Patriots,NE,New England,25,0
+2025-10-12,2025-10-12T20:25Z,401772752,post,9,Green Bay Packers,GB,Green Bay,27,4,Cincinnati Bengals,CIN,Cincinnati,18,0
+2025-10-12,2025-10-12T17:00Z,401772855,post,33,Baltimore Ravens,BAL,Baltimore,3,14,Los Angeles Rams,LAR,Los Angeles,17,0
+2025-10-12,2025-10-12T17:00Z,401772856,post,11,Indianapolis Colts,IND,Indianapolis,31,22,Arizona Cardinals,ARI,Arizona,27,0
+2025-10-12,2025-10-12T17:00Z,401772857,post,30,Jacksonville Jaguars,JAX,Jacksonville,12,26,Seattle Seahawks,SEA,Seattle,20,0
+2025-10-12,2025-10-12T17:00Z,401772858,post,29,Carolina Panthers,CAR,Carolina,30,6,Dallas Cowboys,DAL,Dallas,27,0
+2025-10-12,2025-10-12T20:05Z,401772859,post,13,Las Vegas Raiders,LV,Las Vegas,20,10,Tennessee Titans,TEN,Tennessee,10,0
+2025-10-12,2025-10-13T00:20Z,401772923,post,12,Kansas City Chiefs,KC,Kansas City,30,8,Detroit Lions,DET,Detroit,17,0
+2025-10-13,2025-10-14T00:15Z,401772717,post,28,Washington Commanders,WSH,Washington,24,3,Chicago Bears,CHI,Chicago,25,0
+2025-10-13,2025-10-13T23:15Z,401772815,post,1,Atlanta Falcons,ATL,Atlanta,24,2,Buffalo Bills,BUF,Buffalo,14,0
+2025-10-16,2025-10-17T00:15Z,401772941,post,4,Cincinnati Bengals,CIN,Cincinnati,33,23,Pittsburgh Steelers,PIT,Pittsburgh,31,0
+2025-10-19,2025-10-19T13:30Z,401772635,post,30,Jacksonville Jaguars,JAX,Jacksonville,7,14,Los Angeles Rams,LAR,Los Angeles,35,1
+2025-10-19,2025-10-19T17:00Z,401772753,post,12,Kansas City Chiefs,KC,Kansas City,31,13,Las Vegas Raiders,LV,Las Vegas,0,0
+2025-10-19,2025-10-19T17:00Z,401772754,post,5,Cleveland Browns,CLE,Cleveland,31,15,Miami Dolphins,MIA,Miami,6,0
+2025-10-19,2025-10-19T17:00Z,401772755,post,10,Tennessee Titans,TEN,Tennessee,13,17,New England Patriots,NE,New England,31,0
+2025-10-19,2025-10-19T20:05Z,401772756,post,24,Los Angeles Chargers,LAC,Los Angeles,24,11,Indianapolis Colts,IND,Indianapolis,38,0
+2025-10-19,2025-10-19T20:05Z,401772757,post,7,Denver Broncos,DEN,Denver,33,19,New York Giants,NYG,New York,32,0
+2025-10-19,2025-10-19T17:00Z,401772860,post,20,New York Jets,NYJ,New York,6,29,Carolina Panthers,CAR,Carolina,13,0
+2025-10-19,2025-10-19T17:00Z,401772861,post,3,Chicago Bears,CHI,Chicago,26,18,New Orleans Saints,NO,New Orleans,14,0
+2025-10-19,2025-10-19T17:00Z,401772862,post,16,Minnesota Vikings,MIN,Minnesota,22,21,Philadelphia Eagles,PHI,Philadelphia,28,0
+2025-10-19,2025-10-19T20:25Z,401772863,post,22,Arizona Cardinals,ARI,Arizona,23,9,Green Bay Packers,GB,Green Bay,27,0
+2025-10-19,2025-10-19T20:25Z,401772864,post,6,Dallas Cowboys,DAL,Dallas,44,28,Washington Commanders,WSH,Washington,22,0
+2025-10-19,2025-10-20T00:20Z,401772924,post,25,San Francisco 49ers,SF,San Francisco,20,1,Atlanta Falcons,ATL,Atlanta,10,0
+2025-10-20,2025-10-20T23:00Z,401772816,post,8,Detroit Lions,DET,Detroit,24,27,Tampa Bay Buccaneers,TB,Tampa Bay,9,0
+2025-10-20,2025-10-21T02:00Z,401772826,post,26,Seattle Seahawks,SEA,Seattle,27,34,Houston Texans,HOU,Houston,19,0
+2025-10-23,2025-10-24T00:15Z,401772942,post,24,Los Angeles Chargers,LAC,Los Angeles,37,16,Minnesota Vikings,MIN,Minnesota,10,0
+2025-10-26,2025-10-26T17:00Z,401772758,post,4,Cincinnati Bengals,CIN,Cincinnati,38,20,New York Jets,NYJ,New York,39,0
+2025-10-26,2025-10-26T17:00Z,401772759,post,33,Baltimore Ravens,BAL,Baltimore,30,3,Chicago Bears,CHI,Chicago,16,0
+2025-10-26,2025-10-26T17:00Z,401772760,post,1,Atlanta Falcons,ATL,Atlanta,10,15,Miami Dolphins,MIA,Miami,34,0
+2025-10-26,2025-10-26T20:25Z,401772761,post,11,Indianapolis Colts,IND,Indianapolis,38,10,Tennessee Titans,TEN,Tennessee,14,0
+2025-10-26,2025-10-26T20:25Z,401772762,post,7,Denver Broncos,DEN,Denver,44,6,Dallas Cowboys,DAL,Dallas,24,0
+2025-10-26,2025-10-26T17:00Z,401772865,post,29,Carolina Panthers,CAR,Carolina,9,2,Buffalo Bills,BUF,Buffalo,40,0
+2025-10-26,2025-10-26T17:00Z,401772866,post,34,Houston Texans,HOU,Houston,26,25,San Francisco 49ers,SF,San Francisco,15,0
+2025-10-26,2025-10-26T17:00Z,401772867,post,21,Philadelphia Eagles,PHI,Philadelphia,38,19,New York Giants,NYG,New York,20,0
+2025-10-26,2025-10-26T17:00Z,401772868,post,17,New England Patriots,NE,New England,32,5,Cleveland Browns,CLE,Cleveland,13,0
+2025-10-26,2025-10-26T20:05Z,401772869,post,18,New Orleans Saints,NO,New Orleans,3,27,Tampa Bay Buccaneers,TB,Tampa Bay,23,0
+2025-10-26,2025-10-27T00:20Z,401772925,post,23,Pittsburgh Steelers,PIT,Pittsburgh,25,9,Green Bay Packers,GB,Green Bay,35,0
+2025-10-27,2025-10-28T00:15Z,401772817,post,12,Kansas City Chiefs,KC,Kansas City,28,28,Washington Commanders,WSH,Washington,7,0
+2025-10-30,2025-10-31T00:15Z,401772943,post,15,Miami Dolphins,MIA,Miami,6,33,Baltimore Ravens,BAL,Baltimore,28,0
+2025-11-02,2025-11-02T18:00Z,401772763,post,17,New England Patriots,NE,New England,24,1,Atlanta Falcons,ATL,Atlanta,23,0
+2025-11-02,2025-11-02T18:00Z,401772764,post,10,Tennessee Titans,TEN,Tennessee,20,24,Los Angeles Chargers,LAC,Los Angeles,27,0
+2025-11-02,2025-11-02T18:00Z,401772765,post,4,Cincinnati Bengals,CIN,Cincinnati,42,3,Chicago Bears,CHI,Chicago,47,0
+2025-11-02,2025-11-02T18:00Z,401772766,post,23,Pittsburgh Steelers,PIT,Pittsburgh,27,11,Indianapolis Colts,IND,Indianapolis,20,0
+2025-11-02,2025-11-02T18:00Z,401772767,post,19,New York Giants,NYG,New York,24,25,San Francisco 49ers,SF,San Francisco,34,0
+2025-11-02,2025-11-02T21:25Z,401772768,post,2,Buffalo Bills,BUF,Buffalo,28,12,Kansas City Chiefs,KC,Kansas City,21,0
+2025-11-02,2025-11-02T18:00Z,401772870,post,34,Houston Texans,HOU,Houston,15,7,Denver Broncos,DEN,Denver,18,0
+2025-11-02,2025-11-02T18:00Z,401772871,post,8,Detroit Lions,DET,Detroit,24,16,Minnesota Vikings,MIN,Minnesota,27,0
+2025-11-02,2025-11-02T18:00Z,401772872,post,9,Green Bay Packers,GB,Green Bay,13,29,Carolina Panthers,CAR,Carolina,16,0
+2025-11-02,2025-11-02T21:05Z,401772873,post,13,Las Vegas Raiders,LV,Las Vegas,29,30,Jacksonville Jaguars,JAX,Jacksonville,30,0
+2025-11-02,2025-11-02T21:05Z,401772874,post,14,Los Angeles Rams,LAR,Los Angeles,34,18,New Orleans Saints,NO,New Orleans,10,0
+2025-11-02,2025-11-03T01:20Z,401772926,post,28,Washington Commanders,WSH,Washington,14,26,Seattle Seahawks,SEA,Seattle,38,0
+2025-11-03,2025-11-04T01:15Z,401772818,post,6,Dallas Cowboys,DAL,Dallas,17,22,Arizona Cardinals,ARI,Arizona,27,0
+2025-11-06,2025-11-07T01:15Z,401772944,post,7,Denver Broncos,DEN,Denver,10,13,Las Vegas Raiders,LV,Las Vegas,7,0
+2025-11-09,2025-11-09T14:30Z,401772636,post,11,Indianapolis Colts,IND,Indianapolis,31,1,Atlanta Falcons,ATL,Atlanta,25,1
+2025-11-09,2025-11-09T18:00Z,401772769,post,20,New York Jets,NYJ,New York,27,5,Cleveland Browns,CLE,Cleveland,20,0
+2025-11-09,2025-11-09T18:00Z,401772770,post,34,Houston Texans,HOU,Houston,36,30,Jacksonville Jaguars,JAX,Jacksonville,29,0
+2025-11-09,2025-11-09T18:00Z,401772771,post,15,Miami Dolphins,MIA,Miami,30,2,Buffalo Bills,BUF,Buffalo,13,0
+2025-11-09,2025-11-09T18:00Z,401772772,post,27,Tampa Bay Buccaneers,TB,Tampa Bay,23,17,New England Patriots,NE,New England,28,0
+2025-11-09,2025-11-09T21:05Z,401772773,post,26,Seattle Seahawks,SEA,Seattle,44,22,Arizona Cardinals,ARI,Arizona,22,0
+2025-11-09,2025-11-09T18:00Z,401772875,post,3,Chicago Bears,CHI,Chicago,24,19,New York Giants,NYG,New York,20,0
+2025-11-09,2025-11-09T18:00Z,401772876,post,16,Minnesota Vikings,MIN,Minnesota,19,33,Baltimore Ravens,BAL,Baltimore,27,0
+2025-11-09,2025-11-09T18:00Z,401772877,post,29,Carolina Panthers,CAR,Carolina,7,18,New Orleans Saints,NO,New Orleans,17,0
+2025-11-09,2025-11-09T21:25Z,401772878,post,28,Washington Commanders,WSH,Washington,22,8,Detroit Lions,DET,Detroit,44,0
+2025-11-09,2025-11-09T21:25Z,401772879,post,25,San Francisco 49ers,SF,San Francisco,26,14,Los Angeles Rams,LAR,Los Angeles,42,0
+2025-11-09,2025-11-10T01:20Z,401772927,post,24,Los Angeles Chargers,LAC,Los Angeles,25,23,Pittsburgh Steelers,PIT,Pittsburgh,10,0
+2025-11-10,2025-11-11T01:15Z,401772630,post,9,Green Bay Packers,GB,Green Bay,7,21,Philadelphia Eagles,PHI,Philadelphia,10,0
+2025-11-13,2025-11-14T01:15Z,401772945,post,17,New England Patriots,NE,New England,27,20,New York Jets,NYJ,New York,14,0
+2025-11-16,2025-11-16T14:30Z,401772631,post,15,Miami Dolphins,MIA,Miami,16,28,Washington Commanders,WSH,Washington,13,1
+2025-11-16,2025-11-16T18:00Z,401772774,post,23,Pittsburgh Steelers,PIT,Pittsburgh,34,4,Cincinnati Bengals,CIN,Cincinnati,12,0
+2025-11-16,2025-11-16T18:00Z,401772775,post,30,Jacksonville Jaguars,JAX,Jacksonville,35,24,Los Angeles Chargers,LAC,Los Angeles,6,0
+2025-11-16,2025-11-16T18:00Z,401772776,post,2,Buffalo Bills,BUF,Buffalo,44,27,Tampa Bay Buccaneers,TB,Tampa Bay,32,0
+2025-11-16,2025-11-16T21:25Z,401772777,post,5,Cleveland Browns,CLE,Cleveland,16,33,Baltimore Ravens,BAL,Baltimore,23,0
+2025-11-16,2025-11-16T21:25Z,401772778,post,7,Denver Broncos,DEN,Denver,22,12,Kansas City Chiefs,KC,Kansas City,19,0
+2025-11-16,2025-11-16T18:00Z,401772880,post,16,Minnesota Vikings,MIN,Minnesota,17,3,Chicago Bears,CHI,Chicago,19,0
+2025-11-16,2025-11-16T18:00Z,401772881,post,10,Tennessee Titans,TEN,Tennessee,13,34,Houston Texans,HOU,Houston,16,0
+2025-11-16,2025-11-16T18:00Z,401772882,post,1,Atlanta Falcons,ATL,Atlanta,27,29,Carolina Panthers,CAR,Carolina,30,0
+2025-11-16,2025-11-16T18:00Z,401772883,post,19,New York Giants,NYG,New York,20,9,Green Bay Packers,GB,Green Bay,27,0
+2025-11-16,2025-11-16T21:05Z,401772884,post,14,Los Angeles Rams,LAR,Los Angeles,21,26,Seattle Seahawks,SEA,Seattle,19,0
+2025-11-16,2025-11-16T21:05Z,401772885,post,22,Arizona Cardinals,ARI,Arizona,22,25,San Francisco 49ers,SF,San Francisco,41,0
+2025-11-16,2025-11-17T01:20Z,401772928,post,21,Philadelphia Eagles,PHI,Philadelphia,16,8,Detroit Lions,DET,Detroit,9,0
+2025-11-17,2025-11-18T01:15Z,401772819,post,13,Las Vegas Raiders,LV,Las Vegas,16,6,Dallas Cowboys,DAL,Dallas,33,0
+2025-11-20,2025-11-21T01:15Z,401772946,post,34,Houston Texans,HOU,Houston,23,2,Buffalo Bills,BUF,Buffalo,19,0
+2025-11-23,2025-11-23T18:00Z,401772779,post,12,Kansas City Chiefs,KC,Kansas City,23,11,Indianapolis Colts,IND,Indianapolis,20,0
+2025-11-23,2025-11-23T18:00Z,401772780,post,3,Chicago Bears,CHI,Chicago,31,23,Pittsburgh Steelers,PIT,Pittsburgh,28,0
+2025-11-23,2025-11-23T18:00Z,401772781,post,4,Cincinnati Bengals,CIN,Cincinnati,20,17,New England Patriots,NE,New England,26,0
+2025-11-23,2025-11-23T18:00Z,401772782,post,33,Baltimore Ravens,BAL,Baltimore,23,20,New York Jets,NYJ,New York,10,0
+2025-11-23,2025-11-23T21:05Z,401772783,post,22,Arizona Cardinals,ARI,Arizona,24,30,Jacksonville Jaguars,JAX,Jacksonville,27,0
+2025-11-23,2025-11-23T21:05Z,401772784,post,13,Las Vegas Raiders,LV,Las Vegas,10,5,Cleveland Browns,CLE,Cleveland,24,0
+2025-11-23,2025-11-23T18:00Z,401772886,post,10,Tennessee Titans,TEN,Tennessee,24,26,Seattle Seahawks,SEA,Seattle,30,0
+2025-11-23,2025-11-23T18:00Z,401772887,post,9,Green Bay Packers,GB,Green Bay,23,16,Minnesota Vikings,MIN,Minnesota,6,0
+2025-11-23,2025-11-23T18:00Z,401772888,post,8,Detroit Lions,DET,Detroit,34,19,New York Giants,NYG,New York,27,0
+2025-11-23,2025-11-23T21:25Z,401772889,post,18,New Orleans Saints,NO,New Orleans,10,1,Atlanta Falcons,ATL,Atlanta,24,0
+2025-11-23,2025-11-23T21:25Z,401772890,post,6,Dallas Cowboys,DAL,Dallas,24,21,Philadelphia Eagles,PHI,Philadelphia,21,0
+2025-11-23,2025-11-24T01:20Z,401772929,post,14,Los Angeles Rams,LAR,Los Angeles,34,27,Tampa Bay Buccaneers,TB,Tampa Bay,7,0
+2025-11-24,2025-11-25T01:15Z,401772820,post,25,San Francisco 49ers,SF,San Francisco,20,29,Carolina Panthers,CAR,Carolina,9,0
+2025-11-27,2025-11-27T21:30Z,401772694,post,6,Dallas Cowboys,DAL,Dallas,31,12,Kansas City Chiefs,KC,Kansas City,28,0
+2025-11-27,2025-11-27T18:00Z,401772891,post,8,Detroit Lions,DET,Detroit,24,9,Green Bay Packers,GB,Green Bay,31,0
+2025-11-27,2025-11-28T01:20Z,401772930,post,33,Baltimore Ravens,BAL,Baltimore,14,4,Cincinnati Bengals,CIN,Cincinnati,32,0
+2025-11-28,2025-11-28T20:00Z,401772621,post,21,Philadelphia Eagles,PHI,Philadelphia,15,3,Chicago Bears,CHI,Chicago,24,0
+2025-11-30,2025-11-30T18:00Z,401772785,post,5,Cleveland Browns,CLE,Cleveland,8,25,San Francisco 49ers,SF,San Francisco,26,0
+2025-11-30,2025-11-30T18:00Z,401772786,post,10,Tennessee Titans,TEN,Tennessee,3,30,Jacksonville Jaguars,JAX,Jacksonville,25,0
+2025-11-30,2025-11-30T18:00Z,401772787,post,11,Indianapolis Colts,IND,Indianapolis,16,34,Houston Texans,HOU,Houston,20,0
+2025-11-30,2025-11-30T21:25Z,401772788,post,24,Los Angeles Chargers,LAC,Los Angeles,31,13,Las Vegas Raiders,LV,Las Vegas,14,0
+2025-11-30,2025-11-30T21:25Z,401772789,post,23,Pittsburgh Steelers,PIT,Pittsburgh,7,2,Buffalo Bills,BUF,Buffalo,26,0
+2025-11-30,2025-11-30T18:00Z,401772892,post,15,Miami Dolphins,MIA,Miami,21,18,New Orleans Saints,NO,New Orleans,17,0
+2025-11-30,2025-11-30T18:00Z,401772893,post,20,New York Jets,NYJ,New York,27,1,Atlanta Falcons,ATL,Atlanta,24,0
+2025-11-30,2025-11-30T18:00Z,401772894,post,29,Carolina Panthers,CAR,Carolina,31,14,Los Angeles Rams,LAR,Los Angeles,28,0
+2025-11-30,2025-11-30T18:00Z,401772895,post,27,Tampa Bay Buccaneers,TB,Tampa Bay,20,22,Arizona Cardinals,ARI,Arizona,17,0
+2025-11-30,2025-11-30T21:05Z,401772896,post,26,Seattle Seahawks,SEA,Seattle,26,16,Minnesota Vikings,MIN,Minnesota,0,0
+2025-11-30,2025-12-01T01:20Z,401772931,post,28,Washington Commanders,WSH,Washington,26,7,Denver Broncos,DEN,Denver,27,0
+2025-12-01,2025-12-02T01:15Z,401772821,post,17,New England Patriots,NE,New England,33,19,New York Giants,NYG,New York,15,0
+2025-12-04,2025-12-05T01:15Z,401772947,post,8,Detroit Lions,DET,Detroit,44,6,Dallas Cowboys,DAL,Dallas,30,0
+2025-12-07,2025-12-07T18:00Z,401772790,post,20,New York Jets,NYJ,New York,10,15,Miami Dolphins,MIA,Miami,34,0
+2025-12-07,2025-12-07T18:00Z,401772791,post,33,Baltimore Ravens,BAL,Baltimore,22,23,Pittsburgh Steelers,PIT,Pittsburgh,27,0
+2025-12-07,2025-12-07T18:00Z,401772792,post,27,Tampa Bay Buccaneers,TB,Tampa Bay,20,18,New Orleans Saints,NO,New Orleans,24,0
+2025-12-07,2025-12-07T18:00Z,401772793,post,30,Jacksonville Jaguars,JAX,Jacksonville,36,11,Indianapolis Colts,IND,Indianapolis,19,0
+2025-12-07,2025-12-07T21:05Z,401772794,post,13,Las Vegas Raiders,LV,Las Vegas,17,7,Denver Broncos,DEN,Denver,24,0
+2025-12-07,2025-12-07T21:25Z,401772897,post,9,Green Bay Packers,GB,Green Bay,28,3,Chicago Bears,CHI,Chicago,21,0
+2025-12-07,2025-12-07T18:00Z,401772898,post,5,Cleveland Browns,CLE,Cleveland,29,10,Tennessee Titans,TEN,Tennessee,31,0
+2025-12-07,2025-12-07T18:00Z,401772899,post,16,Minnesota Vikings,MIN,Minnesota,31,28,Washington Commanders,WSH,Washington,0,0
+2025-12-07,2025-12-07T18:00Z,401772900,post,1,Atlanta Falcons,ATL,Atlanta,9,26,Seattle Seahawks,SEA,Seattle,37,0
+2025-12-07,2025-12-07T21:25Z,401772901,post,22,Arizona Cardinals,ARI,Arizona,17,14,Los Angeles Rams,LAR,Los Angeles,45,0
+2025-12-07,2025-12-07T18:00Z,401772902,post,2,Buffalo Bills,BUF,Buffalo,39,4,Cincinnati Bengals,CIN,Cincinnati,34,0
+2025-12-07,2025-12-08T01:20Z,401772932,post,12,Kansas City Chiefs,KC,Kansas City,10,34,Houston Texans,HOU,Houston,20,0
+2025-12-08,2025-12-09T01:15Z,401772822,post,24,Los Angeles Chargers,LAC,Los Angeles,22,21,Philadelphia Eagles,PHI,Philadelphia,19,0
+2025-12-11,2025-12-12T01:15Z,401772948,post,27,Tampa Bay Buccaneers,TB,Tampa Bay,28,1,Atlanta Falcons,ATL,Atlanta,29,0
+2025-12-14,2025-12-14T18:00Z,401772795,post,17,New England Patriots,NE,New England,31,2,Buffalo Bills,BUF,Buffalo,35,0
+2025-12-14,2025-12-14T18:00Z,401772796,post,4,Cincinnati Bengals,CIN,Cincinnati,0,33,Baltimore Ravens,BAL,Baltimore,24,0
+2025-12-14,2025-12-14T18:00Z,401772797,post,30,Jacksonville Jaguars,JAX,Jacksonville,48,20,New York Jets,NYJ,New York,20,0
+2025-12-14,2025-12-14T18:00Z,401772798,post,12,Kansas City Chiefs,KC,Kansas City,13,24,Los Angeles Chargers,LAC,Los Angeles,16,0
+2025-12-14,2025-12-14T21:25Z,401772799,post,26,Seattle Seahawks,SEA,Seattle,18,11,Indianapolis Colts,IND,Indianapolis,16,0
+2025-12-14,2025-12-14T21:25Z,401772800,post,7,Denver Broncos,DEN,Denver,34,9,Green Bay Packers,GB,Green Bay,26,0
+2025-12-14,2025-12-14T18:00Z,401772903,post,34,Houston Texans,HOU,Houston,40,22,Arizona Cardinals,ARI,Arizona,20,0
+2025-12-14,2025-12-14T18:00Z,401772904,post,3,Chicago Bears,CHI,Chicago,31,5,Cleveland Browns,CLE,Cleveland,3,0
+2025-12-14,2025-12-14T18:00Z,401772905,post,19,New York Giants,NYG,New York,21,28,Washington Commanders,WSH,Washington,29,0
+2025-12-14,2025-12-14T18:00Z,401772906,post,21,Philadelphia Eagles,PHI,Philadelphia,31,13,Las Vegas Raiders,LV,Las Vegas,0,0
+2025-12-14,2025-12-14T21:25Z,401772907,post,25,San Francisco 49ers,SF,San Francisco,37,10,Tennessee Titans,TEN,Tennessee,24,0
+2025-12-14,2025-12-14T21:25Z,401772908,post,18,New Orleans Saints,NO,New Orleans,20,29,Carolina Panthers,CAR,Carolina,17,0
+2025-12-14,2025-12-14T21:25Z,401772909,post,14,Los Angeles Rams,LAR,Los Angeles,41,8,Detroit Lions,DET,Detroit,34,0
+2025-12-14,2025-12-15T01:20Z,401772933,post,6,Dallas Cowboys,DAL,Dallas,26,16,Minnesota Vikings,MIN,Minnesota,34,0
+2025-12-15,2025-12-16T01:15Z,401772823,post,23,Pittsburgh Steelers,PIT,Pittsburgh,28,15,Miami Dolphins,MIA,Miami,15,0
+2025-12-18,2025-12-19T01:15Z,401772949,post,26,Seattle Seahawks,SEA,Seattle,38,14,Los Angeles Rams,LAR,Los Angeles,37,0
+2025-12-20,2025-12-20T22:00Z,401772612,post,28,Washington Commanders,WSH,Washington,18,21,Philadelphia Eagles,PHI,Philadelphia,29,0
+2025-12-20,2025-12-21T01:20Z,401772613,post,3,Chicago Bears,CHI,Chicago,22,9,Green Bay Packers,GB,Green Bay,16,0
+2025-12-21,2025-12-21T18:00Z,401772801,post,18,New Orleans Saints,NO,New Orleans,29,20,New York Jets,NYJ,New York,6,0
+2025-12-21,2025-12-21T18:00Z,401772802,post,5,Cleveland Browns,CLE,Cleveland,20,2,Buffalo Bills,BUF,Buffalo,23,0
+2025-12-21,2025-12-21T18:00Z,401772803,post,10,Tennessee Titans,TEN,Tennessee,26,12,Kansas City Chiefs,KC,Kansas City,9,0
+2025-12-21,2025-12-22T01:20Z,401772804,post,33,Baltimore Ravens,BAL,Baltimore,24,17,New England Patriots,NE,New England,28,0
+2025-12-21,2025-12-21T21:25Z,401772805,post,34,Houston Texans,HOU,Houston,23,13,Las Vegas Raiders,LV,Las Vegas,21,0
+2025-12-21,2025-12-21T21:25Z,401772806,post,8,Detroit Lions,DET,Detroit,24,23,Pittsburgh Steelers,PIT,Pittsburgh,29,0
+2025-12-21,2025-12-21T18:00Z,401772910,post,6,Dallas Cowboys,DAL,Dallas,17,24,Los Angeles Chargers,LAC,Los Angeles,34,0
+2025-12-21,2025-12-21T18:00Z,401772911,post,19,New York Giants,NYG,New York,13,16,Minnesota Vikings,MIN,Minnesota,16,0
+2025-12-21,2025-12-21T18:00Z,401772912,post,29,Carolina Panthers,CAR,Carolina,23,27,Tampa Bay Buccaneers,TB,Tampa Bay,20,0
+2025-12-21,2025-12-21T21:05Z,401772913,post,7,Denver Broncos,DEN,Denver,20,30,Jacksonville Jaguars,JAX,Jacksonville,34,0
+2025-12-21,2025-12-21T21:05Z,401772914,post,22,Arizona Cardinals,ARI,Arizona,19,1,Atlanta Falcons,ATL,Atlanta,26,0
+2025-12-21,2025-12-21T18:00Z,401772934,post,15,Miami Dolphins,MIA,Miami,21,4,Cincinnati Bengals,CIN,Cincinnati,45,0
+2025-12-22,2025-12-23T01:15Z,401772824,post,11,Indianapolis Colts,IND,Indianapolis,27,25,San Francisco 49ers,SF,San Francisco,48,0
+2025-12-25,2025-12-26T01:15Z,401772622,post,12,Kansas City Chiefs,KC,Kansas City,13,7,Denver Broncos,DEN,Denver,20,0
+2025-12-25,2025-12-25T18:00Z,401772710,post,28,Washington Commanders,WSH,Washington,23,6,Dallas Cowboys,DAL,Dallas,30,0
+2025-12-25,2025-12-25T21:30Z,401772711,post,16,Minnesota Vikings,MIN,Minnesota,23,8,Detroit Lions,DET,Detroit,10,0
+2025-12-27,2025-12-27T21:30Z,401772951,post,24,Los Angeles Chargers,LAC,Los Angeles,16,34,Houston Texans,HOU,Houston,20,0
+2025-12-27,2025-12-28T01:00Z,401772953,post,9,Green Bay Packers,GB,Green Bay,24,33,Baltimore Ravens,BAL,Baltimore,41,0
+2025-12-28,2025-12-28T18:00Z,401772807,post,5,Cleveland Browns,CLE,Cleveland,13,23,Pittsburgh Steelers,PIT,Pittsburgh,6,0
+2025-12-28,2025-12-28T18:00Z,401772808,post,20,New York Jets,NYJ,New York,10,17,New England Patriots,NE,New England,42,0
+2025-12-28,2025-12-28T18:00Z,401772809,post,10,Tennessee Titans,TEN,Tennessee,26,18,New Orleans Saints,NO,New Orleans,34,0
+2025-12-28,2025-12-28T18:00Z,401772915,post,11,Indianapolis Colts,IND,Indianapolis,17,30,Jacksonville Jaguars,JAX,Jacksonville,23,0
+2025-12-28,2025-12-28T18:00Z,401772916,post,15,Miami Dolphins,MIA,Miami,20,27,Tampa Bay Buccaneers,TB,Tampa Bay,17,0
+2025-12-28,2025-12-28T21:25Z,401772917,post,2,Buffalo Bills,BUF,Buffalo,12,21,Philadelphia Eagles,PHI,Philadelphia,13,0
+2025-12-28,2025-12-29T01:20Z,401772935,post,25,San Francisco 49ers,SF,San Francisco,42,3,Chicago Bears,CHI,Chicago,38,0
+2025-12-28,2025-12-28T21:05Z,401772950,post,13,Las Vegas Raiders,LV,Las Vegas,10,19,New York Giants,NYG,New York,34,0
+2025-12-28,2025-12-28T18:00Z,401772952,post,29,Carolina Panthers,CAR,Carolina,10,26,Seattle Seahawks,SEA,Seattle,27,0
+2025-12-28,2025-12-28T18:00Z,401772954,post,4,Cincinnati Bengals,CIN,Cincinnati,37,22,Arizona Cardinals,ARI,Arizona,14,0
+2025-12-29,2025-12-30T01:15Z,401772825,post,1,Atlanta Falcons,ATL,Atlanta,27,14,Los Angeles Rams,LAR,Los Angeles,24,0
+2026-01-03,2026-01-04T01:00Z,401772961,post,25,San Francisco 49ers,SF,San Francisco,3,26,Seattle Seahawks,SEA,Seattle,13,0
+2026-01-03,2026-01-03T21:30Z,401772969,post,27,Tampa Bay Buccaneers,TB,Tampa Bay,16,29,Carolina Panthers,CAR,Carolina,14,0
+2026-01-04,2026-01-04T21:25Z,401772955,post,14,Los Angeles Rams,LAR,Los Angeles,37,22,Arizona Cardinals,ARI,Arizona,20,0
+2026-01-04,2026-01-04T21:25Z,401772956,post,7,Denver Broncos,DEN,Denver,19,24,Los Angeles Chargers,LAC,Los Angeles,3,0
+2026-01-04,2026-01-04T21:25Z,401772957,post,13,Las Vegas Raiders,LV,Las Vegas,14,12,Kansas City Chiefs,KC,Kansas City,12,0
+2026-01-04,2026-01-04T21:25Z,401772958,post,17,New England Patriots,NE,New England,38,15,Miami Dolphins,MIA,Miami,10,0
+2026-01-04,2026-01-04T21:25Z,401772959,post,21,Philadelphia Eagles,PHI,Philadelphia,17,28,Washington Commanders,WSH,Washington,24,0
+2026-01-04,2026-01-05T01:20Z,401772960,post,23,Pittsburgh Steelers,PIT,Pittsburgh,26,33,Baltimore Ravens,BAL,Baltimore,24,0
+2026-01-04,2026-01-04T18:00Z,401772962,post,34,Houston Texans,HOU,Houston,38,11,Indianapolis Colts,IND,Indianapolis,30,0
+2026-01-04,2026-01-04T18:00Z,401772963,post,19,New York Giants,NYG,New York,34,6,Dallas Cowboys,DAL,Dallas,17,0
+2026-01-04,2026-01-04T18:00Z,401772964,post,4,Cincinnati Bengals,CIN,Cincinnati,18,5,Cleveland Browns,CLE,Cleveland,20,0
+2026-01-04,2026-01-04T21:25Z,401772965,post,3,Chicago Bears,CHI,Chicago,16,8,Detroit Lions,DET,Detroit,19,0
+2026-01-04,2026-01-04T18:00Z,401772966,post,1,Atlanta Falcons,ATL,Atlanta,19,18,New Orleans Saints,NO,New Orleans,17,0
+2026-01-04,2026-01-04T21:25Z,401772967,post,2,Buffalo Bills,BUF,Buffalo,35,20,New York Jets,NYJ,New York,8,0
+2026-01-04,2026-01-04T18:00Z,401772968,post,16,Minnesota Vikings,MIN,Minnesota,16,9,Green Bay Packers,GB,Green Bay,3,0
+2026-01-04,2026-01-04T18:00Z,401772970,post,30,Jacksonville Jaguars,JAX,Jacksonville,41,10,Tennessee Titans,TEN,Tennessee,7,0
+2026-01-10,2026-01-10T21:30Z,401772979,post,29,Carolina Panthers,CAR,Carolina,31,14,Los Angeles Rams,LAR,Los Angeles,34,0
+2026-01-10,2026-01-11T01:00Z,401772981,post,3,Chicago Bears,CHI,Chicago,31,9,Green Bay Packers,GB,Green Bay,27,0
+2026-01-11,2026-01-11T18:00Z,401772977,post,30,Jacksonville Jaguars,JAX,Jacksonville,24,2,Buffalo Bills,BUF,Buffalo,27,0
+2026-01-11,2026-01-12T01:15Z,401772978,post,17,New England Patriots,NE,New England,16,24,Los Angeles Chargers,LAC,Los Angeles,3,0
+2026-01-11,2026-01-11T21:30Z,401772980,post,21,Philadelphia Eagles,PHI,Philadelphia,19,25,San Francisco 49ers,SF,San Francisco,23,0
+2026-01-12,2026-01-13T01:15Z,401772976,post,23,Pittsburgh Steelers,PIT,Pittsburgh,6,34,Houston Texans,HOU,Houston,30,0
+2026-01-17,2026-01-17T21:30Z,401772982,post,7,Denver Broncos,DEN,Denver,33,2,Buffalo Bills,BUF,Buffalo,30,0
+2026-01-17,2026-01-18T01:00Z,401772984,post,26,Seattle Seahawks,SEA,Seattle,41,25,San Francisco 49ers,SF,San Francisco,6,0
+2026-01-18,2026-01-18T20:00Z,401772983,post,17,New England Patriots,NE,New England,28,34,Houston Texans,HOU,Houston,16,0
+2026-01-18,2026-01-18T23:30Z,401772985,post,3,Chicago Bears,CHI,Chicago,17,14,Los Angeles Rams,LAR,Los Angeles,20,0
+2026-01-25,2026-01-25T20:00Z,401772986,post,7,Denver Broncos,DEN,Denver,7,17,New England Patriots,NE,New England,10,0
+2026-01-25,2026-01-25T23:30Z,401772987,post,26,Seattle Seahawks,SEA,Seattle,31,14,Los Angeles Rams,LAR,Los Angeles,27,0
+2026-02-03,2026-02-04T01:00Z,401831718,post,31,AFC,AFC,AFC,52,32,NFC,NFC,NFC,66,1
+2026-02-08,2026-02-08T23:30Z,401772988,post,17,New England Patriots,NE,New England,13,26,Seattle Seahawks,SEA,Seattle,29,1
+2026-08-06,2026-08-07T00:00Z,401873271,post,22,Arizona Cardinals,ARI,Arizona,30,29,Carolina Panthers,CAR,Carolina,33,1
+2026-08-13,2026-08-13T23:00Z,401873272,post,4,Cincinnati Bengals,CIN,Cincinnati,16,8,Detroit Lions,DET,Detroit,14,0
+2026-08-13,2026-08-13T23:30Z,401873273,post,17,New England Patriots,NE,New England,13,11,Indianapolis Colts,IND,Indianapolis,13,0
+2026-08-13,2026-08-14T00:00Z,401873274,post,34,Houston Texans,HOU,Houston,7,24,Los Angeles Chargers,LAC,Los Angeles,27,0
+2026-08-13,2026-08-13T23:00Z,401873275,post,23,Pittsburgh Steelers,PIT,Pittsburgh,28,9,Green Bay Packers,GB,Green Bay,9,0
+2026-08-13,2026-08-14T00:00Z,401873640,post,13,Las Vegas Raiders,LV,Las Vegas,14,22,Arizona Cardinals,ARI,Arizona,27,0
+2026-08-13,2026-08-14T01:00Z,401874392,post,25,San Francisco 49ers,SF,San Francisco,13,10,Tennessee Titans,TEN,Tennessee,19,0
+2026-08-14,2026-08-14T23:00Z,401873276,post,20,New York Jets,NYJ,New York,16,27,Tampa Bay Buccaneers,TB,Tampa Bay,24,0
+2026-08-14,2026-08-14T23:00Z,401873277,post,28,Washington Commanders,WSH,Washington,20,15,Miami Dolphins,MIA,Miami,7,0
+2026-08-14,2026-08-14T23:00Z,401873278,post,1,Atlanta Falcons,ATL,Atlanta,7,7,Denver Broncos,DEN,Denver,27,0
+2026-08-15,2026-08-16T00:00Z,401873279,post,26,Seattle Seahawks,SEA,Seattle,7,6,Dallas Cowboys,DAL,Dallas,17,0
+2026-08-15,2026-08-15T17:00Z,401873280,post,19,New York Giants,NYG,New York,10,16,Minnesota Vikings,MIN,Minnesota,13,0
+2026-08-15,2026-08-15T20:00Z,401873281,post,18,New Orleans Saints,NO,New Orleans,20,30,Jacksonville Jaguars,JAX,Jacksonville,24,0
+2026-08-15,2026-08-15T17:00Z,401873282,post,2,Buffalo Bills,BUF,Buffalo,29,29,Carolina Panthers,CAR,Carolina,14,0
+2026-08-15,2026-08-15T20:00Z,401873283,post,12,Kansas City Chiefs,KC,Kansas City,12,14,Los Angeles Rams,LAR,Los Angeles,20,0
+2026-08-15,2026-08-15T23:00Z,401873284,post,33,Baltimore Ravens,BAL,Baltimore,24,21,Philadelphia Eagles,PHI,Philadelphia,7,0
+2026-08-15,2026-08-15T17:00Z,401874393,post,3,Chicago Bears,CHI,Chicago,34,5,Cleveland Browns,CLE,Cleveland,10,0
+2026-08-20,2026-08-21T02:00Z,401873285,post,24,Los Angeles Chargers,LAC,Los Angeles,17,25,San Francisco 49ers,SF,San Francisco,41,0
+2026-08-20,2026-08-21T00:00Z,401873286,post,34,Houston Texans,HOU,Houston,20,13,Las Vegas Raiders,LV,Las Vegas,22,0
+2026-08-21,2026-08-21T23:30Z,401873287,post,30,Jacksonville Jaguars,JAX,Jacksonville,17,29,Carolina Panthers,CAR,Carolina,34,0
+2026-08-21,2026-08-21T23:00Z,401873288,post,23,Pittsburgh Steelers,PIT,Pittsburgh,0,20,New York Jets,NYJ,New York,17,0
+2026-08-21,2026-08-22T01:00Z,401873613,post,7,Denver Broncos,DEN,Denver,13,9,Green Bay Packers,GB,Green Bay,33,0
+2026-08-22,2026-08-22T23:00Z,401873289,post,4,Cincinnati Bengals,CIN,Cincinnati,27,3,Chicago Bears,CHI,Chicago,9,0
+2026-08-22,2026-08-22T20:00Z,401873290,post,14,Los Angeles Rams,LAR,Los Angeles,34,18,New Orleans Saints,NO,New Orleans,0,0
+2026-08-22,2026-08-22T17:00Z,401873291,post,16,Minnesota Vikings,MIN,Minnesota,3,33,Baltimore Ravens,BAL,Baltimore,13,0
+2026-08-22,2026-08-22T20:00Z,401873292,post,15,Miami Dolphins,MIA,Miami,3,19,New York Giants,NYG,New York,26,0
+2026-08-22,2026-08-22T23:00Z,401873293,post,17,New England Patriots,NE,New England,24,21,Philadelphia Eagles,PHI,Philadelphia,21,0
+2026-08-22,2026-08-22T17:00Z,401873294,post,5,Cleveland Browns,CLE,Cleveland,7,2,Buffalo Bills,BUF,Buffalo,31,0
+2026-08-22,2026-08-22T17:00Z,401873295,post,11,Indianapolis Colts,IND,Indianapolis,6,1,Atlanta Falcons,ATL,Atlanta,34,0
+2026-08-22,2026-08-22T23:30Z,401873296,post,27,Tampa Bay Buccaneers,TB,Tampa Bay,16,12,Kansas City Chiefs,KC,Kansas City,15,0
+2026-08-22,2026-08-22T16:00Z,401873601,post,8,Detroit Lions,DET,Detroit,17,28,Washington Commanders,WSH,Washington,13,0
+2026-08-22,2026-08-23T02:00Z,401874101,post,22,Arizona Cardinals,ARI,Arizona,13,6,Dallas Cowboys,DAL,Dallas,34,0
+2026-08-23,2026-08-24T00:00Z,401873297,post,10,Tennessee Titans,TEN,Tennessee,19,26,Seattle Seahawks,SEA,Seattle,16,0
+2026-08-27,2026-08-27T23:00Z,401873298,post,2,Buffalo Bills,BUF,Buffalo,28,23,Pittsburgh Steelers,PIT,Pittsburgh,27,0
+2026-08-27,2026-08-28T00:00Z,401873299,post,5,Cleveland Browns,CLE,Cleveland,37,17,New England Patriots,NE,New England,13,0
+2026-08-27,2026-08-28T02:00Z,401873300,post,24,Los Angeles Chargers,LAC,Los Angeles,18,14,Los Angeles Rams,LAR,Los Angeles,20,0
+2026-08-27,2026-08-28T00:00Z,401873641,post,13,Las Vegas Raiders,LV,Las Vegas,12,25,San Francisco 49ers,SF,San Francisco,18,0
+2026-08-28,2026-08-29T00:00Z,401873301,post,21,Philadelphia Eagles,PHI,Philadelphia,13,4,Cincinnati Bengals,CIN,Cincinnati,30,0
+2026-08-28,2026-08-28T22:00Z,401873302,post,33,Baltimore Ravens,BAL,Baltimore,41,28,Washington Commanders,WSH,Washington,3,0
+2026-08-28,2026-08-28T23:30Z,401873303,post,20,New York Jets,NYJ,New York,6,19,New York Giants,NYG,New York,23,0
+2026-08-28,2026-08-28T23:00Z,401873304,post,15,Miami Dolphins,MIA,Miami,12,1,Atlanta Falcons,ATL,Atlanta,17,0
+2026-08-28,2026-08-29T00:00Z,401873305,post,12,Kansas City Chiefs,KC,Kansas City,9,26,Seattle Seahawks,SEA,Seattle,9,0
+2026-08-28,2026-08-28T23:30Z,401873306,post,30,Jacksonville Jaguars,JAX,Jacksonville,19,27,Tampa Bay Buccaneers,TB,Tampa Bay,0,0
+2026-08-28,2026-08-28T23:00Z,401873307,post,29,Carolina Panthers,CAR,Carolina,16,34,Houston Texans,HOU,Houston,13,0
+2026-08-28,2026-08-29T01:00Z,401873614,post,7,Denver Broncos,DEN,Denver,34,16,Minnesota Vikings,MIN,Minnesota,6,0
+2026-08-28,2026-08-29T00:00Z,401874048,post,6,Dallas Cowboys,DAL,Dallas,24,18,New Orleans Saints,NO,New Orleans,27,0
+2026-08-28,2026-08-29T00:00Z,401874102,post,9,Green Bay Packers,GB,Green Bay,42,22,Arizona Cardinals,ARI,Arizona,38,0
+2026-08-29,2026-08-29T17:00Z,401873308,post,11,Indianapolis Colts,IND,Indianapolis,16,8,Detroit Lions,DET,Detroit,25,0
+2026-08-29,2026-08-29T22:00Z,401874394,post,10,Tennessee Titans,TEN,Tennessee,15,3,Chicago Bears,CHI,Chicago,24,0
+2026-09-09,2026-09-10T00:20Z,401872656,post,26,Seattle Seahawks,SEA,Seattle,13,17,New England Patriots,NE,New England,10,0
+2026-09-10,2026-09-11T00:35Z,401872657,post,14,Los Angeles Rams,LAR,Los Angeles,7,25,San Francisco 49ers,SF,San Francisco,27,1
+2026-09-13,2026-09-13T17:00Z,401872658,post,23,Pittsburgh Steelers,PIT,Pittsburgh,20,1,Atlanta Falcons,ATL,Atlanta,13,0
+2026-09-13,2026-09-13T17:00Z,401872659,post,11,Indianapolis Colts,IND,Indianapolis,23,33,Baltimore Ravens,BAL,Baltimore,41,0
+2026-09-13,2026-09-13T17:00Z,401872660,post,34,Houston Texans,HOU,Houston,31,2,Buffalo Bills,BUF,Buffalo,36,0
+2026-09-13,2026-09-13T17:00Z,401872661,post,29,Carolina Panthers,CAR,Carolina,37,3,Chicago Bears,CHI,Chicago,59,0
+2026-09-13,2026-09-13T17:00Z,401872922,post,30,Jacksonville Jaguars,JAX,Jacksonville,34,5,Cleveland Browns,CLE,Cleveland,10,0
+2026-09-13,2026-09-13T17:00Z,401872923,post,8,Detroit Lions,DET,Detroit,31,18,New Orleans Saints,NO,New Orleans,30,0
+2026-09-13,2026-09-13T17:00Z,401872924,post,10,Tennessee Titans,TEN,Tennessee,10,20,New York Jets,NYJ,New York,23,0
+2026-09-13,2026-09-13T17:00Z,401872925,post,4,Cincinnati Bengals,CIN,Cincinnati,33,27,Tampa Bay Buccaneers,TB,Tampa Bay,27,0
+2026-09-13,2026-09-13T20:25Z,401872926,post,24,Los Angeles Chargers,LAC,Los Angeles,14,22,Arizona Cardinals,ARI,Arizona,26,0
+2026-09-13,2026-09-13T20:25Z,401872927,post,16,Minnesota Vikings,MIN,Minnesota,39,9,Green Bay Packers,GB,Green Bay,22,0
+2026-09-13,2026-09-13T20:25Z,401872928,post,13,Las Vegas Raiders,LV,Las Vegas,27,15,Miami Dolphins,MIA,Miami,13,0
+2026-09-13,2026-09-13T20:25Z,401872929,post,21,Philadelphia Eagles,PHI,Philadelphia,24,28,Washington Commanders,WSH,Washington,22,0
+2026-09-13,2026-09-14T00:20Z,401872930,post,19,New York Giants,NYG,New York,28,6,Dallas Cowboys,DAL,Dallas,20,0
+2026-09-14,2026-09-15T00:15Z,401872931,post,12,Kansas City Chiefs,KC,Kansas City,31,7,Denver Broncos,DEN,Denver,10,0
+2026-09-17,2026-09-18T00:15Z,401872932,post,2,Buffalo Bills,BUF,Buffalo,41,8,Detroit Lions,DET,Detroit,31,0
+2026-09-20,2026-09-20T17:00Z,401872933,post,1,Atlanta Falcons,ATL,Atlanta,3,29,Carolina Panthers,CAR,Carolina,34,0
+2026-09-20,2026-09-20T17:00Z,401872934,post,34,Houston Texans,HOU,Houston,6,4,Cincinnati Bengals,CIN,Cincinnati,20,0
+2026-09-20,2026-09-20T17:00Z,401872935,post,27,Tampa Bay Buccaneers,TB,Tampa Bay,19,5,Cleveland Browns,CLE,Cleveland,23,0
+2026-09-20,2026-09-20T17:00Z,401872936,post,20,New York Jets,NYJ,New York,17,9,Green Bay Packers,GB,Green Bay,20,0
+2026-09-20,2026-09-20T17:00Z,401872937,post,3,Chicago Bears,CHI,Chicago,3,16,Minnesota Vikings,MIN,Minnesota,9,0
+2026-09-20,2026-09-20T17:00Z,401872938,post,33,Baltimore Ravens,BAL,Baltimore,17,18,New Orleans Saints,NO,New Orleans,24,0
+2026-09-20,2026-09-20T17:00Z,401872939,post,10,Tennessee Titans,TEN,Tennessee,20,21,Philadelphia Eagles,PHI,Philadelphia,24,0
+2026-09-20,2026-09-20T20:05Z,401872940,post,7,Denver Broncos,DEN,Denver,20,30,Jacksonville Jaguars,JAX,Jacksonville,13,0
+2026-09-20,2026-09-20T20:05Z,401872941,post,24,Los Angeles Chargers,LAC,Los Angeles,14,13,Las Vegas Raiders,LV,Las Vegas,26,0
+2026-09-20,2026-09-20T20:25Z,401872942,post,25,San Francisco 49ers,SF,San Francisco,35,15,Miami Dolphins,MIA,Miami,13,0
+2026-09-20,2026-09-20T20:25Z,401872943,post,22,Arizona Cardinals,ARI,Arizona,7,26,Seattle Seahawks,SEA,Seattle,31,0
+2026-09-20,2026-09-20T20:25Z,401872944,post,6,Dallas Cowboys,DAL,Dallas,37,28,Washington Commanders,WSH,Washington,20,0
+2026-09-20,2026-09-21T00:20Z,401872945,post,12,Kansas City Chiefs,KC,Kansas City,33,11,Indianapolis Colts,IND,Indianapolis,30,0
+2026-09-20,2026-09-20T17:00Z,401872946,post,17,New England Patriots,NE,New England,20,23,Pittsburgh Steelers,PIT,Pittsburgh,3,0
+2026-09-21,2026-09-22T00:15Z,401872947,post,14,Los Angeles Rams,LAR,Los Angeles,28,19,New York Giants,NYG,New York,6,0
+2026-09-24,2026-09-25T00:15Z,401872948,post,9,Green Bay Packers,GB,Green Bay,14,1,Atlanta Falcons,ATL,Atlanta,35,0
+2026-09-27,2026-09-27T17:00Z,401872949,post,5,Cleveland Browns,CLE,Cleveland,21,29,Carolina Panthers,CAR,Carolina,18,0
+2026-09-27,2026-09-27T17:00Z,401872950,post,23,Pittsburgh Steelers,PIT,Pittsburgh,30,4,Cincinnati Bengals,CIN,Cincinnati,27,0
+2026-09-27,2026-09-27T17:00Z,401872951,post,11,Indianapolis Colts,IND,Indianapolis,19,34,Houston Texans,HOU,Houston,17,0
+2026-09-27,2026-09-27T17:00Z,401872952,post,15,Miami Dolphins,MIA,Miami,10,12,Kansas City Chiefs,KC,Kansas City,24,0
+2026-09-27,2026-09-27T17:00Z,401872953,post,2,Buffalo Bills,BUF,Buffalo,24,24,Los Angeles Chargers,LAC,Los Angeles,16,0
+2026-09-27,2026-09-27T17:00Z,401872954,post,8,Detroit Lions,DET,Detroit,31,20,New York Jets,NYJ,New York,24,0
+2026-09-27,2026-09-27T17:00Z,401872955,post,28,Washington Commanders,WSH,Washington,33,26,Seattle Seahawks,SEA,Seattle,31,0
+2026-09-27,2026-09-27T17:00Z,401872956,post,19,New York Giants,NYG,New York,12,10,Tennessee Titans,TEN,Tennessee,7,0
+2026-09-27,2026-09-27T17:00Z,401872957,post,30,Jacksonville Jaguars,JAX,Jacksonville,35,17,New England Patriots,NE,New England,6,0
+2026-09-27,2026-09-27T20:05Z,401872958,post,25,San Francisco 49ers,SF,San Francisco,36,22,Arizona Cardinals,ARI,Arizona,30,0
+2026-09-27,2026-09-27T20:05Z,401872959,post,27,Tampa Bay Buccaneers,TB,Tampa Bay,16,16,Minnesota Vikings,MIN,Minnesota,23,0
+2026-09-27,2026-09-27T20:25Z,401872960,post,6,Dallas Cowboys,DAL,Dallas,31,33,Baltimore Ravens,BAL,Baltimore,34,1
+2026-09-27,2026-09-27T20:25Z,401872961,post,18,New Orleans Saints,NO,New Orleans,27,13,Las Vegas Raiders,LV,Las Vegas,35,0
+2026-09-27,2026-09-28T00:20Z,401872962,post,7,Denver Broncos,DEN,Denver,30,14,Los Angeles Rams,LAR,Los Angeles,26,0
+2026-09-28,2026-09-29T00:15Z,401872963,post,3,Chicago Bears,CHI,Chicago,27,21,Philadelphia Eagles,PHI,Philadelphia,7,0
+2026-10-01,2026-10-02T00:15Z,401872964,post,5,Cleveland Browns,CLE,Cleveland,27,23,Pittsburgh Steelers,PIT,Pittsburgh,24,0
+2026-10-04,2026-10-04T13:30Z,401872965,post,28,Washington Commanders,WSH,Washington,13,11,Indianapolis Colts,IND,Indianapolis,30,1
+2026-10-04,2026-10-04T17:00Z,401872966,post,19,New York Giants,NYG,New York,36,22,Arizona Cardinals,ARI,Arizona,24,0
+2026-10-04,2026-10-04T17:00Z,401872967,post,34,Houston Texans,HOU,Houston,30,6,Dallas Cowboys,DAL,Dallas,34,0
+2026-10-04,2026-10-04T17:00Z,401872968,post,27,Tampa Bay Buccaneers,TB,Tampa Bay,14,9,Green Bay Packers,GB,Green Bay,17,0
+2026-10-04,2026-10-04T17:00Z,401872969,post,4,Cincinnati Bengals,CIN,Cincinnati,17,30,Jacksonville Jaguars,JAX,Jacksonville,22,0
+2026-10-04,2026-10-04T17:00Z,401872970,post,21,Philadelphia Eagles,PHI,Philadelphia,20,14,Los Angeles Rams,LAR,Los Angeles,24,0
+2026-10-04,2026-10-04T17:00Z,401872971,post,2,Buffalo Bills,BUF,Buffalo,26,17,New England Patriots,NE,New England,29,0
+2026-10-04,2026-10-04T17:00Z,401872972,post,3,Chicago Bears,CHI,Chicago,23,20,New York Jets,NYJ,New York,12,0
+2026-10-04,2026-10-04T17:00Z,401872973,post,33,Baltimore Ravens,BAL,Baltimore,24,10,Tennessee Titans,TEN,Tennessee,18,0
+2026-10-04,2026-10-04T20:05Z,401872974,post,16,Minnesota Vikings,MIN,Minnesota,15,15,Miami Dolphins,MIA,Miami,10,0
+2026-10-04,2026-10-04T20:25Z,401872975,post,25,San Francisco 49ers,SF,San Francisco,24,7,Denver Broncos,DEN,Denver,14,0
+2026-10-04,2026-10-04T20:25Z,401872976,post,13,Las Vegas Raiders,LV,Las Vegas,27,12,Kansas City Chiefs,KC,Kansas City,30,0
+2026-10-04,2026-10-04T20:25Z,401872977,post,26,Seattle Seahawks,SEA,Seattle,30,24,Los Angeles Chargers,LAC,Los Angeles,23,0
+2026-10-04,2026-10-05T00:20Z,401872978,post,29,Carolina Panthers,CAR,Carolina,32,8,Detroit Lions,DET,Detroit,26,0
+2026-10-05,2026-10-06T00:15Z,401872979,post,18,New Orleans Saints,NO,New Orleans,24,1,Atlanta Falcons,ATL,Atlanta,45,0
+2026-10-08,2026-10-09T00:15Z,401872980,post,6,Dallas Cowboys,DAL,Dallas,16,27,Tampa Bay Buccaneers,TB,Tampa Bay,24,0
+2026-10-11,2026-10-11T13:30Z,401872981,post,30,Jacksonville Jaguars,JAX,Jacksonville,19,21,Philadelphia Eagles,PHI,Philadelphia,17,1
+2026-10-11,2026-10-11T17:00Z,401872982,post,15,Miami Dolphins,MIA,Miami,24,4,Cincinnati Bengals,CIN,Cincinnati,31,0
+2026-10-11,2026-10-11T17:00Z,401872983,post,20,New York Jets,NYJ,New York,17,5,Cleveland Browns,CLE,Cleveland,12,0
+2026-10-11,2026-10-11T17:00Z,401872984,post,10,Tennessee Titans,TEN,Tennessee,3,34,Houston Texans,HOU,Houston,26,0
+2026-10-11,2026-10-11T17:00Z,401872985,post,23,Pittsburgh Steelers,PIT,Pittsburgh,34,11,Indianapolis Colts,IND,Indianapolis,22,0
+2026-10-11,2026-10-11T17:00Z,401872986,post,17,New England Patriots,NE,New England,45,13,Las Vegas Raiders,LV,Las Vegas,17,0
+2026-10-11,2026-10-11T17:00Z,401872987,post,18,New Orleans Saints,NO,New Orleans,13,16,Minnesota Vikings,MIN,Minnesota,23,0
+2026-10-11,2026-10-11T17:00Z,401872988,post,28,Washington Commanders,WSH,Washington,27,19,New York Giants,NYG,New York,27,0
+2026-10-11,2026-10-11T20:05Z,401872989,post,24,Los Angeles Chargers,LAC,Los Angeles,17,7,Denver Broncos,DEN,Denver,23,0
+2026-10-11,2026-10-11T17:00Z,401872990,post,9,Green Bay Packers,GB,Green Bay,31,3,Chicago Bears,CHI,Chicago,7,0
+2026-10-11,2026-10-11T20:25Z,401872991,post,22,Arizona Cardinals,ARI,Arizona,21,8,Detroit Lions,DET,Detroit,45,0
+2026-10-11,2026-10-11T20:25Z,401872992,post,26,Seattle Seahawks,SEA,Seattle,29,25,San Francisco 49ers,SF,San Francisco,32,0
+2026-10-11,2026-10-12T00:20Z,401872993,post,1,Atlanta Falcons,ATL,Atlanta,23,33,Baltimore Ravens,BAL,Baltimore,30,0
+2026-10-12,2026-10-13T00:15Z,401872994,post,14,Los Angeles Rams,LAR,Los Angeles,34,2,Buffalo Bills,BUF,Buffalo,37,0
+2026-10-15,2026-10-16T00:15Z,401872995,post,7,Denver Broncos,DEN,Denver,17,26,Seattle Seahawks,SEA,Seattle,14,0
+2026-10-18,2026-10-18T13:30Z,401872996,post,30,Jacksonville Jaguars,JAX,Jacksonville,31,34,Houston Texans,HOU,Houston,34,1
+2026-10-18,2026-10-18T17:00Z,401872997,post,5,Cleveland Browns,CLE,Cleveland,13,33,Baltimore Ravens,BAL,Baltimore,10,0
+2026-10-18,2026-10-18T17:00Z,401872998,post,21,Philadelphia Eagles,PHI,Philadelphia,14,29,Carolina Panthers,CAR,Carolina,25,0
+2026-10-18,2026-10-18T17:00Z,401872999,post,1,Atlanta Falcons,ATL,Atlanta,23,3,Chicago Bears,CHI,Chicago,31,0
+2026-10-18,2026-10-18T17:00Z,401873000,post,19,New York Giants,NYG,New York,27,18,New Orleans Saints,NO,New Orleans,34,0
+2026-10-18,2026-10-18T17:00Z,401873001,post,17,New England Patriots,NE,New England,26,20,New York Jets,NYJ,New York,19,0
+2026-10-18,2026-10-18T17:00Z,401873002,post,27,Tampa Bay Buccaneers,TB,Tampa Bay,19,23,Pittsburgh Steelers,PIT,Pittsburgh,26,0
+2026-10-18,2026-10-18T17:00Z,401873003,post,11,Indianapolis Colts,IND,Indianapolis,20,10,Tennessee Titans,TEN,Tennessee,26,0
+2026-10-18,2026-10-18T20:05Z,401873004,post,14,Los Angeles Rams,LAR,Los Angeles,16,22,Arizona Cardinals,ARI,Arizona,18,0
+2026-10-18,2026-10-18T20:25Z,401873005,post,13,Las Vegas Raiders,LV,Las Vegas,30,2,Buffalo Bills,BUF,Buffalo,33,0
+2026-10-18,2026-10-18T20:25Z,401873006,post,12,Kansas City Chiefs,KC,Kansas City,22,24,Los Angeles Chargers,LAC,Los Angeles,6,0
+2026-10-18,2026-10-19T00:20Z,401873007,post,9,Green Bay Packers,GB,Green Bay,23,6,Dallas Cowboys,DAL,Dallas,13,0
+2026-10-19,2026-10-20T00:15Z,401873008,post,25,San Francisco 49ers,SF,San Francisco,23,28,Washington Commanders,WSH,Washington,17,0
+2026-10-22,2026-10-23T00:15Z,401873010,post,3,Chicago Bears,CHI,Chicago,30,17,New England Patriots,NE,New England,24,0
+2026-10-25,2026-10-25T13:30Z,401873011,post,18,New Orleans Saints,NO,New Orleans,10,23,Pittsburgh Steelers,PIT,Pittsburgh,16,1
+2026-10-25,2026-10-25T17:00Z,401873012,post,33,Baltimore Ravens,BAL,Baltimore,13,4,Cincinnati Bengals,CIN,Cincinnati,35,0
+2026-10-25,2026-10-25T17:00Z,401873013,post,10,Tennessee Titans,TEN,Tennessee,24,5,Cleveland Browns,CLE,Cleveland,27,0
+2026-10-25,2026-10-25T17:00Z,401873014,post,16,Minnesota Vikings,MIN,Minnesota,16,11,Indianapolis Colts,IND,Indianapolis,10,0
+2026-10-25,2026-10-25T17:00Z,401873015,post,20,New York Jets,NYJ,New York,25,15,Miami Dolphins,MIA,Miami,28,0
+2026-10-25,2026-10-25T17:00Z,401873016,post,34,Houston Texans,HOU,Houston,21,19,New York Giants,NYG,New York,27,0
+2026-10-25,2026-10-25T17:00Z,401873017,post,1,Atlanta Falcons,ATL,Atlanta,29,25,San Francisco 49ers,SF,San Francisco,20,0
+2026-10-25,2026-10-25T17:00Z,401873018,post,29,Carolina Panthers,CAR,Carolina,13,27,Tampa Bay Buccaneers,TB,Tampa Bay,43,0
+2026-10-25,2026-10-25T20:05Z,401873019,post,22,Arizona Cardinals,ARI,Arizona,16,7,Denver Broncos,DEN,Denver,30,0
+2026-10-25,2026-10-25T20:25Z,401873020,post,8,Detroit Lions,DET,Detroit,20,9,Green Bay Packers,GB,Green Bay,17,0
+2026-10-25,2026-10-25T20:25Z,401873021,post,13,Las Vegas Raiders,LV,Las Vegas,21,14,Los Angeles Rams,LAR,Los Angeles,35,0
+2026-10-25,2026-10-26T00:20Z,401873022,post,26,Seattle Seahawks,SEA,Seattle,20,12,Kansas City Chiefs,KC,Kansas City,3,0
+2026-10-26,2026-10-27T00:15Z,401873009,post,21,Philadelphia Eagles,PHI,Philadelphia,21,6,Dallas Cowboys,DAL,Dallas,38,0
+2026-10-29,2026-10-30T00:15Z,401873023,post,9,Green Bay Packers,GB,Green Bay,27,29,Carolina Panthers,CAR,Carolina,19,0
+2026-11-01,2026-11-01T18:00Z,401873024,post,6,Dallas Cowboys,DAL,Dallas,30,22,Arizona Cardinals,ARI,Arizona,33,0
+2026-11-01,2026-11-01T18:00Z,401873025,post,27,Tampa Bay Buccaneers,TB,Tampa Bay,16,1,Atlanta Falcons,ATL,Atlanta,0,0
+2026-11-01,2026-11-01T18:00Z,401873026,post,2,Buffalo Bills,BUF,Buffalo,36,33,Baltimore Ravens,BAL,Baltimore,10,0
+2026-11-01,2026-11-01T18:00Z,401873027,post,23,Pittsburgh Steelers,PIT,Pittsburgh,27,5,Cleveland Browns,CLE,Cleveland,6,0
+2026-11-01,2026-11-01T18:00Z,401873028,post,30,Jacksonville Jaguars,JAX,Jacksonville,42,11,Indianapolis Colts,IND,Indianapolis,7,0
+2026-11-01,2026-11-01T18:00Z,401873029,post,20,New York Jets,NYJ,New York,33,13,Las Vegas Raiders,LV,Las Vegas,38,0
+2026-11-01,2026-11-01T18:00Z,401873030,post,8,Detroit Lions,DET,Detroit,19,16,Minnesota Vikings,MIN,Minnesota,15,0
+2026-11-01,2026-11-01T18:00Z,401873031,post,4,Cincinnati Bengals,CIN,Cincinnati,43,10,Tennessee Titans,TEN,Tennessee,36,0
+2026-11-01,2026-11-01T21:05Z,401873032,post,14,Los Angeles Rams,LAR,Los Angeles,24,24,Los Angeles Chargers,LAC,Los Angeles,9,0
+2026-11-01,2026-11-01T21:25Z,401873033,post,7,Denver Broncos,DEN,Denver,28,12,Kansas City Chiefs,KC,Kansas City,24,0
+2026-11-01,2026-11-01T21:25Z,401873034,post,15,Miami Dolphins,MIA,Miami,19,17,New England Patriots,NE,New England,24,0
+2026-11-01,2026-11-02T01:20Z,401873035,post,28,Washington Commanders,WSH,Washington,27,21,Philadelphia Eagles,PHI,Philadelphia,10,0
+2026-11-02,2026-11-03T01:15Z,401873036,post,26,Seattle Seahawks,SEA,Seattle,17,3,Chicago Bears,CHI,Chicago,34,0
+2026-11-05,2026-11-06T01:15Z,401873037,post,33,Baltimore Ravens,BAL,Baltimore,10,30,Jacksonville Jaguars,JAX,Jacksonville,33,0
+2026-11-08,2026-11-08T14:30Z,401873038,post,1,Atlanta Falcons,ATL,Atlanta,17,4,Cincinnati Bengals,CIN,Cincinnati,34,1
+2026-11-08,2026-11-08T18:00Z,401873039,post,18,New Orleans Saints,NO,New Orleans,23,5,Cleveland Browns,CLE,Cleveland,22,0
+2026-11-08,2026-11-08T18:00Z,401873040,post,11,Indianapolis Colts,IND,Indianapolis,23,6,Dallas Cowboys,DAL,Dallas,27,0
+2026-11-08,2026-11-08T18:00Z,401873041,post,29,Carolina Panthers,CAR,Carolina,21,7,Denver Broncos,DEN,Denver,26,0
+2026-11-08,2026-11-08T18:00Z,401873042,post,15,Miami Dolphins,MIA,Miami,9,8,Detroit Lions,DET,Detroit,19,0
+2026-11-08,2026-11-08T18:00Z,401873043,post,28,Washington Commanders,WSH,Washington,13,14,Los Angeles Rams,LAR,Los Angeles,20,0
+2026-11-08,2026-11-08T18:00Z,401873044,post,21,Philadelphia Eagles,PHI,Philadelphia,11,19,New York Giants,NYG,New York,19,0
+2026-11-08,2026-11-08T18:00Z,401873045,post,12,Kansas City Chiefs,KC,Kansas City,35,20,New York Jets,NYJ,New York,12,0
+2026-11-08,2026-11-08T21:05Z,401873046,post,24,Los Angeles Chargers,LAC,Los Angeles,22,34,Houston Texans,HOU,Houston,44,0
+2026-11-08,2026-11-08T21:25Z,401873047,post,25,San Francisco 49ers,SF,San Francisco,38,13,Las Vegas Raiders,LV,Las Vegas,17,0
+2026-11-08,2026-11-08T21:25Z,401873048,post,26,Seattle Seahawks,SEA,Seattle,17,22,Arizona Cardinals,ARI,Arizona,3,0
+2026-11-08,2026-11-08T21:25Z,401873049,post,17,New England Patriots,NE,New England,27,9,Green Bay Packers,GB,Green Bay,45,0
+2026-11-08,2026-11-09T01:20Z,401873050,post,3,Chicago Bears,CHI,Chicago,27,27,Tampa Bay Buccaneers,TB,Tampa Bay,24,0
+2026-11-09,2026-11-10T01:15Z,401873051,in,16,Minnesota Vikings,MIN,Minnesota,0,2,Buffalo Bills,BUF,Buffalo,0,0
+2026-11-12,2026-11-13T01:15Z,401873052,pre,19,New York Giants,NYG,New York,0,28,Washington Commanders,WSH,Washington,0,0

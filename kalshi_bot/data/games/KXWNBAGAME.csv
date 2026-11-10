@@ -1,0 +1,395 @@
+date,start,event_id,state,home_id,home,home_abbr,home_loc,home_score,away_id,away,away_abbr,away_loc,away_score,neutral
+2025-09-16,2025-09-16T23:30Z,401820316,post,5,Indiana Fever,IND,Indiana,77,20,Atlanta Dream,ATL,Atlanta,60,0
+2025-09-16,2025-09-17T01:30Z,401820317,post,14,Seattle Storm,SEA,Seattle,86,17,Las Vegas Aces,LV,Las Vegas,83,0
+2025-09-17,2025-09-18T00:00Z,401820318,post,9,New York Liberty,NY,New York,60,11,Phoenix Mercury,PHX,Phoenix,86,0
+2025-09-17,2025-09-18T02:00Z,401820319,post,129689,Golden State Valkyries,GS,Golden State,74,8,Minnesota Lynx,MIN,Minnesota,75,0
+2025-09-18,2025-09-18T23:30Z,401820320,post,20,Atlanta Dream,ATL,Atlanta,85,5,Indiana Fever,IND,Indiana,87,0
+2025-09-18,2025-09-19T01:30Z,401820321,post,17,Las Vegas Aces,LV,Las Vegas,74,14,Seattle Storm,SEA,Seattle,73,0
+2025-09-19,2025-09-20T01:00Z,401820324,post,11,Phoenix Mercury,PHX,Phoenix,79,9,New York Liberty,NY,New York,73,0
+2025-09-21,2025-09-21T19:00Z,401820327,post,17,Las Vegas Aces,LV,Las Vegas,73,5,Indiana Fever,IND,Indiana,89,0
+2025-09-21,2025-09-21T21:00Z,401820328,post,8,Minnesota Lynx,MIN,Minnesota,82,11,Phoenix Mercury,PHX,Phoenix,69,0
+2025-09-23,2025-09-23T23:30Z,401820330,post,8,Minnesota Lynx,MIN,Minnesota,83,11,Phoenix Mercury,PHX,Phoenix,89,0
+2025-09-23,2025-09-24T01:30Z,401820331,post,17,Las Vegas Aces,LV,Las Vegas,90,5,Indiana Fever,IND,Indiana,68,0
+2025-09-26,2025-09-27T01:40Z,401820333,post,11,Phoenix Mercury,PHX,Phoenix,84,8,Minnesota Lynx,MIN,Minnesota,76,0
+2025-09-26,2025-09-26T23:30Z,401820334,post,5,Indiana Fever,IND,Indiana,72,17,Las Vegas Aces,LV,Las Vegas,84,0
+2025-09-28,2025-09-28T19:00Z,401820337,post,5,Indiana Fever,IND,Indiana,90,17,Las Vegas Aces,LV,Las Vegas,83,0
+2025-09-28,2025-09-29T00:00Z,401820338,post,11,Phoenix Mercury,PHX,Phoenix,86,8,Minnesota Lynx,MIN,Minnesota,81,0
+2025-09-30,2025-10-01T01:30Z,401820340,post,17,Las Vegas Aces,LV,Las Vegas,107,5,Indiana Fever,IND,Indiana,98,0
+2025-10-03,2025-10-04T00:00Z,401820322,post,17,Las Vegas Aces,LV,Las Vegas,89,11,Phoenix Mercury,PHX,Phoenix,86,0
+2025-10-05,2025-10-05T19:00Z,401820325,post,17,Las Vegas Aces,LV,Las Vegas,91,11,Phoenix Mercury,PHX,Phoenix,78,0
+2025-10-08,2025-10-09T00:00Z,401820326,post,11,Phoenix Mercury,PHX,Phoenix,88,17,Las Vegas Aces,LV,Las Vegas,90,0
+2025-10-10,2025-10-11T00:00Z,401820329,post,11,Phoenix Mercury,PHX,Phoenix,86,17,Las Vegas Aces,LV,Las Vegas,97,0
+2026-04-25,2026-04-25T19:00Z,401866150,post,9,New York Liberty,NY,New York,91,5,Indiana Fever,IND,Indiana,109,0
+2026-04-25,2026-04-25T20:00Z,401866152,post,11,Phoenix Mercury,PHX,Phoenix,108,19,Chicago Sky,CHI,Chicago,104,1
+2026-04-25,2026-04-25T23:30Z,401866513,post,16,Washington Mystics,WSH,Washington,66,8,Minnesota Lynx,MIN,Minnesota,77,0
+2026-04-25,2026-04-26T00:30Z,401866514,post,129689,Golden State Valkyries,GS,Golden State,78,14,Seattle Storm,SEA,Seattle,76,0
+2026-04-25,2026-04-25T19:00Z,401867790,post,6,Los Angeles Sparks,LA,Los Angeles,89,17476,NIGERIA,NIGER,Nigeria,63,1
+2026-04-26,2026-04-27T00:00Z,401869973,post,17,Las Vegas Aces,LV,Las Vegas,94,17475,JAPAN,JPN,Japan,78,0
+2026-04-27,2026-04-28T00:00Z,401867791,post,8,Minnesota Lynx,MIN,Minnesota,88,17476,NIGERIA,NIGER,Nigeria,79,1
+2026-04-29,2026-04-29T23:00Z,401866515,post,131935,Toronto Tempo,TOR,Toronto,78,18,Connecticut Sun,CON,Connecticut,83,0
+2026-04-29,2026-04-30T02:00Z,401866516,post,14,Seattle Storm,SEA,Seattle,91,132052,Portland Fire,POR,Portland,81,0
+2026-04-29,2026-04-29T23:00Z,401866517,post,19,Chicago Sky,CHI,Chicago,78,20,Atlanta Dream,ATL,Atlanta,87,0
+2026-04-29,2026-04-30T02:00Z,401867792,post,11,Phoenix Mercury,PHX,Phoenix,86,17475,JAPAN,JPN,Japan,60,0
+2026-04-30,2026-04-30T23:00Z,401866518,post,5,Indiana Fever,IND,Indiana,80,3,Dallas Wings,DAL,Dallas,95,0
+2026-05-01,2026-05-02T00:00Z,401867793,post,8,Minnesota Lynx,MIN,Minnesota,73,131935,Toronto Tempo,TOR,Toronto,66,0
+2026-05-02,2026-05-02T23:00Z,401867794,post,5,Indiana Fever,IND,Indiana,105,17476,NIGERIA,NIGER,Nigeria,57,0
+2026-05-03,2026-05-03T21:00Z,401866519,post,18,Connecticut Sun,CON,Connecticut,67,9,New York Liberty,NY,New York,79,0
+2026-05-03,2026-05-03T23:00Z,401866520,post,3,Dallas Wings,DAL,Dallas,101,17,Las Vegas Aces,LV,Las Vegas,84,1
+2026-05-03,2026-05-03T23:00Z,401866521,post,132052,Portland Fire,POR,Portland,75,6,Los Angeles Sparks,LA,Los Angeles,85,0
+2026-05-03,2026-05-03T19:00Z,401867795,post,20,Atlanta Dream,ATL,Atlanta,72,16,Washington Mystics,WSH,Washington,83,0
+2026-05-08,2026-05-08T23:30Z,401856890,post,9,New York Liberty,NY,New York,106,18,Connecticut Sun,CON,Connecticut,75,0
+2026-05-08,2026-05-08T23:30Z,401856891,post,131935,Toronto Tempo,TOR,Toronto,65,16,Washington Mystics,WSH,Washington,68,0
+2026-05-08,2026-05-09T02:00Z,401856892,post,14,Seattle Storm,SEA,Seattle,80,129689,Golden State Valkyries,GS,Golden State,91,0
+2026-05-09,2026-05-09T17:00Z,401856893,post,5,Indiana Fever,IND,Indiana,104,3,Dallas Wings,DAL,Dallas,107,0
+2026-05-09,2026-05-09T19:30Z,401856894,post,17,Las Vegas Aces,LV,Las Vegas,66,11,Phoenix Mercury,PHX,Phoenix,99,0
+2026-05-09,2026-05-10T01:00Z,401856895,post,132052,Portland Fire,POR,Portland,83,19,Chicago Sky,CHI,Chicago,98,0
+2026-05-09,2026-05-10T00:00Z,401856899,post,8,Minnesota Lynx,MIN,Minnesota,90,20,Atlanta Dream,ATL,Atlanta,91,0
+2026-05-10,2026-05-10T17:00Z,401856896,post,18,Connecticut Sun,CON,Connecticut,82,14,Seattle Storm,SEA,Seattle,89,0
+2026-05-10,2026-05-10T19:00Z,401856897,post,16,Washington Mystics,WSH,Washington,93,9,New York Liberty,NY,New York,98,0
+2026-05-10,2026-05-10T22:00Z,401856898,post,6,Los Angeles Sparks,LA,Los Angeles,78,17,Las Vegas Aces,LV,Las Vegas,105,0
+2026-05-10,2026-05-11T00:30Z,401856900,post,129689,Golden State Valkyries,GS,Golden State,95,11,Phoenix Mercury,PHX,Phoenix,79,0
+2026-05-12,2026-05-13T00:00Z,401856901,post,3,Dallas Wings,DAL,Dallas,72,20,Atlanta Dream,ATL,Atlanta,77,0
+2026-05-12,2026-05-13T02:00Z,401856902,post,11,Phoenix Mercury,PHX,Phoenix,84,8,Minnesota Lynx,MIN,Minnesota,88,0
+2026-05-12,2026-05-13T02:00Z,401856903,post,132052,Portland Fire,POR,Portland,98,9,New York Liberty,NY,New York,96,0
+2026-05-13,2026-05-13T23:00Z,401856904,post,131935,Toronto Tempo,TOR,Toronto,86,14,Seattle Storm,SEA,Seattle,73,0
+2026-05-13,2026-05-14T00:00Z,401856905,post,18,Connecticut Sun,CON,Connecticut,69,17,Las Vegas Aces,LV,Las Vegas,98,0
+2026-05-13,2026-05-14T02:00Z,401856906,post,129689,Golden State Valkyries,GS,Golden State,63,19,Chicago Sky,CHI,Chicago,69,0
+2026-05-13,2026-05-14T02:30Z,401856907,post,6,Los Angeles Sparks,LA,Los Angeles,78,5,Indiana Fever,IND,Indiana,87,0
+2026-05-14,2026-05-15T00:00Z,401856908,post,3,Dallas Wings,DAL,Dallas,86,8,Minnesota Lynx,MIN,Minnesota,90,0
+2026-05-14,2026-05-15T02:00Z,401856909,post,132052,Portland Fire,POR,Portland,82,9,New York Liberty,NY,New York,100,0
+2026-05-15,2026-05-15T23:30Z,401856910,post,18,Connecticut Sun,CON,Connecticut,94,17,Las Vegas Aces,LV,Las Vegas,101,0
+2026-05-15,2026-05-15T23:30Z,401856911,post,5,Indiana Fever,IND,Indiana,102,16,Washington Mystics,WSH,Washington,104,0
+2026-05-15,2026-05-16T02:00Z,401856912,post,6,Los Angeles Sparks,LA,Los Angeles,99,131935,Toronto Tempo,TOR,Toronto,95,0
+2026-05-15,2026-05-16T02:00Z,401856913,post,11,Phoenix Mercury,PHX,Phoenix,91,19,Chicago Sky,CHI,Chicago,83,0
+2026-05-17,2026-05-17T23:00Z,401856914,post,8,Minnesota Lynx,MIN,Minnesota,79,19,Chicago Sky,CHI,Chicago,86,0
+2026-05-17,2026-05-17T17:30Z,401856915,post,20,Atlanta Dream,ATL,Atlanta,84,17,Las Vegas Aces,LV,Las Vegas,85,0
+2026-05-17,2026-05-17T22:00Z,401856916,post,5,Indiana Fever,IND,Indiana,89,14,Seattle Storm,SEA,Seattle,78,0
+2026-05-17,2026-05-17T23:00Z,401856917,post,6,Los Angeles Sparks,LA,Los Angeles,96,131935,Toronto Tempo,TOR,Toronto,106,0
+2026-05-18,2026-05-19T00:00Z,401856918,post,3,Dallas Wings,DAL,Dallas,92,16,Washington Mystics,WSH,Washington,69,0
+2026-05-18,2026-05-19T02:00Z,401856919,post,132052,Portland Fire,POR,Portland,83,18,Connecticut Sun,CON,Connecticut,82,0
+2026-05-19,2026-05-20T02:00Z,401856920,post,11,Phoenix Mercury,PHX,Phoenix,90,131935,Toronto Tempo,TOR,Toronto,98,0
+2026-05-20,2026-05-20T23:00Z,401856921,post,5,Indiana Fever,IND,Indiana,90,132052,Portland Fire,POR,Portland,73,0
+2026-05-20,2026-05-21T01:00Z,401856922,post,19,Chicago Sky,CHI,Chicago,89,3,Dallas Wings,DAL,Dallas,99,0
+2026-05-20,2026-05-21T02:00Z,401856923,post,14,Seattle Storm,SEA,Seattle,78,18,Connecticut Sun,CON,Connecticut,80,0
+2026-05-21,2026-05-22T00:00Z,401856924,post,9,New York Liberty,NY,New York,70,129689,Golden State Valkyries,GS,Golden State,87,0
+2026-05-21,2026-05-22T00:00Z,401856925,post,8,Minnesota Lynx,MIN,Minnesota,100,131935,Toronto Tempo,TOR,Toronto,72,0
+2026-05-21,2026-05-22T02:00Z,401856926,post,11,Phoenix Mercury,PHX,Phoenix,88,6,Los Angeles Sparks,LA,Los Angeles,97,0
+2026-05-22,2026-05-22T23:30Z,401856927,post,20,Atlanta Dream,ATL,Atlanta,86,3,Dallas Wings,DAL,Dallas,69,0
+2026-05-22,2026-05-22T23:30Z,401856928,post,5,Indiana Fever,IND,Indiana,90,129689,Golden State Valkyries,GS,Golden State,82,0
+2026-05-22,2026-05-23T02:00Z,401856929,post,14,Seattle Storm,SEA,Seattle,77,18,Connecticut Sun,CON,Connecticut,59,0
+2026-05-23,2026-05-23T17:00Z,401856930,post,19,Chicago Sky,CHI,Chicago,75,8,Minnesota Lynx,MIN,Minnesota,85,0
+2026-05-23,2026-05-23T22:00Z,401856931,post,131935,Toronto Tempo,TOR,Toronto,80,132052,Portland Fire,POR,Portland,99,0
+2026-05-23,2026-05-24T00:00Z,401856932,post,17,Las Vegas Aces,LV,Las Vegas,95,6,Los Angeles Sparks,LA,Los Angeles,101,0
+2026-05-24,2026-05-24T19:00Z,401856933,post,20,Atlanta Dream,ATL,Atlanta,82,11,Phoenix Mercury,PHX,Phoenix,80,0
+2026-05-24,2026-05-24T19:30Z,401856934,post,9,New York Liberty,NY,New York,76,3,Dallas Wings,DAL,Dallas,91,0
+2026-05-24,2026-05-24T22:00Z,401856935,post,14,Seattle Storm,SEA,Seattle,97,16,Washington Mystics,WSH,Washington,85,0
+2026-05-25,2026-05-26T00:00Z,401856936,post,9,New York Liberty,NY,New York,74,132052,Portland Fire,POR,Portland,81,0
+2026-05-25,2026-05-26T02:00Z,401856937,post,129689,Golden State Valkyries,GS,Golden State,97,18,Connecticut Sun,CON,Connecticut,70,0
+2026-05-27,2026-05-27T23:00Z,401856938,post,9,New York Liberty,NY,New York,84,11,Phoenix Mercury,PHX,Phoenix,74,0
+2026-05-27,2026-05-28T00:00Z,401856939,post,19,Chicago Sky,CHI,Chicago,104,131935,Toronto Tempo,TOR,Toronto,111,0
+2026-05-27,2026-05-28T01:00Z,401856940,post,8,Minnesota Lynx,MIN,Minnesota,96,20,Atlanta Dream,ATL,Atlanta,81,0
+2026-05-27,2026-05-28T02:00Z,401856941,post,132052,Portland Fire,POR,Portland,71,18,Connecticut Sun,CON,Connecticut,61,0
+2026-05-27,2026-05-28T02:00Z,401856942,post,14,Seattle Storm,SEA,Seattle,64,16,Washington Mystics,WSH,Washington,78,0
+2026-05-28,2026-05-29T00:00Z,401856943,post,3,Dallas Wings,DAL,Dallas,95,17,Las Vegas Aces,LV,Las Vegas,87,0
+2026-05-28,2026-05-29T02:00Z,401856944,post,129689,Golden State Valkyries,GS,Golden State,90,5,Indiana Fever,IND,Indiana,88,0
+2026-05-29,2026-05-29T23:30Z,401856945,post,9,New York Liberty,NY,New York,75,11,Phoenix Mercury,PHX,Phoenix,68,0
+2026-05-29,2026-05-29T23:30Z,401856946,post,16,Washington Mystics,WSH,Washington,87,6,Los Angeles Sparks,LA,Los Angeles,92,0
+2026-05-29,2026-05-29T23:30Z,401856947,post,19,Chicago Sky,CHI,Chicago,58,8,Minnesota Lynx,MIN,Minnesota,79,0
+2026-05-29,2026-05-30T02:00Z,401856948,post,132052,Portland Fire,POR,Portland,66,20,Atlanta Dream,ATL,Atlanta,86,0
+2026-05-30,2026-05-30T17:00Z,401856949,post,131935,Toronto Tempo,TOR,Toronto,93,14,Seattle Storm,SEA,Seattle,72,0
+2026-05-30,2026-05-30T22:00Z,401856950,post,18,Connecticut Sun,CON,Connecticut,84,6,Los Angeles Sparks,LA,Los Angeles,81,0
+2026-05-30,2026-05-31T00:00Z,401856951,post,132052,Portland Fire,POR,Portland,100,5,Indiana Fever,IND,Indiana,84,0
+2026-05-31,2026-05-31T19:30Z,401856952,post,129689,Golden State Valkyries,GS,Golden State,81,17,Las Vegas Aces,LV,Las Vegas,91,0
+2026-06-01,2026-06-02T00:00Z,401856953,post,3,Dallas Wings,DAL,Dallas,79,14,Seattle Storm,SEA,Seattle,56,0
+2026-06-01,2026-06-02T02:00Z,401856954,post,11,Phoenix Mercury,PHX,Phoenix,77,8,Minnesota Lynx,MIN,Minnesota,111,0
+2026-06-02,2026-06-02T23:30Z,401856955,post,20,Atlanta Dream,ATL,Atlanta,91,18,Connecticut Sun,CON,Connecticut,75,0
+2026-06-02,2026-06-02T23:30Z,401856956,post,16,Washington Mystics,WSH,Washington,90,19,Chicago Sky,CHI,Chicago,72,0
+2026-06-02,2026-06-03T02:00Z,401856957,post,129689,Golden State Valkyries,GS,Golden State,95,132052,Portland Fire,POR,Portland,77,0
+2026-06-02,2026-06-03T02:00Z,401856958,post,6,Los Angeles Sparks,LA,Los Angeles,69,17,Las Vegas Aces,LV,Las Vegas,79,0
+2026-06-03,2026-06-03T23:30Z,401856959,post,9,New York Liberty,NY,New York,97,131935,Toronto Tempo,TOR,Toronto,82,0
+2026-06-03,2026-06-04T02:00Z,401856960,post,14,Seattle Storm,SEA,Seattle,68,11,Phoenix Mercury,PHX,Phoenix,72,0
+2026-06-04,2026-06-04T23:00Z,401856961,post,5,Indiana Fever,IND,Indiana,83,20,Atlanta Dream,ATL,Atlanta,71,0
+2026-06-04,2026-06-05T01:00Z,401856962,post,8,Minnesota Lynx,MIN,Minnesota,87,129689,Golden State Valkyries,GS,Golden State,84,0
+2026-06-05,2026-06-05T23:30Z,401856963,post,19,Chicago Sky,CHI,Chicago,85,18,Connecticut Sun,CON,Connecticut,80,0
+2026-06-05,2026-06-06T02:00Z,401856964,post,6,Los Angeles Sparks,LA,Los Angeles,96,3,Dallas Wings,DAL,Dallas,104,0
+2026-06-05,2026-06-06T02:00Z,401856965,post,132052,Portland Fire,POR,Portland,72,11,Phoenix Mercury,PHX,Phoenix,78,0
+2026-06-06,2026-06-06T17:00Z,401856966,post,8,Minnesota Lynx,MIN,Minnesota,88,14,Seattle Storm,SEA,Seattle,68,0
+2026-06-06,2026-06-06T19:00Z,401856967,post,17,Las Vegas Aces,LV,Las Vegas,84,129689,Golden State Valkyries,GS,Golden State,79,0
+2026-06-06,2026-06-06T22:00Z,401856968,post,20,Atlanta Dream,ATL,Atlanta,109,16,Washington Mystics,WSH,Washington,77,0
+2026-06-06,2026-06-07T00:00Z,401856969,post,9,New York Liberty,NY,New York,83,5,Indiana Fever,IND,Indiana,75,0
+2026-06-07,2026-06-07T19:00Z,401856970,post,131935,Toronto Tempo,TOR,Toronto,85,19,Chicago Sky,CHI,Chicago,68,0
+2026-06-07,2026-06-07T23:00Z,401856971,post,6,Los Angeles Sparks,LA,Los Angeles,89,132052,Portland Fire,POR,Portland,72,0
+2026-06-08,2026-06-08T23:00Z,401856972,post,18,Connecticut Sun,CON,Connecticut,80,9,New York Liberty,NY,New York,89,0
+2026-06-08,2026-06-08T23:00Z,401856973,post,16,Washington Mystics,WSH,Washington,76,5,Indiana Fever,IND,Indiana,78,0
+2026-06-08,2026-06-09T02:00Z,401856974,post,17,Las Vegas Aces,LV,Las Vegas,101,14,Seattle Storm,SEA,Seattle,91,0
+2026-06-09,2026-06-09T23:00Z,401856975,post,19,Chicago Sky,CHI,Chicago,75,20,Atlanta Dream,ATL,Atlanta,82,0
+2026-06-09,2026-06-10T00:00Z,401856976,post,8,Minnesota Lynx,MIN,Minnesota,100,3,Dallas Wings,DAL,Dallas,76,0
+2026-06-09,2026-06-10T02:00Z,401856977,post,129689,Golden State Valkyries,GS,Golden State,87,11,Phoenix Mercury,PHX,Phoenix,81,0
+2026-06-10,2026-06-10T23:00Z,401856978,post,131935,Toronto Tempo,TOR,Toronto,106,18,Connecticut Sun,CON,Connecticut,102,0
+2026-06-10,2026-06-11T02:00Z,401856979,post,14,Seattle Storm,SEA,Seattle,83,6,Los Angeles Sparks,LA,Los Angeles,88,0
+2026-06-11,2026-06-11T23:00Z,401856980,post,5,Indiana Fever,IND,Indiana,114,19,Chicago Sky,CHI,Chicago,106,0
+2026-06-11,2026-06-11T23:30Z,401856981,post,20,Atlanta Dream,ATL,Atlanta,90,9,New York Liberty,NY,New York,104,0
+2026-06-11,2026-06-12T01:00Z,401856982,post,3,Dallas Wings,DAL,Dallas,85,11,Phoenix Mercury,PHX,Phoenix,70,0
+2026-06-11,2026-06-12T02:00Z,401856983,post,132052,Portland Fire,POR,Portland,89,17,Las Vegas Aces,LV,Las Vegas,105,0
+2026-06-12,2026-06-12T23:30Z,401856984,post,16,Washington Mystics,WSH,Washington,86,131935,Toronto Tempo,TOR,Toronto,85,0
+2026-06-12,2026-06-13T02:00Z,401856985,post,14,Seattle Storm,SEA,Seattle,72,129689,Golden State Valkyries,GS,Golden State,76,0
+2026-06-13,2026-06-13T22:00Z,401856986,post,18,Connecticut Sun,CON,Connecticut,75,5,Indiana Fever,IND,Indiana,85,0
+2026-06-13,2026-06-14T00:00Z,401856987,post,17,Las Vegas Aces,LV,Las Vegas,100,8,Minnesota Lynx,MIN,Minnesota,97,0
+2026-06-13,2026-06-14T00:30Z,401856988,post,132052,Portland Fire,POR,Portland,84,3,Dallas Wings,DAL,Dallas,83,0
+2026-06-13,2026-06-14T02:00Z,401856989,post,11,Phoenix Mercury,PHX,Phoenix,102,6,Los Angeles Sparks,LA,Los Angeles,111,0
+2026-06-14,2026-06-14T19:00Z,401856990,post,9,New York Liberty,NY,New York,86,16,Washington Mystics,WSH,Washington,64,0
+2026-06-14,2026-06-14T19:00Z,401856991,post,131935,Toronto Tempo,TOR,Toronto,77,20,Atlanta Dream,ATL,Atlanta,102,0
+2026-06-15,2026-06-16T00:00Z,401856992,post,3,Dallas Wings,DAL,Dallas,96,17,Las Vegas Aces,LV,Las Vegas,66,0
+2026-06-15,2026-06-16T00:00Z,401856993,post,8,Minnesota Lynx,MIN,Minnesota,107,132052,Portland Fire,POR,Portland,74,0
+2026-06-15,2026-06-16T02:00Z,401856994,post,129689,Golden State Valkyries,GS,Golden State,78,6,Los Angeles Sparks,LA,Los Angeles,58,0
+2026-06-16,2026-06-16T23:00Z,401856995,post,5,Indiana Fever,IND,Indiana,113,131935,Toronto Tempo,TOR,Toronto,91,0
+2026-06-17,2026-06-17T23:00Z,401856996,post,18,Connecticut Sun,CON,Connecticut,81,16,Washington Mystics,WSH,Washington,88,0
+2026-06-17,2026-06-18T00:00Z,401856997,post,19,Chicago Sky,CHI,Chicago,95,9,New York Liberty,NY,New York,96,0
+2026-06-17,2026-06-18T02:00Z,401856998,post,129689,Golden State Valkyries,GS,Golden State,91,3,Dallas Wings,DAL,Dallas,80,0
+2026-06-17,2026-06-18T02:00Z,401856999,post,6,Los Angeles Sparks,LA,Los Angeles,83,8,Minnesota Lynx,MIN,Minnesota,99,0
+2026-06-17,2026-06-18T02:00Z,401857000,post,11,Phoenix Mercury,PHX,Phoenix,76,17,Las Vegas Aces,LV,Las Vegas,86,0
+2026-06-17,2026-06-18T02:00Z,401857001,post,132052,Portland Fire,POR,Portland,94,14,Seattle Storm,SEA,Seattle,89,0
+2026-06-18,2026-06-18T23:30Z,401857002,post,5,Indiana Fever,IND,Indiana,101,20,Atlanta Dream,ATL,Atlanta,108,0
+2026-06-19,2026-06-19T23:30Z,401857003,post,18,Connecticut Sun,CON,Connecticut,97,131935,Toronto Tempo,TOR,Toronto,101,0
+2026-06-19,2026-06-19T23:30Z,401857004,post,9,New York Liberty,NY,New York,83,16,Washington Mystics,WSH,Washington,86,0
+2026-06-19,2026-06-20T02:00Z,401857005,post,129689,Golden State Valkyries,GS,Golden State,75,8,Minnesota Lynx,MIN,Minnesota,81,0
+2026-06-20,2026-06-20T17:00Z,401857006,post,20,Atlanta Dream,ATL,Atlanta,113,5,Indiana Fever,IND,Indiana,96,0
+2026-06-20,2026-06-20T19:07Z,401857007,post,11,Phoenix Mercury,PHX,Phoenix,93,14,Seattle Storm,SEA,Seattle,73,0
+2026-06-20,2026-06-21T00:00Z,401857008,post,3,Dallas Wings,DAL,Dallas,93,19,Chicago Sky,CHI,Chicago,92,0
+2026-06-21,2026-06-21T20:00Z,401857009,post,17,Las Vegas Aces,LV,Las Vegas,92,129689,Golden State Valkyries,GS,Golden State,73,0
+2026-06-21,2026-06-21T22:00Z,401857010,post,8,Minnesota Lynx,MIN,Minnesota,79,16,Washington Mystics,WSH,Washington,84,0
+2026-06-21,2026-06-22T00:00Z,401857011,post,6,Los Angeles Sparks,LA,Los Angeles,98,9,New York Liberty,NY,New York,97,0
+2026-06-22,2026-06-22T23:00Z,401857012,post,18,Connecticut Sun,CON,Connecticut,92,19,Chicago Sky,CHI,Chicago,63,0
+2026-06-22,2026-06-22T23:30Z,401857013,post,20,Atlanta Dream,ATL,Atlanta,94,131935,Toronto Tempo,TOR,Toronto,87,0
+2026-06-22,2026-06-23T00:00Z,401857014,post,5,Indiana Fever,IND,Indiana,86,11,Phoenix Mercury,PHX,Phoenix,77,0
+2026-06-22,2026-06-23T02:00Z,401857015,post,14,Seattle Storm,SEA,Seattle,110,3,Dallas Wings,DAL,Dallas,112,0
+2026-06-23,2026-06-24T02:00Z,401857016,post,17,Las Vegas Aces,LV,Las Vegas,76,9,New York Liberty,NY,New York,87,0
+2026-06-24,2026-06-24T23:30Z,401857017,post,5,Indiana Fever,IND,Indiana,109,11,Phoenix Mercury,PHX,Phoenix,111,0
+2026-06-24,2026-06-24T23:30Z,401857018,post,16,Washington Mystics,WSH,Washington,76,8,Minnesota Lynx,MIN,Minnesota,78,0
+2026-06-24,2026-06-25T00:00Z,401857019,post,19,Chicago Sky,CHI,Chicago,101,132052,Portland Fire,POR,Portland,78,0
+2026-06-24,2026-06-25T02:00Z,401857020,post,129689,Golden State Valkyries,GS,Golden State,77,20,Atlanta Dream,ATL,Atlanta,66,0
+2026-06-25,2026-06-25T23:00Z,401857021,post,131935,Toronto Tempo,TOR,Toronto,125,6,Los Angeles Sparks,LA,Los Angeles,97,0
+2026-06-25,2026-06-26T02:00Z,401857022,post,17,Las Vegas Aces,LV,Las Vegas,99,3,Dallas Wings,DAL,Dallas,84,0
+2026-06-25,2026-06-26T02:00Z,401857023,post,14,Seattle Storm,SEA,Seattle,99,9,New York Liberty,NY,New York,88,0
+2026-06-26,2026-06-26T23:30Z,401857024,post,18,Connecticut Sun,CON,Connecticut,68,16,Washington Mystics,WSH,Washington,57,0
+2026-06-26,2026-06-26T23:30Z,401857025,post,19,Chicago Sky,CHI,Chicago,124,132052,Portland Fire,POR,Portland,94,0
+2026-06-26,2026-06-27T02:00Z,401857026,post,129689,Golden State Valkyries,GS,Golden State,78,20,Atlanta Dream,ATL,Atlanta,75,0
+2026-06-27,2026-06-27T18:00Z,401857027,post,131935,Toronto Tempo,TOR,Toronto,80,11,Phoenix Mercury,PHX,Phoenix,89,0
+2026-06-27,2026-06-28T00:00Z,401857028,post,5,Indiana Fever,IND,Indiana,111,6,Los Angeles Sparks,LA,Los Angeles,87,0
+2026-06-27,2026-06-28T01:00Z,401857029,post,14,Seattle Storm,SEA,Seattle,105,20,Atlanta Dream,ATL,Atlanta,90,0
+2026-06-28,2026-06-28T18:00Z,401857030,post,3,Dallas Wings,DAL,Dallas,77,8,Minnesota Lynx,MIN,Minnesota,85,0
+2026-06-28,2026-06-28T19:00Z,401857031,post,16,Washington Mystics,WSH,Washington,124,132052,Portland Fire,POR,Portland,123,0
+2026-06-28,2026-06-28T20:00Z,401857032,post,19,Chicago Sky,CHI,Chicago,99,17,Las Vegas Aces,LV,Las Vegas,107,0
+2026-06-28,2026-06-28T23:00Z,401857033,post,129689,Golden State Valkyries,GS,Golden State,76,9,New York Liberty,NY,New York,67,0
+2026-06-30,2026-06-30T23:00Z,401857321,post,9,New York Liberty,NY,New York,93,17,Las Vegas Aces,LV,Las Vegas,85,0
+2026-07-02,2026-07-02T23:30Z,401857034,post,16,Washington Mystics,WSH,Washington,81,20,Atlanta Dream,ATL,Atlanta,76,0
+2026-07-02,2026-07-03T00:00Z,401857035,post,18,Connecticut Sun,CON,Connecticut,83,3,Dallas Wings,DAL,Dallas,86,0
+2026-07-02,2026-07-03T02:00Z,401857036,post,11,Phoenix Mercury,PHX,Phoenix,90,14,Seattle Storm,SEA,Seattle,67,0
+2026-07-03,2026-07-03T23:30Z,401857037,post,9,New York Liberty,NY,New York,99,8,Minnesota Lynx,MIN,Minnesota,86,0
+2026-07-03,2026-07-04T02:00Z,401857038,post,17,Las Vegas Aces,LV,Las Vegas,98,19,Chicago Sky,CHI,Chicago,90,0
+2026-07-04,2026-07-04T17:00Z,401857039,post,20,Atlanta Dream,ATL,Atlanta,83,129689,Golden State Valkyries,GS,Golden State,88,0
+2026-07-04,2026-07-05T01:00Z,401857040,post,14,Seattle Storm,SEA,Seattle,72,132052,Portland Fire,POR,Portland,77,0
+2026-07-05,2026-07-05T19:00Z,401857041,post,131935,Toronto Tempo,TOR,Toronto,76,3,Dallas Wings,DAL,Dallas,89,0
+2026-07-05,2026-07-05T23:00Z,401857042,post,17,Las Vegas Aces,LV,Las Vegas,68,5,Indiana Fever,IND,Indiana,84,0
+2026-07-06,2026-07-06T23:30Z,401857043,post,16,Washington Mystics,WSH,Washington,49,129689,Golden State Valkyries,GS,Golden State,62,0
+2026-07-06,2026-07-07T00:00Z,401857044,post,8,Minnesota Lynx,MIN,Minnesota,89,18,Connecticut Sun,CON,Connecticut,90,0
+2026-07-06,2026-07-07T02:00Z,401857045,post,6,Los Angeles Sparks,LA,Los Angeles,64,14,Seattle Storm,SEA,Seattle,82,0
+2026-07-07,2026-07-08T00:00Z,401857046,post,9,New York Liberty,NY,New York,77,3,Dallas Wings,DAL,Dallas,88,0
+2026-07-07,2026-07-08T02:00Z,401857047,post,11,Phoenix Mercury,PHX,Phoenix,66,19,Chicago Sky,CHI,Chicago,77,0
+2026-07-08,2026-07-08T23:00Z,401857048,post,131935,Toronto Tempo,TOR,Toronto,75,129689,Golden State Valkyries,GS,Golden State,83,0
+2026-07-08,2026-07-08T23:30Z,401857049,post,18,Connecticut Sun,CON,Connecticut,80,8,Minnesota Lynx,MIN,Minnesota,86,0
+2026-07-08,2026-07-09T02:00Z,401857050,post,6,Los Angeles Sparks,LA,Los Angeles,106,5,Indiana Fever,IND,Indiana,92,0
+2026-07-09,2026-07-10T00:00Z,401857051,post,20,Atlanta Dream,ATL,Atlanta,89,14,Seattle Storm,SEA,Seattle,78,0
+2026-07-09,2026-07-10T02:00Z,401857052,post,11,Phoenix Mercury,PHX,Phoenix,89,5,Indiana Fever,IND,Indiana,92,0
+2026-07-09,2026-07-10T02:00Z,401857053,post,132052,Portland Fire,POR,Portland,80,17,Las Vegas Aces,LV,Las Vegas,88,0
+2026-07-10,2026-07-10T23:30Z,401857054,post,18,Connecticut Sun,CON,Connecticut,64,129689,Golden State Valkyries,GS,Golden State,79,0
+2026-07-10,2026-07-10T23:30Z,401857055,post,131935,Toronto Tempo,TOR,Toronto,95,3,Dallas Wings,DAL,Dallas,108,0
+2026-07-10,2026-07-11T02:00Z,401857056,post,6,Los Angeles Sparks,LA,Los Angeles,102,19,Chicago Sky,CHI,Chicago,87,0
+2026-07-11,2026-07-11T17:00Z,401857057,post,8,Minnesota Lynx,MIN,Minnesota,90,9,New York Liberty,NY,New York,85,0
+2026-07-11,2026-07-11T22:00Z,401857058,post,17,Las Vegas Aces,LV,Las Vegas,106,11,Phoenix Mercury,PHX,Phoenix,58,0
+2026-07-11,2026-07-11T20:00Z,401857059,post,20,Atlanta Dream,ATL,Atlanta,92,132052,Portland Fire,POR,Portland,102,0
+2026-07-12,2026-07-12T19:00Z,401857060,post,131935,Toronto Tempo,TOR,Toronto,93,9,New York Liberty,NY,New York,91,0
+2026-07-12,2026-07-12T19:00Z,401857061,post,16,Washington Mystics,WSH,Washington,84,14,Seattle Storm,SEA,Seattle,79,0
+2026-07-12,2026-07-12T23:00Z,401857062,post,3,Dallas Wings,DAL,Dallas,96,19,Chicago Sky,CHI,Chicago,91,0
+2026-07-12,2026-07-13T01:00Z,401857063,post,17,Las Vegas Aces,LV,Las Vegas,75,5,Indiana Fever,IND,Indiana,109,0
+2026-07-13,2026-07-13T23:00Z,401857064,post,20,Atlanta Dream,ATL,Atlanta,101,6,Los Angeles Sparks,LA,Los Angeles,92,0
+2026-07-13,2026-07-14T01:00Z,401857065,post,8,Minnesota Lynx,MIN,Minnesota,104,11,Phoenix Mercury,PHX,Phoenix,100,0
+2026-07-14,2026-07-14T15:00Z,401857066,post,18,Connecticut Sun,CON,Connecticut,90,132052,Portland Fire,POR,Portland,87,0
+2026-07-14,2026-07-14T23:00Z,401857067,post,131935,Toronto Tempo,TOR,Toronto,62,16,Washington Mystics,WSH,Washington,79,0
+2026-07-15,2026-07-15T16:00Z,401857068,post,19,Chicago Sky,CHI,Chicago,95,14,Seattle Storm,SEA,Seattle,90,0
+2026-07-15,2026-07-15T17:00Z,401857069,post,8,Minnesota Lynx,MIN,Minnesota,96,6,Los Angeles Sparks,LA,Los Angeles,87,0
+2026-07-15,2026-07-16T00:00Z,401857070,post,5,Indiana Fever,IND,Indiana,75,129689,Golden State Valkyries,GS,Golden State,88,0
+2026-07-16,2026-07-16T23:00Z,401857071,post,16,Washington Mystics,WSH,Washington,56,132052,Portland Fire,POR,Portland,75,0
+2026-07-16,2026-07-17T01:00Z,401857072,post,3,Dallas Wings,DAL,Dallas,0,9,New York Liberty,NY,New York,0,0
+2026-07-17,2026-07-17T23:30Z,401857073,post,5,Indiana Fever,IND,Indiana,110,14,Seattle Storm,SEA,Seattle,107,0
+2026-07-17,2026-07-17T23:30Z,401857074,post,131935,Toronto Tempo,TOR,Toronto,92,20,Atlanta Dream,ATL,Atlanta,111,0
+2026-07-17,2026-07-17T23:30Z,401857075,post,19,Chicago Sky,CHI,Chicago,96,6,Los Angeles Sparks,LA,Los Angeles,82,0
+2026-07-17,2026-07-18T02:00Z,401857076,post,11,Phoenix Mercury,PHX,Phoenix,83,18,Connecticut Sun,CON,Connecticut,96,0
+2026-07-18,2026-07-19T00:00Z,401857077,post,5,Indiana Fever,IND,Indiana,108,9,New York Liberty,NY,New York,88,0
+2026-07-18,2026-07-19T00:00Z,401857078,post,8,Minnesota Lynx,MIN,Minnesota,101,132052,Portland Fire,POR,Portland,93,0
+2026-07-18,2026-07-19T00:30Z,401857079,post,129689,Golden State Valkyries,GS,Golden State,74,16,Washington Mystics,WSH,Washington,69,0
+2026-07-19,2026-07-19T17:00Z,401857080,post,3,Dallas Wings,DAL,Dallas,90,6,Los Angeles Sparks,LA,Los Angeles,82,0
+2026-07-19,2026-07-19T20:00Z,401857081,post,20,Atlanta Dream,ATL,Atlanta,93,19,Chicago Sky,CHI,Chicago,91,0
+2026-07-19,2026-07-19T23:00Z,401857082,post,11,Phoenix Mercury,PHX,Phoenix,72,18,Connecticut Sun,CON,Connecticut,63,0
+2026-07-20,2026-07-21T00:00Z,401857083,post,131935,Toronto Tempo,TOR,Toronto,83,17,Las Vegas Aces,LV,Las Vegas,109,0
+2026-07-20,2026-07-21T02:00Z,401857084,post,129689,Golden State Valkyries,GS,Golden State,82,16,Washington Mystics,WSH,Washington,90,0
+2026-07-20,2026-07-21T02:00Z,401857085,post,14,Seattle Storm,SEA,Seattle,102,8,Minnesota Lynx,MIN,Minnesota,105,0
+2026-07-20,2026-07-21T00:00Z,401892393,post,3,Dallas Wings,DAL,Dallas,98,9,New York Liberty,NY,New York,99,0
+2026-07-22,2026-07-22T19:00Z,401857086,post,6,Los Angeles Sparks,LA,Los Angeles,82,11,Phoenix Mercury,PHX,Phoenix,86,0
+2026-07-22,2026-07-22T19:00Z,401857087,post,14,Seattle Storm,SEA,Seattle,76,8,Minnesota Lynx,MIN,Minnesota,86,0
+2026-07-22,2026-07-22T23:00Z,401857088,post,9,New York Liberty,NY,New York,95,19,Chicago Sky,CHI,Chicago,94,0
+2026-07-22,2026-07-22T23:30Z,401857089,post,16,Washington Mystics,WSH,Washington,100,17,Las Vegas Aces,LV,Las Vegas,99,0
+2026-07-22,2026-07-23T00:00Z,401857090,post,5,Indiana Fever,IND,Indiana,123,18,Connecticut Sun,CON,Connecticut,88,0
+2026-07-22,2026-07-23T02:00Z,401857091,post,132052,Portland Fire,POR,Portland,97,3,Dallas Wings,DAL,Dallas,101,0
+2026-07-25,2026-07-26T00:30Z,401857320,post,133384,TEAM COOP,COOP,Team Coop,122,133383,TEAM SPOON,SPO,Team Spoon,129,0
+2026-07-28,2026-07-28T23:30Z,401857092,post,16,Washington Mystics,WSH,Washington,92,18,Connecticut Sun,CON,Connecticut,84,0
+2026-07-28,2026-07-29T00:00Z,401857093,post,8,Minnesota Lynx,MIN,Minnesota,100,131935,Toronto Tempo,TOR,Toronto,93,0
+2026-07-28,2026-07-29T01:30Z,401857094,post,14,Seattle Storm,SEA,Seattle,95,5,Indiana Fever,IND,Indiana,105,0
+2026-07-28,2026-07-29T02:00Z,401857095,post,17,Las Vegas Aces,LV,Las Vegas,98,132052,Portland Fire,POR,Portland,83,0
+2026-07-28,2026-07-29T02:00Z,401857096,post,6,Los Angeles Sparks,LA,Los Angeles,109,9,New York Liberty,NY,New York,113,0
+2026-07-29,2026-07-30T00:00Z,401857097,post,3,Dallas Wings,DAL,Dallas,81,20,Atlanta Dream,ATL,Atlanta,82,0
+2026-07-29,2026-07-30T02:00Z,401857098,post,11,Phoenix Mercury,PHX,Phoenix,91,129689,Golden State Valkyries,GS,Golden State,89,0
+2026-07-30,2026-07-31T00:00Z,401857099,post,131935,Toronto Tempo,TOR,Toronto,72,8,Minnesota Lynx,MIN,Minnesota,104,0
+2026-07-30,2026-07-31T00:00Z,401857100,post,19,Chicago Sky,CHI,Chicago,94,18,Connecticut Sun,CON,Connecticut,88,0
+2026-07-30,2026-07-31T02:00Z,401857101,post,17,Las Vegas Aces,LV,Las Vegas,104,9,New York Liberty,NY,New York,99,0
+2026-07-31,2026-07-31T23:30Z,401857102,post,20,Atlanta Dream,ATL,Atlanta,98,14,Seattle Storm,SEA,Seattle,89,0
+2026-07-31,2026-07-31T23:30Z,401857103,post,16,Washington Mystics,WSH,Washington,81,3,Dallas Wings,DAL,Dallas,75,0
+2026-07-31,2026-08-01T02:00Z,401857104,post,132052,Portland Fire,POR,Portland,98,5,Indiana Fever,IND,Indiana,112,0
+2026-08-01,2026-08-01T17:00Z,401857105,post,19,Chicago Sky,CHI,Chicago,84,17,Las Vegas Aces,LV,Las Vegas,83,0
+2026-08-01,2026-08-01T19:00Z,401857106,post,11,Phoenix Mercury,PHX,Phoenix,92,9,New York Liberty,NY,New York,94,0
+2026-08-02,2026-08-02T17:00Z,401857107,post,8,Minnesota Lynx,MIN,Minnesota,108,5,Indiana Fever,IND,Indiana,100,0
+2026-08-02,2026-08-02T19:30Z,401857108,post,132052,Portland Fire,POR,Portland,101,6,Los Angeles Sparks,LA,Los Angeles,106,0
+2026-08-02,2026-08-02T23:00Z,401857109,post,3,Dallas Wings,DAL,Dallas,83,18,Connecticut Sun,CON,Connecticut,63,0
+2026-08-02,2026-08-03T00:30Z,401857110,post,129689,Golden State Valkyries,GS,Golden State,96,131935,Toronto Tempo,TOR,Toronto,79,0
+2026-08-03,2026-08-03T23:00Z,401857111,post,20,Atlanta Dream,ATL,Atlanta,87,17,Las Vegas Aces,LV,Las Vegas,109,0
+2026-08-03,2026-08-03T23:00Z,401857112,post,9,New York Liberty,NY,New York,95,14,Seattle Storm,SEA,Seattle,83,0
+2026-08-03,2026-08-04T01:00Z,401857113,post,19,Chicago Sky,CHI,Chicago,101,11,Phoenix Mercury,PHX,Phoenix,106,0
+2026-08-04,2026-08-05T02:00Z,401857114,post,129689,Golden State Valkyries,GS,Golden State,92,131935,Toronto Tempo,TOR,Toronto,81,0
+2026-08-05,2026-08-05T23:00Z,401857115,post,20,Atlanta Dream,ATL,Atlanta,96,11,Phoenix Mercury,PHX,Phoenix,82,0
+2026-08-05,2026-08-05T23:00Z,401857116,post,9,New York Liberty,NY,New York,92,14,Seattle Storm,SEA,Seattle,86,0
+2026-08-05,2026-08-05T23:30Z,401857117,post,16,Washington Mystics,WSH,Washington,96,3,Dallas Wings,DAL,Dallas,92,0
+2026-08-05,2026-08-06T01:00Z,401857118,post,19,Chicago Sky,CHI,Chicago,95,6,Los Angeles Sparks,LA,Los Angeles,88,0
+2026-08-06,2026-08-06T23:00Z,401857119,post,5,Indiana Fever,IND,Indiana,84,17,Las Vegas Aces,LV,Las Vegas,86,0
+2026-08-06,2026-08-07T01:00Z,401857120,post,8,Minnesota Lynx,MIN,Minnesota,82,6,Los Angeles Sparks,LA,Los Angeles,89,0
+2026-08-06,2026-08-07T02:00Z,401857121,post,132052,Portland Fire,POR,Portland,97,131935,Toronto Tempo,TOR,Toronto,83,0
+2026-08-07,2026-08-07T23:30Z,401857122,post,18,Connecticut Sun,CON,Connecticut,75,11,Phoenix Mercury,PHX,Phoenix,72,0
+2026-08-07,2026-08-07T23:30Z,401857123,post,16,Washington Mystics,WSH,Washington,79,20,Atlanta Dream,ATL,Atlanta,74,0
+2026-08-07,2026-08-08T01:30Z,401857124,post,3,Dallas Wings,DAL,Dallas,76,129689,Golden State Valkyries,GS,Golden State,94,0
+2026-08-08,2026-08-08T17:00Z,401857125,post,8,Minnesota Lynx,MIN,Minnesota,98,17,Las Vegas Aces,LV,Las Vegas,87,0
+2026-08-08,2026-08-08T19:30Z,401857126,post,19,Chicago Sky,CHI,Chicago,86,5,Indiana Fever,IND,Indiana,90,0
+2026-08-08,2026-08-09T00:30Z,401857127,post,132052,Portland Fire,POR,Portland,100,14,Seattle Storm,SEA,Seattle,93,0
+2026-08-09,2026-08-09T16:30Z,401857128,post,9,New York Liberty,NY,New York,111,17,Las Vegas Aces,LV,Las Vegas,71,0
+2026-08-09,2026-08-09T19:00Z,401857129,post,16,Washington Mystics,WSH,Washington,95,11,Phoenix Mercury,PHX,Phoenix,75,0
+2026-08-09,2026-08-09T19:30Z,401857130,post,8,Minnesota Lynx,MIN,Minnesota,103,3,Dallas Wings,DAL,Dallas,90,0
+2026-08-09,2026-08-09T23:00Z,401857131,post,6,Los Angeles Sparks,LA,Los Angeles,78,129689,Golden State Valkyries,GS,Golden State,84,0
+2026-08-10,2026-08-11T00:00Z,401857132,post,20,Atlanta Dream,ATL,Atlanta,107,131935,Toronto Tempo,TOR,Toronto,95,0
+2026-08-10,2026-08-11T02:00Z,401857133,post,14,Seattle Storm,SEA,Seattle,97,19,Chicago Sky,CHI,Chicago,88,0
+2026-08-11,2026-08-11T23:30Z,401857134,post,5,Indiana Fever,IND,Indiana,106,9,New York Liberty,NY,New York,92,0
+2026-08-11,2026-08-12T02:00Z,401857135,post,17,Las Vegas Aces,LV,Las Vegas,86,16,Washington Mystics,WSH,Washington,76,0
+2026-08-11,2026-08-12T02:00Z,401857136,post,6,Los Angeles Sparks,LA,Los Angeles,87,11,Phoenix Mercury,PHX,Phoenix,94,1
+2026-08-12,2026-08-13T00:00Z,401857137,post,3,Dallas Wings,DAL,Dallas,94,131935,Toronto Tempo,TOR,Toronto,88,0
+2026-08-12,2026-08-13T02:00Z,401857138,post,129689,Golden State Valkyries,GS,Golden State,91,19,Chicago Sky,CHI,Chicago,71,0
+2026-08-12,2026-08-13T02:00Z,401857139,post,132052,Portland Fire,POR,Portland,81,8,Minnesota Lynx,MIN,Minnesota,85,0
+2026-08-13,2026-08-13T23:00Z,401857140,post,18,Connecticut Sun,CON,Connecticut,69,20,Atlanta Dream,ATL,Atlanta,104,0
+2026-08-13,2026-08-14T00:00Z,401857141,post,9,New York Liberty,NY,New York,85,6,Los Angeles Sparks,LA,Los Angeles,81,0
+2026-08-13,2026-08-14T02:00Z,401857142,post,17,Las Vegas Aces,LV,Las Vegas,83,16,Washington Mystics,WSH,Washington,76,0
+2026-08-14,2026-08-14T23:30Z,401857143,post,5,Indiana Fever,IND,Indiana,98,3,Dallas Wings,DAL,Dallas,87,0
+2026-08-14,2026-08-15T02:00Z,401857144,post,14,Seattle Storm,SEA,Seattle,82,132052,Portland Fire,POR,Portland,84,0
+2026-08-15,2026-08-15T17:00Z,401857145,post,18,Connecticut Sun,CON,Connecticut,75,9,New York Liberty,NY,New York,82,0
+2026-08-15,2026-08-15T23:30Z,401857146,post,16,Washington Mystics,WSH,Washington,80,6,Los Angeles Sparks,LA,Los Angeles,70,0
+2026-08-15,2026-08-16T00:00Z,401857147,post,17,Las Vegas Aces,LV,Las Vegas,87,8,Minnesota Lynx,MIN,Minnesota,92,0
+2026-08-16,2026-08-16T21:00Z,401857148,post,14,Seattle Storm,SEA,Seattle,80,19,Chicago Sky,CHI,Chicago,82,0
+2026-08-16,2026-08-16T23:00Z,401857149,post,11,Phoenix Mercury,PHX,Phoenix,85,132052,Portland Fire,POR,Portland,88,0
+2026-08-16,2026-08-16T21:00Z,401857150,post,20,Atlanta Dream,ATL,Atlanta,91,5,Indiana Fever,IND,Indiana,95,0
+2026-08-17,2026-08-18T02:00Z,401857151,post,129689,Golden State Valkyries,GS,Golden State,78,3,Dallas Wings,DAL,Dallas,70,0
+2026-08-18,2026-08-18T23:00Z,401857152,post,18,Connecticut Sun,CON,Connecticut,85,6,Los Angeles Sparks,LA,Los Angeles,77,0
+2026-08-18,2026-08-18T23:00Z,401857153,post,131935,Toronto Tempo,TOR,Toronto,95,5,Indiana Fever,IND,Indiana,101,0
+2026-08-18,2026-08-19T01:00Z,401857154,post,19,Chicago Sky,CHI,Chicago,93,9,New York Liberty,NY,New York,86,0
+2026-08-18,2026-08-19T01:00Z,401857155,post,17,Las Vegas Aces,LV,Las Vegas,82,20,Atlanta Dream,ATL,Atlanta,97,0
+2026-08-19,2026-08-19T23:30Z,401857156,post,16,Washington Mystics,WSH,Washington,93,131935,Toronto Tempo,TOR,Toronto,82,0
+2026-08-19,2026-08-20T02:00Z,401857157,post,129689,Golden State Valkyries,GS,Golden State,66,8,Minnesota Lynx,MIN,Minnesota,77,0
+2026-08-20,2026-08-21T00:00Z,401857158,post,3,Dallas Wings,DAL,Dallas,91,5,Indiana Fever,IND,Indiana,85,0
+2026-08-20,2026-08-21T02:00Z,401857159,post,17,Las Vegas Aces,LV,Las Vegas,101,18,Connecticut Sun,CON,Connecticut,78,0
+2026-08-20,2026-08-21T02:00Z,401857160,post,6,Los Angeles Sparks,LA,Los Angeles,88,20,Atlanta Dream,ATL,Atlanta,124,0
+2026-08-21,2026-08-21T23:30Z,401857161,post,16,Washington Mystics,WSH,Washington,84,8,Minnesota Lynx,MIN,Minnesota,94,0
+2026-08-21,2026-08-21T23:30Z,401857162,post,19,Chicago Sky,CHI,Chicago,73,129689,Golden State Valkyries,GS,Golden State,70,0
+2026-08-21,2026-08-22T02:00Z,401857163,post,131935,Toronto Tempo,TOR,Toronto,82,132052,Portland Fire,POR,Portland,79,0
+2026-08-22,2026-08-22T23:00Z,401857164,post,9,New York Liberty,NY,New York,109,5,Indiana Fever,IND,Indiana,102,0
+2026-08-22,2026-08-23T01:00Z,401857165,post,6,Los Angeles Sparks,LA,Los Angeles,77,18,Connecticut Sun,CON,Connecticut,68,0
+2026-08-22,2026-08-23T02:00Z,401857166,post,11,Phoenix Mercury,PHX,Phoenix,89,20,Atlanta Dream,ATL,Atlanta,99,0
+2026-08-23,2026-08-23T20:00Z,401857167,post,3,Dallas Wings,DAL,Dallas,92,14,Seattle Storm,SEA,Seattle,70,0
+2026-08-23,2026-08-23T23:00Z,401857168,post,19,Chicago Sky,CHI,Chicago,90,5,Indiana Fever,IND,Indiana,113,0
+2026-08-23,2026-08-23T23:00Z,401857169,post,132052,Portland Fire,POR,Portland,100,16,Washington Mystics,WSH,Washington,105,0
+2026-08-23,2026-08-23T23:00Z,401857170,post,131935,Toronto Tempo,TOR,Toronto,78,17,Las Vegas Aces,LV,Las Vegas,88,0
+2026-08-24,2026-08-25T00:00Z,401857171,post,8,Minnesota Lynx,MIN,Minnesota,66,129689,Golden State Valkyries,GS,Golden State,80,0
+2026-08-24,2026-08-25T02:00Z,401857172,post,6,Los Angeles Sparks,LA,Los Angeles,71,20,Atlanta Dream,ATL,Atlanta,78,0
+2026-08-25,2026-08-25T23:00Z,401857173,post,18,Connecticut Sun,CON,Connecticut,87,19,Chicago Sky,CHI,Chicago,81,0
+2026-08-25,2026-08-26T00:00Z,401857174,post,3,Dallas Wings,DAL,Dallas,96,132052,Portland Fire,POR,Portland,78,0
+2026-08-25,2026-08-26T02:00Z,401857175,post,11,Phoenix Mercury,PHX,Phoenix,84,16,Washington Mystics,WSH,Washington,94,0
+2026-08-26,2026-08-26T23:00Z,401857176,post,18,Connecticut Sun,CON,Connecticut,64,129689,Golden State Valkyries,GS,Golden State,89,0
+2026-08-26,2026-08-27T02:00Z,401857177,post,14,Seattle Storm,SEA,Seattle,90,131935,Toronto Tempo,TOR,Toronto,78,0
+2026-08-27,2026-08-28T00:00Z,401857178,post,9,New York Liberty,NY,New York,60,129689,Golden State Valkyries,GS,Golden State,79,0
+2026-08-27,2026-08-28T02:00Z,401857179,post,11,Phoenix Mercury,PHX,Phoenix,73,16,Washington Mystics,WSH,Washington,80,0
+2026-08-28,2026-08-28T23:30Z,401857180,post,20,Atlanta Dream,ATL,Atlanta,83,132052,Portland Fire,POR,Portland,101,0
+2026-08-28,2026-08-28T23:30Z,401857181,post,5,Indiana Fever,IND,Indiana,111,18,Connecticut Sun,CON,Connecticut,91,0
+2026-08-28,2026-08-29T02:00Z,401857182,post,17,Las Vegas Aces,LV,Las Vegas,93,131935,Toronto Tempo,TOR,Toronto,73,0
+2026-08-28,2026-08-29T02:00Z,401857183,post,6,Los Angeles Sparks,LA,Los Angeles,88,16,Washington Mystics,WSH,Washington,82,0
+2026-08-29,2026-08-29T17:00Z,401857184,post,9,New York Liberty,NY,New York,85,19,Chicago Sky,CHI,Chicago,66,0
+2026-08-29,2026-08-30T02:00Z,401857185,post,11,Phoenix Mercury,PHX,Phoenix,101,131935,Toronto Tempo,TOR,Toronto,69,0
+2026-08-30,2026-08-30T19:00Z,401857186,post,20,Atlanta Dream,ATL,Atlanta,89,8,Minnesota Lynx,MIN,Minnesota,81,0
+2026-08-30,2026-08-30T21:00Z,401857187,post,14,Seattle Storm,SEA,Seattle,74,6,Los Angeles Sparks,LA,Los Angeles,90,0
+2026-08-30,2026-08-30T23:00Z,401857188,post,132052,Portland Fire,POR,Portland,69,129689,Golden State Valkyries,GS,Golden State,86,0
+2026-08-30,2026-08-31T00:30Z,401857189,post,3,Dallas Wings,DAL,Dallas,97,18,Connecticut Sun,CON,Connecticut,71,0
+2026-09-17,2026-09-17T23:30Z,401857190,post,20,Atlanta Dream,ATL,Atlanta,103,18,Connecticut Sun,CON,Connecticut,59,0
+2026-09-17,2026-09-18T00:00Z,401857191,post,19,Chicago Sky,CHI,Chicago,80,16,Washington Mystics,WSH,Washington,110,0
+2026-09-17,2026-09-18T00:00Z,401857192,post,3,Dallas Wings,DAL,Dallas,97,6,Los Angeles Sparks,LA,Los Angeles,77,0
+2026-09-17,2026-09-18T02:00Z,401857193,post,132052,Portland Fire,POR,Portland,91,11,Phoenix Mercury,PHX,Phoenix,94,0
+2026-09-17,2026-09-18T02:00Z,401857194,post,14,Seattle Storm,SEA,Seattle,77,17,Las Vegas Aces,LV,Las Vegas,114,0
+2026-09-18,2026-09-18T23:30Z,401857195,post,131935,Toronto Tempo,TOR,Toronto,85,5,Indiana Fever,IND,Indiana,103,0
+2026-09-18,2026-09-18T23:30Z,401857196,post,8,Minnesota Lynx,MIN,Minnesota,81,9,New York Liberty,NY,New York,93,0
+2026-09-18,2026-09-19T02:00Z,401857197,post,129689,Golden State Valkyries,GS,Golden State,82,132052,Portland Fire,POR,Portland,66,0
+2026-09-19,2026-09-19T17:00Z,401857198,post,3,Dallas Wings,DAL,Dallas,87,11,Phoenix Mercury,PHX,Phoenix,82,0
+2026-09-19,2026-09-19T23:00Z,401857199,post,20,Atlanta Dream,ATL,Atlanta,106,19,Chicago Sky,CHI,Chicago,81,0
+2026-09-19,2026-09-20T01:00Z,401857200,post,129689,Golden State Valkyries,GS,Golden State,70,14,Seattle Storm,SEA,Seattle,57,0
+2026-09-20,2026-09-20T17:00Z,401857201,post,18,Connecticut Sun,CON,Connecticut,89,8,Minnesota Lynx,MIN,Minnesota,101,0
+2026-09-20,2026-09-20T19:00Z,401857202,post,131935,Toronto Tempo,TOR,Toronto,69,9,New York Liberty,NY,New York,106,0
+2026-09-20,2026-09-20T20:00Z,401857203,post,5,Indiana Fever,IND,Indiana,77,16,Washington Mystics,WSH,Washington,93,0
+2026-09-20,2026-09-20T23:00Z,401857204,post,6,Los Angeles Sparks,LA,Los Angeles,105,132052,Portland Fire,POR,Portland,84,0
+2026-09-20,2026-09-21T01:00Z,401857205,post,17,Las Vegas Aces,LV,Las Vegas,98,14,Seattle Storm,SEA,Seattle,77,0
+2026-09-21,2026-09-22T00:00Z,401857206,post,9,New York Liberty,NY,New York,84,20,Atlanta Dream,ATL,Atlanta,95,0
+2026-09-21,2026-09-22T02:00Z,401857207,post,11,Phoenix Mercury,PHX,Phoenix,87,3,Dallas Wings,DAL,Dallas,86,0
+2026-09-22,2026-09-22T23:30Z,401857208,post,16,Washington Mystics,WSH,Washington,79,18,Connecticut Sun,CON,Connecticut,69,0
+2026-09-22,2026-09-23T00:00Z,401857209,post,5,Indiana Fever,IND,Indiana,96,8,Minnesota Lynx,MIN,Minnesota,77,0
+2026-09-22,2026-09-23T00:00Z,401857210,post,19,Chicago Sky,CHI,Chicago,97,131935,Toronto Tempo,TOR,Toronto,85,0
+2026-09-22,2026-09-23T02:00Z,401857211,post,17,Las Vegas Aces,LV,Las Vegas,89,6,Los Angeles Sparks,LA,Los Angeles,79,0
+2026-09-22,2026-09-23T02:00Z,401857212,post,132052,Portland Fire,POR,Portland,90,129689,Golden State Valkyries,GS,Golden State,82,0
+2026-09-23,2026-09-24T00:00Z,401857213,post,9,New York Liberty,NY,New York,65,20,Atlanta Dream,ATL,Atlanta,83,0
+2026-09-23,2026-09-24T02:00Z,401857214,post,14,Seattle Storm,SEA,Seattle,91,3,Dallas Wings,DAL,Dallas,103,0
+2026-09-24,2026-09-24T23:00Z,401857215,post,18,Connecticut Sun,CON,Connecticut,95,131935,Toronto Tempo,TOR,Toronto,81,0
+2026-09-24,2026-09-24T23:30Z,401857216,post,16,Washington Mystics,WSH,Washington,101,19,Chicago Sky,CHI,Chicago,93,0
+2026-09-24,2026-09-25T00:00Z,401857217,post,8,Minnesota Lynx,MIN,Minnesota,86,5,Indiana Fever,IND,Indiana,66,0
+2026-09-24,2026-09-25T02:00Z,401857218,post,6,Los Angeles Sparks,LA,Los Angeles,75,129689,Golden State Valkyries,GS,Golden State,76,0
+2026-09-24,2026-09-25T02:00Z,401857219,post,11,Phoenix Mercury,PHX,Phoenix,82,17,Las Vegas Aces,LV,Las Vegas,100,0
+2026-09-27,2026-09-27T23:00Z,401918013,post,20,Atlanta Dream,ATL,Atlanta,92,16,Washington Mystics,WSH,Washington,77,0
+2026-09-27,2026-09-27T18:00Z,401918014,post,8,Minnesota Lynx,MIN,Minnesota,75,9,New York Liberty,NY,New York,91,0
+2026-09-27,2026-09-27T20:00Z,401918015,post,17,Las Vegas Aces,LV,Las Vegas,102,5,Indiana Fever,IND,Indiana,85,0
+2026-09-27,2026-09-28T01:00Z,401918016,post,129689,Golden State Valkyries,GS,Golden State,104,3,Dallas Wings,DAL,Dallas,80,0
+2026-09-29,2026-09-30T00:30Z,401918017,post,9,New York Liberty,NY,New York,87,8,Minnesota Lynx,MIN,Minnesota,71,0
+2026-09-29,2026-09-29T22:30Z,401918018,post,5,Indiana Fever,IND,Indiana,99,17,Las Vegas Aces,LV,Las Vegas,89,0
+2026-09-30,2026-09-30T23:00Z,401918019,post,16,Washington Mystics,WSH,Washington,75,20,Atlanta Dream,ATL,Atlanta,93,0
+2026-09-30,2026-10-01T01:00Z,401918020,post,3,Dallas Wings,DAL,Dallas,108,129689,Golden State Valkyries,GS,Golden State,100,0
+2026-10-01,2026-10-02T01:00Z,401918022,post,17,Las Vegas Aces,LV,Las Vegas,94,5,Indiana Fever,IND,Indiana,83,0
+2026-10-02,2026-10-03T01:00Z,401918294,post,129689,Golden State Valkyries,GS,Golden State,77,3,Dallas Wings,DAL,Dallas,73,0
+2026-10-04,2026-10-04T18:00Z,401918295,post,20,Atlanta Dream,ATL,Atlanta,92,9,New York Liberty,NY,New York,82,0
+2026-10-04,2026-10-04T20:00Z,401918296,post,129689,Golden State Valkyries,GS,Golden State,71,17,Las Vegas Aces,LV,Las Vegas,60,0
+2026-10-07,2026-10-07T23:30Z,401918297,post,20,Atlanta Dream,ATL,Atlanta,101,9,New York Liberty,NY,New York,98,0
+2026-10-07,2026-10-08T01:30Z,401918298,post,129689,Golden State Valkyries,GS,Golden State,83,17,Las Vegas Aces,LV,Las Vegas,81,0
+2026-10-09,2026-10-09T23:30Z,401918299,post,9,New York Liberty,NY,New York,83,20,Atlanta Dream,ATL,Atlanta,85,0
+2026-10-09,2026-10-10T01:30Z,401918300,post,17,Las Vegas Aces,LV,Las Vegas,77,129689,Golden State Valkyries,GS,Golden State,87,0
+2026-10-17,2026-10-17T19:30Z,401918305,post,129689,Golden State Valkyries,GS,Golden State,68,20,Atlanta Dream,ATL,Atlanta,64,0
+2026-10-19,2026-10-20T00:00Z,401918306,post,129689,Golden State Valkyries,GS,Golden State,65,20,Atlanta Dream,ATL,Atlanta,79,0
+2026-10-21,2026-10-22T00:00Z,401918307,post,20,Atlanta Dream,ATL,Atlanta,97,129689,Golden State Valkyries,GS,Golden State,71,0
+2026-10-24,2026-10-24T17:00Z,401918308,post,20,Atlanta Dream,ATL,Atlanta,62,129689,Golden State Valkyries,GS,Golden State,67,0
+2026-10-26,2026-10-27T00:00Z,401918309,post,129689,Golden State Valkyries,GS,Golden State,64,20,Atlanta Dream,ATL,Atlanta,55,0
+2026-10-29,2026-10-29T16:30Z,401918310,post,20,Atlanta Dream,ATL,Atlanta,80,129689,Golden State Valkyries,GS,Golden State,69,0
+2026-10-31,2026-11-01T00:00Z,401918311,post,129689,Golden State Valkyries,GS,Golden State,68,20,Atlanta Dream,ATL,Atlanta,63,0

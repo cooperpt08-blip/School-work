@@ -52,6 +52,22 @@ The patterns:
 - **Safety filters:** skips games that have started (ESPN status and a time buffer), wide spreads, illiquid markets,
   and 97c+ "locks". Profit numbers include Kalshi's fee.
 
+## What it has learned so far (first backfill, Nov 10 2026)
+
+The learner was seeded with **17,231 settled sports markets** from the previous 21 days, each with its price
+6 hours before the event, across 315 market types. Results on the newest 25%, held out from training:
+
+- **Across all markets, it found no edge over Kalshi's price.** The log-loss was 0.5275 for the model and 0.5275 for the market.
+  For most bet types, the price is already the best estimate, so v2 trusts it.
+- **One market type passed the significance test: NHL game winners.** Favorites won a bit more often than
+  their price implied (learned slope 1.35 on the market's log-odds). Only NHL games can show up in "Best value" for now.
+- Several other families (NBA and college basketball games, NFL totals) *looked* better on the first pass, but didn't clear the
+  2.5-standard-error bar, so they aren't trusted yet. More data from the daily runs will settle it either way.
+
+A lesson from building it: the first backfill picked the highest-*volume* settled markets. That leaked results,
+because props that hit trade heavily as they cash. Priced-at-30% NHL assist props then appeared to hit 74% of the time.
+The backfill now samples at random and filters only on pre-game liquidity.
+
 ## The email
 
 1. **Most likely to hit:** the highest win probability, one per game, priced at 92c or less. It shows the profit

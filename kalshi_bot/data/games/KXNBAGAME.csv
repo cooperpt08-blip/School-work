@@ -1,0 +1,1652 @@
+date,start,event_id,state,home_id,home,home_abbr,home_loc,home_score,away_id,away,away_abbr,away_loc,away_score,neutral
+2025-10-02,2025-10-02T16:00Z,401812480,post,18,New York Knicks,NY,New York,99,20,Philadelphia 76ers,PHI,Philadelphia,84,1
+2025-10-02,2025-10-03T09:30Z,401812481,post,3,New Orleans Pelicans,NO,New Orleans,107,111124,Melbourne United,MEL,Melbourne,97,1
+2025-10-03,2025-10-04T02:00Z,401812482,post,13,Los Angeles Lakers,LAL,Los Angeles,81,21,Phoenix Suns,PHX,Phoenix,103,1
+2025-10-04,2025-10-04T15:00Z,401812483,post,20,Philadelphia 76ers,PHI,Philadelphia,104,18,New York Knicks,NY,New York,113,1
+2025-10-04,2025-10-05T00:00Z,401812484,post,17,Brooklyn Nets,BKN,Brooklyn,123,131570,Hapoel Jerusalem,HAPOEL,,88,0
+2025-10-04,2025-10-05T00:00Z,401812485,post,14,Miami Heat,MIA,Miami,118,19,Orlando Magic,ORL,Orlando,126,1
+2025-10-04,2025-10-05T01:00Z,401812486,post,7,Denver Nuggets,DEN,Denver,116,16,Minnesota Timberwolves,MIN,Minnesota,126,1
+2025-10-04,2025-10-05T03:00Z,401812487,post,3,New Orleans Pelicans,NO,New Orleans,127,126120,Melbourne Pnx,,Melbourne,92,1
+2025-10-05,2025-10-05T21:00Z,401812676,post,30,Charlotte Hornets,CHA,Charlotte,114,25,Oklahoma City Thunder,OKC,Oklahoma City,135,1
+2025-10-05,2025-10-06T00:30Z,401812677,post,9,Golden State Warriors,GS,Golden State,111,13,Los Angeles Lakers,LAL,Los Angeles,103,0
+2025-10-06,2025-10-06T23:30Z,401812678,post,14,Miami Heat,MIA,Miami,93,15,Milwaukee Bucks,MIL,Milwaukee,103,0
+2025-10-06,2025-10-07T00:00Z,401812679,post,10,Houston Rockets,HOU,Houston,122,1,Atlanta Hawks,ATL,Atlanta,113,0
+2025-10-06,2025-10-07T00:00Z,401812680,post,29,Memphis Grizzlies,MEM,Memphis,112,8,Detroit Pistons,DET,Detroit,128,0
+2025-10-06,2025-10-07T00:00Z,401812681,post,24,San Antonio Spurs,SA,San Antonio,119,111136,Guangzhou Loong-Lions,GUA,Guangzhou,88,0
+2025-10-06,2025-10-07T00:30Z,401812682,post,6,Dallas Mavericks,DAL,Dallas,106,25,Oklahoma City Thunder,OKC,Oklahoma City,89,1
+2025-10-06,2025-10-07T02:00Z,401812683,post,28,Toronto Raptors,TOR,Toronto,108,7,Denver Nuggets,DEN,Denver,112,1
+2025-10-07,2025-10-07T23:00Z,401812684,post,5,Cleveland Cavaliers,CLE,Cleveland,117,4,Chicago Bulls,CHI,Chicago,118,0
+2025-10-07,2025-10-08T00:00Z,401812685,post,16,Minnesota Timberwolves,MIN,Minnesota,134,11,Indiana Pacers,IND,Indiana,135,0
+2025-10-08,2025-10-08T23:30Z,401812686,post,14,Miami Heat,MIA,Miami,107,24,San Antonio Spurs,SA,San Antonio,112,0
+2025-10-08,2025-10-09T00:00Z,401812687,post,10,Houston Rockets,HOU,Houston,140,26,Utah Jazz,UTAH,Utah,127,0
+2025-10-08,2025-10-09T00:00Z,401812688,post,29,Memphis Grizzlies,MEM,Memphis,103,2,Boston Celtics,BOS,Boston,121,0
+2025-10-08,2025-10-09T02:00Z,401812689,post,9,Golden State Warriors,GS,Golden State,129,22,Portland Trail Blazers,POR,Portland,123,0
+2025-10-08,2025-10-09T02:00Z,401812690,post,23,Sacramento Kings,SAC,Sacramento,122,28,Toronto Raptors,TOR,Toronto,130,0
+2025-10-09,2025-10-09T23:30Z,401812691,post,18,New York Knicks,NY,New York,100,16,Minnesota Timberwolves,MIN,Minnesota,95,0
+2025-10-09,2025-10-10T00:00Z,401812692,post,4,Chicago Bulls,CHI,Chicago,119,5,Cleveland Cavaliers,CLE,Cleveland,112,0
+2025-10-09,2025-10-10T00:00Z,401812693,post,15,Milwaukee Bucks,MIL,Milwaukee,117,8,Detroit Pistons,DET,Detroit,111,0
+2025-10-09,2025-10-10T00:00Z,401812694,post,25,Oklahoma City Thunder,OKC,Oklahoma City,122,30,Charlotte Hornets,CHA,Charlotte,116,0
+2025-10-09,2025-10-10T02:30Z,401812695,post,12,LA Clippers,LAC,LA,142,111136,Guangzhou Loong-Lions,GUA,Guangzhou,95,1
+2025-10-10,2025-10-10T12:00Z,401812696,post,17,Brooklyn Nets,BKN,Brooklyn,127,21,Phoenix Suns,PHX,Phoenix,132,1
+2025-10-10,2025-10-10T23:00Z,401812697,post,28,Toronto Raptors,TOR,Toronto,107,2,Boston Celtics,BOS,Boston,105,0
+2025-10-10,2025-10-10T23:00Z,401812698,post,20,Philadelphia 76ers,PHI,Philadelphia,98,19,Orlando Magic,ORL,Orlando,128,0
+2025-10-10,2025-10-11T00:00Z,401812699,post,24,San Antonio Spurs,SA,San Antonio,134,26,Utah Jazz,UTAH,Utah,130,0
+2025-10-10,2025-10-11T02:00Z,401812700,post,22,Portland Trail Blazers,POR,Portland,124,23,Sacramento Kings,SAC,Sacramento,123,0
+2025-10-11,2025-10-11T23:00Z,401812701,post,11,Indiana Pacers,IND,Indiana,116,25,Oklahoma City Thunder,OKC,Oklahoma City,101,0
+2025-10-11,2025-10-12T00:00Z,401812702,post,29,Memphis Grizzlies,MEM,Memphis,116,1,Atlanta Hawks,ATL,Atlanta,122,0
+2025-10-11,2025-10-12T00:30Z,401812703,post,6,Dallas Mavericks,DAL,Dallas,116,30,Charlotte Hornets,CHA,Charlotte,120,0
+2025-10-12,2025-10-12T11:00Z,401812704,post,21,Phoenix Suns,PHX,Phoenix,109,17,Brooklyn Nets,BKN,Brooklyn,111,1
+2025-10-12,2025-10-12T19:00Z,401812705,post,27,Washington Wizards,WSH,Washington,112,28,Toronto Raptors,TOR,Toronto,113,0
+2025-10-12,2025-10-12T22:00Z,401812706,post,19,Orlando Magic,ORL,Orlando,120,14,Miami Heat,MIA,Miami,104,0
+2025-10-12,2025-10-12T23:00Z,401812707,post,2,Boston Celtics,BOS,Boston,138,5,Cleveland Cavaliers,CLE,Cleveland,107,0
+2025-10-12,2025-10-12T23:00Z,401812708,post,4,Chicago Bulls,CHI,Chicago,121,15,Milwaukee Bucks,MIL,Milwaukee,127,0
+2025-10-12,2025-10-13T01:30Z,401812709,post,12,LA Clippers,LAC,LA,94,7,Denver Nuggets,DEN,Denver,102,0
+2025-10-12,2025-10-13T01:30Z,401812710,post,13,Los Angeles Lakers,LAL,Los Angeles,126,9,Golden State Warriors,GS,Golden State,116,0
+2025-10-13,2025-10-13T22:00Z,401812711,post,1,Atlanta Hawks,ATL,Atlanta,119,14,Miami Heat,MIA,Miami,118,0
+2025-10-13,2025-10-13T23:00Z,401812712,post,11,Indiana Pacers,IND,Indiana,108,24,San Antonio Spurs,SA,San Antonio,124,0
+2025-10-13,2025-10-13T23:30Z,401812713,post,18,New York Knicks,NY,New York,103,27,Washington Wizards,WSH,Washington,120,0
+2025-10-13,2025-10-14T00:00Z,401812714,post,16,Minnesota Timberwolves,MIN,Minnesota,134,111136,Guangzhou Loong-Lions,GUA,Guangzhou,74,0
+2025-10-13,2025-10-14T01:00Z,401812715,post,26,Utah Jazz,UTAH,Utah,101,6,Dallas Mavericks,DAL,Dallas,114,0
+2025-10-14,2025-10-14T23:00Z,401812716,post,5,Cleveland Cavaliers,CLE,Cleveland,118,8,Detroit Pistons,DET,Detroit,100,0
+2025-10-14,2025-10-15T00:00Z,401812717,post,3,New Orleans Pelicans,NO,New Orleans,128,10,Houston Rockets,HOU,Houston,130,1
+2025-10-14,2025-10-15T00:00Z,401812718,post,15,Milwaukee Bucks,MIL,Milwaukee,112,25,Oklahoma City Thunder,OKC,Oklahoma City,116,0
+2025-10-14,2025-10-15T01:00Z,401812719,post,7,Denver Nuggets,DEN,Denver,124,4,Chicago Bulls,CHI,Chicago,117,0
+2025-10-14,2025-10-15T02:00Z,401812720,post,22,Portland Trail Blazers,POR,Portland,111,9,Golden State Warriors,GS,Golden State,118,0
+2025-10-14,2025-10-15T02:00Z,401812721,post,21,Phoenix Suns,PHX,Phoenix,113,13,Los Angeles Lakers,LAL,Los Angeles,104,0
+2025-10-15,2025-10-15T23:00Z,401812722,post,30,Charlotte Hornets,CHA,Charlotte,145,29,Memphis Grizzlies,MEM,Memphis,116,1
+2025-10-15,2025-10-15T23:30Z,401812723,post,2,Boston Celtics,BOS,Boston,110,28,Toronto Raptors,TOR,Toronto,108,0
+2025-10-15,2025-10-16T02:30Z,401812724,post,13,Los Angeles Lakers,LAL,Los Angeles,94,6,Dallas Mavericks,DAL,Dallas,121,1
+2025-10-15,2025-10-16T02:00Z,401812725,post,23,Sacramento Kings,SAC,Sacramento,91,12,LA Clippers,LAC,LA,109,0
+2025-10-16,2025-10-16T23:00Z,401812726,post,19,Orlando Magic,ORL,Orlando,132,3,New Orleans Pelicans,NO,New Orleans,125,0
+2025-10-16,2025-10-16T23:00Z,401812727,post,8,Detroit Pistons,DET,Detroit,119,27,Washington Wizards,WSH,Washington,98,0
+2025-10-16,2025-10-16T23:30Z,401812728,post,1,Atlanta Hawks,ATL,Atlanta,115,10,Houston Rockets,HOU,Houston,133,0
+2025-10-16,2025-10-17T00:00Z,401812729,post,4,Chicago Bulls,CHI,Chicago,126,16,Minnesota Timberwolves,MIN,Minnesota,120,0
+2025-10-16,2025-10-17T01:00Z,401812730,post,26,Utah Jazz,UTAH,Utah,132,22,Portland Trail Blazers,POR,Portland,129,0
+2025-10-17,2025-10-17T23:00Z,401812731,post,28,Toronto Raptors,TOR,Toronto,119,17,Brooklyn Nets,BKN,Brooklyn,114,0
+2025-10-17,2025-10-17T23:00Z,401812732,post,20,Philadelphia 76ers,PHI,Philadelphia,126,16,Minnesota Timberwolves,MIN,Minnesota,110,0
+2025-10-17,2025-10-17T23:30Z,401812733,post,18,New York Knicks,NY,New York,113,30,Charlotte Hornets,CHA,Charlotte,108,0
+2025-10-17,2025-10-18T00:00Z,401812734,post,14,Miami Heat,MIA,Miami,125,29,Memphis Grizzlies,MEM,Memphis,141,0
+2025-10-17,2025-10-18T00:00Z,401812735,post,25,Oklahoma City Thunder,OKC,Oklahoma City,94,7,Denver Nuggets,DEN,Denver,91,0
+2025-10-17,2025-10-18T00:00Z,401812736,post,24,San Antonio Spurs,SA,San Antonio,133,11,Indiana Pacers,IND,Indiana,104,0
+2025-10-17,2025-10-18T02:00Z,401812737,post,9,Golden State Warriors,GS,Golden State,103,12,LA Clippers,LAC,LA,106,0
+2025-10-17,2025-10-18T02:30Z,401812738,post,13,Los Angeles Lakers,LAL,Los Angeles,116,23,Sacramento Kings,SAC,Sacramento,117,0
+2025-10-21,2025-10-21T23:30Z,401809243,post,25,Oklahoma City Thunder,OKC,Oklahoma City,125,10,Houston Rockets,HOU,Houston,124,0
+2025-10-21,2025-10-22T02:00Z,401809244,post,13,Los Angeles Lakers,LAL,Los Angeles,109,9,Golden State Warriors,GS,Golden State,119,0
+2025-10-22,2025-10-22T23:00Z,401809234,post,18,New York Knicks,NY,New York,119,5,Cleveland Cavaliers,CLE,Cleveland,111,0
+2025-10-22,2025-10-23T01:47Z,401809235,post,6,Dallas Mavericks,DAL,Dallas,92,24,San Antonio Spurs,SA,San Antonio,125,0
+2025-10-22,2025-10-22T23:00Z,401809933,post,30,Charlotte Hornets,CHA,Charlotte,136,17,Brooklyn Nets,BKN,Brooklyn,117,0
+2025-10-22,2025-10-22T23:00Z,401809934,post,19,Orlando Magic,ORL,Orlando,125,14,Miami Heat,MIA,Miami,121,0
+2025-10-22,2025-10-22T23:30Z,401809935,post,1,Atlanta Hawks,ATL,Atlanta,118,28,Toronto Raptors,TOR,Toronto,138,0
+2025-10-22,2025-10-22T23:30Z,401809936,post,2,Boston Celtics,BOS,Boston,116,20,Philadelphia 76ers,PHI,Philadelphia,117,0
+2025-10-22,2025-10-23T00:00Z,401809937,post,4,Chicago Bulls,CHI,Chicago,115,8,Detroit Pistons,DET,Detroit,111,0
+2025-10-22,2025-10-23T00:00Z,401809938,post,29,Memphis Grizzlies,MEM,Memphis,128,3,New Orleans Pelicans,NO,New Orleans,122,0
+2025-10-22,2025-10-23T00:00Z,401809939,post,15,Milwaukee Bucks,MIL,Milwaukee,133,27,Washington Wizards,WSH,Washington,120,0
+2025-10-22,2025-10-23T01:00Z,401809940,post,26,Utah Jazz,UTAH,Utah,129,12,LA Clippers,LAC,LA,108,0
+2025-10-22,2025-10-23T02:00Z,401809941,post,21,Phoenix Suns,PHX,Phoenix,120,23,Sacramento Kings,SAC,Sacramento,116,0
+2025-10-22,2025-10-23T02:00Z,401809942,post,22,Portland Trail Blazers,POR,Portland,114,16,Minnesota Timberwolves,MIN,Minnesota,118,0
+2025-10-23,2025-10-23T23:30Z,401809236,post,11,Indiana Pacers,IND,Indiana,135,25,Oklahoma City Thunder,OKC,Oklahoma City,141,0
+2025-10-23,2025-10-24T02:17Z,401809237,post,9,Golden State Warriors,GS,Golden State,137,7,Denver Nuggets,DEN,Denver,131,0
+2025-10-24,2025-10-24T23:00Z,401809943,post,19,Orlando Magic,ORL,Orlando,107,1,Atlanta Hawks,ATL,Atlanta,111,0
+2025-10-24,2025-10-24T23:30Z,401809944,post,17,Brooklyn Nets,BKN,Brooklyn,124,5,Cleveland Cavaliers,CLE,Cleveland,131,0
+2025-10-24,2025-10-24T23:30Z,401809945,post,18,New York Knicks,NY,New York,105,2,Boston Celtics,BOS,Boston,95,0
+2025-10-24,2025-10-24T22:30Z,401809946,post,28,Toronto Raptors,TOR,Toronto,116,15,Milwaukee Bucks,MIL,Milwaukee,122,0
+2025-10-24,2025-10-25T00:00Z,401809947,post,10,Houston Rockets,HOU,Houston,111,8,Detroit Pistons,DET,Detroit,115,0
+2025-10-24,2025-10-25T00:00Z,401809948,post,29,Memphis Grizzlies,MEM,Memphis,114,14,Miami Heat,MIA,Miami,146,0
+2025-10-24,2025-10-25T00:00Z,401809949,post,3,New Orleans Pelicans,NO,New Orleans,116,24,San Antonio Spurs,SA,San Antonio,120,0
+2025-10-24,2025-10-25T00:30Z,401809950,post,6,Dallas Mavericks,DAL,Dallas,107,27,Washington Wizards,WSH,Washington,117,0
+2025-10-24,2025-10-25T02:00Z,401809951,post,13,Los Angeles Lakers,LAL,Los Angeles,128,16,Minnesota Timberwolves,MIN,Minnesota,110,0
+2025-10-24,2025-10-25T02:00Z,401809952,post,22,Portland Trail Blazers,POR,Portland,139,9,Golden State Warriors,GS,Golden State,119,0
+2025-10-24,2025-10-25T02:00Z,401809953,post,23,Sacramento Kings,SAC,Sacramento,105,26,Utah Jazz,UTAH,Utah,104,0
+2025-10-24,2025-10-25T02:30Z,401809954,post,12,LA Clippers,LAC,LA,129,21,Phoenix Suns,PHX,Phoenix,102,0
+2025-10-25,2025-10-25T23:00Z,401809955,post,19,Orlando Magic,ORL,Orlando,98,4,Chicago Bulls,CHI,Chicago,110,0
+2025-10-25,2025-10-25T23:30Z,401809956,post,1,Atlanta Hawks,ATL,Atlanta,100,25,Oklahoma City Thunder,OKC,Oklahoma City,117,0
+2025-10-25,2025-10-25T23:30Z,401809957,post,20,Philadelphia 76ers,PHI,Philadelphia,125,30,Charlotte Hornets,CHA,Charlotte,121,0
+2025-10-25,2025-10-26T00:00Z,401809958,post,29,Memphis Grizzlies,MEM,Memphis,128,11,Indiana Pacers,IND,Indiana,103,0
+2025-10-25,2025-10-26T01:00Z,401809959,post,7,Denver Nuggets,DEN,Denver,133,21,Phoenix Suns,PHX,Phoenix,111,0
+2025-10-26,2025-10-26T18:00Z,401809960,post,24,San Antonio Spurs,SA,San Antonio,118,17,Brooklyn Nets,BKN,Brooklyn,107,0
+2025-10-26,2025-10-26T19:30Z,401809961,post,8,Detroit Pistons,DET,Detroit,119,2,Boston Celtics,BOS,Boston,113,0
+2025-10-26,2025-10-26T22:00Z,401809962,post,5,Cleveland Cavaliers,CLE,Cleveland,118,15,Milwaukee Bucks,MIL,Milwaukee,113,0
+2025-10-26,2025-10-26T22:00Z,401809963,post,14,Miami Heat,MIA,Miami,115,18,New York Knicks,NY,New York,107,0
+2025-10-26,2025-10-26T22:00Z,401809964,post,27,Washington Wizards,WSH,Washington,113,30,Charlotte Hornets,CHA,Charlotte,139,0
+2025-10-26,2025-10-26T23:00Z,401809965,post,16,Minnesota Timberwolves,MIN,Minnesota,114,11,Indiana Pacers,IND,Indiana,110,0
+2025-10-26,2025-10-26T23:30Z,401809966,post,6,Dallas Mavericks,DAL,Dallas,139,28,Toronto Raptors,TOR,Toronto,129,0
+2025-10-26,2025-10-27T01:00Z,401809967,post,12,LA Clippers,LAC,LA,114,22,Portland Trail Blazers,POR,Portland,107,0
+2025-10-26,2025-10-27T01:00Z,401809968,post,23,Sacramento Kings,SAC,Sacramento,120,13,Los Angeles Lakers,LAL,Los Angeles,127,0
+2025-10-27,2025-10-27T23:00Z,401809245,post,8,Detroit Pistons,DET,Detroit,95,5,Cleveland Cavaliers,CLE,Cleveland,116,0
+2025-10-27,2025-10-28T01:30Z,401809246,post,16,Minnesota Timberwolves,MIN,Minnesota,114,7,Denver Nuggets,DEN,Denver,127,0
+2025-10-27,2025-10-27T23:00Z,401809969,post,20,Philadelphia 76ers,PHI,Philadelphia,136,19,Orlando Magic,ORL,Orlando,124,0
+2025-10-27,2025-10-28T00:00Z,401809970,post,4,Chicago Bulls,CHI,Chicago,128,1,Atlanta Hawks,ATL,Atlanta,123,0
+2025-10-27,2025-10-28T00:00Z,401809971,post,10,Houston Rockets,HOU,Houston,137,17,Brooklyn Nets,BKN,Brooklyn,109,0
+2025-10-27,2025-10-28T00:00Z,401809972,post,3,New Orleans Pelicans,NO,New Orleans,90,2,Boston Celtics,BOS,Boston,122,0
+2025-10-27,2025-10-28T00:00Z,401809973,post,24,San Antonio Spurs,SA,San Antonio,121,28,Toronto Raptors,TOR,Toronto,103,0
+2025-10-27,2025-10-28T00:30Z,401809974,post,6,Dallas Mavericks,DAL,Dallas,94,25,Oklahoma City Thunder,OKC,Oklahoma City,101,0
+2025-10-27,2025-10-28T01:00Z,401809975,post,26,Utah Jazz,UTAH,Utah,138,21,Phoenix Suns,PHX,Phoenix,134,0
+2025-10-27,2025-10-28T02:00Z,401809976,post,9,Golden State Warriors,GS,Golden State,131,29,Memphis Grizzlies,MEM,Memphis,118,0
+2025-10-27,2025-10-28T02:30Z,401809977,post,13,Los Angeles Lakers,LAL,Los Angeles,108,22,Portland Trail Blazers,POR,Portland,122,0
+2025-10-28,2025-10-28T23:00Z,401809978,post,27,Washington Wizards,WSH,Washington,134,20,Philadelphia 76ers,PHI,Philadelphia,139,0
+2025-10-28,2025-10-28T23:30Z,401809979,post,14,Miami Heat,MIA,Miami,144,30,Charlotte Hornets,CHA,Charlotte,117,0
+2025-10-28,2025-10-29T00:00Z,401809980,post,15,Milwaukee Bucks,MIL,Milwaukee,121,18,New York Knicks,NY,New York,111,0
+2025-10-28,2025-10-29T00:00Z,401809981,post,25,Oklahoma City Thunder,OKC,Oklahoma City,107,23,Sacramento Kings,SAC,Sacramento,101,0
+2025-10-28,2025-10-29T03:00Z,401809982,post,9,Golden State Warriors,GS,Golden State,98,12,LA Clippers,LAC,LA,79,0
+2025-10-29,2025-10-29T23:00Z,401809983,post,2,Boston Celtics,BOS,Boston,125,5,Cleveland Cavaliers,CLE,Cleveland,105,0
+2025-10-29,2025-10-29T23:00Z,401809984,post,8,Detroit Pistons,DET,Detroit,135,19,Orlando Magic,ORL,Orlando,116,0
+2025-10-29,2025-10-29T23:30Z,401809985,post,17,Brooklyn Nets,BKN,Brooklyn,112,1,Atlanta Hawks,ATL,Atlanta,117,0
+2025-10-29,2025-10-29T22:30Z,401809986,post,28,Toronto Raptors,TOR,Toronto,121,10,Houston Rockets,HOU,Houston,139,0
+2025-10-29,2025-10-30T00:00Z,401809987,post,4,Chicago Bulls,CHI,Chicago,126,23,Sacramento Kings,SAC,Sacramento,113,0
+2025-10-29,2025-10-30T00:30Z,401809988,post,6,Dallas Mavericks,DAL,Dallas,107,11,Indiana Pacers,IND,Indiana,105,0
+2025-10-29,2025-10-30T01:00Z,401809989,post,7,Denver Nuggets,DEN,Denver,122,3,New Orleans Pelicans,NO,New Orleans,88,0
+2025-10-29,2025-10-30T01:00Z,401809990,post,26,Utah Jazz,UTAH,Utah,134,22,Portland Trail Blazers,POR,Portland,136,0
+2025-10-29,2025-10-30T01:30Z,401809991,post,16,Minnesota Timberwolves,MIN,Minnesota,115,13,Los Angeles Lakers,LAL,Los Angeles,116,0
+2025-10-29,2025-10-30T02:00Z,401809992,post,21,Phoenix Suns,PHX,Phoenix,113,29,Memphis Grizzlies,MEM,Memphis,114,0
+2025-10-30,2025-10-30T23:00Z,401809993,post,30,Charlotte Hornets,CHA,Charlotte,107,19,Orlando Magic,ORL,Orlando,123,0
+2025-10-30,2025-10-31T00:00Z,401809994,post,15,Milwaukee Bucks,MIL,Milwaukee,120,9,Golden State Warriors,GS,Golden State,110,0
+2025-10-30,2025-10-31T00:00Z,401809995,post,25,Oklahoma City Thunder,OKC,Oklahoma City,127,27,Washington Wizards,WSH,Washington,108,0
+2025-10-30,2025-10-31T00:30Z,401809996,post,24,San Antonio Spurs,SA,San Antonio,107,14,Miami Heat,MIA,Miami,101,0
+2025-10-31,2025-10-31T23:00Z,401809502,post,11,Indiana Pacers,IND,Indiana,108,1,Atlanta Hawks,ATL,Atlanta,128,0
+2025-10-31,2025-10-31T23:00Z,401809503,post,20,Philadelphia 76ers,PHI,Philadelphia,108,2,Boston Celtics,BOS,Boston,109,0
+2025-10-31,2025-10-31T23:30Z,401809504,post,5,Cleveland Cavaliers,CLE,Cleveland,101,28,Toronto Raptors,TOR,Toronto,112,0
+2025-10-31,2025-11-01T00:00Z,401809505,post,4,Chicago Bulls,CHI,Chicago,135,18,New York Knicks,NY,New York,125,0
+2025-10-31,2025-11-01T01:30Z,401809506,post,29,Memphis Grizzlies,MEM,Memphis,112,13,Los Angeles Lakers,LAL,Los Angeles,117,0
+2025-10-31,2025-11-01T02:00Z,401809507,post,21,Phoenix Suns,PHX,Phoenix,118,26,Utah Jazz,UTAH,Utah,96,0
+2025-10-31,2025-11-01T02:00Z,401809508,post,22,Portland Trail Blazers,POR,Portland,109,7,Denver Nuggets,DEN,Denver,107,0
+2025-10-31,2025-11-01T02:30Z,401809509,post,12,LA Clippers,LAC,LA,126,3,New Orleans Pelicans,NO,New Orleans,124,0
+2025-11-01,2025-11-01T21:00Z,401809997,post,15,Milwaukee Bucks,MIL,Milwaukee,133,23,Sacramento Kings,SAC,Sacramento,135,0
+2025-11-01,2025-11-01T22:00Z,401809998,post,30,Charlotte Hornets,CHA,Charlotte,105,16,Minnesota Timberwolves,MIN,Minnesota,122,0
+2025-11-01,2025-11-01T23:00Z,401809999,post,11,Indiana Pacers,IND,Indiana,114,9,Golden State Warriors,GS,Golden State,109,0
+2025-11-01,2025-11-01T23:00Z,401810000,post,27,Washington Wizards,WSH,Washington,94,19,Orlando Magic,ORL,Orlando,125,0
+2025-11-01,2025-11-02T00:00Z,401810001,post,2,Boston Celtics,BOS,Boston,101,10,Houston Rockets,HOU,Houston,128,0
+2025-11-01,2025-11-02T02:00Z,401810002,post,8,Detroit Pistons,DET,Detroit,122,6,Dallas Mavericks,DAL,Dallas,110,1
+2025-11-02,2025-11-02T20:30Z,401810003,post,25,Oklahoma City Thunder,OKC,Oklahoma City,137,3,New Orleans Pelicans,NO,New Orleans,106,0
+2025-11-02,2025-11-02T23:00Z,401810004,post,17,Brooklyn Nets,BKN,Brooklyn,105,20,Philadelphia 76ers,PHI,Philadelphia,129,0
+2025-11-02,2025-11-02T23:00Z,401810005,post,30,Charlotte Hornets,CHA,Charlotte,126,26,Utah Jazz,UTAH,Utah,103,0
+2025-11-02,2025-11-02T23:00Z,401810006,post,5,Cleveland Cavaliers,CLE,Cleveland,117,1,Atlanta Hawks,ATL,Atlanta,109,0
+2025-11-02,2025-11-02T23:00Z,401810007,post,28,Toronto Raptors,TOR,Toronto,117,29,Memphis Grizzlies,MEM,Memphis,104,0
+2025-11-02,2025-11-03T00:00Z,401810008,post,18,New York Knicks,NY,New York,128,4,Chicago Bulls,CHI,Chicago,116,0
+2025-11-02,2025-11-03T01:00Z,401810009,post,21,Phoenix Suns,PHX,Phoenix,130,24,San Antonio Spurs,SA,San Antonio,118,0
+2025-11-02,2025-11-03T02:30Z,401810010,post,13,Los Angeles Lakers,LAL,Los Angeles,130,14,Miami Heat,MIA,Miami,120,0
+2025-11-03,2025-11-04T00:00Z,401810011,post,17,Brooklyn Nets,BKN,Brooklyn,109,16,Minnesota Timberwolves,MIN,Minnesota,125,0
+2025-11-03,2025-11-04T00:00Z,401810012,post,11,Indiana Pacers,IND,Indiana,115,15,Milwaukee Bucks,MIL,Milwaukee,117,0
+2025-11-03,2025-11-04T00:30Z,401810013,post,2,Boston Celtics,BOS,Boston,103,26,Utah Jazz,UTAH,Utah,105,0
+2025-11-03,2025-11-04T00:30Z,401810014,post,18,New York Knicks,NY,New York,119,27,Washington Wizards,WSH,Washington,102,0
+2025-11-03,2025-11-04T01:00Z,401810015,post,10,Houston Rockets,HOU,Houston,110,6,Dallas Mavericks,DAL,Dallas,102,0
+2025-11-03,2025-11-04T01:00Z,401810016,post,29,Memphis Grizzlies,MEM,Memphis,106,8,Detroit Pistons,DET,Detroit,114,0
+2025-11-03,2025-11-04T02:00Z,401810017,post,7,Denver Nuggets,DEN,Denver,130,23,Sacramento Kings,SAC,Sacramento,124,0
+2025-11-03,2025-11-04T03:00Z,401810018,post,22,Portland Trail Blazers,POR,Portland,115,13,Los Angeles Lakers,LAL,Los Angeles,123,0
+2025-11-03,2025-11-04T03:30Z,401810019,post,12,LA Clippers,LAC,LA,119,14,Miami Heat,MIA,Miami,120,0
+2025-11-04,2025-11-05T00:30Z,401810020,post,28,Toronto Raptors,TOR,Toronto,128,15,Milwaukee Bucks,MIL,Milwaukee,100,0
+2025-11-04,2025-11-05T01:00Z,401810021,post,1,Atlanta Hawks,ATL,Atlanta,127,19,Orlando Magic,ORL,Orlando,112,0
+2025-11-04,2025-11-05T01:00Z,401810022,post,4,Chicago Bulls,CHI,Chicago,113,20,Philadelphia 76ers,PHI,Philadelphia,111,0
+2025-11-04,2025-11-05T01:00Z,401810023,post,3,New Orleans Pelicans,NO,New Orleans,116,30,Charlotte Hornets,CHA,Charlotte,112,0
+2025-11-04,2025-11-05T03:00Z,401810024,post,9,Golden State Warriors,GS,Golden State,118,21,Phoenix Suns,PHX,Phoenix,107,0
+2025-11-04,2025-11-05T04:00Z,401810025,post,12,LA Clippers,LAC,LA,107,25,Oklahoma City Thunder,OKC,Oklahoma City,126,0
+2025-11-05,2025-11-06T00:00Z,401810026,post,5,Cleveland Cavaliers,CLE,Cleveland,132,20,Philadelphia 76ers,PHI,Philadelphia,121,0
+2025-11-05,2025-11-06T00:00Z,401810027,post,8,Detroit Pistons,DET,Detroit,114,26,Utah Jazz,UTAH,Utah,103,0
+2025-11-05,2025-11-06T00:00Z,401810028,post,11,Indiana Pacers,IND,Indiana,103,17,Brooklyn Nets,BKN,Brooklyn,112,0
+2025-11-05,2025-11-06T00:30Z,401810029,post,2,Boston Celtics,BOS,Boston,136,27,Washington Wizards,WSH,Washington,107,0
+2025-11-05,2025-11-06T00:30Z,401810030,post,18,New York Knicks,NY,New York,137,16,Minnesota Timberwolves,MIN,Minnesota,114,0
+2025-11-05,2025-11-06T01:00Z,401810031,post,29,Memphis Grizzlies,MEM,Memphis,109,10,Houston Rockets,HOU,Houston,124,0
+2025-11-05,2025-11-06T01:30Z,401810032,post,6,Dallas Mavericks,DAL,Dallas,99,3,New Orleans Pelicans,NO,New Orleans,101,0
+2025-11-05,2025-11-06T02:00Z,401810033,post,7,Denver Nuggets,DEN,Denver,122,14,Miami Heat,MIA,Miami,112,0
+2025-11-05,2025-11-06T03:00Z,401810034,post,13,Los Angeles Lakers,LAL,Los Angeles,118,24,San Antonio Spurs,SA,San Antonio,116,0
+2025-11-05,2025-11-06T03:00Z,401810035,post,22,Portland Trail Blazers,POR,Portland,121,25,Oklahoma City Thunder,OKC,Oklahoma City,119,0
+2025-11-05,2025-11-06T03:00Z,401810036,post,23,Sacramento Kings,SAC,Sacramento,121,9,Golden State Warriors,GS,Golden State,116,0
+2025-11-06,2025-11-07T02:00Z,401810037,post,21,Phoenix Suns,PHX,Phoenix,115,12,LA Clippers,LAC,LA,102,0
+2025-11-07,2025-11-08T00:00Z,401809510,post,19,Orlando Magic,ORL,Orlando,123,2,Boston Celtics,BOS,Boston,110,0
+2025-11-07,2025-11-08T00:00Z,401809511,post,27,Washington Wizards,WSH,Washington,115,5,Cleveland Cavaliers,CLE,Cleveland,148,0
+2025-11-07,2025-11-08T00:30Z,401809512,post,1,Atlanta Hawks,ATL,Atlanta,97,28,Toronto Raptors,TOR,Toronto,109,0
+2025-11-07,2025-11-08T00:30Z,401809773,post,17,Brooklyn Nets,BKN,Brooklyn,107,8,Detroit Pistons,DET,Detroit,125,0
+2025-11-07,2025-11-08T00:30Z,401809774,post,24,San Antonio Spurs,SA,San Antonio,121,10,Houston Rockets,HOU,Houston,110,0
+2025-11-07,2025-11-08T01:00Z,401809775,post,14,Miami Heat,MIA,Miami,126,30,Charlotte Hornets,CHA,Charlotte,108,0
+2025-11-07,2025-11-08T01:00Z,401809776,post,29,Memphis Grizzlies,MEM,Memphis,118,6,Dallas Mavericks,DAL,Dallas,104,0
+2025-11-07,2025-11-08T01:00Z,401809777,post,15,Milwaukee Bucks,MIL,Milwaukee,126,4,Chicago Bulls,CHI,Chicago,110,0
+2025-11-07,2025-11-08T01:00Z,401809778,post,16,Minnesota Timberwolves,MIN,Minnesota,137,26,Utah Jazz,UTAH,Utah,97,0
+2025-11-07,2025-11-08T03:00Z,401809779,post,7,Denver Nuggets,DEN,Denver,129,9,Golden State Warriors,GS,Golden State,104,0
+2025-11-07,2025-11-08T03:00Z,401809780,post,23,Sacramento Kings,SAC,Sacramento,101,25,Oklahoma City Thunder,OKC,Oklahoma City,132,0
+2025-11-08,2025-11-09T00:00Z,401810038,post,27,Washington Wizards,WSH,Washington,105,6,Dallas Mavericks,DAL,Dallas,111,0
+2025-11-08,2025-11-09T00:30Z,401810039,post,20,Philadelphia 76ers,PHI,Philadelphia,130,28,Toronto Raptors,TOR,Toronto,120,0
+2025-11-08,2025-11-09T01:00Z,401810040,post,1,Atlanta Hawks,ATL,Atlanta,122,13,Los Angeles Lakers,LAL,Los Angeles,102,0
+2025-11-08,2025-11-09T01:00Z,401810041,post,5,Cleveland Cavaliers,CLE,Cleveland,128,4,Chicago Bulls,CHI,Chicago,122,0
+2025-11-08,2025-11-09T01:00Z,401810042,post,14,Miami Heat,MIA,Miami,136,22,Portland Trail Blazers,POR,Portland,131,0
+2025-11-08,2025-11-09T01:00Z,401810043,post,24,San Antonio Spurs,SA,San Antonio,126,3,New Orleans Pelicans,NO,New Orleans,119,0
+2025-11-08,2025-11-09T02:00Z,401810044,post,7,Denver Nuggets,DEN,Denver,117,11,Indiana Pacers,IND,Indiana,100,0
+2025-11-08,2025-11-09T03:30Z,401810045,post,12,LA Clippers,LAC,LA,103,21,Phoenix Suns,PHX,Phoenix,114,0
+2025-11-09,2025-11-09T20:30Z,401810046,post,15,Milwaukee Bucks,MIL,Milwaukee,115,10,Houston Rockets,HOU,Houston,122,0
+2025-11-09,2025-11-09T23:00Z,401810047,post,18,New York Knicks,NY,New York,134,17,Brooklyn Nets,BKN,Brooklyn,98,0
+2025-11-09,2025-11-09T23:00Z,401810048,post,19,Orlando Magic,ORL,Orlando,107,2,Boston Celtics,BOS,Boston,111,0
+2025-11-09,2025-11-09T23:00Z,401810049,post,29,Memphis Grizzlies,MEM,Memphis,100,25,Oklahoma City Thunder,OKC,Oklahoma City,114,0
+2025-11-09,2025-11-10T00:30Z,401810050,post,20,Philadelphia 76ers,PHI,Philadelphia,108,8,Detroit Pistons,DET,Detroit,111,0
+2025-11-09,2025-11-10T01:30Z,401810051,post,9,Golden State Warriors,GS,Golden State,114,11,Indiana Pacers,IND,Indiana,83,0
+2025-11-09,2025-11-10T02:00Z,401810052,post,23,Sacramento Kings,SAC,Sacramento,117,16,Minnesota Timberwolves,MIN,Minnesota,144,0
+2025-11-10,2025-11-11T00:00Z,401810053,post,30,Charlotte Hornets,CHA,Charlotte,111,13,Los Angeles Lakers,LAL,Los Angeles,121,0
+2025-11-10,2025-11-11T00:00Z,401810054,post,8,Detroit Pistons,DET,Detroit,137,27,Washington Wizards,WSH,Washington,135,0
+2025-11-10,2025-11-11T00:00Z,401810055,post,19,Orlando Magic,ORL,Orlando,115,22,Portland Trail Blazers,POR,Portland,112,0
+2025-11-10,2025-11-11T00:30Z,401810056,post,14,Miami Heat,MIA,Miami,140,5,Cleveland Cavaliers,CLE,Cleveland,138,0
+2025-11-10,2025-11-11T01:00Z,401810057,post,4,Chicago Bulls,CHI,Chicago,117,24,San Antonio Spurs,SA,San Antonio,121,0
+2025-11-10,2025-11-11T01:30Z,401810058,post,6,Dallas Mavericks,DAL,Dallas,114,15,Milwaukee Bucks,MIL,Milwaukee,116,0
+2025-11-10,2025-11-11T02:00Z,401810059,post,21,Phoenix Suns,PHX,Phoenix,121,3,New Orleans Pelicans,NO,New Orleans,98,0
+2025-11-10,2025-11-11T02:00Z,401810060,post,26,Utah Jazz,UTAH,Utah,113,16,Minnesota Timberwolves,MIN,Minnesota,120,0
+2025-11-10,2025-11-11T03:30Z,401810061,post,12,LA Clippers,LAC,LA,102,1,Atlanta Hawks,ATL,Atlanta,105,0
+2025-11-11,2025-11-12T00:30Z,401810062,post,17,Brooklyn Nets,BKN,Brooklyn,109,28,Toronto Raptors,TOR,Toronto,119,0
+2025-11-11,2025-11-12T00:30Z,401810063,post,18,New York Knicks,NY,New York,133,29,Memphis Grizzlies,MEM,Memphis,120,0
+2025-11-11,2025-11-12T01:00Z,401810064,post,20,Philadelphia 76ers,PHI,Philadelphia,102,2,Boston Celtics,BOS,Boston,100,0
+2025-11-11,2025-11-12T01:00Z,401810065,post,25,Oklahoma City Thunder,OKC,Oklahoma City,126,9,Golden State Warriors,GS,Golden State,102,0
+2025-11-11,2025-11-12T02:00Z,401810066,post,26,Utah Jazz,UTAH,Utah,152,11,Indiana Pacers,IND,Indiana,128,0
+2025-11-11,2025-11-12T04:00Z,401810067,post,23,Sacramento Kings,SAC,Sacramento,108,7,Denver Nuggets,DEN,Denver,122,0
+2025-11-12,2025-11-13T00:00Z,401810068,post,30,Charlotte Hornets,CHA,Charlotte,111,15,Milwaukee Bucks,MIL,Milwaukee,100,0
+2025-11-12,2025-11-13T00:00Z,401810069,post,8,Detroit Pistons,DET,Detroit,124,4,Chicago Bulls,CHI,Chicago,113,0
+2025-11-12,2025-11-13T00:00Z,401810070,post,18,New York Knicks,NY,New York,107,19,Orlando Magic,ORL,Orlando,124,0
+2025-11-12,2025-11-13T00:30Z,401810071,post,2,Boston Celtics,BOS,Boston,131,29,Memphis Grizzlies,MEM,Memphis,95,0
+2025-11-12,2025-11-13T00:30Z,401810072,post,14,Miami Heat,MIA,Miami,116,5,Cleveland Cavaliers,CLE,Cleveland,130,0
+2025-11-12,2025-11-13T01:00Z,401810073,post,10,Houston Rockets,HOU,Houston,135,27,Washington Wizards,WSH,Washington,112,0
+2025-11-12,2025-11-13T01:00Z,401810074,post,3,New Orleans Pelicans,NO,New Orleans,117,22,Portland Trail Blazers,POR,Portland,125,0
+2025-11-12,2025-11-13T01:00Z,401810075,post,24,San Antonio Spurs,SA,San Antonio,120,9,Golden State Warriors,GS,Golden State,125,0
+2025-11-12,2025-11-13T01:30Z,401810076,post,6,Dallas Mavericks,DAL,Dallas,114,21,Phoenix Suns,PHX,Phoenix,123,0
+2025-11-12,2025-11-13T02:47Z,401810077,post,25,Oklahoma City Thunder,OKC,Oklahoma City,121,13,Los Angeles Lakers,LAL,Los Angeles,92,0
+2025-11-12,2025-11-13T03:00Z,401810078,post,23,Sacramento Kings,SAC,Sacramento,100,1,Atlanta Hawks,ATL,Atlanta,133,0
+2025-11-12,2025-11-13T03:30Z,401810079,post,12,LA Clippers,LAC,LA,116,7,Denver Nuggets,DEN,Denver,130,0
+2025-11-13,2025-11-14T00:00Z,401810080,post,5,Cleveland Cavaliers,CLE,Cleveland,113,28,Toronto Raptors,TOR,Toronto,126,0
+2025-11-13,2025-11-14T02:00Z,401810081,post,21,Phoenix Suns,PHX,Phoenix,133,11,Indiana Pacers,IND,Indiana,98,0
+2025-11-13,2025-11-14T02:00Z,401810082,post,26,Utah Jazz,UTAH,Utah,122,1,Atlanta Hawks,ATL,Atlanta,132,0
+2025-11-14,2025-11-15T00:00Z,401809781,post,18,New York Knicks,NY,New York,140,14,Miami Heat,MIA,Miami,132,0
+2025-11-14,2025-11-15T00:00Z,401809782,post,19,Orlando Magic,ORL,Orlando,105,17,Brooklyn Nets,BKN,Brooklyn,98,0
+2025-11-14,2025-11-15T00:30Z,401809783,post,8,Detroit Pistons,DET,Detroit,114,20,Philadelphia 76ers,PHI,Philadelphia,105,0
+2025-11-14,2025-11-15T01:00Z,401809784,post,10,Houston Rockets,HOU,Houston,140,22,Portland Trail Blazers,POR,Portland,116,0
+2025-11-14,2025-11-15T01:00Z,401809785,post,15,Milwaukee Bucks,MIL,Milwaukee,147,30,Charlotte Hornets,CHA,Charlotte,134,0
+2025-11-14,2025-11-15T01:00Z,401809786,post,16,Minnesota Timberwolves,MIN,Minnesota,124,23,Sacramento Kings,SAC,Sacramento,110,0
+2025-11-14,2025-11-15T01:00Z,401809787,post,3,New Orleans Pelicans,NO,New Orleans,104,13,Los Angeles Lakers,LAL,Los Angeles,118,0
+2025-11-14,2025-11-15T01:30Z,401809788,post,6,Dallas Mavericks,DAL,Dallas,127,12,LA Clippers,LAC,LA,133,0
+2025-11-14,2025-11-15T02:30Z,401809789,post,24,San Antonio Spurs,SA,San Antonio,108,9,Golden State Warriors,GS,Golden State,109,0
+2025-11-15,2025-11-15T22:00Z,401810083,post,5,Cleveland Cavaliers,CLE,Cleveland,108,29,Memphis Grizzlies,MEM,Memphis,100,0
+2025-11-15,2025-11-16T00:00Z,401810084,post,30,Charlotte Hornets,CHA,Charlotte,96,25,Oklahoma City Thunder,OKC,Oklahoma City,109,0
+2025-11-15,2025-11-16T00:00Z,401810085,post,11,Indiana Pacers,IND,Indiana,111,28,Toronto Raptors,TOR,Toronto,129,0
+2025-11-15,2025-11-16T01:00Z,401810086,post,15,Milwaukee Bucks,MIL,Milwaukee,95,13,Los Angeles Lakers,LAL,Los Angeles,119,0
+2025-11-15,2025-11-16T01:00Z,401810087,post,16,Minnesota Timberwolves,MIN,Minnesota,112,7,Denver Nuggets,DEN,Denver,123,0
+2025-11-16,2025-11-16T20:30Z,401810088,post,2,Boston Celtics,BOS,Boston,121,12,LA Clippers,LAC,LA,118,0
+2025-11-16,2025-11-16T21:00Z,401810089,post,24,San Antonio Spurs,SA,San Antonio,123,23,Sacramento Kings,SAC,Sacramento,110,0
+2025-11-16,2025-11-16T23:00Z,401810090,post,27,Washington Wizards,WSH,Washington,106,17,Brooklyn Nets,BKN,Brooklyn,129,0
+2025-11-16,2025-11-17T00:00Z,401810091,post,10,Houston Rockets,HOU,Houston,117,19,Orlando Magic,ORL,Orlando,113,0
+2025-11-16,2025-11-17T00:00Z,401810092,post,3,New Orleans Pelicans,NO,New Orleans,106,9,Golden State Warriors,GS,Golden State,124,0
+2025-11-16,2025-11-17T00:30Z,401810093,post,6,Dallas Mavericks,DAL,Dallas,138,22,Portland Trail Blazers,POR,Portland,133,0
+2025-11-16,2025-11-17T01:00Z,401810094,post,21,Phoenix Suns,PHX,Phoenix,122,1,Atlanta Hawks,ATL,Atlanta,124,0
+2025-11-16,2025-11-17T01:00Z,401810095,post,26,Utah Jazz,UTAH,Utah,150,4,Chicago Bulls,CHI,Chicago,147,0
+2025-11-17,2025-11-18T00:00Z,401810096,post,5,Cleveland Cavaliers,CLE,Cleveland,118,15,Milwaukee Bucks,MIL,Milwaukee,106,0
+2025-11-17,2025-11-18T00:00Z,401810097,post,8,Detroit Pistons,DET,Detroit,127,11,Indiana Pacers,IND,Indiana,112,0
+2025-11-17,2025-11-18T00:00Z,401810098,post,20,Philadelphia 76ers,PHI,Philadelphia,110,12,LA Clippers,LAC,LA,108,0
+2025-11-17,2025-11-18T00:30Z,401810099,post,14,Miami Heat,MIA,Miami,115,18,New York Knicks,NY,New York,113,0
+2025-11-17,2025-11-18T00:30Z,401810100,post,28,Toronto Raptors,TOR,Toronto,110,30,Charlotte Hornets,CHA,Charlotte,108,0
+2025-11-17,2025-11-18T01:00Z,401810101,post,16,Minnesota Timberwolves,MIN,Minnesota,120,6,Dallas Mavericks,DAL,Dallas,96,0
+2025-11-17,2025-11-18T01:00Z,401810102,post,3,New Orleans Pelicans,NO,New Orleans,109,25,Oklahoma City Thunder,OKC,Oklahoma City,126,0
+2025-11-17,2025-11-18T02:00Z,401810103,post,7,Denver Nuggets,DEN,Denver,127,4,Chicago Bulls,CHI,Chicago,130,0
+2025-11-18,2025-11-19T00:00Z,401810104,post,19,Orlando Magic,ORL,Orlando,121,9,Golden State Warriors,GS,Golden State,113,0
+2025-11-18,2025-11-19T00:30Z,401810105,post,17,Brooklyn Nets,BKN,Brooklyn,99,2,Boston Celtics,BOS,Boston,113,0
+2025-11-18,2025-11-19T00:30Z,401810106,post,1,Atlanta Hawks,ATL,Atlanta,112,8,Detroit Pistons,DET,Detroit,120,0
+2025-11-18,2025-11-19T01:00Z,401810107,post,24,San Antonio Spurs,SA,San Antonio,111,29,Memphis Grizzlies,MEM,Memphis,101,0
+2025-11-18,2025-11-19T03:30Z,401810108,post,13,Los Angeles Lakers,LAL,Los Angeles,140,26,Utah Jazz,UTAH,Utah,126,0
+2025-11-18,2025-11-19T04:00Z,401810109,post,22,Portland Trail Blazers,POR,Portland,110,21,Phoenix Suns,PHX,Phoenix,127,0
+2025-11-19,2025-11-20T00:00Z,401810110,post,5,Cleveland Cavaliers,CLE,Cleveland,104,10,Houston Rockets,HOU,Houston,114,0
+2025-11-19,2025-11-20T00:00Z,401810111,post,11,Indiana Pacers,IND,Indiana,127,30,Charlotte Hornets,CHA,Charlotte,118,0
+2025-11-19,2025-11-20T00:30Z,401810112,post,14,Miami Heat,MIA,Miami,110,9,Golden State Warriors,GS,Golden State,96,0
+2025-11-19,2025-11-20T00:00Z,401810113,post,20,Philadelphia 76ers,PHI,Philadelphia,112,28,Toronto Raptors,TOR,Toronto,121,0
+2025-11-19,2025-11-20T01:00Z,401810114,post,16,Minnesota Timberwolves,MIN,Minnesota,120,27,Washington Wizards,WSH,Washington,109,0
+2025-11-19,2025-11-20T01:00Z,401810115,post,3,New Orleans Pelicans,NO,New Orleans,118,7,Denver Nuggets,DEN,Denver,125,0
+2025-11-19,2025-11-20T01:00Z,401810116,post,25,Oklahoma City Thunder,OKC,Oklahoma City,113,23,Sacramento Kings,SAC,Sacramento,99,0
+2025-11-19,2025-11-20T02:30Z,401810117,post,6,Dallas Mavericks,DAL,Dallas,111,18,New York Knicks,NY,New York,113,0
+2025-11-19,2025-11-20T03:00Z,401810118,post,22,Portland Trail Blazers,POR,Portland,121,4,Chicago Bulls,CHI,Chicago,122,0
+2025-11-20,2025-11-21T00:00Z,401810119,post,19,Orlando Magic,ORL,Orlando,129,12,LA Clippers,LAC,LA,101,0
+2025-11-20,2025-11-21T01:00Z,401810120,post,29,Memphis Grizzlies,MEM,Memphis,137,23,Sacramento Kings,SAC,Sacramento,96,0
+2025-11-20,2025-11-21T01:00Z,401810121,post,15,Milwaukee Bucks,MIL,Milwaukee,114,20,Philadelphia 76ers,PHI,Philadelphia,123,0
+2025-11-20,2025-11-21T01:00Z,401810122,post,24,San Antonio Spurs,SA,San Antonio,135,1,Atlanta Hawks,ATL,Atlanta,126,0
+2025-11-21,2025-11-22T00:00Z,401809790,post,5,Cleveland Cavaliers,CLE,Cleveland,120,11,Indiana Pacers,IND,Indiana,109,0
+2025-11-21,2025-11-22T00:30Z,401809791,post,2,Boston Celtics,BOS,Boston,105,17,Brooklyn Nets,BKN,Brooklyn,113,0
+2025-11-21,2025-11-22T00:30Z,401809792,post,28,Toronto Raptors,TOR,Toronto,140,27,Washington Wizards,WSH,Washington,110,0
+2025-11-21,2025-11-22T01:00Z,401809793,post,4,Chicago Bulls,CHI,Chicago,107,14,Miami Heat,MIA,Miami,143,0
+2025-11-21,2025-11-22T01:30Z,401809794,post,6,Dallas Mavericks,DAL,Dallas,118,3,New Orleans Pelicans,NO,New Orleans,115,0
+2025-11-21,2025-11-22T02:00Z,401809795,post,21,Phoenix Suns,PHX,Phoenix,114,16,Minnesota Timberwolves,MIN,Minnesota,113,0
+2025-11-21,2025-11-22T02:30Z,401809796,post,10,Houston Rockets,HOU,Houston,109,7,Denver Nuggets,DEN,Denver,112,0
+2025-11-21,2025-11-22T03:00Z,401809797,post,26,Utah Jazz,UTAH,Utah,112,25,Oklahoma City Thunder,OKC,Oklahoma City,144,0
+2025-11-21,2025-11-22T03:00Z,401809798,post,9,Golden State Warriors,GS,Golden State,123,22,Portland Trail Blazers,POR,Portland,127,0
+2025-11-22,2025-11-22T18:00Z,401810123,post,30,Charlotte Hornets,CHA,Charlotte,116,12,LA Clippers,LAC,LA,131,0
+2025-11-22,2025-11-22T22:00Z,401810124,post,19,Orlando Magic,ORL,Orlando,133,18,New York Knicks,NY,New York,121,0
+2025-11-22,2025-11-23T00:00Z,401810125,post,3,New Orleans Pelicans,NO,New Orleans,98,1,Atlanta Hawks,ATL,Atlanta,115,0
+2025-11-22,2025-11-23T01:00Z,401810126,post,4,Chicago Bulls,CHI,Chicago,121,27,Washington Wizards,WSH,Washington,120,0
+2025-11-22,2025-11-23T01:00Z,401810127,post,15,Milwaukee Bucks,MIL,Milwaukee,116,8,Detroit Pistons,DET,Detroit,129,0
+2025-11-22,2025-11-23T01:30Z,401810128,post,6,Dallas Mavericks,DAL,Dallas,96,29,Memphis Grizzlies,MEM,Memphis,102,0
+2025-11-22,2025-11-23T03:00Z,401810129,post,7,Denver Nuggets,DEN,Denver,123,23,Sacramento Kings,SAC,Sacramento,128,0
+2025-11-23,2025-11-23T18:00Z,401810130,post,20,Philadelphia 76ers,PHI,Philadelphia,117,14,Miami Heat,MIA,Miami,127,0
+2025-11-23,2025-11-23T23:00Z,401810131,post,1,Atlanta Hawks,ATL,Atlanta,113,30,Charlotte Hornets,CHA,Charlotte,110,0
+2025-11-23,2025-11-23T23:00Z,401810132,post,2,Boston Celtics,BOS,Boston,138,19,Orlando Magic,ORL,Orlando,129,0
+2025-11-23,2025-11-23T23:00Z,401810133,post,5,Cleveland Cavaliers,CLE,Cleveland,120,12,LA Clippers,LAC,LA,105,0
+2025-11-23,2025-11-23T23:00Z,401810134,post,28,Toronto Raptors,TOR,Toronto,119,17,Brooklyn Nets,BKN,Brooklyn,109,0
+2025-11-23,2025-11-24T00:00Z,401810135,post,25,Oklahoma City Thunder,OKC,Oklahoma City,122,22,Portland Trail Blazers,POR,Portland,95,0
+2025-11-23,2025-11-24T01:00Z,401810136,post,21,Phoenix Suns,PHX,Phoenix,111,24,San Antonio Spurs,SA,San Antonio,102,0
+2025-11-23,2025-11-24T01:00Z,401810137,post,26,Utah Jazz,UTAH,Utah,106,13,Los Angeles Lakers,LAL,Los Angeles,108,0
+2025-11-24,2025-11-25T00:00Z,401810138,post,11,Indiana Pacers,IND,Indiana,117,8,Detroit Pistons,DET,Detroit,122,0
+2025-11-24,2025-11-25T00:00Z,401810139,post,28,Toronto Raptors,TOR,Toronto,110,5,Cleveland Cavaliers,CLE,Cleveland,99,0
+2025-11-24,2025-11-25T00:30Z,401810140,post,17,Brooklyn Nets,BKN,Brooklyn,100,18,New York Knicks,NY,New York,113,0
+2025-11-24,2025-11-25T00:30Z,401810141,post,14,Miami Heat,MIA,Miami,106,6,Dallas Mavericks,DAL,Dallas,102,0
+2025-11-24,2025-11-25T01:00Z,401810142,post,29,Memphis Grizzlies,MEM,Memphis,115,7,Denver Nuggets,DEN,Denver,125,0
+2025-11-24,2025-11-25T01:00Z,401810143,post,15,Milwaukee Bucks,MIL,Milwaukee,103,22,Portland Trail Blazers,POR,Portland,115,0
+2025-11-24,2025-11-25T01:00Z,401810144,post,3,New Orleans Pelicans,NO,New Orleans,143,4,Chicago Bulls,CHI,Chicago,130,0
+2025-11-24,2025-11-25T02:30Z,401810145,post,21,Phoenix Suns,PHX,Phoenix,92,10,Houston Rockets,HOU,Houston,114,0
+2025-11-24,2025-11-25T03:00Z,401810146,post,9,Golden State Warriors,GS,Golden State,134,26,Utah Jazz,UTAH,Utah,117,0
+2025-11-24,2025-11-25T03:00Z,401810147,post,23,Sacramento Kings,SAC,Sacramento,117,16,Minnesota Timberwolves,MIN,Minnesota,112,0
+2025-11-25,2025-11-26T00:00Z,401809799,post,27,Washington Wizards,WSH,Washington,132,1,Atlanta Hawks,ATL,Atlanta,113,0
+2025-11-25,2025-11-26T01:00Z,401809800,post,20,Philadelphia 76ers,PHI,Philadelphia,103,19,Orlando Magic,ORL,Orlando,144,0
+2025-11-25,2025-11-26T04:00Z,401809801,post,13,Los Angeles Lakers,LAL,Los Angeles,135,12,LA Clippers,LAC,LA,118,0
+2025-11-26,2025-11-26T22:00Z,401809802,post,2,Boston Celtics,BOS,Boston,117,8,Detroit Pistons,DET,Detroit,114,0
+2025-11-26,2025-11-27T00:00Z,401809803,post,30,Charlotte Hornets,CHA,Charlotte,101,18,New York Knicks,NY,New York,129,0
+2025-11-26,2025-11-27T00:30Z,401809804,post,14,Miami Heat,MIA,Miami,106,15,Milwaukee Bucks,MIL,Milwaukee,103,0
+2025-11-26,2025-11-27T00:30Z,401809805,post,28,Toronto Raptors,TOR,Toronto,97,11,Indiana Pacers,IND,Indiana,95,0
+2025-11-26,2025-11-27T00:30Z,401809806,post,25,Oklahoma City Thunder,OKC,Oklahoma City,113,16,Minnesota Timberwolves,MIN,Minnesota,105,0
+2025-11-26,2025-11-27T01:00Z,401809807,post,3,New Orleans Pelicans,NO,New Orleans,128,29,Memphis Grizzlies,MEM,Memphis,133,0
+2025-11-26,2025-11-27T03:00Z,401809808,post,9,Golden State Warriors,GS,Golden State,100,10,Houston Rockets,HOU,Houston,104,0
+2025-11-26,2025-11-27T03:00Z,401809809,post,22,Portland Trail Blazers,POR,Portland,102,24,San Antonio Spurs,SA,San Antonio,115,0
+2025-11-26,2025-11-27T03:00Z,401809810,post,23,Sacramento Kings,SAC,Sacramento,100,21,Phoenix Suns,PHX,Phoenix,112,0
+2025-11-28,2025-11-29T00:30Z,401809811,post,1,Atlanta Hawks,ATL,Atlanta,130,5,Cleveland Cavaliers,CLE,Cleveland,123,0
+2025-11-28,2025-11-29T00:30Z,401809812,post,17,Brooklyn Nets,BKN,Brooklyn,103,20,Philadelphia 76ers,PHI,Philadelphia,115,0
+2025-11-28,2025-11-29T00:30Z,401809813,post,30,Charlotte Hornets,CHA,Charlotte,123,4,Chicago Bulls,CHI,Chicago,116,0
+2025-11-28,2025-11-29T00:30Z,401809814,post,8,Detroit Pistons,DET,Detroit,109,19,Orlando Magic,ORL,Orlando,112,0
+2025-11-28,2025-11-29T00:30Z,401809815,post,11,Indiana Pacers,IND,Indiana,119,27,Washington Wizards,WSH,Washington,86,0
+2025-11-28,2025-11-29T00:30Z,401809816,post,18,New York Knicks,NY,New York,118,15,Milwaukee Bucks,MIL,Milwaukee,109,0
+2025-11-28,2025-11-29T02:30Z,401809817,post,25,Oklahoma City Thunder,OKC,Oklahoma City,123,21,Phoenix Suns,PHX,Phoenix,119,0
+2025-11-28,2025-11-29T02:30Z,401809818,post,7,Denver Nuggets,DEN,Denver,136,24,San Antonio Spurs,SA,San Antonio,139,0
+2025-11-28,2025-11-29T02:30Z,401809819,post,26,Utah Jazz,UTAH,Utah,128,23,Sacramento Kings,SAC,Sacramento,119,0
+2025-11-28,2025-11-29T03:00Z,401809820,post,13,Los Angeles Lakers,LAL,Los Angeles,129,6,Dallas Mavericks,DAL,Dallas,119,0
+2025-11-28,2025-11-29T03:00Z,401809821,post,12,LA Clippers,LAC,LA,107,29,Memphis Grizzlies,MEM,Memphis,112,0
+2025-11-29,2025-11-29T22:00Z,401810148,post,16,Minnesota Timberwolves,MIN,Minnesota,119,2,Boston Celtics,BOS,Boston,115,0
+2025-11-29,2025-11-29T23:00Z,401810149,post,30,Charlotte Hornets,CHA,Charlotte,118,28,Toronto Raptors,TOR,Toronto,111,0
+2025-11-29,2025-11-30T00:30Z,401810150,post,11,Indiana Pacers,IND,Indiana,103,4,Chicago Bulls,CHI,Chicago,101,0
+2025-11-29,2025-11-30T01:00Z,401810151,post,14,Miami Heat,MIA,Miami,135,8,Detroit Pistons,DET,Detroit,138,0
+2025-11-29,2025-11-30T01:00Z,401810152,post,15,Milwaukee Bucks,MIL,Milwaukee,116,17,Brooklyn Nets,BKN,Brooklyn,99,0
+2025-11-29,2025-11-30T01:30Z,401810153,post,9,Golden State Warriors,GS,Golden State,104,3,New Orleans Pelicans,NO,New Orleans,96,0
+2025-11-29,2025-11-30T02:00Z,401810154,post,21,Phoenix Suns,PHX,Phoenix,112,7,Denver Nuggets,DEN,Denver,130,0
+2025-11-29,2025-11-30T03:00Z,401810155,post,12,LA Clippers,LAC,LA,110,6,Dallas Mavericks,DAL,Dallas,114,0
+2025-11-30,2025-11-30T20:00Z,401810156,post,26,Utah Jazz,UTAH,Utah,101,10,Houston Rockets,HOU,Houston,129,0
+2025-11-30,2025-11-30T23:00Z,401810157,post,5,Cleveland Cavaliers,CLE,Cleveland,115,2,Boston Celtics,BOS,Boston,117,0
+2025-11-30,2025-11-30T23:00Z,401810158,post,18,New York Knicks,NY,New York,116,28,Toronto Raptors,TOR,Toronto,94,0
+2025-11-30,2025-11-30T23:00Z,401810159,post,20,Philadelphia 76ers,PHI,Philadelphia,134,1,Atlanta Hawks,ATL,Atlanta,142,0
+2025-11-30,2025-11-30T23:00Z,401810160,post,22,Portland Trail Blazers,POR,Portland,115,25,Oklahoma City Thunder,OKC,Oklahoma City,123,0
+2025-11-30,2025-12-01T00:00Z,401810161,post,16,Minnesota Timberwolves,MIN,Minnesota,125,24,San Antonio Spurs,SA,San Antonio,112,0
+2025-11-30,2025-12-01T02:00Z,401810162,post,23,Sacramento Kings,SAC,Sacramento,107,29,Memphis Grizzlies,MEM,Memphis,115,0
+2025-11-30,2025-12-01T02:30Z,401810163,post,13,Los Angeles Lakers,LAL,Los Angeles,133,3,New Orleans Pelicans,NO,New Orleans,121,0
+2025-12-01,2025-12-02T00:00Z,401810164,post,8,Detroit Pistons,DET,Detroit,99,1,Atlanta Hawks,ATL,Atlanta,98,0
+2025-12-01,2025-12-02T00:00Z,401810165,post,11,Indiana Pacers,IND,Indiana,119,5,Cleveland Cavaliers,CLE,Cleveland,135,0
+2025-12-01,2025-12-02T00:00Z,401810166,post,27,Washington Wizards,WSH,Washington,129,15,Milwaukee Bucks,MIL,Milwaukee,126,0
+2025-12-01,2025-12-02T00:30Z,401810167,post,17,Brooklyn Nets,BKN,Brooklyn,116,30,Charlotte Hornets,CHA,Charlotte,103,0
+2025-12-01,2025-12-02T00:30Z,401810168,post,14,Miami Heat,MIA,Miami,140,12,LA Clippers,LAC,LA,123,0
+2025-12-01,2025-12-02T00:30Z,401810169,post,19,Orlando Magic,ORL,Orlando,125,4,Chicago Bulls,CHI,Chicago,120,0
+2025-12-01,2025-12-02T02:00Z,401810170,post,7,Denver Nuggets,DEN,Denver,121,6,Dallas Mavericks,DAL,Dallas,131,0
+2025-12-01,2025-12-02T02:00Z,401810171,post,26,Utah Jazz,UTAH,Utah,133,10,Houston Rockets,HOU,Houston,125,0
+2025-12-01,2025-12-02T03:00Z,401810172,post,13,Los Angeles Lakers,LAL,Los Angeles,108,21,Phoenix Suns,PHX,Phoenix,125,0
+2025-12-02,2025-12-03T00:00Z,401810173,post,20,Philadelphia 76ers,PHI,Philadelphia,121,27,Washington Wizards,WSH,Washington,102,0
+2025-12-02,2025-12-03T00:30Z,401810174,post,28,Toronto Raptors,TOR,Toronto,121,22,Portland Trail Blazers,POR,Portland,118,0
+2025-12-02,2025-12-03T01:00Z,401810175,post,2,Boston Celtics,BOS,Boston,123,18,New York Knicks,NY,New York,117,0
+2025-12-02,2025-12-03T01:00Z,401810176,post,3,New Orleans Pelicans,NO,New Orleans,142,16,Minnesota Timberwolves,MIN,Minnesota,149,0
+2025-12-02,2025-12-03T01:00Z,401810177,post,24,San Antonio Spurs,SA,San Antonio,126,29,Memphis Grizzlies,MEM,Memphis,119,0
+2025-12-02,2025-12-03T04:00Z,401810178,post,9,Golden State Warriors,GS,Golden State,112,25,Oklahoma City Thunder,OKC,Oklahoma City,124,0
+2025-12-03,2025-12-04T00:00Z,401810179,post,5,Cleveland Cavaliers,CLE,Cleveland,110,22,Portland Trail Blazers,POR,Portland,122,0
+2025-12-03,2025-12-04T00:00Z,401810180,post,11,Indiana Pacers,IND,Indiana,120,7,Denver Nuggets,DEN,Denver,135,0
+2025-12-03,2025-12-04T00:00Z,401810181,post,19,Orlando Magic,ORL,Orlando,112,24,San Antonio Spurs,SA,San Antonio,114,0
+2025-12-03,2025-12-04T00:30Z,401810182,post,1,Atlanta Hawks,ATL,Atlanta,92,12,LA Clippers,LAC,LA,115,0
+2025-12-03,2025-12-04T00:30Z,401810183,post,18,New York Knicks,NY,New York,119,30,Charlotte Hornets,CHA,Charlotte,104,0
+2025-12-03,2025-12-04T01:00Z,401810184,post,4,Chicago Bulls,CHI,Chicago,103,17,Brooklyn Nets,BKN,Brooklyn,113,0
+2025-12-03,2025-12-04T01:00Z,401810185,post,10,Houston Rockets,HOU,Houston,121,23,Sacramento Kings,SAC,Sacramento,95,0
+2025-12-03,2025-12-04T01:00Z,401810186,post,15,Milwaukee Bucks,MIL,Milwaukee,113,8,Detroit Pistons,DET,Detroit,109,0
+2025-12-03,2025-12-04T01:30Z,401810187,post,6,Dallas Mavericks,DAL,Dallas,118,14,Miami Heat,MIA,Miami,108,0
+2025-12-04,2025-12-05T00:00Z,401810188,post,20,Philadelphia 76ers,PHI,Philadelphia,99,9,Golden State Warriors,GS,Golden State,98,0
+2025-12-04,2025-12-05T00:00Z,401810189,post,27,Washington Wizards,WSH,Washington,101,2,Boston Celtics,BOS,Boston,146,0
+2025-12-04,2025-12-05T00:30Z,401810190,post,17,Brooklyn Nets,BKN,Brooklyn,110,26,Utah Jazz,UTAH,Utah,123,0
+2025-12-04,2025-12-05T00:30Z,401810191,post,28,Toronto Raptors,TOR,Toronto,120,13,Los Angeles Lakers,LAL,Los Angeles,123,0
+2025-12-04,2025-12-05T01:00Z,401810192,post,3,New Orleans Pelicans,NO,New Orleans,116,16,Minnesota Timberwolves,MIN,Minnesota,125,0
+2025-12-05,2025-12-06T00:00Z,401810193,post,2,Boston Celtics,BOS,Boston,126,13,Los Angeles Lakers,LAL,Los Angeles,105,0
+2025-12-05,2025-12-06T00:00Z,401810194,post,19,Orlando Magic,ORL,Orlando,106,14,Miami Heat,MIA,Miami,105,0
+2025-12-05,2025-12-06T00:30Z,401810195,post,1,Atlanta Hawks,ATL,Atlanta,133,7,Denver Nuggets,DEN,Denver,134,0
+2025-12-05,2025-12-06T00:30Z,401810196,post,5,Cleveland Cavaliers,CLE,Cleveland,130,24,San Antonio Spurs,SA,San Antonio,117,0
+2025-12-05,2025-12-06T00:30Z,401810197,post,8,Detroit Pistons,DET,Detroit,122,22,Portland Trail Blazers,POR,Portland,116,0
+2025-12-05,2025-12-06T00:30Z,401810198,post,18,New York Knicks,NY,New York,146,26,Utah Jazz,UTAH,Utah,112,0
+2025-12-05,2025-12-06T00:30Z,401810199,post,28,Toronto Raptors,TOR,Toronto,86,30,Charlotte Hornets,CHA,Charlotte,111,0
+2025-12-05,2025-12-06T01:00Z,401810200,post,4,Chicago Bulls,CHI,Chicago,105,11,Indiana Pacers,IND,Indiana,120,0
+2025-12-05,2025-12-06T01:00Z,401810201,post,10,Houston Rockets,HOU,Houston,117,21,Phoenix Suns,PHX,Phoenix,98,0
+2025-12-05,2025-12-06T01:00Z,401810202,post,29,Memphis Grizzlies,MEM,Memphis,107,12,LA Clippers,LAC,LA,98,0
+2025-12-05,2025-12-06T01:00Z,401810203,post,15,Milwaukee Bucks,MIL,Milwaukee,101,20,Philadelphia 76ers,PHI,Philadelphia,116,0
+2025-12-05,2025-12-06T02:30Z,401810204,post,25,Oklahoma City Thunder,OKC,Oklahoma City,132,6,Dallas Mavericks,DAL,Dallas,111,0
+2025-12-06,2025-12-06T22:00Z,401810205,post,17,Brooklyn Nets,BKN,Brooklyn,119,3,New Orleans Pelicans,NO,New Orleans,101,0
+2025-12-06,2025-12-07T00:00Z,401810206,post,27,Washington Wizards,WSH,Washington,116,1,Atlanta Hawks,ATL,Atlanta,131,0
+2025-12-06,2025-12-07T00:30Z,401810207,post,5,Cleveland Cavaliers,CLE,Cleveland,94,9,Golden State Warriors,GS,Golden State,99,0
+2025-12-06,2025-12-07T00:30Z,401810208,post,8,Detroit Pistons,DET,Detroit,124,15,Milwaukee Bucks,MIL,Milwaukee,112,0
+2025-12-06,2025-12-07T01:00Z,401810209,post,14,Miami Heat,MIA,Miami,111,23,Sacramento Kings,SAC,Sacramento,127,0
+2025-12-06,2025-12-07T01:00Z,401810210,post,16,Minnesota Timberwolves,MIN,Minnesota,109,12,LA Clippers,LAC,LA,106,0
+2025-12-06,2025-12-07T01:30Z,401810211,post,6,Dallas Mavericks,DAL,Dallas,122,10,Houston Rockets,HOU,Houston,109,0
+2025-12-07,2025-12-07T17:00Z,401810212,post,18,New York Knicks,NY,New York,106,19,Orlando Magic,ORL,Orlando,100,0
+2025-12-07,2025-12-07T20:30Z,401810213,post,28,Toronto Raptors,TOR,Toronto,113,2,Boston Celtics,BOS,Boston,121,0
+2025-12-07,2025-12-07T23:00Z,401810214,post,30,Charlotte Hornets,CHA,Charlotte,106,7,Denver Nuggets,DEN,Denver,115,0
+2025-12-07,2025-12-07T23:00Z,401810215,post,29,Memphis Grizzlies,MEM,Memphis,119,22,Portland Trail Blazers,POR,Portland,96,0
+2025-12-07,2025-12-08T00:00Z,401810216,post,4,Chicago Bulls,CHI,Chicago,91,9,Golden State Warriors,GS,Golden State,123,0
+2025-12-07,2025-12-08T00:30Z,401810217,post,20,Philadelphia 76ers,PHI,Philadelphia,108,13,Los Angeles Lakers,LAL,Los Angeles,112,0
+2025-12-07,2025-12-08T01:00Z,401810218,post,26,Utah Jazz,UTAH,Utah,101,25,Oklahoma City Thunder,OKC,Oklahoma City,131,0
+2025-12-08,2025-12-09T00:00Z,401810219,post,11,Indiana Pacers,IND,Indiana,116,23,Sacramento Kings,SAC,Sacramento,105,0
+2025-12-08,2025-12-09T00:30Z,401810220,post,16,Minnesota Timberwolves,MIN,Minnesota,105,21,Phoenix Suns,PHX,Phoenix,108,0
+2025-12-08,2025-12-09T01:00Z,401810221,post,3,New Orleans Pelicans,NO,New Orleans,132,24,San Antonio Spurs,SA,San Antonio,135,0
+2025-12-09,2025-12-09T23:00Z,401809833,post,19,Orlando Magic,ORL,Orlando,117,14,Miami Heat,MIA,Miami,108,0
+2025-12-09,2025-12-10T01:30Z,401809834,post,28,Toronto Raptors,TOR,Toronto,101,18,New York Knicks,NY,New York,117,0
+2025-12-10,2025-12-11T00:30Z,401809835,post,25,Oklahoma City Thunder,OKC,Oklahoma City,138,21,Phoenix Suns,PHX,Phoenix,89,0
+2025-12-10,2025-12-11T03:00Z,401809836,post,13,Los Angeles Lakers,LAL,Los Angeles,119,24,San Antonio Spurs,SA,San Antonio,132,0
+2025-12-11,2025-12-12T01:00Z,401836746,post,10,Houston Rockets,HOU,Houston,115,12,LA Clippers,LAC,LA,113,0
+2025-12-11,2025-12-12T01:00Z,401836747,post,15,Milwaukee Bucks,MIL,Milwaukee,116,2,Boston Celtics,BOS,Boston,101,0
+2025-12-11,2025-12-12T01:00Z,401836748,post,3,New Orleans Pelicans,NO,New Orleans,143,22,Portland Trail Blazers,POR,Portland,120,0
+2025-12-11,2025-12-12T03:00Z,401836749,post,23,Sacramento Kings,SAC,Sacramento,105,7,Denver Nuggets,DEN,Denver,136,0
+2025-12-12,2025-12-13T00:00Z,401836750,post,30,Charlotte Hornets,CHA,Charlotte,126,4,Chicago Bulls,CHI,Chicago,129,0
+2025-12-12,2025-12-13T00:00Z,401836751,post,8,Detroit Pistons,DET,Detroit,142,1,Atlanta Hawks,ATL,Atlanta,115,0
+2025-12-12,2025-12-13T00:00Z,401836752,post,20,Philadelphia 76ers,PHI,Philadelphia,115,11,Indiana Pacers,IND,Indiana,105,0
+2025-12-12,2025-12-13T00:00Z,401836753,post,27,Washington Wizards,WSH,Washington,126,5,Cleveland Cavaliers,CLE,Cleveland,130,0
+2025-12-12,2025-12-13T01:00Z,401836754,post,29,Memphis Grizzlies,MEM,Memphis,126,26,Utah Jazz,UTAH,Utah,130,0
+2025-12-12,2025-12-13T01:30Z,401836795,post,6,Dallas Mavericks,DAL,Dallas,119,17,Brooklyn Nets,BKN,Brooklyn,111,0
+2025-12-12,2025-12-13T03:00Z,401836796,post,9,Golden State Warriors,GS,Golden State,120,16,Minnesota Timberwolves,MIN,Minnesota,127,0
+2025-12-13,2025-12-13T22:30Z,401809837,post,19,Orlando Magic,ORL,Orlando,120,18,New York Knicks,NY,New York,132,1
+2025-12-13,2025-12-14T02:00Z,401809838,post,25,Oklahoma City Thunder,OKC,Oklahoma City,109,24,San Antonio Spurs,SA,San Antonio,111,1
+2025-12-14,2025-12-14T20:00Z,401836797,post,11,Indiana Pacers,IND,Indiana,89,27,Washington Wizards,WSH,Washington,108,0
+2025-12-14,2025-12-14T23:00Z,401836798,post,1,Atlanta Hawks,ATL,Atlanta,120,20,Philadelphia 76ers,PHI,Philadelphia,117,0
+2025-12-14,2025-12-14T20:30Z,401836799,post,5,Cleveland Cavaliers,CLE,Cleveland,111,30,Charlotte Hornets,CHA,Charlotte,119,0
+2025-12-14,2025-12-14T23:00Z,401836800,post,17,Brooklyn Nets,BKN,Brooklyn,127,15,Milwaukee Bucks,MIL,Milwaukee,82,0
+2025-12-14,2025-12-15T00:00Z,401836801,post,16,Minnesota Timberwolves,MIN,Minnesota,117,23,Sacramento Kings,SAC,Sacramento,103,0
+2025-12-14,2025-12-15T02:00Z,401836802,post,22,Portland Trail Blazers,POR,Portland,136,9,Golden State Warriors,GS,Golden State,131,0
+2025-12-14,2025-12-15T00:00Z,401836804,post,4,Chicago Bulls,CHI,Chicago,104,3,New Orleans Pelicans,NO,New Orleans,114,0
+2025-12-14,2025-12-15T01:00Z,401839699,post,21,Phoenix Suns,PHX,Phoenix,114,13,Los Angeles Lakers,LAL,Los Angeles,116,0
+2025-12-15,2025-12-16T00:00Z,401836803,post,2,Boston Celtics,BOS,Boston,105,8,Detroit Pistons,DET,Detroit,112,0
+2025-12-15,2025-12-16T02:00Z,401836805,post,26,Utah Jazz,UTAH,Utah,140,6,Dallas Mavericks,DAL,Dallas,133,0
+2025-12-15,2025-12-16T02:30Z,401836806,post,7,Denver Nuggets,DEN,Denver,128,10,Houston Rockets,HOU,Houston,125,0
+2025-12-15,2025-12-16T03:30Z,401836807,post,12,LA Clippers,LAC,LA,103,29,Memphis Grizzlies,MEM,Memphis,121,0
+2025-12-15,2025-12-16T00:30Z,401839023,post,14,Miami Heat,MIA,Miami,96,28,Toronto Raptors,TOR,Toronto,106,0
+2025-12-16,2025-12-17T01:30Z,401809839,post,18,New York Knicks,NY,New York,124,24,San Antonio Spurs,SA,San Antonio,113,1
+2025-12-17,2025-12-18T01:00Z,401810222,post,4,Chicago Bulls,CHI,Chicago,127,5,Cleveland Cavaliers,CLE,Cleveland,111,0
+2025-12-17,2025-12-18T01:00Z,401810223,post,16,Minnesota Timberwolves,MIN,Minnesota,110,29,Memphis Grizzlies,MEM,Memphis,116,0
+2025-12-18,2025-12-19T01:00Z,401810224,post,25,Oklahoma City Thunder,OKC,Oklahoma City,122,12,LA Clippers,LAC,LA,101,0
+2025-12-18,2025-12-19T01:00Z,401810225,post,24,San Antonio Spurs,SA,San Antonio,119,27,Washington Wizards,WSH,Washington,94,0
+2025-12-18,2025-12-19T00:00Z,401810226,post,30,Charlotte Hornets,CHA,Charlotte,133,1,Atlanta Hawks,ATL,Atlanta,126,0
+2025-12-18,2025-12-19T00:00Z,401810227,post,11,Indiana Pacers,IND,Indiana,113,18,New York Knicks,NY,New York,114,0
+2025-12-18,2025-12-19T00:30Z,401810228,post,17,Brooklyn Nets,BKN,Brooklyn,95,14,Miami Heat,MIA,Miami,106,0
+2025-12-18,2025-12-19T01:00Z,401810229,post,15,Milwaukee Bucks,MIL,Milwaukee,105,28,Toronto Raptors,TOR,Toronto,111,0
+2025-12-18,2025-12-19T01:00Z,401810230,post,3,New Orleans Pelicans,NO,New Orleans,133,10,Houston Rockets,HOU,Houston,128,0
+2025-12-18,2025-12-19T01:30Z,401810231,post,6,Dallas Mavericks,DAL,Dallas,116,8,Detroit Pistons,DET,Detroit,114,0
+2025-12-18,2025-12-19T02:00Z,401810232,post,7,Denver Nuggets,DEN,Denver,126,19,Orlando Magic,ORL,Orlando,115,0
+2025-12-18,2025-12-19T02:00Z,401810233,post,21,Phoenix Suns,PHX,Phoenix,99,9,Golden State Warriors,GS,Golden State,98,0
+2025-12-18,2025-12-19T02:00Z,401810234,post,26,Utah Jazz,UTAH,Utah,135,13,Los Angeles Lakers,LAL,Los Angeles,143,0
+2025-12-18,2025-12-19T03:00Z,401810235,post,22,Portland Trail Blazers,POR,Portland,134,23,Sacramento Kings,SAC,Sacramento,133,0
+2025-12-19,2025-12-20T00:00Z,401810236,post,2,Boston Celtics,BOS,Boston,129,14,Miami Heat,MIA,Miami,116,0
+2025-12-19,2025-12-20T00:00Z,401810237,post,18,New York Knicks,NY,New York,107,20,Philadelphia 76ers,PHI,Philadelphia,116,0
+2025-12-19,2025-12-20T00:30Z,401810238,post,1,Atlanta Hawks,ATL,Atlanta,98,24,San Antonio Spurs,SA,San Antonio,126,0
+2025-12-19,2025-12-20T00:30Z,401810239,post,5,Cleveland Cavaliers,CLE,Cleveland,125,4,Chicago Bulls,CHI,Chicago,136,0
+2025-12-19,2025-12-20T02:30Z,401810240,post,16,Minnesota Timberwolves,MIN,Minnesota,112,25,Oklahoma City Thunder,OKC,Oklahoma City,107,0
+2025-12-20,2025-12-20T22:00Z,401810241,post,7,Denver Nuggets,DEN,Denver,101,10,Houston Rockets,HOU,Houston,115,0
+2025-12-20,2025-12-21T00:00Z,401810242,post,20,Philadelphia 76ers,PHI,Philadelphia,121,6,Dallas Mavericks,DAL,Dallas,114,0
+2025-12-20,2025-12-21T00:00Z,401810243,post,28,Toronto Raptors,TOR,Toronto,96,2,Boston Celtics,BOS,Boston,112,0
+2025-12-20,2025-12-21T00:00Z,401810244,post,3,New Orleans Pelicans,NO,New Orleans,128,11,Indiana Pacers,IND,Indiana,109,0
+2025-12-20,2025-12-21T00:30Z,401810245,post,8,Detroit Pistons,DET,Detroit,112,30,Charlotte Hornets,CHA,Charlotte,86,0
+2025-12-20,2025-12-21T01:00Z,401810246,post,29,Memphis Grizzlies,MEM,Memphis,122,27,Washington Wizards,WSH,Washington,130,0
+2025-12-20,2025-12-21T01:30Z,401810247,post,9,Golden State Warriors,GS,Golden State,119,21,Phoenix Suns,PHX,Phoenix,116,0
+2025-12-20,2025-12-21T02:30Z,401810248,post,26,Utah Jazz,UTAH,Utah,127,19,Orlando Magic,ORL,Orlando,128,0
+2025-12-20,2025-12-21T03:00Z,401810249,post,23,Sacramento Kings,SAC,Sacramento,93,22,Portland Trail Blazers,POR,Portland,98,0
+2025-12-20,2025-12-21T03:30Z,401810250,post,12,LA Clippers,LAC,LA,103,13,Los Angeles Lakers,LAL,Los Angeles,88,0
+2025-12-21,2025-12-21T20:30Z,401810251,post,1,Atlanta Hawks,ATL,Atlanta,150,4,Chicago Bulls,CHI,Chicago,152,0
+2025-12-21,2025-12-21T23:00Z,401810252,post,17,Brooklyn Nets,BKN,Brooklyn,96,28,Toronto Raptors,TOR,Toronto,81,0
+2025-12-21,2025-12-21T23:00Z,401810253,post,18,New York Knicks,NY,New York,132,14,Miami Heat,MIA,Miami,125,0
+2025-12-21,2025-12-22T00:00Z,401810254,post,27,Washington Wizards,WSH,Washington,113,24,San Antonio Spurs,SA,San Antonio,124,0
+2025-12-21,2025-12-22T00:00Z,401810255,post,16,Minnesota Timberwolves,MIN,Minnesota,103,15,Milwaukee Bucks,MIL,Milwaukee,100,0
+2025-12-21,2025-12-22T03:00Z,401810256,post,23,Sacramento Kings,SAC,Sacramento,125,10,Houston Rockets,HOU,Houston,124,0
+2025-12-22,2025-12-23T00:00Z,401810257,post,5,Cleveland Cavaliers,CLE,Cleveland,139,30,Charlotte Hornets,CHA,Charlotte,132,0
+2025-12-22,2025-12-23T00:30Z,401810258,post,2,Boston Celtics,BOS,Boston,103,11,Indiana Pacers,IND,Indiana,95,0
+2025-12-22,2025-12-23T01:00Z,401810259,post,3,New Orleans Pelicans,NO,New Orleans,119,6,Dallas Mavericks,DAL,Dallas,113,0
+2025-12-22,2025-12-23T02:00Z,401810260,post,7,Denver Nuggets,DEN,Denver,135,26,Utah Jazz,UTAH,Utah,112,0
+2025-12-22,2025-12-23T02:30Z,401810261,post,25,Oklahoma City Thunder,OKC,Oklahoma City,119,29,Memphis Grizzlies,MEM,Memphis,103,0
+2025-12-22,2025-12-23T03:00Z,401810262,post,9,Golden State Warriors,GS,Golden State,120,19,Orlando Magic,ORL,Orlando,97,0
+2025-12-22,2025-12-23T03:00Z,401810263,post,22,Portland Trail Blazers,POR,Portland,102,8,Detroit Pistons,DET,Detroit,110,0
+2025-12-23,2025-12-24T00:00Z,401810264,post,30,Charlotte Hornets,CHA,Charlotte,126,27,Washington Wizards,WSH,Washington,109,0
+2025-12-23,2025-12-24T00:00Z,401810265,post,20,Philadelphia 76ers,PHI,Philadelphia,106,17,Brooklyn Nets,BKN,Brooklyn,114,0
+2025-12-23,2025-12-24T00:30Z,401810266,post,1,Atlanta Hawks,ATL,Atlanta,123,4,Chicago Bulls,CHI,Chicago,126,0
+2025-12-23,2025-12-24T00:30Z,401810267,post,5,Cleveland Cavaliers,CLE,Cleveland,141,3,New Orleans Pelicans,NO,New Orleans,118,0
+2025-12-23,2025-12-24T00:30Z,401810268,post,11,Indiana Pacers,IND,Indiana,94,15,Milwaukee Bucks,MIL,Milwaukee,111,0
+2025-12-23,2025-12-24T00:30Z,401810269,post,14,Miami Heat,MIA,Miami,91,28,Toronto Raptors,TOR,Toronto,112,0
+2025-12-23,2025-12-24T01:00Z,401810270,post,6,Dallas Mavericks,DAL,Dallas,131,7,Denver Nuggets,DEN,Denver,130,0
+2025-12-23,2025-12-24T01:00Z,401810271,post,16,Minnesota Timberwolves,MIN,Minnesota,115,18,New York Knicks,NY,New York,104,0
+2025-12-23,2025-12-24T01:30Z,401810272,post,24,San Antonio Spurs,SA,San Antonio,130,25,Oklahoma City Thunder,OKC,Oklahoma City,110,0
+2025-12-23,2025-12-24T02:00Z,401810273,post,21,Phoenix Suns,PHX,Phoenix,132,13,Los Angeles Lakers,LAL,Los Angeles,108,0
+2025-12-23,2025-12-24T02:00Z,401810274,post,26,Utah Jazz,UTAH,Utah,128,29,Memphis Grizzlies,MEM,Memphis,137,0
+2025-12-23,2025-12-24T03:00Z,401810275,post,22,Portland Trail Blazers,POR,Portland,106,19,Orlando Magic,ORL,Orlando,110,0
+2025-12-23,2025-12-24T03:00Z,401810276,post,23,Sacramento Kings,SAC,Sacramento,127,8,Detroit Pistons,DET,Detroit,136,0
+2025-12-23,2025-12-24T03:30Z,401810277,post,12,LA Clippers,LAC,LA,128,10,Houston Rockets,HOU,Houston,108,0
+2025-12-25,2025-12-25T17:00Z,401809238,post,18,New York Knicks,NY,New York,126,5,Cleveland Cavaliers,CLE,Cleveland,124,0
+2025-12-25,2025-12-25T19:30Z,401809239,post,25,Oklahoma City Thunder,OKC,Oklahoma City,102,24,San Antonio Spurs,SA,San Antonio,117,0
+2025-12-25,2025-12-25T22:17Z,401809240,post,9,Golden State Warriors,GS,Golden State,126,6,Dallas Mavericks,DAL,Dallas,116,0
+2025-12-25,2025-12-26T01:00Z,401809241,post,13,Los Angeles Lakers,LAL,Los Angeles,96,10,Houston Rockets,HOU,Houston,119,0
+2025-12-25,2025-12-26T03:30Z,401809242,post,7,Denver Nuggets,DEN,Denver,142,16,Minnesota Timberwolves,MIN,Minnesota,138,0
+2025-12-26,2025-12-27T00:00Z,401810278,post,1,Atlanta Hawks,ATL,Atlanta,111,14,Miami Heat,MIA,Miami,126,0
+2025-12-26,2025-12-27T00:00Z,401810279,post,19,Orlando Magic,ORL,Orlando,105,30,Charlotte Hornets,CHA,Charlotte,120,0
+2025-12-26,2025-12-27T00:00Z,401810280,post,27,Washington Wizards,WSH,Washington,138,28,Toronto Raptors,TOR,Toronto,117,0
+2025-12-26,2025-12-27T00:00Z,401810281,post,11,Indiana Pacers,IND,Indiana,122,2,Boston Celtics,BOS,Boston,140,0
+2025-12-26,2025-12-27T00:30Z,401810282,post,4,Chicago Bulls,CHI,Chicago,109,20,Philadelphia 76ers,PHI,Philadelphia,102,0
+2025-12-26,2025-12-27T01:00Z,401810283,post,29,Memphis Grizzlies,MEM,Memphis,125,15,Milwaukee Bucks,MIL,Milwaukee,104,0
+2025-12-26,2025-12-27T01:00Z,401810284,post,3,New Orleans Pelicans,NO,New Orleans,108,21,Phoenix Suns,PHX,Phoenix,115,0
+2025-12-26,2025-12-27T02:30Z,401810285,post,26,Utah Jazz,UTAH,Utah,131,8,Detroit Pistons,DET,Detroit,129,0
+2025-12-26,2025-12-27T03:00Z,401810286,post,22,Portland Trail Blazers,POR,Portland,103,12,LA Clippers,LAC,LA,119,0
+2025-12-27,2025-12-27T22:00Z,401810287,post,23,Sacramento Kings,SAC,Sacramento,113,6,Dallas Mavericks,DAL,Dallas,107,0
+2025-12-27,2025-12-28T00:00Z,401810288,post,19,Orlando Magic,ORL,Orlando,127,7,Denver Nuggets,DEN,Denver,126,0
+2025-12-27,2025-12-28T00:00Z,401810289,post,3,New Orleans Pelicans,NO,New Orleans,114,21,Phoenix Suns,PHX,Phoenix,123,0
+2025-12-27,2025-12-28T01:00Z,401810290,post,1,Atlanta Hawks,ATL,Atlanta,125,18,New York Knicks,NY,New York,128,0
+2025-12-27,2025-12-28T01:00Z,401810291,post,14,Miami Heat,MIA,Miami,142,11,Indiana Pacers,IND,Indiana,116,0
+2025-12-27,2025-12-28T01:00Z,401810292,post,4,Chicago Bulls,CHI,Chicago,103,15,Milwaukee Bucks,MIL,Milwaukee,112,0
+2025-12-27,2025-12-28T01:00Z,401810293,post,10,Houston Rockets,HOU,Houston,117,5,Cleveland Cavaliers,CLE,Cleveland,100,0
+2025-12-27,2025-12-28T01:00Z,401810294,post,16,Minnesota Timberwolves,MIN,Minnesota,107,17,Brooklyn Nets,BKN,Brooklyn,123,0
+2025-12-27,2025-12-28T01:00Z,401810295,post,24,San Antonio Spurs,SA,San Antonio,114,26,Utah Jazz,UTAH,Utah,127,0
+2025-12-28,2025-12-28T20:30Z,401810296,post,28,Toronto Raptors,TOR,Toronto,141,9,Golden State Warriors,GS,Golden State,127,0
+2025-12-28,2025-12-28T20:30Z,401810297,post,25,Oklahoma City Thunder,OKC,Oklahoma City,129,20,Philadelphia 76ers,PHI,Philadelphia,104,0
+2025-12-28,2025-12-28T23:00Z,401810298,post,27,Washington Wizards,WSH,Washington,116,29,Memphis Grizzlies,MEM,Memphis,112,0
+2025-12-28,2025-12-28T23:00Z,401810299,post,22,Portland Trail Blazers,POR,Portland,114,2,Boston Celtics,BOS,Boston,108,0
+2025-12-28,2025-12-29T02:00Z,401810300,post,12,LA Clippers,LAC,LA,112,8,Detroit Pistons,DET,Detroit,99,0
+2025-12-28,2025-12-29T02:30Z,401810301,post,13,Los Angeles Lakers,LAL,Los Angeles,125,23,Sacramento Kings,SAC,Sacramento,101,0
+2025-12-29,2025-12-30T00:00Z,401810302,post,30,Charlotte Hornets,CHA,Charlotte,113,15,Milwaukee Bucks,MIL,Milwaukee,123,0
+2025-12-29,2025-12-30T00:00Z,401810303,post,27,Washington Wizards,WSH,Washington,101,21,Phoenix Suns,PHX,Phoenix,115,0
+2025-12-29,2025-12-30T00:30Z,401810304,post,17,Brooklyn Nets,BKN,Brooklyn,107,9,Golden State Warriors,GS,Golden State,120,0
+2025-12-29,2025-12-30T00:30Z,401810305,post,14,Miami Heat,MIA,Miami,147,7,Denver Nuggets,DEN,Denver,123,0
+2025-12-29,2025-12-30T00:30Z,401810306,post,28,Toronto Raptors,TOR,Toronto,107,19,Orlando Magic,ORL,Orlando,106,0
+2025-12-29,2025-12-30T01:00Z,401810307,post,4,Chicago Bulls,CHI,Chicago,101,16,Minnesota Timberwolves,MIN,Minnesota,136,0
+2025-12-29,2025-12-30T01:00Z,401810308,post,10,Houston Rockets,HOU,Houston,126,11,Indiana Pacers,IND,Indiana,119,0
+2025-12-29,2025-12-30T01:00Z,401810309,post,3,New Orleans Pelicans,NO,New Orleans,125,18,New York Knicks,NY,New York,130,0
+2025-12-29,2025-12-30T01:00Z,401810310,post,25,Oklahoma City Thunder,OKC,Oklahoma City,140,1,Atlanta Hawks,ATL,Atlanta,129,0
+2025-12-29,2025-12-30T01:00Z,401810311,post,24,San Antonio Spurs,SA,San Antonio,101,5,Cleveland Cavaliers,CLE,Cleveland,113,0
+2025-12-29,2025-12-30T03:30Z,401810312,post,22,Portland Trail Blazers,POR,Portland,125,6,Dallas Mavericks,DAL,Dallas,122,0
+2025-12-30,2025-12-31T01:00Z,401810313,post,29,Memphis Grizzlies,MEM,Memphis,136,20,Philadelphia 76ers,PHI,Philadelphia,139,0
+2025-12-30,2025-12-31T02:00Z,401810314,post,26,Utah Jazz,UTAH,Utah,119,2,Boston Celtics,BOS,Boston,129,0
+2025-12-30,2025-12-31T03:30Z,401810315,post,13,Los Angeles Lakers,LAL,Los Angeles,106,8,Detroit Pistons,DET,Detroit,128,0
+2025-12-30,2025-12-31T04:00Z,401810316,post,12,LA Clippers,LAC,LA,131,23,Sacramento Kings,SAC,Sacramento,90,0
+2025-12-31,2025-12-31T18:00Z,401810317,post,30,Charlotte Hornets,CHA,Charlotte,125,9,Golden State Warriors,GS,Golden State,132,0
+2025-12-31,2025-12-31T20:00Z,401810318,post,1,Atlanta Hawks,ATL,Atlanta,126,16,Minnesota Timberwolves,MIN,Minnesota,102,0
+2025-12-31,2025-12-31T20:00Z,401810319,post,11,Indiana Pacers,IND,Indiana,110,19,Orlando Magic,ORL,Orlando,112,0
+2025-12-31,2025-12-31T20:30Z,401810320,post,5,Cleveland Cavaliers,CLE,Cleveland,129,21,Phoenix Suns,PHX,Phoenix,113,0
+2025-12-31,2026-01-01T00:00Z,401810321,post,4,Chicago Bulls,CHI,Chicago,134,3,New Orleans Pelicans,NO,New Orleans,118,0
+2025-12-31,2026-01-01T00:00Z,401810322,post,24,San Antonio Spurs,SA,San Antonio,134,18,New York Knicks,NY,New York,132,0
+2025-12-31,2026-01-01T00:30Z,401810323,post,28,Toronto Raptors,TOR,Toronto,103,7,Denver Nuggets,DEN,Denver,106,0
+2025-12-31,2026-01-01T01:00Z,401810324,post,15,Milwaukee Bucks,MIL,Milwaukee,113,27,Washington Wizards,WSH,Washington,114,0
+2025-12-31,2026-01-01T01:00Z,401810325,post,25,Oklahoma City Thunder,OKC,Oklahoma City,124,22,Portland Trail Blazers,POR,Portland,95,0
+2026-01-01,2026-01-01T23:00Z,401810326,post,17,Brooklyn Nets,BKN,Brooklyn,96,10,Houston Rockets,HOU,Houston,120,0
+2026-01-01,2026-01-02T00:00Z,401810327,post,8,Detroit Pistons,DET,Detroit,112,14,Miami Heat,MIA,Miami,118,0
+2026-01-01,2026-01-02T01:30Z,401810328,post,6,Dallas Mavericks,DAL,Dallas,108,20,Philadelphia 76ers,PHI,Philadelphia,123,0
+2026-01-01,2026-01-02T03:00Z,401810329,post,23,Sacramento Kings,SAC,Sacramento,106,2,Boston Celtics,BOS,Boston,120,0
+2026-01-01,2026-01-02T03:30Z,401810330,post,12,LA Clippers,LAC,LA,118,26,Utah Jazz,UTAH,Utah,101,0
+2026-01-02,2026-01-03T00:00Z,401810331,post,11,Indiana Pacers,IND,Indiana,113,24,San Antonio Spurs,SA,San Antonio,123,0
+2026-01-02,2026-01-03T00:00Z,401810332,post,27,Washington Wizards,WSH,Washington,119,17,Brooklyn Nets,BKN,Brooklyn,99,0
+2026-01-02,2026-01-03T00:30Z,401810333,post,5,Cleveland Cavaliers,CLE,Cleveland,113,7,Denver Nuggets,DEN,Denver,108,0
+2026-01-02,2026-01-03T00:30Z,401810334,post,18,New York Knicks,NY,New York,99,1,Atlanta Hawks,ATL,Atlanta,111,0
+2026-01-02,2026-01-03T01:00Z,401810335,post,4,Chicago Bulls,CHI,Chicago,121,19,Orlando Magic,ORL,Orlando,114,0
+2026-01-02,2026-01-03T01:00Z,401810336,post,15,Milwaukee Bucks,MIL,Milwaukee,122,30,Charlotte Hornets,CHA,Charlotte,121,0
+2026-01-02,2026-01-03T01:00Z,401810337,post,3,New Orleans Pelicans,NO,New Orleans,109,22,Portland Trail Blazers,POR,Portland,122,0
+2026-01-02,2026-01-03T02:00Z,401810338,post,21,Phoenix Suns,PHX,Phoenix,129,23,Sacramento Kings,SAC,Sacramento,102,0
+2026-01-02,2026-01-03T03:00Z,401810339,post,9,Golden State Warriors,GS,Golden State,94,25,Oklahoma City Thunder,OKC,Oklahoma City,131,0
+2026-01-02,2026-01-03T03:30Z,401810340,post,13,Los Angeles Lakers,LAL,Los Angeles,128,29,Memphis Grizzlies,MEM,Memphis,121,0
+2026-01-03,2026-01-03T22:00Z,401810341,post,14,Miami Heat,MIA,Miami,115,16,Minnesota Timberwolves,MIN,Minnesota,125,0
+2026-01-03,2026-01-04T00:30Z,401810342,post,18,New York Knicks,NY,New York,119,20,Philadelphia 76ers,PHI,Philadelphia,130,0
+2026-01-03,2026-01-04T00:30Z,401810343,post,28,Toronto Raptors,TOR,Toronto,134,1,Atlanta Hawks,ATL,Atlanta,117,0
+2026-01-03,2026-01-04T01:00Z,401810344,post,4,Chicago Bulls,CHI,Chicago,99,30,Charlotte Hornets,CHA,Charlotte,112,0
+2026-01-03,2026-01-04T01:00Z,401810345,post,24,San Antonio Spurs,SA,San Antonio,110,22,Portland Trail Blazers,POR,Portland,115,0
+2026-01-03,2026-01-04T01:30Z,401810346,post,6,Dallas Mavericks,DAL,Dallas,110,10,Houston Rockets,HOU,Houston,104,0
+2026-01-03,2026-01-04T03:00Z,401810347,post,9,Golden State Warriors,GS,Golden State,123,26,Utah Jazz,UTAH,Utah,114,0
+2026-01-03,2026-01-04T03:30Z,401810348,post,12,LA Clippers,LAC,LA,115,2,Boston Celtics,BOS,Boston,146,0
+2026-01-04,2026-01-04T19:00Z,401810349,post,5,Cleveland Cavaliers,CLE,Cleveland,110,8,Detroit Pistons,DET,Detroit,114,0
+2026-01-04,2026-01-04T20:00Z,401810350,post,19,Orlando Magic,ORL,Orlando,135,11,Indiana Pacers,IND,Indiana,127,0
+2026-01-04,2026-01-04T20:30Z,401810351,post,17,Brooklyn Nets,BKN,Brooklyn,127,7,Denver Nuggets,DEN,Denver,115,0
+2026-01-04,2026-01-04T23:00Z,401810352,post,14,Miami Heat,MIA,Miami,125,3,New Orleans Pelicans,NO,New Orleans,106,0
+2026-01-04,2026-01-04T23:00Z,401810353,post,27,Washington Wizards,WSH,Washington,115,16,Minnesota Timberwolves,MIN,Minnesota,141,0
+2026-01-04,2026-01-05T01:00Z,401810354,post,21,Phoenix Suns,PHX,Phoenix,108,25,Oklahoma City Thunder,OKC,Oklahoma City,105,0
+2026-01-04,2026-01-05T02:00Z,401810355,post,23,Sacramento Kings,SAC,Sacramento,98,15,Milwaukee Bucks,MIL,Milwaukee,115,0
+2026-01-04,2026-01-05T02:30Z,401810356,post,13,Los Angeles Lakers,LAL,Los Angeles,120,29,Memphis Grizzlies,MEM,Memphis,114,0
+2026-01-05,2026-01-06T00:00Z,401810357,post,8,Detroit Pistons,DET,Detroit,121,18,New York Knicks,NY,New York,90,0
+2026-01-05,2026-01-06T00:30Z,401810358,post,2,Boston Celtics,BOS,Boston,115,4,Chicago Bulls,CHI,Chicago,101,0
+2026-01-05,2026-01-06T00:30Z,401810359,post,28,Toronto Raptors,TOR,Toronto,118,1,Atlanta Hawks,ATL,Atlanta,100,0
+2026-01-05,2026-01-06T01:00Z,401810360,post,10,Houston Rockets,HOU,Houston,100,21,Phoenix Suns,PHX,Phoenix,97,0
+2026-01-05,2026-01-06T01:00Z,401810361,post,25,Oklahoma City Thunder,OKC,Oklahoma City,97,30,Charlotte Hornets,CHA,Charlotte,124,0
+2026-01-05,2026-01-06T01:30Z,401810362,post,20,Philadelphia 76ers,PHI,Philadelphia,124,7,Denver Nuggets,DEN,Denver,125,0
+2026-01-05,2026-01-06T03:00Z,401810363,post,12,LA Clippers,LAC,LA,103,9,Golden State Warriors,GS,Golden State,102,0
+2026-01-05,2026-01-06T03:00Z,401810364,post,22,Portland Trail Blazers,POR,Portland,137,26,Utah Jazz,UTAH,Utah,117,0
+2026-01-06,2026-01-07T00:00Z,401810365,post,11,Indiana Pacers,IND,Indiana,116,5,Cleveland Cavaliers,CLE,Cleveland,120,0
+2026-01-06,2026-01-07T00:00Z,401810366,post,27,Washington Wizards,WSH,Washington,120,19,Orlando Magic,ORL,Orlando,112,0
+2026-01-06,2026-01-07T01:00Z,401810367,post,29,Memphis Grizzlies,MEM,Memphis,106,24,San Antonio Spurs,SA,San Antonio,105,0
+2026-01-06,2026-01-07T01:00Z,401810368,post,16,Minnesota Timberwolves,MIN,Minnesota,122,14,Miami Heat,MIA,Miami,94,0
+2026-01-06,2026-01-07T01:00Z,401810369,post,3,New Orleans Pelicans,NO,New Orleans,103,13,Los Angeles Lakers,LAL,Los Angeles,111,0
+2026-01-06,2026-01-07T04:00Z,401810370,post,23,Sacramento Kings,SAC,Sacramento,98,6,Dallas Mavericks,DAL,Dallas,100,0
+2026-01-07,2026-01-08T00:00Z,401810371,post,30,Charlotte Hornets,CHA,Charlotte,96,28,Toronto Raptors,TOR,Toronto,97,0
+2026-01-07,2026-01-08T00:00Z,401810372,post,8,Detroit Pistons,DET,Detroit,108,4,Chicago Bulls,CHI,Chicago,93,0
+2026-01-07,2026-01-08T00:00Z,401810373,post,20,Philadelphia 76ers,PHI,Philadelphia,131,27,Washington Wizards,WSH,Washington,110,0
+2026-01-07,2026-01-08T00:30Z,401810374,post,1,Atlanta Hawks,ATL,Atlanta,117,3,New Orleans Pelicans,NO,New Orleans,100,0
+2026-01-07,2026-01-08T00:00Z,401810375,post,2,Boston Celtics,BOS,Boston,110,7,Denver Nuggets,DEN,Denver,114,0
+2026-01-07,2026-01-08T00:30Z,401810376,post,17,Brooklyn Nets,BKN,Brooklyn,103,19,Orlando Magic,ORL,Orlando,104,0
+2026-01-07,2026-01-08T00:30Z,401810377,post,18,New York Knicks,NY,New York,123,12,LA Clippers,LAC,LA,111,0
+2026-01-07,2026-01-08T02:30Z,401810378,post,24,San Antonio Spurs,SA,San Antonio,107,13,Los Angeles Lakers,LAL,Los Angeles,91,0
+2026-01-07,2026-01-08T01:00Z,401810379,post,29,Memphis Grizzlies,MEM,Memphis,98,21,Phoenix Suns,PHX,Phoenix,117,0
+2026-01-07,2026-01-08T01:00Z,401810380,post,25,Oklahoma City Thunder,OKC,Oklahoma City,129,26,Utah Jazz,UTAH,Utah,125,0
+2026-01-07,2026-01-08T03:00Z,401810381,post,9,Golden State Warriors,GS,Golden State,120,15,Milwaukee Bucks,MIL,Milwaukee,113,0
+2026-01-07,2026-01-08T03:00Z,401810382,post,22,Portland Trail Blazers,POR,Portland,103,10,Houston Rockets,HOU,Houston,102,0
+2026-01-08,2026-01-09T00:00Z,401810383,post,30,Charlotte Hornets,CHA,Charlotte,112,11,Indiana Pacers,IND,Indiana,114,0
+2026-01-08,2026-01-09T01:00Z,401810384,post,4,Chicago Bulls,CHI,Chicago,0,14,Miami Heat,MIA,Miami,0,0
+2026-01-08,2026-01-09T01:00Z,401810385,post,16,Minnesota Timberwolves,MIN,Minnesota,131,5,Cleveland Cavaliers,CLE,Cleveland,122,0
+2026-01-08,2026-01-09T02:00Z,401810386,post,26,Utah Jazz,UTAH,Utah,116,6,Dallas Mavericks,DAL,Dallas,114,0
+2026-01-09,2026-01-10T00:00Z,401810387,post,2,Boston Celtics,BOS,Boston,125,28,Toronto Raptors,TOR,Toronto,117,0
+2026-01-09,2026-01-10T00:00Z,401810388,post,19,Orlando Magic,ORL,Orlando,91,20,Philadelphia 76ers,PHI,Philadelphia,103,0
+2026-01-09,2026-01-10T00:00Z,401810389,post,27,Washington Wizards,WSH,Washington,107,3,New Orleans Pelicans,NO,New Orleans,128,0
+2026-01-09,2026-01-10T00:30Z,401810390,post,17,Brooklyn Nets,BKN,Brooklyn,105,12,LA Clippers,LAC,LA,121,0
+2026-01-09,2026-01-10T01:00Z,401810391,post,29,Memphis Grizzlies,MEM,Memphis,116,25,Oklahoma City Thunder,OKC,Oklahoma City,117,0
+2026-01-09,2026-01-10T02:00Z,401810392,post,7,Denver Nuggets,DEN,Denver,87,1,Atlanta Hawks,ATL,Atlanta,110,0
+2026-01-09,2026-01-10T02:00Z,401810393,post,21,Phoenix Suns,PHX,Phoenix,112,18,New York Knicks,NY,New York,107,0
+2026-01-09,2026-01-10T03:00Z,401810394,post,9,Golden State Warriors,GS,Golden State,137,23,Sacramento Kings,SAC,Sacramento,103,0
+2026-01-09,2026-01-10T03:00Z,401810395,post,22,Portland Trail Blazers,POR,Portland,111,10,Houston Rockets,HOU,Houston,105,0
+2026-01-09,2026-01-10T03:30Z,401810396,post,13,Los Angeles Lakers,LAL,Los Angeles,101,15,Milwaukee Bucks,MIL,Milwaukee,105,0
+2026-01-10,2026-01-10T18:00Z,401810397,post,5,Cleveland Cavaliers,CLE,Cleveland,146,16,Minnesota Timberwolves,MIN,Minnesota,134,0
+2026-01-10,2026-01-11T00:00Z,401810398,post,11,Indiana Pacers,IND,Indiana,123,14,Miami Heat,MIA,Miami,99,0
+2026-01-10,2026-01-11T00:30Z,401810399,post,8,Detroit Pistons,DET,Detroit,92,12,LA Clippers,LAC,LA,98,0
+2026-01-10,2026-01-11T01:00Z,401810400,post,2,Boston Celtics,BOS,Boston,95,24,San Antonio Spurs,SA,San Antonio,100,0
+2026-01-10,2026-01-11T01:00Z,401810401,post,4,Chicago Bulls,CHI,Chicago,125,6,Dallas Mavericks,DAL,Dallas,107,0
+2026-01-10,2026-01-11T02:30Z,401810402,post,26,Utah Jazz,UTAH,Utah,95,30,Charlotte Hornets,CHA,Charlotte,150,0
+2026-01-11,2026-01-11T20:00Z,401810403,post,19,Orlando Magic,ORL,Orlando,128,3,New Orleans Pelicans,NO,New Orleans,118,0
+2026-01-11,2026-01-11T20:30Z,401810404,post,29,Memphis Grizzlies,MEM,Memphis,103,17,Brooklyn Nets,BKN,Brooklyn,98,0
+2026-01-11,2026-01-11T23:00Z,401810405,post,28,Toronto Raptors,TOR,Toronto,116,20,Philadelphia 76ers,PHI,Philadelphia,115,0
+2026-01-11,2026-01-11T23:00Z,401810406,post,22,Portland Trail Blazers,POR,Portland,114,18,New York Knicks,NY,New York,123,0
+2026-01-11,2026-01-12T00:00Z,401810407,post,16,Minnesota Timberwolves,MIN,Minnesota,104,24,San Antonio Spurs,SA,San Antonio,103,0
+2026-01-11,2026-01-12T00:00Z,401810408,post,25,Oklahoma City Thunder,OKC,Oklahoma City,124,14,Miami Heat,MIA,Miami,112,0
+2026-01-11,2026-01-12T01:00Z,401810409,post,7,Denver Nuggets,DEN,Denver,108,15,Milwaukee Bucks,MIL,Milwaukee,104,0
+2026-01-11,2026-01-12T01:00Z,401810410,post,21,Phoenix Suns,PHX,Phoenix,112,27,Washington Wizards,WSH,Washington,93,0
+2026-01-11,2026-01-12T01:30Z,401810411,post,9,Golden State Warriors,GS,Golden State,111,1,Atlanta Hawks,ATL,Atlanta,124,0
+2026-01-11,2026-01-12T02:00Z,401810412,post,23,Sacramento Kings,SAC,Sacramento,111,10,Houston Rockets,HOU,Houston,98,0
+2026-01-12,2026-01-13T00:00Z,401810413,post,5,Cleveland Cavaliers,CLE,Cleveland,112,26,Utah Jazz,UTAH,Utah,123,0
+2026-01-12,2026-01-13T00:30Z,401810414,post,11,Indiana Pacers,IND,Indiana,98,2,Boston Celtics,BOS,Boston,96,0
+2026-01-12,2026-01-13T00:30Z,401810415,post,28,Toronto Raptors,TOR,Toronto,102,20,Philadelphia 76ers,PHI,Philadelphia,115,0
+2026-01-12,2026-01-13T01:30Z,401810416,post,6,Dallas Mavericks,DAL,Dallas,113,17,Brooklyn Nets,BKN,Brooklyn,105,0
+2026-01-12,2026-01-13T03:00Z,401810417,post,23,Sacramento Kings,SAC,Sacramento,124,13,Los Angeles Lakers,LAL,Los Angeles,112,0
+2026-01-12,2026-01-13T03:30Z,401810418,post,12,LA Clippers,LAC,LA,117,30,Charlotte Hornets,CHA,Charlotte,109,0
+2026-01-13,2026-01-14T00:30Z,401810419,post,14,Miami Heat,MIA,Miami,127,21,Phoenix Suns,PHX,Phoenix,121,0
+2026-01-13,2026-01-14T01:00Z,401810420,post,10,Houston Rockets,HOU,Houston,119,4,Chicago Bulls,CHI,Chicago,113,0
+2026-01-13,2026-01-14T01:00Z,401810421,post,15,Milwaukee Bucks,MIL,Milwaukee,106,16,Minnesota Timberwolves,MIN,Minnesota,139,0
+2026-01-13,2026-01-14T01:00Z,401810422,post,3,New Orleans Pelicans,NO,New Orleans,116,7,Denver Nuggets,DEN,Denver,122,0
+2026-01-13,2026-01-14T01:00Z,401810423,post,25,Oklahoma City Thunder,OKC,Oklahoma City,119,24,San Antonio Spurs,SA,San Antonio,98,0
+2026-01-13,2026-01-14T03:30Z,401810424,post,13,Los Angeles Lakers,LAL,Los Angeles,141,1,Atlanta Hawks,ATL,Atlanta,116,0
+2026-01-13,2026-01-14T04:00Z,401810425,post,9,Golden State Warriors,GS,Golden State,119,22,Portland Trail Blazers,POR,Portland,97,0
+2026-01-14,2026-01-15T00:00Z,401810426,post,11,Indiana Pacers,IND,Indiana,101,28,Toronto Raptors,TOR,Toronto,115,0
+2026-01-14,2026-01-15T00:00Z,401810427,post,20,Philadelphia 76ers,PHI,Philadelphia,107,5,Cleveland Cavaliers,CLE,Cleveland,133,0
+2026-01-14,2026-01-15T01:00Z,401810428,post,4,Chicago Bulls,CHI,Chicago,128,26,Utah Jazz,UTAH,Utah,126,0
+2026-01-14,2026-01-15T01:00Z,401810429,post,3,New Orleans Pelicans,NO,New Orleans,116,17,Brooklyn Nets,BKN,Brooklyn,113,0
+2026-01-14,2026-01-15T02:30Z,401810430,post,6,Dallas Mavericks,DAL,Dallas,109,7,Denver Nuggets,DEN,Denver,118,0
+2026-01-14,2026-01-15T03:00Z,401810431,post,23,Sacramento Kings,SAC,Sacramento,112,18,New York Knicks,NY,New York,101,0
+2026-01-14,2026-01-15T03:30Z,401810432,post,12,LA Clippers,LAC,LA,119,27,Washington Wizards,WSH,Washington,105,0
+2026-01-15,2026-01-15T19:00Z,401810433,post,19,Orlando Magic,ORL,Orlando,118,29,Memphis Grizzlies,MEM,Memphis,111,1
+2026-01-15,2026-01-16T00:00Z,401810434,post,8,Detroit Pistons,DET,Detroit,108,21,Phoenix Suns,PHX,Phoenix,105,0
+2026-01-15,2026-01-16T00:30Z,401810435,post,14,Miami Heat,MIA,Miami,114,2,Boston Celtics,BOS,Boston,119,0
+2026-01-15,2026-01-16T00:30Z,401810436,post,10,Houston Rockets,HOU,Houston,91,25,Oklahoma City Thunder,OKC,Oklahoma City,111,0
+2026-01-15,2026-01-16T01:00Z,401810437,post,24,San Antonio Spurs,SA,San Antonio,119,15,Milwaukee Bucks,MIL,Milwaukee,101,0
+2026-01-15,2026-01-16T01:30Z,401810438,post,6,Dallas Mavericks,DAL,Dallas,144,26,Utah Jazz,UTAH,Utah,122,0
+2026-01-15,2026-01-16T03:00Z,401810439,post,9,Golden State Warriors,GS,Golden State,126,18,New York Knicks,NY,New York,113,0
+2026-01-15,2026-01-16T03:00Z,401810440,post,22,Portland Trail Blazers,POR,Portland,117,1,Atlanta Hawks,ATL,Atlanta,101,0
+2026-01-15,2026-01-16T03:30Z,401810441,post,13,Los Angeles Lakers,LAL,Los Angeles,117,30,Charlotte Hornets,CHA,Charlotte,135,0
+2026-01-16,2026-01-17T00:30Z,401810442,post,17,Brooklyn Nets,BKN,Brooklyn,112,4,Chicago Bulls,CHI,Chicago,109,0
+2026-01-16,2026-01-17T00:00Z,401810443,post,11,Indiana Pacers,IND,Indiana,127,3,New Orleans Pelicans,NO,New Orleans,119,0
+2026-01-16,2026-01-17T00:00Z,401810444,post,20,Philadelphia 76ers,PHI,Philadelphia,115,5,Cleveland Cavaliers,CLE,Cleveland,117,0
+2026-01-16,2026-01-17T00:30Z,401810445,post,28,Toronto Raptors,TOR,Toronto,117,12,LA Clippers,LAC,LA,121,0
+2026-01-16,2026-01-17T02:30Z,401810446,post,10,Houston Rockets,HOU,Houston,110,16,Minnesota Timberwolves,MIN,Minnesota,105,0
+2026-01-16,2026-01-17T03:00Z,401810447,post,23,Sacramento Kings,SAC,Sacramento,128,27,Washington Wizards,WSH,Washington,115,0
+2026-01-17,2026-01-17T22:00Z,401810448,post,6,Dallas Mavericks,DAL,Dallas,138,26,Utah Jazz,UTAH,Utah,120,0
+2026-01-17,2026-01-18T00:30Z,401810449,post,1,Atlanta Hawks,ATL,Atlanta,106,2,Boston Celtics,BOS,Boston,132,0
+2026-01-17,2026-01-18T00:30Z,401810450,post,8,Detroit Pistons,DET,Detroit,121,11,Indiana Pacers,IND,Indiana,78,0
+2026-01-17,2026-01-18T00:30Z,401810451,post,18,New York Knicks,NY,New York,99,21,Phoenix Suns,PHX,Phoenix,106,0
+2026-01-17,2026-01-18T01:00Z,401810452,post,14,Miami Heat,MIA,Miami,122,25,Oklahoma City Thunder,OKC,Oklahoma City,120,0
+2026-01-17,2026-01-18T01:00Z,401810453,post,24,San Antonio Spurs,SA,San Antonio,126,16,Minnesota Timberwolves,MIN,Minnesota,123,0
+2026-01-17,2026-01-18T01:30Z,401810454,post,9,Golden State Warriors,GS,Golden State,136,30,Charlotte Hornets,CHA,Charlotte,116,0
+2026-01-17,2026-01-18T02:00Z,401810455,post,7,Denver Nuggets,DEN,Denver,121,27,Washington Wizards,WSH,Washington,115,0
+2026-01-17,2026-01-18T03:00Z,401810456,post,22,Portland Trail Blazers,POR,Portland,132,13,Los Angeles Lakers,LAL,Los Angeles,116,0
+2026-01-18,2026-01-18T17:00Z,401810457,post,29,Memphis Grizzlies,MEM,Memphis,126,19,Orlando Magic,ORL,Orlando,109,1
+2026-01-18,2026-01-19T00:00Z,401810458,post,4,Chicago Bulls,CHI,Chicago,124,17,Brooklyn Nets,BKN,Brooklyn,102,0
+2026-01-18,2026-01-19T00:00Z,401810459,post,10,Houston Rockets,HOU,Houston,119,3,New Orleans Pelicans,NO,New Orleans,110,0
+2026-01-18,2026-01-19T01:00Z,401810460,post,7,Denver Nuggets,DEN,Denver,87,30,Charlotte Hornets,CHA,Charlotte,110,0
+2026-01-18,2026-01-19T02:00Z,401810461,post,23,Sacramento Kings,SAC,Sacramento,110,22,Portland Trail Blazers,POR,Portland,117,0
+2026-01-18,2026-01-19T02:30Z,401810462,post,13,Los Angeles Lakers,LAL,Los Angeles,110,28,Toronto Raptors,TOR,Toronto,93,0
+2026-01-19,2026-01-19T18:00Z,401809247,post,1,Atlanta Hawks,ATL,Atlanta,110,15,Milwaukee Bucks,MIL,Milwaukee,112,0
+2026-01-19,2026-01-19T19:30Z,401809248,post,5,Cleveland Cavaliers,CLE,Cleveland,104,25,Oklahoma City Thunder,OKC,Oklahoma City,136,0
+2026-01-19,2026-01-19T22:00Z,401809249,post,18,New York Knicks,NY,New York,97,6,Dallas Mavericks,DAL,Dallas,114,0
+2026-01-19,2026-01-20T01:00Z,401809250,post,8,Detroit Pistons,DET,Detroit,104,2,Boston Celtics,BOS,Boston,103,0
+2026-01-19,2026-01-19T20:00Z,401810463,post,27,Washington Wizards,WSH,Washington,106,12,LA Clippers,LAC,LA,110,0
+2026-01-19,2026-01-20T00:00Z,401810464,post,20,Philadelphia 76ers,PHI,Philadelphia,113,11,Indiana Pacers,IND,Indiana,104,0
+2026-01-19,2026-01-20T00:30Z,401810465,post,17,Brooklyn Nets,BKN,Brooklyn,117,21,Phoenix Suns,PHX,Phoenix,126,0
+2026-01-19,2026-01-19T22:00Z,401810466,post,24,San Antonio Spurs,SA,San Antonio,123,26,Utah Jazz,UTAH,Utah,110,0
+2026-01-19,2026-01-20T03:00Z,401810467,post,9,Golden State Warriors,GS,Golden State,135,14,Miami Heat,MIA,Miami,112,0
+2026-01-20,2026-01-21T00:00Z,401810468,post,20,Philadelphia 76ers,PHI,Philadelphia,110,21,Phoenix Suns,PHX,Phoenix,116,0
+2026-01-20,2026-01-21T01:00Z,401810469,post,4,Chicago Bulls,CHI,Chicago,138,12,LA Clippers,LAC,LA,110,0
+2026-01-20,2026-01-21T01:00Z,401810470,post,10,Houston Rockets,HOU,Houston,111,24,San Antonio Spurs,SA,San Antonio,106,0
+2026-01-20,2026-01-21T02:00Z,401810471,post,26,Utah Jazz,UTAH,Utah,127,16,Minnesota Timberwolves,MIN,Minnesota,122,0
+2026-01-20,2026-01-21T03:00Z,401810472,post,7,Denver Nuggets,DEN,Denver,107,13,Los Angeles Lakers,LAL,Los Angeles,115,0
+2026-01-20,2026-01-21T03:00Z,401810473,post,9,Golden State Warriors,GS,Golden State,127,28,Toronto Raptors,TOR,Toronto,145,0
+2026-01-20,2026-01-21T03:00Z,401810474,post,23,Sacramento Kings,SAC,Sacramento,117,14,Miami Heat,MIA,Miami,130,0
+2026-01-21,2026-01-22T00:00Z,401810475,post,30,Charlotte Hornets,CHA,Charlotte,87,5,Cleveland Cavaliers,CLE,Cleveland,94,0
+2026-01-21,2026-01-22T00:30Z,401810476,post,2,Boston Celtics,BOS,Boston,119,11,Indiana Pacers,IND,Indiana,104,0
+2026-01-21,2026-01-22T00:30Z,401810477,post,18,New York Knicks,NY,New York,120,17,Brooklyn Nets,BKN,Brooklyn,66,0
+2026-01-21,2026-01-22T01:00Z,401810478,post,29,Memphis Grizzlies,MEM,Memphis,122,1,Atlanta Hawks,ATL,Atlanta,124,0
+2026-01-21,2026-01-22T01:00Z,401810479,post,3,New Orleans Pelicans,NO,New Orleans,104,8,Detroit Pistons,DET,Detroit,112,0
+2026-01-21,2026-01-22T02:30Z,401810480,post,15,Milwaukee Bucks,MIL,Milwaukee,102,25,Oklahoma City Thunder,OKC,Oklahoma City,122,0
+2026-01-21,2026-01-22T03:00Z,401810481,post,23,Sacramento Kings,SAC,Sacramento,109,28,Toronto Raptors,TOR,Toronto,122,0
+2026-01-22,2026-01-23T00:00Z,401810482,post,19,Orlando Magic,ORL,Orlando,97,30,Charlotte Hornets,CHA,Charlotte,124,0
+2026-01-22,2026-01-23T00:00Z,401810483,post,20,Philadelphia 76ers,PHI,Philadelphia,128,10,Houston Rockets,HOU,Houston,122,0
+2026-01-22,2026-01-23T00:00Z,401810484,post,27,Washington Wizards,WSH,Washington,97,7,Denver Nuggets,DEN,Denver,107,0
+2026-01-22,2026-01-23T00:30Z,401810485,post,6,Dallas Mavericks,DAL,Dallas,123,9,Golden State Warriors,GS,Golden State,115,0
+2026-01-22,2026-01-23T01:00Z,401810486,post,16,Minnesota Timberwolves,MIN,Minnesota,115,4,Chicago Bulls,CHI,Chicago,120,0
+2026-01-22,2026-01-23T02:00Z,401810487,post,26,Utah Jazz,UTAH,Utah,109,24,San Antonio Spurs,SA,San Antonio,126,0
+2026-01-22,2026-01-23T03:00Z,401810488,post,12,LA Clippers,LAC,LA,112,13,Los Angeles Lakers,LAL,Los Angeles,104,0
+2026-01-22,2026-01-23T03:00Z,401810489,post,22,Portland Trail Blazers,POR,Portland,127,14,Miami Heat,MIA,Miami,110,0
+2026-01-23,2026-01-24T00:00Z,401810490,post,8,Detroit Pistons,DET,Detroit,104,10,Houston Rockets,HOU,Houston,111,0
+2026-01-23,2026-01-24T00:30Z,401810491,post,1,Atlanta Hawks,ATL,Atlanta,110,21,Phoenix Suns,PHX,Phoenix,103,0
+2026-01-23,2026-01-24T00:30Z,401810492,post,17,Brooklyn Nets,BKN,Brooklyn,126,2,Boston Celtics,BOS,Boston,130,0
+2026-01-23,2026-01-24T00:30Z,401810493,post,5,Cleveland Cavaliers,CLE,Cleveland,123,23,Sacramento Kings,SAC,Sacramento,118,0
+2026-01-23,2026-01-24T01:00Z,401810494,post,29,Memphis Grizzlies,MEM,Memphis,127,3,New Orleans Pelicans,NO,New Orleans,133,0
+2026-01-23,2026-01-24T02:30Z,401810495,post,15,Milwaukee Bucks,MIL,Milwaukee,100,7,Denver Nuggets,DEN,Denver,102,0
+2026-01-23,2026-01-24T01:00Z,401810496,post,25,Oklahoma City Thunder,OKC,Oklahoma City,114,11,Indiana Pacers,IND,Indiana,117,0
+2026-01-23,2026-01-24T03:00Z,401810497,post,22,Portland Trail Blazers,POR,Portland,98,28,Toronto Raptors,TOR,Toronto,110,0
+2026-01-24,2026-01-24T20:00Z,401810498,post,20,Philadelphia 76ers,PHI,Philadelphia,109,18,New York Knicks,NY,New York,112,0
+2026-01-24,2026-01-24T22:30Z,401810499,post,16,Minnesota Timberwolves,MIN,Minnesota,0,9,Golden State Warriors,GS,Golden State,0,0
+2026-01-24,2026-01-24T17:00Z,401810500,post,30,Charlotte Hornets,CHA,Charlotte,119,27,Washington Wizards,WSH,Washington,115,0
+2026-01-24,2026-01-25T00:00Z,401810501,post,19,Orlando Magic,ORL,Orlando,105,5,Cleveland Cavaliers,CLE,Cleveland,119,0
+2026-01-24,2026-01-25T01:00Z,401810502,post,4,Chicago Bulls,CHI,Chicago,114,2,Boston Celtics,BOS,Boston,111,0
+2026-01-24,2026-01-25T01:30Z,401810503,post,6,Dallas Mavericks,DAL,Dallas,110,13,Los Angeles Lakers,LAL,Los Angeles,116,0
+2026-01-24,2026-01-25T02:30Z,401810504,post,26,Utah Jazz,UTAH,Utah,116,14,Miami Heat,MIA,Miami,147,0
+2026-01-25,2026-01-25T20:00Z,401810505,post,8,Detroit Pistons,DET,Detroit,139,23,Sacramento Kings,SAC,Sacramento,116,0
+2026-01-25,2026-01-25T20:30Z,401810506,post,29,Memphis Grizzlies,MEM,Memphis,0,7,Denver Nuggets,DEN,Denver,0,0
+2026-01-25,2026-01-26T00:00Z,401810507,post,15,Milwaukee Bucks,MIL,Milwaukee,0,6,Dallas Mavericks,DAL,Dallas,0,0
+2026-01-25,2026-01-26T00:00Z,401810508,post,25,Oklahoma City Thunder,OKC,Oklahoma City,101,28,Toronto Raptors,TOR,Toronto,103,0
+2026-01-25,2026-01-26T00:00Z,401810509,post,24,San Antonio Spurs,SA,San Antonio,95,3,New Orleans Pelicans,NO,New Orleans,104,0
+2026-01-25,2026-01-26T01:00Z,401810510,post,21,Phoenix Suns,PHX,Phoenix,102,14,Miami Heat,MIA,Miami,111,0
+2026-01-25,2026-01-26T02:00Z,401810511,post,12,LA Clippers,LAC,LA,126,17,Brooklyn Nets,BKN,Brooklyn,89,0
+2026-01-25,2026-01-25T22:30Z,401857824,post,16,Minnesota Timberwolves,MIN,Minnesota,85,9,Golden State Warriors,GS,Golden State,111,0
+2026-01-26,2026-01-26T20:00Z,401810512,post,30,Charlotte Hornets,CHA,Charlotte,130,20,Philadelphia 76ers,PHI,Philadelphia,93,0
+2026-01-26,2026-01-27T00:00Z,401810513,post,5,Cleveland Cavaliers,CLE,Cleveland,114,19,Orlando Magic,ORL,Orlando,98,0
+2026-01-26,2026-01-26T18:30Z,401810514,post,1,Atlanta Hawks,ATL,Atlanta,132,11,Indiana Pacers,IND,Indiana,116,0
+2026-01-26,2026-01-27T01:00Z,401810515,post,2,Boston Celtics,BOS,Boston,102,22,Portland Trail Blazers,POR,Portland,94,0
+2026-01-26,2026-01-27T01:00Z,401810516,post,4,Chicago Bulls,CHI,Chicago,118,13,Los Angeles Lakers,LAL,Los Angeles,129,0
+2026-01-26,2026-01-27T01:00Z,401810517,post,10,Houston Rockets,HOU,Houston,108,29,Memphis Grizzlies,MEM,Memphis,99,0
+2026-01-26,2026-01-27T02:30Z,401810518,post,16,Minnesota Timberwolves,MIN,Minnesota,108,9,Golden State Warriors,GS,Golden State,83,0
+2026-01-27,2026-01-28T00:00Z,401810519,post,27,Washington Wizards,WSH,Washington,115,22,Portland Trail Blazers,POR,Portland,111,0
+2026-01-27,2026-01-28T00:30Z,401810520,post,18,New York Knicks,NY,New York,103,23,Sacramento Kings,SAC,Sacramento,87,0
+2026-01-27,2026-01-28T01:00Z,401810521,post,20,Philadelphia 76ers,PHI,Philadelphia,139,15,Milwaukee Bucks,MIL,Milwaukee,122,0
+2026-01-27,2026-01-28T01:00Z,401810522,post,25,Oklahoma City Thunder,OKC,Oklahoma City,104,3,New Orleans Pelicans,NO,New Orleans,95,0
+2026-01-27,2026-01-28T02:00Z,401810523,post,7,Denver Nuggets,DEN,Denver,107,8,Detroit Pistons,DET,Detroit,109,0
+2026-01-27,2026-01-28T02:00Z,401810524,post,21,Phoenix Suns,PHX,Phoenix,106,17,Brooklyn Nets,BKN,Brooklyn,102,0
+2026-01-27,2026-01-28T03:00Z,401810525,post,26,Utah Jazz,UTAH,Utah,103,12,LA Clippers,LAC,LA,115,0
+2026-01-28,2026-01-29T00:00Z,401810526,post,5,Cleveland Cavaliers,CLE,Cleveland,129,13,Los Angeles Lakers,LAL,Los Angeles,99,0
+2026-01-28,2026-01-29T00:00Z,401810527,post,11,Indiana Pacers,IND,Indiana,113,4,Chicago Bulls,CHI,Chicago,110,0
+2026-01-28,2026-01-29T00:30Z,401810528,post,2,Boston Celtics,BOS,Boston,106,1,Atlanta Hawks,ATL,Atlanta,117,0
+2026-01-28,2026-01-29T00:30Z,401810529,post,14,Miami Heat,MIA,Miami,124,19,Orlando Magic,ORL,Orlando,133,0
+2026-01-28,2026-01-29T00:30Z,401810530,post,28,Toronto Raptors,TOR,Toronto,92,18,New York Knicks,NY,New York,119,0
+2026-01-28,2026-01-29T01:00Z,401810531,post,29,Memphis Grizzlies,MEM,Memphis,97,30,Charlotte Hornets,CHA,Charlotte,112,0
+2026-01-28,2026-01-29T01:30Z,401810532,post,6,Dallas Mavericks,DAL,Dallas,105,16,Minnesota Timberwolves,MIN,Minnesota,118,0
+2026-01-28,2026-01-29T02:00Z,401810533,post,26,Utah Jazz,UTAH,Utah,124,9,Golden State Warriors,GS,Golden State,140,0
+2026-01-28,2026-01-29T02:42Z,401810534,post,10,Houston Rockets,HOU,Houston,99,24,San Antonio Spurs,SA,San Antonio,111,0
+2026-01-29,2026-01-30T00:00Z,401810535,post,20,Philadelphia 76ers,PHI,Philadelphia,113,23,Sacramento Kings,SAC,Sacramento,111,0
+2026-01-29,2026-01-30T00:00Z,401810536,post,27,Washington Wizards,WSH,Washington,109,15,Milwaukee Bucks,MIL,Milwaukee,99,0
+2026-01-29,2026-01-30T01:00Z,401810537,post,1,Atlanta Hawks,ATL,Atlanta,86,10,Houston Rockets,HOU,Houston,104,0
+2026-01-29,2026-01-30T01:30Z,401810538,post,6,Dallas Mavericks,DAL,Dallas,121,30,Charlotte Hornets,CHA,Charlotte,123,0
+2026-01-29,2026-01-30T02:00Z,401810539,post,7,Denver Nuggets,DEN,Denver,107,17,Brooklyn Nets,BKN,Brooklyn,103,0
+2026-01-29,2026-01-30T02:00Z,401810540,post,21,Phoenix Suns,PHX,Phoenix,114,8,Detroit Pistons,DET,Detroit,96,0
+2026-01-29,2026-01-30T02:30Z,401810541,post,16,Minnesota Timberwolves,MIN,Minnesota,123,25,Oklahoma City Thunder,OKC,Oklahoma City,111,0
+2026-01-29,2026-01-30T01:00Z,401850920,post,4,Chicago Bulls,CHI,Chicago,113,14,Miami Heat,MIA,Miami,116,0
+2026-01-30,2026-01-31T00:30Z,401810542,post,19,Orlando Magic,ORL,Orlando,130,28,Toronto Raptors,TOR,Toronto,120,0
+2026-01-30,2026-01-31T00:00Z,401810543,post,27,Washington Wizards,WSH,Washington,111,13,Los Angeles Lakers,LAL,Los Angeles,142,0
+2026-01-30,2026-01-31T00:30Z,401810544,post,2,Boston Celtics,BOS,Boston,112,23,Sacramento Kings,SAC,Sacramento,93,0
+2026-01-30,2026-01-31T00:30Z,401810545,post,18,New York Knicks,NY,New York,127,22,Portland Trail Blazers,POR,Portland,97,0
+2026-01-30,2026-01-31T00:30Z,401810546,post,3,New Orleans Pelicans,NO,New Orleans,114,29,Memphis Grizzlies,MEM,Memphis,106,0
+2026-01-30,2026-01-31T02:00Z,401810548,post,21,Phoenix Suns,PHX,Phoenix,126,5,Cleveland Cavaliers,CLE,Cleveland,113,0
+2026-01-30,2026-01-31T02:30Z,401810549,post,26,Utah Jazz,UTAH,Utah,99,17,Brooklyn Nets,BKN,Brooklyn,109,0
+2026-01-30,2026-01-31T02:00Z,401810550,post,7,Denver Nuggets,DEN,Denver,122,12,LA Clippers,LAC,LA,109,0
+2026-01-30,2026-01-31T03:00Z,401810551,post,9,Golden State Warriors,GS,Golden State,124,8,Detroit Pistons,DET,Detroit,131,0
+2026-01-31,2026-02-01T01:00Z,401810547,post,14,Miami Heat,MIA,Miami,118,4,Chicago Bulls,CHI,Chicago,125,0
+2026-01-31,2026-01-31T17:00Z,401810552,post,30,Charlotte Hornets,CHA,Charlotte,111,24,San Antonio Spurs,SA,San Antonio,106,0
+2026-01-31,2026-02-01T00:00Z,401810553,post,11,Indiana Pacers,IND,Indiana,129,1,Atlanta Hawks,ATL,Atlanta,124,0
+2026-01-31,2026-02-01T00:30Z,401810554,post,20,Philadelphia 76ers,PHI,Philadelphia,124,3,New Orleans Pelicans,NO,New Orleans,114,0
+2026-01-31,2026-02-01T01:00Z,401810555,post,29,Memphis Grizzlies,MEM,Memphis,114,16,Minnesota Timberwolves,MIN,Minnesota,131,0
+2026-01-31,2026-02-01T01:30Z,401810556,post,10,Houston Rockets,HOU,Houston,111,6,Dallas Mavericks,DAL,Dallas,107,0
+2026-02-01,2026-02-01T20:30Z,401810557,post,2,Boston Celtics,BOS,Boston,107,15,Milwaukee Bucks,MIL,Milwaukee,79,0
+2026-02-01,2026-02-02T02:00Z,401810558,post,24,San Antonio Spurs,SA,San Antonio,112,19,Orlando Magic,ORL,Orlando,103,0
+2026-02-01,2026-02-01T23:00Z,401810559,post,8,Detroit Pistons,DET,Detroit,130,17,Brooklyn Nets,BKN,Brooklyn,77,0
+2026-02-01,2026-02-01T23:00Z,401810560,post,14,Miami Heat,MIA,Miami,134,4,Chicago Bulls,CHI,Chicago,91,0
+2026-02-01,2026-02-01T23:00Z,401810561,post,28,Toronto Raptors,TOR,Toronto,107,26,Utah Jazz,UTAH,Utah,100,0
+2026-02-01,2026-02-01T23:00Z,401810562,post,27,Washington Wizards,WSH,Washington,116,23,Sacramento Kings,SAC,Sacramento,112,0
+2026-02-01,2026-02-02T00:00Z,401810563,post,18,New York Knicks,NY,New York,112,13,Los Angeles Lakers,LAL,Los Angeles,100,0
+2026-02-01,2026-02-02T01:00Z,401810564,post,21,Phoenix Suns,PHX,Phoenix,93,12,LA Clippers,LAC,LA,117,0
+2026-02-01,2026-02-02T02:00Z,401810565,post,22,Portland Trail Blazers,POR,Portland,111,5,Cleveland Cavaliers,CLE,Cleveland,130,0
+2026-02-01,2026-02-02T02:30Z,401810566,post,7,Denver Nuggets,DEN,Denver,111,25,Oklahoma City Thunder,OKC,Oklahoma City,121,0
+2026-02-02,2026-02-02T20:00Z,401810567,post,30,Charlotte Hornets,CHA,Charlotte,102,3,New Orleans Pelicans,NO,New Orleans,95,0
+2026-02-02,2026-02-03T00:00Z,401810568,post,11,Indiana Pacers,IND,Indiana,114,10,Houston Rockets,HOU,Houston,118,0
+2026-02-02,2026-02-03T00:30Z,401810569,post,29,Memphis Grizzlies,MEM,Memphis,137,16,Minnesota Timberwolves,MIN,Minnesota,128,0
+2026-02-02,2026-02-03T03:00Z,401810570,post,12,LA Clippers,LAC,LA,113,20,Philadelphia 76ers,PHI,Philadelphia,128,0
+2026-02-03,2026-02-04T00:00Z,401810571,post,8,Detroit Pistons,DET,Detroit,124,7,Denver Nuggets,DEN,Denver,121,0
+2026-02-03,2026-02-04T00:00Z,401810572,post,11,Indiana Pacers,IND,Indiana,122,26,Utah Jazz,UTAH,Utah,131,0
+2026-02-03,2026-02-04T00:00Z,401810573,post,27,Washington Wizards,WSH,Washington,101,18,New York Knicks,NY,New York,132,0
+2026-02-03,2026-02-04T00:30Z,401810574,post,17,Brooklyn Nets,BKN,Brooklyn,109,13,Los Angeles Lakers,LAL,Los Angeles,125,0
+2026-02-03,2026-02-04T00:30Z,401810575,post,14,Miami Heat,MIA,Miami,115,1,Atlanta Hawks,ATL,Atlanta,127,0
+2026-02-03,2026-02-04T01:00Z,401810576,post,6,Dallas Mavericks,DAL,Dallas,100,2,Boston Celtics,BOS,Boston,110,0
+2026-02-03,2026-02-04T01:00Z,401810577,post,15,Milwaukee Bucks,MIL,Milwaukee,131,4,Chicago Bulls,CHI,Chicago,115,0
+2026-02-03,2026-02-04T01:00Z,401810578,post,25,Oklahoma City Thunder,OKC,Oklahoma City,128,19,Orlando Magic,ORL,Orlando,92,0
+2026-02-03,2026-02-04T03:00Z,401810579,post,9,Golden State Warriors,GS,Golden State,94,20,Philadelphia 76ers,PHI,Philadelphia,113,0
+2026-02-03,2026-02-04T04:00Z,401810580,post,22,Portland Trail Blazers,POR,Portland,125,21,Phoenix Suns,PHX,Phoenix,130,0
+2026-02-04,2026-02-05T00:00Z,401810581,post,18,New York Knicks,NY,New York,134,7,Denver Nuggets,DEN,Denver,127,0
+2026-02-04,2026-02-05T00:30Z,401810582,post,28,Toronto Raptors,TOR,Toronto,126,16,Minnesota Timberwolves,MIN,Minnesota,128,0
+2026-02-04,2026-02-05T01:00Z,401810583,post,10,Houston Rockets,HOU,Houston,93,2,Boston Celtics,BOS,Boston,114,0
+2026-02-04,2026-02-05T01:00Z,401810584,post,15,Milwaukee Bucks,MIL,Milwaukee,141,3,New Orleans Pelicans,NO,New Orleans,137,0
+2026-02-04,2026-02-05T02:30Z,401810585,post,24,San Antonio Spurs,SA,San Antonio,116,25,Oklahoma City Thunder,OKC,Oklahoma City,106,0
+2026-02-04,2026-02-05T03:00Z,401810586,post,23,Sacramento Kings,SAC,Sacramento,125,29,Memphis Grizzlies,MEM,Memphis,129,0
+2026-02-04,2026-02-05T03:30Z,401810587,post,12,LA Clippers,LAC,LA,91,5,Cleveland Cavaliers,CLE,Cleveland,124,0
+2026-02-05,2026-02-06T00:00Z,401810588,post,8,Detroit Pistons,DET,Detroit,117,27,Washington Wizards,WSH,Washington,126,0
+2026-02-05,2026-02-06T00:00Z,401810589,post,19,Orlando Magic,ORL,Orlando,118,17,Brooklyn Nets,BKN,Brooklyn,98,0
+2026-02-05,2026-02-06T00:30Z,401810590,post,1,Atlanta Hawks,ATL,Atlanta,121,26,Utah Jazz,UTAH,Utah,119,0
+2026-02-05,2026-02-06T00:30Z,401810591,post,28,Toronto Raptors,TOR,Toronto,123,4,Chicago Bulls,CHI,Chicago,107,0
+2026-02-05,2026-02-06T01:00Z,401810592,post,10,Houston Rockets,HOU,Houston,99,30,Charlotte Hornets,CHA,Charlotte,109,0
+2026-02-05,2026-02-06T01:30Z,401810593,post,6,Dallas Mavericks,DAL,Dallas,123,24,San Antonio Spurs,SA,San Antonio,135,0
+2026-02-05,2026-02-06T03:00Z,401810594,post,21,Phoenix Suns,PHX,Phoenix,97,9,Golden State Warriors,GS,Golden State,101,0
+2026-02-05,2026-02-06T03:00Z,401810595,post,13,Los Angeles Lakers,LAL,Los Angeles,119,20,Philadelphia 76ers,PHI,Philadelphia,115,0
+2026-02-06,2026-02-07T00:30Z,401810596,post,2,Boston Celtics,BOS,Boston,98,14,Miami Heat,MIA,Miami,96,0
+2026-02-06,2026-02-07T00:30Z,401810597,post,8,Detroit Pistons,DET,Detroit,118,18,New York Knicks,NY,New York,80,0
+2026-02-06,2026-02-07T01:00Z,401810598,post,15,Milwaukee Bucks,MIL,Milwaukee,105,11,Indiana Pacers,IND,Indiana,99,0
+2026-02-06,2026-02-07T01:00Z,401810599,post,16,Minnesota Timberwolves,MIN,Minnesota,115,3,New Orleans Pelicans,NO,New Orleans,119,0
+2026-02-06,2026-02-07T03:00Z,401810600,post,22,Portland Trail Blazers,POR,Portland,135,29,Memphis Grizzlies,MEM,Memphis,115,0
+2026-02-06,2026-02-07T03:00Z,401810601,post,23,Sacramento Kings,SAC,Sacramento,111,12,LA Clippers,LAC,LA,114,0
+2026-02-07,2026-02-07T20:00Z,401810602,post,17,Brooklyn Nets,BKN,Brooklyn,127,27,Washington Wizards,WSH,Washington,113,0
+2026-02-07,2026-02-07T20:30Z,401810603,post,25,Oklahoma City Thunder,OKC,Oklahoma City,106,10,Houston Rockets,HOU,Houston,112,0
+2026-02-07,2026-02-07T23:00Z,401810604,post,24,San Antonio Spurs,SA,San Antonio,138,6,Dallas Mavericks,DAL,Dallas,125,0
+2026-02-07,2026-02-08T00:00Z,401810605,post,19,Orlando Magic,ORL,Orlando,120,26,Utah Jazz,UTAH,Utah,117,0
+2026-02-07,2026-02-08T00:30Z,401810606,post,1,Atlanta Hawks,ATL,Atlanta,119,30,Charlotte Hornets,CHA,Charlotte,126,0
+2026-02-07,2026-02-08T01:00Z,401810607,post,4,Chicago Bulls,CHI,Chicago,120,7,Denver Nuggets,DEN,Denver,136,0
+2026-02-07,2026-02-08T01:30Z,401810608,post,13,Los Angeles Lakers,LAL,Los Angeles,105,9,Golden State Warriors,GS,Golden State,99,0
+2026-02-07,2026-02-08T02:00Z,401810609,post,21,Phoenix Suns,PHX,Phoenix,103,20,Philadelphia 76ers,PHI,Philadelphia,109,0
+2026-02-07,2026-02-08T03:00Z,401810610,post,22,Portland Trail Blazers,POR,Portland,122,29,Memphis Grizzlies,MEM,Memphis,115,0
+2026-02-07,2026-02-08T03:00Z,401810611,post,23,Sacramento Kings,SAC,Sacramento,126,5,Cleveland Cavaliers,CLE,Cleveland,132,0
+2026-02-08,2026-02-08T17:30Z,401810612,post,2,Boston Celtics,BOS,Boston,89,18,New York Knicks,NY,New York,111,0
+2026-02-08,2026-02-08T19:00Z,401810613,post,27,Washington Wizards,WSH,Washington,101,14,Miami Heat,MIA,Miami,132,0
+2026-02-08,2026-02-08T20:00Z,401810614,post,28,Toronto Raptors,TOR,Toronto,122,11,Indiana Pacers,IND,Indiana,104,0
+2026-02-08,2026-02-08T20:00Z,401810615,post,16,Minnesota Timberwolves,MIN,Minnesota,96,12,LA Clippers,LAC,LA,115,0
+2026-02-09,2026-02-10T00:00Z,401810616,post,30,Charlotte Hornets,CHA,Charlotte,104,8,Detroit Pistons,DET,Detroit,110,0
+2026-02-09,2026-02-10T00:30Z,401810617,post,17,Brooklyn Nets,BKN,Brooklyn,123,4,Chicago Bulls,CHI,Chicago,115,0
+2026-02-09,2026-02-10T00:30Z,401810618,post,14,Miami Heat,MIA,Miami,111,26,Utah Jazz,UTAH,Utah,115,0
+2026-02-09,2026-02-10T00:30Z,401810619,post,19,Orlando Magic,ORL,Orlando,118,15,Milwaukee Bucks,MIL,Milwaukee,99,0
+2026-02-09,2026-02-10T01:00Z,401810620,post,16,Minnesota Timberwolves,MIN,Minnesota,138,1,Atlanta Hawks,ATL,Atlanta,116,0
+2026-02-09,2026-02-10T01:00Z,401810621,post,3,New Orleans Pelicans,NO,New Orleans,120,23,Sacramento Kings,SAC,Sacramento,94,0
+2026-02-09,2026-02-10T02:00Z,401810622,post,7,Denver Nuggets,DEN,Denver,117,5,Cleveland Cavaliers,CLE,Cleveland,119,0
+2026-02-09,2026-02-10T03:00Z,401810623,post,9,Golden State Warriors,GS,Golden State,114,29,Memphis Grizzlies,MEM,Memphis,113,0
+2026-02-09,2026-02-10T03:00Z,401810624,post,13,Los Angeles Lakers,LAL,Los Angeles,110,25,Oklahoma City Thunder,OKC,Oklahoma City,119,0
+2026-02-09,2026-02-10T03:00Z,401810625,post,22,Portland Trail Blazers,POR,Portland,135,20,Philadelphia 76ers,PHI,Philadelphia,118,0
+2026-02-10,2026-02-11T00:30Z,401810626,post,18,New York Knicks,NY,New York,134,11,Indiana Pacers,IND,Indiana,137,0
+2026-02-10,2026-02-11T01:00Z,401810627,post,10,Houston Rockets,HOU,Houston,102,12,LA Clippers,LAC,LA,95,0
+2026-02-10,2026-02-11T02:00Z,401810628,post,21,Phoenix Suns,PHX,Phoenix,120,6,Dallas Mavericks,DAL,Dallas,111,0
+2026-02-10,2026-02-11T03:30Z,401810629,post,13,Los Angeles Lakers,LAL,Los Angeles,108,24,San Antonio Spurs,SA,San Antonio,136,0
+2026-02-11,2026-02-12T00:00Z,401810630,post,30,Charlotte Hornets,CHA,Charlotte,110,1,Atlanta Hawks,ATL,Atlanta,107,0
+2026-02-11,2026-02-12T00:00Z,401810631,post,5,Cleveland Cavaliers,CLE,Cleveland,138,27,Washington Wizards,WSH,Washington,113,0
+2026-02-11,2026-02-12T00:00Z,401810632,post,19,Orlando Magic,ORL,Orlando,108,15,Milwaukee Bucks,MIL,Milwaukee,116,0
+2026-02-11,2026-02-12T00:30Z,401810633,post,2,Boston Celtics,BOS,Boston,124,4,Chicago Bulls,CHI,Chicago,105,0
+2026-02-11,2026-02-12T00:30Z,401810634,post,17,Brooklyn Nets,BKN,Brooklyn,110,11,Indiana Pacers,IND,Indiana,115,0
+2026-02-11,2026-02-12T00:30Z,401810635,post,20,Philadelphia 76ers,PHI,Philadelphia,89,18,New York Knicks,NY,New York,138,0
+2026-02-11,2026-02-12T00:30Z,401810636,post,28,Toronto Raptors,TOR,Toronto,95,8,Detroit Pistons,DET,Detroit,113,0
+2026-02-11,2026-02-12T01:00Z,401810637,post,10,Houston Rockets,HOU,Houston,102,12,LA Clippers,LAC,LA,105,0
+2026-02-11,2026-02-12T01:00Z,401810638,post,16,Minnesota Timberwolves,MIN,Minnesota,133,22,Portland Trail Blazers,POR,Portland,109,0
+2026-02-11,2026-02-12T01:00Z,401810639,post,3,New Orleans Pelicans,NO,New Orleans,111,14,Miami Heat,MIA,Miami,123,0
+2026-02-11,2026-02-12T02:00Z,401810640,post,21,Phoenix Suns,PHX,Phoenix,109,25,Oklahoma City Thunder,OKC,Oklahoma City,136,0
+2026-02-11,2026-02-12T02:00Z,401810641,post,26,Utah Jazz,UTAH,Utah,121,23,Sacramento Kings,SAC,Sacramento,93,0
+2026-02-11,2026-02-12T02:00Z,401810642,post,7,Denver Nuggets,DEN,Denver,122,29,Memphis Grizzlies,MEM,Memphis,116,0
+2026-02-11,2026-02-12T03:00Z,401810643,post,9,Golden State Warriors,GS,Golden State,113,24,San Antonio Spurs,SA,San Antonio,126,0
+2026-02-12,2026-02-13T00:30Z,401810644,post,25,Oklahoma City Thunder,OKC,Oklahoma City,93,15,Milwaukee Bucks,MIL,Milwaukee,110,0
+2026-02-12,2026-02-13T02:00Z,401810645,post,26,Utah Jazz,UTAH,Utah,119,22,Portland Trail Blazers,POR,Portland,135,0
+2026-02-12,2026-02-13T03:00Z,401810646,post,13,Los Angeles Lakers,LAL,Los Angeles,124,6,Dallas Mavericks,DAL,Dallas,104,0
+2026-02-15,2026-02-15T22:00Z,401838140,post,132374,Team Stars,STARS,Team Stars,37,111386,World,WORLD,World,35,0
+2026-02-15,2026-02-15T22:55Z,401838141,post,132375,Team Stripes,STRIPES,Team Stripes,42,132374,Team Stars,STARS,Team Stars,40,0
+2026-02-15,2026-02-15T23:25Z,401838142,post,132375,Team Stripes,STRIPES,Team Stripes,48,111386,World,WORLD,World,45,0
+2026-02-15,2026-02-16T00:10Z,401838143,post,132375,Team Stripes,STRIPES,Team Stripes,21,132374,Team Stars,STARS,Team Stars,47,0
+2026-02-19,2026-02-20T00:00Z,401810647,post,30,Charlotte Hornets,CHA,Charlotte,101,10,Houston Rockets,HOU,Houston,105,0
+2026-02-19,2026-02-20T00:00Z,401810648,post,5,Cleveland Cavaliers,CLE,Cleveland,112,17,Brooklyn Nets,BKN,Brooklyn,84,0
+2026-02-19,2026-02-20T00:00Z,401810649,post,20,Philadelphia 76ers,PHI,Philadelphia,107,1,Atlanta Hawks,ATL,Atlanta,117,0
+2026-02-19,2026-02-20T00:00Z,401810650,post,27,Washington Wizards,WSH,Washington,112,11,Indiana Pacers,IND,Indiana,105,0
+2026-02-19,2026-02-20T00:30Z,401810651,post,18,New York Knicks,NY,New York,111,8,Detroit Pistons,DET,Detroit,126,0
+2026-02-19,2026-02-20T01:00Z,401810652,post,4,Chicago Bulls,CHI,Chicago,101,28,Toronto Raptors,TOR,Toronto,110,0
+2026-02-19,2026-02-20T01:30Z,401810653,post,24,San Antonio Spurs,SA,San Antonio,121,21,Phoenix Suns,PHX,Phoenix,94,0
+2026-02-19,2026-02-20T03:00Z,401810654,post,9,Golden State Warriors,GS,Golden State,110,2,Boston Celtics,BOS,Boston,121,0
+2026-02-19,2026-02-20T03:00Z,401810655,post,23,Sacramento Kings,SAC,Sacramento,94,19,Orlando Magic,ORL,Orlando,131,0
+2026-02-19,2026-02-20T03:30Z,401810656,post,12,LA Clippers,LAC,LA,115,7,Denver Nuggets,DEN,Denver,114,0
+2026-02-20,2026-02-21T00:00Z,401810657,post,30,Charlotte Hornets,CHA,Charlotte,113,5,Cleveland Cavaliers,CLE,Cleveland,118,0
+2026-02-20,2026-02-21T00:00Z,401810658,post,27,Washington Wizards,WSH,Washington,131,11,Indiana Pacers,IND,Indiana,118,0
+2026-02-20,2026-02-21T00:00Z,401810659,post,29,Memphis Grizzlies,MEM,Memphis,123,26,Utah Jazz,UTAH,Utah,114,0
+2026-02-20,2026-02-21T00:30Z,401810660,post,1,Atlanta Hawks,ATL,Atlanta,97,14,Miami Heat,MIA,Miami,128,0
+2026-02-20,2026-02-21T00:30Z,401810661,post,16,Minnesota Timberwolves,MIN,Minnesota,122,6,Dallas Mavericks,DAL,Dallas,111,0
+2026-02-20,2026-02-21T01:00Z,401810662,post,3,New Orleans Pelicans,NO,New Orleans,118,15,Milwaukee Bucks,MIL,Milwaukee,139,0
+2026-02-20,2026-02-21T01:00Z,401810663,post,25,Oklahoma City Thunder,OKC,Oklahoma City,105,17,Brooklyn Nets,BKN,Brooklyn,86,0
+2026-02-20,2026-02-21T03:15Z,401810664,post,13,Los Angeles Lakers,LAL,Los Angeles,125,12,LA Clippers,LAC,LA,122,0
+2026-02-20,2026-02-21T03:00Z,401810665,post,22,Portland Trail Blazers,POR,Portland,103,7,Denver Nuggets,DEN,Denver,157,0
+2026-02-21,2026-02-21T22:00Z,401810666,post,21,Phoenix Suns,PHX,Phoenix,113,19,Orlando Magic,ORL,Orlando,110,0
+2026-02-21,2026-02-22T00:00Z,401810667,post,3,New Orleans Pelicans,NO,New Orleans,126,20,Philadelphia 76ers,PHI,Philadelphia,111,0
+2026-02-21,2026-02-22T01:00Z,401810668,post,14,Miami Heat,MIA,Miami,136,29,Memphis Grizzlies,MEM,Memphis,120,0
+2026-02-21,2026-02-22T01:00Z,401810669,post,4,Chicago Bulls,CHI,Chicago,110,8,Detroit Pistons,DET,Detroit,126,0
+2026-02-21,2026-02-22T01:00Z,401810670,post,24,San Antonio Spurs,SA,San Antonio,139,23,Sacramento Kings,SAC,Sacramento,122,0
+2026-02-21,2026-02-22T01:30Z,401810671,post,18,New York Knicks,NY,New York,108,10,Houston Rockets,HOU,Houston,106,0
+2026-02-22,2026-02-22T18:00Z,401810672,post,25,Oklahoma City Thunder,OKC,Oklahoma City,121,5,Cleveland Cavaliers,CLE,Cleveland,113,0
+2026-02-22,2026-02-22T20:30Z,401810673,post,1,Atlanta Hawks,ATL,Atlanta,115,17,Brooklyn Nets,BKN,Brooklyn,104,0
+2026-02-22,2026-02-22T20:30Z,401810674,post,15,Milwaukee Bucks,MIL,Milwaukee,94,28,Toronto Raptors,TOR,Toronto,122,0
+2026-02-22,2026-02-22T20:30Z,401810675,post,9,Golden State Warriors,GS,Golden State,128,7,Denver Nuggets,DEN,Denver,117,0
+2026-02-22,2026-02-22T22:00Z,401810676,post,11,Indiana Pacers,IND,Indiana,130,6,Dallas Mavericks,DAL,Dallas,134,0
+2026-02-22,2026-02-22T23:00Z,401810677,post,27,Washington Wizards,WSH,Washington,112,30,Charlotte Hornets,CHA,Charlotte,129,0
+2026-02-22,2026-02-22T23:30Z,401810678,post,13,Los Angeles Lakers,LAL,Los Angeles,89,2,Boston Celtics,BOS,Boston,111,0
+2026-02-22,2026-02-23T00:00Z,401810679,post,16,Minnesota Timberwolves,MIN,Minnesota,108,20,Philadelphia 76ers,PHI,Philadelphia,135,0
+2026-02-22,2026-02-23T01:00Z,401810680,post,4,Chicago Bulls,CHI,Chicago,99,18,New York Knicks,NY,New York,105,0
+2026-02-22,2026-02-23T01:00Z,401810681,post,21,Phoenix Suns,PHX,Phoenix,77,22,Portland Trail Blazers,POR,Portland,92,0
+2026-02-22,2026-02-23T02:00Z,401810682,post,12,LA Clippers,LAC,LA,109,19,Orlando Magic,ORL,Orlando,111,0
+2026-02-23,2026-02-24T00:00Z,401810683,post,8,Detroit Pistons,DET,Detroit,103,24,San Antonio Spurs,SA,San Antonio,114,0
+2026-02-23,2026-02-24T01:00Z,401810684,post,29,Memphis Grizzlies,MEM,Memphis,114,23,Sacramento Kings,SAC,Sacramento,123,0
+2026-02-23,2026-02-24T02:30Z,401810685,post,10,Houston Rockets,HOU,Houston,125,26,Utah Jazz,UTAH,Utah,105,0
+2026-02-24,2026-02-25T00:00Z,401810686,post,11,Indiana Pacers,IND,Indiana,114,20,Philadelphia 76ers,PHI,Philadelphia,135,0
+2026-02-24,2026-02-25T00:30Z,401810687,post,1,Atlanta Hawks,ATL,Atlanta,119,27,Washington Wizards,WSH,Washington,98,0
+2026-02-24,2026-02-25T00:30Z,401810688,post,17,Brooklyn Nets,BKN,Brooklyn,114,6,Dallas Mavericks,DAL,Dallas,123,0
+2026-02-24,2026-02-25T00:30Z,401810689,post,28,Toronto Raptors,TOR,Toronto,107,25,Oklahoma City Thunder,OKC,Oklahoma City,116,0
+2026-02-24,2026-02-25T00:30Z,401810690,post,5,Cleveland Cavaliers,CLE,Cleveland,109,18,New York Knicks,NY,New York,94,0
+2026-02-24,2026-02-25T01:00Z,401810691,post,4,Chicago Bulls,CHI,Chicago,99,30,Charlotte Hornets,CHA,Charlotte,131,0
+2026-02-24,2026-02-25T01:00Z,401810692,post,15,Milwaukee Bucks,MIL,Milwaukee,128,14,Miami Heat,MIA,Miami,117,0
+2026-02-24,2026-02-25T01:00Z,401810693,post,3,New Orleans Pelicans,NO,New Orleans,113,9,Golden State Warriors,GS,Golden State,109,0
+2026-02-24,2026-02-25T02:00Z,401810694,post,21,Phoenix Suns,PHX,Phoenix,81,2,Boston Celtics,BOS,Boston,97,0
+2026-02-24,2026-02-25T03:30Z,401810695,post,13,Los Angeles Lakers,LAL,Los Angeles,109,19,Orlando Magic,ORL,Orlando,110,0
+2026-02-24,2026-02-25T03:00Z,401810696,post,22,Portland Trail Blazers,POR,Portland,121,16,Minnesota Timberwolves,MIN,Minnesota,124,0
+2026-02-25,2026-02-26T00:30Z,401810697,post,8,Detroit Pistons,DET,Detroit,124,25,Oklahoma City Thunder,OKC,Oklahoma City,116,0
+2026-02-25,2026-02-26T00:30Z,401810698,post,28,Toronto Raptors,TOR,Toronto,107,24,San Antonio Spurs,SA,San Antonio,110,0
+2026-02-25,2026-02-26T00:30Z,401810699,post,29,Memphis Grizzlies,MEM,Memphis,112,9,Golden State Warriors,GS,Golden State,133,0
+2026-02-25,2026-02-26T01:00Z,401810700,post,10,Houston Rockets,HOU,Houston,128,23,Sacramento Kings,SAC,Sacramento,97,0
+2026-02-25,2026-02-26T01:00Z,401810701,post,15,Milwaukee Bucks,MIL,Milwaukee,118,5,Cleveland Cavaliers,CLE,Cleveland,116,0
+2026-02-25,2026-02-26T03:00Z,401810702,post,7,Denver Nuggets,DEN,Denver,103,2,Boston Celtics,BOS,Boston,84,0
+2026-02-26,2026-02-27T00:00Z,401810703,post,11,Indiana Pacers,IND,Indiana,109,30,Charlotte Hornets,CHA,Charlotte,133,0
+2026-02-26,2026-02-27T00:00Z,401810704,post,20,Philadelphia 76ers,PHI,Philadelphia,124,14,Miami Heat,MIA,Miami,117,0
+2026-02-26,2026-02-27T00:30Z,401810705,post,1,Atlanta Hawks,ATL,Atlanta,126,27,Washington Wizards,WSH,Washington,96,0
+2026-02-26,2026-02-27T00:30Z,401810706,post,17,Brooklyn Nets,BKN,Brooklyn,110,24,San Antonio Spurs,SA,San Antonio,126,0
+2026-02-26,2026-02-27T00:30Z,401810707,post,19,Orlando Magic,ORL,Orlando,108,10,Houston Rockets,HOU,Houston,113,0
+2026-02-26,2026-02-27T01:00Z,401810708,post,4,Chicago Bulls,CHI,Chicago,112,22,Portland Trail Blazers,POR,Portland,121,0
+2026-02-26,2026-02-27T01:30Z,401810709,post,6,Dallas Mavericks,DAL,Dallas,121,23,Sacramento Kings,SAC,Sacramento,130,0
+2026-02-26,2026-02-27T02:00Z,401810710,post,21,Phoenix Suns,PHX,Phoenix,113,13,Los Angeles Lakers,LAL,Los Angeles,110,0
+2026-02-26,2026-02-27T02:00Z,401810711,post,26,Utah Jazz,UTAH,Utah,118,3,New Orleans Pelicans,NO,New Orleans,129,0
+2026-02-26,2026-02-27T03:00Z,401810712,post,12,LA Clippers,LAC,LA,88,16,Minnesota Timberwolves,MIN,Minnesota,94,0
+2026-02-27,2026-02-28T00:00Z,401810713,post,8,Detroit Pistons,DET,Detroit,122,5,Cleveland Cavaliers,CLE,Cleveland,119,0
+2026-02-27,2026-02-28T00:30Z,401810714,post,2,Boston Celtics,BOS,Boston,148,17,Brooklyn Nets,BKN,Brooklyn,111,0
+2026-02-27,2026-02-28T01:00Z,401810715,post,15,Milwaukee Bucks,MIL,Milwaukee,98,18,New York Knicks,NY,New York,127,0
+2026-02-27,2026-02-28T01:30Z,401810716,post,6,Dallas Mavericks,DAL,Dallas,105,29,Memphis Grizzlies,MEM,Memphis,124,0
+2026-02-27,2026-02-28T02:47Z,401810717,post,25,Oklahoma City Thunder,OKC,Oklahoma City,127,7,Denver Nuggets,DEN,Denver,121,0
+2026-02-28,2026-02-28T18:00Z,401810718,post,30,Charlotte Hornets,CHA,Charlotte,109,22,Portland Trail Blazers,POR,Portland,93,0
+2026-02-28,2026-02-28T20:30Z,401810719,post,14,Miami Heat,MIA,Miami,115,10,Houston Rockets,HOU,Houston,105,0
+2026-02-28,2026-03-01T00:00Z,401810720,post,27,Washington Wizards,WSH,Washington,125,28,Toronto Raptors,TOR,Toronto,134,0
+2026-02-28,2026-03-01T01:30Z,401810721,post,9,Golden State Warriors,GS,Golden State,101,13,Los Angeles Lakers,LAL,Los Angeles,129,0
+2026-02-28,2026-03-01T02:30Z,401810722,post,26,Utah Jazz,UTAH,Utah,105,3,New Orleans Pelicans,NO,New Orleans,115,0
+2026-03-01,2026-03-01T18:00Z,401810723,post,18,New York Knicks,NY,New York,114,24,San Antonio Spurs,SA,San Antonio,89,0
+2026-03-01,2026-03-01T20:30Z,401810724,post,17,Brooklyn Nets,BKN,Brooklyn,102,5,Cleveland Cavaliers,CLE,Cleveland,106,0
+2026-03-01,2026-03-01T20:30Z,401810725,post,4,Chicago Bulls,CHI,Chicago,120,15,Milwaukee Bucks,MIL,Milwaukee,97,0
+2026-03-01,2026-03-01T20:30Z,401810726,post,7,Denver Nuggets,DEN,Denver,108,16,Minnesota Timberwolves,MIN,Minnesota,117,0
+2026-03-01,2026-03-01T22:00Z,401810727,post,11,Indiana Pacers,IND,Indiana,106,29,Memphis Grizzlies,MEM,Memphis,125,0
+2026-03-01,2026-03-01T23:00Z,401810728,post,1,Atlanta Hawks,ATL,Atlanta,135,22,Portland Trail Blazers,POR,Portland,101,0
+2026-03-01,2026-03-02T01:00Z,401810729,post,2,Boston Celtics,BOS,Boston,114,20,Philadelphia 76ers,PHI,Philadelphia,98,0
+2026-03-01,2026-03-01T23:00Z,401810730,post,19,Orlando Magic,ORL,Orlando,92,8,Detroit Pistons,DET,Detroit,106,0
+2026-03-01,2026-03-02T01:00Z,401810731,post,6,Dallas Mavericks,DAL,Dallas,87,25,Oklahoma City Thunder,OKC,Oklahoma City,100,0
+2026-03-01,2026-03-02T02:00Z,401810732,post,12,LA Clippers,LAC,LA,137,3,New Orleans Pelicans,NO,New Orleans,117,0
+2026-03-01,2026-03-02T02:30Z,401810733,post,13,Los Angeles Lakers,LAL,Los Angeles,128,23,Sacramento Kings,SAC,Sacramento,104,0
+2026-03-02,2026-03-03T00:00Z,401810734,post,27,Washington Wizards,WSH,Washington,118,10,Houston Rockets,HOU,Houston,123,0
+2026-03-02,2026-03-03T00:30Z,401810735,post,15,Milwaukee Bucks,MIL,Milwaukee,81,2,Boston Celtics,BOS,Boston,108,0
+2026-03-02,2026-03-03T02:00Z,401810736,post,26,Utah Jazz,UTAH,Utah,125,7,Denver Nuggets,DEN,Denver,128,0
+2026-03-02,2026-03-03T03:00Z,401810737,post,9,Golden State Warriors,GS,Golden State,101,12,LA Clippers,LAC,LA,114,0
+2026-03-03,2026-03-04T00:00Z,401810738,post,30,Charlotte Hornets,CHA,Charlotte,117,6,Dallas Mavericks,DAL,Dallas,90,0
+2026-03-03,2026-03-04T00:00Z,401810739,post,5,Cleveland Cavaliers,CLE,Cleveland,113,8,Detroit Pistons,DET,Detroit,109,0
+2026-03-03,2026-03-04T00:00Z,401810740,post,19,Orlando Magic,ORL,Orlando,126,27,Washington Wizards,WSH,Washington,109,0
+2026-03-03,2026-03-04T00:30Z,401810741,post,14,Miami Heat,MIA,Miami,124,17,Brooklyn Nets,BKN,Brooklyn,98,0
+2026-03-03,2026-03-04T00:30Z,401810742,post,28,Toronto Raptors,TOR,Toronto,95,18,New York Knicks,NY,New York,111,0
+2026-03-03,2026-03-04T01:00Z,401810743,post,20,Philadelphia 76ers,PHI,Philadelphia,91,24,San Antonio Spurs,SA,San Antonio,131,0
+2026-03-03,2026-03-04T01:00Z,401810744,post,4,Chicago Bulls,CHI,Chicago,108,25,Oklahoma City Thunder,OKC,Oklahoma City,116,0
+2026-03-03,2026-03-04T01:00Z,401810745,post,16,Minnesota Timberwolves,MIN,Minnesota,117,29,Memphis Grizzlies,MEM,Memphis,110,0
+2026-03-03,2026-03-04T03:30Z,401810746,post,13,Los Angeles Lakers,LAL,Los Angeles,110,3,New Orleans Pelicans,NO,New Orleans,101,0
+2026-03-03,2026-03-04T04:00Z,401810747,post,23,Sacramento Kings,SAC,Sacramento,103,21,Phoenix Suns,PHX,Phoenix,114,0
+2026-03-04,2026-03-05T00:00Z,401810748,post,18,New York Knicks,NY,New York,100,25,Oklahoma City Thunder,OKC,Oklahoma City,103,0
+2026-03-04,2026-03-05T00:30Z,401810749,post,2,Boston Celtics,BOS,Boston,89,30,Charlotte Hornets,CHA,Charlotte,118,0
+2026-03-04,2026-03-05T00:30Z,401810750,post,20,Philadelphia 76ers,PHI,Philadelphia,106,26,Utah Jazz,UTAH,Utah,102,0
+2026-03-04,2026-03-05T01:00Z,401810751,post,29,Memphis Grizzlies,MEM,Memphis,114,22,Portland Trail Blazers,POR,Portland,122,0
+2026-03-04,2026-03-05T02:30Z,401810752,post,15,Milwaukee Bucks,MIL,Milwaukee,113,1,Atlanta Hawks,ATL,Atlanta,131,0
+2026-03-04,2026-03-05T03:30Z,401810753,post,12,LA Clippers,LAC,LA,130,11,Indiana Pacers,IND,Indiana,107,0
+2026-03-05,2026-03-06T00:00Z,401810754,post,19,Orlando Magic,ORL,Orlando,115,6,Dallas Mavericks,DAL,Dallas,114,0
+2026-03-05,2026-03-06T00:00Z,401810755,post,27,Washington Wizards,WSH,Washington,112,26,Utah Jazz,UTAH,Utah,122,0
+2026-03-05,2026-03-06T00:30Z,401810756,post,14,Miami Heat,MIA,Miami,126,17,Brooklyn Nets,BKN,Brooklyn,110,0
+2026-03-05,2026-03-06T00:30Z,401810757,post,10,Houston Rockets,HOU,Houston,113,9,Golden State Warriors,GS,Golden State,115,0
+2026-03-05,2026-03-06T01:00Z,401810758,post,16,Minnesota Timberwolves,MIN,Minnesota,115,28,Toronto Raptors,TOR,Toronto,107,0
+2026-03-05,2026-03-06T01:00Z,401810759,post,24,San Antonio Spurs,SA,San Antonio,121,8,Detroit Pistons,DET,Detroit,106,0
+2026-03-05,2026-03-06T02:00Z,401810760,post,21,Phoenix Suns,PHX,Phoenix,103,4,Chicago Bulls,CHI,Chicago,105,0
+2026-03-05,2026-03-06T03:00Z,401810761,post,7,Denver Nuggets,DEN,Denver,120,13,Los Angeles Lakers,LAL,Los Angeles,113,0
+2026-03-05,2026-03-06T03:00Z,401810762,post,23,Sacramento Kings,SAC,Sacramento,123,3,New Orleans Pelicans,NO,New Orleans,133,0
+2026-03-06,2026-03-07T00:00Z,401810763,post,2,Boston Celtics,BOS,Boston,120,6,Dallas Mavericks,DAL,Dallas,100,0
+2026-03-06,2026-03-07T00:00Z,401810764,post,30,Charlotte Hornets,CHA,Charlotte,120,14,Miami Heat,MIA,Miami,128,0
+2026-03-06,2026-03-07T01:00Z,401810765,post,10,Houston Rockets,HOU,Houston,106,22,Portland Trail Blazers,POR,Portland,99,0
+2026-03-06,2026-03-07T02:00Z,401810766,post,7,Denver Nuggets,DEN,Denver,103,18,New York Knicks,NY,New York,142,0
+2026-03-06,2026-03-07T02:00Z,401810767,post,21,Phoenix Suns,PHX,Phoenix,118,3,New Orleans Pelicans,NO,New Orleans,116,0
+2026-03-06,2026-03-07T02:30Z,401810768,post,24,San Antonio Spurs,SA,San Antonio,116,12,LA Clippers,LAC,LA,112,0
+2026-03-06,2026-03-07T03:30Z,401810769,post,13,Los Angeles Lakers,LAL,Los Angeles,128,11,Indiana Pacers,IND,Indiana,117,0
+2026-03-07,2026-03-07T20:00Z,401810770,post,16,Minnesota Timberwolves,MIN,Minnesota,92,19,Orlando Magic,ORL,Orlando,119,0
+2026-03-07,2026-03-07T23:00Z,401810771,post,8,Detroit Pistons,DET,Detroit,105,17,Brooklyn Nets,BKN,Brooklyn,107,0
+2026-03-07,2026-03-07T23:00Z,401810772,post,1,Atlanta Hawks,ATL,Atlanta,125,20,Philadelphia 76ers,PHI,Philadelphia,116,0
+2026-03-07,2026-03-08T01:00Z,401810773,post,29,Memphis Grizzlies,MEM,Memphis,120,12,LA Clippers,LAC,LA,123,0
+2026-03-07,2026-03-08T01:00Z,401810774,post,15,Milwaukee Bucks,MIL,Milwaukee,113,26,Utah Jazz,UTAH,Utah,99,0
+2026-03-07,2026-03-08T01:30Z,401810775,post,25,Oklahoma City Thunder,OKC,Oklahoma City,104,9,Golden State Warriors,GS,Golden State,97,0
+2026-03-08,2026-03-08T17:00Z,401810776,post,5,Cleveland Cavaliers,CLE,Cleveland,98,2,Boston Celtics,BOS,Boston,109,0
+2026-03-08,2026-03-08T19:30Z,401810777,post,13,Los Angeles Lakers,LAL,Los Angeles,110,18,New York Knicks,NY,New York,97,0
+2026-03-08,2026-03-08T22:00Z,401810778,post,14,Miami Heat,MIA,Miami,121,8,Detroit Pistons,DET,Detroit,110,0
+2026-03-08,2026-03-08T22:00Z,401810779,post,28,Toronto Raptors,TOR,Toronto,122,6,Dallas Mavericks,DAL,Dallas,92,0
+2026-03-08,2026-03-08T23:00Z,401810780,post,3,New Orleans Pelicans,NO,New Orleans,138,27,Washington Wizards,WSH,Washington,118,0
+2026-03-08,2026-03-09T00:00Z,401810781,post,15,Milwaukee Bucks,MIL,Milwaukee,91,19,Orlando Magic,ORL,Orlando,130,0
+2026-03-08,2026-03-09T00:00Z,401810782,post,24,San Antonio Spurs,SA,San Antonio,145,10,Houston Rockets,HOU,Houston,120,0
+2026-03-08,2026-03-09T02:00Z,401810783,post,21,Phoenix Suns,PHX,Phoenix,111,30,Charlotte Hornets,CHA,Charlotte,99,0
+2026-03-08,2026-03-09T01:00Z,401810784,post,22,Portland Trail Blazers,POR,Portland,131,11,Indiana Pacers,IND,Indiana,111,0
+2026-03-08,2026-03-09T01:00Z,401810785,post,23,Sacramento Kings,SAC,Sacramento,126,4,Chicago Bulls,CHI,Chicago,110,0
+2026-03-09,2026-03-09T23:00Z,401810786,post,5,Cleveland Cavaliers,CLE,Cleveland,115,20,Philadelphia 76ers,PHI,Philadelphia,101,0
+2026-03-09,2026-03-09T23:30Z,401810787,post,17,Brooklyn Nets,BKN,Brooklyn,126,29,Memphis Grizzlies,MEM,Memphis,115,0
+2026-03-09,2026-03-09T23:30Z,401810788,post,25,Oklahoma City Thunder,OKC,Oklahoma City,129,7,Denver Nuggets,DEN,Denver,126,0
+2026-03-09,2026-03-10T01:00Z,401810789,post,26,Utah Jazz,UTAH,Utah,119,9,Golden State Warriors,GS,Golden State,116,0
+2026-03-09,2026-03-10T02:00Z,401810790,post,12,LA Clippers,LAC,LA,126,18,New York Knicks,NY,New York,118,0
+2026-03-10,2026-03-10T23:00Z,401810791,post,20,Philadelphia 76ers,PHI,Philadelphia,139,29,Memphis Grizzlies,MEM,Memphis,129,0
+2026-03-10,2026-03-10T23:30Z,401810792,post,17,Brooklyn Nets,BKN,Brooklyn,100,8,Detroit Pistons,DET,Detroit,138,0
+2026-03-10,2026-03-10T23:30Z,401810793,post,14,Miami Heat,MIA,Miami,150,27,Washington Wizards,WSH,Washington,129,0
+2026-03-10,2026-03-10T23:30Z,401810794,post,1,Atlanta Hawks,ATL,Atlanta,124,6,Dallas Mavericks,DAL,Dallas,112,0
+2026-03-10,2026-03-11T00:00Z,401810795,post,10,Houston Rockets,HOU,Houston,113,28,Toronto Raptors,TOR,Toronto,99,0
+2026-03-10,2026-03-11T00:00Z,401810796,post,15,Milwaukee Bucks,MIL,Milwaukee,114,21,Phoenix Suns,PHX,Phoenix,129,0
+2026-03-10,2026-03-11T00:00Z,401810797,post,24,San Antonio Spurs,SA,San Antonio,125,2,Boston Celtics,BOS,Boston,116,0
+2026-03-10,2026-03-11T02:00Z,401810798,post,9,Golden State Warriors,GS,Golden State,124,4,Chicago Bulls,CHI,Chicago,130,0
+2026-03-10,2026-03-11T02:00Z,401810799,post,22,Portland Trail Blazers,POR,Portland,101,30,Charlotte Hornets,CHA,Charlotte,103,0
+2026-03-10,2026-03-11T02:00Z,401810800,post,23,Sacramento Kings,SAC,Sacramento,114,11,Indiana Pacers,IND,Indiana,109,0
+2026-03-10,2026-03-11T03:00Z,401810801,post,13,Los Angeles Lakers,LAL,Los Angeles,120,16,Minnesota Timberwolves,MIN,Minnesota,106,0
+2026-03-11,2026-03-11T23:30Z,401810802,post,19,Orlando Magic,ORL,Orlando,128,5,Cleveland Cavaliers,CLE,Cleveland,122,0
+2026-03-11,2026-03-12T00:00Z,401810803,post,3,New Orleans Pelicans,NO,New Orleans,122,28,Toronto Raptors,TOR,Toronto,111,0
+2026-03-11,2026-03-12T01:00Z,401810804,post,26,Utah Jazz,UTAH,Utah,117,18,New York Knicks,NY,New York,134,0
+2026-03-11,2026-03-12T02:00Z,401810805,post,7,Denver Nuggets,DEN,Denver,129,10,Houston Rockets,HOU,Houston,93,0
+2026-03-11,2026-03-12T02:00Z,401810806,post,23,Sacramento Kings,SAC,Sacramento,109,30,Charlotte Hornets,CHA,Charlotte,117,0
+2026-03-11,2026-03-12T02:30Z,401810807,post,12,LA Clippers,LAC,LA,153,16,Minnesota Timberwolves,MIN,Minnesota,128,0
+2026-03-12,2026-03-12T23:00Z,401810808,post,8,Detroit Pistons,DET,Detroit,131,20,Philadelphia 76ers,PHI,Philadelphia,109,0
+2026-03-12,2026-03-12T23:00Z,401810809,post,11,Indiana Pacers,IND,Indiana,108,21,Phoenix Suns,PHX,Phoenix,123,0
+2026-03-12,2026-03-12T23:00Z,401810810,post,19,Orlando Magic,ORL,Orlando,136,27,Washington Wizards,WSH,Washington,131,0
+2026-03-12,2026-03-12T23:30Z,401810811,post,1,Atlanta Hawks,ATL,Atlanta,108,17,Brooklyn Nets,BKN,Brooklyn,97,0
+2026-03-12,2026-03-12T23:30Z,401810812,post,14,Miami Heat,MIA,Miami,112,15,Milwaukee Bucks,MIL,Milwaukee,105,0
+2026-03-12,2026-03-13T01:00Z,401810813,post,24,San Antonio Spurs,SA,San Antonio,131,7,Denver Nuggets,DEN,Denver,136,0
+2026-03-12,2026-03-13T01:30Z,401810814,post,25,Oklahoma City Thunder,OKC,Oklahoma City,104,2,Boston Celtics,BOS,Boston,102,0
+2026-03-12,2026-03-13T02:30Z,401810815,post,13,Los Angeles Lakers,LAL,Los Angeles,142,4,Chicago Bulls,CHI,Chicago,130,0
+2026-03-12,2026-03-13T00:00Z,401810966,post,29,Memphis Grizzlies,MEM,Memphis,112,6,Dallas Mavericks,DAL,Dallas,120,0
+2026-03-13,2026-03-13T23:30Z,401810816,post,8,Detroit Pistons,DET,Detroit,126,29,Memphis Grizzlies,MEM,Memphis,110,0
+2026-03-13,2026-03-13T23:30Z,401810817,post,11,Indiana Pacers,IND,Indiana,92,18,New York Knicks,NY,New York,101,0
+2026-03-13,2026-03-13T23:30Z,401810818,post,28,Toronto Raptors,TOR,Toronto,122,21,Phoenix Suns,PHX,Phoenix,115,0
+2026-03-13,2026-03-14T00:00Z,401810819,post,10,Houston Rockets,HOU,Houston,107,3,New Orleans Pelicans,NO,New Orleans,105,0
+2026-03-13,2026-03-13T23:30Z,401810820,post,6,Dallas Mavericks,DAL,Dallas,105,5,Cleveland Cavaliers,CLE,Cleveland,138,0
+2026-03-13,2026-03-14T02:00Z,401810821,post,9,Golden State Warriors,GS,Golden State,117,16,Minnesota Timberwolves,MIN,Minnesota,127,0
+2026-03-13,2026-03-14T02:00Z,401810822,post,22,Portland Trail Blazers,POR,Portland,124,26,Utah Jazz,UTAH,Utah,114,0
+2026-03-13,2026-03-14T02:30Z,401810823,post,12,LA Clippers,LAC,LA,119,4,Chicago Bulls,CHI,Chicago,108,0
+2026-03-14,2026-03-14T17:00Z,401810824,post,20,Philadelphia 76ers,PHI,Philadelphia,104,17,Brooklyn Nets,BKN,Brooklyn,97,0
+2026-03-14,2026-03-14T19:00Z,401810825,post,1,Atlanta Hawks,ATL,Atlanta,122,15,Milwaukee Bucks,MIL,Milwaukee,99,0
+2026-03-14,2026-03-14T22:00Z,401810826,post,2,Boston Celtics,BOS,Boston,111,27,Washington Wizards,WSH,Washington,100,0
+2026-03-14,2026-03-15T00:00Z,401810827,post,14,Miami Heat,MIA,Miami,117,19,Orlando Magic,ORL,Orlando,121,0
+2026-03-14,2026-03-14T19:30Z,401810828,post,24,San Antonio Spurs,SA,San Antonio,115,30,Charlotte Hornets,CHA,Charlotte,102,0
+2026-03-14,2026-03-15T00:30Z,401810829,post,13,Los Angeles Lakers,LAL,Los Angeles,127,7,Denver Nuggets,DEN,Denver,125,0
+2026-03-14,2026-03-15T02:30Z,401810830,post,12,LA Clippers,LAC,LA,109,23,Sacramento Kings,SAC,Sacramento,118,0
+2026-03-15,2026-03-15T17:00Z,401810831,post,25,Oklahoma City Thunder,OKC,Oklahoma City,116,16,Minnesota Timberwolves,MIN,Minnesota,103,0
+2026-03-15,2026-03-15T19:30Z,401810832,post,5,Cleveland Cavaliers,CLE,Cleveland,120,6,Dallas Mavericks,DAL,Dallas,130,0
+2026-03-15,2026-03-15T19:30Z,401810833,post,28,Toronto Raptors,TOR,Toronto,119,8,Detroit Pistons,DET,Detroit,108,0
+2026-03-15,2026-03-15T19:30Z,401810834,post,15,Milwaukee Bucks,MIL,Milwaukee,134,11,Indiana Pacers,IND,Indiana,123,0
+2026-03-15,2026-03-15T22:00Z,401810835,post,20,Philadelphia 76ers,PHI,Philadelphia,109,22,Portland Trail Blazers,POR,Portland,103,0
+2026-03-15,2026-03-16T00:00Z,401810836,post,18,New York Knicks,NY,New York,110,9,Golden State Warriors,GS,Golden State,107,0
+2026-03-15,2026-03-16T02:00Z,401810837,post,23,Sacramento Kings,SAC,Sacramento,116,26,Utah Jazz,UTAH,Utah,111,0
+2026-03-16,2026-03-16T23:00Z,401810838,post,1,Atlanta Hawks,ATL,Atlanta,124,19,Orlando Magic,ORL,Orlando,112,0
+2026-03-16,2026-03-16T23:00Z,401810839,post,27,Washington Wizards,WSH,Washington,117,9,Golden State Warriors,GS,Golden State,125,0
+2026-03-16,2026-03-16T23:30Z,401810840,post,17,Brooklyn Nets,BKN,Brooklyn,95,22,Portland Trail Blazers,POR,Portland,114,0
+2026-03-16,2026-03-16T23:30Z,401810841,post,2,Boston Celtics,BOS,Boston,120,21,Phoenix Suns,PHX,Phoenix,112,0
+2026-03-16,2026-03-17T00:00Z,401810842,post,4,Chicago Bulls,CHI,Chicago,132,29,Memphis Grizzlies,MEM,Memphis,107,0
+2026-03-16,2026-03-17T00:00Z,401810843,post,3,New Orleans Pelicans,NO,New Orleans,129,6,Dallas Mavericks,DAL,Dallas,111,0
+2026-03-16,2026-03-17T01:30Z,401810844,post,10,Houston Rockets,HOU,Houston,92,13,Los Angeles Lakers,LAL,Los Angeles,100,0
+2026-03-16,2026-03-17T02:00Z,401810845,post,12,LA Clippers,LAC,LA,115,24,San Antonio Spurs,SA,San Antonio,119,0
+2026-03-17,2026-03-17T23:00Z,401810846,post,30,Charlotte Hornets,CHA,Charlotte,136,14,Miami Heat,MIA,Miami,106,0
+2026-03-17,2026-03-17T23:00Z,401810847,post,19,Orlando Magic,ORL,Orlando,108,25,Oklahoma City Thunder,OKC,Oklahoma City,113,0
+2026-03-17,2026-03-17T23:00Z,401810848,post,27,Washington Wizards,WSH,Washington,117,8,Detroit Pistons,DET,Detroit,130,0
+2026-03-17,2026-03-17T23:30Z,401810849,post,18,New York Knicks,NY,New York,136,11,Indiana Pacers,IND,Indiana,110,0
+2026-03-17,2026-03-18T00:00Z,401810850,post,15,Milwaukee Bucks,MIL,Milwaukee,116,5,Cleveland Cavaliers,CLE,Cleveland,123,0
+2026-03-17,2026-03-18T00:00Z,401810851,post,16,Minnesota Timberwolves,MIN,Minnesota,116,21,Phoenix Suns,PHX,Phoenix,104,0
+2026-03-17,2026-03-18T02:00Z,401810852,post,7,Denver Nuggets,DEN,Denver,124,20,Philadelphia 76ers,PHI,Philadelphia,96,0
+2026-03-17,2026-03-18T02:00Z,401810853,post,23,Sacramento Kings,SAC,Sacramento,104,24,San Antonio Spurs,SA,San Antonio,132,0
+2026-03-18,2026-03-18T23:00Z,401810854,post,2,Boston Celtics,BOS,Boston,120,9,Golden State Warriors,GS,Golden State,99,0
+2026-03-18,2026-03-18T23:30Z,401810855,post,17,Brooklyn Nets,BKN,Brooklyn,92,25,Oklahoma City Thunder,OKC,Oklahoma City,121,0
+2026-03-18,2026-03-18T23:30Z,401810856,post,11,Indiana Pacers,IND,Indiana,119,22,Portland Trail Blazers,POR,Portland,127,0
+2026-03-18,2026-03-19T00:00Z,401810857,post,4,Chicago Bulls,CHI,Chicago,109,28,Toronto Raptors,TOR,Toronto,139,0
+2026-03-18,2026-03-19T00:00Z,401810859,post,16,Minnesota Timberwolves,MIN,Minnesota,147,26,Utah Jazz,UTAH,Utah,111,0
+2026-03-18,2026-03-19T00:00Z,401810860,post,3,New Orleans Pelicans,NO,New Orleans,124,12,LA Clippers,LAC,LA,109,0
+2026-03-18,2026-03-19T00:30Z,401810861,post,6,Dallas Mavericks,DAL,Dallas,120,1,Atlanta Hawks,ATL,Atlanta,135,0
+2026-03-18,2026-03-19T01:30Z,401810862,post,10,Houston Rockets,HOU,Houston,116,13,Los Angeles Lakers,LAL,Los Angeles,124,0
+2026-03-18,2026-03-19T00:30Z,401858693,post,29,Memphis Grizzlies,MEM,Memphis,125,7,Denver Nuggets,DEN,Denver,118,0
+2026-03-19,2026-03-19T23:00Z,401810863,post,30,Charlotte Hornets,CHA,Charlotte,130,19,Orlando Magic,ORL,Orlando,111,0
+2026-03-19,2026-03-19T23:00Z,401810864,post,27,Washington Wizards,WSH,Washington,95,8,Detroit Pistons,DET,Detroit,117,0
+2026-03-19,2026-03-20T00:00Z,401810865,post,14,Miami Heat,MIA,Miami,126,13,Los Angeles Lakers,LAL,Los Angeles,134,0
+2026-03-19,2026-03-20T00:00Z,401810866,post,4,Chicago Bulls,CHI,Chicago,110,5,Cleveland Cavaliers,CLE,Cleveland,115,0
+2026-03-19,2026-03-20T00:00Z,401810867,post,3,New Orleans Pelicans,NO,New Orleans,105,12,LA Clippers,LAC,LA,99,0
+2026-03-19,2026-03-20T00:00Z,401810868,post,24,San Antonio Spurs,SA,San Antonio,101,21,Phoenix Suns,PHX,Phoenix,100,0
+2026-03-19,2026-03-20T01:00Z,401810869,post,26,Utah Jazz,UTAH,Utah,128,15,Milwaukee Bucks,MIL,Milwaukee,96,0
+2026-03-19,2026-03-20T02:00Z,401810870,post,23,Sacramento Kings,SAC,Sacramento,118,20,Philadelphia 76ers,PHI,Philadelphia,139,0
+2026-03-20,2026-03-20T23:30Z,401810871,post,17,Brooklyn Nets,BKN,Brooklyn,92,18,New York Knicks,NY,New York,93,0
+2026-03-20,2026-03-20T23:30Z,401810872,post,8,Detroit Pistons,DET,Detroit,115,9,Golden State Warriors,GS,Golden State,101,0
+2026-03-20,2026-03-21T00:00Z,401810873,post,10,Houston Rockets,HOU,Houston,117,1,Atlanta Hawks,ATL,Atlanta,95,0
+2026-03-20,2026-03-21T00:00Z,401810874,post,29,Memphis Grizzlies,MEM,Memphis,112,2,Boston Celtics,BOS,Boston,117,0
+2026-03-20,2026-03-21T00:00Z,401810875,post,16,Minnesota Timberwolves,MIN,Minnesota,104,22,Portland Trail Blazers,POR,Portland,108,0
+2026-03-20,2026-03-21T01:00Z,401810876,post,7,Denver Nuggets,DEN,Denver,121,28,Toronto Raptors,TOR,Toronto,115,0
+2026-03-21,2026-03-21T21:00Z,401810877,post,27,Washington Wizards,WSH,Washington,111,25,Oklahoma City Thunder,OKC,Oklahoma City,132,0
+2026-03-21,2026-03-21T23:00Z,401810878,post,30,Charlotte Hornets,CHA,Charlotte,124,29,Memphis Grizzlies,MEM,Memphis,101,0
+2026-03-21,2026-03-21T23:00Z,401810879,post,19,Orlando Magic,ORL,Orlando,104,13,Los Angeles Lakers,LAL,Los Angeles,105,0
+2026-03-21,2026-03-21T23:00Z,401810880,post,3,New Orleans Pelicans,NO,New Orleans,106,5,Cleveland Cavaliers,CLE,Cleveland,111,0
+2026-03-21,2026-03-22T00:00Z,401810881,post,1,Atlanta Hawks,ATL,Atlanta,126,9,Golden State Warriors,GS,Golden State,110,0
+2026-03-21,2026-03-22T00:00Z,401810882,post,10,Houston Rockets,HOU,Houston,123,14,Miami Heat,MIA,Miami,122,0
+2026-03-21,2026-03-22T00:00Z,401810883,post,24,San Antonio Spurs,SA,San Antonio,134,11,Indiana Pacers,IND,Indiana,119,0
+2026-03-21,2026-03-22T00:30Z,401810884,post,6,Dallas Mavericks,DAL,Dallas,131,12,LA Clippers,LAC,LA,138,0
+2026-03-21,2026-03-22T01:30Z,401810885,post,26,Utah Jazz,UTAH,Utah,116,20,Philadelphia 76ers,PHI,Philadelphia,126,0
+2026-03-21,2026-03-22T02:00Z,401810886,post,21,Phoenix Suns,PHX,Phoenix,105,15,Milwaukee Bucks,MIL,Milwaukee,108,0
+2026-03-22,2026-03-22T21:00Z,401810887,post,7,Denver Nuggets,DEN,Denver,128,22,Portland Trail Blazers,POR,Portland,112,0
+2026-03-22,2026-03-22T22:00Z,401810888,post,23,Sacramento Kings,SAC,Sacramento,126,17,Brooklyn Nets,BKN,Brooklyn,122,0
+2026-03-22,2026-03-22T23:30Z,401810889,post,18,New York Knicks,NY,New York,145,27,Washington Wizards,WSH,Washington,113,0
+2026-03-22,2026-03-23T00:00Z,401810890,post,2,Boston Celtics,BOS,Boston,92,16,Minnesota Timberwolves,MIN,Minnesota,102,0
+2026-03-22,2026-03-23T01:00Z,401810891,post,21,Phoenix Suns,PHX,Phoenix,120,28,Toronto Raptors,TOR,Toronto,98,0
+2026-03-23,2026-03-23T23:30Z,401810892,post,1,Atlanta Hawks,ATL,Atlanta,146,29,Memphis Grizzlies,MEM,Memphis,107,0
+2026-03-23,2026-03-23T23:00Z,401810893,post,8,Detroit Pistons,DET,Detroit,113,13,Los Angeles Lakers,LAL,Los Angeles,110,0
+2026-03-23,2026-03-23T23:00Z,401810894,post,19,Orlando Magic,ORL,Orlando,126,11,Indiana Pacers,IND,Indiana,128,0
+2026-03-23,2026-03-23T23:00Z,401810895,post,20,Philadelphia 76ers,PHI,Philadelphia,103,25,Oklahoma City Thunder,OKC,Oklahoma City,123,0
+2026-03-23,2026-03-23T23:00Z,401810896,post,14,Miami Heat,MIA,Miami,111,24,San Antonio Spurs,SA,San Antonio,136,0
+2026-03-23,2026-03-24T00:00Z,401810897,post,4,Chicago Bulls,CHI,Chicago,132,10,Houston Rockets,HOU,Houston,124,0
+2026-03-23,2026-03-24T01:00Z,401810898,post,26,Utah Jazz,UTAH,Utah,127,28,Toronto Raptors,TOR,Toronto,143,0
+2026-03-23,2026-03-24T01:30Z,401810899,post,6,Dallas Mavericks,DAL,Dallas,131,9,Golden State Warriors,GS,Golden State,137,0
+2026-03-23,2026-03-24T02:00Z,401810900,post,22,Portland Trail Blazers,POR,Portland,134,17,Brooklyn Nets,BKN,Brooklyn,99,0
+2026-03-23,2026-03-24T02:30Z,401810901,post,12,LA Clippers,LAC,LA,129,15,Milwaukee Bucks,MIL,Milwaukee,96,0
+2026-03-24,2026-03-24T23:00Z,401810902,post,30,Charlotte Hornets,CHA,Charlotte,134,23,Sacramento Kings,SAC,Sacramento,90,0
+2026-03-24,2026-03-24T23:30Z,401810903,post,18,New York Knicks,NY,New York,121,3,New Orleans Pelicans,NO,New Orleans,116,0
+2026-03-24,2026-03-25T00:00Z,401810904,post,5,Cleveland Cavaliers,CLE,Cleveland,136,19,Orlando Magic,ORL,Orlando,131,0
+2026-03-24,2026-03-25T03:00Z,401810905,post,21,Phoenix Suns,PHX,Phoenix,123,7,Denver Nuggets,DEN,Denver,125,0
+2026-03-25,2026-03-25T23:00Z,401810906,post,8,Detroit Pistons,DET,Detroit,129,1,Atlanta Hawks,ATL,Atlanta,130,0
+2026-03-25,2026-03-25T23:00Z,401810907,post,11,Indiana Pacers,IND,Indiana,130,13,Los Angeles Lakers,LAL,Los Angeles,137,0
+2026-03-25,2026-03-25T23:00Z,401810908,post,20,Philadelphia 76ers,PHI,Philadelphia,157,4,Chicago Bulls,CHI,Chicago,137,0
+2026-03-25,2026-03-25T23:30Z,401810909,post,2,Boston Celtics,BOS,Boston,119,25,Oklahoma City Thunder,OKC,Oklahoma City,109,0
+2026-03-25,2026-03-25T23:30Z,401810910,post,5,Cleveland Cavaliers,CLE,Cleveland,103,14,Miami Heat,MIA,Miami,120,0
+2026-03-25,2026-03-26T00:00Z,401810911,post,29,Memphis Grizzlies,MEM,Memphis,98,24,San Antonio Spurs,SA,San Antonio,123,0
+2026-03-25,2026-03-26T01:00Z,401810912,post,26,Utah Jazz,UTAH,Utah,110,27,Washington Wizards,WSH,Washington,133,0
+2026-03-25,2026-03-26T01:42Z,401810913,post,16,Minnesota Timberwolves,MIN,Minnesota,110,10,Houston Rockets,HOU,Houston,108,0
+2026-03-25,2026-03-26T02:00Z,401810914,post,7,Denver Nuggets,DEN,Denver,142,6,Dallas Mavericks,DAL,Dallas,135,0
+2026-03-25,2026-03-26T02:00Z,401810915,post,9,Golden State Warriors,GS,Golden State,109,17,Brooklyn Nets,BKN,Brooklyn,106,0
+2026-03-25,2026-03-26T02:00Z,401810916,post,22,Portland Trail Blazers,POR,Portland,130,15,Milwaukee Bucks,MIL,Milwaukee,99,0
+2026-03-25,2026-03-26T02:30Z,401810917,post,12,LA Clippers,LAC,LA,119,28,Toronto Raptors,TOR,Toronto,94,0
+2026-03-26,2026-03-26T23:00Z,401810918,post,30,Charlotte Hornets,CHA,Charlotte,114,18,New York Knicks,NY,New York,103,0
+2026-03-26,2026-03-26T23:00Z,401810919,post,8,Detroit Pistons,DET,Detroit,129,3,New Orleans Pelicans,NO,New Orleans,108,0
+2026-03-26,2026-03-26T23:00Z,401810920,post,19,Orlando Magic,ORL,Orlando,121,23,Sacramento Kings,SAC,Sacramento,117,0
+2026-03-27,2026-03-27T23:00Z,401810921,post,11,Indiana Pacers,IND,Indiana,113,12,LA Clippers,LAC,LA,114,0
+2026-03-27,2026-03-27T23:30Z,401810922,post,2,Boston Celtics,BOS,Boston,109,1,Atlanta Hawks,ATL,Atlanta,102,0
+2026-03-27,2026-03-27T23:30Z,401810923,post,5,Cleveland Cavaliers,CLE,Cleveland,149,14,Miami Heat,MIA,Miami,128,0
+2026-03-27,2026-03-28T00:00Z,401810924,post,29,Memphis Grizzlies,MEM,Memphis,109,10,Houston Rockets,HOU,Houston,119,0
+2026-03-27,2026-03-28T00:00Z,401810925,post,25,Oklahoma City Thunder,OKC,Oklahoma City,131,4,Chicago Bulls,CHI,Chicago,113,0
+2026-03-27,2026-03-28T00:30Z,401810926,post,28,Toronto Raptors,TOR,Toronto,119,3,New Orleans Pelicans,NO,New Orleans,106,0
+2026-03-27,2026-03-28T01:00Z,401810927,post,7,Denver Nuggets,DEN,Denver,135,26,Utah Jazz,UTAH,Utah,129,0
+2026-03-27,2026-03-28T02:00Z,401810928,post,9,Golden State Warriors,GS,Golden State,131,27,Washington Wizards,WSH,Washington,126,0
+2026-03-27,2026-03-28T02:00Z,401810929,post,22,Portland Trail Blazers,POR,Portland,93,6,Dallas Mavericks,DAL,Dallas,100,0
+2026-03-27,2026-03-28T02:30Z,401810930,post,13,Los Angeles Lakers,LAL,Los Angeles,116,17,Brooklyn Nets,BKN,Brooklyn,99,0
+2026-03-28,2026-03-28T19:00Z,401810931,post,15,Milwaukee Bucks,MIL,Milwaukee,95,24,San Antonio Spurs,SA,San Antonio,127,0
+2026-03-28,2026-03-28T22:00Z,401810932,post,30,Charlotte Hornets,CHA,Charlotte,114,20,Philadelphia 76ers,PHI,Philadelphia,118,0
+2026-03-28,2026-03-28T23:30Z,401810933,post,1,Atlanta Hawks,ATL,Atlanta,123,23,Sacramento Kings,SAC,Sacramento,113,0
+2026-03-28,2026-03-29T00:00Z,401810934,post,29,Memphis Grizzlies,MEM,Memphis,125,4,Chicago Bulls,CHI,Chicago,124,0
+2026-03-28,2026-03-28T21:30Z,401810935,post,16,Minnesota Timberwolves,MIN,Minnesota,87,8,Detroit Pistons,DET,Detroit,109,0
+2026-03-28,2026-03-29T02:00Z,401810936,post,21,Phoenix Suns,PHX,Phoenix,134,26,Utah Jazz,UTAH,Utah,109,0
+2026-03-29,2026-03-29T19:30Z,401810937,post,15,Milwaukee Bucks,MIL,Milwaukee,113,12,LA Clippers,LAC,LA,127,0
+2026-03-29,2026-03-29T21:00Z,401810938,post,11,Indiana Pacers,IND,Indiana,135,14,Miami Heat,MIA,Miami,118,0
+2026-03-29,2026-03-29T22:00Z,401810939,post,17,Brooklyn Nets,BKN,Brooklyn,116,23,Sacramento Kings,SAC,Sacramento,99,0
+2026-03-29,2026-03-29T22:00Z,401810940,post,30,Charlotte Hornets,CHA,Charlotte,99,2,Boston Celtics,BOS,Boston,114,0
+2026-03-29,2026-03-29T22:00Z,401810941,post,28,Toronto Raptors,TOR,Toronto,139,19,Orlando Magic,ORL,Orlando,87,0
+2026-03-29,2026-03-29T22:00Z,401810942,post,22,Portland Trail Blazers,POR,Portland,123,27,Washington Wizards,WSH,Washington,88,0
+2026-03-29,2026-03-29T23:00Z,401810943,post,3,New Orleans Pelicans,NO,New Orleans,102,10,Houston Rockets,HOU,Houston,134,0
+2026-03-29,2026-03-29T23:30Z,401810944,post,25,Oklahoma City Thunder,OKC,Oklahoma City,111,18,New York Knicks,NY,New York,100,0
+2026-03-29,2026-03-30T02:00Z,401810945,post,7,Denver Nuggets,DEN,Denver,116,9,Golden State Warriors,GS,Golden State,93,0
+2026-03-30,2026-03-30T23:00Z,401810946,post,14,Miami Heat,MIA,Miami,119,20,Philadelphia 76ers,PHI,Philadelphia,109,0
+2026-03-30,2026-03-30T23:30Z,401810947,post,1,Atlanta Hawks,ATL,Atlanta,112,2,Boston Celtics,BOS,Boston,102,0
+2026-03-30,2026-03-31T00:00Z,401810948,post,29,Memphis Grizzlies,MEM,Memphis,105,21,Phoenix Suns,PHX,Phoenix,131,0
+2026-03-30,2026-03-31T00:00Z,401810949,post,24,San Antonio Spurs,SA,San Antonio,129,4,Chicago Bulls,CHI,Chicago,114,0
+2026-03-30,2026-03-31T00:30Z,401810950,post,6,Dallas Mavericks,DAL,Dallas,94,16,Minnesota Timberwolves,MIN,Minnesota,124,0
+2026-03-30,2026-03-31T01:00Z,401810951,post,26,Utah Jazz,UTAH,Utah,113,5,Cleveland Cavaliers,CLE,Cleveland,122,0
+2026-03-30,2026-03-31T01:30Z,401810952,post,25,Oklahoma City Thunder,OKC,Oklahoma City,114,8,Detroit Pistons,DET,Detroit,110,0
+2026-03-30,2026-03-31T02:00Z,401810953,post,13,Los Angeles Lakers,LAL,Los Angeles,120,27,Washington Wizards,WSH,Washington,101,0
+2026-03-31,2026-03-31T23:00Z,401810954,post,19,Orlando Magic,ORL,Orlando,115,21,Phoenix Suns,PHX,Phoenix,111,0
+2026-03-31,2026-03-31T23:30Z,401810955,post,17,Brooklyn Nets,BKN,Brooklyn,86,30,Charlotte Hornets,CHA,Charlotte,117,0
+2026-03-31,2026-04-01T00:00Z,401810956,post,8,Detroit Pistons,DET,Detroit,127,28,Toronto Raptors,TOR,Toronto,116,0
+2026-03-31,2026-04-01T00:00Z,401810957,post,10,Houston Rockets,HOU,Houston,111,18,New York Knicks,NY,New York,94,0
+2026-03-31,2026-04-01T02:30Z,401810958,post,13,Los Angeles Lakers,LAL,Los Angeles,127,5,Cleveland Cavaliers,CLE,Cleveland,113,0
+2026-03-31,2026-04-01T03:00Z,401810959,post,12,LA Clippers,LAC,LA,104,22,Portland Trail Blazers,POR,Portland,114,0
+2026-03-31,2026-04-01T00:00Z,401858694,post,15,Milwaukee Bucks,MIL,Milwaukee,123,6,Dallas Mavericks,DAL,Dallas,99,0
+2026-04-01,2026-04-02T00:00Z,401810858,post,29,Memphis Grizzlies,MEM,Memphis,119,18,New York Knicks,NY,New York,130,0
+2026-04-01,2026-04-01T23:00Z,401810960,post,27,Washington Wizards,WSH,Washington,131,20,Philadelphia 76ers,PHI,Philadelphia,153,0
+2026-04-01,2026-04-01T23:30Z,401810961,post,14,Miami Heat,MIA,Miami,129,2,Boston Celtics,BOS,Boston,147,0
+2026-04-01,2026-04-01T23:00Z,401810962,post,19,Orlando Magic,ORL,Orlando,101,1,Atlanta Hawks,ATL,Atlanta,130,0
+2026-04-01,2026-04-02T00:00Z,401810963,post,28,Toronto Raptors,TOR,Toronto,115,23,Sacramento Kings,SAC,Sacramento,123,0
+2026-04-01,2026-04-02T00:00Z,401810964,post,4,Chicago Bulls,CHI,Chicago,126,11,Indiana Pacers,IND,Indiana,145,0
+2026-04-01,2026-04-02T00:00Z,401810965,post,10,Houston Rockets,HOU,Houston,119,15,Milwaukee Bucks,MIL,Milwaukee,113,0
+2026-04-01,2026-04-02T01:00Z,401810967,post,26,Utah Jazz,UTAH,Utah,117,7,Denver Nuggets,DEN,Denver,130,0
+2026-04-01,2026-04-02T02:00Z,401810968,post,9,Golden State Warriors,GS,Golden State,113,24,San Antonio Spurs,SA,San Antonio,127,0
+2026-04-02,2026-04-02T23:00Z,401810969,post,30,Charlotte Hornets,CHA,Charlotte,127,21,Phoenix Suns,PHX,Phoenix,107,0
+2026-04-02,2026-04-02T23:00Z,401810970,post,8,Detroit Pistons,DET,Detroit,113,16,Minnesota Timberwolves,MIN,Minnesota,108,0
+2026-04-02,2026-04-03T01:30Z,401810971,post,25,Oklahoma City Thunder,OKC,Oklahoma City,139,13,Los Angeles Lakers,LAL,Los Angeles,96,0
+2026-04-02,2026-04-03T02:00Z,401810972,post,9,Golden State Warriors,GS,Golden State,111,5,Cleveland Cavaliers,CLE,Cleveland,118,0
+2026-04-02,2026-04-03T02:00Z,401810973,post,22,Portland Trail Blazers,POR,Portland,118,3,New Orleans Pelicans,NO,New Orleans,106,0
+2026-04-02,2026-04-03T02:30Z,401810974,post,12,LA Clippers,LAC,LA,99,24,San Antonio Spurs,SA,San Antonio,118,0
+2026-04-03,2026-04-03T23:00Z,401810975,post,30,Charlotte Hornets,CHA,Charlotte,129,11,Indiana Pacers,IND,Indiana,108,0
+2026-04-03,2026-04-03T23:00Z,401810976,post,20,Philadelphia 76ers,PHI,Philadelphia,115,16,Minnesota Timberwolves,MIN,Minnesota,103,0
+2026-04-03,2026-04-03T23:30Z,401810977,post,17,Brooklyn Nets,BKN,Brooklyn,107,1,Atlanta Hawks,ATL,Atlanta,141,0
+2026-04-03,2026-04-03T23:30Z,401810978,post,18,New York Knicks,NY,New York,136,4,Chicago Bulls,CHI,Chicago,96,0
+2026-04-03,2026-04-04T00:00Z,401810979,post,10,Houston Rockets,HOU,Houston,140,26,Utah Jazz,UTAH,Utah,106,0
+2026-04-03,2026-04-04T00:00Z,401810980,post,29,Memphis Grizzlies,MEM,Memphis,96,28,Toronto Raptors,TOR,Toronto,128,0
+2026-04-03,2026-04-04T00:00Z,401810981,post,15,Milwaukee Bucks,MIL,Milwaukee,101,2,Boston Celtics,BOS,Boston,133,0
+2026-04-03,2026-04-04T00:30Z,401810982,post,6,Dallas Mavericks,DAL,Dallas,127,19,Orlando Magic,ORL,Orlando,138,0
+2026-04-03,2026-04-04T02:00Z,401810983,post,23,Sacramento Kings,SAC,Sacramento,117,3,New Orleans Pelicans,NO,New Orleans,113,0
+2026-04-04,2026-04-04T19:00Z,401810984,post,14,Miami Heat,MIA,Miami,152,27,Washington Wizards,WSH,Washington,136,0
+2026-04-04,2026-04-04T19:00Z,401810985,post,7,Denver Nuggets,DEN,Denver,136,24,San Antonio Spurs,SA,San Antonio,134,0
+2026-04-04,2026-04-04T23:00Z,401810986,post,20,Philadelphia 76ers,PHI,Philadelphia,93,8,Detroit Pistons,DET,Detroit,116,0
+2026-04-05,2026-04-05T19:30Z,401810987,post,2,Boston Celtics,BOS,Boston,115,28,Toronto Raptors,TOR,Toronto,101,0
+2026-04-05,2026-04-05T19:30Z,401810988,post,17,Brooklyn Nets,BKN,Brooklyn,121,27,Washington Wizards,WSH,Washington,115,0
+2026-04-05,2026-04-05T19:30Z,401810989,post,4,Chicago Bulls,CHI,Chicago,110,21,Phoenix Suns,PHX,Phoenix,120,0
+2026-04-05,2026-04-05T19:30Z,401810990,post,15,Milwaukee Bucks,MIL,Milwaukee,131,29,Memphis Grizzlies,MEM,Memphis,115,0
+2026-04-05,2026-04-05T22:00Z,401810991,post,5,Cleveland Cavaliers,CLE,Cleveland,117,11,Indiana Pacers,IND,Indiana,108,0
+2026-04-05,2026-04-05T23:00Z,401810992,post,16,Minnesota Timberwolves,MIN,Minnesota,108,30,Charlotte Hornets,CHA,Charlotte,122,0
+2026-04-05,2026-04-05T23:00Z,401810993,post,3,New Orleans Pelicans,NO,New Orleans,108,19,Orlando Magic,ORL,Orlando,112,0
+2026-04-05,2026-04-05T23:00Z,401810994,post,25,Oklahoma City Thunder,OKC,Oklahoma City,146,26,Utah Jazz,UTAH,Utah,111,0
+2026-04-05,2026-04-05T23:30Z,401810995,post,6,Dallas Mavericks,DAL,Dallas,134,13,Los Angeles Lakers,LAL,Los Angeles,128,0
+2026-04-05,2026-04-06T01:00Z,401810996,post,23,Sacramento Kings,SAC,Sacramento,109,12,LA Clippers,LAC,LA,138,0
+2026-04-05,2026-04-06T02:00Z,401810997,post,9,Golden State Warriors,GS,Golden State,116,10,Houston Rockets,HOU,Houston,117,0
+2026-04-06,2026-04-06T23:00Z,401810998,post,1,Atlanta Hawks,ATL,Atlanta,105,18,New York Knicks,NY,New York,108,0
+2026-04-06,2026-04-06T23:00Z,401810999,post,19,Orlando Magic,ORL,Orlando,123,8,Detroit Pistons,DET,Detroit,107,0
+2026-04-06,2026-04-07T00:00Z,401811000,post,29,Memphis Grizzlies,MEM,Memphis,126,5,Cleveland Cavaliers,CLE,Cleveland,142,0
+2026-04-06,2026-04-07T00:00Z,401811001,post,24,San Antonio Spurs,SA,San Antonio,115,20,Philadelphia 76ers,PHI,Philadelphia,102,0
+2026-04-06,2026-04-07T01:00Z,401811002,post,7,Denver Nuggets,DEN,Denver,137,22,Portland Trail Blazers,POR,Portland,132,0
+2026-04-07,2026-04-07T23:00Z,401811003,post,27,Washington Wizards,WSH,Washington,98,4,Chicago Bulls,CHI,Chicago,129,0
+2026-04-07,2026-04-08T00:00Z,401811004,post,2,Boston Celtics,BOS,Boston,113,30,Charlotte Hornets,CHA,Charlotte,102,0
+2026-04-07,2026-04-07T23:30Z,401811005,post,17,Brooklyn Nets,BKN,Brooklyn,96,15,Milwaukee Bucks,MIL,Milwaukee,90,0
+2026-04-07,2026-04-07T23:30Z,401811006,post,28,Toronto Raptors,TOR,Toronto,121,14,Miami Heat,MIA,Miami,95,0
+2026-04-07,2026-04-07T23:00Z,401811007,post,11,Indiana Pacers,IND,Indiana,104,16,Minnesota Timberwolves,MIN,Minnesota,124,0
+2026-04-07,2026-04-08T00:00Z,401811008,post,3,New Orleans Pelicans,NO,New Orleans,156,26,Utah Jazz,UTAH,Utah,137,0
+2026-04-07,2026-04-08T02:00Z,401811009,post,9,Golden State Warriors,GS,Golden State,110,23,Sacramento Kings,SAC,Sacramento,105,0
+2026-04-07,2026-04-08T02:30Z,401811010,post,13,Los Angeles Lakers,LAL,Los Angeles,87,25,Oklahoma City Thunder,OKC,Oklahoma City,123,0
+2026-04-07,2026-04-08T02:30Z,401811011,post,12,LA Clippers,LAC,LA,116,6,Dallas Mavericks,DAL,Dallas,103,0
+2026-04-07,2026-04-08T03:00Z,401811012,post,21,Phoenix Suns,PHX,Phoenix,105,10,Houston Rockets,HOU,Houston,119,0
+2026-04-08,2026-04-08T23:00Z,401811013,post,5,Cleveland Cavaliers,CLE,Cleveland,122,1,Atlanta Hawks,ATL,Atlanta,116,0
+2026-04-08,2026-04-08T23:00Z,401811014,post,19,Orlando Magic,ORL,Orlando,132,16,Minnesota Timberwolves,MIN,Minnesota,120,0
+2026-04-08,2026-04-08T23:00Z,401811015,post,8,Detroit Pistons,DET,Detroit,137,15,Milwaukee Bucks,MIL,Milwaukee,111,0
+2026-04-08,2026-04-09T01:30Z,401811016,post,24,San Antonio Spurs,SA,San Antonio,112,22,Portland Trail Blazers,POR,Portland,101,0
+2026-04-08,2026-04-09T01:00Z,401811017,post,7,Denver Nuggets,DEN,Denver,136,29,Memphis Grizzlies,MEM,Memphis,119,0
+2026-04-08,2026-04-09T02:00Z,401811018,post,12,LA Clippers,LAC,LA,110,25,Oklahoma City Thunder,OKC,Oklahoma City,128,0
+2026-04-08,2026-04-09T02:00Z,401811019,post,21,Phoenix Suns,PHX,Phoenix,112,6,Dallas Mavericks,DAL,Dallas,107,0
+2026-04-09,2026-04-09T23:00Z,401811020,post,28,Toronto Raptors,TOR,Toronto,128,14,Miami Heat,MIA,Miami,114,0
+2026-04-09,2026-04-09T23:00Z,401811021,post,27,Washington Wizards,WSH,Washington,108,4,Chicago Bulls,CHI,Chicago,119,0
+2026-04-09,2026-04-09T23:30Z,401811022,post,17,Brooklyn Nets,BKN,Brooklyn,94,11,Indiana Pacers,IND,Indiana,123,0
+2026-04-09,2026-04-09T23:30Z,401811023,post,18,New York Knicks,NY,New York,112,2,Boston Celtics,BOS,Boston,106,0
+2026-04-09,2026-04-10T00:00Z,401811024,post,10,Houston Rockets,HOU,Houston,113,20,Philadelphia 76ers,PHI,Philadelphia,102,0
+2026-04-09,2026-04-10T02:00Z,401811025,post,9,Golden State Warriors,GS,Golden State,103,13,Los Angeles Lakers,LAL,Los Angeles,119,0
+2026-04-10,2026-04-10T23:00Z,401811026,post,30,Charlotte Hornets,CHA,Charlotte,100,8,Detroit Pistons,DET,Detroit,118,0
+2026-04-10,2026-04-10T23:00Z,401811027,post,27,Washington Wizards,WSH,Washington,117,14,Miami Heat,MIA,Miami,140,0
+2026-04-10,2026-04-10T23:00Z,401811028,post,1,Atlanta Hawks,ATL,Atlanta,124,5,Cleveland Cavaliers,CLE,Cleveland,102,0
+2026-04-10,2026-04-10T23:30Z,401811029,post,2,Boston Celtics,BOS,Boston,144,3,New Orleans Pelicans,NO,New Orleans,118,0
+2026-04-10,2026-04-10T23:30Z,401811030,post,11,Indiana Pacers,IND,Indiana,94,20,Philadelphia 76ers,PHI,Philadelphia,105,0
+2026-04-10,2026-04-10T23:30Z,401811031,post,18,New York Knicks,NY,New York,112,28,Toronto Raptors,TOR,Toronto,95,0
+2026-04-10,2026-04-11T00:00Z,401811032,post,4,Chicago Bulls,CHI,Chicago,103,19,Orlando Magic,ORL,Orlando,127,0
+2026-04-10,2026-04-11T01:30Z,401811033,post,10,Houston Rockets,HOU,Houston,132,16,Minnesota Timberwolves,MIN,Minnesota,136,0
+2026-04-10,2026-04-11T00:00Z,401811034,post,15,Milwaukee Bucks,MIL,Milwaukee,125,17,Brooklyn Nets,BKN,Brooklyn,108,0
+2026-04-10,2026-04-11T00:00Z,401811035,post,24,San Antonio Spurs,SA,San Antonio,139,6,Dallas Mavericks,DAL,Dallas,120,0
+2026-04-10,2026-04-11T01:30Z,401811036,post,26,Utah Jazz,UTAH,Utah,147,29,Memphis Grizzlies,MEM,Memphis,101,0
+2026-04-10,2026-04-11T01:00Z,401811037,post,7,Denver Nuggets,DEN,Denver,127,25,Oklahoma City Thunder,OKC,Oklahoma City,107,0
+2026-04-10,2026-04-11T02:00Z,401811038,post,22,Portland Trail Blazers,POR,Portland,116,12,LA Clippers,LAC,LA,97,0
+2026-04-10,2026-04-11T02:00Z,401811039,post,23,Sacramento Kings,SAC,Sacramento,124,9,Golden State Warriors,GS,Golden State,118,0
+2026-04-10,2026-04-11T02:30Z,401811040,post,13,Los Angeles Lakers,LAL,Los Angeles,101,21,Phoenix Suns,PHX,Phoenix,73,0
+2026-04-12,2026-04-12T22:00Z,401811041,post,2,Boston Celtics,BOS,Boston,113,19,Orlando Magic,ORL,Orlando,108,0
+2026-04-12,2026-04-12T22:00Z,401811042,post,5,Cleveland Cavaliers,CLE,Cleveland,130,27,Washington Wizards,WSH,Washington,117,0
+2026-04-12,2026-04-12T22:00Z,401811043,post,11,Indiana Pacers,IND,Indiana,121,8,Detroit Pistons,DET,Detroit,133,0
+2026-04-12,2026-04-12T22:00Z,401811044,post,14,Miami Heat,MIA,Miami,143,1,Atlanta Hawks,ATL,Atlanta,117,0
+2026-04-12,2026-04-12T22:00Z,401811045,post,18,New York Knicks,NY,New York,96,30,Charlotte Hornets,CHA,Charlotte,110,0
+2026-04-12,2026-04-12T22:00Z,401811046,post,20,Philadelphia 76ers,PHI,Philadelphia,126,15,Milwaukee Bucks,MIL,Milwaukee,106,0
+2026-04-12,2026-04-12T22:00Z,401811047,post,28,Toronto Raptors,TOR,Toronto,136,17,Brooklyn Nets,BKN,Brooklyn,101,0
+2026-04-12,2026-04-13T00:30Z,401811048,post,6,Dallas Mavericks,DAL,Dallas,149,4,Chicago Bulls,CHI,Chicago,128,0
+2026-04-12,2026-04-13T00:30Z,401811049,post,10,Houston Rockets,HOU,Houston,132,29,Memphis Grizzlies,MEM,Memphis,101,0
+2026-04-12,2026-04-13T00:30Z,401811050,post,16,Minnesota Timberwolves,MIN,Minnesota,132,3,New Orleans Pelicans,NO,New Orleans,126,0
+2026-04-12,2026-04-13T00:30Z,401811051,post,25,Oklahoma City Thunder,OKC,Oklahoma City,103,21,Phoenix Suns,PHX,Phoenix,135,0
+2026-04-12,2026-04-13T00:30Z,401811052,post,24,San Antonio Spurs,SA,San Antonio,118,7,Denver Nuggets,DEN,Denver,128,0
+2026-04-12,2026-04-13T00:30Z,401811053,post,13,Los Angeles Lakers,LAL,Los Angeles,131,26,Utah Jazz,UTAH,Utah,107,0
+2026-04-12,2026-04-13T00:30Z,401811054,post,12,LA Clippers,LAC,LA,115,9,Golden State Warriors,GS,Golden State,110,0
+2026-04-12,2026-04-13T00:30Z,401811055,post,22,Portland Trail Blazers,POR,Portland,122,23,Sacramento Kings,SAC,Sacramento,110,0
+2026-04-14,2026-04-15T02:00Z,401866754,post,21,Phoenix Suns,PHX,Phoenix,110,22,Portland Trail Blazers,POR,Portland,114,0
+2026-04-14,2026-04-14T23:30Z,401866755,post,30,Charlotte Hornets,CHA,Charlotte,127,14,Miami Heat,MIA,Miami,126,0
+2026-04-15,2026-04-16T02:00Z,401866756,post,12,LA Clippers,LAC,LA,121,9,Golden State Warriors,GS,Golden State,126,0
+2026-04-15,2026-04-15T23:30Z,401866757,post,20,Philadelphia 76ers,PHI,Philadelphia,109,19,Orlando Magic,ORL,Orlando,97,0
+2026-04-17,2026-04-17T23:30Z,401866758,post,19,Orlando Magic,ORL,Orlando,121,30,Charlotte Hornets,CHA,Charlotte,90,0
+2026-04-17,2026-04-18T02:00Z,401866759,post,21,Phoenix Suns,PHX,Phoenix,111,9,Golden State Warriors,GS,Golden State,96,0
+2026-04-18,2026-04-18T17:00Z,401869187,post,5,Cleveland Cavaliers,CLE,Cleveland,126,28,Toronto Raptors,TOR,Toronto,113,0
+2026-04-18,2026-04-18T19:30Z,401869188,post,7,Denver Nuggets,DEN,Denver,116,16,Minnesota Timberwolves,MIN,Minnesota,105,0
+2026-04-18,2026-04-18T22:00Z,401869189,post,18,New York Knicks,NY,New York,113,1,Atlanta Hawks,ATL,Atlanta,102,0
+2026-04-18,2026-04-19T00:30Z,401869190,post,13,Los Angeles Lakers,LAL,Los Angeles,107,10,Houston Rockets,HOU,Houston,98,0
+2026-04-19,2026-04-19T17:00Z,401869191,post,2,Boston Celtics,BOS,Boston,123,20,Philadelphia 76ers,PHI,Philadelphia,91,0
+2026-04-19,2026-04-19T19:30Z,401869192,post,25,Oklahoma City Thunder,OKC,Oklahoma City,119,21,Phoenix Suns,PHX,Phoenix,84,0
+2026-04-19,2026-04-19T22:30Z,401869193,post,8,Detroit Pistons,DET,Detroit,101,19,Orlando Magic,ORL,Orlando,112,0
+2026-04-19,2026-04-20T01:00Z,401869194,post,24,San Antonio Spurs,SA,San Antonio,111,22,Portland Trail Blazers,POR,Portland,98,0
+2026-04-20,2026-04-20T23:00Z,401869369,post,5,Cleveland Cavaliers,CLE,Cleveland,115,28,Toronto Raptors,TOR,Toronto,105,0
+2026-04-20,2026-04-21T00:00Z,401869387,post,18,New York Knicks,NY,New York,106,1,Atlanta Hawks,ATL,Atlanta,107,0
+2026-04-20,2026-04-21T02:30Z,401869395,post,7,Denver Nuggets,DEN,Denver,114,16,Minnesota Timberwolves,MIN,Minnesota,119,0
+2026-04-21,2026-04-22T00:00Z,401869378,post,24,San Antonio Spurs,SA,San Antonio,103,22,Portland Trail Blazers,POR,Portland,106,0
+2026-04-21,2026-04-21T23:00Z,401869396,post,2,Boston Celtics,BOS,Boston,97,20,Philadelphia 76ers,PHI,Philadelphia,111,0
+2026-04-21,2026-04-22T02:30Z,401869397,post,13,Los Angeles Lakers,LAL,Los Angeles,101,10,Houston Rockets,HOU,Houston,94,0
+2026-04-22,2026-04-23T01:30Z,401869368,post,25,Oklahoma City Thunder,OKC,Oklahoma City,120,21,Phoenix Suns,PHX,Phoenix,107,0
+2026-04-22,2026-04-22T23:00Z,401869411,post,8,Detroit Pistons,DET,Detroit,98,19,Orlando Magic,ORL,Orlando,83,0
+2026-04-23,2026-04-24T00:00Z,401869375,post,28,Toronto Raptors,TOR,Toronto,126,5,Cleveland Cavaliers,CLE,Cleveland,104,0
+2026-04-23,2026-04-23T23:00Z,401869389,post,1,Atlanta Hawks,ATL,Atlanta,109,18,New York Knicks,NY,New York,108,0
+2026-04-23,2026-04-24T01:30Z,401869398,post,16,Minnesota Timberwolves,MIN,Minnesota,113,7,Denver Nuggets,DEN,Denver,96,0
+2026-04-24,2026-04-25T02:30Z,401869382,post,22,Portland Trail Blazers,POR,Portland,108,24,San Antonio Spurs,SA,San Antonio,120,0
+2026-04-24,2026-04-25T00:00Z,401869400,post,10,Houston Rockets,HOU,Houston,108,13,Los Angeles Lakers,LAL,Los Angeles,112,0
+2026-04-24,2026-04-24T23:00Z,401869404,post,20,Philadelphia 76ers,PHI,Philadelphia,100,2,Boston Celtics,BOS,Boston,108,0
+2026-04-25,2026-04-25T19:30Z,401869370,post,21,Phoenix Suns,PHX,Phoenix,109,25,Oklahoma City Thunder,OKC,Oklahoma City,121,0
+2026-04-25,2026-04-25T22:00Z,401869391,post,1,Atlanta Hawks,ATL,Atlanta,98,18,New York Knicks,NY,New York,114,0
+2026-04-25,2026-04-26T00:30Z,401869399,post,16,Minnesota Timberwolves,MIN,Minnesota,112,7,Denver Nuggets,DEN,Denver,96,0
+2026-04-25,2026-04-25T17:00Z,401869414,post,19,Orlando Magic,ORL,Orlando,113,8,Detroit Pistons,DET,Detroit,105,0
+2026-04-26,2026-04-26T17:00Z,401869377,post,28,Toronto Raptors,TOR,Toronto,93,5,Cleveland Cavaliers,CLE,Cleveland,89,0
+2026-04-26,2026-04-26T19:30Z,401869385,post,22,Portland Trail Blazers,POR,Portland,93,24,San Antonio Spurs,SA,San Antonio,114,0
+2026-04-26,2026-04-27T01:30Z,401869405,post,10,Houston Rockets,HOU,Houston,115,13,Los Angeles Lakers,LAL,Los Angeles,96,0
+2026-04-26,2026-04-26T23:00Z,401869406,post,20,Philadelphia 76ers,PHI,Philadelphia,96,2,Boston Celtics,BOS,Boston,128,0
+2026-04-27,2026-04-28T01:30Z,401869373,post,21,Phoenix Suns,PHX,Phoenix,122,25,Oklahoma City Thunder,OKC,Oklahoma City,131,0
+2026-04-27,2026-04-28T02:30Z,401869401,post,7,Denver Nuggets,DEN,Denver,125,16,Minnesota Timberwolves,MIN,Minnesota,113,0
+2026-04-27,2026-04-28T00:00Z,401869415,post,19,Orlando Magic,ORL,Orlando,94,8,Detroit Pistons,DET,Detroit,88,0
+2026-04-28,2026-04-29T01:30Z,401869386,post,24,San Antonio Spurs,SA,San Antonio,114,22,Portland Trail Blazers,POR,Portland,95,0
+2026-04-28,2026-04-29T00:00Z,401869392,post,18,New York Knicks,NY,New York,126,1,Atlanta Hawks,ATL,Atlanta,97,0
+2026-04-28,2026-04-28T23:00Z,401869408,post,2,Boston Celtics,BOS,Boston,97,20,Philadelphia 76ers,PHI,Philadelphia,113,0
+2026-04-29,2026-04-29T23:30Z,401869380,post,5,Cleveland Cavaliers,CLE,Cleveland,125,28,Toronto Raptors,TOR,Toronto,120,0
+2026-04-29,2026-04-30T02:00Z,401869407,post,13,Los Angeles Lakers,LAL,Los Angeles,93,10,Houston Rockets,HOU,Houston,99,0
+2026-04-29,2026-04-29T23:00Z,401869416,post,8,Detroit Pistons,DET,Detroit,116,19,Orlando Magic,ORL,Orlando,109,0
+2026-04-30,2026-04-30T23:00Z,401869393,post,1,Atlanta Hawks,ATL,Atlanta,89,18,New York Knicks,NY,New York,140,0
+2026-04-30,2026-05-01T01:30Z,401869402,post,16,Minnesota Timberwolves,MIN,Minnesota,110,7,Denver Nuggets,DEN,Denver,98,0
+2026-04-30,2026-05-01T00:00Z,401869410,post,20,Philadelphia 76ers,PHI,Philadelphia,106,2,Boston Celtics,BOS,Boston,93,0
+2026-05-01,2026-05-01T23:30Z,401869381,post,28,Toronto Raptors,TOR,Toronto,112,5,Cleveland Cavaliers,CLE,Cleveland,110,0
+2026-05-01,2026-05-02T01:30Z,401869409,post,10,Houston Rockets,HOU,Houston,78,13,Los Angeles Lakers,LAL,Los Angeles,98,0
+2026-05-01,2026-05-01T23:00Z,401869417,post,19,Orlando Magic,ORL,Orlando,79,8,Detroit Pistons,DET,Detroit,93,0
+2026-05-02,2026-05-02T23:30Z,401869412,post,2,Boston Celtics,BOS,Boston,100,20,Philadelphia 76ers,PHI,Philadelphia,109,0
+2026-05-03,2026-05-03T23:30Z,401869384,post,5,Cleveland Cavaliers,CLE,Cleveland,114,28,Toronto Raptors,TOR,Toronto,102,0
+2026-05-03,2026-05-03T19:30Z,401869418,post,8,Detroit Pistons,DET,Detroit,116,19,Orlando Magic,ORL,Orlando,94,0
+2026-05-04,2026-05-05T01:30Z,401871152,post,24,San Antonio Spurs,SA,San Antonio,102,16,Minnesota Timberwolves,MIN,Minnesota,104,0
+2026-05-04,2026-05-05T00:00Z,401871159,post,18,New York Knicks,NY,New York,137,20,Philadelphia 76ers,PHI,Philadelphia,98,0
+2026-05-05,2026-05-06T00:30Z,401871326,post,25,Oklahoma City Thunder,OKC,Oklahoma City,108,13,Los Angeles Lakers,LAL,Los Angeles,90,0
+2026-05-05,2026-05-05T23:00Z,401871333,post,8,Detroit Pistons,DET,Detroit,111,5,Cleveland Cavaliers,CLE,Cleveland,101,0
+2026-05-06,2026-05-07T01:30Z,401871153,post,24,San Antonio Spurs,SA,San Antonio,133,16,Minnesota Timberwolves,MIN,Minnesota,95,0
+2026-05-06,2026-05-06T23:00Z,401871160,post,18,New York Knicks,NY,New York,108,20,Philadelphia 76ers,PHI,Philadelphia,102,0
+2026-05-07,2026-05-08T01:30Z,401871327,post,25,Oklahoma City Thunder,OKC,Oklahoma City,125,13,Los Angeles Lakers,LAL,Los Angeles,107,0
+2026-05-07,2026-05-07T23:00Z,401871334,post,8,Detroit Pistons,DET,Detroit,107,5,Cleveland Cavaliers,CLE,Cleveland,97,0
+2026-05-08,2026-05-09T01:30Z,401871154,post,16,Minnesota Timberwolves,MIN,Minnesota,108,24,San Antonio Spurs,SA,San Antonio,115,0
+2026-05-08,2026-05-08T23:00Z,401871161,post,20,Philadelphia 76ers,PHI,Philadelphia,94,18,New York Knicks,NY,New York,108,0
+2026-05-09,2026-05-10T00:30Z,401871328,post,13,Los Angeles Lakers,LAL,Los Angeles,108,25,Oklahoma City Thunder,OKC,Oklahoma City,131,0
+2026-05-09,2026-05-09T19:00Z,401871335,post,5,Cleveland Cavaliers,CLE,Cleveland,116,8,Detroit Pistons,DET,Detroit,109,0
+2026-05-10,2026-05-10T23:30Z,401871155,post,16,Minnesota Timberwolves,MIN,Minnesota,114,24,San Antonio Spurs,SA,San Antonio,109,0
+2026-05-10,2026-05-10T19:30Z,401871162,post,20,Philadelphia 76ers,PHI,Philadelphia,114,18,New York Knicks,NY,New York,144,0
+2026-05-11,2026-05-12T02:30Z,401871329,post,13,Los Angeles Lakers,LAL,Los Angeles,110,25,Oklahoma City Thunder,OKC,Oklahoma City,115,0
+2026-05-11,2026-05-12T00:00Z,401871336,post,5,Cleveland Cavaliers,CLE,Cleveland,112,8,Detroit Pistons,DET,Detroit,103,0
+2026-05-12,2026-05-13T00:00Z,401871156,post,24,San Antonio Spurs,SA,San Antonio,126,16,Minnesota Timberwolves,MIN,Minnesota,97,0
+2026-05-13,2026-05-14T00:00Z,401871337,post,8,Detroit Pistons,DET,Detroit,113,5,Cleveland Cavaliers,CLE,Cleveland,117,0
+2026-05-15,2026-05-16T01:30Z,401871157,post,16,Minnesota Timberwolves,MIN,Minnesota,109,24,San Antonio Spurs,SA,San Antonio,139,0
+2026-05-15,2026-05-15T23:00Z,401871338,post,5,Cleveland Cavaliers,CLE,Cleveland,94,8,Detroit Pistons,DET,Detroit,115,0
+2026-05-17,2026-05-18T00:00Z,401871339,post,8,Detroit Pistons,DET,Detroit,94,5,Cleveland Cavaliers,CLE,Cleveland,125,0
+2026-05-18,2026-05-19T00:30Z,401873197,post,25,Oklahoma City Thunder,OKC,Oklahoma City,115,24,San Antonio Spurs,SA,San Antonio,122,0
+2026-05-19,2026-05-20T00:00Z,401873341,post,18,New York Knicks,NY,New York,115,5,Cleveland Cavaliers,CLE,Cleveland,104,0
+2026-05-20,2026-05-21T00:30Z,401873198,post,25,Oklahoma City Thunder,OKC,Oklahoma City,122,24,San Antonio Spurs,SA,San Antonio,113,0
+2026-05-21,2026-05-22T00:00Z,401873342,post,18,New York Knicks,NY,New York,109,5,Cleveland Cavaliers,CLE,Cleveland,93,0
+2026-05-22,2026-05-23T00:30Z,401873199,post,24,San Antonio Spurs,SA,San Antonio,108,25,Oklahoma City Thunder,OKC,Oklahoma City,123,0
+2026-05-23,2026-05-24T00:00Z,401873343,post,5,Cleveland Cavaliers,CLE,Cleveland,108,18,New York Knicks,NY,New York,121,0
+2026-05-24,2026-05-25T00:00Z,401873200,post,24,San Antonio Spurs,SA,San Antonio,103,25,Oklahoma City Thunder,OKC,Oklahoma City,82,0
+2026-05-25,2026-05-26T00:00Z,401873344,post,5,Cleveland Cavaliers,CLE,Cleveland,93,18,New York Knicks,NY,New York,130,0
+2026-05-26,2026-05-27T00:30Z,401873201,post,25,Oklahoma City Thunder,OKC,Oklahoma City,127,24,San Antonio Spurs,SA,San Antonio,114,0
+2026-05-28,2026-05-29T00:30Z,401873202,post,24,San Antonio Spurs,SA,San Antonio,118,25,Oklahoma City Thunder,OKC,Oklahoma City,91,0
+2026-05-30,2026-05-31T00:00Z,401873203,post,25,Oklahoma City Thunder,OKC,Oklahoma City,103,24,San Antonio Spurs,SA,San Antonio,111,0
+2026-06-03,2026-06-04T00:30Z,401859963,post,24,San Antonio Spurs,SA,San Antonio,95,18,New York Knicks,NY,New York,105,0
+2026-06-05,2026-06-06T00:30Z,401859964,post,24,San Antonio Spurs,SA,San Antonio,104,18,New York Knicks,NY,New York,105,0
+2026-06-08,2026-06-09T00:30Z,401859965,post,18,New York Knicks,NY,New York,111,24,San Antonio Spurs,SA,San Antonio,115,0
+2026-06-10,2026-06-11T00:30Z,401859966,post,18,New York Knicks,NY,New York,107,24,San Antonio Spurs,SA,San Antonio,106,0
+2026-06-13,2026-06-14T00:30Z,401859967,post,24,San Antonio Spurs,SA,San Antonio,90,18,New York Knicks,NY,New York,94,0
+2026-10-03,2026-10-03T23:00Z,401902644,post,28,Toronto Raptors,TOR,Toronto,105,14,Miami Heat,MIA,Miami,129,0
+2026-10-04,2026-10-04T23:00Z,401914127,post,7,Denver Nuggets,DEN,Denver,97,26,Utah Jazz,UTAH,Utah,109,0
+2026-10-04,2026-10-04T23:00Z,401918010,post,12,LA Clippers,LAC,LA,104,9,Golden State Warriors,GS,Golden State,101,1
+2026-10-05,2026-10-05T23:00Z,401898388,post,1,Atlanta Hawks,ATL,Atlanta,123,29,Memphis Grizzlies,MEM,Memphis,132,0
+2026-10-05,2026-10-06T02:00Z,401898716,post,23,Sacramento Kings,SAC,Sacramento,103,13,Los Angeles Lakers,LAL,Los Angeles,127,0
+2026-10-05,2026-10-05T23:00Z,401908947,post,8,Detroit Pistons,DET,Detroit,109,21,Phoenix Suns,PHX,Phoenix,107,0
+2026-10-05,2026-10-05T23:00Z,401914101,post,20,Philadelphia 76ers,PHI,Philadelphia,120,18,New York Knicks,NY,New York,97,0
+2026-10-05,2026-10-06T00:00Z,401914102,post,15,Milwaukee Bucks,MIL,Milwaukee,97,16,Minnesota Timberwolves,MIN,Minnesota,116,0
+2026-10-06,2026-10-07T00:00Z,401898389,post,25,Oklahoma City Thunder,OKC,Oklahoma City,110,3,New Orleans Pelicans,NO,New Orleans,116,1
+2026-10-06,2026-10-07T02:00Z,401898390,post,9,Golden State Warriors,GS,Golden State,124,13,Los Angeles Lakers,LAL,Los Angeles,98,0
+2026-10-06,2026-10-06T23:00Z,401901820,post,30,Charlotte Hornets,CHA,Charlotte,90,17,Brooklyn Nets,BKN,Brooklyn,124,0
+2026-10-06,2026-10-07T01:00Z,401914128,post,26,Utah Jazz,UTAH,Utah,106,7,Denver Nuggets,DEN,Denver,117,0
+2026-10-07,2026-10-08T00:00Z,401898391,post,29,Memphis Grizzlies,MEM,Memphis,118,19,Orlando Magic,ORL,Orlando,122,0
+2026-10-07,2026-10-08T00:00Z,401908620,post,25,Oklahoma City Thunder,OKC,Oklahoma City,126,15,Milwaukee Bucks,MIL,Milwaukee,128,0
+2026-10-07,2026-10-08T00:00Z,401908939,post,4,Chicago Bulls,CHI,Chicago,124,21,Phoenix Suns,PHX,Phoenix,117,0
+2026-10-07,2026-10-07T23:00Z,401914123,post,11,Indiana Pacers,IND,Indiana,123,16,Minnesota Timberwolves,MIN,Minnesota,112,1
+2026-10-07,2026-10-08T02:00Z,401914129,post,22,Portland Trail Blazers,POR,Portland,123,9,Golden State Warriors,GS,Golden State,118,0
+2026-10-08,2026-10-08T23:00Z,401898392,post,5,Cleveland Cavaliers,CLE,Cleveland,113,2,Boston Celtics,BOS,Boston,124,0
+2026-10-08,2026-10-08T23:30Z,401898393,post,14,Miami Heat,MIA,Miami,128,3,New Orleans Pelicans,NO,New Orleans,118,0
+2026-10-08,2026-10-09T00:00Z,401898394,post,24,San Antonio Spurs,SA,San Antonio,116,1,Atlanta Hawks,ATL,Atlanta,123,0
+2026-10-08,2026-10-09T02:45Z,401898717,post,13,Los Angeles Lakers,LAL,Los Angeles,114,23,Sacramento Kings,SAC,Sacramento,110,0
+2026-10-08,2026-10-08T23:30Z,401901823,post,17,Brooklyn Nets,BKN,Brooklyn,114,20,Philadelphia 76ers,PHI,Philadelphia,108,0
+2026-10-08,2026-10-08T23:30Z,401906508,post,18,New York Knicks,NY,New York,109,27,Washington Wizards,WSH,Washington,111,0
+2026-10-09,2026-10-09T12:00Z,401898395,post,6,Dallas Mavericks,DAL,Dallas,117,10,Houston Rockets,HOU,Houston,135,1
+2026-10-09,2026-10-10T00:00Z,401908940,post,4,Chicago Bulls,CHI,Chicago,100,29,Memphis Grizzlies,MEM,Memphis,104,0
+2026-10-10,2026-10-10T23:00Z,401898396,post,11,Indiana Pacers,IND,Indiana,117,1,Atlanta Hawks,ATL,Atlanta,119,0
+2026-10-10,2026-10-11T00:00Z,401898397,post,14,Miami Heat,MIA,Miami,124,16,Minnesota Timberwolves,MIN,Minnesota,125,0
+2026-10-10,2026-10-11T00:00Z,401898398,post,2,Boston Celtics,BOS,Boston,144,20,Philadelphia 76ers,PHI,Philadelphia,106,0
+2026-10-10,2026-10-11T00:30Z,401898399,post,9,Golden State Warriors,GS,Golden State,111,23,Sacramento Kings,SAC,Sacramento,106,0
+2026-10-10,2026-10-11T02:30Z,401898720,post,21,Phoenix Suns,PHX,Phoenix,102,24,San Antonio Spurs,SA,San Antonio,98,0
+2026-10-10,2026-10-10T22:30Z,401902645,post,28,Toronto Raptors,TOR,Toronto,114,12,LA Clippers,LAC,LA,106,0
+2026-10-10,2026-10-10T23:00Z,401906510,post,27,Washington Wizards,WSH,Washington,114,8,Detroit Pistons,DET,Detroit,108,0
+2026-10-11,2026-10-11T10:00Z,401898400,post,10,Houston Rockets,HOU,Houston,115,6,Dallas Mavericks,DAL,Dallas,132,1
+2026-10-11,2026-10-11T22:30Z,401898401,post,5,Cleveland Cavaliers,CLE,Cleveland,119,19,Orlando Magic,ORL,Orlando,105,0
+2026-10-11,2026-10-11T23:00Z,401901821,post,30,Charlotte Hornets,CHA,Charlotte,105,15,Milwaukee Bucks,MIL,Milwaukee,90,0
+2026-10-11,2026-10-12T01:00Z,401908941,post,7,Denver Nuggets,DEN,Denver,133,4,Chicago Bulls,CHI,Chicago,128,0
+2026-10-12,2026-10-12T23:00Z,401898402,post,1,Atlanta Hawks,ATL,Atlanta,113,25,Oklahoma City Thunder,OKC,Oklahoma City,110,0
+2026-10-12,2026-10-13T01:00Z,401898721,post,26,Utah Jazz,UTAH,Utah,119,24,San Antonio Spurs,SA,San Antonio,109,0
+2026-10-12,2026-10-12T23:00Z,401901824,post,27,Washington Wizards,WSH,Washington,122,17,Brooklyn Nets,BKN,Brooklyn,131,0
+2026-10-12,2026-10-12T23:30Z,401914124,post,18,New York Knicks,NY,New York,104,16,Minnesota Timberwolves,MIN,Minnesota,122,0
+2026-10-12,2026-10-12T20:00Z,401914130,post,22,Portland Trail Blazers,POR,Portland,119,134478,London Lions,LON,London,66,0
+2026-10-13,2026-10-13T23:00Z,401898403,post,19,Orlando Magic,ORL,Orlando,132,5,Cleveland Cavaliers,CLE,Cleveland,116,0
+2026-10-13,2026-10-14T02:00Z,401898718,post,13,Los Angeles Lakers,LAL,Los Angeles,89,9,Golden State Warriors,GS,Golden State,101,1
+2026-10-13,2026-10-14T02:00Z,401901826,post,23,Sacramento Kings,SAC,Sacramento,98,22,Portland Trail Blazers,POR,Portland,110,0
+2026-10-13,2026-10-14T00:00Z,401908621,post,25,Oklahoma City Thunder,OKC,Oklahoma City,114,11,Indiana Pacers,IND,Indiana,112,0
+2026-10-13,2026-10-13T23:00Z,401908944,post,28,Toronto Raptors,TOR,Toronto,148,18,New York Knicks,NY,New York,98,0
+2026-10-14,2026-10-14T23:30Z,401898404,post,14,Miami Heat,MIA,Miami,144,17,Brooklyn Nets,BKN,Brooklyn,128,0
+2026-10-14,2026-10-14T23:30Z,401898405,post,2,Boston Celtics,BOS,Boston,114,30,Charlotte Hornets,CHA,Charlotte,93,0
+2026-10-14,2026-10-15T00:00Z,401898722,post,24,San Antonio Spurs,SA,San Antonio,123,21,Phoenix Suns,PHX,Phoenix,103,0
+2026-10-14,2026-10-15T00:00Z,401901825,post,6,Dallas Mavericks,DAL,Dallas,97,3,New Orleans Pelicans,NO,New Orleans,101,0
+2026-10-14,2026-10-15T00:00Z,401908942,post,15,Milwaukee Bucks,MIL,Milwaukee,104,4,Chicago Bulls,CHI,Chicago,125,0
+2026-10-14,2026-10-15T00:00Z,401914125,post,16,Minnesota Timberwolves,MIN,Minnesota,106,8,Detroit Pistons,DET,Detroit,128,0
+2026-10-14,2026-10-15T02:30Z,401918011,post,12,LA Clippers,LAC,LA,122,7,Denver Nuggets,DEN,Denver,110,0
+2026-10-15,2026-10-16T00:30Z,401908622,post,10,Houston Rockets,HOU,Houston,116,25,Oklahoma City Thunder,OKC,Oklahoma City,89,0
+2026-10-15,2026-10-15T23:30Z,401908945,post,18,New York Knicks,NY,New York,122,28,Toronto Raptors,TOR,Toronto,120,0
+2026-10-16,2026-10-16T23:00Z,401898406,post,19,Orlando Magic,ORL,Orlando,136,14,Miami Heat,MIA,Miami,115,0
+2026-10-16,2026-10-16T23:00Z,401898407,post,20,Philadelphia 76ers,PHI,Philadelphia,120,2,Boston Celtics,BOS,Boston,125,0
+2026-10-16,2026-10-17T00:00Z,401898408,post,6,Dallas Mavericks,DAL,Dallas,111,1,Atlanta Hawks,ATL,Atlanta,135,0
+2026-10-16,2026-10-17T02:00Z,401898409,post,9,Golden State Warriors,GS,Golden State,128,22,Portland Trail Blazers,POR,Portland,118,0
+2026-10-16,2026-10-17T02:30Z,401898719,post,13,Los Angeles Lakers,LAL,Los Angeles,106,7,Denver Nuggets,DEN,Denver,121,0
+2026-10-16,2026-10-17T00:00Z,401898843,post,24,San Antonio Spurs,SA,San Antonio,126,23,Sacramento Kings,SAC,Sacramento,97,0
+2026-10-16,2026-10-17T00:00Z,401901822,post,29,Memphis Grizzlies,MEM,Memphis,116,30,Charlotte Hornets,CHA,Charlotte,98,0
+2026-10-16,2026-10-17T00:00Z,401906509,post,3,New Orleans Pelicans,NO,New Orleans,107,27,Washington Wizards,WSH,Washington,106,0
+2026-10-16,2026-10-17T00:00Z,401908943,post,4,Chicago Bulls,CHI,Chicago,133,16,Minnesota Timberwolves,MIN,Minnesota,116,0
+2026-10-16,2026-10-16T23:00Z,401908946,post,8,Detroit Pistons,DET,Detroit,129,28,Toronto Raptors,TOR,Toronto,125,0
+2026-10-16,2026-10-17T02:00Z,401908948,post,21,Phoenix Suns,PHX,Phoenix,116,26,Utah Jazz,UTAH,Utah,119,0
+2026-10-16,2026-10-16T23:00Z,401914126,post,11,Indiana Pacers,IND,Indiana,127,15,Milwaukee Bucks,MIL,Milwaukee,128,0
+2026-10-20,2026-10-20T19:00Z,401909088,post,8,Detroit Pistons,DET,Detroit,121,2,Boston Celtics,BOS,Boston,113,0
+2026-10-20,2026-10-20T23:00Z,401909089,post,18,New York Knicks,NY,New York,100,20,Philadelphia 76ers,PHI,Philadelphia,106,0
+2026-10-20,2026-10-21T01:50Z,401909090,post,24,San Antonio Spurs,SA,San Antonio,104,25,Oklahoma City Thunder,OKC,Oklahoma City,116,0
+2026-10-21,2026-10-21T23:30Z,401909091,post,14,Miami Heat,MIA,Miami,106,16,Minnesota Timberwolves,MIN,Minnesota,131,0
+2026-10-21,2026-10-22T02:00Z,401909092,post,13,Los Angeles Lakers,LAL,Los Angeles,127,9,Golden State Warriors,GS,Golden State,105,0
+2026-10-21,2026-10-21T23:00Z,401909834,post,19,Orlando Magic,ORL,Orlando,125,1,Atlanta Hawks,ATL,Atlanta,132,0
+2026-10-21,2026-10-21T23:00Z,401909835,post,27,Washington Wizards,WSH,Washington,128,15,Milwaukee Bucks,MIL,Milwaukee,116,0
+2026-10-21,2026-10-21T23:30Z,401909836,post,17,Brooklyn Nets,BKN,Brooklyn,103,30,Charlotte Hornets,CHA,Charlotte,110,0
+2026-10-21,2026-10-21T23:30Z,401909837,post,28,Toronto Raptors,TOR,Toronto,135,4,Chicago Bulls,CHI,Chicago,92,0
+2026-10-21,2026-10-22T00:00Z,401909838,post,29,Memphis Grizzlies,MEM,Memphis,123,26,Utah Jazz,UTAH,Utah,103,0
+2026-10-21,2026-10-22T00:00Z,401909839,post,3,New Orleans Pelicans,NO,New Orleans,120,11,Indiana Pacers,IND,Indiana,123,0
+2026-10-21,2026-10-22T00:30Z,401909840,post,10,Houston Rockets,HOU,Houston,128,6,Dallas Mavericks,DAL,Dallas,110,0
+2026-10-21,2026-10-22T02:00Z,401909841,post,22,Portland Trail Blazers,POR,Portland,124,21,Phoenix Suns,PHX,Phoenix,83,0
+2026-10-21,2026-10-22T02:30Z,401909842,post,12,LA Clippers,LAC,LA,121,23,Sacramento Kings,SAC,Sacramento,96,0
+2026-10-22,2026-10-22T23:00Z,401909093,post,20,Philadelphia 76ers,PHI,Philadelphia,114,5,Cleveland Cavaliers,CLE,Cleveland,106,0
+2026-10-22,2026-10-23T01:30Z,401909094,post,25,Oklahoma City Thunder,OKC,Oklahoma City,96,7,Denver Nuggets,DEN,Denver,84,0
+2026-10-23,2026-10-23T23:00Z,401909095,post,2,Boston Celtics,BOS,Boston,107,18,New York Knicks,NY,New York,103,0
+2026-10-23,2026-10-24T01:30Z,401909096,post,24,San Antonio Spurs,SA,San Antonio,110,10,Houston Rockets,HOU,Houston,114,0
+2026-10-23,2026-10-23T23:00Z,401909843,post,30,Charlotte Hornets,CHA,Charlotte,81,1,Atlanta Hawks,ATL,Atlanta,128,0
+2026-10-23,2026-10-23T23:00Z,401909844,post,11,Indiana Pacers,IND,Indiana,105,6,Dallas Mavericks,DAL,Dallas,121,0
+2026-10-23,2026-10-23T23:00Z,401909845,post,19,Orlando Magic,ORL,Orlando,93,16,Minnesota Timberwolves,MIN,Minnesota,115,0
+2026-10-23,2026-10-23T23:00Z,401909846,post,27,Washington Wizards,WSH,Washington,102,28,Toronto Raptors,TOR,Toronto,112,0
+2026-10-23,2026-10-24T00:00Z,401909847,post,14,Miami Heat,MIA,Miami,111,8,Detroit Pistons,DET,Detroit,128,0
+2026-10-23,2026-10-23T20:00Z,401909848,post,15,Milwaukee Bucks,MIL,Milwaukee,125,4,Chicago Bulls,CHI,Chicago,132,0
+2026-10-23,2026-10-24T01:30Z,401909849,post,26,Utah Jazz,UTAH,Utah,120,3,New Orleans Pelicans,NO,New Orleans,119,0
+2026-10-23,2026-10-24T02:00Z,401909850,post,9,Golden State Warriors,GS,Golden State,108,29,Memphis Grizzlies,MEM,Memphis,111,0
+2026-10-23,2026-10-24T02:00Z,401909851,post,13,Los Angeles Lakers,LAL,Los Angeles,125,12,LA Clippers,LAC,LA,117,0
+2026-10-23,2026-10-24T02:00Z,401909852,post,23,Sacramento Kings,SAC,Sacramento,120,22,Portland Trail Blazers,POR,Portland,128,0
+2026-10-24,2026-10-24T22:00Z,401909853,post,30,Charlotte Hornets,CHA,Charlotte,115,14,Miami Heat,MIA,Miami,110,0
+2026-10-24,2026-10-24T23:30Z,401909854,post,5,Cleveland Cavaliers,CLE,Cleveland,125,17,Brooklyn Nets,BKN,Brooklyn,121,0
+2026-10-24,2026-10-24T23:30Z,401909855,post,20,Philadelphia 76ers,PHI,Philadelphia,127,15,Milwaukee Bucks,MIL,Milwaukee,116,0
+2026-10-24,2026-10-25T00:30Z,401909856,post,1,Atlanta Hawks,ATL,Atlanta,114,10,Houston Rockets,HOU,Houston,121,0
+2026-10-24,2026-10-25T00:00Z,401909857,post,4,Chicago Bulls,CHI,Chicago,120,27,Washington Wizards,WSH,Washington,124,0
+2026-10-24,2026-10-25T00:00Z,401909858,post,6,Dallas Mavericks,DAL,Dallas,106,24,San Antonio Spurs,SA,San Antonio,122,0
+2026-10-24,2026-10-25T01:00Z,401909859,post,7,Denver Nuggets,DEN,Denver,141,3,New Orleans Pelicans,NO,New Orleans,135,0
+2026-10-24,2026-10-25T02:00Z,401909860,post,21,Phoenix Suns,PHX,Phoenix,131,9,Golden State Warriors,GS,Golden State,122,0
+2026-10-25,2026-10-25T21:00Z,401909861,post,26,Utah Jazz,UTAH,Utah,123,13,Los Angeles Lakers,LAL,Los Angeles,132,0
+2026-10-25,2026-10-25T22:00Z,401909862,post,17,Brooklyn Nets,BKN,Brooklyn,109,11,Indiana Pacers,IND,Indiana,136,0
+2026-10-25,2026-10-25T23:00Z,401909863,post,18,New York Knicks,NY,New York,102,19,Orlando Magic,ORL,Orlando,111,0
+2026-10-25,2026-10-25T23:00Z,401909864,post,16,Minnesota Timberwolves,MIN,Minnesota,117,28,Toronto Raptors,TOR,Toronto,94,0
+2026-10-25,2026-10-25T23:00Z,401909865,post,25,Oklahoma City Thunder,OKC,Oklahoma City,108,12,LA Clippers,LAC,LA,101,0
+2026-10-25,2026-10-25T23:30Z,401909866,post,20,Philadelphia 76ers,PHI,Philadelphia,93,8,Detroit Pistons,DET,Detroit,106,0
+2026-10-25,2026-10-26T01:00Z,401909867,post,23,Sacramento Kings,SAC,Sacramento,112,29,Memphis Grizzlies,MEM,Memphis,123,0
+2026-10-26,2026-10-26T23:00Z,401909868,post,30,Charlotte Hornets,CHA,Charlotte,110,27,Washington Wizards,WSH,Washington,103,0
+2026-10-26,2026-10-26T23:00Z,401909869,post,5,Cleveland Cavaliers,CLE,Cleveland,127,16,Minnesota Timberwolves,MIN,Minnesota,125,0
+2026-10-26,2026-10-26T23:30Z,401909870,post,2,Boston Celtics,BOS,Boston,134,4,Chicago Bulls,CHI,Chicago,99,0
+2026-10-26,2026-10-26T23:30Z,401909871,post,14,Miami Heat,MIA,Miami,109,6,Dallas Mavericks,DAL,Dallas,113,0
+2026-10-26,2026-10-27T00:00Z,401909872,post,15,Milwaukee Bucks,MIL,Milwaukee,110,11,Indiana Pacers,IND,Indiana,102,0
+2026-10-26,2026-10-27T00:00Z,401909873,post,25,Oklahoma City Thunder,OKC,Oklahoma City,125,21,Phoenix Suns,PHX,Phoenix,114,0
+2026-10-26,2026-10-27T00:30Z,401909874,post,10,Houston Rockets,HOU,Houston,120,1,Atlanta Hawks,ATL,Atlanta,110,0
+2026-10-26,2026-10-27T01:00Z,401909875,post,26,Utah Jazz,UTAH,Utah,105,29,Memphis Grizzlies,MEM,Memphis,110,0
+2026-10-26,2026-10-27T02:00Z,401909876,post,7,Denver Nuggets,DEN,Denver,114,9,Golden State Warriors,GS,Golden State,134,0
+2026-10-27,2026-10-27T23:30Z,401909877,post,2,Boston Celtics,BOS,Boston,125,17,Brooklyn Nets,BKN,Brooklyn,124,0
+2026-10-27,2026-10-28T00:00Z,401909878,post,18,New York Knicks,NY,New York,111,8,Detroit Pistons,DET,Detroit,97,0
+2026-10-27,2026-10-28T00:00Z,401909879,post,24,San Antonio Spurs,SA,San Antonio,130,23,Sacramento Kings,SAC,Sacramento,103,0
+2026-10-27,2026-10-28T03:00Z,401909880,post,13,Los Angeles Lakers,LAL,Los Angeles,129,22,Portland Trail Blazers,POR,Portland,136,0
+2026-10-28,2026-10-28T23:00Z,401909881,post,1,Atlanta Hawks,ATL,Atlanta,117,14,Miami Heat,MIA,Miami,129,0
+2026-10-28,2026-10-28T23:00Z,401909882,post,5,Cleveland Cavaliers,CLE,Cleveland,121,27,Washington Wizards,WSH,Washington,111,0
+2026-10-28,2026-10-28T23:00Z,401909883,post,8,Detroit Pistons,DET,Detroit,97,30,Charlotte Hornets,CHA,Charlotte,89,0
+2026-10-28,2026-10-28T23:00Z,401909884,post,11,Indiana Pacers,IND,Indiana,109,20,Philadelphia 76ers,PHI,Philadelphia,114,0
+2026-10-28,2026-10-28T23:30Z,401909885,post,28,Toronto Raptors,TOR,Toronto,129,19,Orlando Magic,ORL,Orlando,99,0
+2026-10-28,2026-10-29T00:00Z,401909886,post,4,Chicago Bulls,CHI,Chicago,127,18,New York Knicks,NY,New York,133,0
+2026-10-28,2026-10-29T00:00Z,401909887,post,15,Milwaukee Bucks,MIL,Milwaukee,100,10,Houston Rockets,HOU,Houston,132,0
+2026-10-28,2026-10-29T00:00Z,401909888,post,16,Minnesota Timberwolves,MIN,Minnesota,114,9,Golden State Warriors,GS,Golden State,119,0
+2026-10-28,2026-10-29T00:00Z,401909889,post,3,New Orleans Pelicans,NO,New Orleans,91,7,Denver Nuggets,DEN,Denver,104,0
+2026-10-28,2026-10-29T01:00Z,401909890,post,26,Utah Jazz,UTAH,Utah,111,24,San Antonio Spurs,SA,San Antonio,117,0
+2026-10-28,2026-10-29T01:30Z,401909891,post,6,Dallas Mavericks,DAL,Dallas,120,25,Oklahoma City Thunder,OKC,Oklahoma City,96,0
+2026-10-28,2026-10-29T02:30Z,401909892,post,12,LA Clippers,LAC,LA,87,13,Los Angeles Lakers,LAL,Los Angeles,103,0
+2026-10-29,2026-10-30T00:00Z,401909893,post,1,Atlanta Hawks,ATL,Atlanta,114,5,Cleveland Cavaliers,CLE,Cleveland,111,0
+2026-10-29,2026-10-30T00:00Z,401909894,post,3,New Orleans Pelicans,NO,New Orleans,132,23,Sacramento Kings,SAC,Sacramento,120,0
+2026-10-29,2026-10-30T02:00Z,401909895,post,22,Portland Trail Blazers,POR,Portland,103,29,Memphis Grizzlies,MEM,Memphis,124,0
+2026-10-30,2026-10-30T23:00Z,401909277,post,27,Washington Wizards,WSH,Washington,95,30,Charlotte Hornets,CHA,Charlotte,79,0
+2026-10-30,2026-10-30T23:30Z,401909278,post,2,Boston Celtics,BOS,Boston,125,4,Chicago Bulls,CHI,Chicago,111,0
+2026-10-30,2026-10-30T23:30Z,401909279,post,17,Brooklyn Nets,BKN,Brooklyn,94,8,Detroit Pistons,DET,Detroit,110,0
+2026-10-30,2026-10-30T23:30Z,401909280,post,20,Philadelphia 76ers,PHI,Philadelphia,98,18,New York Knicks,NY,New York,93,0
+2026-10-30,2026-10-30T23:30Z,401909281,post,28,Toronto Raptors,TOR,Toronto,114,19,Orlando Magic,ORL,Orlando,121,0
+2026-10-30,2026-10-31T00:00Z,401909282,post,14,Miami Heat,MIA,Miami,145,11,Indiana Pacers,IND,Indiana,125,0
+2026-10-30,2026-10-31T00:00Z,401909283,post,6,Dallas Mavericks,DAL,Dallas,116,10,Houston Rockets,HOU,Houston,111,0
+2026-10-30,2026-10-31T00:00Z,401909284,post,16,Minnesota Timberwolves,MIN,Minnesota,127,12,LA Clippers,LAC,LA,101,0
+2026-10-30,2026-10-31T02:00Z,401909285,post,9,Golden State Warriors,GS,Golden State,112,13,Los Angeles Lakers,LAL,Los Angeles,95,0
+2026-10-30,2026-10-31T02:00Z,401909286,post,21,Phoenix Suns,PHX,Phoenix,120,7,Denver Nuggets,DEN,Denver,127,0
+2026-10-31,2026-10-31T19:00Z,401909896,post,26,Utah Jazz,UTAH,Utah,90,22,Portland Trail Blazers,POR,Portland,112,0
+2026-10-31,2026-10-31T22:00Z,401909897,post,30,Charlotte Hornets,CHA,Charlotte,104,20,Philadelphia 76ers,PHI,Philadelphia,109,0
+2026-10-31,2026-10-31T23:00Z,401909898,post,3,New Orleans Pelicans,NO,New Orleans,121,1,Atlanta Hawks,ATL,Atlanta,99,0
+2026-10-31,2026-11-01T00:00Z,401909899,post,29,Memphis Grizzlies,MEM,Memphis,136,23,Sacramento Kings,SAC,Sacramento,105,0
+2026-10-31,2026-11-01T00:00Z,401909900,post,15,Milwaukee Bucks,MIL,Milwaukee,111,5,Cleveland Cavaliers,CLE,Cleveland,136,0
+2026-10-31,2026-11-01T00:00Z,401909901,post,24,San Antonio Spurs,SA,San Antonio,121,16,Minnesota Timberwolves,MIN,Minnesota,111,0
+2026-10-31,2026-11-01T00:30Z,401909902,post,10,Houston Rockets,HOU,Houston,119,25,Oklahoma City Thunder,OKC,Oklahoma City,98,0
+2026-11-01,2026-11-01T20:30Z,401909903,post,19,Orlando Magic,ORL,Orlando,97,2,Boston Celtics,BOS,Boston,108,0
+2026-11-01,2026-11-01T22:00Z,401909904,post,11,Indiana Pacers,IND,Indiana,90,17,Brooklyn Nets,BKN,Brooklyn,98,0
+2026-11-01,2026-11-02T01:30Z,401909905,post,9,Golden State Warriors,GS,Golden State,124,12,LA Clippers,LAC,LA,112,0
+2026-11-01,2026-11-02T02:00Z,401909906,post,13,Los Angeles Lakers,LAL,Los Angeles,131,28,Toronto Raptors,TOR,Toronto,125,0
+2026-11-02,2026-11-03T00:00Z,401909907,post,5,Cleveland Cavaliers,CLE,Cleveland,112,25,Oklahoma City Thunder,OKC,Oklahoma City,117,0
+2026-11-02,2026-11-03T00:30Z,401909908,post,30,Charlotte Hornets,CHA,Charlotte,91,8,Detroit Pistons,DET,Detroit,124,0
+2026-11-02,2026-11-03T00:30Z,401909909,post,11,Indiana Pacers,IND,Indiana,104,1,Atlanta Hawks,ATL,Atlanta,108,0
+2026-11-02,2026-11-03T00:30Z,401909910,post,18,New York Knicks,NY,New York,103,17,Brooklyn Nets,BKN,Brooklyn,90,0
+2026-11-02,2026-11-03T00:30Z,401909911,post,19,Orlando Magic,ORL,Orlando,94,27,Washington Wizards,WSH,Washington,103,0
+2026-11-02,2026-11-03T00:30Z,401909912,post,20,Philadelphia 76ers,PHI,Philadelphia,126,4,Chicago Bulls,CHI,Chicago,107,0
+2026-11-02,2026-11-03T01:00Z,401909913,post,6,Dallas Mavericks,DAL,Dallas,100,23,Sacramento Kings,SAC,Sacramento,115,0
+2026-11-02,2026-11-03T01:00Z,401909914,post,29,Memphis Grizzlies,MEM,Memphis,134,3,New Orleans Pelicans,NO,New Orleans,135,0
+2026-11-02,2026-11-03T01:00Z,401909915,post,16,Minnesota Timberwolves,MIN,Minnesota,112,15,Milwaukee Bucks,MIL,Milwaukee,100,0
+2026-11-02,2026-11-03T01:30Z,401909916,post,10,Houston Rockets,HOU,Houston,109,2,Boston Celtics,BOS,Boston,93,0
+2026-11-02,2026-11-03T01:30Z,401909917,post,24,San Antonio Spurs,SA,San Antonio,119,26,Utah Jazz,UTAH,Utah,97,0
+2026-11-02,2026-11-03T02:00Z,401909918,post,7,Denver Nuggets,DEN,Denver,110,22,Portland Trail Blazers,POR,Portland,118,0
+2026-11-02,2026-11-03T03:00Z,401909919,post,9,Golden State Warriors,GS,Golden State,116,21,Phoenix Suns,PHX,Phoenix,113,0
+2026-11-02,2026-11-03T03:00Z,401909920,post,12,LA Clippers,LAC,LA,118,28,Toronto Raptors,TOR,Toronto,125,0
+2026-11-02,2026-11-03T03:00Z,401909921,post,13,Los Angeles Lakers,LAL,Los Angeles,138,14,Miami Heat,MIA,Miami,117,0
+2026-11-04,2026-11-05T00:00Z,401909922,post,8,Detroit Pistons,DET,Detroit,106,20,Philadelphia 76ers,PHI,Philadelphia,112,0
+2026-11-04,2026-11-05T00:00Z,401909923,post,27,Washington Wizards,WSH,Washington,105,1,Atlanta Hawks,ATL,Atlanta,120,0
+2026-11-04,2026-11-05T00:30Z,401909924,post,2,Boston Celtics,BOS,Boston,109,15,Milwaukee Bucks,MIL,Milwaukee,102,0
+2026-11-04,2026-11-05T00:30Z,401909925,post,17,Brooklyn Nets,BKN,Brooklyn,114,30,Charlotte Hornets,CHA,Charlotte,104,0
+2026-11-04,2026-11-05T00:30Z,401909926,post,18,New York Knicks,NY,New York,135,4,Chicago Bulls,CHI,Chicago,105,0
+2026-11-04,2026-11-05T01:00Z,401909927,post,29,Memphis Grizzlies,MEM,Memphis,103,11,Indiana Pacers,IND,Indiana,107,0
+2026-11-04,2026-11-05T01:00Z,401909928,post,3,New Orleans Pelicans,NO,New Orleans,120,26,Utah Jazz,UTAH,Utah,113,0
+2026-11-04,2026-11-05T01:00Z,401909929,post,25,Oklahoma City Thunder,OKC,Oklahoma City,124,5,Cleveland Cavaliers,CLE,Cleveland,116,0
+2026-11-04,2026-11-05T01:30Z,401909930,post,10,Houston Rockets,HOU,Houston,107,16,Minnesota Timberwolves,MIN,Minnesota,117,0
+2026-11-04,2026-11-05T02:00Z,401909931,post,7,Denver Nuggets,DEN,Denver,128,28,Toronto Raptors,TOR,Toronto,109,0
+2026-11-04,2026-11-05T02:00Z,401909932,post,21,Phoenix Suns,PHX,Phoenix,119,22,Portland Trail Blazers,POR,Portland,132,0
+2026-11-04,2026-11-05T02:30Z,401909933,post,24,San Antonio Spurs,SA,San Antonio,112,6,Dallas Mavericks,DAL,Dallas,111,0
+2026-11-04,2026-11-05T03:00Z,401909934,post,23,Sacramento Kings,SAC,Sacramento,103,13,Los Angeles Lakers,LAL,Los Angeles,116,0
+2026-11-04,2026-11-05T03:30Z,401909935,post,12,LA Clippers,LAC,LA,116,14,Miami Heat,MIA,Miami,117,0
+2026-11-05,2026-11-06T02:00Z,401909936,post,21,Phoenix Suns,PHX,Phoenix,117,19,Orlando Magic,ORL,Orlando,104,0
+2026-11-05,2026-11-06T03:00Z,401909937,post,9,Golden State Warriors,GS,Golden State,120,14,Miami Heat,MIA,Miami,100,0
+2026-11-06,2026-11-07T00:00Z,401909287,post,1,Atlanta Hawks,ATL,Atlanta,139,27,Washington Wizards,WSH,Washington,132,0
+2026-11-06,2026-11-07T00:00Z,401909288,post,30,Charlotte Hornets,CHA,Charlotte,80,2,Boston Celtics,BOS,Boston,119,0
+2026-11-06,2026-11-07T00:30Z,401909289,post,5,Cleveland Cavaliers,CLE,Cleveland,119,20,Philadelphia 76ers,PHI,Philadelphia,95,0
+2026-11-06,2026-11-07T01:00Z,401909290,post,6,Dallas Mavericks,DAL,Dallas,112,26,Utah Jazz,UTAH,Utah,100,0
+2026-11-06,2026-11-07T01:00Z,401909291,post,29,Memphis Grizzlies,MEM,Memphis,97,25,Oklahoma City Thunder,OKC,Oklahoma City,128,0
+2026-11-06,2026-11-07T01:00Z,401909292,post,15,Milwaukee Bucks,MIL,Milwaukee,107,28,Toronto Raptors,TOR,Toronto,121,0
+2026-11-06,2026-11-07T01:00Z,401909293,post,3,New Orleans Pelicans,NO,New Orleans,109,16,Minnesota Timberwolves,MIN,Minnesota,115,0
+2026-11-06,2026-11-07T03:00Z,401909294,post,13,Los Angeles Lakers,LAL,Los Angeles,124,22,Portland Trail Blazers,POR,Portland,118,0
+2026-11-06,2026-11-07T03:00Z,401909295,post,23,Sacramento Kings,SAC,Sacramento,109,24,San Antonio Spurs,SA,San Antonio,124,0
+2026-11-07,2026-11-07T22:00Z,401909938,post,11,Indiana Pacers,IND,Indiana,102,7,Denver Nuggets,DEN,Denver,114,1
+2026-11-07,2026-11-08T00:30Z,401909939,post,1,Atlanta Hawks,ATL,Atlanta,124,17,Brooklyn Nets,BKN,Brooklyn,121,0
+2026-11-07,2026-11-08T01:00Z,401909940,post,5,Cleveland Cavaliers,CLE,Cleveland,97,18,New York Knicks,NY,New York,109,0
+2026-11-07,2026-11-08T01:00Z,401909941,post,25,Oklahoma City Thunder,OKC,Oklahoma City,114,27,Washington Wizards,WSH,Washington,75,0
+2026-11-07,2026-11-08T01:30Z,401909942,post,9,Golden State Warriors,GS,Golden State,126,19,Orlando Magic,ORL,Orlando,119,0
+2026-11-07,2026-11-08T02:00Z,401909943,post,21,Phoenix Suns,PHX,Phoenix,102,10,Houston Rockets,HOU,Houston,99,0
+2026-11-07,2026-11-08T03:00Z,401909944,post,22,Portland Trail Blazers,POR,Portland,103,24,San Antonio Spurs,SA,San Antonio,125,0
+2026-11-08,2026-11-08T20:30Z,401909945,post,4,Chicago Bulls,CHI,Chicago,121,20,Philadelphia 76ers,PHI,Philadelphia,127,0
+2026-11-08,2026-11-08T23:00Z,401909946,post,8,Detroit Pistons,DET,Detroit,116,13,Los Angeles Lakers,LAL,Los Angeles,121,0
+2026-11-08,2026-11-09T00:00Z,401909947,post,16,Minnesota Timberwolves,MIN,Minnesota,115,26,Utah Jazz,UTAH,Utah,100,0
+2026-11-08,2026-11-09T00:30Z,401909948,post,6,Dallas Mavericks,DAL,Dallas,130,17,Brooklyn Nets,BKN,Brooklyn,93,0
+2026-11-08,2026-11-09T01:00Z,401909949,post,15,Milwaukee Bucks,MIL,Milwaukee,97,2,Boston Celtics,BOS,Boston,117,0
+2026-11-08,2026-11-09T02:00Z,401909950,post,12,LA Clippers,LAC,LA,139,3,New Orleans Pelicans,NO,New Orleans,123,0
+2026-11-08,2026-11-09T02:00Z,401909951,post,23,Sacramento Kings,SAC,Sacramento,108,14,Miami Heat,MIA,Miami,114,0
+2026-11-09,2026-11-10T00:00Z,401909952,in,1,Atlanta Hawks,ATL,Atlanta,76,13,Los Angeles Lakers,LAL,Los Angeles,83,0
+2026-11-09,2026-11-10T00:00Z,401909953,in,30,Charlotte Hornets,CHA,Charlotte,100,5,Cleveland Cavaliers,CLE,Cleveland,70,0
+2026-11-09,2026-11-10T00:00Z,401909954,in,8,Detroit Pistons,DET,Detroit,71,27,Washington Wizards,WSH,Washington,58,0
+2026-11-09,2026-11-10T00:30Z,401909955,in,28,Toronto Raptors,TOR,Toronto,53,29,Memphis Grizzlies,MEM,Memphis,59,0
+2026-11-09,2026-11-10T01:00Z,401909956,in,6,Dallas Mavericks,DAL,Dallas,26,11,Indiana Pacers,IND,Indiana,31,0
+2026-11-09,2026-11-10T01:30Z,401909957,pre,10,Houston Rockets,HOU,Houston,0,7,Denver Nuggets,DEN,Denver,0,0
+2026-11-09,2026-11-10T02:00Z,401909958,pre,21,Phoenix Suns,PHX,Phoenix,0,24,San Antonio Spurs,SA,San Antonio,0,0
+2026-11-09,2026-11-10T03:00Z,401909959,pre,9,Golden State Warriors,GS,Golden State,0,3,New Orleans Pelicans,NO,New Orleans,0,0
+2026-11-10,2026-11-11T00:30Z,401909960,pre,18,New York Knicks,NY,New York,0,15,Milwaukee Bucks,MIL,Milwaukee,0,0
+2026-11-10,2026-11-11T01:00Z,401909961,pre,20,Philadelphia 76ers,PHI,Philadelphia,0,2,Boston Celtics,BOS,Boston,0,0
+2026-11-10,2026-11-11T02:00Z,401909962,pre,21,Phoenix Suns,PHX,Phoenix,0,12,LA Clippers,LAC,LA,0,0
+2026-11-10,2026-11-11T02:00Z,401909963,pre,26,Utah Jazz,UTAH,Utah,0,14,Miami Heat,MIA,Miami,0,0
+2026-11-10,2026-11-11T03:00Z,401909964,pre,23,Sacramento Kings,SAC,Sacramento,0,19,Orlando Magic,ORL,Orlando,0,0
+2026-11-10,2026-11-11T04:00Z,401909965,pre,22,Portland Trail Blazers,POR,Portland,0,25,Oklahoma City Thunder,OKC,Oklahoma City,0,0
+2026-11-11,2026-11-12T00:00Z,401909966,pre,11,Indiana Pacers,IND,Indiana,0,27,Washington Wizards,WSH,Washington,0,0
+2026-11-11,2026-11-12T00:00Z,401909967,pre,18,New York Knicks,NY,New York,0,5,Cleveland Cavaliers,CLE,Cleveland,0,0
+2026-11-11,2026-11-12T00:00Z,401909968,pre,28,Toronto Raptors,TOR,Toronto,0,2,Boston Celtics,BOS,Boston,0,0
+2026-11-11,2026-11-12T01:00Z,401909969,pre,4,Chicago Bulls,CHI,Chicago,0,24,San Antonio Spurs,SA,San Antonio,0,0
+2026-11-11,2026-11-12T01:00Z,401909970,pre,29,Memphis Grizzlies,MEM,Memphis,0,7,Denver Nuggets,DEN,Denver,0,0
+2026-11-11,2026-11-12T01:00Z,401909971,pre,15,Milwaukee Bucks,MIL,Milwaukee,0,13,Los Angeles Lakers,LAL,Los Angeles,0,0
+2026-11-11,2026-11-12T01:00Z,401909972,pre,3,New Orleans Pelicans,NO,New Orleans,0,17,Brooklyn Nets,BKN,Brooklyn,0,0
+2026-11-11,2026-11-12T02:00Z,401909973,pre,26,Utah Jazz,UTAH,Utah,0,19,Orlando Magic,ORL,Orlando,0,0
+2026-11-11,2026-11-12T02:30Z,401909974,pre,10,Houston Rockets,HOU,Houston,0,9,Golden State Warriors,GS,Golden State,0,0
+2026-11-11,2026-11-12T03:00Z,401909975,pre,22,Portland Trail Blazers,POR,Portland,0,25,Oklahoma City Thunder,OKC,Oklahoma City,0,0
+2026-11-12,2026-11-13T00:00Z,401909976,pre,20,Philadelphia 76ers,PHI,Philadelphia,0,28,Toronto Raptors,TOR,Toronto,0,0
+2026-11-12,2026-11-13T00:00Z,401909977,pre,27,Washington Wizards,WSH,Washington,0,8,Detroit Pistons,DET,Detroit,0,0
+2026-11-12,2026-11-13T01:00Z,401909978,pre,16,Minnesota Timberwolves,MIN,Minnesota,0,6,Dallas Mavericks,DAL,Dallas,0,0
+2026-11-12,2026-11-13T02:00Z,401909979,pre,21,Phoenix Suns,PHX,Phoenix,0,30,Charlotte Hornets,CHA,Charlotte,0,0
+2026-11-13,2026-11-14T00:00Z,401909296,pre,11,Indiana Pacers,IND,Indiana,0,18,New York Knicks,NY,New York,0,0
+2026-11-13,2026-11-14T00:00Z,401909297,pre,19,Orlando Magic,ORL,Orlando,0,15,Milwaukee Bucks,MIL,Milwaukee,0,0
+2026-11-13,2026-11-14T01:00Z,401909298,pre,14,Miami Heat,MIA,Miami,0,5,Cleveland Cavaliers,CLE,Cleveland,0,0
+2026-11-13,2026-11-14T01:00Z,401909299,pre,4,Chicago Bulls,CHI,Chicago,0,1,Atlanta Hawks,ATL,Atlanta,0,0
+2026-11-13,2026-11-14T01:00Z,401909300,pre,3,New Orleans Pelicans,NO,New Orleans,0,29,Memphis Grizzlies,MEM,Memphis,0,0
+2026-11-13,2026-11-14T01:30Z,401909301,pre,10,Houston Rockets,HOU,Houston,0,26,Utah Jazz,UTAH,Utah,0,0
+2026-11-13,2026-11-14T02:30Z,401909302,pre,24,San Antonio Spurs,SA,San Antonio,0,9,Golden State Warriors,GS,Golden State,0,0
+2026-11-13,2026-11-14T03:00Z,401909303,pre,23,Sacramento Kings,SAC,Sacramento,0,22,Portland Trail Blazers,POR,Portland,0,0
+2026-11-13,2026-11-14T03:30Z,401909304,pre,12,LA Clippers,LAC,LA,0,25,Oklahoma City Thunder,OKC,Oklahoma City,0,0
