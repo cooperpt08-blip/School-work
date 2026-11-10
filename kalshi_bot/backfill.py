@@ -11,17 +11,21 @@ def backfill(days=21, per_series=300, min_volume=500, log=print):
     now = time.time()
     series_info = kalshi.sports_series()
     have = {r["ticker"] for r in store.load_snapshots()}
-    log(f"  listing settled markets from the last {days} days")
+    # Only series that are live right now (have open events) - thousands of listed series are dormant.
+    active = sorted({e["series_ticker"] for e in kalshi.open_sports_events()} & set(series_info))
+    log(f"  listing settled markets from the last {days} days in {len(active)} active sports series")
     picked = {}
-    for m in kalshi.settled_markets(now - days * 86400, now):
-        series = m["event_ticker"].split("-", 1)[0]
-        if series not in series_info or m["ticker"] in have or m.get("result") not in ("yes", "no"):
-            continue
-        occ = kalshi.ts(m.get("occurrence_datetime") or m.get("expected_expiration_time"))
-        vol = kalshi.dollars(m.get("volume_fp")) or 0
-        if not occ or vol < min_volume:
-            continue
-        picked.setdefault(series, []).append((vol, m, occ))
+    for n, series in enumerate(active, 1):
+        for m in kalshi.settled_markets(series, now - days * 86400, now):
+            if m["ticker"] in have or m.get("result") not in ("yes", "no"):
+                continue
+            occ = kalshi.ts(m.get("occurrence_datetime") or m.get("expected_expiration_time"))
+            vol = kalshi.dollars(m.get("volume_fp")) or 0
+            if not occ or vol < min_volume:
+                continue
+            picked.setdefault(series, []).append((vol, m, occ))
+        if n % 100 == 0:
+            log(f"    {n}/{len(active)} series listed")
     todo = []
     for series, ms in picked.items():
         ms.sort(key=lambda t: -t[0])

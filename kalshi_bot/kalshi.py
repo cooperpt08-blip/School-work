@@ -80,8 +80,9 @@ def markets_by_ticker(tickers):
     return out
 
 
-def settled_markets(min_close_ts, max_close_ts):
-    yield from paged("/markets", "markets", {"status": "settled", "limit": 1000,
+def settled_markets(series_ticker, min_close_ts, max_close_ts):
+    # Kalshi settles ~100k markets an hour across all categories, so always filter by series.
+    yield from paged("/markets", "markets", {"series_ticker": series_ticker, "status": "settled", "limit": 1000,
                                              "min_close_ts": int(min_close_ts), "max_close_ts": int(max_close_ts)})
 
 
