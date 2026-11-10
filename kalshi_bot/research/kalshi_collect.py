@@ -103,10 +103,16 @@ def batch_candles(ms):
         occs = [kalshi.ts(m.get("occurrence_datetime") or m.get("expected_expiration_time")) for m in chunk]
         end = int(max(o.timestamp() for o in occs if o))
         start = int(min(o.timestamp() for o in occs if o)) - 4 * 86400
-        try:
-            d = kalshi.get("/markets/candlesticks", {"market_tickers": ",".join(m["ticker"] for m in chunk),
-                                                     "start_ts": start, "end_ts": end, "period_interval": 60})
-        except Exception:  # noqa: BLE001
+        d = None
+        for attempt in range(5):  # never silently drop a chunk
+            try:
+                d = kalshi.get("/markets/candlesticks", {"market_tickers": ",".join(m["ticker"] for m in chunk),
+                                                         "start_ts": start, "end_ts": end, "period_interval": 60})
+                break
+            except Exception as e:  # noqa: BLE001
+                print(f"    batch retry {attempt + 1}: {str(e)[:80]}", flush=True)
+                time.sleep(20 * (attempt + 1))
+        if d is None:
             continue
         by = {m["ticker"]: m for m in chunk}
         for row in d.get("markets") or []:
@@ -116,15 +122,18 @@ def batch_candles(ms):
     return out
 
 
-def collect(series, cap):
+def collect(series, cap, recent_only=False):
     f = OUT / f"kalshi_{series}.jsonl.gz"
     have = set()
     if f.exists():
         with gzip.open(f, "rt") as fh:
             have = {json.loads(line)["ticker"] for line in fh}
-    arch, recent = list_markets(series)
+    if recent_only:
+        arch, recent = [], list(kalshi.settled_markets(series, time.time() - 120 * 86400, time.time()))
+    else:
+        arch, recent = list_markets(series)
     recent_pick = [m for m in pick(series, recent, 10**6) if m["ticker"] not in have]
-    arch_pick = [m for m in pick(series, arch, cap) if m["ticker"] not in have]
+    arch_pick = [] if recent_only else [m for m in pick(series, arch, cap) if m["ticker"] not in have]
     print(f"{series}: {len(recent_pick)} recent (batched) + {len(arch_pick)} archived to fetch", flush=True)
     with gzip.open(f, "at") as fh:
         for t, cs in batch_candles(recent_pick).items():
@@ -143,7 +152,8 @@ def collect(series, cap):
 
 
 if __name__ == "__main__":
-    only = set(sys.argv[1:])
+    args = [a for a in sys.argv[1:] if not a.startswith("--")]
+    recent_only = "--recent-only" in sys.argv
     for s, cap in SERIES:
-        if not only or s in only:
-            collect(s, cap)
+        if not args or s in args:
+            collect(s, cap, recent_only=recent_only)
