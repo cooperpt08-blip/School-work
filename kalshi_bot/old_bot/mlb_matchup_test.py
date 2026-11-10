@@ -18,7 +18,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 from kalshi_bot import kalshi, model  # noqa: E402
-from kalshi_bot.ratings import Matcher  # noqa: E402
+from kalshi_bot.ratings import event_date  # noqa: E402
 
 CACHE = Path(sys.argv[1]) if len(sys.argv) > 1 else Path("/tmp/mlb_matchup_cache")
 CACHE.mkdir(parents=True, exist_ok=True)
@@ -105,11 +105,20 @@ quotes = cached("quotes.json", all_quotes)
 print(f"{len(by_event)} Kalshi MLB games, {len(quotes)} with a pre-game price")
 
 # ---- 2. MLB schedule with probable pitchers ----------------------------------------------
+SEASONS = {2025: (date(2025, 3, 15), date(2025, 10, 1)), 2026: (date(2026, 3, 20), date(2026, 10, 5))}
+
+
 def schedule():
     games = []
-    d = date(2026, 3, 20)
-    while d < date(2026, 10, 5):
-        e = min(d + timedelta(days=30), date(2026, 10, 5))
+    for season, (d, end) in SEASONS.items():
+        games += _season_schedule(d, end)
+    return games
+
+
+def _season_schedule(d, end):
+    games = []
+    while d < end:
+        e = min(d + timedelta(days=30), end)
         j = mlb(f"/schedule?sportId=1&gameType=R&startDate={d}&endDate={e}&hydrate=probablePitcher")
         for day in j.get("dates", []):
             for g in day["games"]:
@@ -117,6 +126,7 @@ def schedule():
                     continue
                 t = g["teams"]
                 games.append({"date": day["date"], "pk": g["gamePk"], "dh": g.get("doubleHeader", "N"),
+                              "hs": t["home"].get("score"), "as": t["away"].get("score"),
                               "home": t["home"]["team"]["name"], "away": t["away"]["team"]["name"],
                               "hp": (t["home"].get("probablePitcher") or {}).get("id"),
                               "ap": (t["away"].get("probablePitcher") or {}).get("id")})
@@ -124,32 +134,33 @@ def schedule():
     return games
 
 
-sched = cached("schedule.json", schedule)
-pitchers = sorted({p for g in sched for p in (g["hp"], g["ap"]) if p})
-print(f"{len(sched)} MLB games, {len(pitchers)} probable starters")
+sched = cached("schedule2.json", schedule)
+pitchers = sorted({(g["date"][:4], p) for g in sched for p in (g["hp"], g["ap"]) if p})
+print(f"{len(sched)} MLB games (2025+2026), {len(pitchers)} pitcher-seasons")
 
 
 def gamelogs():
-    def one(pid):
+    def one(sp):
+        season, pid = sp
         try:
-            j = mlb(f"/people/{pid}/stats?stats=gameLog&group=pitching&season=2026")
-            return str(pid), [{"date": s["date"], **{k: s["stat"].get(k, 0) for k in
+            j = mlb(f"/people/{pid}/stats?stats=gameLog&group=pitching&season={season}")
+            return f"{season}:{pid}", [{"date": s["date"], **{k: s["stat"].get(k, 0) for k in
                                ("outs", "earnedRuns", "strikeOuts", "baseOnBalls", "hitByPitch", "homeRuns")}}
                               for s in (j.get("stats") or [{}])[0].get("splits", [])]
         except Exception:  # noqa: BLE001
-            return str(pid), []
+            return f"{season}:{pid}", []
     with ThreadPoolExecutor(8) as pool:
         return dict(pool.map(one, pitchers))
 
 
-logs = cached("gamelogs.json", gamelogs)
+logs = cached("gamelogs2.json", gamelogs)
 LG_ERA, FIP_C = 4.1, 3.1
 
 
 def asof(pid, day):
     """Season-to-date ERA and FIP using only games BEFORE `day` (regressed toward league average)."""
     outs = er = k = bb = hr = 0
-    for s in logs.get(str(pid), []):
+    for s in logs.get(f"{day[:4]}:{pid}", []):
         if s["date"] < day:
             outs += s["outs"]; er += s["earnedRuns"]; k += s["strikeOuts"]
             bb += s["baseOnBalls"] + s["hitByPitch"]; hr += s["homeRuns"]
@@ -164,31 +175,73 @@ def asof(pid, day):
 sched_by = defaultdict(list)
 for g in sched:
     sched_by[g["date"]].append(g)
-matcher = Matcher()
-rows = []
+
+# Elo team ratings straight from MLB's own results (both seasons), recorded pre-game
+elo_r, last_seen, pre_elo = {}, {}, {}
+for g in sorted(sched, key=lambda g: (g["date"], g["pk"])):
+    h, a = g["home"], g["away"]
+    for t in (h, a):
+        if t in last_seen and (date.fromisoformat(g["date"]) - date.fromisoformat(last_seen[t])).days > 75:
+            elo_r[t] = 1500 + (elo_r.get(t, 1500) - 1500) * 0.67  # new season: regress a third to the mean
+    diff = elo_r.get(h, 1500) - elo_r.get(a, 1500) + 24
+    pre_elo[g["pk"]] = 1 / (1 + 10 ** (-diff / 400))
+    if g.get("hs") is not None and g.get("as") is not None and g["hs"] != g["as"]:
+        res = 1.0 if g["hs"] > g["as"] else 0.0
+        delta = 5 * math.log(abs(g["hs"] - g["as"]) + 1) * (res - pre_elo[g["pk"]])
+        elo_r[h] = elo_r.get(h, 1500) + delta
+        elo_r[a] = elo_r.get(a, 1500) - delta
+    last_seen[h] = last_seen[a] = g["date"]
+
+
+def kalshi_name_matches(k, full):
+    """Kalshi short names -> MLB full names: 'Chicago WS' -> Chicago White Sox, 'Los Angeles D' -> Dodgers, A's."""
+    k = re.sub(r"\bA's\b", "Athletics", (k or "").strip())
+    if k == full or full.startswith(k + " "):
+        return True
+    m = re.match(r"^(.+) ([A-Z]{1,2})$", k)
+    if m and full.startswith(m.group(1) + " "):
+        nick = full[len(m.group(1)) + 1:].split()
+        return "".join(w[0] for w in nick).upper().startswith(m.group(2)) or nick[0].upper().startswith(m.group(2))
+    return False
+
+
+rows, skipped = [], defaultdict(int)
 for ev, ms in by_event.items():
     m = sorted(ms, key=lambda x: x["ticker"])[0]
     q = quotes.get(m["ticker"])
     if not q:
         continue
-    title = (m.get("rules_primary") or "")
-    mm = re.search(r"the (.+? vs\.? .+?) (?:Pro|professional|game|Baseball)", title)
-    p_elo, eg = matcher.game_prob("KXMLBGAME", ev, mm.group(1) if mm else "", m.get("yes_sub_title"))
-    if eg is None:
+    mm = re.search(r"the (.+?) (?:vs\.?|at) (.+?) (?:Pro|professional|game|Baseball)", m.get("rules_primary") or "")
+    d = event_date(ev)
+    if not mm or not d:
+        skipped["title/date"] += 1
         continue
-    cands = [g for g in sched_by.get(eg["date"], []) if g["home"] == eg["home"] and g["away"] == eg["away"]]
-    if len(cands) != 1 or not cands[0]["hp"] or not cands[0]["ap"]:
-        continue  # skip doubleheaders / missing probables
+    t1, t2 = mm.group(1), mm.group(2)
+    cands = [g for g in sched_by.get(d.isoformat(), [])
+             if (kalshi_name_matches(t1, g["home"]) and kalshi_name_matches(t2, g["away"]))
+             or (kalshi_name_matches(t1, g["away"]) and kalshi_name_matches(t2, g["home"]))]
+    if len(cands) != 1:
+        skipped["no unique MLB game (doubleheader/All-Star/postseason)"] += 1
+        continue
     g = cands[0]
-    yes_home = abs(p_elo - matcher.elo["KXMLBGAME"].pregame[eg["event_id"]]) < 1e-9
-    he, hf, hip = asof(g["hp"], g["date"])
-    ae, af, aip = asof(g["ap"], g["date"])
-    # positive = YES team's starter is better (lower ERA/FIP)
-    sgn = 1 if yes_home else -1
-    rows.append({"date": g["date"], "mid": (q[0] + q[1]) / 2, "ask": q[1], "bid": q[0], "elo": p_elo,
+    if not g["hp"] or not g["ap"]:
+        skipped["no probable starters"] += 1
+        continue
+    yes_home = kalshi_name_matches(m.get("yes_sub_title"), g["home"])
+    if yes_home == kalshi_name_matches(m.get("yes_sub_title"), g["away"]):
+        skipped["yes team unclear"] += 1
+        continue
+    he, hf, _ = asof(g["hp"], g["date"])
+    ae, af, _ = asof(g["ap"], g["date"])
+    sgn = 1 if yes_home else -1  # positive edge = YES team's starter is better (lower ERA/FIP)
+    p_home = pre_elo[g["pk"]]
+    rows.append({"date": g["date"], "mid": (q[0] + q[1]) / 2, "ask": q[1], "bid": q[0],
+                 "elo": p_home if yes_home else 1 - p_home,
                  "era_edge": sgn * (ae - he), "fip_edge": sgn * (af - hf), "y": 1 if m["result"] == "yes" else 0})
 rows.sort(key=lambda r: r["date"])
-print(f"{len(rows)} games joined (price + both probable starters + ratings)\n")
+print(f"{len(rows)} games joined (price + both probable starters + ratings); skipped: {dict(skipped)}")
+mkt = sum(-(r["y"] * math.log(r["mid"]) + (1 - r["y"]) * math.log(1 - r["mid"])) for r in rows) / len(rows)
+print(f"sanity check - Kalshi price log-loss on joined games: {mkt:.4f} (coin flip = 0.6931)\n")
 
 # ---- 4. walk-forward test ----------------------------------------------------------------
 def X(r, use):
