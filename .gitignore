@@ -3,3 +3,4 @@ __pycache__/
 kalshi_bot/data/reports/
 kalshi_bot/research/data/*.jsonl.gz
 kalshi_bot/research/data/weather_*.json
+kalshi_bot/research/data/dossier_*.json
