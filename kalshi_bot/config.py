@@ -26,6 +26,7 @@ MIN_PRICE, MAX_PRICE = 0.03, 0.97   # ignore markets that are basically decided
 
 # --- Picks email --------------------------------------------------------------------
 N_LIKELY = 15               # "most likely to hit" list length
+SAFE_MIN_PROB = 0.88        # the safe list only includes picks the BOT rates at least this likely (not Kalshi's price)
 LIKELY_MAX_PRICE = 0.92     # a 97c "lock" pays 3c; skip anything that costs more than this
 N_VALUE = 10                # "best value" list length
 VALUE_MIN_EV = 0.02         # expected profit per $1 contract (after fees) to call it value

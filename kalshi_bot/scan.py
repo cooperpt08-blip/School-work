@@ -96,7 +96,7 @@ def _one_per_game(rows, n):
 
 def choose(cands):
     ok = [c for c in cands if c["spread"] <= config.MAX_SPREAD_PICK]
-    likely = _one_per_game(sorted((c for c in ok if c["price"] <= config.LIKELY_MAX_PRICE),
+    likely = _one_per_game(sorted((c for c in ok if c["price"] <= config.LIKELY_MAX_PRICE and c["prob"] >= config.SAFE_MIN_PROB),
                                   key=lambda c: (-c["prob"], -c["ev"])), config.N_LIKELY)
     value = _one_per_game(sorted((c for c in ok if c["proven"] and c["ev"] >= config.VALUE_MIN_EV),
                                  key=lambda c: -c["ev"]), config.N_VALUE)
@@ -118,7 +118,8 @@ def best_parlays(ok, pool_size=40):
     """Highest-probability 2- and 3-leg parlays. Legs may share a game only when the research says
     they help each other (e.g. NBA points + rebounds for the same player); legs that hurt each other
     (two teammates' overs, a player over + his opponent winning) are scored down automatically."""
-    pool = sorted((c for c in ok if c["price"] <= config.LIKELY_MAX_PRICE), key=lambda c: -c["prob"])
+    pool = sorted((c for c in ok if c["price"] <= config.LIKELY_MAX_PRICE and c["prob"] >= config.SAFE_MIN_PROB),
+                  key=lambda c: -c["prob"])
     # keep the best few legs per game so same-game combos can be considered
     per_game, chosen = {}, []
     for c in pool:

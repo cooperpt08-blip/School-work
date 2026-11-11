@@ -69,7 +69,8 @@ def build(likely, value, parlays, picks_log, weights, stats):
          "<h3>Track record (graded automatically from Kalshi results)</h3><ul>" +
          "".join(f"<li>{html.escape(x)}</li>" for x in rec_lines) + "</ul>",
          "<h3>Most likely to hit</h3>",
-         f"<p>Highest win probability, one per game, costing at most {cents(config.LIKELY_MAX_PRICE)}. "
+         f"<p>Only picks the bot itself rates at least {config.SAFE_MIN_PROB:.0%} likely (its own number, not Kalshi's price), "
+         f"one per game, costing at most {cents(config.LIKELY_MAX_PRICE)}. "
          "A negative profit number means the price is higher than the fair value - it should hit often, "
          "but it loses money over time.</p>",
          table(likely, cols) if likely else "<p>Nothing qualified.</p>"]

@@ -31,9 +31,9 @@ class ParlayTests(unittest.TestCase):
         self.assertAlmostEqual(scan.joint([a, b]), 0.64)
 
     def test_best_parlay_prefers_helpful_same_game_legs(self):
-        legs = [leg("KXNBAPTS-26NOV09NOPGSW-NOPTMURPHY25-20", "KXNBAPTS", prob=0.80),
-                leg("KXNBAREB-26NOV09NOPGSW-NOPTMURPHY25-6", "KXNBAREB", prob=0.80),
-                leg("KXNBAPTS-26NOV09BOSNYK-BOSJTATUM0-25", "KXNBAPTS", prob=0.81)]
+        legs = [leg("KXNBAPTS-26NOV09NOPGSW-NOPTMURPHY25-20", "KXNBAPTS", prob=0.90),
+                leg("KXNBAREB-26NOV09NOPGSW-NOPTMURPHY25-6", "KXNBAREB", prob=0.90),
+                leg("KXNBAPTS-26NOV09BOSNYK-BOSJTATUM0-25", "KXNBAPTS", prob=0.91)]
         best2 = scan.best_parlays(legs)[0]
         self.assertEqual({x["series"] for x in best2["legs"]}, {"KXNBAPTS", "KXNBAREB"})
         self.assertGreater(best2["prob"], best2["independent_prob"])
