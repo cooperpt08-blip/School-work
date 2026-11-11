@@ -25,6 +25,7 @@ PAIR_LIFT = {
     ("nfl", "teammates"): 1.0,
     ("nfl", "opponents"): 1.0,
 }
+MAX_PROP_SHIFT = 0.06
 PROP_SERIES = {"KXNBAPTS": "nba", "KXNBAREB": "nba", "KXNBAAST": "nba", "KXNBA3PT": "nba",
                "KXNFLRECYDS": "nfl", "KXNFLRSHYDS": "nfl", "KXNFLPASSYDS": "nfl"}
 GAME_SERIES = {"KXNBAGAME": "nba", "KXNFLGAME": "nfl"}
@@ -81,7 +82,11 @@ class PropSignals:
         if not (c.get("p_lo", 0.05) <= p_yes <= c.get("p_hi", 0.55)):
             return None
         z = min(max((cushion - c["mu"]) / c["sd"], c.get("z_lo", -2)), c.get("z_hi", 2))
-        return sigmoid(logit(p_yes) + c["a"] + c["b"] * z), bool(c.get("proven"))
+        adj = sigmoid(logit(p_yes) + c["a"] + c["b"] * z)
+        # The research measured average mis-pricing of 3-5 points per bucket, so a single prop shouldn't move
+        # more than ~6 (e.g. Nov 10: Josh Green 10+ went 30% -> 42% in the bot, scored 2).
+        adj = min(max(adj, p_yes - MAX_PROP_SHIFT), p_yes + MAX_PROP_SHIFT)
+        return adj, bool(c.get("proven"))
 
 
 def player_code(ticker):

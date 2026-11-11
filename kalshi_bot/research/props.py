@@ -138,7 +138,11 @@ def build(series, log=print):
                 p3 = (q3[0] + q3[1]) / 2
                 proj = mean * (opp_ratio ** 0.5)
                 model_p = 0.5 * math.erfc((strike + 0.5 - proj) / (max(sd, 1.0) * math.sqrt(2)))
+                season_vals = [v for v in vals[-25:]]
+                hits = sum(1 for v in season_vals if v >= strike)
+                own_rate = (hits + 2 * p3) / (len(season_vals) + 2)  # shrunk toward the price
                 x = {
+                    "own_hit_rate_vs_price": A.logit(min(max(own_rate, .02), .98)) - A.logit(p3),
                     "proj_vs_price": A.logit(min(max(model_p, .02), .98)) - A.logit(p3),
                     "cushion_season": (mean - strike) / max(sd, 1.0),
                     "hot_hand_last5_vs_season": (last5 - mean) / max(sd, 1.0),
