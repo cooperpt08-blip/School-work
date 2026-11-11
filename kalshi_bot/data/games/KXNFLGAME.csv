@@ -437,5 +437,5 @@ date,start,event_id,state,home_id,home,home_abbr,home_loc,home_score,away_id,awa
 2026-11-08,2026-11-08T21:25Z,401873048,post,26,Seattle Seahawks,SEA,Seattle,17,22,Arizona Cardinals,ARI,Arizona,3,0
 2026-11-08,2026-11-08T21:25Z,401873049,post,17,New England Patriots,NE,New England,27,9,Green Bay Packers,GB,Green Bay,45,0
 2026-11-08,2026-11-09T01:20Z,401873050,post,3,Chicago Bears,CHI,Chicago,27,27,Tampa Bay Buccaneers,TB,Tampa Bay,24,0
-2026-11-09,2026-11-10T01:15Z,401873051,in,16,Minnesota Vikings,MIN,Minnesota,0,2,Buffalo Bills,BUF,Buffalo,0,0
+2026-11-09,2026-11-10T01:15Z,401873051,post,16,Minnesota Vikings,MIN,Minnesota,6,2,Buffalo Bills,BUF,Buffalo,23,0
 2026-11-12,2026-11-13T01:15Z,401873052,pre,19,New York Giants,NYG,New York,0,28,Washington Commanders,WSH,Washington,0,0

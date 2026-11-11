@@ -1845,15 +1845,15 @@ date,start,event_id,state,home_id,home,home_abbr,home_loc,home_score,away_id,awa
 2026-11-08,2026-11-08T23:00Z,401892677,post,28,Winnipeg Jets,WPG,Winnipeg,4,20,Tampa Bay Lightning,TB,Tampa Bay,3,0
 2026-11-08,2026-11-09T00:00Z,401892678,post,3,Calgary Flames,CGY,Calgary,4,15,Philadelphia Flyers,PHI,Philadelphia,3,0
 2026-11-08,2026-11-09T01:00Z,401892679,post,25,Anaheim Ducks,ANA,Anaheim,5,16,Pittsburgh Penguins,PIT,Pittsburgh,2,0
-2026-11-09,2026-11-10T01:00Z,401892680,in,6,Edmonton Oilers,EDM,Edmonton,1,13,New York Rangers,NYR,New York,0,0
-2026-11-09,2026-11-10T02:30Z,401892681,pre,22,Vancouver Canucks,VAN,Vancouver,0,15,Philadelphia Flyers,PHI,Philadelphia,0,0
-2026-11-09,2026-11-10T03:00Z,401892682,pre,18,San Jose Sharks,SJ,San Jose,0,12,New York Islanders,NYI,New York,0,0
-2026-11-10,2026-11-11T00:00Z,401892683,pre,21,Toronto Maple Leafs,TOR,Toronto,0,17,Colorado Avalanche,COL,Colorado,0,0
-2026-11-10,2026-11-11T00:00Z,401892684,pre,10,Montreal Canadiens,MTL,Montreal,0,30,Minnesota Wild,MIN,Minnesota,0,0
-2026-11-10,2026-11-11T00:00Z,401892685,pre,14,Ottawa Senators,OTT,Ottawa,0,23,Washington Capitals,WSH,Washington,0,0
-2026-11-10,2026-11-11T00:30Z,401892686,pre,29,Columbus Blue Jackets,CBJ,Columbus,0,26,Florida Panthers,FLA,Florida,0,0
-2026-11-10,2026-11-11T01:00Z,401892687,pre,19,St. Louis Blues,STL,St. Louis,0,5,Detroit Red Wings,DET,Detroit,0,0
-2026-11-10,2026-11-11T00:00Z,401892688,pre,28,Winnipeg Jets,WPG,Winnipeg,0,11,New Jersey Devils,NJ,New Jersey,0,0
+2026-11-09,2026-11-10T01:00Z,401892680,post,6,Edmonton Oilers,EDM,Edmonton,3,13,New York Rangers,NYR,New York,1,0
+2026-11-09,2026-11-10T02:30Z,401892681,post,22,Vancouver Canucks,VAN,Vancouver,1,15,Philadelphia Flyers,PHI,Philadelphia,3,0
+2026-11-09,2026-11-10T03:00Z,401892682,post,18,San Jose Sharks,SJ,San Jose,3,12,New York Islanders,NYI,New York,2,0
+2026-11-10,2026-11-11T00:00Z,401892683,in,21,Toronto Maple Leafs,TOR,Toronto,1,17,Colorado Avalanche,COL,Colorado,3,0
+2026-11-10,2026-11-11T00:00Z,401892684,in,10,Montreal Canadiens,MTL,Montreal,0,30,Minnesota Wild,MIN,Minnesota,0,0
+2026-11-10,2026-11-11T00:00Z,401892685,in,14,Ottawa Senators,OTT,Ottawa,1,23,Washington Capitals,WSH,Washington,1,0
+2026-11-10,2026-11-11T00:30Z,401892686,in,29,Columbus Blue Jackets,CBJ,Columbus,0,26,Florida Panthers,FLA,Florida,0,0
+2026-11-10,2026-11-11T01:00Z,401892687,in,19,St. Louis Blues,STL,St. Louis,0,5,Detroit Red Wings,DET,Detroit,0,0
+2026-11-10,2026-11-11T00:00Z,401892688,in,28,Winnipeg Jets,WPG,Winnipeg,2,11,New Jersey Devils,NJ,New Jersey,2,0
 2026-11-10,2026-11-11T03:00Z,401892689,pre,8,Los Angeles Kings,LA,Los Angeles,0,27,Nashville Predators,NSH,Nashville,0,0
 2026-11-11,2026-11-12T00:00Z,401892690,pre,2,Buffalo Sabres,BUF,Buffalo,0,20,Tampa Bay Lightning,TB,Tampa Bay,0,0
 2026-11-11,2026-11-12T00:30Z,401892691,pre,3,Calgary Flames,CGY,Calgary,0,13,New York Rangers,NYR,New York,0,0
@@ -1874,3 +1874,17 @@ date,start,event_id,state,home_id,home,home_abbr,home_loc,home_score,away_id,awa
 2026-11-12,2026-11-13T03:00Z,401892705,pre,8,Los Angeles Kings,LA,Los Angeles,0,12,New York Islanders,NYI,New York,0,0
 2026-11-13,2026-11-14T02:00Z,401892706,pre,22,Vancouver Canucks,VAN,Vancouver,0,13,New York Rangers,NYR,New York,0,0
 2026-11-13,2026-11-14T03:00Z,401892707,pre,37,Vegas Golden Knights,VGK,Vegas,0,27,Nashville Predators,NSH,Nashville,0,0
+2026-11-14,2026-11-14T18:00Z,401891809,pre,7,Carolina Hurricanes,CAR,Carolina,0,124292,Seattle Kraken,SEA,Seattle,0,1
+2026-11-14,2026-11-14T20:30Z,401892708,pre,4,Chicago Blackhawks,CHI,Chicago,0,28,Winnipeg Jets,WPG,Winnipeg,0,0
+2026-11-14,2026-11-15T00:00Z,401892709,pre,1,Boston Bruins,BOS,Boston,0,30,Minnesota Wild,MIN,Minnesota,0,0
+2026-11-14,2026-11-15T00:00Z,401892710,pre,21,Toronto Maple Leafs,TOR,Toronto,0,6,Edmonton Oilers,EDM,Edmonton,0,0
+2026-11-14,2026-11-15T00:00Z,401892711,pre,10,Montreal Canadiens,MTL,Montreal,0,17,Colorado Avalanche,COL,Colorado,0,0
+2026-11-14,2026-11-15T00:00Z,401892712,pre,20,Tampa Bay Lightning,TB,Tampa Bay,0,5,Detroit Red Wings,DET,Detroit,0,0
+2026-11-14,2026-11-15T00:00Z,401892713,pre,16,Pittsburgh Penguins,PIT,Pittsburgh,0,14,Ottawa Senators,OTT,Ottawa,0,0
+2026-11-14,2026-11-15T00:00Z,401892714,pre,23,Washington Capitals,WSH,Washington,0,11,New Jersey Devils,NJ,New Jersey,0,0
+2026-11-14,2026-11-15T00:00Z,401892715,pre,29,Columbus Blue Jackets,CBJ,Columbus,0,15,Philadelphia Flyers,PHI,Philadelphia,0,0
+2026-11-14,2026-11-15T00:00Z,401892716,pre,19,St. Louis Blues,STL,St. Louis,0,26,Florida Panthers,FLA,Florida,0,0
+2026-11-14,2026-11-15T01:00Z,401892717,pre,9,Dallas Stars,DAL,Dallas,0,2,Buffalo Sabres,BUF,Buffalo,0,0
+2026-11-14,2026-11-15T02:00Z,401892718,pre,129764,Utah Mammoth,UTA,Utah,0,18,San Jose Sharks,SJ,San Jose,0,0
+2026-11-14,2026-11-15T03:00Z,401892719,pre,25,Anaheim Ducks,ANA,Anaheim,0,12,New York Islanders,NYI,New York,0,0
+2026-11-14,2026-11-15T03:00Z,401892720,pre,8,Los Angeles Kings,LA,Los Angeles,0,3,Calgary Flames,CGY,Calgary,0,0

@@ -6543,95 +6543,95 @@ date,start,event_id,state,home_id,home,home_abbr,home_loc,home_score,away_id,awa
 2026-11-08,2026-11-08T19:00Z,401929301,post,295,Old Dominion Monarchs,ODU,Old Dominion,88,2634,Tennessee State Lady Tigers,TNST,Tennessee State,78,0
 2026-11-09,2026-11-09T19:00Z,401903555,post,265,Washington State Cougars,WSU,Washington State,76,70,Idaho Vandals,IDHO,Idaho,53,0
 2026-11-09,2026-11-09T17:00Z,401907048,post,197,Oklahoma State Cowgirls,OKST,Oklahoma State,94,2466,Northwestern State Lady Demons,NWST,Northwestern State,56,0
-2026-11-09,2026-11-10T01:00Z,401911791,in,2449,North Dakota State Bison,NDSU,North Dakota State,20,156,Creighton Bluejays,CREI,Creighton,29,0
+2026-11-09,2026-11-10T01:00Z,401911791,post,2449,North Dakota State Bison,NDSU,North Dakota State,60,156,Creighton Bluejays,CREI,Creighton,66,0
 2026-11-09,2026-11-09T23:30Z,401913017,post,2752,Xavier Musketeers,XAV,Xavier,70,2006,Akron Zips,AKR,Akron,54,0
 2026-11-09,2026-11-09T23:00Z,401913856,post,107,Holy Cross Crusaders,HC,Holy Cross,42,108,Harvard Crimson,HARV,Harvard,63,0
-2026-11-09,2026-11-10T00:00Z,401913885,in,2511,Queens University Royals,QUC,Queens University,57,126756,Carolina University Bruins,CU,Carolina University,29,0
+2026-11-09,2026-11-10T00:00Z,401913885,post,2511,Queens University Royals,QUC,Queens University,86,126756,Carolina University Bruins,CU,Carolina University,40,0
 2026-11-09,2026-11-09T16:30Z,401913900,post,2697,West Florida Argonauts,UWF,West Florida,85,100277,Pensacola Christian Eagles,PCC,Pensacola Christian,58,0
-2026-11-09,2026-11-10T02:00Z,401917692,pre,2540,UC Santa Barbara Gauchos,UCSB,UC Santa Barbara,0,2547,Seattle U Redhawks,SEA,Seattle U,0,0
-2026-11-09,2026-11-10T02:00Z,401917693,pre,299,Long Beach State Beach,LBSU,Long Beach State,0,2541,Santa Clara Broncos,SCU,Santa Clara,0,0
-2026-11-09,2026-11-10T00:30Z,401918518,in,2433,UL Monroe Warhawks,ULM,UL Monroe,31,2110,Central Arkansas Sugar Bears,CARK,Central Arkansas,41,0
-2026-11-09,2026-11-10T00:00Z,401918554,in,2296,Jackson State Lady Tigers,JKST,Jackson State,69,130263,Mississippi U for Women Owls,MUW,Mississippi U for Women,49,0
-2026-11-09,2026-11-10T02:00Z,401918583,pre,254,Utah Utes,UTAH,Utah,0,2065,Bethune-Cookman Wildcats,BCU,Bethune-Cookman,0,0
+2026-11-09,2026-11-10T02:00Z,401917692,post,2540,UC Santa Barbara Gauchos,UCSB,UC Santa Barbara,92,2547,Seattle U Redhawks,SEA,Seattle U,48,0
+2026-11-09,2026-11-10T02:00Z,401917693,post,299,Long Beach State Beach,LBSU,Long Beach State,70,2541,Santa Clara Broncos,SCU,Santa Clara,89,0
+2026-11-09,2026-11-10T00:30Z,401918518,post,2433,UL Monroe Warhawks,ULM,UL Monroe,49,2110,Central Arkansas Sugar Bears,CARK,Central Arkansas,61,0
+2026-11-09,2026-11-10T00:00Z,401918554,post,2296,Jackson State Lady Tigers,JKST,Jackson State,85,130263,Mississippi U for Women Owls,MUW,Mississippi U for Women,70,0
+2026-11-09,2026-11-10T02:00Z,401918583,post,254,Utah Utes,UTAH,Utah,65,2065,Bethune-Cookman Wildcats,BCU,Bethune-Cookman,47,0
 2026-11-09,2026-11-09T23:00Z,401918684,post,290,Georgia Southern Eagles,GASO,Georgia Southern,107,2542,Savannah State Tigers,SAV,Savannah State,61,0
 2026-11-09,2026-11-09T17:00Z,401918772,post,198,Oral Roberts Golden Eagles,ORU,Oral Roberts,61,121715,Rogers State Hillcats,RSU,Rogers State,50,0
-2026-11-09,2026-11-10T00:30Z,401918782,in,2437,Omaha Mavericks,OMA,Omaha,29,2710,Western Illinois Leathernecks,WIU,Western Illinois,32,0
-2026-11-09,2026-11-10T00:30Z,401918816,in,8,Arkansas Razorbacks,ARK,Arkansas,45,140,Kansas City Roos,KC,Kansas City,41,0
-2026-11-09,2026-11-10T00:30Z,401918828,in,238,Vanderbilt Commodores,VAN,Vanderbilt,68,2413,Morehead State Eagles,MORE,Morehead State,44,0
-2026-11-09,2026-11-10T03:00Z,401918902,pre,2253,Grand Canyon Lopes,GCU,Grand Canyon,0,2483,Oregon Ducks,ORE,Oregon,0,0
-2026-11-09,2026-11-10T00:00Z,401918925,in,84,Indiana Hoosiers,IU,Indiana,84,71,Bradley Braves,BRAD,Bradley,56,0
-2026-11-09,2026-11-10T00:00Z,401918941,in,2641,Texas Tech Lady Raiders,TTU,Texas Tech,63,2320,Lamar Cardinals,LAM,Lamar,24,0
+2026-11-09,2026-11-10T00:30Z,401918782,post,2437,Omaha Mavericks,OMA,Omaha,54,2710,Western Illinois Leathernecks,WIU,Western Illinois,57,0
+2026-11-09,2026-11-10T00:30Z,401918816,post,8,Arkansas Razorbacks,ARK,Arkansas,89,140,Kansas City Roos,KC,Kansas City,81,0
+2026-11-09,2026-11-10T00:30Z,401918828,post,238,Vanderbilt Commodores,VAN,Vanderbilt,102,2413,Morehead State Eagles,MORE,Morehead State,50,0
+2026-11-09,2026-11-10T03:00Z,401918902,post,2253,Grand Canyon Lopes,GCU,Grand Canyon,81,2483,Oregon Ducks,ORE,Oregon,74,0
+2026-11-09,2026-11-10T00:00Z,401918925,post,84,Indiana Hoosiers,IU,Indiana,84,71,Bradley Braves,BRAD,Bradley,56,0
+2026-11-09,2026-11-10T00:00Z,401918941,post,2641,Texas Tech Lady Raiders,TTU,Texas Tech,78,2320,Lamar Cardinals,LAM,Lamar,28,0
 2026-11-09,2026-11-09T23:30Z,401919057,post,2116,UCF Knights,UCF,UCF,85,6,South Alabama Jaguars,USA,South Alabama,59,0
 2026-11-09,2026-11-10T00:00Z,401919423,post,2115,Central Connecticut Blue Devils,CCSU,Central Connecticut,60,2154,Coppin State Eagles,COPP,Coppin State,78,0
-2026-11-09,2026-11-10T00:00Z,401919897,in,161,Fairleigh Dickinson Knights,FDU,Fairleigh Dickinson,71,2188,East Stroudsburg Warriors,ESU,East Stroudsburg,40,0
-2026-11-09,2026-11-10T00:00Z,401921071,in,2168,Dayton Flyers,DAY,Dayton,60,213,Penn State Lady Lions,PSU,Penn State,54,0
-2026-11-09,2026-11-10T02:00Z,401921464,pre,304,Idaho State Bengals,IDST,Idaho State,0,13,Cal Poly Mustangs,CP,Cal Poly,0,0
-2026-11-09,2026-11-10T02:30Z,401921598,pre,16,Sacramento State Hornets,SAC,Sacramento State,0,499,Cal State East Bay Pioneers,CSEA,Cal State East Bay,0,0
-2026-11-09,2026-11-10T00:00Z,401922324,in,2429,Charlotte 49ers,CLT,Charlotte,67,2344,Longwood Lancers,LONG,Longwood,68,0
-2026-11-09,2026-11-10T00:00Z,401923415,in,2572,Southern Miss Lady Eagles,USM,Southern Miss,73,2400,Mississippi Valley State Devilettes,MVSU,Mississippi Valley State,48,0
+2026-11-09,2026-11-10T00:00Z,401919897,post,161,Fairleigh Dickinson Knights,FDU,Fairleigh Dickinson,82,2188,East Stroudsburg Warriors,ESU,East Stroudsburg,46,0
+2026-11-09,2026-11-10T00:00Z,401921071,post,2168,Dayton Flyers,DAY,Dayton,77,213,Penn State Lady Lions,PSU,Penn State,71,0
+2026-11-09,2026-11-10T02:00Z,401921464,post,304,Idaho State Bengals,IDST,Idaho State,64,13,Cal Poly Mustangs,CP,Cal Poly,51,0
+2026-11-09,2026-11-10T02:30Z,401921598,post,16,Sacramento State Hornets,SAC,Sacramento State,82,499,Cal State East Bay Pioneers,CSEA,Cal State East Bay,52,0
+2026-11-09,2026-11-10T00:00Z,401922324,post,2429,Charlotte 49ers,CLT,Charlotte,86,2344,Longwood Lancers,LONG,Longwood,72,0
+2026-11-09,2026-11-10T00:00Z,401923415,post,2572,Southern Miss Lady Eagles,USM,Southern Miss,75,2400,Mississippi Valley State Devilettes,MVSU,Mississippi Valley State,55,0
 2026-11-09,2026-11-09T23:00Z,401925622,post,2428,North Carolina Central Eagles,NCCU,North Carolina Central,60,2220,Fayetteville State Broncos,FAYU,Fayetteville State,56,0
-2026-11-09,2026-11-10T00:00Z,401926042,in,235,Memphis Tigers,MEM,Memphis,52,2031,Little Rock Trojans,LR,Little Rock,40,0
-2026-11-09,2026-11-10T01:00Z,401926994,in,2458,Northern Colorado Bears,UNCO,Northern Colorado,52,3141,Northern New Mexico Eagles,NNMC,Northern New Mexico,8,0
-2026-11-09,2026-11-10T01:30Z,401927008,in,253,Southern Utah Thunderbirds,SUU,Southern Utah,4,116420,Park University Gilbert Buccaneers,PUGB,Park University Gilbert,6,0
+2026-11-09,2026-11-10T00:00Z,401926042,post,235,Memphis Tigers,MEM,Memphis,62,2031,Little Rock Trojans,LR,Little Rock,48,0
+2026-11-09,2026-11-10T01:00Z,401926994,post,2458,Northern Colorado Bears,UNCO,Northern Colorado,123,3141,Northern New Mexico Eagles,NNMC,Northern New Mexico,30,0
+2026-11-09,2026-11-10T01:30Z,401927008,post,253,Southern Utah Thunderbirds,SUU,Southern Utah,98,116420,Park University Gilbert Buccaneers,PUGB,Park University Gilbert,56,0
 2026-11-09,2026-11-09T17:00Z,401927054,post,2535,Samford Bulldogs,SAM,Samford,50,2427,UNC Asheville Bulldogs,UNCA,UNC Asheville,40,0
-2026-11-09,2026-11-10T00:00Z,401927459,in,55,Jacksonville State Gamecocks,JXST,Jacksonville State,50,2453,North Alabama Lions,UNA,North Alabama,60,0
+2026-11-09,2026-11-10T00:00Z,401927459,post,55,Jacksonville State Gamecocks,JXST,Jacksonville State,63,2453,North Alabama Lions,UNA,North Alabama,66,0
 2026-11-09,2026-11-09T17:00Z,401927486,post,2010,Alabama A&M Bulldogs,AAMU,Alabama A&M,81,2396,Miles Golden Bears,MILE,Miles,61,0
-2026-11-09,2026-11-10T00:00Z,401927937,in,2261,Hampton Lady Pirates,HAMP,Hampton,82,3111,Apprentice School Builders,APPR,Apprentice School,35,0
+2026-11-09,2026-11-10T00:00Z,401927937,post,2261,Hampton Lady Pirates,HAMP,Hampton,103,3111,Apprentice School Builders,APPR,Apprentice School,43,0
 2026-11-09,2026-11-09T21:00Z,401927976,post,119,Towson Tigers,TOW,Towson,57,48,Delaware Blue Hens,DEL,Delaware,55,0
 2026-11-09,2026-11-09T17:00Z,401929045,post,142,Missouri Tigers,MIZ,Missouri,106,2635,Tennessee Tech Golden Eagles,TNTC,Tennessee Tech,59,0
 2026-11-09,2026-11-09T16:00Z,401929151,post,195,Ohio Bobcats,OHIO,Ohio,68,359,Otterbein Cardinals,OTTB,Otterbein,44,0
 2026-11-09,2026-11-09T17:00Z,401929232,post,2029,Arkansas-Pine Bluff Golden Lions,UAPB,Arkansas-Pine Bluff,84,2027,Arkansas Baptist Buffaloes,ARBA,Arkansas Baptist,50,0
-2026-11-10,2026-11-11T00:00Z,401906077,pre,97,Louisville Cardinals,LOU,Louisville,0,2815,Lindenwood Lions,LIN,Lindenwood,0,0
-2026-11-10,2026-11-11T00:30Z,401906964,pre,2305,Kansas Jayhawks,KU,Kansas,0,198,Oral Roberts Golden Eagles,ORU,Oral Roberts,0,0
-2026-11-10,2026-11-10T17:00Z,401906982,pre,2306,Kansas State Wildcats,KSU,Kansas State,0,149,Montana Lady Griz,MONT,Montana,0,0
-2026-11-10,2026-11-10T23:00Z,401909671,pre,2737,Winthrop Eagles,WIN,Winthrop,0,2304,Johnson C. Smith Golden Bulls,JCSU,Johnson C. Smith,0,0
-2026-11-10,2026-11-10T23:30Z,401912954,pre,2633,Tennessee Lady Volunteers,TENN,Tennessee,0,2441,New Haven Chargers,NHVN,New Haven,0,0
-2026-11-10,2026-11-11T01:00Z,401912966,pre,99,LSU Tigers,LSU,LSU,0,2377,McNeese Cowgirls,MCN,McNeese,0,0
-2026-11-10,2026-11-11T00:00Z,401913746,pre,221,Pittsburgh Panthers,PITT,Pittsburgh,0,2169,Delaware State Hornets,DSU,Delaware State,0,0
-2026-11-10,2026-11-10T17:00Z,401913874,pre,2724,Wichita State Shockers,WICH,Wichita State,0,2623,Missouri State Lady Bears,MOST,Missouri State,0,0
-2026-11-10,2026-11-11T00:00Z,401915324,pre,163,Princeton Tigers,PRIN,Princeton,0,222,Villanova Wildcats,VILL,Villanova,0,0
-2026-11-10,2026-11-10T22:00Z,401915666,pre,2628,TCU Horned Frogs,TCU,TCU,0,314,Iona Gaels,IONA,Iona,0,0
+2026-11-10,2026-11-11T00:00Z,401906077,in,97,Louisville Cardinals,LOU,Louisville,62,2815,Lindenwood Lions,LIN,Lindenwood,24,0
+2026-11-10,2026-11-11T00:30Z,401906964,in,2305,Kansas Jayhawks,KU,Kansas,46,198,Oral Roberts Golden Eagles,ORU,Oral Roberts,21,0
+2026-11-10,2026-11-10T17:00Z,401906982,post,2306,Kansas State Wildcats,KSU,Kansas State,67,149,Montana Lady Griz,MONT,Montana,62,0
+2026-11-10,2026-11-10T23:00Z,401909671,post,2737,Winthrop Eagles,WIN,Winthrop,84,2304,Johnson C. Smith Golden Bulls,JCSU,Johnson C. Smith,57,0
+2026-11-10,2026-11-10T23:30Z,401912954,in,2633,Tennessee Lady Volunteers,TENN,Tennessee,78,2441,New Haven Chargers,NHVN,New Haven,37,0
+2026-11-10,2026-11-11T01:00Z,401912966,in,99,LSU Tigers,LSU,LSU,30,2377,McNeese Cowgirls,MCN,McNeese,16,0
+2026-11-10,2026-11-11T00:00Z,401913746,in,221,Pittsburgh Panthers,PITT,Pittsburgh,105,2169,Delaware State Hornets,DSU,Delaware State,38,0
+2026-11-10,2026-11-10T17:00Z,401913874,post,2724,Wichita State Shockers,WICH,Wichita State,48,2623,Missouri State Lady Bears,MOST,Missouri State,76,0
+2026-11-10,2026-11-11T00:00Z,401915324,in,163,Princeton Tigers,PRIN,Princeton,57,222,Villanova Wildcats,VILL,Villanova,52,0
+2026-11-10,2026-11-10T22:00Z,401915666,post,2628,TCU Horned Frogs,TCU,TCU,78,314,Iona Gaels,IONA,Iona,53,0
 2026-11-10,2026-11-11T02:30Z,401916082,pre,2439,UNLV Lady Rebels,UNLV,UNLV,0,9,Arizona State Sun Devils,ASU,Arizona State,0,0
-2026-11-10,2026-11-11T00:00Z,401917185,pre,2352,Loyola Maryland Greyhounds,L-MD,Loyola Maryland,0,43,Yale Bulldogs,YALE,Yale,0,0
+2026-11-10,2026-11-11T00:00Z,401917185,in,2352,Loyola Maryland Greyhounds,L-MD,Loyola Maryland,44,43,Yale Bulldogs,YALE,Yale,49,0
 2026-11-10,2026-11-11T03:00Z,401917694,pre,2608,Saint Mary's Gaels,SMC,Saint Mary's,0,14,Chico State Wildcats,CHCO,Chico State,0,0
 2026-11-10,2026-11-11T02:00Z,401917695,pre,301,San Diego Toreros,USD,San Diego,0,2502,Portland State Vikings,PRST,Portland State,0,0
-2026-11-10,2026-11-10T20:00Z,401917696,pre,2351,Loyola Marymount Lions,LMU,Loyola Marymount,0,111960,La Sierra Golden Eagles,LSIU,La Sierra,0,0
-2026-11-10,2026-11-11T00:00Z,401918424,pre,2698,West Georgia Wolves,WGA,West Georgia,0,2232,Fort Valley State Wildcats,FVSU,Fort Valley State,0,0
-2026-11-10,2026-11-10T23:00Z,401918448,pre,2198,Eastern Kentucky Colonels,EKU,Eastern Kentucky,0,121702,Midway Eagles,MIDW,Midway,0,0
-2026-11-10,2026-11-10T23:00Z,401918609,pre,2011,Alabama State Lady Hornets,ALST,Alabama State,0,2625,Talladega Tornadoes,TLDG,Talladega,0,0
-2026-11-10,2026-11-10T23:00Z,401918657,pre,276,Marshall Thundering Herd,MRSH,Marshall,0,47,Howard Bison,HOW,Howard,0,0
-2026-11-10,2026-11-11T01:00Z,401918724,pre,2900,St. Thomas Tommies,STMN,St. Thomas,0,134739,St. Catherine Wildcats,STCU,St. Catherine,0,0
-2026-11-10,2026-11-11T01:00Z,401918910,pre,135,Minnesota Golden Gophers,MINN,Minnesota,0,2582,Southern Jaguars,SOU,Southern,0,0
-2026-11-10,2026-11-10T17:00Z,401919075,pre,269,Marquette Golden Eagles,MARQ,Marquette,0,2506,Presbyterian Blue Hose,PRES,Presbyterian,0,0
-2026-11-10,2026-11-10T23:00Z,401919516,pre,104,Boston University Terriers,BU,Boston University,0,2660,UMass Boston UMASS BOSTON,MBOS,UMass Boston,0,0
-2026-11-10,2026-11-10T17:00Z,401919675,pre,2181,Drake Bulldogs,DRKE,Drake,0,325,Cleveland State Vikings,CLE,Cleveland State,0,0
-2026-11-10,2026-11-11T00:00Z,401919699,pre,282,Indiana State Sycamores,INST,Indiana State,0,85,IU Indianapolis Jaguars,IUIN,IU Indianapolis,0,0
-2026-11-10,2026-11-10T17:00Z,401919876,pre,2130,Chicago State Cougars,CHST,Chicago State,0,2281,Huston Tillotson Rams,HTU,Huston Tillotson,0,0
-2026-11-10,2026-11-10T23:00Z,401919916,pre,2330,Le Moyne Dolphins,LEM,Le Moyne,0,2783,SUNY Geneseo Knights,SNYG,SUNY Geneseo,0,0
-2026-11-10,2026-11-10T17:00Z,401920015,pre,2674,Valparaiso Beacons,VAL,Valparaiso,0,510,Culver Stockton Wildcats,CUST,Culver Stockton,0,0
+2026-11-10,2026-11-10T20:00Z,401917696,post,2351,Loyola Marymount Lions,LMU,Loyola Marymount,118,111960,La Sierra Golden Eagles,LSIU,La Sierra,37,0
+2026-11-10,2026-11-11T00:00Z,401918424,in,2698,West Georgia Wolves,WGA,West Georgia,78,2232,Fort Valley State Wildcats,FVSU,Fort Valley State,36,0
+2026-11-10,2026-11-10T23:00Z,401918448,post,2198,Eastern Kentucky Colonels,EKU,Eastern Kentucky,94,121702,Midway Eagles,MIDW,Midway,48,0
+2026-11-10,2026-11-10T23:00Z,401918609,post,2011,Alabama State Lady Hornets,ALST,Alabama State,69,2625,Talladega Tornadoes,TLDG,Talladega,63,0
+2026-11-10,2026-11-10T23:00Z,401918657,post,276,Marshall Thundering Herd,MRSH,Marshall,76,47,Howard Bison,HOW,Howard,66,0
+2026-11-10,2026-11-11T01:00Z,401918724,in,2900,St. Thomas Tommies,STMN,St. Thomas,28,134739,St. Catherine Wildcats,STCU,St. Catherine,12,0
+2026-11-10,2026-11-11T01:00Z,401918910,in,135,Minnesota Golden Gophers,MINN,Minnesota,18,2582,Southern Jaguars,SOU,Southern,11,0
+2026-11-10,2026-11-10T17:00Z,401919075,post,269,Marquette Golden Eagles,MARQ,Marquette,87,2506,Presbyterian Blue Hose,PRES,Presbyterian,54,0
+2026-11-10,2026-11-10T23:00Z,401919516,post,104,Boston University Terriers,BU,Boston University,88,2660,UMass Boston UMASS BOSTON,MBOS,UMass Boston,47,0
+2026-11-10,2026-11-10T17:00Z,401919675,post,2181,Drake Bulldogs,DRKE,Drake,76,325,Cleveland State Vikings,CLE,Cleveland State,71,0
+2026-11-10,2026-11-11T00:00Z,401919699,in,282,Indiana State Sycamores,INST,Indiana State,48,85,IU Indianapolis Jaguars,IUIN,IU Indianapolis,54,0
+2026-11-10,2026-11-10T17:00Z,401919876,post,2130,Chicago State Cougars,CHST,Chicago State,75,2281,Huston Tillotson Rams,HTU,Huston Tillotson,60,0
+2026-11-10,2026-11-10T23:00Z,401919916,post,2330,Le Moyne Dolphins,LEM,Le Moyne,67,2783,SUNY Geneseo Knights,SNYG,SUNY Geneseo,52,0
+2026-11-10,2026-11-10T17:00Z,401920015,post,2674,Valparaiso Beacons,VAL,Valparaiso,89,510,Culver Stockton Wildcats,CUST,Culver Stockton,47,0
 2026-11-10,2026-11-11T02:00Z,401920266,pre,2440,Nevada Wolf Pack,NEV,Nevada,0,3078,Jessup Warriors,JSP,Jessup,0,0
 2026-11-10,2026-11-11T01:30Z,401920497,pre,2751,Wyoming Cowgirls,WYO,Wyoming,0,250,UT Arlington Mavericks,UTA,UT Arlington,0,0
-2026-11-10,2026-11-11T01:00Z,401921436,pre,158,Nebraska Cornhuskers,NEB,Nebraska,0,2448,North Carolina A&T Aggies,NCAT,North Carolina A&T,0,0
-2026-11-10,2026-11-11T00:00Z,401921453,pre,2509,Purdue Boilermakers,PUR,Purdue,0,2546,Southeast Missouri State Redhawks,SEMO,Southeast Missouri State,0,0
+2026-11-10,2026-11-11T01:00Z,401921436,in,158,Nebraska Cornhuskers,NEB,Nebraska,26,2448,North Carolina A&T Aggies,NCAT,North Carolina A&T,6,0
+2026-11-10,2026-11-11T00:00Z,401921453,in,2509,Purdue Boilermakers,PUR,Purdue,60,2546,Southeast Missouri State Redhawks,SEMO,Southeast Missouri State,42,0
 2026-11-10,2026-11-11T01:30Z,401921547,pre,68,Boise State Broncos,BOIS,Boise State,0,2463,Cal State Northridge Matadors,CSUN,Cal State Northridge,0,0
-2026-11-10,2026-11-11T01:00Z,401921614,pre,2464,Northern Arizona Lumberjacks,NAU,Northern Arizona,0,300,UC Irvine Anteaters,UCI,UC Irvine,0,0
-2026-11-10,2026-11-10T17:00Z,401922658,pre,2447,Nicholls Colonels,NICH,Nicholls,0,108823,LSU Alexandria Generals,LSUA,LSU Alexandria,0,0
-2026-11-10,2026-11-11T00:00Z,401923182,pre,87,Notre Dame Fighting Irish,ND,Notre Dame,0,2174,Detroit Mercy Titans,DETM,Detroit Mercy,0,0
+2026-11-10,2026-11-11T01:00Z,401921614,in,2464,Northern Arizona Lumberjacks,NAU,Northern Arizona,20,300,UC Irvine Anteaters,UCI,UC Irvine,19,0
+2026-11-10,2026-11-10T17:00Z,401922658,post,2447,Nicholls Colonels,NICH,Nicholls,83,108823,LSU Alexandria Generals,LSUA,LSU Alexandria,40,0
+2026-11-10,2026-11-11T00:00Z,401923182,in,87,Notre Dame Fighting Irish,ND,Notre Dame,83,2174,Detroit Mercy Titans,DETM,Detroit Mercy,37,0
 2026-11-10,2026-11-11T02:00Z,401923189,pre,2492,Pepperdine Waves,PEPP,Pepperdine,0,2092,Cal State Dominguez Hills Toros,CSDH,Cal State Dominguez Hills,0,0
-2026-11-10,2026-11-11T01:00Z,401923327,pre,2172,Denver Pioneers,DEN,Denver,0,36,Colorado State Rams,CSU,Colorado State,0,0
-2026-11-10,2026-11-11T01:00Z,401923480,pre,248,Houston Cougars,HOU,Houston,0,2617,Stephen F. Austin Ladyjacks,SFA,Stephen F. Austin,0,0
-2026-11-10,2026-11-11T00:00Z,401925980,pre,2569,South Carolina State Lady Bulldogs,SCST,South Carolina State,0,2908,South Carolina Upstate Spartans,UPST,South Carolina Upstate,0,0
-2026-11-10,2026-11-10T16:00Z,401926094,pre,189,Bowling Green Falcons,BGSU,Bowling Green,0,91,Bellarmine Knights,BELL,Bellarmine,0,0
-2026-11-10,2026-11-10T16:00Z,401927046,pre,2454,North Florida Ospreys,UNF,North Florida,0,2206,Edward Waters Tigers,EDW,Edward Waters,0,0
-2026-11-10,2026-11-11T00:00Z,401927087,pre,2229,Florida International Panthers,FIU,Florida International,0,56,Stetson Hatters,STET,Stetson,0,0
+2026-11-10,2026-11-11T01:00Z,401923327,in,2172,Denver Pioneers,DEN,Denver,23,36,Colorado State Rams,CSU,Colorado State,37,0
+2026-11-10,2026-11-11T01:00Z,401923480,in,248,Houston Cougars,HOU,Houston,29,2617,Stephen F. Austin Ladyjacks,SFA,Stephen F. Austin,16,0
+2026-11-10,2026-11-11T00:00Z,401925980,in,2569,South Carolina State Lady Bulldogs,SCST,South Carolina State,37,2908,South Carolina Upstate Spartans,UPST,South Carolina Upstate,43,0
+2026-11-10,2026-11-10T16:00Z,401926094,post,189,Bowling Green Falcons,BGSU,Bowling Green,91,91,Bellarmine Knights,BELL,Bellarmine,66,0
+2026-11-10,2026-11-10T16:00Z,401927046,post,2454,North Florida Ospreys,UNF,North Florida,70,2206,Edward Waters Tigers,EDW,Edward Waters,43,0
+2026-11-10,2026-11-11T00:00Z,401927087,in,2229,Florida International Panthers,FIU,Florida International,43,56,Stetson Hatters,STET,Stetson,39,0
 2026-11-10,2026-11-11T03:30Z,401927107,pre,30,USC Trojans,USC,USC,0,232,Charleston Cougars,COFC,Charleston,0,0
 2026-11-10,2026-11-11T02:00Z,401928022,pre,2638,UTEP Miners,UTEP,UTEP,0,166,New Mexico State Aggies,NMSU,New Mexico State,0,0
-2026-11-10,2026-11-11T00:30Z,401928026,pre,2534,Sam Houston Bearkats,SHSU,Sam Houston,0,2299,Jarvis Christian Bulldogs,JVCU,Jarvis Christian,0,0
-2026-11-10,2026-11-10T17:00Z,401928218,pre,2,Auburn Tigers,AUB,Auburn,0,231,Furman Paladins,FUR,Furman,0,0
-2026-11-10,2026-11-11T00:00Z,401929062,pre,201,Oklahoma Sooners,OU,Oklahoma,0,23,San José State Spartans,SJSU,San José State,0,0
-2026-11-10,2026-11-11T00:00Z,401929100,pre,2711,Western Michigan Broncos,WMU,Western Michigan,0,2870,Purdue Fort Wayne Mastodons,PFW,Purdue Fort Wayne,0,0
-2026-11-10,2026-11-10T16:00Z,401929137,pre,2649,Toledo Rockets,TOL,Toledo,0,2754,Youngstown State Penguins,YSU,Youngstown State,0,0
-2026-11-10,2026-11-10T16:00Z,401929161,pre,2747,Wofford Terriers,WOF,Wofford,0,2822,North Greenville Trailblazers,NGU,North Greenville,0,0
+2026-11-10,2026-11-11T00:30Z,401928026,in,2534,Sam Houston Bearkats,SHSU,Sam Houston,61,2299,Jarvis Christian Bulldogs,JVCU,Jarvis Christian,20,0
+2026-11-10,2026-11-10T17:00Z,401928218,post,2,Auburn Tigers,AUB,Auburn,74,231,Furman Paladins,FUR,Furman,56,0
+2026-11-10,2026-11-11T00:00Z,401929062,in,201,Oklahoma Sooners,OU,Oklahoma,76,23,San José State Spartans,SJSU,San José State,28,0
+2026-11-10,2026-11-11T00:00Z,401929100,in,2711,Western Michigan Broncos,WMU,Western Michigan,49,2870,Purdue Fort Wayne Mastodons,PFW,Purdue Fort Wayne,50,0
+2026-11-10,2026-11-10T16:00Z,401929137,post,2649,Toledo Rockets,TOL,Toledo,64,2754,Youngstown State Penguins,YSU,Youngstown State,60,0
+2026-11-10,2026-11-10T16:00Z,401929161,post,2747,Wofford Terriers,WOF,Wofford,64,2822,North Greenville Trailblazers,NGU,North Greenville,42,0
 2026-11-11,2026-11-11T23:00Z,401906033,pre,103,Boston College Eagles,BC,Boston College,0,2349,UMass Lowell River Hawks,UML,UMass Lowell,0,0
 2026-11-11,2026-11-12T00:00Z,401906090,pre,153,North Carolina Tar Heels,UNC,North Carolina,0,2428,North Carolina Central Eagles,NCCU,North Carolina Central,0,0
 2026-11-11,2026-11-11T23:00Z,401911493,pre,2241,Gardner-Webb Runnin' Bulldogs,GWEB,Gardner-Webb,0,2430,UNC Greensboro Spartans,UNCG,UNC Greensboro,0,0
@@ -6657,7 +6657,7 @@ date,start,event_id,state,home_id,home,home_abbr,home_loc,home_score,away_id,awa
 2026-11-11,2026-11-11T18:00Z,401916152,pre,252,BYU Cougars,BYU,BYU,0,2065,Bethune-Cookman Wildcats,BCU,Bethune-Cookman,0,0
 2026-11-11,2026-11-11T23:00Z,401916163,pre,2329,Lehigh Mountain Hawks,LEH,Lehigh,0,116,Mount St. Mary's Mountaineers,MSM,Mount St. Mary's,0,0
 2026-11-11,2026-11-11T23:30Z,401916186,pre,2132,Cincinnati Bearcats,CIN,Cincinnati,0,2603,Saint Joseph's Hawks,JOES,Saint Joseph's,0,0
-2026-11-11,2026-11-11T17:00Z,401916194,pre,315,Niagara Purple Eagles,NIA,Niagara,0,2619,Stony Brook Seawolves,STBK,Stony Brook,0,0
+2026-11-11,2026-11-11T23:00Z,401916194,pre,315,Niagara Purple Eagles,NIA,Niagara,0,2619,Stony Brook Seawolves,STBK,Stony Brook,0,0
 2026-11-11,2026-11-11T19:00Z,401916212,pre,2599,St. John's Red Storm,SJU,St. John's,0,2514,Quinnipiac Bobcats,QUIN,Quinnipiac,0,0
 2026-11-11,2026-11-12T02:00Z,401917697,pre,13,Cal Poly Mustangs,CP,Cal Poly,0,2547,Seattle U Redhawks,SEA,Seattle U,0,0
 2026-11-11,2026-11-11T23:00Z,401917698,pre,2005,Air Force Falcons,AF,Air Force,0,2539,San Francisco Dons,SF,San Francisco,0,0
@@ -6675,7 +6675,7 @@ date,start,event_id,state,home_id,home,home_abbr,home_loc,home_score,away_id,awa
 2026-11-11,2026-11-12T00:00Z,401918842,pre,251,Texas Longhorns,TEX,Texas,0,2571,South Dakota State Jackrabbits,SDST,South Dakota State,0,0
 2026-11-11,2026-11-12T00:30Z,401918856,pre,344,Mississippi State Bulldogs,MSST,Mississippi State,0,2653,Troy Trojans,TROY,Troy,0,0
 2026-11-11,2026-11-12T00:30Z,401918867,pre,275,Wisconsin Badgers,WIS,Wisconsin,0,48,Delaware Blue Hens,DEL,Delaware,0,0
-2026-11-11,2026-11-11T23:00Z,401918903,pre,261,Vermont Catamounts,UVM,Vermont,0,2483,Oregon Ducks,ORE,Oregon,0,0
+2026-11-11,2026-11-11T21:00Z,401918903,pre,261,Vermont Catamounts,UVM,Vermont,0,2483,Oregon Ducks,ORE,Oregon,0,0
 2026-11-11,2026-11-11T23:00Z,401919424,pre,2275,Hofstra Pride,HOF,Hofstra,0,2154,Coppin State Eagles,COPP,Coppin State,0,0
 2026-11-11,2026-11-11T23:00Z,401919492,pre,349,Army Black Knights,ARMY,Army,0,2244,George Mason Patriots,GMU,George Mason,0,0
 2026-11-11,2026-11-11T23:00Z,401919553,pre,2142,Colgate Raiders,COLG,Colgate,0,2066,Binghamton Bearcats,BING,Binghamton,0,0
@@ -6790,3 +6790,59 @@ date,start,event_id,state,home_id,home,home_abbr,home_loc,home_score,away_id,awa
 2026-11-13,2026-11-13T23:00Z,401927967,pre,2448,North Carolina A&T Aggies,NCAT,North Carolina A&T,0,2258,Guilford Quakers,GLFD,Guilford,0,0
 2026-11-13,2026-11-13T21:00Z,401928045,pre,62,Hawai'i Rainbow Wahine,HAW,Hawai'i,0,2608,Saint Mary's Gaels,SMC,Saint Mary's,0,0
 2026-11-13,2026-11-13T17:00Z,401929215,pre,2582,Southern Jaguars,SOU,Southern,0,2347,Louisiana Christian Wildcats,LCHR,Louisiana Christian,0,0
+2026-11-14,2026-11-14T17:00Z,401906034,pre,103,Boston College Eagles,BC,Boston College,0,2507,Providence Friars,PROV,Providence,0,0
+2026-11-14,2026-11-14T20:00Z,401906066,pre,2540,UC Santa Barbara Gauchos,UCSB,UC Santa Barbara,0,25,California Golden Bears,CAL,California,0,0
+2026-11-14,2026-11-14T21:00Z,401906091,pre,219,Pennsylvania Quakers,PENN,Pennsylvania,0,153,North Carolina Tar Heels,UNC,North Carolina,0,0
+2026-11-14,2026-11-14T21:30Z,401906965,pre,2305,Kansas Jayhawks,KU,Kansas,0,158,Nebraska Cornhuskers,NEB,Nebraska,0,1
+2026-11-14,2026-11-14T19:00Z,401906983,pre,2306,Kansas State Wildcats,KSU,Kansas State,0,135,Minnesota Golden Gophers,MINN,Minnesota,0,1
+2026-11-14,2026-11-14T17:00Z,401909672,pre,2737,Winthrop Eagles,WIN,Winthrop,0,130129,Clinton Golden Bears,CTON,Clinton,0,0
+2026-11-14,2026-11-14T19:00Z,401911494,pre,2241,Gardner-Webb Runnin' Bulldogs,GWEB,Gardner-Webb,0,2511,Queens University Royals,QUC,Queens University,0,0
+2026-11-14,2026-11-14T19:00Z,401911756,pre,2350,Loyola Chicago Ramblers,LUC,Loyola Chicago,0,270,Milwaukee Panthers,MILW,Milwaukee,0,0
+2026-11-14,2026-11-14T18:30Z,401911768,pre,179,St. Bonaventure Bonnies,SBU,St. Bonaventure,0,2066,Binghamton Bearcats,BING,Binghamton,0,0
+2026-11-14,2026-11-14T18:00Z,401912980,pre,195,Ohio Bobcats,OHIO,Ohio,0,61,Georgia Lady Bulldogs,UGA,Georgia,0,0
+2026-11-14,2026-11-14T22:30Z,401913666,pre,45,George Washington Revolutionaries,GW,George Washington,0,112358,Long Island University Sharks,LIU,Long Island University,0,0
+2026-11-14,2026-11-14T17:00Z,401913747,pre,221,Pittsburgh Panthers,PITT,Pittsburgh,0,2127,Charleston Southern Buccaneers,CHSO,Charleston Southern,0,0
+2026-11-14,2026-11-15T00:00Z,401913776,pre,160,New Hampshire Wildcats,UNH,New Hampshire,0,2142,Colgate Raiders,COLG,Colgate,0,0
+2026-11-14,2026-11-14T18:00Z,401913788,pre,159,Dartmouth Big Green,DART,Dartmouth,0,2885,NJIT Highlanders,NJIT,NJIT,0,0
+2026-11-14,2026-11-14T20:00Z,401913875,pre,2724,Wichita State Shockers,WICH,Wichita State,0,27,UC Riverside Highlanders,UCR,UC Riverside,0,0
+2026-11-14,2026-11-14T18:00Z,401915765,pre,2309,Kent State Golden Flashes,KENT,Kent State,0,2184,Duquesne Dukes,DUQ,Duquesne,0,0
+2026-11-14,2026-11-14T19:00Z,401915776,pre,2599,St. John's Red Storm,SJU,St. John's,0,227,Rhode Island Rams,URI,Rhode Island,0,0
+2026-11-14,2026-11-15T02:00Z,401916153,pre,252,BYU Cougars,BYU,BYU,0,167,New Mexico Lobos,UNM,New Mexico,0,0
+2026-11-14,2026-11-14T19:00Z,401916164,pre,116,Mount St. Mary's Mountaineers,MSM,Mount St. Mary's,0,2083,Bucknell Bison,BUCK,Bucknell,0,0
+2026-11-14,2026-11-14T18:00Z,401916195,pre,315,Niagara Purple Eagles,NIA,Niagara,0,16,Sacramento State Hornets,SAC,Sacramento State,0,0
+2026-11-14,2026-11-14T19:00Z,401916213,pre,2514,Quinnipiac Bobcats,QUIN,Quinnipiac,0,104,Boston University Terriers,BU,Boston University,0,0
+2026-11-14,2026-11-14T16:00Z,401917186,pre,43,Yale Bulldogs,YALE,Yale,0,2520,Rider Broncs,RID,Rider,0,0
+2026-11-14,2026-11-14T22:00Z,401917702,pre,301,San Diego Toreros,USD,San Diego,0,2463,Cal State Northridge Matadors,CSUN,Cal State Northridge,0,0
+2026-11-14,2026-11-15T01:00Z,401917703,pre,2501,Portland Pilots,PORT,Portland,0,299,Long Beach State Beach,LBSU,Long Beach State,0,0
+2026-11-14,2026-11-14T18:00Z,401918433,pre,251,Texas Longhorns,TEX,Texas,0,2627,Tarleton State Texans,TAR,Tarleton State,0,0
+2026-11-14,2026-11-14T19:00Z,401918519,pre,2110,Central Arkansas Sugar Bears,CARK,Central Arkansas,0,2454,North Florida Ospreys,UNF,North Florida,0,0
+2026-11-14,2026-11-14T20:00Z,401918610,pre,2638,UTEP Miners,UTEP,UTEP,0,2011,Alabama State Lady Hornets,ALST,Alabama State,0,0
+2026-11-14,2026-11-14T16:00Z,401918685,pre,290,Georgia Southern Eagles,GASO,Georgia Southern,0,2747,Wofford Terriers,WOF,Wofford,0,0
+2026-11-14,2026-11-14T23:00Z,401918715,pre,2026,App State Mountaineers,APP,App State,0,77,Northwestern Wildcats,NU,Northwestern,0,1
+2026-11-14,2026-11-14T20:30Z,401918725,pre,349,Army Black Knights,ARMY,Army,0,2900,St. Thomas Tommies,STMN,St. Thomas,0,0
+2026-11-14,2026-11-14T18:00Z,401918808,pre,2174,Detroit Mercy Titans,DETM,Detroit Mercy,0,155,North Dakota Fighting Hawks,UND,North Dakota,0,0
+2026-11-14,2026-11-14T17:00Z,401918857,pre,2084,Buffalo Bulls,BUF,Buffalo,0,344,Mississippi State Bulldogs,MSST,Mississippi State,0,0
+2026-11-14,2026-11-14T19:00Z,401918888,pre,2739,Green Bay Phoenix,GB,Green Bay,0,275,Wisconsin Badgers,WIS,Wisconsin,0,0
+2026-11-14,2026-11-14T23:00Z,401919647,pre,2261,Hampton Lady Pirates,HAMP,Hampton,0,2450,Norfolk State Spartans,NORF,Norfolk State,0,0
+2026-11-14,2026-11-14T22:00Z,401919667,pre,91,Bellarmine Knights,BELL,Bellarmine,0,71,Bradley Braves,BRAD,Bradley,0,0
+2026-11-14,2026-11-14T19:00Z,401919681,pre,2197,Eastern Illinois Panthers,EIU,Eastern Illinois,0,339,Evansville Purple Aces,EVAN,Evansville,0,0
+2026-11-14,2026-11-14T19:00Z,401919693,pre,139,Saint Louis Billikens,SLU,Saint Louis,0,2287,Illinois State Redbirds,ILST,Illinois State,0,0
+2026-11-14,2026-11-14T22:00Z,401919943,pre,2385,Mercyhurst Lakers,MERC,Mercyhurst,0,2006,Akron Zips,AKR,Akron,0,0
+2026-11-14,2026-11-14T18:00Z,401920025,pre,2426,Navy Midshipmen,NAVY,Navy,0,2005,Air Force Falcons,AF,Air Force,0,0
+2026-11-14,2026-11-14T21:00Z,401920267,pre,3084,Utah Valley Wolverines,UVU,Utah Valley,0,2440,Nevada Wolf Pack,NEV,Nevada,0,0
+2026-11-14,2026-11-14T19:00Z,401920337,pre,2272,High Point Panthers,HPU,High Point,0,2569,South Carolina State Lady Bulldogs,SCST,South Carolina State,0,0
+2026-11-14,2026-11-14T20:00Z,401921079,pre,2244,George Mason Patriots,GMU,George Mason,0,2428,North Carolina Central Eagles,NCCU,North Carolina Central,0,0
+2026-11-14,2026-11-14T20:00Z,401923002,pre,2692,Weber State Wildcats,WEB,Weber State,0,2277,Houston Christian Huskies,HCU,Houston Christian,0,0
+2026-11-14,2026-11-14T18:00Z,401923183,pre,87,Notre Dame Fighting Irish,ND,Notre Dame,0,305,DePaul Blue Demons,DEP,DePaul,0,1
+2026-11-14,2026-11-14T20:30Z,401923332,pre,250,UT Arlington Mavericks,UTA,UT Arlington,0,2353,LSU Shreveport Pilots,LSUS,LSU Shreveport,0,0
+2026-11-14,2026-11-14T17:00Z,401923416,pre,2634,Tennessee State Lady Tigers,TNST,Tennessee State,0,2400,Mississippi Valley State Devilettes,MVSU,Mississippi Valley State,0,0
+2026-11-14,2026-11-14T20:00Z,401923476,pre,38,Colorado Buffaloes,COLO,Colorado,0,2754,Youngstown State Penguins,YSU,Youngstown State,0,0
+2026-11-14,2026-11-14T20:00Z,401925803,pre,249,North Texas Mean Green,UNT,North Texas,0,2916,Incarnate Word Cardinals,UIW,Incarnate Word,0,0
+2026-11-14,2026-11-14T19:00Z,401926033,pre,526,Florida Gulf Coast Eagles,FGCU,Florida Gulf Coast,0,2226,Florida Atlantic Owls,FAU,Florida Atlantic,0,0
+2026-11-14,2026-11-14T19:00Z,401926101,pre,294,Jacksonville Dolphins,JAX,Jacksonville,0,2683,Warner Royals,WRNR,Warner,0,0
+2026-11-14,2026-11-15T01:00Z,401926995,pre,2458,Northern Colorado Bears,UNCO,Northern Colorado,0,2534,Sam Houston Bearkats,SHSU,Sam Houston,0,0
+2026-11-14,2026-11-14T18:00Z,401927096,pre,2430,UNC Greensboro Spartans,UNCG,UNC Greensboro,0,2908,South Carolina Upstate Spartans,UPST,South Carolina Upstate,0,0
+2026-11-14,2026-11-14T19:00Z,401928015,pre,2565,SIU Edwardsville Cougars,SIUE,SIU Edwardsville,0,101,Eureka Red Devils,ERKA,Eureka,0,0
+2026-11-14,2026-11-14T20:00Z,401928281,pre,278,Fresno State Bulldogs,FRES,Fresno State,0,2464,Northern Arizona Lumberjacks,NAU,Northern Arizona,0,0
+2026-11-14,2026-11-14T19:00Z,401929011,pre,2097,Campbell Fighting Camels,CAM,Campbell,0,231,Furman Paladins,FUR,Furman,0,0
+2026-11-14,2026-11-14T18:00Z,401929175,pre,113,Massachusetts Minutewomen,MASS,Massachusetts,0,2115,Central Connecticut Blue Devils,CCSU,Central Connecticut,0,0
